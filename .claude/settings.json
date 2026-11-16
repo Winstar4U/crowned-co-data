@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__Winstar_Bridge_Staging__bridge_sync",
+      "mcp__Winstar_Bridge_Staging__task_list",
+      "mcp__Winstar_Bridge_Staging__task_get",
+      "mcp__Winstar_Bridge_Staging__task_claim",
+      "mcp__Winstar_Bridge_Staging__task_heartbeat",
+      "mcp__Winstar_Bridge_Staging__task_update",
+      "mcp__Winstar_Bridge_Staging__task_submit",
+      "mcp__Winstar_Bridge_Staging__post_create",
+      "mcp__Printify__printify-get-shops-9eb",
+      "mcp__Printify__printify-get-products-9eb"
+    ]
+  }
+}
