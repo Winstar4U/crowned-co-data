@@ -209,6 +209,71 @@ closer look given the similar title, but confirmed NOT a third duplicate once th
    compare the print-area `scale` value the way this session did for the cribbage ornament — this is a
    fast, high-value check once a pair is identified, and already found one real defect this way.
 
+## 8a. Amazon shop (29451844) — IN PROGRESS, major duplicate-ASIN finding (2026-11-17, this session)
+
+**Status: 38/62 products now have real image evidence (0 confirmed visual defects). 24 remain
+unchecked.** Task T-1O514F2T63 claimed, in progress, not yet submitted.
+
+### HIGHEST-SEVERITY FINDING THIS SESSION: 10 confirmed true duplicate-listing pairs, 7 of which are
+### SIMULTANEOUSLY LIVE ON AMAZON under two different ASINs each
+
+Unlike the eBay shop (where all duplicate pairs were sync-gapped, i.e. not live), most of Amazon's
+duplicate pairs are both members actually live and purchasable right now. Each pair below was confirmed
+a TRUE duplicate by matching print-area image filename + scale + x + y (not just similar titles):
+
+| # | Design (print-area image file) | ID 1 | ASIN 1 | ID 2 | ASIN 2 | Live status |
+|---|---|---|---|---|---|---|
+| 1 | cat-lineup-santas-naughty-list.png | 6ae41f6ae88b7e964c0e7380 | — | 6ae414e0e88b7e964c0e72ed | — | Neither live |
+| 2 | dog-mom-christmas.png | 6ae414e52e006c787106bd99 | B0HPS4FTHJ | 6ae2af0ed0738075d402e2b2 | B0HPMTHR4C | **BOTH LIVE** |
+| 3 | b5-christmas-baking-crew-4096.png | 6ae414e42e006c787106bd98 | B0HPSQSMCQ | 6ae2af10bcfc422d820a54c7 | B0HPMZMQZ3 | **BOTH LIVE** |
+| 4 | b5-dear-santa-goodish-4096.png | 6ae414e42e006c787106bd97 | B0HPSGB5HG | 6ae2af13bcfc422d820a54cb | B0HPN5V85T | **BOTH LIVE** |
+| 5 | b5-construction-crew-christmas-4096.png | 6ae414e12e006c787106bd94 | B0HPRZCZ7V | 6ae2af12bcfc422d820a54ca | B0HPN1GRMX | **BOTH LIVE** |
+| 6 | hairstylist-santa.png | 6ae414e72e006c787106bd9b | B0HPSGKB5Z | 6ae2af10bcfc422d820a54c8 | B0HPN87ZDX | **BOTH LIVE** (titles differ only by a straight vs. curly apostrophe — this is why simple title-matching missed it) |
+| 7 | b5-naughty-or-nice-4096.png | 6ae414e22e006c787106bd95 | B0HPSJKC7R | 6ae2af15bcfc422d820a54cc | B0HPN82LRD | **BOTH LIVE** |
+| 8 | b5-cookie-dealer-4096.png | 6ae414e32e006c787106bd96 | B0HPSQZ91Z | 6ae2af11bcfc422d820a54c9 | B0HPN23TVY | **BOTH LIVE** |
+| 9 | gone-fishing-for-christmas.png | 6ae41f72e88b7e964c0e738a | unclear/blank | 6ae414eaf755b251850ceb05 | — | Not confirmed both-live, flagged for follow-up |
+| 10 | Christmas Dog With Santa Hat And Holiday Ball.png | 6ae41f68e88b7e964c0e737e | — | 6adea7d6853b5615b805ead5 | B0HPN22XVP | Only #2 live |
+
+**7 of 10 pairs (14 products) are confirmed simultaneously live on Amazon with separate ASINs for
+identical artwork.** This is a materially different and more severe problem than any duplicate found on
+eBay or Shopify so far: it means Amazon customers can land on either of two separate product pages for
+the exact same shirt, splitting reviews, sales rank, and search visibility, and creating real risk under
+Amazon's own duplicate-listing / variation policies. All artwork itself was visually confirmed CLEAN on
+every pair inspected (no cropping/alignment defect) — this is purely a catalog-structure problem, not an
+artwork-quality problem.
+
+**Proposed remedy (owner-approval-only — NOT executed):** For each both-live pair, select one ASIN to
+keep as the canonical listing and unpublish/retire the other, or merge them as Amazon variations if the
+underlying garment/blueprint supports it. This is a live marketplace action and requires explicit owner
+sign-off per listing before any attempt — no action has been taken.
+
+### Confirmed CLEAN (visually inspected, no defects) — 38 products total
+
+- 7 prior-session IDs: Winter Garden Field Guide (6af1072a421fd94ad304e54b), Opening Night
+  (6af1073ce16bc2f471089f76), Apres Ski Club (6af10718421fd94ad304e53e), Tied with a Bow
+  (6af1070681fb6450380f0dda), Cozy Season (6af106f4421fd94ad304e520), Winter Herbarium
+  (6af106e2d0555ac419039c35), Midnight Christmas (6af106d1d0555ac419039c1f)
+- 20 products across the 10 duplicate pairs listed above (table column IDs 1+2 for all 10 rows)
+- 1 distinct Golden Retriever design confirmed NOT a duplicate of the pair above: "Golden Retriever Santa
+  Hat Christmas T-Shirt / Santa Paws Is Coming To Town" (6ae414dee88b7e964c0e72eb) — different print-area
+  image (santa-paws-golden.png), different artwork, correctly a separate design
+- 10 more distinct designs: Pickleball Christmas Club (6ae41f75e88b7e964c0e738d), Boy Mom Christmas
+  License Plate (6ae41f73e88b7e964c0e738b), Mahjong Christmas Club (6ae414ecf755b251850ceb08), Santa
+  Barista (6ae414ebf755b251850ceb07), Books Cocoa and Christmas (6ae414e9f755b251850ceb04), Even Santa
+  Needs a Paramedic (6ae414e72e006c787106bd9c), Santa's Got a Truck Driver (6ae414e62e006c787106bd9a),
+  Festive & Fabulous Disco Ball (6ae414dfe88b7e964c0e72ec), Christmas T-Rex Tree/"Tree Rex"
+  (6ae414dde88b7e964c0e72ea), Santa's Favorite Nurse (6ae414d60bfe3d7d30031ddc)
+
+### Remaining Amazon coverage (24 of 62 products, not yet visually inspected)
+
+Pickleball/Grandma/Fishing-graphic T-shirts, the "Cat Lineup" product-type family (Mug, Hoodie,
+Crewneck, Sweatshirt — likely legitimate same-design-different-product-type, not flagged as duplicates
+without checking), Christmas Golden Retriever (first of the pair, 6ae41f68e88b7e964c0e737e, sync-gapped
+twin already confirmed clean via its live counterpart), Naughty List Cat singular variant
+(6ae414e0e88b7e964c0e72ee), Santa Cat Mom (6adea4fb17865a20ce04ea54), Plant Mom, Veterinarian, Teacher
+Squad, and others — see full 62-ID roster pulled this session (amazon_page1.json/amazon_page2.json in
+scratchpad) for exact remaining IDs. Next session should resume task T-1O514F2T63 directly.
+
 ## 9. eBay full 53-row ID register (complete, per-product evidence — produced in response to an
    independent-verifier request for inspectable per-product rows, not just a report link)
 
