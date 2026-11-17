@@ -208,3 +208,75 @@ closer look given the similar title, but confirmed NOT a third duplicate once th
 4. Scale-value audit: for every duplicate-shop-record pair found (same design, Etsy + Shopify copies),
    compare the print-area `scale` value the way this session did for the cribbage ornament — this is a
    fast, high-value check once a pair is identified, and already found one real defect this way.
+
+## 9. eBay full 53-row ID register (complete, per-product evidence — produced in response to an
+   independent-verifier request for inspectable per-product rows, not just a report link)
+
+Format: `Printify ID | Title (truncated) | Visual result | Default mockup image URL used for inspection`.
+`[DUP-PAIR]` marks the 4 listings forming the 2 confirmed true-duplicate pairs (see §5a). The 4
+prior-session IDs (marked "prior-session evidence") were visually inspected in an earlier session
+before this register existed; their evidence lives in `reports/Printify correction-approval packet
+(first).md`, not in this session's downloaded-image set.
+
+```
+6a49372c442938e8890da743 | Cute Chick Pattern Phone Case | CLEAN | https://images.printify.com/mockup/6a49372c442938e8890da743/61521/2494/cute-chick-pattern-phone-case-kawaii-pastel-protective-cover.jpg?camera_label=front-and-side
+6a49373aa8f8e286e2066011 | Pink Hummingbird Floral Phone Case (2nd listing) | CLEAN [DUP-PAIR] | https://images.printify.com/mockup/6a49373aa8f8e286e2066011/96135/81354/phone-case-pink-hummingbird-floral-magnetic-impactresistant-case.jpg?camera_label=front
+6a493bea131a5b73ff0f1d02 | Pink Hummingbird Floral Phone Case | CLEAN [DUP-PAIR] | https://images.printify.com/mockup/6a493bea131a5b73ff0f1d02/96135/81354/phone-case-pink-hummingbird-floral-magnetic-impactresistant-case.jpg?camera_label=front
+6a493beb131a5b73ff0f1d04 | Hummingbird Floral Phone Case (real photo, distinct design) | CLEAN | https://images.printify.com/mockup/6a493beb131a5b73ff0f1d04/96135/81354/hummingbird-floral-phone-case-magnetic-impact-resistant-protection.jpg?camera_label=front
+6a493bed131a5b73ff0f1d05 | American Flag Tough Phone Case (Patriotic) | CLEAN | https://images.printify.com/mockup/6a493bed131a5b73ff0f1d05/61521/2494/american-flag-tough-phone-case-patriotic-iphone-protective-cover.jpg?camera_label=front-and-side
+6a493bef131a5b73ff0f1d06 | American Flag Tough Phone Case (Distressed) | CLEAN | https://images.printify.com/mockup/6a493bef131a5b73ff0f1d06/61521/2494/american-flag-tough-phone-case-distressed-stars-stripes-protective-cover.jpg?camera_label=front-and-side
+6a493bf2131a5b73ff0f1d07 | Moon Phases Phone Case | CLEAN | https://images.printify.com/mockup/6a493bf2131a5b73ff0f1d07/61521/2494/moon-phases-phone-case-celestial-night-sky-iphone-case.jpg?camera_label=front-and-side
+6a493bf5131a5b73ff0f1d08 | Copy of American Flag Magnetic Phone Case | CLEAN [DUP-PAIR] | https://images.printify.com/mockup/6a493bf5131a5b73ff0f1d08/96135/81354/copy-of-american-flag-magnetic-impact-resistant-phone-case.jpg?camera_label=front
+6a493bf8131a5b73ff0f1d0a | American Flag Magnetic Phone Case | CLEAN [DUP-PAIR] | https://images.printify.com/mockup/6a493bf8131a5b73ff0f1d0a/96135/81354/american-flag-magnetic-impact-resistant-phone-case.jpg?camera_label=front
+6a493bfcc49b3a4cb20a9fe5 | Pink Bow & Heart Magnetic Phone Case | CLEAN | https://images.printify.com/mockup/6a493bfcc49b3a4cb20a9fe5/96135/81354/phone-case-pink-bow-heart-magnetic-impact-resistant-case.jpg?camera_label=front
+6a493bfdc49b3a4cb20a9fe7 | Floral Tough Magnetic Phone Case (Retro) | CLEAN | https://images.printify.com/mockup/6a493bfdc49b3a4cb20a9fe7/109328/107253/floral-tough-magnetic-phone-case-retro-pink-orange-blossom-protective-cover.jpg?camera_label=front
+6a493c00c49b3a4cb20a9fe9 | Cute Pink Bow Tough Phone Case | CLEAN | https://images.printify.com/mockup/6a493c00c49b3a4cb20a9fe9/62582/97458/cute-pink-bow-tough-phone-case-floral-hearts-protective-iphone-cover.jpg?camera_label=front-and-side
+6a493c04c49b3a4cb20a9fec | Romantic Pink Bows Tough Phone Case | CLEAN | https://images.printify.com/mockup/6a493c04c49b3a4cb20a9fec/61521/2494/romantic-pink-bows-tough-case-cute-heart-bow-iphone-protective-phone-case.jpg?camera_label=front-and-side
+6a493c06c49b3a4cb20a9fed | American Flag Phone Case with Card Holder | CLEAN | https://images.printify.com/mockup/6a493c06c49b3a4cb20a9fed/79732/44702/american-flag-phone-case-with-card-holder-patriotic-slim-wallet-phone-case.jpg?camera_label=front
+6a493c0bdf721fcc700771a7 | Dog Pack Protective Phone Case | CLEAN | https://images.printify.com/mockup/6a493c0bdf721fcc700771a7/62582/97458/dog-pack-protective-phone-case-golden-retriever-friends-tough-cover.jpg?camera_label=front-and-side
+6a493c0cdf721fcc700771a8 | Mushroom & Butterfly Magnetic Phone Case | CLEAN | https://images.printify.com/mockup/6a493c0cdf721fcc700771a8/96135/81354/mushroom-butterfly-magnetic-impact-resistant-phone-case.jpg?camera_label=front
+6a493c0edf721fcc700771aa | Abstract Botanical Phone Case | CLEAN | https://images.printify.com/mockup/6a493c0edf721fcc700771aa/62582/97458/abstract-botanical-phone-case-minimalist-peach-leaf-tough-case.jpg?camera_label=front-and-side
+6a493c10df721fcc700771ac | Strawberry Pattern Tough Phone Case | CLEAN | https://images.printify.com/mockup/6a493c10df721fcc700771ac/61521/2494/strawberry-pattern-tough-phone-case-cute-pink-protective-iphone-cover.jpg?camera_label=front-and-side
+6a493c1da36a12099202d045 | Bass Fishing Tough Phone Case | CLEAN | https://images.printify.com/mockup/6a493c1da36a12099202d045/62582/97458/bass-fishing-tough-phone-case-rugged-protective-case-with-leaping-bass-design.jpg?camera_label=front-and-side
+6a493c20a36a12099202d047 | Fishing Bass Phone Case | CLEAN | https://images.printify.com/mockup/6a493c20a36a12099202d047/61521/2494/fishing-bass-phone-case-jumping-largemouth-design-protective-tough-case.jpg?camera_label=front-and-side
+6a493c26a36a12099202d04a | Dripping Yellow Smiley Phone Case | CLEAN | https://images.printify.com/mockup/6a493c26a36a12099202d04a/61521/2494/phone-case-dripping-yellow-smiley-on-purple-swirl-oops-design.jpg?camera_label=front-and-side
+6a493c2ba36a12099202d04b | Retro Checkerboard Phone Case | CLEAN | https://images.printify.com/mockup/6a493c2ba36a12099202d04b/77016/23412/phone-case-retro-checkerboard-with-pink-orange-daisies-impact-resistant.jpg?camera_label=front
+6a493c2fa36a12099202d04d | Floral Tough Phone Case (Pink Vintage Roses) | CLEAN | https://images.printify.com/mockup/6a493c2fa36a12099202d04d/61521/2494/floral-tough-phone-case-pink-vintage-roses-blue-peonies-protective-cover.jpg?camera_label=front-and-side
+6a493c347599ea93f7080d41 | Pink Bow Stripes Magnetic Phone Case | CLEAN | https://images.printify.com/mockup/6a493c347599ea93f7080d41/109328/107253/pink-bow-stripes-magnetic-phone-case-tough-protective-iphone-cover.jpg?camera_label=front
+6a493c367599ea93f7080d43 | Dominican Flag Heart Phone Case | CLEAN | https://images.printify.com/mockup/6a493c367599ea93f7080d43/61521/2494/dominican-flag-heart-phone-case-patriotic-dominican-republic-iphone-case.jpg?camera_label=front-and-side
+6a493c3b7599ea93f7080d45 | Venezuela Heart Flag Phone Case | CLEAN | https://images.printify.com/mockup/6a493c3b7599ea93f7080d45/61521/2494/venezuela-heart-flag-phone-case-tough-protective-phone-case.jpg?camera_label=front-and-side
+6a493c3f7599ea93f7080d47 | Puerto Rico Flag Magnetic Phone Case | CLEAN | https://images.printify.com/mockup/6a493c3f7599ea93f7080d47/96135/81354/puerto-rico-flag-magnetic-impact-resistant-phone-case.jpg?camera_label=front
+6a493c43e2256aa80f0b82c3 | Puerto Rico Flag Tough Phone Case | CLEAN | https://images.printify.com/mockup/6a493c43e2256aa80f0b82c3/61521/2494/puerto-rico-flag-tough-phone-case.jpg?camera_label=front-and-side
+6a493c46e2256aa80f0b82c4 | Puerto Rico Flag Tough Phone Case (Stripe) | CLEAN | https://images.printify.com/mockup/6a493c46e2256aa80f0b82c4/61521/2494/puerto-rico-flag-tough-phone-case-patriotic-red-white-stripe-design.jpg?camera_label=front-and-side
+6a493c4ae2256aa80f0b82c6 | Dominican Republic Flag Magnetic Phone Case | CLEAN | https://images.printify.com/mockup/6a493c4ae2256aa80f0b82c6/96135/81354/dominican-republic-flag-magnetic-impact-resistant-phone-case.jpg?camera_label=front
+6a493c4ee2256aa80f0b82c8 | Dominican Republic Flag Tough Phone Case | CLEAN | https://images.printify.com/mockup/6a493c4ee2256aa80f0b82c8/61521/2494/dominican-republic-flag-tough-phone-case-protective-patriotic-iphone-cover.jpg?camera_label=front-and-side
+6a493c52e2256aa80f0b82ca | Canadian Flag Tough Phone Case | CLEAN | https://images.printify.com/mockup/6a493c52e2256aa80f0b82ca/61521/2494/canadian-flag-tough-phone-case-durable-maple-leaf-iphone-case.jpg?camera_label=front-and-side
+6a493c5608efc981890568b6 | Union Jack Magnetic Phone Case | CLEAN | https://images.printify.com/mockup/6a493c5608efc981890568b6/96135/81354/union-jack-magnetic-impact-resistant-phone-case.jpg?camera_label=front
+6a493c5908efc981890568b8 | Mexico Heart Flag Phone Case | CLEAN | https://images.printify.com/mockup/6a493c5908efc981890568b8/96135/81354/mexico-heart-flag-phone-case-magnetic-impact-resistant-protective-cover.jpg?camera_label=front
+6a493c5c08efc981890568bb | Union Jack Heart Phone Case | CLEAN | https://images.printify.com/mockup/6a493c5c08efc981890568bb/96135/81354/union-jack-heart-phone-case-magnetic-impact-resistant-uk-flag-cover.jpg?camera_label=front
+6a493c5e08efc981890568bd | Patriotic Heart Phone Case | CLEAN | https://images.printify.com/mockup/6a493c5e08efc981890568bd/96135/81354/patriotic-heart-phone-case-american-flag-magnetic-impact-resistant-case.jpg?camera_label=front
+6a493c612964869925020b38 | Canada Heart Tough Phone Case | CLEAN | https://images.printify.com/mockup/6a493c612964869925020b38/109328/107253/canada-heart-tough-magnetic-phone-case.jpg?camera_label=front
+6a493c632964869925020b3a | Canada Flag Magnetic Phone Case | CLEAN | https://images.printify.com/mockup/6a493c632964869925020b3a/96135/81354/canada-flag-magnetic-impact-resistant-phone-case.jpg?camera_label=front
+6a493c672964869925020b3c | Brazil Flag Phone Case (regular) | CLEAN | https://images.printify.com/mockup/6a493c672964869925020b3c/61521/2494/brazil-flag-phone-case-patriotic-protective-tough-case-for-iphone-android.jpg?camera_label=front-and-side
+6a493c6b2964869925020b3e | Brazil Flag Magnetic Phone Case | CLEAN | https://images.printify.com/mockup/6a493c6b2964869925020b3e/96135/81354/brazil-flag-magnetic-impact-resistant-phone-case.jpg?camera_label=front
+6a493c6edf721fcc700771ae | Mexico Flag Magnetic Phone Case | CLEAN | https://images.printify.com/mockup/6a493c6edf721fcc700771ae/96135/81354/mexico-flag-magnetic-impact-resistant-phone-case.jpg?camera_label=front
+6a493c77df721fcc700771b0 | Nurse Iguana Loco Unisex T-shirt | CLEAN | https://images.printify.com/mockup/6a493c77df721fcc700771b0/73207/98445/nurse-iguana-loco-unisex-garment-dyed-t-shirt.jpg?camera_label=front
+6a493c7ddf721fcc700771b2 | Unisex Jersey Muscle Tank (America the Beautiful) | CLEAN | https://images.printify.com/mockup/6a493c7ddf721fcc700771b2/125340/120169/unisex-jersey-muscle-tank.jpg?camera_label=front
+6a493c80df721fcc700771b4 | Patriot 250 Eagle Flag Dad Cap | CLEAN | https://images.printify.com/mockup/6a493c80df721fcc700771b4/105381/102307/patriot-250-eagle-flag-dad-cap-american-flag-vintage-baseball-hat-vintage-usa-eagle-cap-patriotic-adjustable-baseball-hat-fourth-of-july.jpg?camera_label=front
+6a493c86df721fcc700771b6 | Great American Kid T Shirt | CLEAN | https://images.printify.com/mockup/6a493c86df721fcc700771b6/61520/94623/great-american-kid-t-shirt-patriotic-kids-usa-shirt-red-white-blue-youth-tee-fourth-of-july-childrens-apparel-gift.jpg?camera_label=front
+6a493c8908efc981890568bf | Canvas Lunch Bag (American Flag Butterfly) | CLEAN | https://images.printify.com/mockup/6a493c8908efc981890568bf/91358/59663/canvas-lunch-bag-american-flag-butterfly-design-patriotic-picnic-tote.jpg?camera_label=front
+6a493c9208efc981890568c1 | God Bless the USA T Shirt | CLEAN | https://images.printify.com/mockup/6a493c9208efc981890568c1/12100/92570/god-bless-the-usa-t-shirt-patriotic-christian-4th-of-july-tee-faith-and-freedom-american-flag-shirt.jpg?camera_label=front
+6a493c9908efc981890568c2 | USA Love American Flag T Shirt | CLEAN | https://images.printify.com/mockup/6a493c9908efc981890568c2/38191/127670/usa-love-american-flag-t-shirt-patriotic-4th-of-july-tee-red-white-and-blue-independence-day-shirt.jpg?camera_label=folded-2
+6a493ca208efc981890568c5 | Distressed American Flag Tank Top | CLEAN | prior-session evidence, see "Printify correction-approval packet (first).md"
+6a493cafa36a12099202d04f | Retro Doodle Graphic Tee | CLEAN | https://images.printify.com/mockup/6a493cafa36a12099202d04f/18542/102044/retro-doodle-graphic-tee-colorful-smile-and-skate-icons.jpg?camera_label=front-2
+6a493cb9a36a12099202d050 | Dripping Rose Graphic T-Shirt | CLEAN | prior-session evidence, see "Printify correction-approval packet (first).md"
+6a493cc0a36a12099202d052 | Panama Flag Heart Phone Case | CLEAN | prior-session evidence, see "Printify correction-approval packet (first).md"
+6a493cc4a36a12099202d054 | Brazil Heart Flag Phone Case | CLEAN | prior-session evidence, see "Printify correction-approval packet (first).md"
+```
+
+**Marketplace-sellability caveat (repeated per the independent verifier's request):** every CLEAN
+result above is a visual-artwork judgment only — it confirms the mockup renders without cropping,
+alignment, spelling or print-boundary defects. It is NOT a confirmation that the listing is live or
+purchasable on eBay's own site; all 53 are Printify-side sync-gapped (`external` absent), meaning no
+direct marketplace-side check has been done for any of them. Both facts can be true at once: a listing
+can have perfectly clean artwork and still not be reachable by an eBay shopper.
