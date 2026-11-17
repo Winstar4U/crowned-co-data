@@ -90,6 +90,18 @@ follow-up scale check against its Etsy twin).
 | 5 Amazon tees (6af1072a421fd94ad304e54b, 6af1073ce16bc2f471089f76, 6af10718421fd94ad304e53e, 6af1070681fb6450380f0dda, 6af106f4421fd94ad304e520) | Amazon 29451844 | Christmas tees, batch 1 |
 | 4 Shopify + 4 eBay + 3 TikTok (batch 2, see T-6N0T120Q2R evidence for exact IDs) | mixed | Christmas/holiday designs |
 | 9 more sync-gap products visually spot-checked (batch 2 supplementary, T-1G273I5V6Z) | mixed | see that task's evidence for exact IDs |
+| 6a493c8908efc981890568bf | eBay 28059412 | Canvas Lunch Bag — American Flag Butterfly Design |
+| 6a493c80df721fcc700771b4 | eBay 28059412 | Patriot 250 Eagle Flag Dad Cap |
+| 6a493c77df721fcc700771b0 | eBay 28059412 | Nurse Iguana Loco Unisex T-shirt |
+| 6a493c20a36a12099202d047 | eBay 28059412 | Fishing Bass Phone Case |
+| 6a493c9208efc981890568c1 | eBay 28059412 | God Bless the USA T Shirt |
+| 6a493c86df721fcc700771b6 | eBay 28059412 | Great American Kid T Shirt |
+| 6a493cafa36a12099202d04f | eBay 28059412 | Retro Doodle Graphic Tee |
+| 6a493c9908efc981890568c2 | eBay 28059412 | USA Love American Flag T Shirt |
+| 6a493c0bdf721fcc700771a7 | eBay 28059412 | Dog Pack Protective Phone Case |
+| 6a493c7ddf721fcc700771b2 | eBay 28059412 | Unisex Jersey Muscle Tank ("America the Beautiful" butterfly — distinct design from the Canvas Lunch Bag butterfly, not a duplicate) |
+| 6a493bea131a5b73ff0f1d02 + 6a49373aa8f8e286e2066011 | eBay 28059412 | "Pink Hummingbird Floral" phone case — TRUE DUPLICATE PAIR (see §5a), artwork itself clean |
+| 6a493bf8131a5b73ff0f1d0a + 6a493bf5131a5b73ff0f1d08 | eBay 28059412 | "American Flag.../Copy of American Flag..." phone case — TRUE DUPLICATE PAIR (see §5a), artwork itself clean |
 
 **Important nuance:** Visual defects are NOT uniform across the ornament blueprint. 6/9 ornaments
 actually opened across this whole investigation are clean; 3/9 show a defect. The defect is
@@ -113,13 +125,44 @@ cases — each must be checked individually.
 reuse habit, worth flagging to the owner as a process issue (title field not being made unique per
 upload), separate from any individual artwork defect.
 
+### 5a. eBay TRUE duplicate-listing pairs (identical artwork, not just reused title)
+
+Unlike the Shopify "same title, different design" pattern above, eBay has at least 2 pairs that are
+genuine duplicate listings — confirmed by matching print-area image name + scale + x + y in their
+full-product-detail JSON, not just title text:
+
+| Title | IDs | Confirmed via | Artwork quality |
+|---|---|---|---|
+| "Phone Case — Pink Hummingbird Floral Magnetic Impact‑Resistant Case" | 6a493bea131a5b73ff0f1d02, 6a49373aa8f8e286e2066011 | Exact match: same print-area image/scale/x/y | Clean |
+| "American Flag Magnetic Impact-Resistant Phone Case" / "Copy of American Flag Magnetic Impact-Resistant Phone Case" | 6a493bf8131a5b73ff0f1d0a, 6a493bf5131a5b73ff0f1d08 | Exact match: same print-area image/scale/x/y, and the literal "Copy of" prefix confirms it | Clean |
+
+Both pairs are also sync-gapped on Printify (not live on eBay per `external`). This is a catalog-hygiene
+issue (redundant listings, confusing for inventory/analytics) rather than a visual defect — flagged for
+the owner as a cleanup candidate, not proposed for action without approval.
+
 ## 6. Full per-product-ID evidence trail (pointer index — do not duplicate text here, see cited sources)
 
 Exact per-ID tables with prices, variant counts, creation timestamps, and full evidence text live in:
 - `reports/Printify first-ten inspection packet.md` (Etsy+Amazon batch 1, 10 IDs)
 - `reports/Printify correction-approval packet (first).md` (Shopify+eBay+TikTok batch 2, 11 IDs)
 - `reports/Printify catalog coverage - day 1 (continuation).md` (386-ID metadata scan, eBay/Amazon/TikTok full population + Shopify/Etsy samples)
-- Bridge tasks (task_get is the canonical record): T-6N0T120Q2R, T-1G273I5V6Z, T-43490W6I59, T-3Z3C272349, T-3G0X1D6L3U, T-2I3N01430E, T-2Q310Z6F4J, T-3T231J5L21
+- Bridge tasks (task_get is the canonical record): T-6N0T120Q2R, T-1G273I5V6Z, T-43490W6I59, T-3Z3C272349, T-3G0X1D6L3U, T-2I3N01430E, T-2Q310Z6F4J, T-3T231J5L21, T-0U6Q5K5G49 (eBay full visual-inspection batch, this session)
+
+## 6a. eBay catalog position tracker (53 total products, shop 28059412)
+
+Full 53-product catalog enumerated (IDs + titles) and 100% sync-checked (all 53 confirmed sync-gapped,
+`external` absent). Visual (real mockup image) inspection status:
+
+| Visually inspected | Count | Result |
+|---|---|---|
+| Clean (no defect) | 18 distinct products (4 from prior sessions, 14 this session, 2 of the 14 being the duplicate pairs covering 4 listings) | 100% clean so far — no cropping/alignment/spelling defects found in any eBay image opened to date |
+| Confirmed TRUE duplicate pairs | 2 pairs / 4 listings (see §5a) | Catalog-hygiene issue, not a visual defect |
+| Not yet visually inspected | ~35 of 53 | Remaining phone cases (many flag/floral/pattern designs), a few more tees |
+
+Task T-0U6Q5K5G49 (this session) is claimed and in progress, not yet submitted — session ended before
+reaching full 53/53 visual coverage. **Next session should resume this task directly** rather than
+re-claiming or re-enumerating; remaining untouched IDs are visible in `ebay_page1.json`/`ebay_page2.json`
+in the scratchpad or re-fetchable via `printify-get-products` list calls on shop 28059412.
 
 ## 7. Shopify catalog position tracker (most important coverage gap — 2,429 of 2,912 total products)
 
@@ -138,8 +181,9 @@ Exact per-ID tables with prices, variant counts, creation timestamps, and full e
    meaningful sample per batch, prioritizing ornament/mug/shape-sensitive categories for actual image
    viewing.
 2. In parallel (smaller, more tractable — consider finishing these to 100% before continuing deep into
-   Shopify): eBay (53 total, 53/53 sync-known, only ~7 visually inspected — ~46 remain for visual-only
-   pass), Amazon (62 total, 62/62 sync-known, ~7 visually inspected — ~55 remain), TikTok (71 total,
+   Shopify): eBay (53 total, 53/53 sync-known, 18 distinct products visually inspected across 14 images
+   as of this session, all clean — ~35 remain, see §6a; task T-0U6Q5K5G49 claimed/in-progress, resume
+   directly), Amazon (62 total, 62/62 sync-known, ~7 visually inspected — ~55 remain), TikTok (71 total,
    71/71 sync-known, ~5 visually inspected — ~66 remain), Etsy (297 total, only 50 sync-sampled, 5
    visually inspected — both metadata and visual coverage remain large).
 3. Direct marketplace-side verification (actually checking eBay/Amazon/TikTok/Shopify storefronts, not
