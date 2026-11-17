@@ -267,11 +267,11 @@ before this register existed; their evidence lives in `reports/Printify correcti
 6a493c8908efc981890568bf | Canvas Lunch Bag (American Flag Butterfly) | CLEAN | https://images.printify.com/mockup/6a493c8908efc981890568bf/91358/59663/canvas-lunch-bag-american-flag-butterfly-design-patriotic-picnic-tote.jpg?camera_label=front
 6a493c9208efc981890568c1 | God Bless the USA T Shirt | CLEAN | https://images.printify.com/mockup/6a493c9208efc981890568c1/12100/92570/god-bless-the-usa-t-shirt-patriotic-christian-4th-of-july-tee-faith-and-freedom-american-flag-shirt.jpg?camera_label=front
 6a493c9908efc981890568c2 | USA Love American Flag T Shirt | CLEAN | https://images.printify.com/mockup/6a493c9908efc981890568c2/38191/127670/usa-love-american-flag-t-shirt-patriotic-4th-of-july-tee-red-white-and-blue-independence-day-shirt.jpg?camera_label=folded-2
-6a493ca208efc981890568c5 | Distressed American Flag Tank Top | CLEAN | prior-session evidence, see "Printify correction-approval packet (first).md"
+6a493ca208efc981890568c5 | Distressed American Flag Tank Top | CLEAN | https://images.printify.com/mockup/6a493ca208efc981890568c5/105810/102834/distressed-american-flag-tank-top-patriotic-usa-sleeveless-shirt-for-4th-of-july-summer-and-everyday-wear.jpg?camera_label=front
 6a493cafa36a12099202d04f | Retro Doodle Graphic Tee | CLEAN | https://images.printify.com/mockup/6a493cafa36a12099202d04f/18542/102044/retro-doodle-graphic-tee-colorful-smile-and-skate-icons.jpg?camera_label=front-2
-6a493cb9a36a12099202d050 | Dripping Rose Graphic T-Shirt | CLEAN | prior-session evidence, see "Printify correction-approval packet (first).md"
-6a493cc0a36a12099202d052 | Panama Flag Heart Phone Case | CLEAN | prior-session evidence, see "Printify correction-approval packet (first).md"
-6a493cc4a36a12099202d054 | Brazil Heart Flag Phone Case | CLEAN | prior-session evidence, see "Printify correction-approval packet (first).md"
+6a493cb9a36a12099202d050 | Dripping Rose Graphic T-Shirt | CLEAN | https://images.printify.com/mockup/6a493cb9a36a12099202d050/73207/98445/dripping-rose-graphic-t-shirt.jpg?camera_label=front
+6a493cc0a36a12099202d052 | Panama Flag Heart Phone Case | CLEAN | https://images.printify.com/mockup/6a493cc0a36a12099202d052/61521/2494/panama-flag-heart-phone-case-patriotic-panama-iphone-case.jpg?camera_label=front-and-side
+6a493cc4a36a12099202d054 | Brazil Heart Flag Phone Case | CLEAN | https://images.printify.com/mockup/6a493cc4a36a12099202d054/61521/2494/brazil-heart-flag-phone-case-patriotic-brazilian-iphone-case-for-soccer-fans-travelers.jpg?camera_label=front-and-side
 ```
 
 **Marketplace-sellability caveat (repeated per the independent verifier's request):** every CLEAN
