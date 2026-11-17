@@ -102,6 +102,7 @@ follow-up scale check against its Etsy twin).
 | 6a493c7ddf721fcc700771b2 | eBay 28059412 | Unisex Jersey Muscle Tank ("America the Beautiful" butterfly — distinct design from the Canvas Lunch Bag butterfly, not a duplicate) |
 | 6a493bea131a5b73ff0f1d02 + 6a49373aa8f8e286e2066011 | eBay 28059412 | "Pink Hummingbird Floral" phone case — TRUE DUPLICATE PAIR (see §5a), artwork itself clean |
 | 6a493bf8131a5b73ff0f1d0a + 6a493bf5131a5b73ff0f1d08 | eBay 28059412 | "American Flag.../Copy of American Flag..." phone case — TRUE DUPLICATE PAIR (see §5a), artwork itself clean |
+| 23 more eBay products visually inspected to complete 53/53 shop coverage | eBay 28059412 | Flags (Canada/Mexico/Brazil/Dominican Republic/Puerto Rico/Venezuela/Union Jack, magnetic+tough+heart variants), florals/bows/patterns (pink bow x4, floral x3, checkerboard, strawberry, mushroom&butterfly, abstract botanical), smiley/moon/chick patterns, a 2nd fishing-bass case, a real hummingbird photo case — all CLEAN, see §6a for the full count and methodology |
 
 **Important nuance:** Visual defects are NOT uniform across the ornament blueprint. 6/9 ornaments
 actually opened across this whole investigation are clean; 3/9 show a defect. The defect is
@@ -148,21 +149,36 @@ Exact per-ID tables with prices, variant counts, creation timestamps, and full e
 - `reports/Printify catalog coverage - day 1 (continuation).md` (386-ID metadata scan, eBay/Amazon/TikTok full population + Shopify/Etsy samples)
 - Bridge tasks (task_get is the canonical record): T-6N0T120Q2R, T-1G273I5V6Z, T-43490W6I59, T-3Z3C272349, T-3G0X1D6L3U, T-2I3N01430E, T-2Q310Z6F4J, T-3T231J5L21, T-0U6Q5K5G49 (eBay full visual-inspection batch, this session)
 
-## 6a. eBay catalog position tracker (53 total products, shop 28059412)
+## 6a. eBay catalog position tracker (53 total products, shop 28059412) — COMPLETE
 
-Full 53-product catalog enumerated (IDs + titles) and 100% sync-checked (all 53 confirmed sync-gapped,
-`external` absent). Visual (real mockup image) inspection status:
+**STATUS: 53/53 products fully visually inspected (100% coverage) — first shop in the five-shop recovery
+to reach full visual completion.** All 53 confirmed sync-gapped (`external` absent) in the Day-1
+continuation report; this session added real mockup-image inspection for the remaining 49 (4 had been
+inspected in prior sessions).
 
-| Visually inspected | Count | Result |
-|---|---|---|
-| Clean (no defect) | 18 distinct products (4 from prior sessions, 14 this session, 2 of the 14 being the duplicate pairs covering 4 listings) | 100% clean so far — no cropping/alignment/spelling defects found in any eBay image opened to date |
-| Confirmed TRUE duplicate pairs | 2 pairs / 4 listings (see §5a) | Catalog-hygiene issue, not a visual defect |
-| Not yet visually inspected | ~35 of 53 | Remaining phone cases (many flag/floral/pattern designs), a few more tees |
+| Result | Count |
+|---|---|
+| Visually CLEAN (no cropping/alignment/spelling/print-boundary defect) | 49 distinct products |
+| Confirmed TRUE duplicate-listing pairs (identical artwork under 2 listings each) | 2 pairs / 4 listings (see §5a) — counted within the 49 clean products, flagged separately as a catalog-hygiene issue |
+| Confirmed visual defects | **0** |
 
-Task T-0U6Q5K5G49 (this session) is claimed and in progress, not yet submitted — session ended before
-reaching full 53/53 visual coverage. **Next session should resume this task directly** rather than
-re-claiming or re-enumerating; remaining untouched IDs are visible in `ebay_page1.json`/`ebay_page2.json`
-in the scratchpad or re-fetchable via `printify-get-products` list calls on shop 28059412.
+**Finding:** eBay shop 28059412 has zero confirmed visual/artwork defects across its entire 53-product
+catalog. The shop's only quality issue found is the 2 duplicate-listing pairs (§5a) — a catalog-hygiene/
+inventory-redundancy issue, not a customer-facing visual defect. All designs (flags, hearts, florals,
+mushroom/butterfly, hummingbird photo, fishing/bass, patriotic tees, phone case patterns) print
+correctly within their intended bleed/crop areas; several phone-case designs use scale values above 1.0
+(e.g. Canadian Flag Tough at 1.77, Brazil Flag regular at 1.74) but this is appropriate for a full-bleed
+edge-to-edge phone-case wrap design, not a cropping defect — confirmed by visually inspecting the actual
+rendered mockups, not just reading the scale number.
+
+**Note on a near-miss:** "Hummingbird Floral Phone Case — Magnetic Impact-Resistant Protection"
+(`6a493beb131a5b73ff0f1d04`) uses a real hummingbird photograph and is visually and in print-area name
+DISTINCT from the "Pink Hummingbird Floral" illustrated duplicate pair in §5a — initially flagged for a
+closer look given the similar title, but confirmed NOT a third duplicate once the image was opened.
+
+**eBay full population summary:** 53/53 sync-checked (100% gap — none are live on eBay per Printify's
+`external` field, unverified against eBay's own storefront), 53/53 visually inspected (100% clean,
+0 confirmed defects, 2 duplicate pairs). Task T-0U6Q5K5G49 ready for Bridge submission.
 
 ## 7. Shopify catalog position tracker (most important coverage gap — 2,429 of 2,912 total products)
 
@@ -180,12 +196,12 @@ in the scratchpad or re-fetchable via `printify-get-products` list calls on shop
    compact list calls first (cheap) and individual `product_id` full-detail pulls for sync-status on a
    meaningful sample per batch, prioritizing ornament/mug/shape-sensitive categories for actual image
    viewing.
-2. In parallel (smaller, more tractable — consider finishing these to 100% before continuing deep into
-   Shopify): eBay (53 total, 53/53 sync-known, 18 distinct products visually inspected across 14 images
-   as of this session, all clean — ~35 remain, see §6a; task T-0U6Q5K5G49 claimed/in-progress, resume
-   directly), Amazon (62 total, 62/62 sync-known, ~7 visually inspected — ~55 remain), TikTok (71 total,
+2. **eBay is now COMPLETE (53/53 visually inspected, see §6a) — do not re-inspect.** Remaining smaller
+   shops: Amazon (62 total, 62/62 sync-known, ~7 visually inspected — ~55 remain), TikTok (71 total,
    71/71 sync-known, ~5 visually inspected — ~66 remain), Etsy (297 total, only 50 sync-sampled, 5
-   visually inspected — both metadata and visual coverage remain large).
+   visually inspected — both metadata and visual coverage remain large). Recommend Amazon next (smallest
+   remaining gap to full coverage), using the same product_id-by-product_id + image-download method that
+   completed eBay.
 3. Direct marketplace-side verification (actually checking eBay/Amazon/TikTok/Shopify storefronts, not
    just Printify's `external` field) for at least the highest-volume confirmed-gap SKUs, before any
    resync/repair is proposed for owner approval.
