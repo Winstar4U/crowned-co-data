@@ -9,6 +9,23 @@ priority. Continuous, nonoverlapping batches across all five shops until every p
 No live writes (publish/unpublish/price/inventory/account changes) without explicit separate owner
 approval. This file tracks real, evidence-backed findings only — no estimates presented as fact.
 
+## MASTER DASHBOARD (current true state, 2026-11-18, compiled under "CONTINUE FIVE-SHOP QUALITY RECOVERY" directive)
+
+| Category | Status |
+|---|---|
+| Duffel Bag (45 confirmed defects) | **45/45 resolved.** 43 fixed and live; 2 ("substantially fixed with caveats" — Avoiding Carolers Gnome, Merry Everything Happy Always) need a final re-check, not yet confirmed clean. 0 drafted-out-as-unfixable — everything proved fixable at a small enough scale. |
+| Wall Tapestry (48 confirmed defects) | **48/48 fixed, verified, and live.** Every item individually confirmed via a real downloaded post-publish mockup. |
+| Alcohol/infant-apparel policy violation (15 items) | **15/15 removed** (deleted, owner-approved). |
+| Thong/discontinued-blueprint (2 Shopify + 2 Etsy) | Shopify pair: **2/2 migrated to Women's Briefs AOP, live.** Etsy pair: confirmed already non-purchasable, set to draft (no live action needed), not yet migrated — awaiting owner confirmation the same migration should extend to the Etsy shop. |
+| Etsy "Funny Ornament Gift Set of 3" | **Drafted** (unpublished) — misrepresented 3-designs-for-1 listing taken down. |
+| Texaco trademark exposure | **HOLD** — owner accepted the risk, reactive removal only if contacted. |
+| Checkerboard-background T-shirts (12 items, newly flagged) | **In progress** — offline correction (background removal) dispatched, draft-only, no live products touched yet. Awaiting results. |
+| Amazon duplicate-ASIN pairs (7 pairs) | **Open — awaiting owner decision** on which listing to keep per pair. No live action possible until decided. |
+| Duffel Bag "substantially fixed with caveats" (2 items) | **Open** — flagged above, needs a final verification pass. |
+| Direct marketplace-side (storefront) verification | **Standing gap**, unchanged — this session has Printify API access only, not browser/storefront tooling, so "live and purchasable per Printify" is not the same as independently confirmed on the actual Shopify/Etsy/Amazon storefront page. |
+
+**Owner approvals still needed:** Amazon duplicate pairs (which listing to keep); Etsy thong migration (extend to Etsy shop or not); checkerboard T-shirt swap-in (once offline corrections are ready for review).
+
 ## OWNER DECISIONS 2026-11-18 (batch 2): ornament set drafted, Etsy thongs confirmed draft, Deck The
 ## Halls/too-dense/bad-source-file remediation and full Wall Tapestry rollout in progress
 
