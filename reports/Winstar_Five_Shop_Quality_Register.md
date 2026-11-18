@@ -9,6 +9,38 @@ priority. Continuous, nonoverlapping batches across all five shops until every p
 No live writes (publish/unpublish/price/inventory/account changes) without explicit separate owner
 approval. This file tracks real, evidence-backed findings only — no estimates presented as fact.
 
+## OWNER DECISIONS 2026-11-18 (batch 2): ornament set drafted, Etsy thongs confirmed draft, Deck The
+## Halls/too-dense/bad-source-file remediation and full Wall Tapestry rollout in progress
+
+**Owner instructions (verbatim):** "1. Show me the images for those items. 2. Remove/draft out the
+ornament gift set. 3. Attempt to adjust the size of the deck, the hall duffel bag image. If adjustment
+can make it pass, we'll go with it. If the adjustment is not possible, we will draft it. 4. Any duffel
+bag that cannot be repaired or corrected and be put in front of a customer and look professional, we
+need to draft out. 5. If these cannot be fixed, please notify me. 6. Set the thongs to draft for now.
+7. Adjust the designs on the tapestries to fit and see if we can get all of them in front of a customer."
+
+**Item 2 — Ornament gift set: DRAFTED.** `6ad42970f1aeec4b590f6d00` ("Funny Ornament Gift Set of 3"),
+Etsy shop `26603005`. Unpublished via `printify-unpublish-product-9eb` — call succeeded (no error),
+confirming it had been live/published (unlike several other items in this recovery that were already
+non-live). Resolves decision `D-6Z0K4E2E63`: product is no longer customer-facing while it advertises 3
+designs but only contains 1 (Raccoon). Not deleted — remains in the Printify account as a draft record.
+
+**Item 6 — Etsy "Thong" pair confirmed already draft/non-purchasable.** `69c9a9a77ee2f2859c094675`
+("Juicy Black Women's Thong") and `69c9a9993f8316381202aff5` ("Brazil Flag Thong"), Etsy shop `26603005`,
+blueprint 1466 (discontinued). Fetched both directly: every variant on both products shows
+`is_enabled: false` and `is_available: false`; `69c9a9993f8316381202aff5` shows an empty
+`external: {id: "", handle: ""}` (never published); `69c9a9a77ee2f2859c094675` has no `external` field at
+all (also never published). **No further action was needed to satisfy "set to draft" — both are already
+non-purchasable and non-live**, consistent with the earlier finding that the whole Thong blueprint
+category is discontinued. Documented rather than forcing an unpublish call that would only return
+Printify's "not published" error.
+
+**Items 3/4/5 — Duffel Bag remediation (Deck The Halls retry, "too dense" group retry, bad-source-file
+items) dispatched to a dedicated worker, in progress.** See the dedicated section below once complete.
+
+**Item 7 — Wall Tapestry full rollout (stage remaining 41 + push all 48 live) dispatched to a dedicated
+worker, in progress.** See the dedicated section below once complete.
+
 ## COORDINATION CORRECTION — duplicate Thong→Briefs listings deduplicated (2026-11-18)
 
 **Problem found:** two independent background workers both executed the same owner-approved Thong
