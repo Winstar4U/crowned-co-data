@@ -199,7 +199,8 @@ closer look given the similar title, but confirmed NOT a third duplicate once th
 | #761-860 | **Full visual inspection (100/100), see §8j** — 4/100 confirmed defects (both recurrences of §8i source files), 0 true duplicate pairs | T-5T2F3N4B5K (this session) |
 | #861-960 | **Full visual inspection (100/100), see §8k** — 14/100 confirmed defects (incl. 2 new defect types: mirrored text, color-contrast illegibility), 3 true duplicate pairs (new sub-pattern: same blueprint/artwork, different declared pillow size) | T-2U1Q5T3L4A (this session) |
 | #961-1,060 | **Full visual inspection (100/100), see §8l** — 12/100 confirmed defects, all cropping/near-cropping on Throw Pillow Case/Tablecloth/Lunch Box, 0 true duplicate pairs | T-0L203W6R6Y (this session) |
-| #1,061-2,429 | **NOT STARTED** (1,369 products) | Next batch(es) |
+| #1,061-1,160 | **Full visual inspection (100/100), see §8m** — 34/100 confirmed defects, 0 true duplicate pairs, new defect type found (low-contrast/invisible text color, concentrated on Hoodie) | T-4F695S2L22 (this session) |
+| #1,161-2,429 | **NOT STARTED** (1,269 products) | Next batch(es) |
 
 ## 8. Next eligible batch (for whichever session/dispatcher firing picks this up next)
 
@@ -1572,6 +1573,120 @@ large-single-line text design; every defect found had a same-artwork Tablecloth 
 available for direct before/after comparison, which is how each crop was confirmed rather than inferred
 from scale value alone.
 
+## 8m. Shopify shop (26418699, Winstar4U) #1,061-1,160 — eighth full-visual-inspection batch: 100/100
+## visually inspected, 34/100 confirmed defects — second-highest rate yet, 0 confirmed duplicate pairs,
+## NEW defect type (low-contrast/invisible text color) (2026-11-18, this session)
+
+**STATUS: Full visual inspection complete — 100/100 products.** This batch's blueprint mix: T-Shirt (18),
+Hoodie (16), Lunch Box (15), Throw Pillow Case 18x18 (14), Tablecloth (14), Fanny Pack (7), Winter Scarf
+(6), Duvet Cover (5), Cutting Board (5).
+
+### Blueprint-by-blueprint defect rates this batch
+
+| Blueprint | Defects | Total | Rate |
+|---|---|---|---|
+| Throw Pillow Case 18x18 | 10 | 14 | 71% |
+| Hoodie | 9 | 16 | 56% |
+| Lunch Box | 9 | 15 | 60% |
+| Fanny Pack | 3 | 7 | 43% |
+| Winter Scarf | 2 | 6 | 33% |
+| Tablecloth | 1 | 14 | 7% |
+| T-Shirt | 0 | 18 | 0% |
+| Duvet Cover | 0 | 5 | 0% |
+| Cutting Board | 0 | 5 | 0% |
+
+Continues confirming the standing finding: print-window-constrained blueprints (Throw Pillow, Lunch Box,
+Fanny Pack, Winter Scarf) are failure-prone; large-flat-area blueprints (T-Shirt, Duvet Cover, Cutting
+Board, and mostly Tablecloth) are reliably clean for the same artwork. Several designs proved this
+directly — e.g. "Joy To The World" was clean on Duvet Cover but top-and-bottom cropped on Throw Pillow;
+"God Bless Christmas" was clean on Tablecloth but top-cropped on Throw Pillow; "Dear Santa Explain
+(Santa)" was clean on Tablecloth/T-Shirt but top-cropped on Throw Pillow — same source file, different
+print windows, different outcomes, confirming root cause is the blueprint's print area vs. the artwork's
+own vertical extent, not the artwork itself.
+
+### Confirmed defects — print-window cropping (23 of 34)
+
+Lunch Box (9): Christmas Excuse Eat King (top cropped), Christmas Budget 500 (top+bottom cropped, "DON'T
+ASK" lost), Checked Santas List (top cropped), Calories Dont Count Thanksgiving (top cropped), Avoiding
+Carolers Raccoon (top cropped), **Avoiding Carolers Gnome ("AVOIDING" entirely missing, not just
+clipped)**, All I Want Nap (top cropped).
+
+Throw Pillow Case (8 of its 10 defects are pure cropping, 2 are a recurrence — see below): Joy To The
+World (top+bottom), God Bless Christmas (top), Glory To God (bottom), Christ Is Born (top), Amazing
+Grace (top), Dreaming Stress Free (top+bottom, both lines), Deck The Halls Sit Down (top+bottom, both
+lines), Dear Santa Explain (top), Dear Santa Explain Santa (top).
+
+Tablecloth (1): Elegantly Wasted Martini — "SINCE 2026" second line cropped at the bottom edge. First
+confirmed Tablecloth defect in this effort (13 other Tablecloths this batch were clean), showing even
+this generally-safe blueprint can fail when a design uses a two-line subtitle.
+
+Fanny Pack (2 of 3; third is a recurrence below): Deck The Halls — "HALLS" bottom-clipped by the curved
+pouch edge; Naughty List Vip — "NAUGHTY LIST" header minor top clip (cosmetic, still legible).
+
+Winter Scarf (1 of 2; other is a recurrence below): Naughty List Skeleton — the "Maybe I liked being on
+the naughty list" banner text crowded and partly cropped at the scarf's right fringe edge.
+
+Hoodie (3 of 9; rest are the new low-contrast defect below, two overlapping both): Chillin With Santa
+Penguin ("SANTA" bottom-clipped), Cat vs Tree ("TREE" second line cropped at bottom), Santa Saw Your Out
+Of Office (bottom line cropped AND low-contrast — counted once, see below).
+
+### NEW DEFECT TYPE — low-contrast / invisible text color (8 occurrences, all on Hoodie)
+
+A distinct root cause from cropping: the design's text is rendered in a very pale or white color that is
+essentially invisible against the Hoodie's white garment color. This is not a sizing/print-window problem
+— it is a color-authoring problem, most likely a template designed with light text for a dark-garment
+variant that was never re-colored when applied to a white hoodie. Confirmed on:
+- **Silent Night** — "SILENT NIGHT" title in pale gold, barely legible
+- **Festive Mess** — "FESTIVE MESS" title and the light-string outline both in near-white, essentially
+  invisible
+- **Oh Deer** — "OH DEER" title in white-on-white, invisible
+- **Catch Me If You Can** (Gingerbread) — subtitle in white-on-white, invisible
+- **Survived Another [Christmas]** — subtitle in pale gray-white, invisible, AND the tree-top graphic is
+  also cropped (double defect)
+- **Baking Spirits Bright** — the word "BRIGHT" (second word) in white-on-white, invisible
+- **Santa Saw Your Out Of Office** — the "SANTA SAW YOUR ___" line in pale white, hard to read, AND
+  bottom-cropped (double defect)
+
+7 distinct Hoodie designs affected (counted as 6 unique defect entries above since 2 double-count with
+cropping); this is a materially different, more fundamental authoring error than the print-window issue
+and should be prioritized separately in any correction packet, since fixing the print window does not fix
+an invisible color choice.
+
+### Recurrences of already-flagged bad source files (3)
+
+"Candy Cane Lane" blank-banner defect (first flagged in §8j/§8k): now confirmed on Winter Scarf and Fanny
+Pack too — 8th and 9th occurrences across this effort. "Chic Happens Cocktail" low-contrast subtitle
+(first flagged on Lunch Box in §8j): now a 2nd occurrence, same Lunch Box blueprint, same illegible
+"Holiday Cocktail Hour" subtitle. "Tree Up Patience Down" garbled "PATITANECE" thermometer text (first
+flagged in §8i): now a 4th occurrence, on Lunch Box.
+
+### Duplicate-candidate group checked and ruled OUT
+
+"Christmas Eat No January" vs. "...V2" — appears as two separate listings on BOTH the Lunch Box and the
+Cutting Board blueprints (4 products total, same joke/theme, near-identical food-item composition).
+Checked via direct visual comparison of all 4 mockups: each V1/V2 pair uses genuinely distinct
+illustration (different gingerbread-man pose, different cookie arrangement, different banner shape) —
+consistent with the "same concept, different artist pass" pattern already established as NOT a duplicate
+elsewhere in this effort (e.g. the eBay Firefighter pair, the Etsy Naughty-List-Cat precedent run the
+other way). Ruled OUT.
+
+### Sync-mapping status (batch #1,061-1,160)
+
+5/100 products show a populated Printify `external` field via the bulk `include_full=true` list endpoint.
+Per the register's standing caveat (§1): this is Printify-side channel-mapping evidence only, not a claim
+about actual Shopify-side buyability, inventory, or listing status. This is the lowest sync-mapping rate
+of any Shopify batch so far — consistent with the already-noted possibility that this reflects a tooling
+read gap on this field rather than an actual catalog-wide sync absence, and should be verified
+marketplace-side before being treated as a real finding.
+
+### Methodology note
+
+This batch's defect-rate pattern (34%, second only to §8g's 46%) and new defect type reinforce that the
+Shopify catalog's quality problems are broader than the original cropping finding: at least two
+independent root causes are now confirmed (print-window-vs-artwork-size, and garment-color-vs-text-color
+mismatch), both of which recur across many distinct designs rather than being one-off mistakes, and both
+of which would need separate remediation approaches if the owner authorizes a correction pass.
+
 ## 13. Etsy batch 3/3 full 97-row ID register (complete, per-product evidence, same format as §9/§10/§11/§12)
 
 Format: `Printify ID | Title | Visual result | Default mockup image URL used for inspection`.
@@ -2416,3 +2531,110 @@ Format: `Printify ID | Title | Visual result | Default mockup image URL used for
 | 6ac7129c2d1baaa3fd005818 | Christmas Lights Therapy Christmas Lunch Box — Bento Box for Holiday Lunches, Holiday Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7129c2d1baaa3fd005818/72920/16777/christmas-lights-therapy-christmas-lunch-box-bento-box-for-holiday-lunches-holiday-gift-winstar4u.jpg?camera_label=front |
 | 6ac7129bfa3cae10170efaee | Keep Christ Christmas Christmas Throw Pillow Case 18x18 — Easy Couch & Bed Accent, Holiday Home Decor Gift - Winstar4U | DEFECT | https://images.printify.com/mockup/6ac7129bfa3cae10170efaee/244224/155844/keep-christ-christmas-christmas-throw-pillow-case-18x18-easy-couch-bed-accent-holiday-home-decor-gift-winstar4u.jpg?camera_label=front |
 | 6ac71299fa3cae10170efaed | Joy To World Christian Christmas Tablecloth — Festive Holiday Table Decor, Holiday Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71299fa3cae10170efaed/112701/112238/joy-to-world-christian-christmas-tablecloth-festive-holiday-table-decor-holiday-gift-winstar4u.jpg?camera_label=front |
+## 21. Shopify #1,061-1,160 full 100-row ID register (complete, per-product evidence, same format as
+## §9/§10/§11/§12/§13/§14/§15/§16/§17/§18/§19/§20)
+
+Format: `Printify ID | Title | Visual result | Default mockup image URL used for inspection`. DEFECT rows
+are detailed in §8m above (cropping, recurrence of known bad source files, or the new low-contrast text
+defect); CLEAN is a visual-artwork judgment only, not a confirmed Shopify-side buyability/sync claim.
+
+| 6ac71298ed135347800f9b7f | Jingle Bells Santa Smells Christmas Women's T-Shirt — Festive Holiday Tee for Her, Holiday Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71298ed135347800f9b7f/17979/88/jingle-bells-santa-smells-christmas-womens-t-shirt-festive-holiday-tee-for-her-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac71298a4c95c48e2036265 | Christmas Excuse Eat King Christmas Lunch Box — Bento Box for Holiday Lunches, Holiday Gift - Winstar4U | DEFECT | https://images.printify.com/mockup/6ac71298a4c95c48e2036265/72920/16777/christmas-excuse-eat-king-christmas-lunch-box-bento-box-for-holiday-lunches-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac712986356cae0df02e36e | Guided by the Star Christmas Hoodie — Cozy Pullover Hoodie, Christmas Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac712986356cae0df02e36e/32912/98424/guided-by-the-star-christmas-hoodie-cozy-pullover-hoodie-christmas-gift-winstar4u.jpg?camera_label=front |
+| 6ac7129707e4149a0f00109b | Joy To World Christian Christmas Throw Pillow Case 18x18 — Easy Couch & Bed Accent, Holiday Home Decor Gift - Winstar4U | DEFECT | https://images.printify.com/mockup/6ac7129707e4149a0f00109b/244224/155844/joy-to-world-christian-christmas-throw-pillow-case-18x18-easy-couch-bed-accent-holiday-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac71296fb1d11d19e03700c | Hallelujah Angels Christmas Tablecloth — Festive Holiday Table Decor, Holiday Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71296fb1d11d19e03700c/112701/112238/hallelujah-angels-christmas-tablecloth-festive-holiday-table-decor-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac71295fb1d11d19e03700a | Christmas Eat No January Christmas Lunch Box — Bento Box for Holiday Lunches, Holiday Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71295fb1d11d19e03700a/72920/16777/christmas-eat-no-january-christmas-lunch-box-bento-box-for-holiday-lunches-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac71294a5ade89b5c080fcb | Hallelujah Angels Christmas Throw Pillow Case 18x18 — Easy Couch & Bed Accent, Holiday Home Decor Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71294a5ade89b5c080fcb/244224/155844/hallelujah-angels-christmas-throw-pillow-case-18x18-easy-couch-bed-accent-holiday-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac71294a5ade89b5c080fca | Silent Night Manger Christmas Hoodie — Cozy Pullover Hoodie, Christmas Gift - Winstar4U | DEFECT | https://images.printify.com/mockup/6ac71294a5ade89b5c080fca/32912/98424/silent-night-manger-christmas-hoodie-cozy-pullover-hoodie-christmas-gift-winstar4u.jpg?camera_label=front |
+| 6ac712946027ad007d0e7dd5 | Jingle All Way Liquor Christmas Women's T-Shirt — Festive Holiday Tee for Her, Holiday Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac712946027ad007d0e7dd5/17979/88/jingle-all-way-liquor-christmas-womens-t-shirt-festive-holiday-tee-for-her-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac712927be9df884b032dd3 | Greatest Gift Christmas Tablecloth — Festive Holiday Table Decor, Holiday Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac712927be9df884b032dd3/112701/112238/greatest-gift-christmas-tablecloth-festive-holiday-table-decor-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac71291a5ade89b5c080fc7 | Christmas Eat No January V2 Christmas Lunch Box — Bento Box for Holiday Lunches, Holiday Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71291a5ade89b5c080fc7/72920/16777/christmas-eat-no-january-v2-christmas-lunch-box-bento-box-for-holiday-lunches-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac712916356cae0df02e364 | Ill Be Home Christmas Probably Christmas Women's T-Shirt — Festive Holiday Tee for Her, Holiday Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac712916356cae0df02e364/17979/88/ill-be-home-christmas-probably-christmas-womens-t-shirt-festive-holiday-tee-for-her-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac71290ed135347800f9b69 | Tree Farm Truck Christmas Hoodie — Cozy Pullover Hoodie, Christmas Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71290ed135347800f9b69/32912/98424/tree-farm-truck-christmas-hoodie-cozy-pullover-hoodie-christmas-gift-winstar4u.jpg?camera_label=front |
+| 6ac712907be9df884b032dd0 | Greatest Gift Christmas Throw Pillow Case 18x18 — Easy Couch & Bed Accent, Holiday Home Decor Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac712907be9df884b032dd0/244224/155844/greatest-gift-christmas-throw-pillow-case-18x18-easy-couch-bed-accent-holiday-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac7128f07e4149a0f001093 | God Bless Christmas Christmas Tablecloth — Festive Holiday Table Decor, Holiday Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7128f07e4149a0f001093/112701/112238/god-bless-christmas-christmas-tablecloth-festive-holiday-table-decor-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7128eed135347800f9b68 | Christmas Calories Dont Count Christmas Lunch Box — Bento Box for Holiday Lunches, Holiday Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7128eed135347800f9b68/72920/16777/christmas-calories-dont-count-christmas-lunch-box-bento-box-for-holiday-lunches-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7128db32a96bbe40d0cdc | God Bless Christmas Christmas Throw Pillow Case 18x18 — Easy Couch & Bed Accent, Holiday Home Decor Gift - Winstar4U | DEFECT | https://images.printify.com/mockup/6ac7128db32a96bbe40d0cdc/244224/155844/god-bless-christmas-christmas-throw-pillow-case-18x18-easy-couch-bed-accent-holiday-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac7128ced135347800f9b67 | Festive Mess Christmas Hoodie — Cozy Pullover Hoodie, Christmas Gift - Winstar4U | DEFECT | https://images.printify.com/mockup/6ac7128ced135347800f9b67/32912/98424/festive-mess-christmas-hoodie-cozy-pullover-hoodie-christmas-gift-winstar4u.jpg?camera_label=front |
+| 6ac7128ba5ade89b5c080fc6 | Glory To God Christmas Tablecloth — Festive Holiday Table Decor, Holiday Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7128ba5ade89b5c080fc6/112701/112238/glory-to-god-christmas-tablecloth-festive-holiday-table-decor-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7128a46dd1e896e04e14d | Glory To God Christmas Throw Pillow Case 18x18 — Easy Couch & Bed Accent, Holiday Home Decor Gift - Winstar4U | DEFECT | https://images.printify.com/mockup/6ac7128a46dd1e896e04e14d/244224/155844/glory-to-god-christmas-throw-pillow-case-18x18-easy-couch-bed-accent-holiday-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac71288fb1d11d19e037000 | Christ Is Born Christmas Tablecloth — Festive Holiday Table Decor, Holiday Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71288fb1d11d19e037000/112701/112238/christ-is-born-christmas-tablecloth-festive-holiday-table-decor-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac71288a4c95c48e2036258 | Reindeer Moonlight Christmas Hoodie — Cozy Pullover Hoodie, Christmas Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71288a4c95c48e2036258/32912/98424/reindeer-moonlight-christmas-hoodie-cozy-pullover-hoodie-christmas-gift-winstar4u.jpg?camera_label=front |
+| 6ac71287d0a23214d80b25f3 | Christmas Budget 500 Christmas Lunch Box — Bento Box for Holiday Lunches, Holiday Gift - Winstar4U | DEFECT | https://images.printify.com/mockup/6ac71287d0a23214d80b25f3/72920/16777/christmas-budget-500-christmas-lunch-box-bento-box-for-holiday-lunches-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac71286b32a96bbe40d0cd8 | Christ Is Born Christmas Throw Pillow Case 18x18 — Easy Couch & Bed Accent, Holiday Home Decor Gift - Winstar4U | DEFECT | https://images.printify.com/mockup/6ac71286b32a96bbe40d0cd8/244224/155844/christ-is-born-christmas-throw-pillow-case-18x18-easy-couch-bed-accent-holiday-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac71284fb1d11d19e036ffe | Chillin With Santa Penguin Christmas Hoodie — Cozy Pullover Hoodie, Christmas Gift - Winstar4U | DEFECT | https://images.printify.com/mockup/6ac71284fb1d11d19e036ffe/32912/98424/chillin-with-santa-penguin-christmas-hoodie-cozy-pullover-hoodie-christmas-gift-winstar4u.jpg?camera_label=front |
+| 6ac71284b8146913210037d3 | Christmas 2026 Caffeine Panic Christmas Lunch Box — Bento Box for Holiday Lunches, Holiday Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71284b8146913210037d3/72920/16777/christmas-2026-caffeine-panic-christmas-lunch-box-bento-box-for-holiday-lunches-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac712846027ad007d0e7dcb | Blessed Christmas Christmas Tablecloth — Festive Holiday Table Decor, Holiday Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac712846027ad007d0e7dcb/112701/112238/blessed-christmas-christmas-tablecloth-festive-holiday-table-decor-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac71283fb1d11d19e036ffd | Blessed Christmas Christmas Throw Pillow Case 18x18 — Easy Couch & Bed Accent, Holiday Home Decor Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71283fb1d11d19e036ffd/244224/155844/blessed-christmas-christmas-throw-pillow-case-18x18-easy-couch-bed-accent-holiday-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac71281b8146913210037d0 | Deck The Halls Christmas Winter Scarf — Elegant Seasonal Wrap, Holiday Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71281b8146913210037d0/100848/93994/deck-the-halls-christmas-winter-scarf-elegant-seasonal-wrap-holiday-gift-winstar4u.jpg?camera_label=flat |
+| 6ac7128146dd1e896e04e14a | Amazing Grace Christmas Tablecloth — Festive Holiday Table Decor, Holiday Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7128146dd1e896e04e14a/112701/112238/amazing-grace-christmas-tablecloth-festive-holiday-table-decor-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac71280fb1d11d19e036ffc | Chic Happens Cocktail Christmas Lunch Box — Bento Box for Holiday Lunches, Holiday Gift - Winstar4U | DEFECT | https://images.printify.com/mockup/6ac71280fb1d11d19e036ffc/72920/16777/chic-happens-cocktail-christmas-lunch-box-bento-box-for-holiday-lunches-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac71280b8146913210037cf | Santa Saw Your Out Of Office Christmas Hoodie — Cozy Pullover Hoodie, Christmas Gift - Winstar4U | DEFECT | https://images.printify.com/mockup/6ac71280b8146913210037cf/32912/98424/santa-saw-your-out-of-office-christmas-hoodie-cozy-pullover-hoodie-christmas-gift-winstar4u.jpg?camera_label=front |
+| 6ac712806356cae0df02e358 | Amazing Grace Christmas Throw Pillow Case 18x18 — Easy Couch & Bed Accent, Holiday Home Decor Gift - Winstar4U | DEFECT | https://images.printify.com/mockup/6ac712806356cae0df02e358/244224/155844/amazing-grace-christmas-throw-pillow-case-18x18-easy-couch-bed-accent-holiday-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac7127f6027ad007d0e7dc8 | Walk By Faith Christmas Women's T-Shirt — Festive Holiday Tee for Her, Holiday Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7127f6027ad007d0e7dc8/17979/88/walk-by-faith-christmas-womens-t-shirt-festive-holiday-tee-for-her-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7127d35cf3f6ec802ea99 | Christmas Wishes Sta Christmas Winter Scarf — Chic Winter Accessory, Holiday Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7127d35cf3f6ec802ea99/100848/93994/christmas-wishes-sta-christmas-winter-scarf-chic-winter-accessory-holiday-gift-winstar4u.jpg?camera_label=flat |
+| 6ac7127d35a66ab7dc0b100b | Checked Santas List Christmas Lunch Box — Bento Box for Holiday Lunches, Holiday Gift - Winstar4U | DEFECT | https://images.printify.com/mockup/6ac7127d35a66ab7dc0b100b/72920/16777/checked-santas-list-christmas-lunch-box-bento-box-for-holiday-lunches-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7127cfb1d11d19e036ff9 | Thankful Grateful Blesse Christmas Women's T-Shirt — Festive Holiday Tee for Her, Holiday Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7127cfb1d11d19e036ff9/17979/88/thankful-grateful-blesse-christmas-womens-t-shirt-festive-holiday-tee-for-her-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7127c35cf3f6ec802ea98 | Oh Deer Christmas Hoodie — Cozy Pullover Hoodie, Christmas Gift - Winstar4U | DEFECT | https://images.printify.com/mockup/6ac7127c35cf3f6ec802ea98/32912/98424/oh-deer-christmas-hoodie-cozy-pullover-hoodie-christmas-gift-winstar4u.jpg?camera_label=front |
+| 6ac7127ab8146913210037cc | Elegantly Wasted Martini Christmas Tablecloth — Festive Holiday Table Decor, Holiday Gift - Winstar4U | DEFECT | https://images.printify.com/mockup/6ac7127ab8146913210037cc/112701/112238/elegantly-wasted-martini-christmas-tablecloth-festive-holiday-table-decor-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7127aa5ade89b5c080fc0 | Candy Cane Lane Christmas Winter Scarf — Warm Holiday Statement Scarf, Holiday Gift - Winstar4U | DEFECT | https://images.printify.com/mockup/6ac7127aa5ade89b5c080fc0/100848/93994/candy-cane-lane-christmas-winter-scarf-warm-holiday-statement-scarf-holiday-gift-winstar4u.jpg?camera_label=flat |
+| 6ac7127942c818a1ad095f5f | Calories Dont Count Thanksgiving Christmas Lunch Box — Bento Box for Holiday Lunches, Holiday Gift - Winstar4U | DEFECT | https://images.printify.com/mockup/6ac7127942c818a1ad095f5f/72920/16777/calories-dont-count-thanksgiving-christmas-lunch-box-bento-box-for-holiday-lunches-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7127942c818a1ad095f5e | Elegantly Wasted Martini Christmas Throw Pillow Case 18x18 — Easy Couch & Bed Accent, Holiday Home Decor Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7127942c818a1ad095f5e/244224/155844/elegantly-wasted-martini-christmas-throw-pillow-case-18x18-easy-couch-bed-accent-holiday-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac712786356cae0df02e355 | Savior Born Manger Christmas Women's T-Shirt — Festive Holiday Tee for Her, Holiday Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac712786356cae0df02e355/17979/88/savior-born-manger-christmas-womens-t-shirt-festive-holiday-tee-for-her-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7127835a66ab7dc0b1008 | Glow Lights Christmas Hoodie — Cozy Pullover Hoodie, Christmas Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7127835a66ab7dc0b1008/32912/98424/glow-lights-christmas-hoodie-cozy-pullover-hoodie-christmas-gift-winstar4u.jpg?camera_label=front |
+| 6ac71276b8146913210037c9 | Believe Sleigh Christmas Winter Scarf — Soft Festive Wrap Gift, Holiday Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71276b8146913210037c9/100848/93994/believe-sleigh-christmas-winter-scarf-soft-festive-wrap-gift-holiday-gift-winstar4u.jpg?camera_label=flat |
+| 6ac71276b8146913210037c8 | Eggnog Recovery Skeleton Christmas Tablecloth — Festive Holiday Table Decor, Holiday Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71276b8146913210037c8/112701/112238/eggnog-recovery-skeleton-christmas-tablecloth-festive-holiday-table-decor-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7127635a66ab7dc0b1006 | Bah Humbug Wine Christmas Lunch Box — Bento Box for Holiday Lunches, Holiday Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7127635a66ab7dc0b1006/72920/16777/bah-humbug-wine-christmas-lunch-box-bento-box-for-holiday-lunches-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7127546dd1e896e04e146 | Rejoice Star Christmas Women's T-Shirt — Festive Holiday Tee for Her, Holiday Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7127546dd1e896e04e146/17979/88/rejoice-star-christmas-womens-t-shirt-festive-holiday-tee-for-her-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7127507e4149a0f001089 | Eggnog Recovery Skeleton Christmas Throw Pillow Case 18x18 — Easy Couch & Bed Accent, Holiday Home Decor Gift - Winstar4U | DEFECT | https://images.printify.com/mockup/6ac7127507e4149a0f001089/244224/155844/eggnog-recovery-skeleton-christmas-throw-pillow-case-18x18-easy-couch-bed-accent-holiday-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac71274b32a96bbe40d0cd0 | Gnome with Lantern Christmas Hoodie — Cozy Pullover Hoodie, Christmas Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71274b32a96bbe40d0cd0/32912/98424/gnome-with-lantern-christmas-hoodie-cozy-pullover-hoodie-christmas-gift-winstar4u.jpg?camera_label=front |
+| 6ac712736f976358160c47a5 | Avoiding Carolers Raccoon Christmas Lunch Box — Bento Box for Holiday Lunches, Holiday Gift - Winstar4U | DEFECT | https://images.printify.com/mockup/6ac712736f976358160c47a5/72920/16777/avoiding-carolers-raccoon-christmas-lunch-box-bento-box-for-holiday-lunches-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac712736356cae0df02e353 | Naughty List Vip Christmas Winter Scarf — Cozy Winter Fashion Scarf, Holiday Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac712736356cae0df02e353/100848/93994/naughty-list-vip-christmas-winter-scarf-cozy-winter-fashion-scarf-holiday-gift-winstar4u.jpg?camera_label=flat |
+| 6ac7127235a66ab7dc0b1004 | Dreaming Stress Free Christmas Christmas Tablecloth — Festive Holiday Table Decor, Holiday Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7127235a66ab7dc0b1004/112701/112238/dreaming-stress-free-christmas-christmas-tablecloth-festive-holiday-table-decor-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7127146dd1e896e04e13e | Reason For Season Christmas Women's T-Shirt — Festive Holiday Tee for Her, Holiday Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7127146dd1e896e04e13e/17979/88/reason-for-season-christmas-womens-t-shirt-festive-holiday-tee-for-her-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac712710ed8f1657605f2b0 | Dreaming Stress Free Christmas Christmas Throw Pillow Case 18x18 — Easy Couch & Bed Accent, Holiday Home Decor Gift - Winstar4U | DEFECT | https://images.printify.com/mockup/6ac712710ed8f1657605f2b0/244224/155844/dreaming-stress-free-christmas-christmas-throw-pillow-case-18x18-easy-couch-bed-accent-holiday-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac71270ed135347800f9b56 | Christmas Gnome Couple Christmas Hoodie — Cozy Pullover Hoodie, Christmas Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71270ed135347800f9b56/32912/98424/christmas-gnome-couple-christmas-hoodie-cozy-pullover-hoodie-christmas-gift-winstar4u.jpg?camera_label=front |
+| 6ac7126fed135347800f9b55 | Avoiding Carolers Gnome Christmas Lunch Box — Bento Box for Holiday Lunches, Holiday Gift - Winstar4U | DEFECT | https://images.printify.com/mockup/6ac7126fed135347800f9b55/72920/16777/avoiding-carolers-gnome-christmas-lunch-box-bento-box-for-holiday-lunches-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7126f83f1a0e50d071d6b | Deck The Halls Sit Down Christmas Tablecloth — Festive Holiday Table Decor, Holiday Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7126f83f1a0e50d071d6b/112701/112238/deck-the-halls-sit-down-christmas-tablecloth-festive-holiday-table-decor-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7126eb8146913210037c1 | O Holy Night Christmas Women's T-Shirt — Festive Holiday Tee for Her, Holiday Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7126eb8146913210037c1/17979/88/o-holy-night-christmas-womens-t-shirt-festive-holiday-tee-for-her-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7126ea4c95c48e203624e | Deck The Halls Sit Down Christmas Throw Pillow Case 18x18 — Easy Couch & Bed Accent, Holiday Home Decor Gift - Winstar4U | DEFECT | https://images.printify.com/mockup/6ac7126ea4c95c48e203624e/244224/155844/deck-the-halls-sit-down-christmas-throw-pillow-case-18x18-easy-couch-bed-accent-holiday-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac7126c57527ce5fd01976a | Naughty List Skeleton Christmas Winter Scarf — Elegant Seasonal Wrap, Holiday Gift - Winstar4U | DEFECT | https://images.printify.com/mockup/6ac7126c57527ce5fd01976a/100848/93994/naughty-list-skeleton-christmas-winter-scarf-elegant-seasonal-wrap-holiday-gift-winstar4u.jpg?camera_label=flat |
+| 6ac7126c57527ce5fd019768 | Dear Santa Explain Christmas Tablecloth — Festive Holiday Table Decor, Holiday Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7126c57527ce5fd019768/112701/112238/dear-santa-explain-christmas-tablecloth-festive-holiday-table-decor-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7126c3925bc76b90372cc | Catch Me If You Can Gingerbread Christmas Hoodie — Cozy Pullover Hoodie, Christmas Gift - Winstar4U | DEFECT | https://images.printify.com/mockup/6ac7126c3925bc76b90372cc/32912/98424/catch-me-if-you-can-gingerbread-christmas-hoodie-cozy-pullover-hoodie-christmas-gift-winstar4u.jpg?camera_label=front |
+| 6ac7126c0ed8f1657605f2ae | All I Want Nap Christmas Lunch Box — Bento Box for Holiday Lunches, Holiday Gift - Winstar4U | DEFECT | https://images.printify.com/mockup/6ac7126c0ed8f1657605f2ae/72920/16777/all-i-want-nap-christmas-lunch-box-bento-box-for-holiday-lunches-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7126aed135347800f9b52 | Dear Santa Explain Christmas Throw Pillow Case 18x18 — Easy Couch & Bed Accent, Holiday Home Decor Gift - Winstar4U | DEFECT | https://images.printify.com/mockup/6ac7126aed135347800f9b52/244224/155844/dear-santa-explain-christmas-throw-pillow-case-18x18-easy-couch-bed-accent-holiday-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac7126aa5ade89b5c080faf | Keep Christ Christmas Christmas Women's T-Shirt — Festive Holiday Tee for Her, Holiday Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7126aa5ade89b5c080faf/17979/88/keep-christ-christmas-christmas-womens-t-shirt-festive-holiday-tee-for-her-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac71268ed135347800f9b51 | Survived Another Family Christmas Christmas Hoodie — Cozy Pullover Hoodie, Christmas Gift - Winstar4U | DEFECT | https://images.printify.com/mockup/6ac71268ed135347800f9b51/32912/98424/survived-another-family-christmas-christmas-hoodie-cozy-pullover-hoodie-christmas-gift-winstar4u.jpg?camera_label=front |
+| 6ac71268a5ade89b5c080fac | Dear Santa Explain Santa Christmas Tablecloth — Festive Holiday Table Decor, Holiday Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71268a5ade89b5c080fac/112701/112238/dear-santa-explain-santa-christmas-tablecloth-festive-holiday-table-decor-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7126807e4149a0f001080 | All I Want Nap Pillow Christmas Lunch Box — Bento Box for Holiday Lunches, Holiday Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7126807e4149a0f001080/72920/16777/all-i-want-nap-pillow-christmas-lunch-box-bento-box-for-holiday-lunches-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac71267ed135347800f9b4f | Joy To World Christian Christmas Women's T-Shirt — Festive Holiday Tee for Her, Holiday Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71267ed135347800f9b4f/17979/88/joy-to-world-christian-christmas-womens-t-shirt-festive-holiday-tee-for-her-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac712673925bc76b90372c5 | Dear Santa Explain Santa Christmas Throw Pillow Case 18x18 — Easy Couch & Bed Accent, Holiday Home Decor Gift - Winstar4U | DEFECT | https://images.printify.com/mockup/6ac712673925bc76b90372c5/244224/155844/dear-santa-explain-santa-christmas-throw-pillow-case-18x18-easy-couch-bed-accent-holiday-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac71265fb1d11d19e036ff0 | Happy Holidays Tree Christmas Fanny Pack — Concert-Ready Waist Pack, Holiday Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71265fb1d11d19e036ff0/65045/6109/happy-holidays-tree-christmas-fanny-pack-concert-ready-waist-pack-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac712640ed8f1657605f2a8 | Puppy Tangled in Lights Christmas Hoodie — Cozy Pullover Hoodie, Christmas Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac712640ed8f1657605f2a8/32912/98424/puppy-tangled-in-lights-christmas-hoodie-cozy-pullover-hoodie-christmas-gift-winstar4u.jpg?camera_label=front |
+| 6ac7126357527ce5fd019761 | Hallelujah Angels Christmas Women's T-Shirt — Festive Holiday Tee for Her, Holiday Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7126357527ce5fd019761/17979/88/hallelujah-angels-christmas-womens-t-shirt-festive-holiday-tee-for-her-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac71262ed135347800f9b4a | Fireplace Stocking Christmas Fanny Pack — Travel-Ready Sling Bag, Holiday Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71262ed135347800f9b4a/65045/6109/fireplace-stocking-christmas-fanny-pack-travel-ready-sling-bag-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac71260a5ade89b5c080fa7 | Cat vs Tree Christmas Hoodie — Cozy Pullover Hoodie, Christmas Gift - Winstar4U | DEFECT | https://images.printify.com/mockup/6ac71260a5ade89b5c080fa7/32912/98424/cat-vs-tree-christmas-hoodie-cozy-pullover-hoodie-christmas-gift-winstar4u.jpg?camera_label=front |
+| 6ac7126007e4149a0f001079 | Tree Up Patience Down Christmas Lunch Box — Bento Box for Holiday Lunches, Holiday Gift - Winstar4U | DEFECT | https://images.printify.com/mockup/6ac7126007e4149a0f001079/72920/16777/tree-up-patience-down-christmas-lunch-box-bento-box-for-holiday-lunches-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7125f83f1a0e50d071d60 | Greatest Gift Christmas Women's T-Shirt — Festive Holiday Tee for Her, Holiday Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7125f83f1a0e50d071d60/17979/88/greatest-gift-christmas-womens-t-shirt-festive-holiday-tee-for-her-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7125e07e4149a0f001078 | Deck The Halls Christmas Fanny Pack — Stylish Hands-Free Waist Bag, Holiday Gift - Winstar4U | DEFECT | https://images.printify.com/mockup/6ac7125e07e4149a0f001078/65045/6109/deck-the-halls-christmas-fanny-pack-stylish-hands-free-waist-bag-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7125c0ed8f1657605f2a2 | God Bless Christmas Christmas Women's T-Shirt — Festive Holiday Tee for Her, Holiday Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7125c0ed8f1657605f2a2/17979/88/god-bless-christmas-christmas-womens-t-shirt-festive-holiday-tee-for-her-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7125ba4c95c48e2036243 | Dear Santa Bank Account Christmas Tablecloth — Festive Holiday Table Decor, Holiday Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7125ba4c95c48e2036243/112701/112238/dear-santa-bank-account-christmas-tablecloth-festive-holiday-table-decor-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7125b6027ad007d0e7db7 | Christmas Mode Dnd Christmas Cutting Board — Festive Kitchen Decor Board, Holiday Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7125b6027ad007d0e7db7/74549/19273/christmas-mode-dnd-christmas-cutting-board-festive-kitchen-decor-board-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7125b35a66ab7dc0b0ff4 | Rejoice Star Christmas Duvet Cover — Cozy Christmas Bedroom Makeover, Holiday Home Decor Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7125b35a66ab7dc0b0ff4/147747/119028/rejoice-star-christmas-duvet-cover-cozy-christmas-bedroom-makeover-holiday-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac7125b2d1baaa3fd005809 | Christmas Wishes Sta Christmas Fanny Pack — Trendy Festival Belt Bag, Holiday Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7125b2d1baaa3fd005809/65045/6109/christmas-wishes-sta-christmas-fanny-pack-trendy-festival-belt-bag-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac712580ed8f1657605f29c | Glory To God Christmas Women's T-Shirt — Festive Holiday Tee for Her, Holiday Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac712580ed8f1657605f29c/17979/88/glory-to-god-christmas-womens-t-shirt-festive-holiday-tee-for-her-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac712580ed8f1657605f29a | Christmas Lights Therapy Christmas Cutting Board — Festive Kitchen Decor Board, Holiday Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac712580ed8f1657605f29a/74549/19273/christmas-lights-therapy-christmas-cutting-board-festive-kitchen-decor-board-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac71257c077332834034d63 | Reason For Season Christmas Duvet Cover — Cozy Christmas Bedroom Makeover, Holiday Home Decor Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71257c077332834034d63/147747/119028/reason-for-season-christmas-duvet-cover-cozy-christmas-bedroom-makeover-holiday-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac71257a5ade89b5c080fa0 | Baking Spirits Bright Christmas Hoodie — Cozy Pullover Hoodie, Christmas Gift - Winstar4U | DEFECT | https://images.printify.com/mockup/6ac71257a5ade89b5c080fa0/32912/98424/baking-spirits-bright-christmas-hoodie-cozy-pullover-hoodie-christmas-gift-winstar4u.jpg?camera_label=front |
+| 6ac7125707e4149a0f001074 | Candy Cane Lane Christmas Fanny Pack — Hands-Free Holiday Crossbody, Holiday Gift - Winstar4U | DEFECT | https://images.printify.com/mockup/6ac7125707e4149a0f001074/65045/6109/candy-cane-lane-christmas-fanny-pack-hands-free-holiday-crossbody-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac712552d1baaa3fd005804 | Christ Is Born Christmas Women's T-Shirt — Festive Holiday Tee for Her, Holiday Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac712552d1baaa3fd005804/17979/88/christ-is-born-christmas-womens-t-shirt-festive-holiday-tee-for-her-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7125446dd1e896e04e131 | Believe Sleigh Christmas Fanny Pack — Chic Hands-Free Purse, Holiday Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7125446dd1e896e04e131/65045/6109/believe-sleigh-christmas-fanny-pack-chic-hands-free-purse-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7125435cf3f6ec802ea89 | O Holy Night Christmas Duvet Cover — Cozy Christmas Bedroom Makeover, Holiday Home Decor Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7125435cf3f6ec802ea89/147747/119028/o-holy-night-christmas-duvet-cover-cozy-christmas-bedroom-makeover-holiday-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac71254336f835866011517 | Christmas Excuse Eat King Christmas Cutting Board — Festive Kitchen Decor Board, Holiday Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71254336f835866011517/74549/19273/christmas-excuse-eat-king-christmas-cutting-board-festive-kitchen-decor-board-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7125235a66ab7dc0b0ff0 | Blessed Christmas Christmas Women's T-Shirt — Festive Holiday Tee for Her, Holiday Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7125235a66ab7dc0b0ff0/17979/88/blessed-christmas-christmas-womens-t-shirt-festive-holiday-tee-for-her-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac71251a5ade89b5c080f99 | Christmas Eat No January Christmas Cutting Board — Festive Kitchen Decor Board, Holiday Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71251a5ade89b5c080f99/74549/19273/christmas-eat-no-january-christmas-cutting-board-festive-kitchen-decor-board-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac712510ed8f1657605f296 | Keep Christ Christmas Christmas Duvet Cover — Cozy Christmas Bedroom Makeover, Holiday Home Decor Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac712510ed8f1657605f296/147747/119028/keep-christ-christmas-christmas-duvet-cover-cozy-christmas-bedroom-makeover-holiday-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac712506f976358160c479a | Naughty List Vip Christmas Fanny Pack — Concert-Ready Waist Pack, Holiday Gift - Winstar4U | DEFECT | https://images.printify.com/mockup/6ac712506f976358160c479a/65045/6109/naughty-list-vip-christmas-fanny-pack-concert-ready-waist-pack-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7124ea5ade89b5c080f98 | Amazing Grace Christmas Women's T-Shirt — Festive Holiday Tee for Her, Holiday Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7124ea5ade89b5c080f98/17979/88/amazing-grace-christmas-womens-t-shirt-festive-holiday-tee-for-her-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7124e35a66ab7dc0b0fec | Christmas Eat No January V2 Christmas Cutting Board — Festive Kitchen Decor Board, Holiday Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7124e35a66ab7dc0b0fec/74549/19273/christmas-eat-no-january-v2-christmas-cutting-board-festive-kitchen-decor-board-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7124d6f976358160c4797 | Joy To World Christian Christmas Duvet Cover — Cozy Christmas Bedroom Makeover, Holiday Home Decor Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7124d6f976358160c4797/147747/119028/joy-to-world-christian-christmas-duvet-cover-cozy-christmas-bedroom-makeover-holiday-home-decor-gift-winstar4u.jpg?camera_label=front |
