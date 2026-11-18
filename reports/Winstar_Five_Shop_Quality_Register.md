@@ -133,6 +133,51 @@ gap, not yet performed for these or any other item in this recovery.
 staging phase (pass-1 wrong-scale drafts, single-variant tests) were not deleted and remain in the shop
 as harmless unpublished extras; a cleanup pass can be run on owner request.
 
+### ⚠️ CORRECTION (2026-11-18, later same session) — most of this batch's "32 approved live" claim was wrong; re-verified and re-fixing
+
+**This session worked in parallel with the fork that made the claim above and independently re-investigated
+the same 6 "LIVE DEFECT" items before seeing this section.** Fetching the live product for Christmas Open
+Bar found it still visibly broken (handle crossing the text, bottom line clipped) **despite the claim above
+that it was "visually reconfirmed clean."** Root cause: the scale values used in this batch (0.35-0.5,
+listed in the table above) are not small enough to clear the physical carrying handles that cross the
+front print area on this blueprint (372) — a defect category the earlier staging phase had not fully
+accounted for (it only checked for left/right/bottom text-edge cropping, not handle obstruction). The
+correct scale for this blueprint/image-size family is much smaller — **0.14-0.19**, combined with a
+per-design-tuned `y` (0.30-0.42 depending on how many stacked elements the design has) — found by this
+session through direct iteration against the real front-camera mockup (not a synthetic/flat check) for
+each of the 6 "LIVE DEFECT" items, downloading and visually confirming every one before and after on both
+the Large and Small variant.
+
+**All 6 "LIVE DEFECT" items were re-fixed properly in this session, live, and verified clean on both
+variants with real downloaded mockups (not assumed):**
+
+| Product | Final validated scale/position | New live mockup confirms |
+|---|---|---|
+| `6ac70e9f9a2f0cb82508f87d` Christmas Open Bar | x 0.5, y 0.39, scale 0.16 | "CHRISTMAS 2026: I'M JUST FOR THE OPEN BAR" complete, clear of handle, both sizes |
+| `6ac70ea3f0a0ce97bc0c8fe7` Christmas Party Survivor | x 0.5, y 0.33, scale 0.155 | Full badge "CHRISTMAS PARTY SURVIVOR I SAID WHAT I SAID" complete, both sizes |
+| `6ac70ea79a2f0cb82508f885` Christmas Stress Tinsel Done | x 0.5, y 0.37, scale 0.17 | "90% STRESS, 10% TINSEL, 100% DONE" complete, both sizes |
+| `6ac70eaaa4000bde5508bbd0` Christmas Vacation Canceled | x 0.5, y 0.37, scale 0.16 | Full text + gift graphic, both sizes |
+| `6ac70ebc0a720c0b670cc5c4` Dear Santa Explain Santa | x 0.5, y 0.37, scale 0.16 | Full text + Santa graphic, both sizes |
+| `6ac70ee9e2a15b1260026655` Hallelujah Angels | x 0.5, y 0.37, scale 0.16 | "HALLELUJAH" + 5-figure angel graphic, both sizes |
+
+Each was re-applied to the live product via `printify-upsert-product-9eb` with `product_id` set (in-place
+update), then `printify-publish-product-9eb` was called to push the corrected artwork to the connected
+sales channel.
+
+**The remaining 26 of 32 are NOT confirmed fixed — spot-checked 3 at random and all 3 are still visibly
+broken live right now, the same handle-obstruction/insufficient-scale-reduction problem:**
+- `6ac70e96050d0f25a70917cb` "Christmas Lights Therapy" — "THERAPY" clipped at bottom hem, lights graphic
+  cut by handle.
+- `6ac70eb5050d0f25a70917e5` "Dear Santa Bank Account" — Santa graphic clipped at bottom, only top of
+  hat/face visible.
+- `6ac70edc7be9df884b032bed` "Christ Is Born" — starburst graphic clipped at bottom edge.
+
+**Correction in progress:** the remaining 23 unchecked items in this batch should be treated as likely
+still broken until individually re-verified and re-fixed using the corrected method (small scale, per-item
+tuned y, checked against the real front-camera mockup) — this is being worked now. The dashboard's
+"approved live: 32" figure above should be read as **6 confirmed correct, 26 unconfirmed/likely still
+broken** until this correction pass completes.
+
 ## EXECUTIVE SUMMARY & CORRECTION-READY APPROVAL PACKET (compiled 2026-11-18, after full five-shop
 ## visual-inspection completion)
 
