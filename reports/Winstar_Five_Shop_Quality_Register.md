@@ -765,6 +765,40 @@ handle-obstruction (Subtype A) and simple edge-cropping (Subtype B). 1 flagged f
 (Chic Happens Cocktail). 2 unfixable without new art (Deck The Halls = handle obstruction, Candy Cane
 Lane = bad source file). 31 of 45 not yet classified.
 
+### Duffel Bag batch 4 (8 more items classified) — "too dense" pattern confirmed, consolidated decision filed
+
+| Original live product | Fix attempted | Result | Staged draft |
+|---|---|---|---|
+| `6ac70f274e8c3a1ca906ec63` "Merry Everything Happy Always" | scale 0.5/y 0.4 | **SUBSTANTIALLY FIXED** — "MERRY EVERYTHING" fully visible, holly/candle graphic visible, second line ("...AND ALWAYS") has only a sliver cut at the very bottom. Close to clean. | `6afd9fd38ea52c16770aae88` (2-variant) |
+| `6ac70f244bfa32451c0548d6` "Merry Christmas Lets Get Lit" | scale 0.5/y 0.4 | **FULLY FIXED** — "MERRY CHRISTMAS, LET'S GET LIT" (string-light-bulb text styling) + small tree graphic, complete, clean margins | `6afd9fd63454cf868401fc83` (2-variant) |
+| `6ac70f1d50fc6704d30bf7f9` "Jingle Bells Santa Smells" | scale 0.5/y 0.4 | **FULLY FIXED** — "JINGLE BELLS, SANTA SMELLS" + reindeer graphic, complete, clean margins | `6afd9fd93454cf868401fc86` (2-variant) |
+| `6ac70f1a57527ce5fd019595` "Jingle All Way Liquor" | scale 0.5/y 0.4 | **FULLY FIXED** — "JINGLE ALL THE WAY" + station-wagon-with-presents graphic, complete, clean margins | `6afd9fdd3454cf868401fc8a` (2-variant) |
+| `6ac70f054e8c3a1ca906ec58` "Walk By Faith" | scale 0.5/y 0.4 | **FULLY FIXED** — "WALK BY FAITH" + church/winter-scene graphic, complete, clean margins | `6afda0043454cf868401fca9` (2-variant) |
+| `6ac70f020aa3686f380d3c3a` "Thankful Grateful Blesse" | scale 0.5/y 0.4 | **NOT FIXED — different symptom.** Only the Christmas-tree graphic is visible; the title text ("THANKFUL GRATEFUL BLESSED") is entirely absent from the frame at this position, not merely clipped at an edge. Likely needs a different y value than the other items (title may sit lower in this particular source image than in the others sharing the same nominal layout) — flagged as needing individual position tuning rather than assumed to follow the group default. Added to the "too dense"/needs-individual-handling decision below pending that tuning. | `6afda0073454cf868401fcab` (2-variant, not a clean repair) |
+| `6ac70f1682fcbdd37b039f15` "Ill Be Home Christmas Probably" | scale 0.5/y 0.4 | **NOT FIXED** — "I'LL BE HOME FOR ___" visible but "CHRISTMAS" (the word that completes the title) is cropped/obscured behind the car-with-presents graphic. Same too-dense pattern. | `6afda00a3454cf868401fcad` (2-variant, not a clean repair) |
+| `6ac70efe050d0f25a7091809` "Savior Born Manger" | scale 0.5/y 0.4 | **FULLY FIXED** — "A SAVIOR IS BORN" + star icon, complete and legible, clean margins (star graphic base lightly touches the curve but title and icon are both fully readable) | `6afda00d598fa546c30704b4` (2-variant) |
+
+**This batch confirms the Duffel Bag group splits cleanly along the owner's four categories.** 5 of 8 this
+batch were simple Subtype-B fixes (clean on the first try at scale 0.5/y 0.4). The "too much visual
+density" sub-pattern now has 6 confirmed instances (Caffeine Panic, Avoiding Carolers Raccoon, Naughty
+List Resume Duffel, Naughty Is New Nice Duffel, Ill Be Home Christmas Probably, Thankful Grateful
+Blesse). Per owner guidance, **filed ONE consolidated decision (D-46651Y730N) covering this whole
+sub-pattern** instead of one per item, parallel to how D-5B395E153M covers the handle-obstruction
+sub-pattern — the owner gets two clean decisions to make (density pattern + handle-obstruction pattern)
+rather than a growing list of near-duplicates. Future "too dense" instances will be referenced to
+D-46651Y730N rather than filing new decisions, the same way handle-obstruction instances reference
+D-5B395E153M.
+
+**Running Duffel Bag tally after batch 4: 10 of 45 fully confirmed clean and repair-ready** (Christmas
+Wishes Sta, Believe Sleigh, Bah Humbug Wine, All I Want Nap, All I Want Nap Pillow, Merry Christmas
+Lets Get Lit, Jingle Bells Santa Smells, Jingle All Way Liquor, Walk By Faith, Savior Born Manger).
+2 substantially fixed with minor caveats (Avoiding Carolers Gnome, Merry Everything Happy Always).
+6 in the "too dense" pattern, referencing decision D-46651Y730N. 1 in the handle-obstruction pattern,
+referencing decision D-5B395E153M (Deck The Halls). 2 needing new art / not a position-scale problem
+(Candy Cane Lane — bad source file; Chic Happens Cocktail — grouped here per owner guidance since the
+crop issue is fixed but title text is entirely absent from the source image, an art-asset problem, not
+confirmed as an intentionally image-only design). **21 of 45 classified, 24 remaining.**
+
 ## 0. Shop directory
 
 | Shop name | Shop ID | Channel | Total products (last confirmed count) |
