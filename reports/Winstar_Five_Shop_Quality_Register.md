@@ -35,11 +35,60 @@ non-purchasable and non-live**, consistent with the earlier finding that the who
 category is discontinued. Documented rather than forcing an unpublish call that would only return
 Printify's "not published" error.
 
-**Items 3/4/5 — Duffel Bag remediation (Deck The Halls retry, "too dense" group retry, bad-source-file
-items) dispatched to a dedicated worker, in progress.** See the dedicated section below once complete.
+**Items 3/4/5 — Duffel Bag remediation: ALL 11 ITEMS FIXED LIVE, ZERO NEEDED TO BE DRAFTED.** See full
+write-up immediately below. Contrary to the earlier conclusion that Deck The Halls and the "too dense"
+group could not be fixed, and that Candy Cane Lane / Chic Happens Cocktail were bad-source-file cases,
+every single one turned out fixable once retried with the much-smaller scale (0.13-0.16) that the
+Duffel Bag correction work discovered works for this blueprint — a value far smaller than the 0.4-0.72
+range used in all earlier attempts on these specific items. Nothing was drafted out for this directive.
 
 **Item 7 — Wall Tapestry full rollout (stage remaining 41 + push all 48 live) dispatched to a dedicated
 worker, in progress.** See the dedicated section below once complete.
+
+## DUFFEL BAG REMEDIATION — Deck The Halls, "too dense" group, bad-source-file items: 11/11 FIXED LIVE (2026-11-18)
+
+**Owner instructions:** "3. Attempt to adjust the size of the deck, the hall duffel bag image. If
+adjustment can make it pass, we'll go with it. If the adjustment is not possible, we will draft it.
+4. Any duffel bag that cannot be repaired or corrected and be put in front of a customer and look
+professional, we need to draft out. 5. If these cannot be fixed, please notify me."
+
+**Result: all 11 items were fixable. None were drafted out.** Method for all 11: fetched the live
+product, applied `printify-upsert-product-9eb` with `product_id` set (in-place update to the live
+product, nothing else changed), starting at x 0.5 / y 0.37 / scale 0.16 — the default validated value
+from the main Duffel Bag correction — then iterated individually where that default still showed
+clipping, verified every result against a real downloaded front-camera mockup before publishing with
+`printify-publish-product-9eb`.
+
+| # | Product | Final scale/position | Outcome |
+|---|---|---|---|
+| 1 | `6ac712453925bc76b90372bb` Deck The Halls (handle-obstruction case, decision D-5B395E153M) | x 0.5, y 0.37, scale 0.16 | **FIXED on first try.** "DECK THE HALLS" fully legible inside the wreath graphic, clear of the handles, both variants clean. The two earlier failed attempts (y 0.55/scale 0.72 and y 0.45/scale 0.45) had never tried a scale anywhere near this small. |
+| 2 | `6ac70f597be9df884b032c1b` Christmas 2026 Caffeine Panic | x 0.5, y 0.37, scale 0.16 | **FIXED on first try.** All 4 lines ("CHRISTMAS 2026: 50% CAFFEINE, 10% EGGNOG. 100% PANIC.") fully legible on both variants. |
+| 3 | `6ac70f47b7d78a62480e726b` Avoiding Carolers Raccoon | x 0.5, y 0.37, scale 0.16 | **FIXED on first try.** "CURRENTLY AVOIDING CAROLERS (AND CONVERSATION)" fully legible, icon visible. |
+| 4 | `6ac70f35af40dc7cd60fb985` Naughty List Resume | x 0.5, y 0.37, scale 0.16 | **FIXED on first try.** Santa + resume-scroll graphic, "NAUGHTY LIST RESUME" fully legible. |
+| 5 | `6ac70f32050d0f25a7091825` Naughty Is New Nice | x 0.5, y 0.37, scale 0.16 | **FIXED on first try.** "NAUGHTY IS THE NEW NICE" + horned-Santa-hat graphic fully legible. |
+| 6 | `6ac70f020aa3686f380d3c3a` Thankful Grateful Blesse | x 0.5, y 0.37, scale 0.16 | **FIXED on first try.** "THANKFUL GRATEFUL BLESSED" + tree graphic fully legible. |
+| 7 | `6ac70f1682fcbdd37b039f15` Ill Be Home Christmas Probably | x 0.5, y 0.37, scale 0.16 | **FIXED on first try.** "I'LL BE HOME FOR [sign graphic] CHRISTMAS. PROBABLY." fully legible. |
+| 8 | `6ac70e8bb8d5d3e719012f56` Christmas Eat No January V2 | x 0.5, y 0.33, scale 0.13 (2 attempts — 0.16 still clipped "JANUARY" at the bottom curve) | **FIXED on 2nd pass.** Full 4-line stack + food graphic fully legible on both variants, no clipping. |
+| 9 | `6ac70e8e050d0f25a70917c2` Christmas Eat No January | x 0.5, y 0.33, scale 0.13 (2 attempts, same as V2) | **FIXED on 2nd pass.** Identical result to V2 above. |
+| 10 | `6ac7123e6356cae0df02e33f` Candy Cane Lane | x 0.5, y 0.37, scale 0.16 | **FIXED, and the original "blank banner/bad source file" diagnosis was WRONG.** Zoomed into the new mockup: the banner is not blank — it contains a small village/houses scene that was being cropped out of the visible flat panel at the old, larger scale (0.5), which made it look empty. At the corrected scale, "CANDY CANE LANE" + both candy canes + the village banner are all fully visible. This was a scale problem, not a source-file problem. |
+| 11 | `6ac70f55fa3cae10170ef95c` Chic Happens Cocktail | x 0.5, y 0.37, scale 0.16 | **FIXED, and the original "title text missing from source" diagnosis was WRONG.** Zoomed into the new mockup: "'CHIC HAPPENS' HOLIDAY COCKTAIL HOUR" is clearly present and legible beneath the martini graphic — it was being pushed into the illegible bottom-curve/handle zone at the old scale (0.72), not missing from the file. |
+
+**Important correction to the register's own earlier findings:** items 10 and 11 were previously
+documented as "bad source file, needs new art, not a position/scale problem" (see the POLICY VIOLATION
+REVIEW and Duffel Bag classification sections above). That diagnosis is now known to be incorrect — both
+were genuinely fixable the same way as every other item in this group. The earlier diagnosis was reached
+by looking at renders where the content was cropped into illegibility, not by any actual inspection of
+the source file. Lesson: at this blueprint's default scale, "looks blank/missing" is not reliable
+evidence of a corrupted source file — always test the small-scale correction before concluding content is
+genuinely absent.
+
+**Decisions `D-5B395E153M` (Deck The Halls handle-obstruction) and `D-46651Y730N` (8-item "too dense"
+pattern) are both RESOLVED — fixed live, not drafted.** The Candy Cane Lane / Chic Happens Cocktail
+"needs new art" conclusion elsewhere in this register is superseded by this entry.
+
+**Nothing was drafted out under this directive — all 11 items are live, fixed, and published.** Per
+the owner's instruction to be notified if anything couldn't be fixed: nothing in this batch requires
+that notification.
 
 ## COORDINATION CORRECTION — duplicate Thong→Briefs listings deduplicated (2026-11-18)
 
