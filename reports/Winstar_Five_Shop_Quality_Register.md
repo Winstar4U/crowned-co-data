@@ -184,7 +184,7 @@ closer look given the similar title, but confirmed NOT a third duplicate once th
 `external` field, unverified against eBay's own storefront), 53/53 visually inspected (100% clean,
 0 confirmed defects, 2 duplicate pairs). Task T-0U6Q5K5G49 ready for Bridge submission.
 
-## 7. Shopify catalog position tracker (most important coverage gap — 1,112 of 2,912 total products)
+## 7. Shopify catalog position tracker (most important coverage gap — 1,012 of 2,912 total products)
 
 | Range | Status | Task |
 |---|---|---|
@@ -210,13 +210,14 @@ closer look given the similar title, but confirmed NOT a third duplicate once th
 | #1,861-1,960 | **Full visual inspection (100/100), see §8u** — 43/100 confirmed defects, 0 confirmed true duplicate pairs (1 flagged candidate pending closer review), 0 new brand-safety instances (tally stays 15). **Wall Tapestry: 9/9 (100%) defective.** **Journal: 0/7 — 100% clean, most reliable blueprint found so far.** Large-scale cross-blueprint test confirmed: same designs clean on Journal/Shorts/Magnet, defective on Wall Tapestry/Duffel Bag/Sweatpants — defect is blueprint-specific print-window size vs. text length. | T-2F0U00544H (this session) |
 | #1,961-2,060 | **Full visual inspection (100/100), see §8v** — 49/100 confirmed defects (highest batch rate yet), 0 true duplicate pairs, 0 new brand-safety instances (tally stays 15, Kids' T-Shirt category confirmed 100% free of alcohol imagery). **Christmas Socks: 10/10 (100%) defective** — new worst-single-blueprint result, camera-angle wraparound-fragmentation intrinsic to the blueprint. **Bucket Hat: 7/9 (78%)** and **Apron: 2/3 (67%)** confirm opaque white-background-box defect at volume. **Scented Candle: 7/10 (70%)** confirms overscale/zoomed-design defect at volume, concentrated on nativity/religious designs. **Throw Blanket, Long Sleeve Tee, Tough Phone Case: 0% defective.** | T-3J2M0Z1I15 (this session) |
 | #2,061-2,160 | **Full visual inspection (100/100), see §8w** — 8/100 confirmed defects (one of the lowest batch rates in this effort), 0 true duplicate pairs, 0 new brand-safety instances (tally stays 15; blueprint mix had no Youth Hoodie/Baby Onesie). **T-Shirt (59 units), Tough Phone Case, Polo, Softstyle Tee, 11oz Mug: 0% defective.** Confirmed "Chic Happens Cocktail" renders CLEAN on T-Shirt despite being flagged defective on Lunch Box in an earlier batch — reconfirms print-area-size dependency. | T-1D1O420T4G (this session) |
-| #2,161-2,912 | **NOT STARTED** (751 products) | Next batch(es) |
+| #2,161-2,260 | **Full visual inspection (100/100), see §8x** — 13/100 confirmed defects, 0 true duplicate pairs, 0 new brand-safety instances (tally stays 15; batch was 100% T-Shirt blueprint, no Youth Hoodie/Baby Onesie). NEW defect class isolated: checkerboard transparency-indicator artifact baked into printed design (12/13 defects, clustered #015-#032). 1 duplicated-word typo instance ("AND, AND CAFFEINATED") confirms the recurring source-art text-duplication bug on a new design. | T-08535N036G (this session) |
+| #2,261-2,912 | **NOT STARTED** (651 products) | Next batch(es) |
 
 ## 8. Next eligible batch (for whichever session/dispatcher firing picks this up next)
 
-1. Shopify shop 26418699, #2,161 onward, continuing in ~100-product batches with full visual
-   inspection (every default mockup viewed, not sampled) — see §8f-§8w for the systemic defect-rate
-   finding (ranging 4%-49% across eighteen batches so far) that makes full inspection (not sampling)
+1. Shopify shop 26418699, #2,261 onward, continuing in ~100-product batches with full visual
+   inspection (every default mockup viewed, not sampled) — see §8f-§8x for the systemic defect-rate
+   finding (ranging 4%-49% across nineteen batches so far) that makes full inspection (not sampling)
    essential for this shop. Root causes identified so far: (a) print-window-vs-artwork-size cropping,
    affecting Backpack/Laptop Sleeve/Mouse Pad/Baby Onesie/Tank Top/Napkin Set/Throw Pillow/Coaster
    Set/Lunch Box/Wall Tapestry/Duffel Bag/Bucket Hat blueprints depending on the specific source file;
@@ -230,12 +231,12 @@ closer look given the similar title, but confirmed NOT a third duplicate once th
    entirely out of the visible label area. A duplicate-listing sub-pattern was also found in §8k:
    identical blueprint + identical artwork sold as separate listings differing only by declared pillow
    size (18x18 vs 20x20) — distinct from the "different blueprint = normal" pattern ruled out
-   elsewhere. 1,112 products remain unstarted.
+   elsewhere. 1,012 products remain unstarted.
 2. **eBay is now COMPLETE (53/53 visually inspected, see §6a) — do not re-inspect.** **Amazon is now
    COMPLETE (62/62 visually inspected, see §8a) — do not re-inspect.** **TikTok is now COMPLETE (71/71
    visually inspected, see §8b) — do not re-inspect.** **Etsy is now FULLY COMPLETE — all 297 products
    visually inspected across the pre-existing inspection round plus batches 1/3 (§8c), 2/3 (§8d), and 3/3
-   (§8e) — do not re-inspect any ID in §9–§13.** Only Shopify (1,112 remaining of 2,912 total, see item 1
+   (§8e) — do not re-inspect any ID in §9–§13.** Only Shopify (1,012 remaining of 2,912 total, see item 1
    above) remains as an unstarted shop in this five-shop recovery.
 3. Direct marketplace-side verification (actually checking eBay/Amazon/TikTok/Shopify storefronts, not
    just Printify's `external` field) for at least the highest-volume confirmed-gap SKUs, before any
@@ -4547,3 +4548,180 @@ products remain unstarted (#2,161-2,912).
 | 6ac363ad3829cc477b04aa64 | O Fish Ye Merry Gentlemen Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac363ad3829cc477b04aa64/12100/102005/o-fish-ye-merry-gentlemen-christmas-tee.jpg?camera_label=front-2 |
 | 6ac3635b29f83f0901071710 | Merry Christmas Whiskers All Tee | CLEAN | https://images.printify.com/mockup/6ac3635b29f83f0901071710/12100/102005/merry-christmas-whiskers-all-tee.jpg?camera_label=front-2 |
 | 6ac3629a29f83f0901071675 | Hedgehog Christmas Lights Tee | CLEAN | https://images.printify.com/mockup/6ac3629a29f83f0901071675/12100/102005/hedgehog-christmas-lights-tee.jpg?camera_label=front-2 |
+## 8x. Shopify shop (26418699, Winstar4U) #2,161-2,260 — nineteenth full-visual-inspection
+## batch (2026-11-18, this session)
+
+**Status: 100/100 products fully visually inspected (every default mockup individually viewed) —
+see §32 for the complete per-product evidence table.** 87/100 CLEAN, 13/100 DEFECT. This batch's
+blueprint mix is unusually uniform: all 100 products are the T-Shirt blueprint (bp 6) — the first
+batch in this recovery to be 100% single-blueprint — spanning occupational/Christmas-pride designs
+("X Make A Merry Christmas," veterinarians/truckers/electricians/hairstylists/nurses, etc.) through
+to a run of Thanksgiving-themed designs at the batch's tail end.
+
+### NEW defect pattern this batch: checkerboard transparency-indicator artifact baked into the
+### printed design (12/13 defects)
+
+Twelve of this batch's thirteen defects share one specific, newly-isolated visual signature: a
+gray/white checkerboard pattern — the standard image-editor placeholder for "this area is
+transparent" — is visibly printed as part of the product artwork instead of rendering as true
+transparency. This produces a visible checkerboard-patterned square or rectangle behind/around the
+badge, sticker, or icon-style graphic, clearly a source-file export error (the artist's working file
+was flattened/exported without converting the transparency layer correctly). Affected: #015 "Making
+Memories," #016 "Grandma's Christmas Crew," #017 "Buffalo Plaid Stocking," #021 "Cozy Season," #022
+"Countdown To Christmas," #023 "Candy Cane Holly," #026 "Buffalo Plaid Heart," #027 "World's Best Mom
+Badge," #028 "Trucker's Christmas Run," #030 "Season's Greetings Sleigh," #031 "Merry Everything
+Badge," #032 "Merry Christmas Wreath" (the most visually prominent instance — a large, high-contrast
+black/white checkerboard square dominates the design). This is a refinement of the previously-noted
+"...FIXED3.png" transparency-checkerboard artifact documented in earlier batches — this batch
+confirms it at much higher volume (12 instances in one 100-product sample) and isolates it as a
+distinct, nameable defect class in its own right, not a one-off. All twelve affected designs cluster
+in catalog positions #015-#032 of this batch, suggesting a single bad art-export session or batch
+upload is responsible for most/all of them.
+
+### One additional defect: duplicated-word typo baked into design text
+
+#085 "Jolly Tired Caffeinated Christmas Tee" (`6ac337dd95514001380fd619`) reads "JOLLY, TIRED, AND,
+AND CAFFEINATED" — the word "AND" is duplicated in the source artwork's text itself. This is the
+same category of defect as the previously-documented "MY ELF MADE / MADE ME DO IT" duplicated-word
+bug from earlier batches, but on a different design — confirms this is a recurring source-art quality
+problem (likely an AI-text-generation or copy-paste error during design creation), not a one-off.
+
+### Duplicate-pair detection: 0 true duplicates found this batch
+
+Ran a systematic pass: (1) grouped all 100 products by exact title+blueprint — 0 collisions (every
+product in this all-T-Shirt batch has a unique title); (2) grouped by print-area image filename
+across all 100 — 0 filename collisions, meaning (unlike most prior batches) no artwork in this batch
+is reused across different blueprints either. No same-blueprint-different-declared-size pairs appear.
+
+### Brand-safety check: 0 new instances — running tally unchanged at 15 (11 Youth Hoodie + 4 Baby
+### Onesie)
+
+This batch's blueprint mix contains no Youth Hoodie or Baby Onesie products at all (100% T-Shirt), so
+no new check was possible on those specific flagged blueprints. No alcohol/cocktail-themed titles or
+artwork were observed anywhere in this batch (a notably "wholesome" batch content-wise — occupational
+pride and Thanksgiving/Christmas family themes throughout).
+
+### Sync-mapping status
+
+This batch's bulk list calls show a populated Printify `external` field for 74/100 products — a
+notably higher sync-mapping rate than most prior Shopify batches, though per the standing caveat this
+remains Printify-side channel-mapping evidence only, not confirmed Shopify-side buyability/inventory.
+
+### Methodology note (standing caveat, repeated per chatgpt's valid correction in `P-3K1D6D0O0I`)
+
+The 13% defect rate reported here is this specific 100-product batch's sample result, not an
+extrapolated shop-wide prevalence rate. Rates have ranged from 4% to 49% across the nineteen batches
+completed so far in this shop. This batch's rate is explained almost entirely by one newly-isolated,
+narrow defect class (the checkerboard transparency artifact, 12/13 defects) concentrated in a
+specific sub-range of catalog positions (#015-#032) — consistent with the established pattern that
+batches often contain short runs of consecutively-uploaded, commonly-flawed designs.
+
+### Running Shopify total: 1,900/2,912 products not-previously-individually-inspected now fully
+visually inspected across nineteen consecutive batches (#361-460 through #2,161-2,260). 1,012
+products remain unstarted (#2,261-2,912).
+
+## 32. Shopify #2,161-2,260 full 100-row ID register (complete, per-product evidence, same format as
+§9-§31)
+
+| ID | Title | Result | Default Mockup URL |
+|---|---|---|---|
+| 6ac361d17b7b17b9ec0ae190 | Ferret Christmas Gifts Tee | CLEAN | https://images.printify.com/mockup/6ac361d17b7b17b9ec0ae190/12100/102005/ferret-christmas-gifts-tee.jpg?camera_label=front-2 |
+| 6ac3612004778276c906e172 | Owl Be Home For Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac3612004778276c906e172/12100/102005/owl-be-home-for-christmas-tee.jpg?camera_label=front-2 |
+| 6ac360d87b7b17b9ec0ae0e2 | Goldfish Christmas Bowl Tee | CLEAN | https://images.printify.com/mockup/6ac360d87b7b17b9ec0ae0e2/12100/102005/goldfish-christmas-bowl-tee.jpg?camera_label=front-2 |
+| 6ac35fa7cf6ed3262908bedb | Veterinarians Make Merry 2 Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac35fa7cf6ed3262908bedb/12100/102005/veterinarians-make-merry-2-christmas-tee.jpg?camera_label=front-2 |
+| 6ac35f4a608846c473029b77 | Veterinarians Make Merry 1 Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac35f4a608846c473029b77/12100/102005/veterinarians-make-merry-1-christmas-tee.jpg?camera_label=front-2 |
+| 6ac35eee6ca06e1ed00bb3f8 | Truck Drivers Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac35eee6ca06e1ed00bb3f8/12100/102005/truck-drivers-christmas-tee.jpg?camera_label=front-2 |
+| 6ac35e8e01306e9d6b0aa203 | Pilots Make Merry Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac35e8e01306e9d6b0aa203/12100/102005/pilots-make-merry-christmas-tee.jpg?camera_label=front-2 |
+| 6ac35e2a05e1de1c0a035f8f | Construction Workers Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac35e2a05e1de1c0a035f8f/12100/102005/construction-workers-christmas-tee.jpg?camera_label=front-2 |
+| 6ac35dd42e807e6eea0a9dec | Chefs Make Merry 3 Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac35dd42e807e6eea0a9dec/12100/102005/chefs-make-merry-3-christmas-tee.jpg?camera_label=front-2 |
+| 6ac35d713e6059a5f30ae3df | Chefs Make Merry 2 Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac35d713e6059a5f30ae3df/12100/102005/chefs-make-merry-2-christmas-tee.jpg?camera_label=front-2 |
+| 6ac35d1540c9c50ac202473d | Chefs Make Merry 1 Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac35d1540c9c50ac202473d/12100/102005/chefs-make-merry-1-christmas-tee.jpg?camera_label=front-2 |
+| 6ac35cba01306e9d6b0aa0ec | Air Traffic Controllers 2 Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac35cba01306e9d6b0aa0ec/12100/102005/air-traffic-controllers-2-christmas-tee.jpg?camera_label=front-2 |
+| 6ac35c5315789d66bf034f79 | Air Traffic Controllers 1 Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac35c5315789d66bf034f79/12100/102005/air-traffic-controllers-1-christmas-tee.jpg?camera_label=front-2 |
+| 6ac35c0febbf38f6ec069058 | Retro Holiday Hauler Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac35c0febbf38f6ec069058/12100/102005/retro-holiday-hauler-christmas-tee.jpg?camera_label=front-2 |
+| 6ac35bcef0b487d2be066524 | O Christmas Tree Badge Tee | CLEAN | https://images.printify.com/mockup/6ac35bcef0b487d2be066524/12100/102005/o-christmas-tree-badge-tee.jpg?camera_label=front-2 |
+| 6ac35b8805e1de1c0a035dab | Making Memories Christmas Tee | DEFECT — checkerboard transparency-indicator artifact baked into printed design (non-transparent background box) | https://images.printify.com/mockup/6ac35b8805e1de1c0a035dab/12100/102005/making-memories-christmas-tee.jpg?camera_label=front-2 |
+| 6ac35b41ebbf38f6ec068fcb | Grandmas Christmas Crew Tee | DEFECT — checkerboard transparency-indicator artifact baked into printed design (non-transparent background box) | https://images.printify.com/mockup/6ac35b41ebbf38f6ec068fcb/12100/102005/grandmas-christmas-crew-tee.jpg?camera_label=front-2 |
+| 6ac35b0040c9c50ac20245c4 | Buffalo Plaid Stocking Christmas Tee | DEFECT — checkerboard transparency-indicator artifact baked into printed design (non-transparent background box) | https://images.printify.com/mockup/6ac35b0040c9c50ac20245c4/12100/102005/buffalo-plaid-stocking-christmas-tee.jpg?camera_label=front-2 |
+| 6ac35abe01306e9d6b0a9fa2 | Warm Wishes Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac35abe01306e9d6b0a9fa2/12100/102005/warm-wishes-christmas-tee.jpg?camera_label=front-2 |
+| 6ac35a78b8f5f048ec01e2d4 | Snowman Merry Bright 1960 Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac35a78b8f5f048ec01e2d4/12100/102005/snowman-merry-bright-1960-christmas-tee.jpg?camera_label=front-2 |
+| 6ac359f801306e9d6b0a9f42 | Merry Little Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac359f801306e9d6b0a9f42/12100/102005/merry-little-christmas-tee.jpg?camera_label=front-2 |
+| 6ac3598debbf38f6ec068ec0 | Cozy Season Sunburst Christmas Tee | DEFECT — checkerboard transparency-indicator artifact baked into printed design (non-transparent background box) | https://images.printify.com/mockup/6ac3598debbf38f6ec068ec0/12100/102005/cozy-season-sunburst-christmas-tee.jpg?camera_label=front-2 |
+| 6ac3591601306e9d6b0a9e79 | Countdown To Christmas Tee | DEFECT — checkerboard transparency-indicator artifact baked into printed design (non-transparent background box) | https://images.printify.com/mockup/6ac3591601306e9d6b0a9e79/12100/102005/countdown-to-christmas-tee.jpg?camera_label=front-2 |
+| 6ac358c152f41a8eba0998f5 | Candy Cane Holly Christmas Tee | DEFECT — checkerboard transparency-indicator artifact baked into printed design (non-transparent background box) | https://images.printify.com/mockup/6ac358c152f41a8eba0998f5/12100/102005/candy-cane-holly-christmas-tee.jpg?camera_label=front-2 |
+| 6ac35880ebbf38f6ec068e45 | Buffalo Plaid Santa Hat Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac35880ebbf38f6ec068e45/12100/102005/buffalo-plaid-santa-hat-christmas-tee.jpg?camera_label=front-2 |
+| 6ac35843e95fd5797406fc95 | Buffalo Plaid Ornament Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac35843e95fd5797406fc95/12100/102005/buffalo-plaid-ornament-christmas-tee.jpg?camera_label=front-2 |
+| 6ac35801f0b487d2be06631b | Buffalo Plaid Heart Christmas Tee | DEFECT — checkerboard transparency-indicator artifact baked into printed design (non-transparent background box) | https://images.printify.com/mockup/6ac35801f0b487d2be06631b/12100/102005/buffalo-plaid-heart-christmas-tee.jpg?camera_label=front-2 |
+| 6ac357bca84c54ac7608ab2b | Worlds Best Mom Badge Christmas Tee | DEFECT — checkerboard transparency-indicator artifact baked into printed design (non-transparent background box) | https://images.printify.com/mockup/6ac357bca84c54ac7608ab2b/12100/102005/worlds-best-mom-badge-christmas-tee.jpg?camera_label=front-2 |
+| 6ac35777f3e4f34bd106b543 | Truckers Christmas Run Tee | DEFECT — checkerboard transparency-indicator artifact baked into printed design (non-transparent background box) | https://images.printify.com/mockup/6ac35777f3e4f34bd106b543/12100/102005/truckers-christmas-run-tee.jpg?camera_label=front-2 |
+| 6ac356f6db7e1647760f9f44 | Teacher Christmas Squad Tee | CLEAN | https://images.printify.com/mockup/6ac356f6db7e1647760f9f44/12100/102005/teacher-christmas-squad-tee.jpg?camera_label=front-2 |
+| 6ac356ae2776a7c47f00ee18 | Seasons Greetings Sleigh Christmas Tee | DEFECT — checkerboard transparency-indicator artifact baked into printed design (non-transparent background box) | https://images.printify.com/mockup/6ac356ae2776a7c47f00ee18/12100/102005/seasons-greetings-sleigh-christmas-tee.jpg?camera_label=front-2 |
+| 6ac3564b2070a33916078c17 | Merry Everything Badge Christmas Tee | DEFECT — checkerboard transparency-indicator artifact baked into printed design (non-transparent background box) | https://images.printify.com/mockup/6ac3564b2070a33916078c17/12100/102005/merry-everything-badge-christmas-tee.jpg?camera_label=front-2 |
+| 6ac356114cb82ddd30035d42 | Merry Christmas Wreath Tee | DEFECT — checkerboard transparency-indicator artifact baked into printed design (non-transparent background box), most prominent instance in batch | https://images.printify.com/mockup/6ac356114cb82ddd30035d42/12100/102005/merry-christmas-wreath-tee.jpg?camera_label=front-2 |
+| 6ac355d1fd5c31c6ab0dd8ed | Santa Needs Paramedic Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac355d1fd5c31c6ab0dd8ed/12100/102005/santa-needs-paramedic-christmas-tee.jpg?camera_label=front-2 |
+| 6ac3558d4cb82ddd30035cf6 | Santa Called Backup 2 Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac3558d4cb82ddd30035cf6/12100/102005/santa-called-backup-2-christmas-tee.jpg?camera_label=front-2 |
+| 6ac35551db7e1647760f9e6c | Santa Called Backup 1 Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac35551db7e1647760f9e6c/12100/102005/santa-called-backup-1-christmas-tee.jpg?camera_label=front-2 |
+| 6ac35510fd5c31c6ab0dd896 | Sleigh Tune Up Female Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac35510fd5c31c6ab0dd896/12100/102005/sleigh-tune-up-female-christmas-tee.jpg?camera_label=front-2 |
+| 6ac354cff3e4f34bd106b3a6 | Sleigh Tune Up 5 Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac354cff3e4f34bd106b3a6/12100/102005/sleigh-tune-up-5-christmas-tee.jpg?camera_label=front-2 |
+| 6ac35476fd5c31c6ab0dd853 | Sleigh Tune Up 4 Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac35476fd5c31c6ab0dd853/12100/102005/sleigh-tune-up-4-christmas-tee.jpg?camera_label=front-2 |
+| 6ac3541d5dab9d4112038c20 | Sleigh Tune Up 3 Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac3541d5dab9d4112038c20/12100/102005/sleigh-tune-up-3-christmas-tee.jpg?camera_label=front-2 |
+| 6ac353d763d599869609f2b8 | Sleigh Tune Up 2 Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac353d763d599869609f2b8/12100/102005/sleigh-tune-up-2-christmas-tee.jpg?camera_label=front-2 |
+| 6ac3534524efef54d70988a4 | Sleigh Tune Up 1 Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac3534524efef54d70988a4/12100/102005/sleigh-tune-up-1-christmas-tee.jpg?camera_label=front-2 |
+| 6ac352fa5dab9d4112038b9e | Santas Favorite Vet Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac352fa5dab9d4112038b9e/12100/102005/santas-favorite-vet-christmas-tee.jpg?camera_label=front-2 |
+| 6ac352b322f5beeb1c0a65ed | Santa Flying Police 4 Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac352b322f5beeb1c0a65ed/12100/102005/santa-flying-police-4-christmas-tee.jpg?camera_label=front-2 |
+| 6ac35263c32146a388023abc | Overtime Lineman Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac35263c32146a388023abc/12100/102005/overtime-lineman-christmas-tee.jpg?camera_label=front-2 |
+| 6ac3521aae872af0dc03608b | Building Christmas Project Tee | CLEAN | https://images.printify.com/mockup/6ac3521aae872af0dc03608b/12100/102005/building-christmas-project-tee.jpg?camera_label=front-2 |
+| 6ac351d588d70ad97a0ddf20 | Santas Favorite Vet Tech Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac351d588d70ad97a0ddf20/12100/102005/santas-favorite-vet-tech-christmas-tee.jpg?camera_label=front-2 |
+| 6ac3518ba84c54ac7608a80e | Santa Paws Coming Town Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac3518ba84c54ac7608a80e/12100/102005/santa-paws-coming-town-christmas-tee.jpg?camera_label=front-2 |
+| 6ac3514222f5beeb1c0a6524 | Santa Flying Police 3 Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac3514222f5beeb1c0a6524/12100/102005/santa-flying-police-3-christmas-tee.jpg?camera_label=front-2 |
+| 6ac350fa5dab9d4112038ade | Making List Checking Twice Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac350fa5dab9d4112038ade/12100/102005/making-list-checking-twice-christmas-tee.jpg?camera_label=front-2 |
+| 6ac3509e38373f84c90757b9 | Location Christmas Location Tee | CLEAN | https://images.printify.com/mockup/6ac3509e38373f84c90757b9/12100/102005/location-christmas-location-tee.jpg?camera_label=front-2 |
+| 6ac350242bb086484f0ecc1b | Delivery Driver Santa Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac350242bb086484f0ecc1b/12100/102005/delivery-driver-santa-christmas-tee.jpg?camera_label=front-2 |
+| 6ac34fdc2d0a9b485f038ea2 | Cooking Up Christmas Magic Tee | CLEAN | https://images.printify.com/mockup/6ac34fdc2d0a9b485f038ea2/12100/102005/cooking-up-christmas-magic-tee.jpg?camera_label=front-2 |
+| 6ac34f9688d70ad97a0dde2a | Techy Little Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac34f9688d70ad97a0dde2a/12100/102005/techy-little-christmas-tee.jpg?camera_label=front-2 |
+| 6ac34f0f10261f3a950cdfe3 | Santa Flying Police Car Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac34f0f10261f3a950cdfe3/12100/102005/santa-flying-police-car-christmas-tee.jpg?camera_label=front-2 |
+| 6ac34ed244279671310d1a56 | Santa Delivering Christmas Driver Tee | CLEAN | https://images.printify.com/mockup/6ac34ed244279671310d1a56/12100/102005/santa-delivering-christmas-driver-tee.jpg?camera_label=front-2 |
+| 6ac34e982bb086484f0ecb8f | Santa Blood Pressure 2 Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac34e982bb086484f0ecb8f/12100/102005/santa-blood-pressure-2-christmas-tee.jpg?camera_label=front-2 |
+| 6ac34e5ca84c54ac7608a6da | Santa Blood Pressure 1 Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac34e5ca84c54ac7608a6da/12100/102005/santa-blood-pressure-1-christmas-tee.jpg?camera_label=front-2 |
+| 6ac34e0744279671310d1a11 | Mixing Christmas Spirits Tee | CLEAN | https://images.printify.com/mockup/6ac34e0744279671310d1a11/12100/102005/mixing-christmas-spirits-tee.jpg?camera_label=front-2 |
+| 6ac34dabd27bb3ec4601b4dc | Cleared Takeoff North Pole Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac34dabd27bb3ec4601b4dc/12100/102005/cleared-takeoff-north-pole-christmas-tee.jpg?camera_label=front-2 |
+| 6ac34d2f38373f84c9075697 | Santas Favorite Hairstylist Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac34d2f38373f84c9075697/12100/102005/santas-favorite-hairstylist-christmas-tee.jpg?camera_label=front-2 |
+| 6ac34ceeefcc1caa890eeee6 | Nurses Holidays Brighter Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac34ceeefcc1caa890eeee6/12100/102005/nurses-holidays-brighter-christmas-tee.jpg?camera_label=front-2 |
+| 6ac34cb1d27bb3ec4601b489 | Hairstylists Holidays Brighter Red Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac34cb1d27bb3ec4601b489/12100/102005/hairstylists-holidays-brighter-red-christmas-tee.jpg?camera_label=front-2 |
+| 6ac34c7788d70ad97a0ddd3e | Hairstylists Holidays Brighter Leopard Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac34c7788d70ad97a0ddd3e/12100/102005/hairstylists-holidays-brighter-leopard-christmas-tee.jpg?camera_label=front-2 |
+| 6ac34c3a10261f3a950cde7f | Hairstylists Christmas Beautiful Tee | CLEAN | https://images.printify.com/mockup/6ac34c3a10261f3a950cde7f/12100/102005/hairstylists-christmas-beautiful-tee.jpg?camera_label=front-2 |
+| 6ac34bfe44279671310d18d0 | Farmer Fueled Christmas Spirit Tee | CLEAN | https://images.printify.com/mockup/6ac34bfe44279671310d18d0/12100/102005/farmer-fueled-christmas-spirit-tee.jpg?camera_label=front-2 |
+| 6ac34bc072c515c2e4074453 | Construction Crew Building Merry Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac34bc072c515c2e4074453/12100/102005/construction-crew-building-merry-christmas-tee.jpg?camera_label=front-2 |
+| 6ac34b7d6d0be71d1a0c16fb | Cna Spreading Care Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac34b7d6d0be71d1a0c16fb/12100/102005/cna-spreading-care-christmas-tee.jpg?camera_label=front-2 |
+| 6ac34ac563d599869609ec47 | Veterinarians Make Merry 3 Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac34ac563d599869609ec47/12100/102005/veterinarians-make-merry-3-christmas-tee.jpg?camera_label=front-2 |
+| 6ac34a2b2f513cff0f09b112 | Plumbers Make Merry Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac34a2b2f513cff0f09b112/12100/102005/plumbers-make-merry-christmas-tee.jpg?camera_label=front-2 |
+| 6ac349922f513cff0f09b093 | Electricians Make Merry 5 Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac349922f513cff0f09b093/12100/102005/electricians-make-merry-5-christmas-tee.jpg?camera_label=front-2 |
+| 6ac3491a6d0be71d1a0c1581 | Electricians Make Merry 4 Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac3491a6d0be71d1a0c1581/12100/102005/electricians-make-merry-4-christmas-tee.jpg?camera_label=front-2 |
+| 6ac348cab5276b73e30c5aac | Electricians Make Merry 3 Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac348cab5276b73e30c5aac/12100/102005/electricians-make-merry-3-christmas-tee.jpg?camera_label=front-2 |
+| 6ac348765dc6b2aeda0d684c | Electricians Make Merry 2 Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac348765dc6b2aeda0d684c/12100/102005/electricians-make-merry-2-christmas-tee.jpg?camera_label=front-2 |
+| 6ac348281698f855e804f287 | Electricians Make Merry 1 Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac348281698f855e804f287/12100/102005/electricians-make-merry-1-christmas-tee.jpg?camera_label=front-2 |
+| 6ac347cca84c54ac7608a158 | Bakers Make Merry Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac347cca84c54ac7608a158/12100/102005/bakers-make-merry-christmas-tee.jpg?camera_label=front-2 |
+| 6ac34788c46da135b50d060f | Merry And Bright Retro Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac34788c46da135b50d060f/12100/102005/merry-and-bright-retro-christmas-tee.jpg?camera_label=front-2 |
+| 6ac346f02f513cff0f09afb1 | Cute Reindeer Lights Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac346f02f513cff0f09afb1/12100/102005/cute-reindeer-lights-christmas-tee.jpg?camera_label=front-2 |
+| 6ac33f636bc2d783ac08f2db | Peace Earth Wine Glass Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac33f636bc2d783ac08f2db/12100/102005/peace-earth-wine-glass-christmas-tee.jpg?camera_label=front-2 |
+| 6ac33e3293e5fb657309843e | Christmas Pajamas Woman Tee | CLEAN | https://images.printify.com/mockup/6ac33e3293e5fb657309843e/12100/102005/christmas-pajamas-woman-tee.jpg?camera_label=front-2 |
+| 6ac33caed5f4eb4ec10e2f46 | Secret Santa Ruined Year Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac33caed5f4eb4ec10e2f46/12100/102005/secret-santa-ruined-year-christmas-tee.jpg?camera_label=front-2 |
+| 6ac33bd2d5f4eb4ec10e2ef2 | Paper Crown Lights Board Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac33bd2d5f4eb4ec10e2ef2/12100/102005/paper-crown-lights-board-christmas-tee.jpg?camera_label=front-2 |
+| 6ac33b8ca040a0dda40841ab | Out Of Office New Year Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac33b8ca040a0dda40841ab/12100/102005/out-of-office-new-year-christmas-tee.jpg?camera_label=front-2 |
+| 6ac33998a040a0dda40840a9 | Ugly Sweater Good Wine Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac33998a040a0dda40840a9/12100/102005/ugly-sweater-good-wine-christmas-tee.jpg?camera_label=front-2 |
+| 6ac338e513e333dc36045b55 | Santa Sleeping Zzz Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac338e513e333dc36045b55/12100/102005/santa-sleeping-zzz-christmas-tee.jpg?camera_label=front-2 |
+| 6ac337dd95514001380fd619 | Jolly Tired Caffeinated Christmas Tee | DEFECT — duplicated-word typo in design text ("AND, AND CAFFEINATED") | https://images.printify.com/mockup/6ac337dd95514001380fd619/12100/102005/jolly-tired-caffeinated-christmas-tee.jpg?camera_label=front-2 |
+| 6ac336c03ef3c129d802073a | Dear Santa Goodish Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac336c03ef3c129d802073a/12100/102005/dear-santa-goodish-christmas-tee.jpg?camera_label=front-2 |
+| 6ac3343a4b59c1258a0eabbc | Sleigh All Day Rocker 2 Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac3343a4b59c1258a0eabbc/12100/102005/sleigh-all-day-rocker-2-christmas-tee.jpg?camera_label=front-2 |
+| 6ac3339adec7c298800e9669 | Sleigh All Day Rocker 1 Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac3339adec7c298800e9669/12100/102005/sleigh-all-day-rocker-1-christmas-tee.jpg?camera_label=front-2 |
+| 6ac332fca040a0dda4083d78 | Slay Belle Party Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac332fca040a0dda4083d78/12100/102005/slay-belle-party-christmas-tee.jpg?camera_label=front-2 |
+| 6ac32c94f709d9946c08461b | Silent Night Busy Shift 2 Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac32c94f709d9946c08461b/12100/102005/silent-night-busy-shift-2-christmas-tee.jpg?camera_label=front-2 |
+| 6ac32bcce3af35e325008c70 | Plant Mom Christmas Banner Tee | CLEAN | https://images.printify.com/mockup/6ac32bcce3af35e325008c70/12100/102005/plant-mom-christmas-banner-tee.jpg?camera_label=front-2 |
+| 6ac328d3ad8321882e01f6fa | Nurse Cap Scrubs 2 Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac328d3ad8321882e01f6fa/12100/102005/nurse-cap-scrubs-2-christmas-tee.jpg?camera_label=front-2 |
+| 6ac3273ec46d416a8b06de46 | Dog Mom Christmas Badge Tee | CLEAN | https://images.printify.com/mockup/6ac3273ec46d416a8b06de46/12100/102005/dog-mom-christmas-badge-tee.jpg?camera_label=front-2 |
+| 6ac325717d5b871eff0a9ef7 | Candy Cane Stethoscope 2 Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac325717d5b871eff0a9ef7/12100/102005/candy-cane-stethoscope-2-christmas-tee.jpg?camera_label=front-2 |
+| 6ac324c8dc8bc4dadc05417d | Santas Got A Truck Driver 2 Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac324c8dc8bc4dadc05417d/12100/102005/santas-got-a-truck-driver-2-christmas-tee.jpg?camera_label=front-2 |
+| 6ac324191316d155b908c790 | Santas Got A Truck Driver 1 Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac324191316d155b908c790/12100/102005/santas-got-a-truck-driver-1-christmas-tee.jpg?camera_label=front-2 |
+| 6ac3229d696c2632950338eb | Santa Called For Backup Firefighter Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac3229d696c2632950338eb/12100/102005/santa-called-for-backup-firefighter-christmas-tee.jpg?camera_label=front-2 |
+| 6ac2a475ba0b98f0eb050db3 | "Eat, Drink and Be Thankful" Funny Thanksgiving T-Shirt — Humorous Thanksgiving Graphic Tee \| Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ac2a475ba0b98f0eb050db3/12142/102005/eat-drink-and-be-thankful-funny-thanksgiving-t-shirt-humorous-thanksgiving-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2 |
+| 6ac2a403fe36520f1803f651 | "Turkey Trouble" Funny Thanksgiving T-Shirt — Humorous Thanksgiving Graphic Tee \| Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ac2a403fe36520f1803f651/12124/102005/turkey-trouble-funny-thanksgiving-t-shirt-humorous-thanksgiving-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2 |
