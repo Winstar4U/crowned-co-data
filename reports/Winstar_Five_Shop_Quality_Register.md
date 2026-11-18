@@ -194,7 +194,8 @@ closer look given the similar title, but confirmed NOT a third duplicate once th
 | #261-360 | Metadata (100/100) + sync (9 IDs) + 6 images viewed | T-2Q310Z6F4J (this session) |
 | #361-460 | **Full visual inspection (100/100), see §8f** — 30/100 confirmed defects, 2 true duplicates | T-33172S0T0O (this session) |
 | #461-560 | **Full visual inspection (100/100), see §8g** — 46/100 confirmed defects (highest rate yet), 1 true duplicate pair | T-3F0A655857 (this session) |
-| #561-2,429 | **NOT STARTED** (1,869 products) | Next batch(es) |
+| #561-660 | **Full visual inspection (100/100), see §8h** — 21/100 confirmed defects, 0 true duplicate pairs | T-361W5U3Q3Q (this session) |
+| #661-2,429 | **NOT STARTED** (1,769 products) | Next batch(es) |
 
 ## 8. Next eligible batch (for whichever session/dispatcher firing picks this up next)
 
@@ -1161,6 +1162,100 @@ Printify-mapping-only caveat applied throughout this register.
 **No live writes were made.** All findings above are documentation only; no publish/unpublish/price/
 inventory/delete action was taken on any of these 100 products.
 
+## 8h. Shopify shop (26418699, Winstar4U) #561-660 — third full-visual-inspection batch: 100/100
+## visually inspected, 21/100 confirmed defects — lowest rate of the three Shopify batches so far (2026-11-18, this session)
+
+**Third consecutive full-visual Shopify batch, and the first with a different blueprint mix: this range is
+dominated by Mouse Pad (50), Baby Onesie (23), and Women's T-Shirt (19), with only 3 Laptop Sleeve and 5
+Youth Hoodie. This batch sharpens the §8f/§8g finding further: the print-window-cropping defect is a
+function of print-area size relative to source artwork, not a fixed per-blueprint rule — Mouse Pad's large
+circular print area and apparel's large chest area are both far more forgiving than Backpack/Laptop
+Sleeve, but neither is fully immune when a design runs 3+ lines of large display text close to the
+printable edge.**
+
+### Blueprint-by-blueprint defect rates this batch
+
+| Blueprint | Count this batch | Confirmed defects | Rate |
+|---|---|---|---|
+| Baby Onesie (568) | 23 | 10 | **43.5%** |
+| Mouse Pad (582) | 50 | 7 | 14% |
+| Laptop Sleeve (429) | 3 | 1 | 33% |
+| Women's T-Shirt (9) | 19 | 3 | 15.8% |
+| Youth Hoodie (2005) | 5 | 0 | 0% |
+
+Dozens of designs already confirmed defective on Backpack and/or Laptop Sleeve in §8f/§8g were re-checked
+here on Mouse Pad, Baby Onesie, and T-shirt, and the large majority printed completely clean on these
+blueprints — direct confirmation that the fault is the fixed print window, not the source artwork. Examples
+re-verified clean here: "Glory To God," "Hallelujah Angels," "Christ Is Born," "God Bless Christmas,"
+"Dear Santa, I Can Explain," "Elegantly Wasted Martini," "Rejoice," "Christmas Lights Are My Therapy," "My
+Bank Account Says No" — all of which had missing or severely cropped text on Backpack/Laptop Sleeve in the
+prior two batches.
+
+**Baby Onesie is the most defect-prone blueprint found this batch (43.5%)** — its usable print area sits
+in a narrow band below the neckline/collar seam, so any design with a 2-3 line title runs into the same
+top-of-field cropping pattern as Backpack, e.g. "Christmas 2026: 50% Caffeine..." (top line cropped at the
+collar), "Calories Don't Count Between Thanksgiving..." (the word "CALORIES" itself missing/cropped above
+the visible area), "Santa, I Can Explain" (title arc clipped to illegibility at the neckline).
+
+**Mouse Pad is comparatively forgiving (14%)** — its large circular print area let most 3-4-line designs
+fit with margin — but is not immune: "Currently Avoiding Carolers" lost its first and last lines entirely
+(top and bottom both cropped by the circular edge), and two milder cases show text just touching the top
+edge. The only Women's T-Shirt defect involving actual cropping was "Happy Holidays" (the word "HAPPY"
+itself cropped at the neckline) — otherwise T-shirt and Youth Hoodie were effectively clean, consistent
+with apparel's much larger print area relative to nearly every design checked.
+
+### Recurring non-cropping source-art defects (same bad assets reused across blueprints, continuing the pattern from §8g)
+
+- **Unrendered-transparency checkerboard artifact** ("Santa's Favorite Distraction" design): now confirmed
+  on a 4th blueprint this batch (Baby Onesie, `6ac714820ed8f1657605f396`), in addition to the Laptop
+  Sleeve/T-shirt/Fleece Zip-Up occurrences already logged in §8g. A visibly milder version of the same
+  underlying asset problem also appears as a small checkerboard patch on the "Christmas Party Survivor"
+  Mouse Pad (`6ac7148857527ce5fd019877`).
+- **Unfinished receipt-graphic placeholder text** ("Santa's Favorite Customer VIP" design): a 3rd
+  occurrence (Baby Onesie, `6ac7147e83f1a0e50d071e7a`) of the literal "PRICE" placeholder text already
+  logged in §8g.
+- **Blank sign/banner placeholder (no text rendered)**: now confirmed on 4 more products this batch — two
+  Mouse Pads ("Ho Ho Pour Another" `6ac714eba5ade89b5c0810e2`, "Jingle All The Way"
+  `6ac714f835cf3f6ec802eba3`) and two T-shirts ("Candy Cane Lane" `6ac714e26f976358160c4915`, "Christmas
+  Time" `6ac7151a7be9df884b032edd`) — the same failure mode first logged in §8f's "Candy Cane Lane"
+  finding. This is now confirmed as a recurring template-level issue (a banner/sign graphic element with no
+  text ever composited onto it), not a one-off, and affects multiple distinct character designs.
+- **Truncated listing titles** (SEO defect, not visual — each product's own mockup is clean): 3 more
+  confirmed this batch (`6ac714e5c077332834034e7b` "Christmas Wishes Sta...", `6ac715080ed8f1657605f3ed`
+  "Merry Christmas Sant...", `6ac714e2ed135347800f9c94` "Thankful Grateful Blesse..."), all pre-existing
+  titles whose full/correct wording is confirmed by viewing the actual artwork, which is complete and not
+  truncated — the bug is isolated to the title-generation/import step.
+
+### Duplicate-candidate groups checked and ruled OUT
+
+- "Christmas Eat No January" vs "...V2" (Mouse Pad, `6ac7147735cf3f6ec802eb62` /
+  `6ac71474a5ade89b5c0810a6`): different filenames AND visibly distinct food/illustration arrangement —
+  ruled OUT.
+- "Dear Santa Explain" vs "Dear Santa Explain Santa" (Mouse Pad, `6ac714a242c818a1ad096073` /
+  `6ac7149fa5ade89b5c0810b0`): genuinely distinct illustrations (checklist-clipboard Santa vs.
+  shushing-Santa-with-naughty-list) — ruled OUT, consistent with the same pair's prior ruling on Button Pin
+  in §8f.
+- "Naughty List Skeleton" (T-shirt, `6ac714d47be9df884b032eb9`) vs. the confirmed "Naughty List Skeleton /
+  V2" true-duplicate pair already logged on Backpack (§8f) and Laptop Sleeve (§8g): this T-shirt's
+  illustration (skeleton holding a martini glass, banner reading "Maybe I liked being on the naughty list")
+  is completely different art from the duplicate pair's banner-and-ribcage design — ruled OUT. Confirms
+  again that shared title phrasing is not reliable evidence of duplication either way.
+
+**0 confirmed true duplicate pairs found in this batch** (vs. 1 each in §8f and §8g) — the title-sharing
+candidates in this range turned out to all be genuinely distinct designs on inspection.
+
+### Sync-mapping status (batch #561-660)
+
+0/100 show a populated `external` field via the bulk `include_full=true` list endpoint — consistent with
+§8f/§8g's finding that this Shopify account's list endpoint does not surface the `external` object at all
+for this shop (it requires an individual `product_id` fetch per product). This is a tooling/API-coverage
+gap, not evidence that none of these 100 products are synced to the live Shopify storefront — no claim
+about actual Shopify-side sync or buyability is made from this figure, consistent with the standing
+Printify-mapping-only caveat applied throughout this register.
+
+**No live writes were made.** All findings above are documentation only; no publish/unpublish/price/
+inventory/delete action was taken on any of these 100 products.
+
 ## 13. Etsy batch 3/3 full 97-row ID register (complete, per-product evidence, same format as §9/§10/§11/§12)
 
 Format: `Printify ID | Title | Visual result | Default mockup image URL used for inspection`.
@@ -1477,3 +1572,108 @@ individually checked per-ID this batch — see §8f sync-mapping note.
 | 6ac715217be9df884b032edf | Savior Born Manger Christmas Laptop Sleeve — Stylish Tech Travel Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac715217be9df884b032edf/62037/3028/savior-born-manger-christmas-laptop-sleeve-stylish-tech-travel-gift-holiday-gift-winstar4u.jpg?camera_label=front |
 | 6ac7151eb8146913210038ff | Vintage Santa Portra Christmas Women's T-Shirt — Festive Holiday Tee for Her, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7151eb8146913210038ff/17979/88/vintage-santa-portra-christmas-womens-t-shirt-festive-holiday-tee-for-her-holiday-gift-winstar4u.jpg?camera_label=front |
 | 6ac7151ded135347800f9cb7 | Rejoice Star Christmas Laptop Sleeve — Stylish Tech Travel Gift, Holiday Gift | Winstar4U | DEFECT-SEVERE (REJOICE cropped top) | https://images.printify.com/mockup/6ac7151ded135347800f9cb7/62037/3028/rejoice-star-christmas-laptop-sleeve-stylish-tech-travel-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+
+## 16. Shopify #561-660 full 100-row ID register (complete, per-product evidence, same format as §9/§10/§11/§12/§13/§14/§15)
+
+| ID | Title | Result | Default mockup image URL |
+|---|---|---|---|
+| 6ac7151a83f1a0e50d071ece | Reason For Season Christmas Laptop Sleeve — Stylish Tech Travel Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7151a83f1a0e50d071ece/62037/3028/reason-for-season-christmas-laptop-sleeve-stylish-tech-travel-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7151a7be9df884b032edd | Truck Tree Christmas Women's T-Shirt — Festive Holiday Tee for Her, Holiday Gift | Winstar4U | DEFECT (blank unfinished banner placeholder, no text) | https://images.printify.com/mockup/6ac7151a7be9df884b032edd/17979/88/truck-tree-christmas-womens-t-shirt-festive-holiday-tee-for-her-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac71517a5ade89b5c081106 | Silent Night Village Christmas Women's T-Shirt — Festive Holiday Tee for Her, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71517a5ade89b5c081106/17979/88/silent-night-village-christmas-womens-t-shirt-festive-holiday-tee-for-her-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac715160ed8f1657605f3f4 | O Holy Night Christmas Laptop Sleeve — Stylish Tech Travel Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac715160ed8f1657605f3f4/62037/3028/o-holy-night-christmas-laptop-sleeve-stylish-tech-travel-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac715130ed8f1657605f3f1 | Seasons Greetings Christmas Women's T-Shirt — Festive Holiday Tee for Her, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac715130ed8f1657605f3f1/17979/88/seasons-greetings-christmas-womens-t-shirt-festive-holiday-tee-for-her-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac71510ed135347800f9cad | Peace On Earth Christmas Women's T-Shirt — Festive Holiday Tee for Her, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71510ed135347800f9cad/17979/88/peace-on-earth-christmas-womens-t-shirt-festive-holiday-tee-for-her-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7150d7be9df884b032ed5 | Keep Christ Christmas Christmas Laptop Sleeve — Stylish Tech Travel Gift, Holiday Gift | Winstar4U | DEFECT (top line KEEP CHRIST cropped, only slivers visible) | https://images.printify.com/mockup/6ac7150d7be9df884b032ed5/62037/3028/keep-christ-christmas-christmas-laptop-sleeve-stylish-tech-travel-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7150c7be9df884b032ed4 | Noel Elegant Christmas Women's T-Shirt — Festive Holiday Tee for Her, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7150c7be9df884b032ed4/17979/88/noel-elegant-christmas-womens-t-shirt-festive-holiday-tee-for-her-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7150aa5ade89b5c0810fb | Morning Person Dec25 Skeleton Christmas Mouse Pad — Funny Desk Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7150aa5ade89b5c0810fb/71665/12240/morning-person-dec25-skeleton-christmas-mouse-pad-funny-desk-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac715080ed8f1657605f3ed | Merry Christmas Sant Christmas Women's T-Shirt — Festive Holiday Tee for Her, Holiday Gift | Winstar4U | CLEAN image, confirms title truncation (Merry Christmas Sant) is a metadata-only bug | https://images.printify.com/mockup/6ac715080ed8f1657605f3ed/17979/88/merry-christmas-sant-christmas-womens-t-shirt-festive-holiday-tee-for-her-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac71506fb1d11d19e03716d | Merry Everything Happy Always Christmas Mouse Pad — Funny Desk Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71506fb1d11d19e03716d/71665/12240/merry-everything-happy-always-christmas-mouse-pad-funny-desk-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac71505a5ade89b5c0810f7 | Merry Bright Lights Christmas Women's T-Shirt — Festive Holiday Tee for Her, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71505a5ade89b5c0810f7/17979/88/merry-bright-lights-christmas-womens-t-shirt-festive-holiday-tee-for-her-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac71502c077332834034e88 | Merry Christmas Lets Get Lit Christmas Mouse Pad — Funny Desk Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71502c077332834034e88/71665/12240/merry-christmas-lets-get-lit-christmas-mouse-pad-funny-desk-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac71501fa3cae10170efc2c | Let It Snow Christmas Women's T-Shirt — Festive Holiday Tee for Her, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71501fa3cae10170efc2c/17979/88/let-it-snow-christmas-womens-t-shirt-festive-holiday-tee-for-her-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac714feb8146913210038f8 | Joy To World Christmas Women's T-Shirt — Festive Holiday Tee for Her, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac714feb8146913210038f8/17979/88/joy-to-world-christmas-womens-t-shirt-festive-holiday-tee-for-her-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac714fcfb1d11d19e037164 | Jingle Bells Santa Smells Christmas Mouse Pad — Funny Desk Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac714fcfb1d11d19e037164/71665/12240/jingle-bells-santa-smells-christmas-mouse-pad-funny-desk-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac714f835cf3f6ec802eba3 | Jingle All Way Liquor Christmas Mouse Pad — Funny Desk Gift, Holiday Gift | Winstar4U | DEFECT (blank unfinished banner placeholder, no text) | https://images.printify.com/mockup/6ac714f835cf3f6ec802eba3/71665/12240/jingle-all-way-liquor-christmas-mouse-pad-funny-desk-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac714f7ed135347800f9c9c | Jingle Bells Christmas Women's T-Shirt — Festive Holiday Tee for Her, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac714f7ed135347800f9c9c/17979/88/jingle-bells-christmas-womens-t-shirt-festive-holiday-tee-for-her-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac714f5b8146913210038f3 | Ill Be Home Christmas Probably Christmas Mouse Pad — Funny Desk Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac714f5b8146913210038f3/71665/12240/ill-be-home-christmas-probably-christmas-mouse-pad-funny-desk-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac714f3a5ade89b5c0810e8 | Home For Christmas Christmas Women's T-Shirt — Festive Holiday Tee for Her, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac714f3a5ade89b5c0810e8/17979/88/home-for-christmas-christmas-womens-t-shirt-festive-holiday-tee-for-her-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac714f0b8146913210038f0 | Happy Holidays Tree Christmas Women's T-Shirt — Festive Holiday Tee for Her, Holiday Gift | Winstar4U | DEFECT (HAPPY cropped at neckline, tops of letters missing) | https://images.printify.com/mockup/6ac714f0b8146913210038f0/17979/88/happy-holidays-tree-christmas-womens-t-shirt-festive-holiday-tee-for-her-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac714eca5ade89b5c0810e3 | Fireplace Stocking Christmas Women's T-Shirt — Festive Holiday Tee for Her, Holiday Gift | Winstar4U | CLEAN, confirms the same design is fully intact on T-shirt (cropped on Laptop Sleeve as Fireplace Stocking) | https://images.printify.com/mockup/6ac714eca5ade89b5c0810e3/17979/88/fireplace-stocking-christmas-womens-t-shirt-festive-holiday-tee-for-her-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac714eba5ade89b5c0810e2 | Ho Ho Pour Another Christmas Mouse Pad — Funny Desk Gift, Holiday Gift | Winstar4U | DEFECT (blank unfinished banner placeholder, no text) | https://images.printify.com/mockup/6ac714eba5ade89b5c0810e2/71665/12240/ho-ho-pour-another-christmas-mouse-pad-funny-desk-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac714e983f1a0e50d071eb3 | Deck The Halls Christmas Women's T-Shirt — Festive Holiday Tee for Her, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac714e983f1a0e50d071eb3/17979/88/deck-the-halls-christmas-womens-t-shirt-festive-holiday-tee-for-her-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac714e883f1a0e50d071eb2 | Here For Snacks Christmas Mouse Pad — Funny Desk Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac714e883f1a0e50d071eb2/71665/12240/here-for-snacks-christmas-mouse-pad-funny-desk-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac714e5c077332834034e7b | Christmas Wishes Sta Christmas Women's T-Shirt — Festive Holiday Tee for Her, Holiday Gift | Winstar4U | CLEAN image, confirms title truncation (Christmas Wishes Sta) is a metadata-only bug | https://images.printify.com/mockup/6ac714e5c077332834034e7b/17979/88/christmas-wishes-sta-christmas-womens-t-shirt-festive-holiday-tee-for-her-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac714e5c077332834034e79 | Walk By Faith Christmas Mouse Pad — Funny Desk Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac714e5c077332834034e79/71665/12240/walk-by-faith-christmas-mouse-pad-funny-desk-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac714e2ed135347800f9c94 | Thankful Grateful Blesse Christmas Mouse Pad — Funny Desk Gift, Holiday Gift | Winstar4U | CLEAN image, confirms title truncation (Thankful Grateful Blesse) is a metadata-only bug | https://images.printify.com/mockup/6ac714e2ed135347800f9c94/71665/12240/thankful-grateful-blesse-christmas-mouse-pad-funny-desk-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac714e26f976358160c4915 | Candy Cane Lane Christmas Women's T-Shirt — Festive Holiday Tee for Her, Holiday Gift | Winstar4U | DEFECT (blank unfinished banner/sign placeholder, no text) | https://images.printify.com/mockup/6ac714e26f976358160c4915/17979/88/candy-cane-lane-christmas-womens-t-shirt-festive-holiday-tee-for-her-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac714defb1d11d19e037156 | Believe Sleigh Christmas Women's T-Shirt — Festive Holiday Tee for Her, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac714defb1d11d19e037156/17979/88/believe-sleigh-christmas-womens-t-shirt-festive-holiday-tee-for-her-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac714de7be9df884b032ec5 | Savior Born Manger Christmas Mouse Pad — Funny Desk Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac714de7be9df884b032ec5/71665/12240/savior-born-manger-christmas-mouse-pad-funny-desk-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac714dbfb1d11d19e037153 | Rejoice Star Christmas Mouse Pad — Funny Desk Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac714dbfb1d11d19e037153/71665/12240/rejoice-star-christmas-mouse-pad-funny-desk-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac714dbfb1d11d19e037152 | Naughty List Vip Christmas Women's T-Shirt — Festive Holiday Tee for Her, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac714dbfb1d11d19e037152/17979/88/naughty-list-vip-christmas-womens-t-shirt-festive-holiday-tee-for-her-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac714d86f976358160c4909 | Reason For Season Christmas Mouse Pad — Funny Desk Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac714d86f976358160c4909/71665/12240/reason-for-season-christmas-mouse-pad-funny-desk-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac714d4ed135347800f9c84 | O Holy Night Christmas Mouse Pad — Funny Desk Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac714d4ed135347800f9c84/71665/12240/o-holy-night-christmas-mouse-pad-funny-desk-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac714d47be9df884b032eb9 | Naughty List Skeleton Christmas Women's T-Shirt — Festive Holiday Tee for Her, Holiday Gift | Winstar4U | CLEAN, genuinely distinct art from the Laptop Sleeve/Backpack Naughty List Skeleton duplicate pair (martini-glass illustration, not a duplicate) | https://images.printify.com/mockup/6ac714d47be9df884b032eb9/17979/88/naughty-list-skeleton-christmas-womens-t-shirt-festive-holiday-tee-for-her-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac714d17be9df884b032eb7 | Keep Christ Christmas Christmas Mouse Pad — Funny Desk Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac714d17be9df884b032eb7/71665/12240/keep-christ-christmas-christmas-mouse-pad-funny-desk-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac714cec077332834034e69 | Joy To World Christian Christmas Mouse Pad — Funny Desk Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac714cec077332834034e69/71665/12240/joy-to-world-christian-christmas-mouse-pad-funny-desk-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac714cad0a23214d80b271d | Hallelujah Angels Christmas Mouse Pad — Funny Desk Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac714cad0a23214d80b271d/71665/12240/hallelujah-angels-christmas-mouse-pad-funny-desk-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac714c7336f83586601164c | Greatest Gift Christmas Mouse Pad — Funny Desk Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac714c7336f83586601164c/71665/12240/greatest-gift-christmas-mouse-pad-funny-desk-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac714c67be9df884b032eb3 | Walk By Faith Christmas Youth Hoodie — Cozy Kids Holiday Hoodie, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac714c67be9df884b032eb3/123105/110684/walk-by-faith-christmas-youth-hoodie-cozy-kids-holiday-hoodie-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac714c357527ce5fd01988e | God Bless Christmas Christmas Mouse Pad — Funny Desk Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac714c357527ce5fd01988e/71665/12240/god-bless-christmas-christmas-mouse-pad-funny-desk-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac714c246dd1e896e04e24a | Thankful Grateful Blesse Christmas Youth Hoodie — Cozy Kids Holiday Hoodie, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac714c246dd1e896e04e24a/123105/110684/thankful-grateful-blesse-christmas-youth-hoodie-cozy-kids-holiday-hoodie-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac714c035cf3f6ec802eb89 | Glory To God Christmas Mouse Pad — Funny Desk Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac714c035cf3f6ec802eb89/71665/12240/glory-to-god-christmas-mouse-pad-funny-desk-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac714bfa5ade89b5c0810bd | Savior Born Manger Christmas Youth Hoodie — Cozy Kids Holiday Hoodie, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac714bfa5ade89b5c0810bd/123105/110684/savior-born-manger-christmas-youth-hoodie-cozy-kids-holiday-hoodie-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac714bda5ade89b5c0810bc | Christ Is Born Christmas Mouse Pad — Funny Desk Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac714bda5ade89b5c0810bc/71665/12240/christ-is-born-christmas-mouse-pad-funny-desk-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac714bba5ade89b5c0810bb | Rejoice Star Christmas Youth Hoodie — Cozy Kids Holiday Hoodie, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac714bba5ade89b5c0810bb/123105/110684/rejoice-star-christmas-youth-hoodie-cozy-kids-holiday-hoodie-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac714bad0a23214d80b2713 | Blessed Christmas Christmas Mouse Pad — Funny Desk Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac714bad0a23214d80b2713/71665/12240/blessed-christmas-christmas-mouse-pad-funny-desk-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac714b8a4c95c48e2036363 | Reason For Season Christmas Youth Hoodie — Cozy Kids Holiday Hoodie, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac714b8a4c95c48e2036363/123105/110684/reason-for-season-christmas-youth-hoodie-cozy-kids-holiday-hoodie-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac714b6fa3cae10170efc11 | Amazing Grace Christmas Mouse Pad — Funny Desk Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac714b6fa3cae10170efc11/71665/12240/amazing-grace-christmas-mouse-pad-funny-desk-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac714b4fb1d11d19e03713f | Christmas Calories Dont Count Christmas Baby Onesie — Adorable Baby Christmas Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac714b4fb1d11d19e03713f/71076/108419/christmas-calories-dont-count-christmas-baby-onesie-adorable-baby-christmas-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac714b042c818a1ad096079 | Elegantly Wasted Martini Christmas Mouse Pad — Funny Desk Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac714b042c818a1ad096079/71665/12240/elegantly-wasted-martini-christmas-mouse-pad-funny-desk-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac714acfa3cae10170efc0a | Eggnog Recovery Skeleton Christmas Mouse Pad — Funny Desk Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac714acfa3cae10170efc0a/71665/12240/eggnog-recovery-skeleton-christmas-mouse-pad-funny-desk-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac714aaa4c95c48e203635a | Christmas 2026 Caffeine Panic Christmas Baby Onesie — Adorable Baby Christmas Gift, Holiday Gift | Winstar4U | DEFECT (top line CHRISTMAS cropped at neckline) | https://images.printify.com/mockup/6ac714aaa4c95c48e203635a/71076/108419/christmas-2026-caffeine-panic-christmas-baby-onesie-adorable-baby-christmas-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac714a9fa3cae10170efc07 | Dreaming Stress Free Christmas Christmas Mouse Pad — Funny Desk Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac714a9fa3cae10170efc07/71665/12240/dreaming-stress-free-christmas-christmas-mouse-pad-funny-desk-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac714a7b8146913210038d3 | Chic Happens Cocktail Christmas Baby Onesie — Adorable Baby Christmas Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac714a7b8146913210038d3/71076/108419/chic-happens-cocktail-christmas-baby-onesie-adorable-baby-christmas-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac714a6a4c95c48e2036358 | Deck The Halls Sit Down Christmas Mouse Pad — Funny Desk Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac714a6a4c95c48e2036358/71665/12240/deck-the-halls-sit-down-christmas-mouse-pad-funny-desk-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac714a242c818a1ad096073 | Dear Santa Explain Christmas Mouse Pad — Funny Desk Gift, Holiday Gift | Winstar4U | CLEAN, checked against Dear Santa Explain Santa below and ruled OUT as duplicate (distinct illustrations) | https://images.printify.com/mockup/6ac714a242c818a1ad096073/71665/12240/dear-santa-explain-christmas-mouse-pad-funny-desk-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac714a046dd1e896e04e23b | Calories Dont Count Thanksgiving Christmas Baby Onesie — Adorable Baby Christmas Gift, Holiday Gift | Winstar4U | DEFECT (CALORIES missing from top of phrase, cropped above neckline) | https://images.printify.com/mockup/6ac714a046dd1e896e04e23b/71076/108419/calories-dont-count-thanksgiving-christmas-baby-onesie-adorable-baby-christmas-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7149fa5ade89b5c0810b0 | Dear Santa Explain Santa Christmas Mouse Pad — Funny Desk Gift, Holiday Gift | Winstar4U | CLEAN, checked against Dear Santa Explain above and ruled OUT as duplicate (distinct illustrations) | https://images.printify.com/mockup/6ac7149fa5ade89b5c0810b0/71665/12240/dear-santa-explain-santa-christmas-mouse-pad-funny-desk-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7149db8146913210038d0 | Tree Up Patience Down Christmas Baby Onesie — Adorable Baby Christmas Gift, Holiday Gift | Winstar4U | DEFECT-MINOR (TREE UP touches/crosses neckline seam) | https://images.printify.com/mockup/6ac7149db8146913210038d0/71076/108419/tree-up-patience-down-christmas-baby-onesie-adorable-baby-christmas-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7149afb1d11d19e037136 | Too Lit Nice List Christmas Baby Onesie — Adorable Baby Christmas Gift, Holiday Gift | Winstar4U | DEFECT-MINOR (TOO LIT TO BE touches neckline) | https://images.printify.com/mockup/6ac7149afb1d11d19e037136/71076/108419/too-lit-nice-list-christmas-baby-onesie-adorable-baby-christmas-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7149946dd1e896e04e235 | Dear Santa Bank Account Christmas Mouse Pad — Funny Desk Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7149946dd1e896e04e235/71665/12240/dear-santa-bank-account-christmas-mouse-pad-funny-desk-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7149646dd1e896e04e232 | Survived Christmas Hangover Christmas Baby Onesie — Adorable Baby Christmas Gift, Holiday Gift | Winstar4U | DEFECT (faint/nearly-invisible cropped line above CHRISTMAS, likely missing I SURVIVED) | https://images.printify.com/mockup/6ac7149646dd1e896e04e232/71076/108419/survived-christmas-hangover-christmas-baby-onesie-adorable-baby-christmas-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7149542c818a1ad09606f | Corkscrew Wine Repeat Christmas Mouse Pad — Funny Desk Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7149542c818a1ad09606f/71665/12240/corkscrew-wine-repeat-christmas-mouse-pad-funny-desk-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac714930ed8f1657605f3a4 | Sleigh All Day Christmas Baby Onesie — Adorable Baby Christmas Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac714930ed8f1657605f3a4/71076/108419/sleigh-all-day-christmas-baby-onesie-adorable-baby-christmas-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7149235cf3f6ec802eb71 | Christmas Wreath 2026 Christmas Mouse Pad — Funny Desk Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7149235cf3f6ec802eb71/71665/12240/christmas-wreath-2026-christmas-mouse-pad-funny-desk-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7148ffb1d11d19e037130 | Christmas Vacation Canceled Christmas Mouse Pad — Funny Desk Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7148ffb1d11d19e037130/71665/12240/christmas-vacation-canceled-christmas-mouse-pad-funny-desk-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7148ba005c19c550d8aba | Christmas Stress Tinsel Done Christmas Mouse Pad — Funny Desk Gift, Holiday Gift | Winstar4U | DEFECT-MINOR (CHRISTMAS touches top edge) | https://images.printify.com/mockup/6ac7148ba005c19c550d8aba/71665/12240/christmas-stress-tinsel-done-christmas-mouse-pad-funny-desk-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7148857527ce5fd019877 | Christmas Party Survivor Christmas Mouse Pad — Funny Desk Gift, Holiday Gift | Winstar4U | DEFECT-MINOR (small unrendered-transparency checkerboard artifact near sunglasses) | https://images.printify.com/mockup/6ac7148857527ce5fd019877/71665/12240/christmas-party-survivor-christmas-mouse-pad-funny-desk-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7148535cf3f6ec802eb69 | Christmas Open Bar Christmas Mouse Pad — Funny Desk Gift, Holiday Gift | Winstar4U | DEFECT (top line CHRISTMAS 2026 cropped) | https://images.printify.com/mockup/6ac7148535cf3f6ec802eb69/71665/12240/christmas-open-bar-christmas-mouse-pad-funny-desk-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac714820ed8f1657605f396 | Santas Favorite Distraction Christmas Baby Onesie — Adorable Baby Christmas Gift, Holiday Gift | Winstar4U | DEFECT (unrendered-transparency checkerboard background artifact) | https://images.printify.com/mockup/6ac714820ed8f1657605f396/71076/108419/santas-favorite-distraction-christmas-baby-onesie-adorable-baby-christmas-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7148146dd1e896e04e226 | Christmas Mode Dnd Christmas Mouse Pad — Funny Desk Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7148146dd1e896e04e226/71665/12240/christmas-mode-dnd-christmas-mouse-pad-funny-desk-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7147e83f1a0e50d071e7a | Santas Favorite Customer Vip Christmas Baby Onesie — Adorable Baby Christmas Gift, Holiday Gift | Winstar4U | DEFECT (receipt graphic shows literal PRICE placeholder text, not values) | https://images.printify.com/mockup/6ac7147e83f1a0e50d071e7a/71076/108419/santas-favorite-customer-vip-christmas-baby-onesie-adorable-baby-christmas-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7147e46dd1e896e04e225 | Christmas Lights Therapy Christmas Mouse Pad — Funny Desk Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7147e46dd1e896e04e225/71665/12240/christmas-lights-therapy-christmas-mouse-pad-funny-desk-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7147bfb1d11d19e037129 | Santas Favorite Arrow Christmas Baby Onesie — Adorable Baby Christmas Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7147bfb1d11d19e037129/71076/108419/santas-favorite-arrow-christmas-baby-onesie-adorable-baby-christmas-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7147b83f1a0e50d071e73 | Christmas Excuse Eat King Christmas Mouse Pad — Funny Desk Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7147b83f1a0e50d071e73/71665/12240/christmas-excuse-eat-king-christmas-mouse-pad-funny-desk-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7147735cf3f6ec802eb62 | Christmas Eat No January Christmas Mouse Pad — Funny Desk Gift, Holiday Gift | Winstar4U | CLEAN, checked against V2 below and ruled OUT as duplicate (different food arrangement) | https://images.printify.com/mockup/6ac7147735cf3f6ec802eb62/71665/12240/christmas-eat-no-january-christmas-mouse-pad-funny-desk-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac71474a5ade89b5c0810a6 | Christmas Eat No January V2 Christmas Mouse Pad — Funny Desk Gift, Holiday Gift | Winstar4U | CLEAN, checked against non-V2 above and ruled OUT as duplicate (different food arrangement) | https://images.printify.com/mockup/6ac71474a5ade89b5c0810a6/71665/12240/christmas-eat-no-january-v2-christmas-mouse-pad-funny-desk-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7147483f1a0e50d071e6d | Santa I Can Explain Clipboard Christmas Baby Onesie — Adorable Baby Christmas Gift, Holiday Gift | Winstar4U | DEFECT (arc title text cropped/clipped at neckline, mostly illegible) | https://images.printify.com/mockup/6ac7147483f1a0e50d071e6d/71076/108419/santa-i-can-explain-clipboard-christmas-baby-onesie-adorable-baby-christmas-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7147146dd1e896e04e21c | Prosecco Ho Ho Ho Christmas Baby Onesie — Adorable Baby Christmas Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7147146dd1e896e04e21c/71076/108419/prosecco-ho-ho-ho-christmas-baby-onesie-adorable-baby-christmas-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7147135cf3f6ec802eb60 | Christmas Calories Dont Count Christmas Mouse Pad — Funny Desk Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7147135cf3f6ec802eb60/71665/12240/christmas-calories-dont-count-christmas-mouse-pad-funny-desk-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7146d83f1a0e50d071e6b | Professional Gift Returner Christmas Baby Onesie — Adorable Baby Christmas Gift, Holiday Gift | Winstar4U | DEFECT-MINOR (top banner text compressed/overlapping, partially garbled) | https://images.printify.com/mockup/6ac7146d83f1a0e50d071e6b/71076/108419/professional-gift-returner-christmas-baby-onesie-adorable-baby-christmas-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7146aa5ade89b5c0810a2 | Powered By Cookies Christmas Baby Onesie — Adorable Baby Christmas Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7146aa5ade89b5c0810a2/71076/108419/powered-by-cookies-christmas-baby-onesie-adorable-baby-christmas-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac71467a005c19c550d8aaa | Christmas 2026 Caffeine Panic Christmas Mouse Pad — Funny Desk Gift, Holiday Gift | Winstar4U | DEFECT-MINOR (apostrophe-CHRISTMAS touches top edge) | https://images.printify.com/mockup/6ac71467a005c19c550d8aaa/71665/12240/christmas-2026-caffeine-panic-christmas-mouse-pad-funny-desk-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7146642c818a1ad09605f | Party In Holiday Party Christmas Baby Onesie — Adorable Baby Christmas Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7146642c818a1ad09605f/71076/108419/party-in-holiday-party-christmas-baby-onesie-adorable-baby-christmas-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7146357527ce5fd019867 | Chic Happens Cocktail Christmas Mouse Pad — Funny Desk Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7146357527ce5fd019867/71665/12240/chic-happens-cocktail-christmas-mouse-pad-funny-desk-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7146357527ce5fd019866 | Only Nice For Presents Christmas Baby Onesie — Adorable Baby Christmas Gift, Holiday Gift | Winstar4U | DEFECT (top line overlaps/clips neckline) | https://images.printify.com/mockup/6ac7146357527ce5fd019866/71076/108419/only-nice-for-presents-christmas-baby-onesie-adorable-baby-christmas-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7145c7be9df884b032e8f | Calories Dont Count Thanksgiving Christmas Mouse Pad — Funny Desk Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7145c7be9df884b032e8f/71665/12240/calories-dont-count-thanksgiving-christmas-mouse-pad-funny-desk-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7145c57527ce5fd019860 | Vintage Santa Portra Christmas Baby Onesie — Adorable Baby Christmas Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7145c57527ce5fd019860/71076/108419/vintage-santa-portra-christmas-baby-onesie-adorable-baby-christmas-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac71459a4c95c48e2036336 | Truck Tree Christmas Baby Onesie — Adorable Baby Christmas Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71459a4c95c48e2036336/71076/108419/truck-tree-christmas-baby-onesie-adorable-baby-christmas-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7145983f1a0e50d071e5d | Bah Humbug Wine Christmas Mouse Pad — Funny Desk Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7145983f1a0e50d071e5d/71665/12240/bah-humbug-wine-christmas-mouse-pad-funny-desk-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7145642c818a1ad096052 | Avoiding Carolers Raccoon Christmas Mouse Pad — Funny Desk Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7145642c818a1ad096052/71665/12240/avoiding-carolers-raccoon-christmas-mouse-pad-funny-desk-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7145507e4149a0f00116b | Silent Night Village Christmas Baby Onesie — Adorable Baby Christmas Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7145507e4149a0f00116b/71076/108419/silent-night-village-christmas-baby-onesie-adorable-baby-christmas-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac71453a4c95c48e2036332 | Avoiding Carolers Gnome Christmas Mouse Pad — Funny Desk Gift, Holiday Gift | Winstar4U | DEFECT-SEVERE (top+bottom text cropped: CURRENTLY, CONVERSATION) | https://images.printify.com/mockup/6ac71453a4c95c48e2036332/71665/12240/avoiding-carolers-gnome-christmas-mouse-pad-funny-desk-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac714526356cae0df02e45a | Seasons Greetings Christmas Baby Onesie — Adorable Baby Christmas Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac714526356cae0df02e45a/71076/108419/seasons-greetings-christmas-baby-onesie-adorable-baby-christmas-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7144f6356cae0df02e458 | All I Want Nap Christmas Mouse Pad — Funny Desk Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7144f6356cae0df02e458/71665/12240/all-i-want-nap-christmas-mouse-pad-funny-desk-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7144ec077332834034e44 | Peace On Earth Christmas Baby Onesie — Adorable Baby Christmas Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7144ec077332834034e44/71076/108419/peace-on-earth-christmas-baby-onesie-adorable-baby-christmas-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7144c57527ce5fd019855 | All I Want Nap Pillow Christmas Mouse Pad — Funny Desk Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7144c57527ce5fd019855/71665/12240/all-i-want-nap-pillow-christmas-mouse-pad-funny-desk-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7144bfa3cae10170efbe4 | Noel Elegant Christmas Baby Onesie — Adorable Baby Christmas Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7144bfa3cae10170efbe4/71076/108419/noel-elegant-christmas-baby-onesie-adorable-baby-christmas-gift-holiday-gift-winstar4u.jpg?camera_label=front |
