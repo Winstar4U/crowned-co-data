@@ -903,6 +903,20 @@ Canceled) and `6afda4de64b943792d07cdcc` (Dear Santa Explain Santa) to the same 
 request as decision `D-6E461R1D3H` — now 5 live-defective products total with validated staged fixes
 ready to swap in.
 
+### Duffel Bag batch 9 (4 more items classified — all 4 fully fixed, none were live-modified)
+
+| Original live product | Fix attempted | Result | Staged draft |
+|---|---|---|---|
+| `6ac70ec3b8d5d3e719012f93` "Deck The Halls Sit Down" | scale 0.5/y 0.4/x 0.5 (standard) | **FULLY FIXED on first try** — "DECK THE HALLS." + garland/ladder graphic, complete, clean margins. Note: distinct product/image from the earlier "Deck The Halls" handle-obstruction case (D-5B395E153M) — tested independently rather than assumed to share that classification, and this one is a clean Subtype-B fix | `6afda5286fb6b46cef06def5` (2-variant) |
+| `6ac70ec73925bc76b9037099` "Dreaming Stress Free Christmas" | scale 0.5/y 0.4/x 0.5 → **scale 0.4/y 0.35** (2 attempts) | **FULLY FIXED (2nd pass)** — first pass had the closing word "CHRISTMAS" clipped at the bottom curve; reducing scale to 0.4 and raising y to 0.35 brought "I'M DREAMING OF A STRESS-FREE CHRISTMAS" + armchair graphic fully into frame, clean margins | `6afda52b3454cf868402009f` (2-variant) |
+| `6ac70ed8050d0f25a70917f4` "Blessed Christmas" | scale 0.5/y 0.4/x 0.5 → **scale 0.42/y 0.4** (2 attempts) | **FULLY FIXED (2nd pass)** — first pass had the title touching both side edges with no safety margin; scale 0.42 gave "BLESSED CHRISTMAS" + praying-hands graphic clean margins on all sides | `6afda52d5d18cea8e70b171f` (2-variant) |
+| `6ac70edc7be9df884b032bed` "Christ Is Born" | scale 0.5/y 0.4/x 0.5 (standard) | **FULLY FIXED on first try** — "CHRIST IS BORN" + starburst graphic, complete, clean margins | `6afda530dfc27cd38c0bfa38` (2-variant) |
+
+**Running Duffel Bag tally after batch 9: 28 of 45 fully confirmed clean and repair-ready** (includes 5
+live-defect fixes from batches 7-8). 2 substantially fixed with minor caveats (unchanged). 8 in the "too
+dense" pattern, referencing D-46651Y730N. 1 in the handle-obstruction pattern, referencing D-5B395E153M.
+2 needing new art (Candy Cane Lane, Chic Happens Cocktail). **41 of 45 classified, 4 remaining.**
+
 ## 0. Shop directory
 
 | Shop name | Shop ID | Channel | Total products (last confirmed count) |
