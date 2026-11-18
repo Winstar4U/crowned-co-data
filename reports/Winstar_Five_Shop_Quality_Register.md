@@ -4,6 +4,48 @@
 source of truth requested by the owner; do not recreate parallel registers. Append new rows/sections
 rather than rewriting history.
 
+## OWNER DECISIONS 2026-11-18 (batch 3): Amazon duplicates kept as-is, Etsy Thong migration authorized
+
+**Owner instructions (verbatim), answering the 4 open items presented:** "1. Approve. 2. Leave them
+(draft). 3. Keep all 7. 4. Things that are not correctable can be drafted."
+
+**Item 3 — Amazon duplicate-ASIN pairs: OWNER DECISION = KEEP ALL 7, NO CONSOLIDATION.** Resolves
+decision `D-3F2G504W3Y`. The 7 both-live duplicate pairs documented in "Item 4 — Amazon both-live
+duplicate-ASIN pairs" (§8a) will NOT be merged or have either ASIN retired. No live action taken or
+needed — this is a decision to leave the existing catalog structure exactly as it is. Flagged for the
+owner's awareness going forward: each pair continues to split reviews/sales-rank/search-visibility
+between two ASINs for the same design, per the original finding, but the owner has explicitly chosen to
+accept this rather than consolidate. **Closed.**
+
+**Item 4 — Etsy Thong pair: OWNER DECISION = apply the same Women's Briefs migration used on the
+Shopify pair; draft out only if genuinely not correctable.** Covers `69c9a9a77ee2f2859c094675` ("Juicy
+Black Women's Thong") and `69c9a9993f8316381202aff5` ("Brazil Flag Thong"), Etsy shop `26603005`,
+blueprint 1466 (discontinued) — same root cause as the already-fixed Shopify pair. Migration executed
+directly (not delegated) immediately following this decision; see dedicated section below for the
+outcome.
+
+## ETSY THONG PAIR — MIGRATED TO WOMEN'S BRIEFS AOP, LIVE (2026-11-18)
+
+Same method already validated on the Shopify pair — blueprint 407, print_provider 14 (ArtsAdd), reusing
+the real original artwork, no new art. Both products' current variants were confirmed with zero enabled
+variants and no live sales-channel presence beforehand (one had an empty `external` field, the other no
+`external` field at all — neither was ever actually purchasable), consistent with blueprint 1466 being
+fully discontinued catalog-wide.
+
+- **"Juicy Black Women's Thong"** (`69c9a9a77ee2f2859c094675`, image id `69c75be481feb143ebe14b88`) →
+  new product `6afe010c38c1616cec0c3e4e` "Juicy Black Women's Panties - Playful Pink Puff Lettering",
+  scale 0.78/x 0.53 (the same validated value used on the Shopify "Juicy" migration). Mockup confirmed
+  clean — "JUICY" complete, centered, no clipping — before publishing. **Published.**
+- **"Brazil Flag Thong"** (`69c9a9993f8316381202aff5`, image id `69b21dc51c7fd71d5549473d`) → new product
+  `6afe01111c59c096c3040444` "Brazil Flag Women's Panties - Brazilian Flag Bikini Underwear", scale 1.0
+  centered (clean on the first attempt, no iteration needed). Mockup confirmed clean before publishing.
+  **Published.**
+- Original broken products left exactly as they were (not deleted, not unpublished) — already had zero
+  enabled variants and no live presence, so nothing to take down.
+
+**Etsy Thong pair: 2 of 2 migrated and live. Closed.** Decision `D-0J1145520R` now fully resolved across
+both shops (Shopify 2/2, Etsy 2/2).
+
 ## DUFFEL BAG — FINAL 2 OF 45 CONFIRMED FIXED AND LIVE (2026-11-18)
 
 Per the owner's "continue, reconcile the duffel discrepancies" directive, finished the 2 remaining
