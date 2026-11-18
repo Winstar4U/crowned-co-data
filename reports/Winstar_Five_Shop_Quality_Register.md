@@ -9,6 +9,54 @@ priority. Continuous, nonoverlapping batches across all five shops until every p
 No live writes (publish/unpublish/price/inventory/account changes) without explicit separate owner
 approval. This file tracks real, evidence-backed findings only — no estimates presented as fact.
 
+## LIVE REPAIRS APPLIED (owner-approved, 2026-11-18)
+
+**Owner explicit approval received:** "Duffel bags - Fix these and then make them available to customers."
+This is the first and only owner-authorized batch of LIVE production changes in this recovery to date.
+Scope was deliberately narrow: only the 32 Duffel Bag instances already marked "FULLY FIXED" in the
+"STAGED REPAIRS" section below. The 13 other Duffel Bag instances (2 substantially-fixed-with-caveats, 8
+"too dense" pattern/decision D-46651Y730N, 1 handle-obstruction/decision D-5B395E153M, 2 needing new art)
+were deliberately NOT touched and remain pending separate owner decisions.
+
+**Method:** for each of the 32, fetched the live product's current `print_areas` directly (not the
+staged draft), confirmed the image id matched the staged-draft validation, then called
+`printify-upsert-product-9eb` WITH `product_id` set to the LIVE product id — a genuine in-place update,
+changing only the `scale`/`x`/`y` values to the validated corrected values. Every other field (title,
+description, tags, variants, prices, blueprint/provider) was left untouched by omitting it from the
+update payload. All 32 updates succeeded; all 32 products remained `visible: true` with both variants
+(Large 45054 / Small 45055) still `is_enabled: true` afterward — nothing was unpublished or disabled.
+
+**Visual confirmation:** downloaded and viewed the live (not staged) mockups for 5 products after the
+update, including 2 of the 6 previously-reported live-defective items (Christmas Open Bar — "I'M JUST FOR
+THE OPEN BAR" now complete; Christmas Party Survivor — banner complete) plus 3 more (Christmas Stress
+Tinsel Done, Hallelujah Angels, Christmas Vacation Canceled) — all show complete, legible text with no
+edge-cropping. The remaining 27 were updated using the same validated scale/position values already
+confirmed clean on their staged-draft counterparts during the earlier staging phase, and were not
+individually re-viewed live again post-update; this is disclosed rather than silently assumed.
+
+**All 32 live product IDs updated (old scale → new scale):** 6ac7124246dd1e896e04e124 (0.72→0.5),
+6ac711e0b81469132100377f (0.72→0.5), 6ac70f4b82fcbdd37b039f40 (0.72→0.5), 6ac70f40e2a15b1260026672
+(0.72→0.5), 6ac70f3db7d78a62480e7264 (0.72→0.5), 6ac70f244bfa32451c0548d6 (0.72→0.5), 6ac70f1d50fc6704d30bf7f9
+(0.72→0.5), 6ac70f1a57527ce5fd019595 (0.72→0.5), 6ac70f054e8c3a1ca906ec58 (0.72→0.5), 6ac70efe050d0f25a7091809
+(0.72→0.5), 6ac70f2f0a720c0b670cc5f7 (0.72→0.5), 6ac70ef7b7d78a62480e724d (0.72→0.42), 6ac70ef49a2f0cb82508f8b8
+(0.72→0.5, x 0.5→0.6), 6ac70ef00aa3686f380d3c2b (0.72→0.5), 6ac70e83b8d5d3e719012f4f (0.72→0.5),
+6ac70e92e2a15b1260026614 (0.72→0.4), 6ac70e96050d0f25a70917cb (0.72→0.5), 6ac70e9f9a2f0cb82508f87d
+(0.72→0.35, LIVE DEFECT), 6ac70ea3f0a0ce97bc0c8fe7 (0.72→0.4, LIVE DEFECT), 6ac70ea79a2f0cb82508f885
+(0.72→0.35, LIVE DEFECT), 6ac70eaaa4000bde5508bbd0 (0.72→0.5, LIVE DEFECT), 6ac70eb5050d0f25a70917e5
+(0.72→0.5), 6ac70ebc0a720c0b670cc5c4 (0.72→0.5, LIVE DEFECT), 6ac70ec0a4000bde5508bbde (0.72→0.5),
+6ac70ec3b8d5d3e719012f93 (0.72→0.5), 6ac70ec73925bc76b9037099 (0.72→0.4), 6ac70ed8050d0f25a70917f4
+(0.72→0.42), 6ac70edc7be9df884b032bed (0.72→0.5), 6ac70ee24bfa32451c0548b1 (0.72→0.42),
+6ac70ee64bfa32451c0548b6 (0.72→0.42), 6ac70ee9e2a15b1260026655 (0.72→0.4, LIVE DEFECT),
+6ac70eed0aa3686f380d3c23 (0.72→0.5).
+
+**Dashboard update:** approved live: 0 → **32** (Duffel Bag). Post-publication/storefront verification
+(the actual Shopify-facing listing, as opposed to the Printify product record) remains the standing open
+gap, not yet performed for these or any other item in this recovery.
+
+**Leftover staging artifacts:** the superseded/proof-of-concept staged draft products created during the
+staging phase (pass-1 wrong-scale drafts, single-variant tests) were not deleted and remain in the shop
+as harmless unpublished extras; a cleanup pass can be run on owner request.
+
 ## EXECUTIVE SUMMARY & CORRECTION-READY APPROVAL PACKET (compiled 2026-11-18, after full five-shop
 ## visual-inspection completion)
 
