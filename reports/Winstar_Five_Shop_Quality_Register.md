@@ -184,7 +184,7 @@ closer look given the similar title, but confirmed NOT a third duplicate once th
 `external` field, unverified against eBay's own storefront), 53/53 visually inspected (100% clean,
 0 confirmed defects, 2 duplicate pairs). Task T-0U6Q5K5G49 ready for Bridge submission.
 
-## 7. Shopify catalog position tracker (most important coverage gap — 2,429 of 2,912 total products)
+## 7. Shopify catalog position tracker (most important coverage gap — 1,212 of 2,912 total products)
 
 | Range | Status | Task |
 |---|---|---|
@@ -208,27 +208,33 @@ closer look given the similar title, but confirmed NOT a third duplicate once th
 | #1,661-1,760 | **Full visual inspection (100/100), see §8s** — 19/100 confirmed defects, 5 NEW brand-safety instances (all Youth Hoodie; tally now 15: 11 Youth Hoodie + 4 Baby Onesie), 0 true duplicate pairs. **Wall Tapestry: 8/8 (100%) defective** — confirms/extends §8r finding on a larger sample. **Duffel Bag: 5/6 (83%)** — NEW problem blueprint, not previously sampled at volume | T-4T6Z1C5E0W (this session) |
 | #1,761-1,860 | **Full visual inspection (100/100), see §8t** — 44/100 confirmed defects, 0 true duplicate pairs, 0 new brand-safety instances (brand-safety tally stays 15: 11 Youth Hoodie + 4 Baby Onesie). **Wall Tapestry: 24/25 (96%) defective** — confirms worst-blueprint status on largest sample yet. **Duffel Bag: 20/22 (91%) defective.** NEW mechanistic refinement: the 3 clean Wall Tapestry/Duffel Bag exceptions were all short-text-or-no-text designs — the defect tracks text length vs. print-window size, not the blueprint categorically. **Shorts: 0/28, Sweatpants: 0/25 — both 100% clean across full samples.** | T-0111181R67 (this session) |
 | #1,861-1,960 | **Full visual inspection (100/100), see §8u** — 43/100 confirmed defects, 0 confirmed true duplicate pairs (1 flagged candidate pending closer review), 0 new brand-safety instances (tally stays 15). **Wall Tapestry: 9/9 (100%) defective.** **Journal: 0/7 — 100% clean, most reliable blueprint found so far.** Large-scale cross-blueprint test confirmed: same designs clean on Journal/Shorts/Magnet, defective on Wall Tapestry/Duffel Bag/Sweatpants — defect is blueprint-specific print-window size vs. text length. | T-2F0U00544H (this session) |
-| #1,961-2,429 | **NOT STARTED** (469 products) | Next batch(es) |
+| #1,961-2,060 | **Full visual inspection (100/100), see §8v** — 49/100 confirmed defects (highest batch rate yet), 0 true duplicate pairs, 0 new brand-safety instances (tally stays 15, Kids' T-Shirt category confirmed 100% free of alcohol imagery). **Christmas Socks: 10/10 (100%) defective** — new worst-single-blueprint result, camera-angle wraparound-fragmentation intrinsic to the blueprint. **Bucket Hat: 7/9 (78%)** and **Apron: 2/3 (67%)** confirm opaque white-background-box defect at volume. **Scented Candle: 7/10 (70%)** confirms overscale/zoomed-design defect at volume, concentrated on nativity/religious designs. **Throw Blanket, Long Sleeve Tee, Tough Phone Case: 0% defective.** | T-3J2M0Z1I15 (this session) |
+| #2,061-2,912 | **NOT STARTED** (851 products) | Next batch(es) |
 
 ## 8. Next eligible batch (for whichever session/dispatcher firing picks this up next)
 
-1. Shopify shop 26418699, #961 onward, continuing in ~100-product batches with full visual inspection
-   (every default mockup viewed, not sampled) — see §8f-§8k for the systemic defect-rate finding (30%,
-   46%, 21%, 11%, 4%, 14% across six batches so far) that makes full inspection (not sampling) essential
-   for this shop. Root causes identified so far: (a) print-window-vs-artwork-size cropping, affecting
-   Backpack/Laptop Sleeve/Mouse Pad/Baby Onesie/Tank Top/Napkin Set/Throw Pillow/Coaster Set/Lunch Box
-   blueprints depending on the specific source file; (b) a handful of bad source-art files reused across
-   many listings regardless of blueprint (garbled/mirrored text, blank placeholder graphics, leftover
-   placeholder values, whole-image transparency artifacts); (c) one color-contrast/illegibility defect
-   (dark text on dark garment). A new duplicate-listing sub-pattern was also found in §8k: identical
-   blueprint + identical artwork sold as separate listings differing only by declared pillow size (18x18
-   vs 20x20) — distinct from the "different blueprint = normal" pattern ruled out elsewhere. 1,469
-   products remain unstarted.
+1. Shopify shop 26418699, #2,061 onward, continuing in ~100-product batches with full visual
+   inspection (every default mockup viewed, not sampled) — see §8f-§8v for the systemic defect-rate
+   finding (ranging 4%-49% across seventeen batches so far) that makes full inspection (not sampling)
+   essential for this shop. Root causes identified so far: (a) print-window-vs-artwork-size cropping,
+   affecting Backpack/Laptop Sleeve/Mouse Pad/Baby Onesie/Tank Top/Napkin Set/Throw Pillow/Coaster
+   Set/Lunch Box/Wall Tapestry/Duffel Bag/Bucket Hat blueprints depending on the specific source file;
+   (b) wraparound-crop/fragmentation on cylindrical or curved-surface blueprints viewed from a fixed
+   camera angle — Tumbler, Water Bottle, and (confirmed 100% defective on full sample in §8v) Christmas
+   Socks; (c) a handful of bad source-art files reused across many listings regardless of blueprint
+   (garbled/mirrored text, blank placeholder graphics, leftover placeholder values, duplicated-word
+   text bug, opaque/non-transparent PNG backgrounds showing a white box on dark products — confirmed at
+   volume on Bucket Hat/Apron in §8v); (d) one color-contrast/illegibility defect (dark text on dark
+   garment); (e) overscale/zoomed-design defect on Scented Candle (§8u-§8v) where title text is scaled
+   entirely out of the visible label area. A duplicate-listing sub-pattern was also found in §8k:
+   identical blueprint + identical artwork sold as separate listings differing only by declared pillow
+   size (18x18 vs 20x20) — distinct from the "different blueprint = normal" pattern ruled out
+   elsewhere. 1,212 products remain unstarted.
 2. **eBay is now COMPLETE (53/53 visually inspected, see §6a) — do not re-inspect.** **Amazon is now
    COMPLETE (62/62 visually inspected, see §8a) — do not re-inspect.** **TikTok is now COMPLETE (71/71
    visually inspected, see §8b) — do not re-inspect.** **Etsy is now FULLY COMPLETE — all 297 products
    visually inspected across the pre-existing inspection round plus batches 1/3 (§8c), 2/3 (§8d), and 3/3
-   (§8e) — do not re-inspect any ID in §9–§13.** Only Shopify (2,429 remaining of 2,912 total, see item 1
+   (§8e) — do not re-inspect any ID in §9–§13.** Only Shopify (1,212 remaining of 2,912 total, see item 1
    above) remains as an unstarted shop in this five-shop recovery.
 3. Direct marketplace-side verification (actually checking eBay/Amazon/TikTok/Shopify storefronts, not
    just Printify's `external` field) for at least the highest-volume confirmed-gap SKUs, before any
@@ -4132,3 +4138,226 @@ inspected across sixteen consecutive batches (#361-460 through #1,861-1,960).
 | 6ac702e635cf3f6ec802e2f3 | "Calories Dont Count Thanksgiving" Thanksgiving Apron — Funny Holiday Cooking Apron for the Family Cook, Thanksgiving Host Gift \| Winstar4U | CLEAN | https://images.printify.com/mockup/6ac702e635cf3f6ec802e2f3/250694/127193/calories-dont-count-thanksgiving-thanksgiving-apron-funny-holiday-cooking-apron-for-the-family-cook-thanksgiving-host-gift-winstar4u.jpg?camera_label=front |
 | 6ac702e21e2eac4da206fc57 | Christ Is Born Christmas Canvas Wall Art — Festive Holiday Home Decor, Religious Christmas Print Gift \| Winstar4U | DEFECT — minor top-edge text cropping | https://images.printify.com/mockup/6ac702e21e2eac4da206fc57/82220/53160/christ-is-born-christmas-canvas-wall-art-festive-holiday-home-decor-religious-christmas-print-gift-winstar4u.jpg?camera_label=front |
 | 6ac702de7be9df884b0325ce | Hallelujah Angels Christmas Canvas Wall Art — Festive Holiday Home Decor, Religious Christmas Print Gift \| Winstar4U | CLEAN | https://images.printify.com/mockup/6ac702de7be9df884b0325ce/82220/53160/hallelujah-angels-christmas-canvas-wall-art-festive-holiday-home-decor-religious-christmas-print-gift-winstar4u.jpg?camera_label=front |
+
+## 8v. Shopify shop (26418699, Winstar4U) #1,961-2,060 — seventeenth full-visual-inspection
+## batch (2026-11-18, this session)
+
+**Status: 100/100 products fully visually inspected (every default mockup individually viewed,
+cropped/zoomed where needed to confirm text legibility) — see §30 for the complete per-product
+evidence table.** 51/100 CLEAN, 49/100 DEFECT — the highest raw defect rate of any batch in this
+recovery effort to date, driven by an unusually defect-heavy blueprint mix (Socks, Bucket Hat,
+Throw Pillow, Tumbler, Scented Candle together make up 47 of the 100 products and account for 37 of
+the 49 defects).
+
+### Blueprint-by-blueprint breakdown
+
+| Blueprint | n | Clean | Defect | Defect rate |
+|---|---|---|---|---|
+| Christmas Socks | 10 | 0 | 10 | **100%** |
+| Bucket Hat | 9 | 1 | 8 | 89% |
+| Throw Pillow | 9 | 2 | 7 | 78% |
+| Tumbler 20oz | 9 | 3 | 6 | 67% |
+| Scented Candle 11oz | 10 | 3 | 7 | 70% |
+| Dog Bandana | 7 | 3 | 4 | 57% |
+| Apron | 3 | 1 | 2 | 67% |
+| Canvas Wall Art | 4 | 3 | 1 | 25% |
+| Tote Bag | 5 | 4 | 1 | 20% |
+| Oven Mitts | 4 | 3 | 1 | 25% |
+| Ornament (ceramic) | 7 | 6 | 1 | 14% |
+| Kids' T-Shirt | 7 | 6 | 1 | 14% |
+| Throw Blanket (fleece) | 9 | 9 | 0 | **0%** |
+| Long Sleeve Tee | 5 | 5 | 0 | **0%** |
+| Tough Phone Case | 2 | 2 | 0 | **0%** |
+
+### NEW this batch: Socks blueprint is 100% defective on full sample — worst single-blueprint
+### result in this entire recovery effort
+
+All 10 Christmas Socks products (#077-086 of this batch) show the same wraparound-fragmentation
+defect: the design wraps around the sock's curved 3D surface, and from the standard product-photo
+camera angle only disconnected fragments of each word are visible on each leg (e.g. "CHRIST IS
+BORN" renders as isolated "ST" / "RN" fragments). This is a camera-angle/product-template problem
+intrinsic to this blueprint's mockup generation, not a per-design artwork defect — every single
+design on this blueprint is affected regardless of text length or content. This is a stronger,
+larger-sample confirmation of the wraparound-crop pattern first flagged for Water Bottle (§8q) and
+Tumbler (recurring again this batch, 6/9 defective).
+
+### NEW this batch: opaque white-background-box defect confirmed at high volume on Bucket Hat (7/9)
+### and Apron (2/3)
+
+Previously flagged as a single new finding in #1861-1960; this batch shows it is a major recurring
+problem. Certain source PNG files have a flattened/non-transparent background, which renders as an
+ugly solid white rectangle on the black Bucket Hat and black Apron products (it is invisible on
+white-background products using the same files). File-specific, not blueprint-specific — some
+Bucket Hat and Apron designs in this same batch render with clean transparent backgrounds.
+
+### NEW this batch: overscale/zoomed-design defect confirmed at high volume on Scented Candle (7/10)
+
+Confirmed in the prior batch as a new pattern; this batch shows most Scented Candle defects are
+this type, not simple cropping — several designs (concentrated in nativity/religious scenes: "Keep
+Christ Christmas," "Reason For Season," "Joy To World Christian," "Amazing Grace," "Blessed
+Christmas," "O Holy Night," "Christmas Wreath 2026") are scaled so large on the candle's cylindrical
+label that the design's title text is entirely absent from the visible face — only an illustration
+fragment shows. The candle's two-wick layout and smaller wrap-label area appear to interact badly
+with designs that were sized for larger/flatter blueprints.
+
+### Duplicated-word source-art bug ("MY ELF MADE / MADE ME DO IT") — now confirmed on 4 different
+### blueprints in this batch alone (Dog Bandana, Bucket Hat, Ornament, Kids' T-Shirt)
+
+This file-specific bug (the word "MADE" is duplicated in the source artwork itself) reproduces
+identically on every blueprint it appears on in this batch, consistent with every prior batch's
+finding — it is a corrupted source file, not a per-blueprint print-window issue.
+
+### Title/artwork content mismatch (new instance)
+
+"Everyone Go Home" Christmas Tote Bag (`6ac702c1826b7669c103bcbf`) is titled "Everyone Go Home" but
+the printed artwork reads "ALL I WANT FOR CHRISTMAS" with a cozy-armchair illustration — the same
+mismatch pattern previously documented for a tote bag in an earlier batch (same underlying source
+file reused under two different product titles).
+
+### Duplicate-pair detection: 0 true duplicates found this batch
+
+Ran a systematic pass: (1) grouped all 100 products by exact title — 0 exact-title collisions; (2)
+grouped by blueprint + print-area image name/scale/x/y signature — all matches were simply the
+shared print-placeholder geometry common to every product on the same blueprint (expected, not a
+duplicate signal), not shared artwork. No same-blueprint-different-declared-size pairs (e.g. the
+18x18-vs-20x20 pillow pattern from §8k) appear in this batch's 100 products.
+
+### Brand-safety check: 0 new instances — running tally unchanged at 15 (11 Youth Hoodie + 4 Baby
+### Onesie)
+
+This batch's blueprint mix contains no Youth Hoodie or Baby Onesie products at all, so no new check
+was possible on those specific blueprints. The Kids' T-Shirt category (7 products, the
+highest-priority children's blueprint actually present in this batch) was individually visually
+confirmed 100% free of alcohol/cocktail imagery — all 7 designs are religious/wholesome Christmas
+themes (Rejoice, Amazing Grace, My Elf Made Me, Merry Everything Happy Always, Greatest Gift, Joy To
+World Christian, Blessed Christmas). Several alcohol-themed titles appear elsewhere in this batch
+("Elegantly Wasted Martini," "Jingle All Way Liquor," "Bah Humbug Wine," "Christmas Open Bar,"
+"Corkscrew Wine Repeat," "Chic Happens Cocktail," "Eggnog Recovery Skeleton," "Merry Christmas Lets
+Get Lit") but all appear only on adult-apparel/accessory/drinkware blueprints (Tumbler, Bucket Hat)
+— not a brand-safety concern on their own.
+
+### Sync-mapping status
+
+Consistent with every prior Shopify batch, this batch's bulk list calls show no populated Printify
+`external` field for any of the 100 products — a known tooling-visibility gap already documented
+repeatedly in this register, not a claim about actual Shopify-side sync status.
+
+### Methodology note (standing caveat, repeated per chatgpt's valid correction in `P-3K1D6D0O0I`)
+
+The 49% defect rate reported here is this specific 100-product batch's sample result, not an
+extrapolated shop-wide prevalence rate. Rates have ranged from 4% to 49% across the 17 batches
+completed so far in this shop, correlating strongly with which blueprints happen to fall in each
+batch's catalog-position window — see the blueprint-by-blueprint breakdown above and the running
+per-blueprint reliability pattern (Throw Blanket, Long Sleeve Tee, Tough Phone Case, Journal, Oven
+Mitts, Shorts, Sweatpants = reliably clean; Socks, Bucket Hat, Throw Pillow, Wall Tapestry, Duffel
+Bag, Tumbler, Scented Candle = high-risk).
+
+### Running Shopify total: 1,700/2,912 products not-previously-individually-inspected now fully
+visually inspected across seventeen consecutive batches (#361-460 through #1,961-2,060). 1,212
+products remain unstarted (#2,061-2,912).
+
+## 30. Shopify #1,961-2,060 full 100-row ID register (complete, per-product evidence, same format as
+§9-§29)
+
+| ID | Title | Result | Default Mockup URL |
+|---|---|---|---|
+| 6ac702db7be9df884b0325cb | Reason For Season Christmas Canvas Wall Art — Festive Holiday Home Decor, Religious Christmas Print Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac702db7be9df884b0325cb/82220/53160/reason-for-season-christmas-canvas-wall-art-festive-holiday-home-decor-religious-christmas-print-gift-winstar4u.jpg?camera_label=front |
+| 6ac702d43fd8c86beb0f48b1 | Keep Christ Christmas Christmas Canvas Wall Art — Festive Holiday Home Decor, Religious Christmas Print Gift | Winstar4U | DEFECT — top of text cropped at print-window edge (Canvas Wall Art) | https://images.printify.com/mockup/6ac702d43fd8c86beb0f48b1/82220/53160/keep-christ-christmas-christmas-canvas-wall-art-festive-holiday-home-decor-religious-christmas-print-gift-winstar4u.jpg?camera_label=front |
+| 6ac702d1826b7669c103bcc9 | Savior Born Manger Christmas Canvas Wall Art — Festive Holiday Home Decor, Religious Christmas Print Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac702d1826b7669c103bcc9/82220/53160/savior-born-manger-christmas-canvas-wall-art-festive-holiday-home-decor-religious-christmas-print-gift-winstar4u.jpg?camera_label=front |
+| 6ac702c4a085d659d50227d9 | O Holy Night Christmas Canvas Wall Art — Festive Holiday Home Decor, Religious Christmas Print Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac702c4a085d659d50227d9/82220/53160/o-holy-night-christmas-canvas-wall-art-festive-holiday-home-decor-religious-christmas-print-gift-winstar4u.jpg?camera_label=front |
+| 6ac702c1826b7669c103bcbf | Everyone Go Home Christmas Tote Bag — Festive Holiday Shopping Bag, Reusable Gift Bag | Winstar4U | DEFECT — title/artwork mismatch — titled "Everyone Go Home" but artwork shows "ALL I WANT FOR CHRISTMAS" | https://images.printify.com/mockup/6ac702c1826b7669c103bcbf/80814/109687/everyone-go-home-christmas-tote-bag-festive-holiday-shopping-bag-reusable-gift-bag-winstar4u.jpg?camera_label=front |
+| 6ac702bd3a88d2f780057d2f | Naughty List Resume Christmas Tote Bag — Festive Holiday Shopping Bag, Reusable Gift Bag | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac702bd3a88d2f780057d2f/80814/109687/naughty-list-resume-christmas-tote-bag-festive-holiday-shopping-bag-reusable-gift-bag-winstar4u.jpg?camera_label=front |
+| 6ac702b63a88d2f780057d23 | Merry Everything Happy Always Christmas Tote Bag — Festive Holiday Shopping Bag, Reusable Gift Bag | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac702b63a88d2f780057d23/80814/109687/merry-everything-happy-always-christmas-tote-bag-festive-holiday-shopping-bag-reusable-gift-bag-winstar4u.jpg?camera_label=front |
+| 6ac702af7a961335020e1a81 | Christmas Mode Dnd Christmas Tote Bag — Festive Holiday Shopping Bag, Reusable Gift Bag | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac702af7a961335020e1a81/80814/109687/christmas-mode-dnd-christmas-tote-bag-festive-holiday-shopping-bag-reusable-gift-bag-winstar4u.jpg?camera_label=front |
+| 6ac702ab3a88d2f780057d17 | Dear Santa Bank Account Christmas Tote Bag — Festive Holiday Shopping Bag, Reusable Gift Bag | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac702ab3a88d2f780057d17/80814/109687/dear-santa-bank-account-christmas-tote-bag-festive-holiday-shopping-bag-reusable-gift-bag-winstar4u.jpg?camera_label=front |
+| 6ac7028e7a961335020e1a48 | Greatest Gift Christmas Dog Bandana — Festive Holiday Pet Bandana, Cute Dog Christmas Outfit Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7028e7a961335020e1a48/101404/95679/greatest-gift-christmas-dog-bandana-festive-holiday-pet-bandana-cute-dog-christmas-outfit-gift-winstar4u.jpg?camera_label=front |
+| 6ac702857a961335020e1a41 | Avoiding Carolers Raccoon Christmas Dog Bandana — Festive Holiday Pet Bandana, Cute Dog Christmas Outfit Gift | Winstar4U | DEFECT — text cropped at bottom point of triangle bandana ("...AND CONVERSATION" cut off) | https://images.printify.com/mockup/6ac702857a961335020e1a41/101404/95679/avoiding-carolers-raccoon-christmas-dog-bandana-festive-holiday-pet-bandana-cute-dog-christmas-outfit-gift-winstar4u.jpg?camera_label=front |
+| 6ac702807a961335020e1a3f | Avoiding Carolers Gnome Christmas Dog Bandana — Festive Holiday Pet Bandana, Cute Dog Christmas Outfit Gift | Winstar4U | DEFECT — text cropped at bottom point of triangle bandana | https://images.printify.com/mockup/6ac702807a961335020e1a3f/101404/95679/avoiding-carolers-gnome-christmas-dog-bandana-festive-holiday-pet-bandana-cute-dog-christmas-outfit-gift-winstar4u.jpg?camera_label=front |
+| 6ac7027d710be211d209a902 | Merry Everything Happy Always Christmas Dog Bandana — Festive Holiday Pet Bandana, Cute Dog Christmas Outfit Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7027d710be211d209a902/101404/95679/merry-everything-happy-always-christmas-dog-bandana-festive-holiday-pet-bandana-cute-dog-christmas-outfit-gift-winstar4u.jpg?camera_label=front |
+| 6ac7027a154e72164e0d8f16 | Jingle Bells Santa Smells Christmas Dog Bandana — Festive Holiday Pet Bandana, Cute Dog Christmas Outfit Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7027a154e72164e0d8f16/101404/95679/jingle-bells-santa-smells-christmas-dog-bandana-festive-holiday-pet-bandana-cute-dog-christmas-outfit-gift-winstar4u.jpg?camera_label=front |
+| 6ac70276710be211d209a8fb | Naughty Is New Nice Christmas Dog Bandana — Festive Holiday Pet Bandana, Cute Dog Christmas Outfit Gift | Winstar4U | DEFECT — "NICE" cropped off at bottom point of triangle bandana | https://images.printify.com/mockup/6ac70276710be211d209a8fb/101404/95679/naughty-is-new-nice-christmas-dog-bandana-festive-holiday-pet-bandana-cute-dog-christmas-outfit-gift-winstar4u.jpg?camera_label=front |
+| 6ac702723a88d2f780057c9b | My Elf Made Me Christmas Dog Bandana — Festive Holiday Pet Bandana, Cute Dog Christmas Outfit Gift | Winstar4U | DEFECT — duplicated-word source-art bug ("MY ELF MADE / MADE ME DO IT") — recurs on this blueprint | https://images.printify.com/mockup/6ac702723a88d2f780057c9b/101404/95679/my-elf-made-me-christmas-dog-bandana-festive-holiday-pet-bandana-cute-dog-christmas-outfit-gift-winstar4u.jpg?camera_label=front |
+| 6ac702673a88d2f780057c98 | I Came I Saw I Bought It Christmas Oven Mitts — Funny Holiday Kitchen Mitts, Festive Baking Gift Set | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac702673a88d2f780057c98/76173/19819/i-came-i-saw-i-bought-it-christmas-oven-mitts-funny-holiday-kitchen-mitts-festive-baking-gift-set-winstar4u.jpg?camera_label=front |
+| 6ac70264710be211d209a8ec | Christmas Budget 500 Christmas Oven Mitts — Funny Holiday Kitchen Mitts, Festive Baking Gift Set | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac70264710be211d209a8ec/76173/19819/christmas-budget-500-christmas-oven-mitts-funny-holiday-kitchen-mitts-festive-baking-gift-set-winstar4u.jpg?camera_label=front |
+| 6ac70260710be211d209a8e8 | Here For Snacks Christmas Oven Mitts — Funny Holiday Kitchen Mitts, Festive Baking Gift Set | Winstar4U | DEFECT — design text cropped at left edge of mitt print panel | https://images.printify.com/mockup/6ac70260710be211d209a8e8/76173/19819/here-for-snacks-christmas-oven-mitts-funny-holiday-kitchen-mitts-festive-baking-gift-set-winstar4u.jpg?camera_label=front |
+| 6ac702587a961335020e1a2c | Holiday Spirit Cookies Christmas Oven Mitts — Funny Holiday Kitchen Mitts, Festive Baking Gift Set | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac702587a961335020e1a2c/76173/19819/holiday-spirit-cookies-christmas-oven-mitts-funny-holiday-kitchen-mitts-festive-baking-gift-set-winstar4u.jpg?camera_label=front |
+| 6ac702517424c0bbb60dc1e9 | Christmas Excuse Eat King Christmas Apron — Funny Holiday Kitchen Apron, Festive Cooking & Baking Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac702517424c0bbb60dc1e9/74521/19501/christmas-excuse-eat-king-christmas-apron-funny-holiday-kitchen-apron-festive-cooking-baking-gift-winstar4u.jpg?camera_label=front |
+| 6ac7024e2a2224fe7d0776db | Christmas Eat No January Christmas Apron — Funny Holiday Kitchen Apron, Festive Cooking & Baking Gift | Winstar4U | DEFECT — opaque white-background-box defect — non-transparent PNG shows white rectangle on black apron | https://images.printify.com/mockup/6ac7024e2a2224fe7d0776db/74521/19501/christmas-eat-no-january-christmas-apron-funny-holiday-kitchen-apron-festive-cooking-baking-gift-winstar4u.jpg?camera_label=front |
+| 6ac70246b814691321002fc7 | Christmas Calories Dont Count Christmas Apron — Funny Holiday Kitchen Apron, Festive Cooking & Baking Gift | Winstar4U | DEFECT — opaque white-background-box defect — non-transparent PNG shows white rectangle on black apron | https://images.printify.com/mockup/6ac70246b814691321002fc7/74521/19501/christmas-calories-dont-count-christmas-apron-funny-holiday-kitchen-apron-festive-cooking-baking-gift-winstar4u.jpg?camera_label=front |
+| 6ac7023f3a88d2f780057c82 | Dear Santa Bank Account Christmas Tumbler 20oz — Funny Holiday Travel Mug, Festive Gift for Wine & Coffee Lovers | Winstar4U | DEFECT — wraparound-crop — text clipped at cylinder seam | https://images.printify.com/mockup/6ac7023f3a88d2f780057c82/44519/849/dear-santa-bank-account-christmas-tumbler-20oz-funny-holiday-travel-mug-festive-gift-for-wine-coffee-lovers-winstar4u.jpg?camera_label=front |
+| 6ac7023b35cf3f6ec802e220 | Christmas 2026 Caffeine Panic Christmas Tumbler 20oz — Funny Holiday Travel Mug, Festive Gift for Wine & Coffee Lovers | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7023b35cf3f6ec802e220/44519/849/christmas-2026-caffeine-panic-christmas-tumbler-20oz-funny-holiday-travel-mug-festive-gift-for-wine-coffee-lovers-winstar4u.jpg?camera_label=front |
+| 6ac702387424c0bbb60dc1ca | Chic Happens Cocktail Christmas Tumbler 20oz — Funny Holiday Travel Mug, Festive Gift for Wine & Coffee Lovers | Winstar4U | DEFECT — wraparound-crop — text clipped at cylinder seam | https://images.printify.com/mockup/6ac702387424c0bbb60dc1ca/44519/849/chic-happens-cocktail-christmas-tumbler-20oz-funny-holiday-travel-mug-festive-gift-for-wine-coffee-lovers-winstar4u.jpg?camera_label=front |
+| 6ac702357424c0bbb60dc1c8 | Jingle All Way Liquor Christmas Tumbler 20oz — Funny Holiday Travel Mug, Festive Gift for Wine & Coffee Lovers | Winstar4U | DEFECT — wraparound-crop — text clipped at cylinder seam | https://images.printify.com/mockup/6ac702357424c0bbb60dc1c8/44519/849/jingle-all-way-liquor-christmas-tumbler-20oz-funny-holiday-travel-mug-festive-gift-for-wine-coffee-lovers-winstar4u.jpg?camera_label=front |
+| 6ac70231154e72164e0d8eea | Elegantly Wasted Martini Christmas Tumbler 20oz — Funny Holiday Travel Mug, Festive Gift for Wine & Coffee Lovers | Winstar4U | DEFECT — wraparound-crop — text clipped at cylinder seam | https://images.printify.com/mockup/6ac70231154e72164e0d8eea/44519/849/elegantly-wasted-martini-christmas-tumbler-20oz-funny-holiday-travel-mug-festive-gift-for-wine-coffee-lovers-winstar4u.jpg?camera_label=front |
+| 6ac7022e154e72164e0d8ee9 | Christmas Open Bar Christmas Tumbler 20oz — Funny Holiday Travel Mug, Festive Gift for Wine & Coffee Lovers | Winstar4U | DEFECT — wraparound-crop — text clipped at cylinder seam (multiple lines) | https://images.printify.com/mockup/6ac7022e154e72164e0d8ee9/44519/849/christmas-open-bar-christmas-tumbler-20oz-funny-holiday-travel-mug-festive-gift-for-wine-coffee-lovers-winstar4u.jpg?camera_label=front |
+| 6ac7022a5c9a6e9bfd07d16f | Ho Ho Pour Another Christmas Tumbler 20oz — Funny Holiday Travel Mug, Festive Gift for Wine & Coffee Lovers | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7022a5c9a6e9bfd07d16f/44519/849/ho-ho-pour-another-christmas-tumbler-20oz-funny-holiday-travel-mug-festive-gift-for-wine-coffee-lovers-winstar4u.jpg?camera_label=front |
+| 6ac7022767e0e81ed20ffdb2 | Corkscrew Wine Repeat Christmas Tumbler 20oz — Funny Holiday Travel Mug, Festive Gift for Wine & Coffee Lovers | Winstar4U | DEFECT — wraparound-crop — text clipped at cylinder seam | https://images.printify.com/mockup/6ac7022767e0e81ed20ffdb2/44519/849/corkscrew-wine-repeat-christmas-tumbler-20oz-funny-holiday-travel-mug-festive-gift-for-wine-coffee-lovers-winstar4u.jpg?camera_label=front |
+| 6ac7021f0a223533b3070594 | Bah Humbug Wine Christmas Tumbler 20oz — Funny Holiday Travel Mug, Festive Gift for Wine & Coffee Lovers | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7021f0a223533b3070594/44519/849/bah-humbug-wine-christmas-tumbler-20oz-funny-holiday-travel-mug-festive-gift-for-wine-coffee-lovers-winstar4u.jpg?camera_label=front |
+| 6ac70218d907a8335b0f3bab | Bah Humbug Wine Christmas Bucket Hat — Funny Holiday Hat, Festive Winter Party Accessory Gift | Winstar4U | DEFECT — opaque white-background-box defect | https://images.printify.com/mockup/6ac70218d907a8335b0f3bab/116654/112500/bah-humbug-wine-christmas-bucket-hat-funny-holiday-hat-festive-winter-party-accessory-gift-winstar4u.jpg?camera_label=front |
+| 6ac702137be9df884b032549 | Eggnog Recovery Skeleton Christmas Bucket Hat — Funny Holiday Hat, Festive Winter Party Accessory Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac702137be9df884b032549/116654/112500/eggnog-recovery-skeleton-christmas-bucket-hat-funny-holiday-hat-festive-winter-party-accessory-gift-winstar4u.jpg?camera_label=front |
+| 6ac702101867075e770417d7 | Naughty Is New Nice Christmas Bucket Hat — Funny Holiday Hat, Festive Winter Party Accessory Gift | Winstar4U | DEFECT — opaque white-background-box defect + bottom text ("NICE") cropped | https://images.printify.com/mockup/6ac702101867075e770417d7/116654/112500/naughty-is-new-nice-christmas-bucket-hat-funny-holiday-hat-festive-winter-party-accessory-gift-winstar4u.jpg?camera_label=front |
+| 6ac7020d7424c0bbb60dc1bd | Christmas Party Survivor Christmas Bucket Hat — Funny Holiday Hat, Festive Winter Party Accessory Gift | Winstar4U | DEFECT — top text cropped at panel edge | https://images.printify.com/mockup/6ac7020d7424c0bbb60dc1bd/116654/112500/christmas-party-survivor-christmas-bucket-hat-funny-holiday-hat-festive-winter-party-accessory-gift-winstar4u.jpg?camera_label=front |
+| 6ac70209710be211d209a8bc | Merry Christmas Lets Get Lit Christmas Bucket Hat — Funny Holiday Hat, Festive Winter Party Accessory Gift | Winstar4U | DEFECT — opaque white-background-box defect | https://images.printify.com/mockup/6ac70209710be211d209a8bc/116654/112500/merry-christmas-lets-get-lit-christmas-bucket-hat-funny-holiday-hat-festive-winter-party-accessory-gift-winstar4u.jpg?camera_label=front |
+| 6ac7020567e0e81ed20ffda7 | My Elf Made Me Christmas Bucket Hat — Funny Holiday Hat, Festive Winter Party Accessory Gift | Winstar4U | DEFECT — opaque white-background-box defect + duplicated-word source-art bug | https://images.printify.com/mockup/6ac7020567e0e81ed20ffda7/116654/112500/my-elf-made-me-christmas-bucket-hat-funny-holiday-hat-festive-winter-party-accessory-gift-winstar4u.jpg?camera_label=front |
+| 6ac70202a085d659d502276f | Jingle Bells Santa Smells Christmas Bucket Hat — Funny Holiday Hat, Festive Winter Party Accessory Gift | Winstar4U | DEFECT — opaque white-background-box defect + top text cropped | https://images.printify.com/mockup/6ac70202a085d659d502276f/116654/112500/jingle-bells-santa-smells-christmas-bucket-hat-funny-holiday-hat-festive-winter-party-accessory-gift-winstar4u.jpg?camera_label=front |
+| 6ac701ff0e0700fe0f0ea8ee | Naughty List Resume Christmas Bucket Hat — Funny Holiday Hat, Festive Winter Party Accessory Gift | Winstar4U | DEFECT — opaque white-background-box defect + bottom text cropped | https://images.printify.com/mockup/6ac701ff0e0700fe0f0ea8ee/116654/112500/naughty-list-resume-christmas-bucket-hat-funny-holiday-hat-festive-winter-party-accessory-gift-winstar4u.jpg?camera_label=front |
+| 6ac701f635cf3f6ec802e205 | Christmas Mode Dnd Christmas Bucket Hat — Funny Holiday Hat, Festive Winter Party Accessory Gift | Winstar4U | DEFECT — opaque white-background-box defect | https://images.printify.com/mockup/6ac701f635cf3f6ec802e205/116654/112500/christmas-mode-dnd-christmas-bucket-hat-funny-holiday-hat-festive-winter-party-accessory-gift-winstar4u.jpg?camera_label=front |
+| 6ac701f37be9df884b032535 | Greatest Gift Christmas Throw Pillow — Festive Holiday Decorative Pillow, Cozy Winter Home Decor Gift | Winstar4U | DEFECT — text cropped at top of pillow face | https://images.printify.com/mockup/6ac701f37be9df884b032535/41524/47614/greatest-gift-christmas-throw-pillow-festive-holiday-decorative-pillow-cozy-winter-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac701f0826b7669c103bc52 | Naughty Is New Nice Christmas Throw Pillow — Festive Holiday Decorative Pillow, Cozy Winter Home Decor Gift | Winstar4U | DEFECT — text cropped left/right edges of pillow face | https://images.printify.com/mockup/6ac701f0826b7669c103bc52/41524/47614/naughty-is-new-nice-christmas-throw-pillow-festive-holiday-decorative-pillow-cozy-winter-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac701ec7a961335020e19ff | Christmas Mode Dnd Christmas Throw Pillow — Festive Holiday Decorative Pillow, Cozy Winter Home Decor Gift | Winstar4U | DEFECT — text cropped top/right edges of pillow face | https://images.printify.com/mockup/6ac701ec7a961335020e19ff/41524/47614/christmas-mode-dnd-christmas-throw-pillow-festive-holiday-decorative-pillow-cozy-winter-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac701e97be9df884b032531 | Hallelujah Angels Christmas Throw Pillow — Festive Holiday Decorative Pillow, Cozy Winter Home Decor Gift | Winstar4U | DEFECT — text cropped left/right edges of pillow face | https://images.printify.com/mockup/6ac701e97be9df884b032531/41524/47614/hallelujah-angels-christmas-throw-pillow-festive-holiday-decorative-pillow-cozy-winter-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac701e535cf3f6ec802e201 | Merry Everything Happy Always Christmas Throw Pillow — Festive Holiday Decorative Pillow, Cozy Winter Home Decor Gift | Winstar4U | DEFECT — text cropped left/right edges of pillow face, mid-word cuts | https://images.printify.com/mockup/6ac701e535cf3f6ec802e201/41524/47614/merry-everything-happy-always-christmas-throw-pillow-festive-holiday-decorative-pillow-cozy-winter-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac701e2b814691321002f9c | All I Want Nap Pillow Christmas Throw Pillow — Festive Holiday Decorative Pillow, Cozy Winter Home Decor Gift | Winstar4U | DEFECT — text cropped at top of pillow face | https://images.printify.com/mockup/6ac701e2b814691321002f9c/41524/47614/all-i-want-nap-pillow-christmas-throw-pillow-festive-holiday-decorative-pillow-cozy-winter-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac701db35cf3f6ec802e1fc | Rejoice Star Christmas Throw Pillow — Festive Holiday Decorative Pillow, Cozy Winter Home Decor Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac701db35cf3f6ec802e1fc/41524/47614/rejoice-star-christmas-throw-pillow-festive-holiday-decorative-pillow-cozy-winter-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac701d8fc9fb872c3014d6f | Keep Christ Christmas Christmas Throw Pillow — Festive Holiday Decorative Pillow, Cozy Winter Home Decor Gift | Winstar4U | DEFECT — text cropped at top of pillow face | https://images.printify.com/mockup/6ac701d8fc9fb872c3014d6f/41524/47614/keep-christ-christmas-christmas-throw-pillow-festive-holiday-decorative-pillow-cozy-winter-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac701d0826b7669c103bc44 | Christmas Wreath 2026 Christmas Throw Pillow — Festive Holiday Decorative Pillow, Cozy Winter Home Decor Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac701d0826b7669c103bc44/41524/47614/christmas-wreath-2026-christmas-throw-pillow-festive-holiday-decorative-pillow-cozy-winter-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac701cc0a223533b3070570 | Merry Everything Happy Always Christmas Throw Blanket — Cozy Holiday Fleece Blanket, Festive Winter Home Decor Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac701cc0a223533b3070570/75114/20092/merry-everything-happy-always-christmas-throw-blanket-cozy-holiday-fleece-blanket-festive-winter-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac701c92a2224fe7d0776aa | Amazing Grace Christmas Throw Blanket — Cozy Holiday Fleece Blanket, Festive Winter Home Decor Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac701c92a2224fe7d0776aa/75114/20092/amazing-grace-christmas-throw-blanket-cozy-holiday-fleece-blanket-festive-winter-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac701c6710be211d209a8a5 | Ill Be Home Christmas Probably Christmas Throw Blanket — Cozy Holiday Fleece Blanket, Festive Winter Home Decor Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac701c6710be211d209a8a5/75114/20092/ill-be-home-christmas-probably-christmas-throw-blanket-cozy-holiday-fleece-blanket-festive-winter-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac701c235cf3f6ec802e1f2 | Christmas Lights Therapy Christmas Throw Blanket — Cozy Holiday Fleece Blanket, Festive Winter Home Decor Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac701c235cf3f6ec802e1f2/75114/20092/christmas-lights-therapy-christmas-throw-blanket-cozy-holiday-fleece-blanket-festive-winter-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac701bf1e2eac4da206fbb6 | Dreaming Stress Free Christmas Christmas Throw Blanket — Cozy Holiday Fleece Blanket, Festive Winter Home Decor Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac701bf1e2eac4da206fbb6/75114/20092/dreaming-stress-free-christmas-christmas-throw-blanket-cozy-holiday-fleece-blanket-festive-winter-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac701bb67e0e81ed20ffd8c | Joy To World Christian Christmas Throw Blanket — Cozy Holiday Fleece Blanket, Festive Winter Home Decor Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac701bb67e0e81ed20ffd8c/75114/20092/joy-to-world-christian-christmas-throw-blanket-cozy-holiday-fleece-blanket-festive-winter-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac701b8d39a61c1c70c70eb | Blessed Christmas Christmas Throw Blanket — Cozy Holiday Fleece Blanket, Festive Winter Home Decor Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac701b8d39a61c1c70c70eb/75114/20092/blessed-christmas-christmas-throw-blanket-cozy-holiday-fleece-blanket-festive-winter-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac701b40a223533b307055c | Reason For Season Christmas Throw Blanket — Cozy Holiday Fleece Blanket, Festive Winter Home Decor Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac701b40a223533b307055c/75114/20092/reason-for-season-christmas-throw-blanket-cozy-holiday-fleece-blanket-festive-winter-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac701b10a223533b3070559 | O Holy Night Christmas Throw Blanket — Cozy Holiday Fleece Blanket, Festive Winter Home Decor Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac701b10a223533b3070559/75114/20092/o-holy-night-christmas-throw-blanket-cozy-holiday-fleece-blanket-festive-winter-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac700fb1867075e7704176d | "Merry Everything Happy Always" Christmas Ornament — Ceramic Holiday Tree Ornament, Festive Christmas Gift & Stocking Stuffer | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac700fb1867075e7704176d/69368/110723/merry-everything-happy-always-christmas-ornament-ceramic-holiday-tree-ornament-festive-christmas-gift-stocking-stuffer-winstar4u.jpg?camera_label=front |
+| 6ac700f79e2311cf1e0af723 | "Naughty Is New Nice" Christmas Ornament — Ceramic Holiday Tree Ornament, Festive Christmas Gift & Stocking Stuffer | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac700f79e2311cf1e0af723/69368/110723/naughty-is-new-nice-christmas-ornament-ceramic-holiday-tree-ornament-festive-christmas-gift-stocking-stuffer-winstar4u.jpg?camera_label=front |
+| 6ac700f42a2224fe7d077640 | "My Elf Made Me" Christmas Ornament — Ceramic Holiday Tree Ornament, Festive Christmas Gift & Stocking Stuffer | Winstar4U | DEFECT — duplicated-word source-art bug ("MY ELF MADE / MADE ME DO IT") | https://images.printify.com/mockup/6ac700f42a2224fe7d077640/69368/110723/my-elf-made-me-christmas-ornament-ceramic-holiday-tree-ornament-festive-christmas-gift-stocking-stuffer-winstar4u.jpg?camera_label=front |
+| 6ac700f1154e72164e0d8e69 | "Glory To God" Christmas Ornament — Ceramic Holiday Tree Ornament, Festive Christmas Gift & Stocking Stuffer | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac700f1154e72164e0d8e69/69368/110723/glory-to-god-christmas-ornament-ceramic-holiday-tree-ornament-festive-christmas-gift-stocking-stuffer-winstar4u.jpg?camera_label=front |
+| 6ac700ed9e2311cf1e0af721 | "Christ Is Born" Christmas Ornament — Ceramic Holiday Tree Ornament, Festive Christmas Gift & Stocking Stuffer | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac700ed9e2311cf1e0af721/69368/110723/christ-is-born-christmas-ornament-ceramic-holiday-tree-ornament-festive-christmas-gift-stocking-stuffer-winstar4u.jpg?camera_label=front |
+| 6ac700ea826b7669c103bbe9 | "Greatest Gift" Christmas Ornament — Ceramic Holiday Tree Ornament, Festive Christmas Gift & Stocking Stuffer | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac700ea826b7669c103bbe9/69368/110723/greatest-gift-christmas-ornament-ceramic-holiday-tree-ornament-festive-christmas-gift-stocking-stuffer-winstar4u.jpg?camera_label=front |
+| 6ac700e3154e72164e0d8e5f | "Rejoice Star" Christmas Ornament — Ceramic Holiday Tree Ornament, Festive Christmas Gift & Stocking Stuffer | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac700e3154e72164e0d8e5f/69368/110723/rejoice-star-christmas-ornament-ceramic-holiday-tree-ornament-festive-christmas-gift-stocking-stuffer-winstar4u.jpg?camera_label=front |
+| 6ac700d8fc9fb872c3014d14 | "Keep Christ Christmas" Christmas Scented Candle — 11oz Holiday Candle, Cozy Christmas Gift for Her, Stocking Stuffer | Winstar4U | DEFECT — overscale/zoomed design — title text entirely absent from view | https://images.printify.com/mockup/6ac700d8fc9fb872c3014d14/73689/19808/keep-christ-christmas-christmas-scented-candle-11oz-holiday-candle-cozy-christmas-gift-for-her-stocking-stuffer-winstar4u.jpg?camera_label=front |
+| 6ac700d51cf62ac72e0adc46 | "Christmas Wreath 2026" Christmas Scented Candle — 11oz Holiday Candle, Cozy Christmas Gift for Her, Stocking Stuffer | Winstar4U | DEFECT — overscale/zoomed design — title text entirely absent from view | https://images.printify.com/mockup/6ac700d51cf62ac72e0adc46/73689/19808/christmas-wreath-2026-christmas-scented-candle-11oz-holiday-candle-cozy-christmas-gift-for-her-stocking-stuffer-winstar4u.jpg?camera_label=front |
+| 6ac700d1bfa347bea60c9774 | "Merry Everything Happy Always" Christmas Scented Candle — 11oz Holiday Candle, Cozy Christmas Gift for Her, Stocking Stuffer | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac700d1bfa347bea60c9774/73689/19808/merry-everything-happy-always-christmas-scented-candle-11oz-holiday-candle-cozy-christmas-gift-for-her-stocking-stuffer-winstar4u.jpg?camera_label=front |
+| 6ac700cebfa347bea60c9772 | "Reason For Season" Christmas Scented Candle — 11oz Holiday Candle, Cozy Christmas Gift for Her, Stocking Stuffer | Winstar4U | DEFECT — overscale/zoomed design — title text entirely absent from view | https://images.printify.com/mockup/6ac700cebfa347bea60c9772/73689/19808/reason-for-season-christmas-scented-candle-11oz-holiday-candle-cozy-christmas-gift-for-her-stocking-stuffer-winstar4u.jpg?camera_label=front |
+| 6ac700cb7424c0bbb60dc164 | "Joy To World Christian" Christmas Scented Candle — 11oz Holiday Candle, Cozy Christmas Gift for Her, Stocking Stuffer | Winstar4U | DEFECT — overscale/zoomed design — title text entirely absent from view | https://images.printify.com/mockup/6ac700cb7424c0bbb60dc164/73689/19808/joy-to-world-christian-christmas-scented-candle-11oz-holiday-candle-cozy-christmas-gift-for-her-stocking-stuffer-winstar4u.jpg?camera_label=front |
+| 6ac700c711b452f0a106e276 | "Dreaming Stress Free Christmas" Christmas Scented Candle — 11oz Holiday Candle, Cozy Christmas Gift for Her, Stocking Stuffer | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac700c711b452f0a106e276/73689/19808/dreaming-stress-free-christmas-christmas-scented-candle-11oz-holiday-candle-cozy-christmas-gift-for-her-stocking-stuffer-winstar4u.jpg?camera_label=front |
+| 6ac700c311b452f0a106e274 | "Christmas Lights Therapy" Christmas Scented Candle — 11oz Holiday Candle, Cozy Christmas Gift for Her, Stocking Stuffer | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac700c311b452f0a106e274/73689/19808/christmas-lights-therapy-christmas-scented-candle-11oz-holiday-candle-cozy-christmas-gift-for-her-stocking-stuffer-winstar4u.jpg?camera_label=front |
+| 6ac700c01e2eac4da206fb51 | "Amazing Grace" Christmas Scented Candle — 11oz Holiday Candle, Cozy Christmas Gift for Her, Stocking Stuffer | Winstar4U | DEFECT — overscale/zoomed design — title text entirely absent from view | https://images.printify.com/mockup/6ac700c01e2eac4da206fb51/73689/19808/amazing-grace-christmas-scented-candle-11oz-holiday-candle-cozy-christmas-gift-for-her-stocking-stuffer-winstar4u.jpg?camera_label=front |
+| 6ac700bc9e2311cf1e0af707 | "Blessed Christmas" Christmas Scented Candle — 11oz Holiday Candle, Cozy Christmas Gift for Her, Stocking Stuffer | Winstar4U | DEFECT — overscale/zoomed design — title text entirely absent from view | https://images.printify.com/mockup/6ac700bc9e2311cf1e0af707/73689/19808/blessed-christmas-christmas-scented-candle-11oz-holiday-candle-cozy-christmas-gift-for-her-stocking-stuffer-winstar4u.jpg?camera_label=front |
+| 6ac700b51cf62ac72e0adc29 | "O Holy Night" Christmas Scented Candle — 11oz Holiday Candle, Cozy Christmas Gift for Her, Stocking Stuffer | Winstar4U | DEFECT — overscale/zoomed design — title text entirely absent from view | https://images.printify.com/mockup/6ac700b51cf62ac72e0adc29/73689/19808/o-holy-night-christmas-scented-candle-11oz-holiday-candle-cozy-christmas-gift-for-her-stocking-stuffer-winstar4u.jpg?camera_label=front |
+| 6ac7005a4f88f35ee90d3e7b | "Christmas Eat No January" Christmas Socks — Festive Holiday Sublimation Crew Socks, Fun Christmas Gift & Stocking Stuffer | Winstar4U | DEFECT — wraparound-fragmentation — text split illegibly around sock curvature | https://images.printify.com/mockup/6ac7005a4f88f35ee90d3e7b/45132/53207/christmas-eat-no-january-christmas-socks-festive-holiday-sublimation-crew-socks-fun-christmas-gift-stocking-stuffer-winstar4u.jpg?camera_label=pose-1 |
+| 6ac700570a223533b30704c0 | "Chic Happens Cocktail" Christmas Socks — Festive Holiday Sublimation Crew Socks, Fun Christmas Gift & Stocking Stuffer | Winstar4U | DEFECT — wraparound-fragmentation — text split illegibly around sock curvature | https://images.printify.com/mockup/6ac700570a223533b30704c0/45132/53207/chic-happens-cocktail-christmas-socks-festive-holiday-sublimation-crew-socks-fun-christmas-gift-stocking-stuffer-winstar4u.jpg?camera_label=pose-1 |
+| 6ac70053826b7669c103bb8d | "All I Want Nap" Christmas Socks — Festive Holiday Sublimation Crew Socks, Fun Christmas Gift & Stocking Stuffer | Winstar4U | DEFECT — wraparound-fragmentation — text split illegibly around sock curvature | https://images.printify.com/mockup/6ac70053826b7669c103bb8d/45132/53207/all-i-want-nap-christmas-socks-festive-holiday-sublimation-crew-socks-fun-christmas-gift-stocking-stuffer-winstar4u.jpg?camera_label=pose-1 |
+| 6ac70050680525323b008a3b | "Christmas Vacation Canceled" Christmas Socks — Festive Holiday Sublimation Crew Socks, Fun Christmas Gift & Stocking Stuffer | Winstar4U | DEFECT — wraparound-fragmentation — text split illegibly around sock curvature | https://images.printify.com/mockup/6ac70050680525323b008a3b/45132/53207/christmas-vacation-canceled-christmas-socks-festive-holiday-sublimation-crew-socks-fun-christmas-gift-stocking-stuffer-winstar4u.jpg?camera_label=pose-1 |
+| 6ac7004c0a223533b30704b5 | "Dear Santa Explain" Christmas Socks — Festive Holiday Sublimation Crew Socks, Fun Christmas Gift & Stocking Stuffer | Winstar4U | DEFECT — wraparound-fragmentation — text split illegibly around sock curvature | https://images.printify.com/mockup/6ac7004c0a223533b30704b5/45132/53207/dear-santa-explain-christmas-socks-festive-holiday-sublimation-crew-socks-fun-christmas-gift-stocking-stuffer-winstar4u.jpg?camera_label=pose-1 |
+| 6ac70048cf880756890d3279 | "Glory To God" Christmas Socks — Festive Holiday Sublimation Crew Socks, Fun Christmas Gift & Stocking Stuffer | Winstar4U | DEFECT — wraparound-fragmentation — text split illegibly around sock curvature | https://images.printify.com/mockup/6ac70048cf880756890d3279/45132/53207/glory-to-god-christmas-socks-festive-holiday-sublimation-crew-socks-fun-christmas-gift-stocking-stuffer-winstar4u.jpg?camera_label=pose-1 |
+| 6ac70045680525323b008a2c | "Christ Is Born" Christmas Socks — Festive Holiday Sublimation Crew Socks, Fun Christmas Gift & Stocking Stuffer | Winstar4U | DEFECT — wraparound-fragmentation — "CHRIST IS BORN" split illegibly around sock curvature | https://images.printify.com/mockup/6ac70045680525323b008a2c/45132/53207/christ-is-born-christmas-socks-festive-holiday-sublimation-crew-socks-fun-christmas-gift-stocking-stuffer-winstar4u.jpg?camera_label=pose-1 |
+| 6ac70041154e72164e0d8ded | "Avoiding Carolers Raccoon" Christmas Socks — Festive Holiday Sublimation Crew Socks, Fun Christmas Gift & Stocking Stuffer | Winstar4U | DEFECT — wraparound-fragmentation — text split illegibly around sock curvature | https://images.printify.com/mockup/6ac70041154e72164e0d8ded/45132/53207/avoiding-carolers-raccoon-christmas-socks-festive-holiday-sublimation-crew-socks-fun-christmas-gift-stocking-stuffer-winstar4u.jpg?camera_label=pose-1 |
+| 6ac7003e1867075e77041704 | "Avoiding Carolers Gnome" Christmas Socks — Festive Holiday Sublimation Crew Socks, Fun Christmas Gift & Stocking Stuffer | Winstar4U | DEFECT — wraparound-fragmentation — text split illegibly around sock curvature | https://images.printify.com/mockup/6ac7003e1867075e77041704/45132/53207/avoiding-carolers-gnome-christmas-socks-festive-holiday-sublimation-crew-socks-fun-christmas-gift-stocking-stuffer-winstar4u.jpg?camera_label=pose-1 |
+| 6ac700370a223533b307049f | "Christmas Calories Dont Count" Christmas Socks — Festive Holiday Sublimation Crew Socks, Fun Christmas Gift & Stocking Stuffer | Winstar4U | DEFECT — wraparound-fragmentation — text split illegibly around sock curvature | https://images.printify.com/mockup/6ac700370a223533b307049f/45132/53207/christmas-calories-dont-count-christmas-socks-festive-holiday-sublimation-crew-socks-fun-christmas-gift-stocking-stuffer-winstar4u.jpg?camera_label=pose-1 |
+| 6ac6ffab3fd8c86beb0f473d | "Rejoice Star" Christmas Kids' T-Shirt — Festive Holiday Kids' T-Shirt Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac6ffab3fd8c86beb0f473d/42519/105377/rejoice-star-christmas-kids-t-shirt-festive-holiday-kids-t-shirt-gift-winstar4u.jpg?camera_label=front |
+| 6ac6ffa7154e72164e0d8da0 | "Amazing Grace" Christmas Kids' T-Shirt — Festive Holiday Kids' T-Shirt Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac6ffa7154e72164e0d8da0/42519/105377/amazing-grace-christmas-kids-t-shirt-festive-holiday-kids-t-shirt-gift-winstar4u.jpg?camera_label=front |
+| 6ac6ff9c2a2224fe7d0775a1 | "My Elf Made Me" Christmas Kids' T-Shirt — Festive Holiday Kids' T-Shirt Gift | Winstar4U | DEFECT — duplicated-word source-art bug ("MY ELF MADE / MADE ME DO IT") — now confirmed on 4 blueprints | https://images.printify.com/mockup/6ac6ff9c2a2224fe7d0775a1/42519/105377/my-elf-made-me-christmas-kids-t-shirt-festive-holiday-kids-t-shirt-gift-winstar4u.jpg?camera_label=front |
+| 6ac6ff98154e72164e0d8d97 | "Merry Everything Happy Always" Christmas Kids' T-Shirt — Festive Holiday Kids' T-Shirt Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac6ff98154e72164e0d8d97/42519/105377/merry-everything-happy-always-christmas-kids-t-shirt-festive-holiday-kids-t-shirt-gift-winstar4u.jpg?camera_label=front |
+| 6ac6ff94fc9fb872c3014c72 | "Greatest Gift" Christmas Kids' T-Shirt — Festive Holiday Kids' T-Shirt Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac6ff94fc9fb872c3014c72/42519/105377/greatest-gift-christmas-kids-t-shirt-festive-holiday-kids-t-shirt-gift-winstar4u.jpg?camera_label=front |
+| 6ac6ff91d907a8335b0f3aab | "Joy To World Christian" Christmas Kids' T-Shirt — Festive Holiday Kids' T-Shirt Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac6ff91d907a8335b0f3aab/42519/105377/joy-to-world-christian-christmas-kids-t-shirt-festive-holiday-kids-t-shirt-gift-winstar4u.jpg?camera_label=front |
+| 6ac6ff8a67e0e81ed20ffc69 | "Blessed Christmas" Christmas Kids' T-Shirt — Festive Holiday Kids' T-Shirt Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac6ff8a67e0e81ed20ffc69/42519/105377/blessed-christmas-christmas-kids-t-shirt-festive-holiday-kids-t-shirt-gift-winstar4u.jpg?camera_label=front |
+| 6ac6ff861e2eac4da206faa9 | "Savior Born Manger" Christmas Long Sleeve Tee — Festive Holiday Long Sleeve Tee Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac6ff861e2eac4da206faa9/25076/103304/savior-born-manger-christmas-long-sleeve-tee-festive-holiday-long-sleeve-tee-gift-winstar4u.jpg?camera_label=front |
+| 6ac6ff8226c1e001ae083f3f | "Thankful Grateful Blesse" Christmas Long Sleeve Tee — Festive Holiday Long Sleeve Tee Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac6ff8226c1e001ae083f3f/25076/103304/thankful-grateful-blesse-christmas-long-sleeve-tee-festive-holiday-long-sleeve-tee-gift-winstar4u.jpg?camera_label=front |
+| 6ac6ff7e11b452f0a106e1d8 | "Hallelujah Angels" Christmas Long Sleeve Tee — Festive Holiday Long Sleeve Tee Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac6ff7e11b452f0a106e1d8/25076/103304/hallelujah-angels-christmas-long-sleeve-tee-festive-holiday-long-sleeve-tee-gift-winstar4u.jpg?camera_label=front |
+| 6ac6ff7b0a223533b307044b | "Amazing Grace" Christmas Long Sleeve Tee — Festive Holiday Long Sleeve Tee Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac6ff7b0a223533b307044b/25076/103304/amazing-grace-christmas-long-sleeve-tee-festive-holiday-long-sleeve-tee-gift-winstar4u.jpg?camera_label=front |
+| 6ac6ff73154e72164e0d8d8a | "Walk By Faith" Christmas Long Sleeve Tee — Festive Holiday Long Sleeve Tee Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac6ff73154e72164e0d8d8a/25076/103304/walk-by-faith-christmas-long-sleeve-tee-festive-holiday-long-sleeve-tee-gift-winstar4u.jpg?camera_label=front |
+| 6ac6ff444f88f35ee90d3df0 | "Naughty List Resume" Christmas Tough Phone Case — Festive Holiday Tough Phone Case Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac6ff444f88f35ee90d3df0/93905/136144/naughty-list-resume-christmas-tough-phone-case-festive-holiday-tough-phone-case-gift-winstar4u.jpg?camera_label=front |
+| 6ac6ff41710be211d209a7be | "Christmas Lights Therapy" Christmas Tough Phone Case — Festive Holiday Tough Phone Case Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac6ff41710be211d209a7be/93905/136144/christmas-lights-therapy-christmas-tough-phone-case-festive-holiday-tough-phone-case-gift-winstar4u.jpg?camera_label=front |
