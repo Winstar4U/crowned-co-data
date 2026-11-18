@@ -209,10 +209,11 @@ closer look given the similar title, but confirmed NOT a third duplicate once th
    compare the print-area `scale` value the way this session did for the cribbage ornament — this is a
    fast, high-value check once a pair is identified, and already found one real defect this way.
 
-## 8a. Amazon shop (29451844) — IN PROGRESS, major duplicate-ASIN finding (2026-11-17, this session)
+## 8a. Amazon shop (29451844) — COMPLETE: 62/62 visually inspected, major duplicate-ASIN finding
+## (2026-11-17/18, this session)
 
-**Status: 38/62 products now have real image evidence (0 confirmed visual defects). 24 remain
-unchecked.** Task T-1O514F2T63 claimed, in progress, not yet submitted.
+**Status: 62/62 products now have real image evidence. 0 confirmed visual/artwork defects.** Second
+shop (after eBay) to reach full visual-inspection completion. Task T-1O514F2T63 ready for submission.
 
 ### HIGHEST-SEVERITY FINDING THIS SESSION: 10 confirmed true duplicate-listing pairs, 7 of which are
 ### SIMULTANEOUSLY LIVE ON AMAZON under two different ASINs each
@@ -233,9 +234,21 @@ a TRUE duplicate by matching print-area image filename + scale + x + y (not just
 | 8 | b5-cookie-dealer-4096.png | 6ae414e32e006c787106bd96 | B0HPSQZ91Z | 6ae2af11bcfc422d820a54c9 | B0HPN23TVY | **BOTH LIVE** |
 | 9 | gone-fishing-for-christmas.png | 6ae41f72e88b7e964c0e738a | unclear/blank | 6ae414eaf755b251850ceb05 | — | Not confirmed both-live, flagged for follow-up |
 | 10 | Christmas Dog With Santa Hat And Holiday Ball.png | 6ae41f68e88b7e964c0e737e | — | 6adea7d6853b5615b805ead5 | B0HPN22XVP | Only #2 live |
+| 11 | "THE NAUGHTY LIST" cat-mugshot art (two different internal filenames: cat-lineup-the-naughty-list.png / cat-lineup-naughty-list-cats-only.png, but the RENDERED artwork is visually identical — same 4 cats, same hats, same banner — confirmed by opening both images, not just filename matching) | 6ae414e0e88b7e964c0e72ee | B0HPSD8268 | 6ae41f6ce88b7e964c0e7383 | — | Only #1 live |
 
-**7 of 10 pairs (14 products) are confirmed simultaneously live on Amazon with separate ASINs for
-identical artwork.** This is a materially different and more severe problem than any duplicate found on
+**7 of 11 pairs (14 products) are confirmed simultaneously live on Amazon with separate ASINs for
+identical artwork.** Note: pair #11 was caught only by visually comparing the two mockup images side by
+side — their internal Printify filenames differ, so the filename+scale matching method used for pairs
+1-10 would have missed it. This means the 10 filename-matched pairs are a reliable floor, not a ceiling:
+the true count of near-identical-artwork duplicates could be modestly higher than what automated
+filename matching finds alone; a dedicated title-similarity + visual-compare pass across the full
+catalog (beyond what this session's manual review covered) would be the thorough way to close that gap.
+
+**Checked and ruled OUT as a duplicate:** "Santa Called For Backup" Firefighter Funny Christmas T-Shirt
+(6ae41f6be88b7e964c0e7382) vs. "Santa Called Backup Firefighter T-Shirt" (6ae414d9e88b7e964c0e72e7) —
+very similar titles, but the two print-area images (santa-called-for-backup-firefighter.png vs.
+firefighter-backup.png) are genuinely different artwork (different illustration style/composition),
+confirmed by viewing both. Flagged and cleared, not counted as a duplicate. This is a materially different and more severe problem than any duplicate found on
 eBay or Shopify so far: it means Amazon customers can land on either of two separate product pages for
 the exact same shirt, splitting reviews, sales rank, and search visibility, and creating real risk under
 Amazon's own duplicate-listing / variation policies. All artwork itself was visually confirmed CLEAN on
@@ -264,15 +277,22 @@ sign-off per listing before any attempt — no action has been taken.
   Festive & Fabulous Disco Ball (6ae414dfe88b7e964c0e72ec), Christmas T-Rex Tree/"Tree Rex"
   (6ae414dde88b7e964c0e72ea), Santa's Favorite Nurse (6ae414d60bfe3d7d30031ddc)
 
-### Remaining Amazon coverage (24 of 62 products, not yet visually inspected)
+### Remaining 24 products, completed in the second half of this session
 
-Pickleball/Grandma/Fishing-graphic T-shirts, the "Cat Lineup" product-type family (Mug, Hoodie,
-Crewneck, Sweatshirt — likely legitimate same-design-different-product-type, not flagged as duplicates
-without checking), Christmas Golden Retriever (first of the pair, 6ae41f68e88b7e964c0e737e, sync-gapped
-twin already confirmed clean via its live counterpart), Naughty List Cat singular variant
-(6ae414e0e88b7e964c0e72ee), Santa Cat Mom (6adea4fb17865a20ce04ea54), Plant Mom, Veterinarian, Teacher
-Squad, and others — see full 62-ID roster pulled this session (amazon_page1.json/amazon_page2.json in
-scratchpad) for exact remaining IDs. Next session should resume task T-1O514F2T63 directly.
+Highland Cow, Frosted Star, Tartan & Tradition, Nutcracker Season, Nonna's Christmas Kitchen, Grandma's
+Christmas Crew, Santa's Favorite Mechanic, Gardeners Grow Merry Christmas, Hooked on Christmas, Santa Cat
+Mom, the "Cat Lineup" product-type family (Mug 6ae41f72e88b7e964c0e7389, Hoodie 6ae41f71e88b7e964c0e7388,
+Crewneck Sweatshirt 6ae41f70e88b7e964c0e7387, Sweatshirt 6ae41f6de88b7e964c0e7384, T-Shirt
+6ae41f6be88b7e964c0e7381 — all share print-area image cat-lineup-evergreen.png, confirmed legitimate
+same-design-different-product-type reuse, not duplicates), the "Santa's Naughty List" Mug
+(6ae41f6fe88b7e964c0e7386) and Crewneck (6ae41f6ee88b7e964c0e7385) — same pattern, share
+cat-lineup-santas-naughty-list.png with the already-known Naughty-List-Cat-Lineup T-shirt pair, Veterinarian
+Christmas Dog, Plant Mom Christmas Botanical, Teacher Christmas Squad, the Firefighter pair (checked and
+cleared, see above), and the "Naughty List Cat" singular vs. "The Naughty List Cats" pair (confirmed an
+11th true duplicate, see above). All 24 are visually CLEAN — 0 defects found in this half either.
+
+**Amazon shop is now fully closed out: 62/62 visually inspected, 0 artwork defects, 11 confirmed
+duplicate pairs (7 both-live) as the one standing finding requiring an owner decision.**
 
 ## 9. eBay full 53-row ID register (complete, per-product evidence — produced in response to an
    independent-verifier request for inspectable per-product rows, not just a report link)
