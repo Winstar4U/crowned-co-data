@@ -193,13 +193,16 @@ closer look given the similar title, but confirmed NOT a third duplicate once th
 | #161-260 | Metadata+sync (9 IDs) + 5 images viewed | T-2I3N01430E |
 | #261-360 | Metadata (100/100) + sync (9 IDs) + 6 images viewed | T-2Q310Z6F4J (this session) |
 | #361-460 | **Full visual inspection (100/100), see §8f** — 30/100 confirmed defects, 2 true duplicates | T-33172S0T0O (this session) |
-| #461-2,429 | **NOT STARTED** (1,969 products) | Next batch(es) |
+| #461-560 | **Full visual inspection (100/100), see §8g** — 46/100 confirmed defects (highest rate yet), 1 true duplicate pair | T-3F0A655857 (this session) |
+| #561-2,429 | **NOT STARTED** (1,869 products) | Next batch(es) |
 
 ## 8. Next eligible batch (for whichever session/dispatcher firing picks this up next)
 
-1. Shopify shop 26418699, #461 onward, continuing in ~100-product batches with full visual inspection
-   (every default mockup viewed, not sampled) — see §8f for the major defect-rate finding that makes full
-   inspection (not sampling) essential for this shop. 1,969 products remain unstarted.
+1. Shopify shop 26418699, #561 onward, continuing in ~100-product batches with full visual inspection
+   (every default mockup viewed, not sampled) — see §8f and §8g for the major defect-rate finding (now
+   confirmed across two consecutive batches, 30% then 46%) that makes full inspection (not sampling)
+   essential for this shop, and specifically for the Backpack and Laptop Sleeve blueprints. 1,869 products
+   remain unstarted.
 2. **eBay is now COMPLETE (53/53 visually inspected, see §6a) — do not re-inspect.** **Amazon is now
    COMPLETE (62/62 visually inspected, see §8a) — do not re-inspect.** **TikTok is now COMPLETE (71/71
    visually inspected, see §8b) — do not re-inspect.** **Etsy is now FULLY COMPLETE — all 297 products
@@ -1035,6 +1038,129 @@ alongside the visual defect.
 **No live writes were made.** All findings above are documentation only; no publish/unpublish/price/
 inventory/delete action was taken on any of these 100 products.
 
+## 8g. Shopify shop (26418699, Winstar4U) #461-560 — second full-visual-inspection batch: 100/100
+## visually inspected, 46/100 confirmed defects — highest defect rate of the whole recovery (2026-11-18, this session)
+
+**Second consecutive full-visual Shopify batch. Confirms and sharpens the §8f systemic-cropping finding:
+the defect is not confined to the Backpack blueprint — it affects the Laptop Sleeve blueprint at a
+comparable rate, while apparel blueprints (T-shirt, Fleece Zip-Up, Tank Top) in the same batch remain
+almost entirely clean.**
+
+### Blueprint composition this batch
+47 Laptop Sleeve, 23 Backpack, 19 Fleece Zip-Up, 10 Women's T-Shirt, 1 Tank Top.
+
+### HEADLINE FINDING: the systemic print-window-cropping defect also affects Laptop Sleeve, at a similar rate to Backpack
+
+| Blueprint | Count this batch | Confirmed defects | Rate |
+|---|---|---|---|
+| Backpack (10823) | 23 | 22 | **95.7%** |
+| Laptop Sleeve (429) | 47 | 21 | **44.7%** |
+| Fleece Zip-Up (66) | 19 | 1 (non-cropping, see below) | 5.3% |
+| Women's T-Shirt (9) | 10 | 2 (non-cropping, see below) | 20%* |
+| Tank Top (39) | 1 | 0 | 0% |
+
+*Both T-shirt flags are a recurring source-art defect (checkerboard/receipt-placeholder), not cropping —
+see below.
+
+Backpack's 95.7% rate (22/23) in this batch is markedly worse than §8f's 59% (20/34), confirming this is
+not a one-off — it is the dominant outcome for this blueprint across two independent, non-overlapping
+batches (42/57 Backpacks inspected across §8f+§8g = 74% combined). Laptop Sleeve, inspected here for the
+first time, shows the same failure mode at nearly the same rate (44.7%), confirming the root cause is
+generic to small-fixed-print-window blueprints, not specific to Backpack.
+
+Pattern breakdown (same taxonomy as §8f):
+- **Top-line text cropping** (most common on both blueprints): e.g. "Rejoice" (Laptop Sleeve — only the
+  bottom half of each letter visible), "Hallelujah Angels" (Backpack — same), "Home For Christmas" ("HOME
+  FOR" gone), "Merry Christmas Let's Get Lit" (Laptop Sleeve — "MERRY" almost entirely cropped).
+- **Complete text-element loss** (worst cases, several on Backpack): "Glory To God," "Everyone Go Home,"
+  "Eggnog Recovery Skeleton," and "Blessed Christmas" show **zero text pixels** despite each title implying
+  specific wording — only the illustration remains.
+- **First-word loss on left edge**: "Christ Is Born" → "CHRIST" entirely gone, only "IS BORN" visible;
+  "Amazing Grace" → "AMAZING" entirely gone, only "GRACE" visible; "Dreaming Stress Free Christmas" →
+  "DREAMING" gone, only "OF A STRESS-FREE" visible.
+- **Bottom-line/punchline loss**: "Naughty List Resume" (Laptop Sleeve) loses its entire punchline, "AT
+  THIS POINT, IT'S A RESUME" — the joke's payoff is gone; "Christmas Party Survivor" (Backpack) loses
+  "SURVIVOR" entirely, leaving only a clipped "PARTY"; "90% Stress, 10% Tinsel..." (Backpack) loses its
+  punchline line, "100% Done."
+- **Both-edges cropping on one product**: "Prosecco Ho Ho Ho" (Laptop Sleeve) and "Christmas Open Bar"
+  (Backpack) each lose text at BOTH the top and bottom simultaneously.
+- **Garbled/illegible fragments**: "Christmas Mode Dnd" and "Dear Santa Explain Santa" (both Backpack)
+  crop down to illegible slivers or garbled fragments rather than a clean partial line.
+- **Left/right (horizontal) cropping on a non-Backpack blueprint**: "Morning Person Dec25 Skeleton" and
+  the "Naughty List Skeleton" pair (both Laptop Sleeve) lose the ends of a banner ribbon on both sides —
+  confirming the horizontal-axis crop pattern first seen on Backpack in §8f also occurs on Laptop Sleeve.
+
+Sticker Pack and apparel blueprints (T-shirt, Fleece Zip-Up, Tank Top) remain effectively immune, as in
+§8f — apparel print windows are proportionally far larger than the Backpack/Laptop Sleeve chest-badge
+window, so the same source artwork prints with full margin on a T-shirt or hoodie while being clipped on
+a Backpack or Laptop Sleeve. This was directly confirmed multiple times this batch: the identical
+"Prosecco Ho Ho Ho," "Santa's Favorite [X]," and "Only Nice For Presents" designs print cleanly on
+T-shirt/Fleece Zip-Up but are cropped on Laptop Sleeve/Backpack.
+
+**Batch tally: 100/100 visually inspected — 43 confirmed crop/text-loss defects (21 Laptop Sleeve, 22
+Backpack), 1 confirmed true duplicate pair (2 products), 3 recurring non-cropping source-art defects
+(2 products with an unrendered-transparency checkerboard background, 2 products — one counted among the
+3 — with a receipt graphic showing literal placeholder text "PRICE" instead of values), 3 products with a
+truncated/cut-off listing title (SEO defect, not visual), 1 product with a blank/unfinished sign
+placeholder graphic. 49 products fully clean.**
+
+### CONFIRMED TRUE DUPLICATE PAIR: "Naughty List Skeleton" Laptop Sleeve
+
+`6ac7156dfa3cae10170efc83` ("Naughty List Skeleton") and `6ac7156442c818a1ad0960e6` ("Naughty List
+Skeleton V2") — same blueprint (429 Laptop Sleeve), same scale (0.9) and position, but different print-area
+filenames (`naughty-list-skeleton.png-TRANSPARENT.png` vs `naughty-list-skeleton-v2.png-TRANSPARENT.png`).
+Confirmed pixel-identical by direct visual comparison of both mockups — the exact same pattern as the
+Backpack-blueprint "Naughty List Skeleton" pair found in §8f, now showing this same character design was
+duplicated under a "V2" filename across at least two different blueprints. Both members also independently
+show the left/right banner-text cropping defect described above.
+
+### Recurring non-cropping source-art defects (same bad asset reused across blueprints)
+
+- **Unrendered-transparency checkerboard artifact**: the "Santa's Favorite Distraction" design
+  (`6ac71560ed135347800f9cf6` Women's T-Shirt, `6ac715da4636838bd804f5f3` Fleece Zip-Up, and the same
+  design on Laptop Sleeve `6ac71662fd7ff00ded03cb96`) prints a visible gray/white checkerboard pattern as
+  its background — the classic "alpha channel not flattened before upload" artifact, printed directly onto
+  three different garments. Most visible on the white T-shirt. Confirmed across 3 blueprints, so this is a
+  defect in the uploaded source image itself, not a per-product scale/position error.
+- **Unfinished receipt-graphic placeholder text**: the "Santa's Favorite Customer VIP" design
+  (`6ac71559c077332834034f19` Women's T-Shirt and `6ac7165ea4c95c48e20365fd` Laptop Sleeve) shows a mock
+  receipt literally reading "ITEM — PRICE / QUANTITY — PRICE / TOTAL — PRICE" — the word "PRICE" repeated
+  as placeholder text instead of real line-item values, with only the $99,999.99 total actually filled in.
+  Same source-art defect, reused across 2 blueprints.
+- **Truncated listing titles** (SEO defect, not a visual defect — each product's mockup image itself is
+  clean): `6ac715d9fb1d11d19e0372a0` is titled "Merry Christmas Sant..." (missing "a"), `6ac71587336f8358660116d9`
+  is titled "Christmas Wishes Sta..." (missing "r"), and `6ac71524ed135347800f9ccb` is titled "Thankful
+  Grateful Blesse..." (missing "d" — this product also has the top-of-field "BLESSED" cropping defect
+  above, so it carries both a visual and a title defect).
+- **Blank sign placeholder**: `6ac7158146dd1e896e04e2de` ("Candy Cane Lane" Laptop Sleeve) shows an empty
+  green rectangular street-sign graphic where the street name should render — the same placeholder-graphic
+  failure mode as §8f's "Candy Cane Lane" finding on a different blueprint.
+
+### Duplicate-candidate groups checked and ruled OUT (same main title, different sub-design — normal product-line variation)
+
+This batch runs the same two-style pattern documented in earlier shops: a photoreal "Badge"-style design
+and a flat "Retro"-style design sharing 18+ character concepts (e.g. "Santa's Favorite Distraction/Arrow/
+Customer VIP," "Only Nice For Presents," "Professional Gift Returner," "Walk By Faith," "Powered By
+Cookies," "Seasons Greetings," "Jingle Bells," "Home For Christmas," "Believe," "Naughty List VIP,"
+"Merry Everything Happy Always," "Noel," "Merry & Bright," "Silent Night Village," "Truck Tree/Christmas
+Time," "Savior Born Manger," "Here For Snacks," "Let It Snow/Joy Holly/Joy To World"). Every same-title
+pair was checked by filename+scale/position matching (none matched — confirming different artwork) AND, for
+the one pair that shared a title stem across identical blueprints ("Naughty List Skeleton"), by direct
+visual comparison, which is where the true duplicate above was actually caught — filename mismatch alone
+would have ruled it out incorrectly, same lesson as §8f and the Amazon/TikTok batches.
+
+### Sync-mapping status (batch #461-560)
+
+0/100 show a populated `external` field via the bulk `include_full=true` list endpoint — consistent with
+§8f's finding that this Shopify account's list endpoint does not surface the `external` object at all
+(it requires an individual `product_id` fetch per product). This is a tooling/API-coverage gap, not
+evidence that none of these 100 products are synced to the live Shopify storefront — no claim about
+actual Shopify-side sync or buyability is made from this figure, consistent with the standing
+Printify-mapping-only caveat applied throughout this register.
+
+**No live writes were made.** All findings above are documentation only; no publish/unpublish/price/
+inventory/delete action was taken on any of these 100 products.
+
 ## 13. Etsy batch 3/3 full 97-row ID register (complete, per-product evidence, same format as §9/§10/§11/§12)
 
 Format: `Printify ID | Title | Visual result | Default mockup image URL used for inspection`.
@@ -1247,3 +1373,107 @@ individually checked per-ID this batch — see §8f sync-mapping note.
 | 6ac723c37c04b79ced0ddfa3 | Chic Happens Cocktail Christmas Button Pin — Festive Pin Button, Holiday Gift | Winstar4U | DEFECT | https://images.printify.com/mockup/6ac723c37c04b79ced0ddfa3/62070/98417/chic-happens-cocktail-christmas-button-pin-festive-pin-button-holiday-gift-winstar4u.jpg?camera_label=front |
 | 6ac717f0a5ade89b5c081491 | Morning Person Dec25 Skeleton Christmas Backpack — Merry Christmas Daypack, Holiday Gift Idea | Winstar4U | DEFECT-SEVERE | https://images.printify.com/mockup/6ac717f0a5ade89b5c081491/401444/145590/morning-person-dec25-skeleton-christmas-backpack-merry-christmas-daypack-holiday-gift-idea-winstar4u.jpg?camera_label=front |
 | 6ac723437536ac3c5f0c3e7a | Avoiding Carolers Raccoon Christmas Sticker Pack — Die-Cut Sticker Pack, Holiday Gift | Winstar4U | DEFECT | https://images.printify.com/mockup/6ac723437536ac3c5f0c3e7a/72006/13462/avoiding-carolers-raccoon-christmas-sticker-pack-die-cut-sticker-pack-holiday-gift-winstar4u.jpg?camera_label=front |
+## 15. Shopify #461-560 full 100-row ID register (complete, per-product evidence, same format as §9/§10/§11/§12/§13/§14)
+
+| ID | Title | Result | Default mockup image URL |
+|---|---|---|---|
+| 6ac717aca4cff7da370fd151 | Hallelujah Angels Christmas Backpack — Festive Holiday Travel Bag, Christmas Gift | Winstar4U | DEFECT-SEVERE (HALLELUJAH cropped top, only slivers visible) | https://images.printify.com/mockup/6ac717aca4cff7da370fd151/401444/145590/hallelujah-angels-christmas-backpack-festive-holiday-travel-bag-christmas-gift-winstar4u.jpg?camera_label=front |
+| 6ac717a95a14e80fa703f22f | Greatest Gift Christmas Backpack — Merry Christmas Daypack, Holiday Gift Idea | Winstar4U | DEFECT (title text clipped at top edge, gold-on-black illegible) | https://images.printify.com/mockup/6ac717a95a14e80fa703f22f/401444/145590/greatest-gift-christmas-backpack-merry-christmas-daypack-holiday-gift-idea-winstar4u.jpg?camera_label=front |
+| 6ac717a6a4cff7da370fd145 | God Bless Christmas Christmas Backpack — Cheerful Christmas Travel Pack, Gift for Students | Winstar4U | DEFECT ("GOD BLESS" text missing, only "CHRISTMAS" visible) | https://images.printify.com/mockup/6ac717a6a4cff7da370fd145/401444/145590/god-bless-christmas-christmas-backpack-cheerful-christmas-travel-pack-gift-for-students-winstar4u.jpg?camera_label=front |
+| 6ac717a24636838bd804f846 | Glory To God Christmas Backpack — Holiday School Bag, Christmas Gift | Winstar4U | DEFECT-SEVERE (no title text visible at all) | https://images.printify.com/mockup/6ac717a24636838bd804f846/401444/145590/glory-to-god-christmas-backpack-holiday-school-bag-christmas-gift-winstar4u.jpg?camera_label=front |
+| 6ac7179eb814691321003c22 | Christ Is Born Christmas Backpack — Festive Holiday Travel Bag, Christmas Gift | Winstar4U | DEFECT-SEVERE ("CHRIST" entirely cropped off left, only "IS BORN" visible) | https://images.printify.com/mockup/6ac7179eb814691321003c22/401444/145590/christ-is-born-christmas-backpack-festive-holiday-travel-bag-christmas-gift-winstar4u.jpg?camera_label=front |
+| 6ac7179bac4a665555019d14 | Blessed Christmas Christmas Backpack — Merry Christmas Daypack, Holiday Gift Idea | Winstar4U | DEFECT-SEVERE (no text visible at all, title implies "BLESSED CHRISTMAS") | https://images.printify.com/mockup/6ac7179bac4a665555019d14/401444/145590/blessed-christmas-christmas-backpack-merry-christmas-daypack-holiday-gift-idea-winstar4u.jpg?camera_label=front |
+| 6ac7179757b1ebbe6c0c6ea4 | Amazing Grace Christmas Backpack — Cheerful Christmas Travel Pack, Gift for Students | Winstar4U | DEFECT ("AMAZING" missing, only "GRACE" visible, cropped top) | https://images.printify.com/mockup/6ac7179757b1ebbe6c0c6ea4/401444/145590/amazing-grace-christmas-backpack-cheerful-christmas-travel-pack-gift-for-students-winstar4u.jpg?camera_label=front |
+| 6ac717945a14e80fa703f22a | Everyone Go Home Christmas Backpack — Holiday School Bag, Christmas Gift | Winstar4U | DEFECT-SEVERE (no text visible at all, title implies "EVERYONE GO HOME") | https://images.printify.com/mockup/6ac717945a14e80fa703f22a/401444/145590/everyone-go-home-christmas-backpack-holiday-school-bag-christmas-gift-winstar4u.jpg?camera_label=front |
+| 6ac71790ed135347800fa01b | Elegantly Wasted Martini Christmas Backpack — Festive Holiday Travel Bag, Christmas Gift | Winstar4U | DEFECT-SEVERE (only top sliver of art visible, rest cropped away) | https://images.printify.com/mockup/6ac71790ed135347800fa01b/401444/145590/elegantly-wasted-martini-christmas-backpack-festive-holiday-travel-bag-christmas-gift-winstar4u.jpg?camera_label=front |
+| 6ac7178daa7a21cb900b5046 | Eggnog Recovery Skeleton Christmas Backpack — Merry Christmas Daypack, Holiday Gift Idea | Winstar4U | DEFECT-SEVERE (no text visible at all, title implies "EGGNOG RECOVERY") | https://images.printify.com/mockup/6ac7178daa7a21cb900b5046/401444/145590/eggnog-recovery-skeleton-christmas-backpack-merry-christmas-daypack-holiday-gift-idea-winstar4u.jpg?camera_label=front |
+| 6ac7178ad0a23214d80b2aa7 | Dreaming Stress Free Christmas Christmas Backpack — Cheerful Christmas Travel Pack, Gift for Students | Winstar4U | DEFECT ("DREAMING" missing, only "OF A STRESS-FREE" visible) | https://images.printify.com/mockup/6ac7178ad0a23214d80b2aa7/401444/145590/dreaming-stress-free-christmas-christmas-backpack-cheerful-christmas-travel-pack-gift-for-students-winstar4u.jpg?camera_label=front |
+| 6ac71786a5ade89b5c081451 | Deck The Halls Sit Down Christmas Backpack — Holiday School Bag, Christmas Gift | Winstar4U | DEFECT-SEVERE ("DECK THE HALLS!" cropped to illegibility at top) | https://images.printify.com/mockup/6ac71786a5ade89b5c081451/401444/145590/deck-the-halls-sit-down-christmas-backpack-holiday-school-bag-christmas-gift-winstar4u.jpg?camera_label=front |
+| 6ac7178307e4149a0f001490 | Dear Santa Explain Christmas Backpack — Festive Holiday Travel Bag, Christmas Gift | Winstar4U | DEFECT ("I CAN EXPLAIN" clipped at top edge) | https://images.printify.com/mockup/6ac7178307e4149a0f001490/401444/145590/dear-santa-explain-christmas-backpack-festive-holiday-travel-bag-christmas-gift-winstar4u.jpg?camera_label=front |
+| 6ac7177f46dd1e896e04e5dc | Dear Santa Explain Santa Christmas Backpack — Merry Christmas Daypack, Holiday Gift Idea | Winstar4U | DEFECT-SEVERE (banner text garbled/cropped, illegible) | https://images.printify.com/mockup/6ac7177f46dd1e896e04e5dc/401444/145590/dear-santa-explain-santa-christmas-backpack-merry-christmas-daypack-holiday-gift-idea-winstar4u.jpg?camera_label=front |
+| 6ac7177807e4149a0f001482 | Dear Santa Bank Account Christmas Backpack — Holiday School Bag, Christmas Gift | Winstar4U | DEFECT-SEVERE ("BANK ACCOUNT" missing, only "SAYS...NO" visible) | https://images.printify.com/mockup/6ac7177807e4149a0f001482/401444/145590/dear-santa-bank-account-christmas-backpack-holiday-school-bag-christmas-gift-winstar4u.jpg?camera_label=front |
+| 6ac7177407e4149a0f00147f | Corkscrew Wine Repeat Christmas Backpack — Festive Holiday Travel Bag, Christmas Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7177407e4149a0f00147f/401444/145590/corkscrew-wine-repeat-christmas-backpack-festive-holiday-travel-bag-christmas-gift-winstar4u.jpg?camera_label=front |
+| 6ac71771c0773328340351f6 | Christmas Wreath 2026 Christmas Backpack — Merry Christmas Daypack, Holiday Gift Idea | Winstar4U | DEFECT-SEVERE (top half of wreath + all text cropped away) | https://images.printify.com/mockup/6ac71771c0773328340351f6/401444/145590/christmas-wreath-2026-christmas-backpack-merry-christmas-daypack-holiday-gift-idea-winstar4u.jpg?camera_label=front |
+| 6ac7176da4c95c48e203670d | Christmas Vacation Canceled Christmas Backpack — Cheerful Christmas Travel Pack, Gift for Students | Winstar4U | DEFECT (VACATION touches top edge) | https://images.printify.com/mockup/6ac7176da4c95c48e203670d/401444/145590/christmas-vacation-canceled-christmas-backpack-cheerful-christmas-travel-pack-gift-for-students-winstar4u.jpg?camera_label=front |
+| 6ac7176a4636838bd804f82b | Christmas Stress Tinsel Done Christmas Backpack — Holiday School Bag, Christmas Gift | Winstar4U | DEFECT-SEVERE (bottom line "100% DONE" cropped off) | https://images.printify.com/mockup/6ac7176a4636838bd804f82b/401444/145590/christmas-stress-tinsel-done-christmas-backpack-holiday-school-bag-christmas-gift-winstar4u.jpg?camera_label=front |
+| 6ac7176757b1ebbe6c0c6e84 | Christmas Party Survivor Christmas Backpack — Festive Holiday Travel Bag, Christmas Gift | Winstar4U | DEFECT-SEVERE ("PARTY" clipped bottom, "SURVIVOR" entirely missing) | https://images.printify.com/mockup/6ac7176757b1ebbe6c0c6e84/401444/145590/christmas-party-survivor-christmas-backpack-festive-holiday-travel-bag-christmas-gift-winstar4u.jpg?camera_label=front |
+| 6ac71763fb1d11d19e0374b3 | Christmas Open Bar Christmas Backpack — Merry Christmas Daypack, Holiday Gift Idea | Winstar4U | DEFECT-SEVERE (top line nearly invisible, "OPEN BAR" clipped bottom) | https://images.printify.com/mockup/6ac71763fb1d11d19e0374b3/401444/145590/christmas-open-bar-christmas-backpack-merry-christmas-daypack-holiday-gift-idea-winstar4u.jpg?camera_label=front |
+| 6ac71760c0773328340351f0 | Christmas Mode Dnd Christmas Backpack — Cheerful Christmas Travel Pack, Gift for Students | Winstar4U | DEFECT-SEVERE (title banner almost entirely cropped, sliver only) | https://images.printify.com/mockup/6ac71760c0773328340351f0/401444/145590/christmas-mode-dnd-christmas-backpack-cheerful-christmas-travel-pack-gift-for-students-winstar4u.jpg?camera_label=front |
+| 6ac71720a4c95c48e20366ae | Christmas Lights Therapy Christmas Backpack — Holiday School Bag, Christmas Gift | Winstar4U | DEFECT (heart-shape design clipped, top text cropped) | https://images.printify.com/mockup/6ac71720a4c95c48e20366ae/401444/145590/christmas-lights-therapy-christmas-backpack-holiday-school-bag-christmas-gift-winstar4u.jpg?camera_label=front |
+| 6ac71662fd7ff00ded03cb96 | Santas Favorite Distraction Christmas Laptop Sleeve — Stylish Tech Travel Gift, Holiday Gift | Winstar4U | CLEAN (checkerboard noted but design otherwise intact) | https://images.printify.com/mockup/6ac71662fd7ff00ded03cb96/62037/3028/santas-favorite-distraction-christmas-laptop-sleeve-stylish-tech-travel-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7165ea4c95c48e20365fd | Santas Favorite Customer Vip Christmas Laptop Sleeve — Stylish Tech Travel Gift, Holiday Gift | Winstar4U | CLEAN image, but receipt graphic shows literal "PRICE" placeholder text | https://images.printify.com/mockup/6ac7165ea4c95c48e20365fd/62037/3028/santas-favorite-customer-vip-christmas-laptop-sleeve-stylish-tech-travel-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7165aa5ade89b5c081347 | Santas Favorite Arrow Christmas Laptop Sleeve — Stylish Tech Travel Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7165aa5ade89b5c081347/62037/3028/santas-favorite-arrow-christmas-laptop-sleeve-stylish-tech-travel-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac71653fd7ff00ded03cb91 | Reason For Season Christmas Fleece Zip-Up — Cozy Full-Zip Holiday Hoodie, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71653fd7ff00ded03cb91/31948/110719/reason-for-season-christmas-fleece-zip-up-cozy-full-zip-holiday-hoodie-holiday-gift-winstar4u.jpg?camera_label=front-2 |
+| 6ac71653f2868c4f0a02171a | Santa I Can Explain Clipboard Christmas Laptop Sleeve — Stylish Tech Travel Gift, Holiday Gift | Winstar4U | DEFECT-MINOR (EXPLAIN touches top-right edge) | https://images.printify.com/mockup/6ac71653f2868c4f0a02171a/62037/3028/santa-i-can-explain-clipboard-christmas-laptop-sleeve-stylish-tech-travel-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7164faa7a21cb900b4f01 | Prosecco Ho Ho Ho Christmas Laptop Sleeve — Stylish Tech Travel Gift, Holiday Gift | Winstar4U | DEFECT-SEVERE (top AND bottom text both cropped) | https://images.printify.com/mockup/6ac7164faa7a21cb900b4f01/62037/3028/prosecco-ho-ho-ho-christmas-laptop-sleeve-stylish-tech-travel-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7164cfd7ff00ded03cb8f | Professional Gift Returner Christmas Laptop Sleeve — Stylish Tech Travel Gift, Holiday Gift | Winstar4U | DEFECT-MINOR (top banner touches edge) | https://images.printify.com/mockup/6ac7164cfd7ff00ded03cb8f/62037/3028/professional-gift-returner-christmas-laptop-sleeve-stylish-tech-travel-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac716454ff91977d503dd15 | Powered By Cookies Christmas Laptop Sleeve — Stylish Tech Travel Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac716454ff91977d503dd15/62037/3028/powered-by-cookies-christmas-laptop-sleeve-stylish-tech-travel-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7163fa4cff7da370fd032 | Party In Holiday Party Christmas Laptop Sleeve — Stylish Tech Travel Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7163fa4cff7da370fd032/62037/3028/party-in-holiday-party-christmas-laptop-sleeve-stylish-tech-travel-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7163cac4a665555019bf4 | Only Nice For Presents Christmas Laptop Sleeve — Stylish Tech Travel Gift, Holiday Gift | Winstar4U | DEFECT (top line cropped) | https://images.printify.com/mockup/6ac7163cac4a665555019bf4/62037/3028/only-nice-for-presents-christmas-laptop-sleeve-stylish-tech-travel-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7163c4636838bd804f6f3 | O Holy Night Christmas Fleece Zip-Up — Cozy Full-Zip Holiday Hoodie, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7163c4636838bd804f6f3/31948/110719/o-holy-night-christmas-fleece-zip-up-cozy-full-zip-holiday-hoodie-holiday-gift-winstar4u.jpg?camera_label=front-2 |
+| 6ac716384636838bd804f6ee | Bah Humbug Wine Christmas Tank Top — Cute Christmas Apparel, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac716384636838bd804f6ee/24828/101889/bah-humbug-wine-christmas-tank-top-cute-christmas-apparel-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7163557b1ebbe6c0c6d4c | Winter Wonderland Christmas Laptop Sleeve — Stylish Tech Travel Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7163557b1ebbe6c0c6d4c/62037/3028/winter-wonderland-christmas-laptop-sleeve-stylish-tech-travel-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7162f336f835866011896 | Vintage Santa Portra Christmas Laptop Sleeve — Stylish Tech Travel Gift, Holiday Gift | Winstar4U | DEFECT-MINOR (VINTAGE touches top edge) | https://images.printify.com/mockup/6ac7162f336f835866011896/62037/3028/vintage-santa-portra-christmas-laptop-sleeve-stylish-tech-travel-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac716284636838bd804f6d7 | Truck Tree Christmas Laptop Sleeve — Stylish Tech Travel Gift, Holiday Gift | Winstar4U | DEFECT (CHRISTMAS TIME cropped top) | https://images.printify.com/mockup/6ac716284636838bd804f6d7/62037/3028/truck-tree-christmas-laptop-sleeve-stylish-tech-travel-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac71624fa3cae10170efe1d | Silent Night Village Christmas Laptop Sleeve — Stylish Tech Travel Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71624fa3cae10170efe1d/62037/3028/silent-night-village-christmas-laptop-sleeve-stylish-tech-travel-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7162207e4149a0f001371 | Tree Up Patience Down Christmas Fleece Zip-Up — Cozy Full-Zip Holiday Hoodie, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7162207e4149a0f001371/31950/110719/tree-up-patience-down-christmas-fleece-zip-up-cozy-full-zip-holiday-hoodie-holiday-gift-winstar4u.jpg?camera_label=front-2 |
+| 6ac7161dac4a665555019bca | Too Lit Nice List Christmas Fleece Zip-Up — Cozy Full-Zip Holiday Hoodie, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7161dac4a665555019bca/31948/110719/too-lit-nice-list-christmas-fleece-zip-up-cozy-full-zip-holiday-hoodie-holiday-gift-winstar4u.jpg?camera_label=front-2 |
+| 6ac7161ca4c95c48e20365c6 | Seasons Greetings Christmas Laptop Sleeve — Stylish Tech Travel Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7161ca4c95c48e20365c6/62037/3028/seasons-greetings-christmas-laptop-sleeve-stylish-tech-travel-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac716175a14e80fa703f066 | Survived Christmas Hangover Christmas Fleece Zip-Up — Cozy Full-Zip Holiday Hoodie, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac716175a14e80fa703f066/31950/110719/survived-christmas-hangover-christmas-fleece-zip-up-cozy-full-zip-holiday-hoodie-holiday-gift-winstar4u.jpg?camera_label=front-2 |
+| 6ac7160d5a14e80fa703f040 | Sleigh All Day Christmas Fleece Zip-Up — Cozy Full-Zip Holiday Hoodie, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7160d5a14e80fa703f040/31948/110719/sleigh-all-day-christmas-fleece-zip-up-cozy-full-zip-holiday-hoodie-holiday-gift-winstar4u.jpg?camera_label=front-2 |
+| 6ac715f0ac4a665555019b29 | Peace On Earth Christmas Laptop Sleeve — Stylish Tech Travel Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac715f0ac4a665555019b29/62037/3028/peace-on-earth-christmas-laptop-sleeve-stylish-tech-travel-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac715e4b814691321003a1d | Noel Elegant Christmas Laptop Sleeve — Stylish Tech Travel Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac715e4b814691321003a1d/62037/3028/noel-elegant-christmas-laptop-sleeve-stylish-tech-travel-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac715da4636838bd804f5f3 | Santas Favorite Distraction Christmas Fleece Zip-Up — Cozy Full-Zip Holiday Hoodie, Holiday Gift | Winstar4U | DEFECT (unrendered-transparency checkerboard background artifact) | https://images.printify.com/mockup/6ac715da4636838bd804f5f3/31950/110719/santas-favorite-distraction-christmas-fleece-zip-up-cozy-full-zip-holiday-hoodie-holiday-gift-winstar4u.jpg?camera_label=front-2 |
+| 6ac715d9fb1d11d19e0372a0 | Merry Christmas Sant Christmas Laptop Sleeve — Stylish Tech Travel Gift, Holiday Gift | Winstar4U | CLEAN image, title truncated: "Merry Christmas Sant" (missing "a") | https://images.printify.com/mockup/6ac715d9fb1d11d19e0372a0/62037/3028/merry-christmas-sant-christmas-laptop-sleeve-stylish-tech-travel-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac715d5a4c95c48e20364e3 | Santas Favorite Customer Vip Christmas Fleece Zip-Up — Cozy Full-Zip Holiday Hoodie, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac715d5a4c95c48e20364e3/31950/110719/santas-favorite-customer-vip-christmas-fleece-zip-up-cozy-full-zip-holiday-hoodie-holiday-gift-winstar4u.jpg?camera_label=front-2 |
+| 6ac715d2ed135347800f9dfc | Merry Bright Lights Christmas Laptop Sleeve — Stylish Tech Travel Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac715d2ed135347800f9dfc/62037/3028/merry-bright-lights-christmas-laptop-sleeve-stylish-tech-travel-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac715cfd0a23214d80b2809 | Santas Favorite Arrow Christmas Fleece Zip-Up — Cozy Full-Zip Holiday Hoodie, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac715cfd0a23214d80b2809/31948/110719/santas-favorite-arrow-christmas-fleece-zip-up-cozy-full-zip-holiday-hoodie-holiday-gift-winstar4u.jpg?camera_label=front-2 |
+| 6ac715ca42c818a1ad0961af | Let It Snow Christmas Laptop Sleeve — Stylish Tech Travel Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac715ca42c818a1ad0961af/62037/3028/let-it-snow-christmas-laptop-sleeve-stylish-tech-travel-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac715c3d0a23214d80b27ed | Joy To World Christmas Laptop Sleeve — Stylish Tech Travel Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac715c3d0a23214d80b27ed/62037/3028/joy-to-world-christmas-laptop-sleeve-stylish-tech-travel-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac715c14636838bd804f5bb | Santa I Can Explain Clipboard Christmas Fleece Zip-Up — Cozy Full-Zip Holiday Hoodie, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac715c14636838bd804f5bb/31950/110719/santa-i-can-explain-clipboard-christmas-fleece-zip-up-cozy-full-zip-holiday-hoodie-holiday-gift-winstar4u.jpg?camera_label=front-2 |
+| 6ac715bec077332834034fa6 | Prosecco Ho Ho Ho Christmas Fleece Zip-Up — Cozy Full-Zip Holiday Hoodie, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac715bec077332834034fa6/31950/110719/prosecco-ho-ho-ho-christmas-fleece-zip-up-cozy-full-zip-holiday-hoodie-holiday-gift-winstar4u.jpg?camera_label=front-2 |
+| 6ac715bac077332834034f9b | Professional Gift Returner Christmas Fleece Zip-Up — Cozy Full-Zip Holiday Hoodie, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac715bac077332834034f9b/31948/110719/professional-gift-returner-christmas-fleece-zip-up-cozy-full-zip-holiday-hoodie-holiday-gift-winstar4u.jpg?camera_label=front-2 |
+| 6ac715baa4c95c48e20364af | Joy Holly Christmas Laptop Sleeve — Stylish Tech Travel Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac715baa4c95c48e20364af/62037/3028/joy-holly-christmas-laptop-sleeve-stylish-tech-travel-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac715b235cf3f6ec802ec57 | Jingle Bells Christmas Laptop Sleeve — Stylish Tech Travel Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac715b235cf3f6ec802ec57/62037/3028/jingle-bells-christmas-laptop-sleeve-stylish-tech-travel-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac715aced135347800f9db7 | Powered By Cookies Christmas Fleece Zip-Up — Cozy Full-Zip Holiday Hoodie, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac715aced135347800f9db7/31948/110719/powered-by-cookies-christmas-fleece-zip-up-cozy-full-zip-holiday-hoodie-holiday-gift-winstar4u.jpg?camera_label=front-2 |
+| 6ac715a8d0a23214d80b27d1 | Home For Christmas Christmas Laptop Sleeve — Stylish Tech Travel Gift, Holiday Gift | Winstar4U | DEFECT (HOME FOR cropped top) | https://images.printify.com/mockup/6ac715a8d0a23214d80b27d1/62037/3028/home-for-christmas-christmas-laptop-sleeve-stylish-tech-travel-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac715a7fa3cae10170efcd4 | Party In Holiday Party Christmas Fleece Zip-Up — Cozy Full-Zip Holiday Hoodie, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac715a7fa3cae10170efcd4/31948/110719/party-in-holiday-party-christmas-fleece-zip-up-cozy-full-zip-holiday-hoodie-holiday-gift-winstar4u.jpg?camera_label=front-2 |
+| 6ac715a4d0a23214d80b27cc | Only Nice For Presents Christmas Fleece Zip-Up — Cozy Full-Zip Holiday Hoodie, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac715a4d0a23214d80b27cc/31948/110719/only-nice-for-presents-christmas-fleece-zip-up-cozy-full-zip-holiday-hoodie-holiday-gift-winstar4u.jpg?camera_label=front-2 |
+| 6ac715a0a4c95c48e203647c | Happy Holidays Tree Christmas Laptop Sleeve — Stylish Tech Travel Gift, Holiday Gift | Winstar4U | DEFECT (HOLIDAYS cropped top) | https://images.printify.com/mockup/6ac715a0a4c95c48e203647c/62037/3028/happy-holidays-tree-christmas-laptop-sleeve-stylish-tech-travel-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7159746dd1e896e04e318 | Vintage Santa Portra Christmas Fleece Zip-Up — Cozy Full-Zip Holiday Hoodie, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7159746dd1e896e04e318/31948/110719/vintage-santa-portra-christmas-fleece-zip-up-cozy-full-zip-holiday-hoodie-holiday-gift-winstar4u.jpg?camera_label=front-2 |
+| 6ac71593ed135347800f9d87 | Fireplace Stocking Christmas Laptop Sleeve — Stylish Tech Travel Gift, Holiday Gift | Winstar4U | DEFECT (CHRISTMAS cropped top) | https://images.printify.com/mockup/6ac71593ed135347800f9d87/62037/3028/fireplace-stocking-christmas-laptop-sleeve-stylish-tech-travel-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7158ba5ade89b5c0811c2 | Deck The Halls Christmas Laptop Sleeve — Stylish Tech Travel Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7158ba5ade89b5c0811c2/62037/3028/deck-the-halls-christmas-laptop-sleeve-stylish-tech-travel-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7158a35cf3f6ec802ec21 | Truck Tree Christmas Fleece Zip-Up — Cozy Full-Zip Holiday Hoodie, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7158a35cf3f6ec802ec21/31948/110719/truck-tree-christmas-fleece-zip-up-cozy-full-zip-holiday-hoodie-holiday-gift-winstar4u.jpg?camera_label=front-2 |
+| 6ac71587336f8358660116d9 | Christmas Wishes Sta Christmas Laptop Sleeve — Stylish Tech Travel Gift, Holiday Gift | Winstar4U | CLEAN image, title truncated: "Christmas Wishes Sta" (missing "r") | https://images.printify.com/mockup/6ac71587336f8358660116d9/62037/3028/christmas-wishes-sta-christmas-laptop-sleeve-stylish-tech-travel-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7158146dd1e896e04e2de | Candy Cane Lane Christmas Laptop Sleeve — Stylish Tech Travel Gift, Holiday Gift | Winstar4U | CLEAN image, but blank/unfinished street-sign placeholder (no text) | https://images.printify.com/mockup/6ac7158146dd1e896e04e2de/62037/3028/candy-cane-lane-christmas-laptop-sleeve-stylish-tech-travel-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7157efb1d11d19e0371b9 | Believe Sleigh Christmas Laptop Sleeve — Stylish Tech Travel Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7157efb1d11d19e0371b9/62037/3028/believe-sleigh-christmas-laptop-sleeve-stylish-tech-travel-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7157da5ade89b5c0811ae | Silent Night Village Christmas Fleece Zip-Up — Cozy Full-Zip Holiday Hoodie, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7157da5ade89b5c0811ae/31948/110719/silent-night-village-christmas-fleece-zip-up-cozy-full-zip-holiday-hoodie-holiday-gift-winstar4u.jpg?camera_label=front-2 |
+| 6ac7157a0ed8f1657605f458 | Naughty List Vip Christmas Laptop Sleeve — Stylish Tech Travel Gift, Holiday Gift | Winstar4U | DEFECT (JINGLE BELLS cropped top) | https://images.printify.com/mockup/6ac7157a0ed8f1657605f458/62037/3028/naughty-list-vip-christmas-laptop-sleeve-stylish-tech-travel-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac71579c077332834034f47 | Seasons Greetings Christmas Fleece Zip-Up — Cozy Full-Zip Holiday Hoodie, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71579c077332834034f47/31948/110719/seasons-greetings-christmas-fleece-zip-up-cozy-full-zip-holiday-hoodie-holiday-gift-winstar4u.jpg?camera_label=front-2 |
+| 6ac7156dfa3cae10170efc83 | Naughty List Skeleton Christmas Laptop Sleeve — Stylish Tech Travel Gift, Holiday Gift | Winstar4U | DEFECT + TRUE_DUP (banner cropped left/right; duplicate of V2) | https://images.printify.com/mockup/6ac7156dfa3cae10170efc83/62037/3028/naughty-list-skeleton-christmas-laptop-sleeve-stylish-tech-travel-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7156442c818a1ad0960e6 | Naughty List Skeleton V2 Christmas Laptop Sleeve — Stylish Tech Travel Gift, Holiday Gift | Winstar4U | DEFECT + TRUE_DUP (banner cropped left/right; duplicate of non-V2) | https://images.printify.com/mockup/6ac7156442c818a1ad0960e6/62037/3028/naughty-list-skeleton-v2-christmas-laptop-sleeve-stylish-tech-travel-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac71560ed135347800f9cf6 | Santas Favorite Distraction Christmas Women's T-Shirt — Festive Holiday Tee for Her, Holiday Gift | Winstar4U | DEFECT (unrendered-transparency checkerboard background artifact) | https://images.printify.com/mockup/6ac71560ed135347800f9cf6/17979/88/santas-favorite-distraction-christmas-womens-t-shirt-festive-holiday-tee-for-her-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac715600ed8f1657605f429 | Naughty List Resume Christmas Laptop Sleeve — Stylish Tech Travel Gift, Holiday Gift | Winstar4U | DEFECT-SEVERE (bottom punchline "AT THIS POINT ITS A RESUME" cropped) | https://images.printify.com/mockup/6ac715600ed8f1657605f429/62037/3028/naughty-list-resume-christmas-laptop-sleeve-stylish-tech-travel-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7155d35cf3f6ec802ebe6 | Naughty Is New Nice Christmas Laptop Sleeve — Stylish Tech Travel Gift, Holiday Gift | Winstar4U | DEFECT-MINOR (NICE touches bottom edge) | https://images.printify.com/mockup/6ac7155d35cf3f6ec802ebe6/62037/3028/naughty-is-new-nice-christmas-laptop-sleeve-stylish-tech-travel-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac71559c077332834034f19 | Santas Favorite Customer Vip Christmas Women's T-Shirt — Festive Holiday Tee for Her, Holiday Gift | Winstar4U | DEFECT (receipt graphic shows literal "PRICE" placeholder text, not values) | https://images.printify.com/mockup/6ac71559c077332834034f19/17979/88/santas-favorite-customer-vip-christmas-womens-t-shirt-festive-holiday-tee-for-her-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7155542c818a1ad0960c7 | My Elf Made Me Christmas Laptop Sleeve — Stylish Tech Travel Gift, Holiday Gift | Winstar4U | DEFECT (text error: "MADE" duplicated in art) | https://images.printify.com/mockup/6ac7155542c818a1ad0960c7/62037/3028/my-elf-made-me-christmas-laptop-sleeve-stylish-tech-travel-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac71552c077332834034f0e | Santas Favorite Arrow Christmas Women's T-Shirt — Festive Holiday Tee for Her, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71552c077332834034f0e/17979/88/santas-favorite-arrow-christmas-womens-t-shirt-festive-holiday-tee-for-her-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7154ed0a23214d80b274d | Morning Person Dec25 Skeleton Christmas Laptop Sleeve — Stylish Tech Travel Gift, Holiday Gift | Winstar4U | DEFECT (banner text cropped left/right) | https://images.printify.com/mockup/6ac7154ed0a23214d80b274d/62037/3028/morning-person-dec25-skeleton-christmas-laptop-sleeve-stylish-tech-travel-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7154b42c818a1ad0960b5 | Santa I Can Explain Clipboard Christmas Women's T-Shirt — Festive Holiday Tee for Her, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7154b42c818a1ad0960b5/17979/88/santa-i-can-explain-clipboard-christmas-womens-t-shirt-festive-holiday-tee-for-her-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7154a42c818a1ad0960b4 | Merry Everything Happy Always Christmas Laptop Sleeve — Stylish Tech Travel Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7154a42c818a1ad0960b4/62037/3028/merry-everything-happy-always-christmas-laptop-sleeve-stylish-tech-travel-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7154742c818a1ad0960b2 | Prosecco Ho Ho Ho Christmas Women's T-Shirt — Festive Holiday Tee for Her, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7154742c818a1ad0960b2/17979/88/prosecco-ho-ho-ho-christmas-womens-t-shirt-festive-holiday-tee-for-her-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7154742c818a1ad0960b1 | Merry Christmas Lets Get Lit Christmas Laptop Sleeve — Stylish Tech Travel Gift, Holiday Gift | Winstar4U | DEFECT-SEVERE (MERRY almost entirely cropped top) | https://images.printify.com/mockup/6ac7154742c818a1ad0960b1/62037/3028/merry-christmas-lets-get-lit-christmas-laptop-sleeve-stylish-tech-travel-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7154335cf3f6ec802ebc3 | Professional Gift Returner Christmas Women's T-Shirt — Festive Holiday Tee for Her, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7154335cf3f6ec802ebc3/17979/88/professional-gift-returner-christmas-womens-t-shirt-festive-holiday-tee-for-her-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac71540a5ade89b5c08110f | Jingle Bells Santa Smells Christmas Laptop Sleeve — Stylish Tech Travel Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71540a5ade89b5c08110f/62037/3028/jingle-bells-santa-smells-christmas-laptop-sleeve-stylish-tech-travel-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7153fa5ade89b5c08110e | Powered By Cookies Christmas Women's T-Shirt — Festive Holiday Tee for Her, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7153fa5ade89b5c08110e/17979/88/powered-by-cookies-christmas-womens-t-shirt-festive-holiday-tee-for-her-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7153cc077332834034e9d | Jingle All Way Liquor Christmas Laptop Sleeve — Stylish Tech Travel Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7153cc077332834034e9d/62037/3028/jingle-all-way-liquor-christmas-laptop-sleeve-stylish-tech-travel-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7153c35cf3f6ec802ebc1 | Party In Holiday Party Christmas Women's T-Shirt — Festive Holiday Tee for Her, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7153c35cf3f6ec802ebc1/17979/88/party-in-holiday-party-christmas-womens-t-shirt-festive-holiday-tee-for-her-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac71539a5ade89b5c08110c | Ill Be Home Christmas Probably Christmas Laptop Sleeve — Stylish Tech Travel Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71539a5ade89b5c08110c/62037/3028/ill-be-home-christmas-probably-christmas-laptop-sleeve-stylish-tech-travel-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7153835cf3f6ec802ebbd | Only Nice For Presents Christmas Women's T-Shirt — Festive Holiday Tee for Her, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7153835cf3f6ec802ebbd/17979/88/only-nice-for-presents-christmas-womens-t-shirt-festive-holiday-tee-for-her-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7152ffa3cae10170efc50 | Ho Ho Pour Another Christmas Laptop Sleeve — Stylish Tech Travel Gift, Holiday Gift | Winstar4U | DEFECT-SEVERE (HO HO HO cropped top) | https://images.printify.com/mockup/6ac7152ffa3cae10170efc50/62037/3028/ho-ho-pour-another-christmas-laptop-sleeve-stylish-tech-travel-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7152bfa3cae10170efc4e | Here For Snacks Christmas Laptop Sleeve — Stylish Tech Travel Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7152bfa3cae10170efc4e/62037/3028/here-for-snacks-christmas-laptop-sleeve-stylish-tech-travel-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7152807e4149a0f0011b3 | Walk By Faith Christmas Laptop Sleeve — Stylish Tech Travel Gift, Holiday Gift | Winstar4U | DEFECT (WALK BY FAITH cropped top) | https://images.printify.com/mockup/6ac7152807e4149a0f0011b3/62037/3028/walk-by-faith-christmas-laptop-sleeve-stylish-tech-travel-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac71524ed135347800f9ccb | Thankful Grateful Blesse Christmas Laptop Sleeve — Stylish Tech Travel Gift, Holiday Gift | Winstar4U | DEFECT (BLESSED cropped bottom; title also truncated "Blesse") | https://images.printify.com/mockup/6ac71524ed135347800f9ccb/62037/3028/thankful-grateful-blesse-christmas-laptop-sleeve-stylish-tech-travel-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac715217be9df884b032edf | Savior Born Manger Christmas Laptop Sleeve — Stylish Tech Travel Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac715217be9df884b032edf/62037/3028/savior-born-manger-christmas-laptop-sleeve-stylish-tech-travel-gift-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7151eb8146913210038ff | Vintage Santa Portra Christmas Women's T-Shirt — Festive Holiday Tee for Her, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7151eb8146913210038ff/17979/88/vintage-santa-portra-christmas-womens-t-shirt-festive-holiday-tee-for-her-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7151ded135347800f9cb7 | Rejoice Star Christmas Laptop Sleeve — Stylish Tech Travel Gift, Holiday Gift | Winstar4U | DEFECT-SEVERE (REJOICE cropped top) | https://images.printify.com/mockup/6ac7151ded135347800f9cb7/62037/3028/rejoice-star-christmas-laptop-sleeve-stylish-tech-travel-gift-holiday-gift-winstar4u.jpg?camera_label=front |
