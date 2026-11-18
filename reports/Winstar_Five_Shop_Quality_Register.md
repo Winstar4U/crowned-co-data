@@ -334,6 +334,40 @@ clipped), `6ac70eb5050d0f25a70917e5` (Dear Santa Bank Account), `6ac70ec0a4000bd
 first correction pass + 10 above), **16 still unconfirmed/presumed broken** pending this pass's
 completion.
 
+### ⚠️ CORRECTION continued — 8 more of the remaining 16 now individually re-verified and fixed (checkpoint 2)
+
+Continued the correction pass. For each item: fetched the live product's current `print_areas` to confirm
+the fix was applied (for two items — Christmas Lights Therapy and Dear Santa Bank Account — the corrected
+values were already present live, applied by a parallel process before this item was reached; the other
+six were fetched at the old broken 0.4-0.5 scale, corrected, and published here), then downloaded and
+visually inspected **both** the Large (45054) and Small (45055) front-camera mockups post-update.
+
+**8 of the remaining 16 confirmed fixed, both variants clean, real mockups downloaded and viewed:**
+
+| Product | Final scale/position | Confirmed clean |
+|---|---|---|
+| `6ac70f2f0a720c0b670cc5f7` My Elf Made Me | x 0.5, y 0.37, scale 0.16 | Small ✅ Large ✅ |
+| `6ac70ef7b7d78a62480e724d` Reason For Season | x 0.5, y 0.33, scale 0.16 | Small ✅ Large ✅ |
+| `6ac70ef49a2f0cb82508f8b8` O Holy Night | x 0.6, y 0.37, scale 0.16 | Small ✅ Large ✅ |
+| `6ac70ef00aa3686f380d3c2b` Keep Christ Christmas | x 0.5, y 0.37, scale 0.16 | Small ✅ Large ✅ |
+| `6ac70e83b8d5d3e719012f4f` Christmas Calories Dont Count | x 0.5, y 0.37, scale 0.16 | Small ✅ Large ✅ |
+| `6ac70e92e2a15b1260026614` Christmas Excuse Eat King | x 0.5, y 0.37, scale 0.16 | Small ✅ Large ✅ |
+| `6ac70e96050d0f25a70917cb` Christmas Lights Therapy (already fixed by parallel process — independently re-confirmed here) | x 0.5, y 0.37, scale 0.16 | Small ✅ Large ✅ |
+| `6ac70eb5050d0f25a70917e5` Dear Santa Bank Account (already fixed by parallel process — independently re-confirmed here) | x 0.5, y 0.37, scale 0.16 | Small ✅ Large ✅ |
+
+Reason For Season and O Holy Night confirmed the two known per-item exceptions to the x0.5/y0.37/scale0.16
+default (y0.33 and x0.6 respectively); all other items used the default with no further iteration needed.
+
+**Remaining to verify/correct: 8 of the original 26** — `6ac70ec0a4000bde5508bbde` (Dear Santa Explain),
+`6ac70ec3b8d5d3e719012f93` (Deck The Halls Sit Down), `6ac70ec73925bc76b9037099` (Dreaming Stress Free
+Christmas), `6ac70ed8050d0f25a70917f4` (Blessed Christmas), `6ac70edc7be9df884b032bed` (Christ Is Born —
+spot-checked broken by the parallel session), `6ac70ee24bfa32451c0548b1` (God Bless Christmas),
+`6ac70ee64bfa32451c0548b6` (Greatest Gift), `6ac70eed0aa3686f380d3c23` (Joy To World Christian).
+Continuing now.
+
+**Dashboard correction:** "approved live: 32" should now be read as **24 confirmed correct** (6 + 10 + 8
+above), **8 still unconfirmed/presumed broken** pending this pass's completion.
+
 ## EXECUTIVE SUMMARY & CORRECTION-READY APPROVAL PACKET (compiled 2026-11-18, after full five-shop
 ## visual-inspection completion)
 
