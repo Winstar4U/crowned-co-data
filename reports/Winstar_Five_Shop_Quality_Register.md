@@ -232,6 +232,48 @@ tuned y, checked against the real front-camera mockup) — this is being worked 
 "approved live: 32" figure above should be read as **6 confirmed correct, 26 unconfirmed/likely still
 broken** until this correction pass completes.
 
+### ⚠️ CORRECTION continued — 10 of the remaining 26 now individually re-verified and fixed (checkpoint 1)
+
+Picked up the correction pass on the 26 not yet confirmed. For each item: fetched the live product's
+current `print_areas` (confirmed still at the old broken 0.4-0.5 scale), applied the corrected
+scale/position via `printify-upsert-product-9eb` with `product_id` set, called
+`printify-publish-product-9eb`, then downloaded and visually inspected **both** the Large (45054) and
+Small (45055) front-camera mockups post-update — not assumed from the Small variant alone, which is the
+gap that caused the original miss.
+
+**10 of 26 confirmed fixed, both variants clean, real mockups downloaded and viewed:**
+
+| Product | Final scale/position | Confirmed clean |
+|---|---|---|
+| `6ac7124246dd1e896e04e124` Christmas Wishes Sta | x 0.5, y 0.37, scale 0.16 | Small ✅ Large ✅ |
+| `6ac711e0b81469132100377f` Believe Sleigh | x 0.5, y 0.37, scale 0.16 | Small ✅ Large ✅ |
+| `6ac70f4b82fcbdd37b039f40` Bah Humbug Wine | x 0.5, y 0.37, scale 0.16 | Small ✅ Large ✅ |
+| `6ac70f40e2a15b1260026672` All I Want Nap | x 0.5, y 0.37, scale 0.16 | Small ✅ Large ✅ |
+| `6ac70f3db7d78a62480e7264` All I Want Nap Pillow | x 0.5, y 0.37, scale 0.16 | Small ✅ Large ✅ |
+| `6ac70f244bfa32451c0548d6` Merry Christmas Lets Get Lit | x 0.5, y 0.37, scale 0.16 | Small ✅ Large ✅ |
+| `6ac70f1d50fc6704d30bf7f9` Jingle Bells Santa Smells | x 0.5, y 0.37, scale 0.16 | Small ✅ Large ✅ |
+| `6ac70f1a57527ce5fd019595` Jingle All Way Liquor | x 0.5, y 0.37, scale 0.16 | Small ✅ Large ✅ |
+| `6ac70f054e8c3a1ca906ec58` Walk By Faith | x 0.5, y 0.37, scale 0.16 | Small ✅ Large ✅ |
+| `6ac70efe050d0f25a7091809` Savior Born Manger | x 0.5, y 0.37, scale 0.16 | Small ✅ Large ✅ |
+
+All 10 used the same scale (0.16) and y (0.37) as the already-validated correction, applied with no
+further iteration needed — confirming this is a reliable default for this blueprint/image-size family,
+not something requiring per-item tuning in most cases (O Holy Night's known x-shift from the staging
+phase is expected to still apply when reached).
+
+**Remaining to verify/correct: 16 of the original 26** — `6ac70f2f0a720c0b670cc5f7`,
+`6ac70ef7b7d78a62480e724d`, `6ac70ef49a2f0cb82508f8b8`, `6ac70ef00aa3686f380d3c2b`,
+`6ac70e83b8d5d3e719012f4f`, `6ac70e92e2a15b1260026614`, `6ac70e96050d0f25a70917cb` (Christmas Lights
+Therapy — confirmed broken on Large in this checkpoint's own independent re-check, bottom line "THERAPY"
+clipped), `6ac70eb5050d0f25a70917e5` (Dear Santa Bank Account), `6ac70ec0a4000bde5508bbde`,
+`6ac70ec3b8d5d3e719012f93`, `6ac70ec73925bc76b9037099`, `6ac70ed8050d0f25a70917f4`,
+`6ac70edc7be9df884b032bed` (Christ Is Born), `6ac70ee24bfa32451c0548b1`, `6ac70ee64bfa32451c0548b6`,
+`6ac70eed0aa3686f380d3c23`. Continuing now.
+
+**Dashboard correction:** "approved live: 32" should now be read as **16 confirmed correct** (6 from the
+first correction pass + 10 above), **16 still unconfirmed/presumed broken** pending this pass's
+completion.
+
 ## EXECUTIVE SUMMARY & CORRECTION-READY APPROVAL PACKET (compiled 2026-11-18, after full five-shop
 ## visual-inspection completion)
 
