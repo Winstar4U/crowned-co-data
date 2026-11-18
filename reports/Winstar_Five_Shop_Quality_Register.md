@@ -4,6 +4,21 @@
 source of truth requested by the owner; do not recreate parallel registers. Append new rows/sections
 rather than rewriting history.
 
+## DUFFEL BAG — FINAL 2 OF 45 CONFIRMED FIXED AND LIVE (2026-11-18)
+
+Per the owner's "continue, reconcile the duffel discrepancies" directive, finished the 2 remaining
+"substantially fixed with caveats" items using the same handle-clearing default (x 0.5, y 0.37, scale
+0.16) already validated on the other 43:
+
+- `6ac70f444e8c3a1ca906ec70` "Avoiding Carolers Gnome" — before: scale 0.72/y 0.32 (text/graphic clipped
+  by handle and bottom curve). After: full "CURRENTLY AVOIDING CAROLERS AND CONVERSATION" text + gnome
+  graphic, clean, clear of handles. Confirmed via real downloaded mockup before publishing. **Published.**
+- `6ac70f274e8c3a1ca906ec63` "Merry Everything Happy Always" — before: scale 0.72/y 0.32 (second line
+  clipped at bottom). After: full "MERRY EVERYTHING HAPPY ALWAYS" text, clean, clear of handles.
+  Confirmed via real downloaded mockup before publishing. **Published.**
+
+**Duffel Bag: 45 of 45 confirmed fixed and live. 0 remaining.** This batch is closed.
+
 ## CHECKERBOARD T-SHIRT BACKGROUND DEFECT — offline correction attempted, blocked by environment limitation (owner-directed, 2026-11-18)
 
 **Owner directive:** prioritize "checkerboard artwork defects" and "continue correcting defective artwork and preparing replacement mockups in offline working files." This task is offline/draft-only — no live product was touched.
@@ -35,7 +50,7 @@ approval. This file tracks real, evidence-backed findings only — no estimates 
 
 | Category | Status |
 |---|---|
-| Duffel Bag (45 confirmed defects) | **45/45 resolved.** 43 fixed and live; 2 ("substantially fixed with caveats" — Avoiding Carolers Gnome, Merry Everything Happy Always) need a final re-check, not yet confirmed clean. 0 drafted-out-as-unfixable — everything proved fixable at a small enough scale. |
+| Duffel Bag (45 confirmed defects) | **45/45 fixed and live, confirmed. CLOSED.** 0 drafted-out-as-unfixable — everything proved fixable at a small enough scale. |
 | Wall Tapestry (48 confirmed defects) | **48/48 fixed, verified, and live.** Every item individually confirmed via a real downloaded post-publish mockup. |
 | Alcohol/infant-apparel policy violation (15 items) | **15/15 removed** (deleted, owner-approved). |
 | Thong/discontinued-blueprint (2 Shopify + 2 Etsy) | Shopify pair: **2/2 migrated to Women's Briefs AOP, live.** Etsy pair: confirmed already non-purchasable, set to draft (no live action needed), not yet migrated — awaiting owner confirmation the same migration should extend to the Etsy shop. |
