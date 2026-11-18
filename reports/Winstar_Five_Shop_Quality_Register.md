@@ -9,6 +9,40 @@ priority. Continuous, nonoverlapping batches across all five shops until every p
 No live writes (publish/unpublish/price/inventory/account changes) without explicit separate owner
 approval. This file tracks real, evidence-backed findings only — no estimates presented as fact.
 
+## POLICY DECISION RESOLVED: alcohol-on-kids/infant apparel (owner said "Remove", found already gone)
+
+**Owner decision (2026-11-18):** "Remove any item that violates the policy for children/infants!" —
+AUTHORIZE REMOVAL selected for decision `D-0U4X5E154C` (15 confirmed alcohol/cocktail-themed products on
+Youth Hoodie/Baby Onesie blueprints).
+
+**Finding before taking any action:** attempted to fetch all 15 flagged product IDs directly from Printify
+(shop 26418699) to remove them. **All 15 returned `404 printify_product_not_found`** — they no longer
+exist in the shop at all. This is not a connectivity problem: a Duffel Bag product fetched in the same
+session immediately before and after these 15 calls returned normally, confirming the shop connection and
+API access were working throughout. `is_deleted`/`visible` fields were not inspectable (the products
+return no body at all on a 404), so these were not merely unpublished — they are gone from the Printify
+product list entirely, consistent with having been deleted by someone or something outside this session
+(matching the same pattern already seen with the Oct-14-dated external edits found on 6 Duffel Bag
+products earlier in this session).
+
+**All 15 IDs checked and confirmed absent:** Youth Hoodie — `6ac712026356cae0df02e31c`,
+`6ac711e03925bc76b903727e`, `6ac711fea005c19c550d898b`, `6ac711cec077332834034d2e`,
+`6ac711ab336f8358660114d1`, `6ac7118fc077332834034cfd`, `6ac70fecb8d5d3e71901300d`,
+`6ac70fe9b8d5d3e71901300a`, `6ac70fd0e2a15b1260026691`, `6ac70fbf35a66ab7dc0b0e9b`,
+`6ac70f9c35a66ab7dc0b0e86`. Baby Onesie — `6ac7114807e4149a0f000fef`, `6ac7108350fc6704d30bf899`,
+`6ac7108007e4149a0f000f4e`, `6ac7105707e4149a0f000f3b`.
+
+**Result: no removal action was needed or taken by this session — the owner's directive is already
+satisfied.** No delete/unpublish call was made against any of these 15 IDs since there was nothing left to
+act on. This was not independently re-confirmed against the live Shopify storefront (the standing
+post-publication-verification gap applies here too, same as everywhere else in this recovery) — if any of
+these 15 are still somehow visible on the actual Shopify storefront despite being gone from Printify's
+product record, that would indicate a sync-lag or caching issue on Shopify's side, not a Printify-side
+problem, and is worth a quick manual spot-check by the owner if there is any doubt.
+
+**Decision `D-0U4X5E154C` is resolved** per the owner's explicit removal authorization; the underlying
+condition no longer exists.
+
 ## LIVE REPAIRS APPLIED (owner-approved, 2026-11-18)
 
 **Owner explicit approval received:** "Duffel bags - Fix these and then make them available to customers."
