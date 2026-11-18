@@ -799,6 +799,42 @@ referencing decision D-5B395E153M (Deck The Halls). 2 needing new art / not a po
 crop issue is fixed but title text is entirely absent from the source image, an art-asset problem, not
 confirmed as an intentionally image-only design). **21 of 45 classified, 24 remaining.**
 
+### Duffel Bag batch 5 (4 more items classified — all 4 fully fixed, 2 needed x-position tuning beyond the standard scale/y default)
+
+| Original live product | Fix attempted | Result | Staged draft |
+|---|---|---|---|
+| `6ac70f2f0a720c0b670cc5f7` "My Elf Made Me" | scale 0.5/y 0.4/x 0.5 (standard) | **FULLY FIXED** — "MY ELF MADE ME DO IT" + elf character graphic, complete, clean margins on first try | `6afda182e6ba52c5810c0d07` (2-variant) |
+| `6ac70ef7b7d78a62480e724d` "Reason For Season" | scale 0.5/y 0.4/x 0.5 → **revised to scale 0.42/y 0.35/x 0.5** | **FULLY FIXED (2nd pass)** — first pass left the lower nativity-scene graphic clipped at the bottom curve even though the title text was fully legible; reducing scale further to 0.42 and raising y to 0.35 brought the whole design (title + nativity graphic) into frame with clean margins | `6afda18564b943792d07caab` (2-variant) |
+| `6ac70ef49a2f0cb82508f8b8` "O Holy Night" | scale 0.5/y 0.4/x 0.5 → x 0.4 (wrong direction) → **revised to x 0.6** | **FULLY FIXED (3rd pass)** — unlike every other Duffel Bag item tested so far, this source image is not centered within its own canvas: at the standard x 0.5 the title ("O HOLY NIGHT") was cropped at the left edge even though scale/y were already clean; nudging x to 0.6 recentered the design with no further cropping. First documented case of a Duffel Bag defect requiring x-axis correction rather than (or in addition to) scale/y | `6afda1886fb6b46cef06dc57` (2-variant) |
+| `6ac70ef00aa3686f380d3c2b` "Keep Christ Christmas" | scale 0.5/y 0.4/x 0.5 (standard) | **FULLY FIXED** — "KEEP CHRIST IN CHRISTMAS" + nativity ornament graphic, complete, clean margins on first try (note: source image is 2048x2048 square, unlike the 2048x1365 family most other Duffel Bag items share, but the same standard scale/y/x values worked cleanly) | `6afda18c5d18cea8e70b146b` (2-variant) |
+
+**Running Duffel Bag tally after batch 5: 14 of 45 fully confirmed clean and repair-ready** (adds My Elf
+Made Me, Reason For Season, O Holy Night, Keep Christ Christmas to the prior 10). 2 substantially fixed
+with minor caveats (unchanged: Avoiding Carolers Gnome, Merry Everything Happy Always). 6 in the "too
+dense" pattern, referencing D-46651Y730N. 1 in the handle-obstruction pattern, referencing D-5B395E153M.
+2 needing new art (Candy Cane Lane, Chic Happens Cocktail). **25 of 45 classified, 20 remaining.**
+
+**Methodology note:** this batch is the first to require x-axis (horizontal) correction rather than pure
+scale/y tuning — O Holy Night's source file is off-center within its own canvas. Going forward, if a
+Subtype-B candidate still shows an edge crop after the standard scale 0.5/y 0.4/x 0.5 pass with the crop
+confined to one side only (not top/bottom, not both sides), that is the signature to try next: nudge x
+toward the cropped edge (crop on left → raise x; crop on right → lower x) before concluding the item is
+unfixable.
+
+### Duffel Bag batch 6 (4 more items classified — 2 fully fixed, 2 confirmed "too dense")
+
+| Original live product | Fix attempted | Result | Staged draft |
+|---|---|---|---|
+| `6ac70e83b8d5d3e719012f4f` "Christmas Calories Dont Count" | scale 0.5/y 0.4/x 0.5 (standard) | **FULLY FIXED** — "CHRISTMAS CALORIES DON'T COUNT" + gingerbread man/cookie graphics, complete, clean margins on first try | `6afda1fc598fa546c307065f` (2-variant) |
+| `6ac70e8bb8d5d3e719012f56` "Christmas Eat No January V2" | scale 0.5/y 0.4/x 0.5 → scale 0.4 → **scale 0.35/y 0.35** (3 attempts) | **NOT FIXED — "too dense."** 4-stack design (title "CHRISTMAS" + subtitle "IS MY EXCUSE" + banner "TO EAT LIKE I HAVE NO" + closing word "JANUARY" below a large food-spread graphic). Left/right edge crop resolved by scale 0.35, but "JANUARY" remains clipped at the bottom curve at every scale tested down to 0.35 — the design has too many vertically stacked elements to fit the printable panel height regardless of width. Referencing consolidated decision **D-46651Y730N**. | `6afda1fe1cb1d74e0a01bb15` (2-variant, not a clean repair) |
+| `6ac70e8e050d0f25a70917c2` "Christmas Eat No January" | scale 0.5/y 0.4/x 0.5 → scale 0.4 → **scale 0.35/y 0.35** (3 attempts) | **NOT FIXED — "too dense."** Same design/defect as the V2 above (near-duplicate artwork); same outcome — "JANUARY" clipped at bottom at every scale tested. Referencing **D-46651Y730N**. | `6afda2011cb1d74e0a01bb19` (2-variant, not a clean repair) |
+| `6ac70e92e2a15b1260026614` "Christmas Excuse Eat King" | scale 0.5/y 0.4/x 0.5 → **scale 0.4/y 0.4** (2 attempts) | **FULLY FIXED (2nd pass)** — "CHRISTMAS IS MY EXCUSE TO EAT LIKE A KING" + crown graphic; first pass at scale 0.5 touched both side edges, scale 0.4 brought it fully clean with margin on all sides | `6afda2031cb1d74e0a01bb1a` (2-variant) |
+
+**Running Duffel Bag tally after batch 6: 16 of 45 fully confirmed clean and repair-ready.** 2 substantially
+fixed with minor caveats (unchanged). 8 in the "too dense" pattern, referencing D-46651Y730N (adds both
+Eat No January variants to the prior 6). 1 in the handle-obstruction pattern, referencing D-5B395E153M.
+2 needing new art (Candy Cane Lane, Chic Happens Cocktail). **29 of 45 classified, 16 remaining.**
+
 ## 0. Shop directory
 
 | Shop name | Shop ID | Channel | Total products (last confirmed count) |
