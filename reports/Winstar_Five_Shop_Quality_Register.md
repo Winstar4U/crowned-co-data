@@ -633,6 +633,60 @@ Duffel Bag still 0 of 45. All other dashboard counts (reviewed 2,552 / findings 
 553 / approved live 0 / post-publication verified 0) unchanged — nothing here has been approved or
 published.
 
+### Duffel Bag group — investigation started, DIFFERENT root cause than Wall Tapestry, no fix found yet
+
+- **Blueprint/provider:** blueprint_id 372, print_provider_id 99 (confirmed via
+  `6ac712453925bc76b90372bb` "Deck The Halls Christmas Duffel Bag"). Unlike Wall Tapestry, this
+  blueprint has only 2 size variants (Small 45055, Large 45054) and **both share a single print_area
+  entry with one scale/position** — there is no per-size scale ladder, so the Wall Tapestry root cause
+  (print window growing faster than the source image across size variants) does not apply here at all.
+- **Actual root cause (different defect mechanism):** the live product's front-panel artwork (image id
+  `6ac70efbb7af65cd3997b6b8`, 2048x2048, scale 0.72, position y=0.32) is placed so that the physical,
+  sewn-on carrying handles cross directly over the top line of a 3-line stacked-text design ("DECK /
+  THE / HALLS"), obscuring the top line. This is a **structural/placement problem** (artwork vs. a
+  fixed physical product feature), not a print-window-vs-scale bug.
+- **Two reposition/rescale tests run, both still defective — documented honestly, not claimed as fixes:**
+  - **Test 1** (`6afd9c5107b4e3e480032208`, y 0.32→0.55, scale unchanged 0.72): moving the design down
+    cleared the handles but pushed almost the entire design (including all 3 lines of text) below the
+    visible flat front panel, onto the curved lower part of the bag where it is barely visible at all —
+    worse than the original, not better.
+  - **Test 2** (`6afd9c71dfc27cd38c0bf3e4`, y 0.45, scale reduced to 0.45): shrinking the design to try
+    to fit the narrow flat band between the handle crossing and the bottom curve still only fits the
+    word "DECK" — "THE" and "HALLS" remain cut off below the visible curve.
+- **Conclusion: position/scale staging alone, using the existing artwork, cannot fully fix this defect
+  class.** The usable flat front area between the handle crossing and the bag's cylindrical curve is
+  physically too small to display this 3-line stacked-text layout at a legible size. A genuine fix
+  would require either (a) new/edited artwork with a shorter, single-line or more compact text lockup
+  designed specifically for this constrained area (beyond "use only assets we own or are licensed to
+  modify" without actual image editing, which this pass did not attempt), or (b) accepting a smaller,
+  partially-cropped-but-legible compromise position and flagging it to the owner as a lesser defect
+  rather than a full fix, or (c) migrating affected designs off this blueprint, or (d) leaving as-is and
+  treating this as a lower-priority cosmetic defect given the artwork is still identifiable as
+  Christmas-themed even with partial text loss.
+- **This finding likely generalizes across some/most of the 45-instance Duffel Bag group**, since the
+  register's own defect notes for this blueprint describe a mix of mechanisms — "design obscured by
+  carrying handles" (this exact structural issue, likely not fixable by position/scale alone),
+  "text clipped at both left/right edges" (possibly a genuine scale issue, closer to the Wall Tapestry
+  pattern and more likely fixable the same way), "blank banner (bad source file)" (not fixable at all
+  without new art — a corrupted/empty source asset, already flagged elsewhere in the register), and
+  "icon graphic missing entirely" (also likely a source-file problem, not a position/scale problem).
+  **The Duffel Bag group is not a single defect type and will need per-item diagnosis, not a single
+  formula**, unlike Wall Tapestry where one method (iterative scale reduction) generalized cleanly
+  across every item tested.
+- **No live product was modified.** Both test drafts above are unpublished, single-variant (Large only),
+  and clearly NOT fixes — they should not be mistaken for repair-ready drafts in any approval package.
+- **Recommendation to owner:** before investing further staging time in the Duffel Bag group, decide
+  whether (a) to commission/approve simplified single-line text redesigns for the handle-obstructed
+  subset (requires new art, cannot be done with existing assets), (b) to accept the handle-crossing
+  mockup as a known cosmetic limitation of this blueprint and not pursue a full fix, or (c) to migrate
+  these designs to a different bag blueprint with a larger unobstructed front panel, if one exists in
+  Printify's catalog for this print provider. None of these decisions can be made unilaterally per the
+  owner's standing directive against consequential changes without approval.
+
+**Dashboard update:** Duffel Bag staged repairs completed: still **0 of 45** — the 2 test drafts above
+are diagnostic only, not repairs. This is reported as a genuine finding (the method doesn't generalize
+to this blueprint the way it did for Wall Tapestry), not a stall.
+
 ## 0. Shop directory
 
 | Shop name | Shop ID | Channel | Total products (last confirmed count) |
