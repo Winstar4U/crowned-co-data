@@ -473,8 +473,26 @@ options above.**
 ## STAGED REPAIRS — CONFIRMED FIXES (owner directive: repair-execution phase, compiled 2026-11-18)
 
 **Status: draft/staging only. Nothing below has been applied to any live product. Staged repairs
-completed and visually confirmed: 1 of ~44+ estimated Priority-B print-window-cropping instances
-(Wall Tapestry + Duffel Bag groups combined, per the Repair Queue).**
+completed (mechanically, as new unpublished draft products): 7 of 48 confirmed Wall Tapestry
+print-window-cropping instances; 0 of 45 confirmed Duffel Bag instances (not yet started — see "Scope
+and honest coverage" below). Of the 7 Wall Tapestry items staged, 5 have been individually
+visually re-checked against their live "before" mockups; 2 are staged only, not yet individually
+re-checked (flagged below, per item).**
+
+**IMPORTANT METHODOLOGY REFINEMENT (found while staging items #2-7, see "Repair #2-7" below): the
+"apply the smallest-variant's own current scale uniformly to every variant" method validated in
+Repair #1 is NOT by itself sufficient to fully eliminate cropping on every design. For several
+designs in this family, the smallest variant's own mockup was ALREADY cropped in the live product
+(this is consistent with the original register's defect notes, which cite the smallest/default-variant
+mockup URL as evidence) — so copying that same scale to all variants only stops the defect from
+getting WORSE at larger sizes; it does not eliminate it. A follow-up test on "Naughty List Vip"
+(Repair #3) found that a further-reduced scale (1.3, well below its smallest variant's native 2.124)
+produces a fully clean, uncropped render with margin on all sides. The corrected method is therefore:
+stage at the smallest-variant's scale first; if the result still shows cropping, iteratively reduce
+scale further until the full design (including all original margins) fits cleanly, then re-test. This
+is more iterative and labor-intensive per item than originally assumed, which is the main reason this
+pass stopped at 7 Wall Tapestry items rather than completing the full 48+45 backlog — see "Scope and
+honest coverage" below.**
 
 ### Repair #1 — CONFIRMED FIX: Wall Tapestry print-window cropping (uniform-scale correction)
 
@@ -524,8 +542,63 @@ completed and visually confirmed: 1 of ~44+ estimated Priority-B print-window-cr
   owner-approval package (before/after + proposed live action + APPROVE/REJECT) for this repair group;
   applying anything to the live product `6ac7105d35cf3f6ec802e989` itself, which remains untouched.
 
-**Dashboard update:** staged repairs completed: 0 -> **1**. All other dashboard counts (reviewed 2,552 /
-findings 553 / awaiting approval 553 / approved live 0 / post-publication verified 0) unchanged.
+### Repairs #2-7 — Wall Tapestry, uniform-scale-correction drafts (mixed outcomes, see notes)
+
+All six items below: shop 26418699, blueprint 241, print provider 99. Method: new unpublished draft
+product via `printify-upsert-product-9eb` with no `product_id`, all 8 size variants included, reusing
+the live product's own print-area image id with one uniform `scale` value (position x/y left at 0.5/0.5
+center, unchanged). Price copied from the live product (3099 = $30.99) on all variants. None of the
+live products listed were modified.
+
+| # | Original live product | Image id (reused, not re-uploaded) | Scale applied | New staged draft product | Visually re-checked? | Outcome |
+|---|---|---|---|---|---|---|
+| 2 | `6ac710683925bc76b9037137` "Believe Sleigh" | `6ac70ec1278a019a076d221e` (2048x1365) | 2.124 (= smallest variant 41686's own scale) | `6afd99a537262f37de0bea20` | Yes (41686 + 61899 mockups) | IMPROVED, NOT FULLY FIXED. Before: 88x104 mockup showed only a close-up of reindeer, no text/Santa/village at all. After: full scene visible (Santa, sleigh, reindeer, village) but the "BELIEVE" title is still clipped at the right edge. Needs the lower-scale follow-up method (see Repair #3) to fully resolve. |
+| 3 | `6ac7106435cf3f6ec802e991` "Naughty List Vip" | `6ac70eb8c6a41154ecfc961c` (2048x1365) | **First pass 2.124** (smallest-variant scale) — still cropped ("VIP MEMBER", "PERKS" text clipped at right edge). **Second pass 1.3** — fully clean, no cropping, margin on all sides. | First pass: `6afd99d61cb1d74e0a01b5b3` (8 variants, superseded). Second pass (confirmed fix): `6afd9ab6e6ba52c5810c08d8` (61899 variant only, proof-of-concept) | Yes, both passes | **FULLY FIXED on second pass.** This is the item that revealed the methodology refinement above. The first-pass draft (`6afd99d61cb1d74e0a01b5b3`) should be treated as superseded/incorrect and not used as the basis for any live change; `6afd9ab6e6ba52c5810c08d8` (scale 1.3) is the validated correct target, but only the 88x104 variant was built — the remaining 7 variants still need a full 8-variant draft at scale ~1.3 (or the per-variant equivalent, since each variant's correct scale differs — see note below) before this is a complete repair-ready package. |
+| 4 | `6ac7105750fc6704d30bf882` "Naughty List Skeleton V2" | `6ac8606795660a69b48b292e` (1261x1494, transparent PNG) | 0.997 (= smallest variant 46152's own scale, note: smallest-scale variant here is 46152 "36x26", not 41686) | `6afd9a16e8a9c24e000dbed7` | **No — staged only, not individually re-confirmed.** | Unknown — flagged for follow-up visual check before use in any owner-approval package. |
+| 5 | `6ac71053f0a0ce97bc0c90c9` "Naughty List Resume" | `6ac4f1594697cd9cf0a75363` (1707x2048) | 2.124 (smallest variant 46152's own scale) | `6afd9a44e6ba52c5810c087d` | Yes (61899 mockup) | IMPROVED, NOT FULLY FIXED. Title "NAUGHTY LIST RESUME" still clipped (shows as "AUGHT LIST...", first/last characters missing) even on the scale-corrected draft. Needs the lower-scale follow-up method. |
+| 6 | `6ac7105007e4149a0f000f30` "Naughty Is New Nice" | `6ac4f1527ce94b8c107d080f` (2048x2048) | 2.124 | `6afd9a5b37262f37de0beaa2` | **No — staged only, not individually re-confirmed.** | Unknown — flagged for follow-up visual check. |
+| 7 | `6ac7104c50fc6704d30bf872` "My Elf Made Me" | `6ac4f14ba2e2e7ac147890c9` (2048x1365) | 2.124 (smallest variant 41686's own scale) | `6afd9a8764b943792d07c582` | Yes (61899 mockup) | IMPROVED, NOT FULLY FIXED. Title "MY ELF MADE DO..." and the cookie plate are still clipped at top/right/bottom edges. Needs the lower-scale follow-up method. |
+
+**Reading these results plainly: of the 6 new items staged this pass, only 1 (Naughty List Vip, on its
+second attempt) reached a fully clean fix, and that was only built out for a single variant as a proof
+of concept, not the full 8-variant product needed for an owner-approval package. The other 4 visually
+re-checked items are meaningfully improved (the worst-case extreme-large-size catastrophic crop seen in
+Repair #1's "before" is gone in all of them) but still show residual edge-text clipping that a buyer
+would likely notice. Do not read this section as "6 more Wall Tapestry defects fixed" — read it as "the
+repair method is validated and iterable, 1 full fix (Repair #1) plus 1 proof-of-concept full fix
+(Repair #3, partial build-out) are in hand, and 5 items are documented partial progress toward a fix,
+not finished repairs."**
+
+### Scope and honest coverage — what this pass did NOT do
+
+- **Duffel Bag group (45 confirmed instances in the register): not started.** Zero staged drafts
+  created. This blueprint has its own blueprint_id/print_provider_id (not yet looked up) and its own
+  scale pattern; the methodology refinement above (iterative scale reduction, not a single
+  smallest-variant copy) applies here too and has not yet been tested on this blueprint at all.
+- **Wall Tapestry: 41 of 48 confirmed instances not yet staged at all** (7 done, including the original
+  Repair #1; 41 remaining, full ID list is in §26-§29 and the per-batch tables referenced there).
+- **No iterative lower-scale follow-up pass was run on Repairs #2, #5, or #7** (Believe Sleigh, Naughty
+  List Resume, My Elf Made Me) despite being visually confirmed as still-cropped — the
+  methodology refinement was only discovered partway through this pass (on Repair #3) and there was not
+  time in this session to go back and re-test the earlier items with it.
+- **Reason for stopping at this point:** each item requires a full product-detail fetch (to read the
+  live print_areas, image id, and current scale-per-variant) plus at least one draft-creation call, and
+  — per the methodology refinement — potentially a second iteration if the first scale attempt is still
+  cropped. This is roughly 2-4x more tool-call-intensive per item than originally planned, and far
+  exceeds what can responsibly be completed in a single continuous pass without risking an uncontrolled
+  cutoff mid-batch. This is reported honestly rather than claiming broader completion.
+- **Recommended next pass:** (1) for the 3 confirmed-still-cropped items (Repairs #2, #5, #7), build a
+  second-iteration draft at a lower scale (start around 55-65% of the value used in pass 1, based on the
+  Repair #3 ratio of 1.3/2.124 ≈ 0.61, then adjust per item by inspection) and re-check; (2) visually
+  confirm Repairs #4 and #6 (staged but not yet checked); (3) build out Repair #3's remaining 7 variants
+  at the validated scale; (4) begin the Duffel Bag group from scratch using the refined (iterative)
+  method from the start rather than assuming a single-pass smallest-variant-scale copy will suffice.
+
+**Dashboard update:** staged repairs completed (new unpublished draft products created): 1 -> **7**
+(Wall Tapestry only; Duffel Bag still 0). Of these, fully-confirmed-clean fixes: still effectively
+**1.5** (Repair #1 complete; Repair #3 validated but only 1/8 variants built out). All other dashboard
+counts (reviewed 2,552 / findings 553 / awaiting approval 553 / approved live 0 / post-publication
+verified 0) unchanged — nothing here has been approved or published.
 
 ## 0. Shop directory
 
