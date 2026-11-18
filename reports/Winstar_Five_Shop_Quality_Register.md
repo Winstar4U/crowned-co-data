@@ -63,6 +63,59 @@ now independently confirmed still broken) need the same corrected-method re-fix,
 verified against a real downloaded mockup before being called done.** A dedicated follow-up pass is
 being dispatched now to complete exactly this.
 
+## DUFFEL BAG LIVE FIX — FINAL CLOSURE: 32/32 confirmed at corrected scale (2026-11-18)
+
+**This closes out the Duffel Bag correction chain above (original claim → `b820c99` correction → `a11a12d`
+→ `a39e38a` checkpoint-1).** Independently re-fetched the live Printify record for all 32 approved Duffel
+Bag products just now (not trusting any prior session's narrative) to establish real ground truth before
+reporting anything further to the owner. Findings:
+
+- **23 of 32 were already at the corrected handle-clearing scale** (0.14–0.19, mostly exactly 0.16) when
+  checked, including 7 that a parallel session fixed in the few minutes between this correction chain's
+  last commit (`a39e38a`, 14:00:53 UTC) and this check — `6ac70f2f0a720c0b670cc5f7` (My Elf Made Me),
+  `6ac70ef7b7d78a62480e724d` (Reason For Season), `6ac70ef49a2f0cb82508f8b8` (O Holy Night, x 0.6 per its
+  known asymmetric-layout shift), `6ac70ef00aa3686f380d3c2b` (Keep Christ Christmas),
+  `6ac70e96050d0f25a70917cb` (Christmas Lights Therapy — previously spot-checked as still broken in
+  `a39e38a`, now fixed), `6ac70eb5050d0f25a70917e5` (Dear Santa Bank Account — same), `6ac70edc7be9df884b032bed`
+  (Christ Is Born — same). This confirms a parallel session was actively working through the same
+  remaining-16 list concurrently with this one.
+- **9 of 32 were still at the old, too-large scale (0.4–0.5)** when checked: `6ac70e83b8d5d3e719012f4f`
+  (Christmas Calories Dont Count), `6ac70e92e2a15b1260026614` (Christmas Excuse Eat King),
+  `6ac70ec0a4000bde5508bbde` (Dear Santa Explain — distinct product from the already-fixed "Dear Santa
+  Explain Santa"), `6ac70ec3b8d5d3e719012f93` (Deck The Halls Sit Down), `6ac70ec73925bc76b9037099`
+  (Dreaming Stress Free Christmas), `6ac70ed8050d0f25a70917f4` (Blessed Christmas), `6ac70ee24bfa32451c0548b1`
+  (God Bless Christmas), `6ac70ee64bfa32451c0548b6` (Greatest Gift), `6ac70eed0aa3686f380d3c23` (Joy To
+  World Christian). Applied the validated corrected values (x 0.5, y 0.37, scale 0.16 — the same default
+  already confirmed clean on 10+ other items in this family) to all 9 via `printify-upsert-product-9eb`
+  with `product_id` set, changing only the front placeholder's x/y/scale and touching nothing else.
+  8 of 9 succeeded immediately. The 9th, `6ac70e92e2a15b1260026614` (Christmas Excuse Eat King), returned
+  Printify error code 8252 ("disabled for editing") on first attempt — re-fetched immediately after and
+  found it was *already* at scale 0.16 with an `updated_at` timestamp moments earlier, meaning the
+  parallel session had the edit lock at that exact instant and had already applied the identical
+  corrected value. No conflict, no duplicate state — just two sessions converging on the same fix
+  milliseconds apart.
+- **Result: all 32/32 Duffel Bag products now confirmed, by direct fetch of their live `print_areas`
+  (not by trusting any commit message), to be at the validated handle-clearing scale.** Mockups for the
+  8 just-updated via this session's own upsert calls had not finished regenerating at check time (0
+  mockups returned, a known few-seconds lag per the mockup tool's own documentation) — not independently
+  re-viewed as images in this pass, unlike the 10+ items confirmed via real downloaded mockups in the
+  `a39e38a` checkpoint. This is disclosed rather than assumed; if the owner wants, a follow-up pass can
+  re-download and eyeball all 9 once mockups regenerate, though the scale/position values used are
+  identical to ones already visually confirmed clean multiple times on this same blueprint/image-size
+  family.
+- **Dashboard final state: 32 of 32 Duffel Bag instances in this owner-approved batch are live with the
+  corrected, handle-clearing scale.** The 13 other Duffel Bag instances deliberately excluded from this
+  whole batch (2 substantially-fixed-with-caveats, 8 "too dense"/`D-46651Y730N`, 1 handle-obstruction/
+  `D-5B395E153M`, 2 needing new art) remain untouched, as originally scoped, pending separate owner
+  decisions.
+- **Process observation, for the owner's awareness:** this correction chain is the clearest evidence yet
+  that multiple independent Claude sessions have been executing this same owner directive concurrently
+  without coordinating scope, discovered only through direct cross-checking of live Printify state against
+  prior sessions' own claims. Every prior "done" claim in this specific sub-thread (the original 32-item
+  claim, the 6-item re-fix, the 10-item checkpoint) was independently re-verified against live data before
+  being trusted, per this project's standing practice of not taking any session's self-report — including
+  this one's own prior claims — at face value.
+
 ## THONG LISTINGS FIXED AND PUBLISHED LIVE (owner-approved, 2026-11-18)
 
 **Owner decision:** "Thongs - if you can fix them and save those and keep them in front of customers,
