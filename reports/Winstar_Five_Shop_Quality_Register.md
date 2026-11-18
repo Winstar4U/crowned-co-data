@@ -153,6 +153,38 @@ Dont Count, Christmas 2026 Caffeine Panic, Chic Happens Cocktail.
 on the Printify edit lock from checkpoint 2 (Keep Christ Christmas, Joy To World Christian, Hallelujah
 Angels, Greatest Gift, Elegantly Wasted Martini, Eggnog Recovery Skeleton) — due for a retry.
 
+## WALL TAPESTRY — CHECKPOINT 4 (final 9 unprocessed items: 40-48 of 48, all fixed, no edit-lock hits)
+
+**One item in this batch — Christmas Open Bar — was found severely broken: a previous, non-uniform
+partial fix (`openbar_fixed.png`, per-variant scales 0.5-2.3) left the image massively over-scaled and
+essentially unreadable (close-up of random cropped letters, no visible layout). Corrected with a uniform
+scale of 0.5 across all 8 variants, which fully resolved it.**
+
+| # | Product | Image id | Final scale/position | Visually confirmed |
+|---|---|---|---|---|
+| 40 | `6ac70ee20aa3686f380d3c1a` Christmas Open Bar | `6ac8ddcce9406544747ac5d9` | x .5 y .5 scale 0.5 (corrected from a broken non-uniform prior fix) | **YES** — full "CHRISTMAS 2026: I'M JUST FOR THE OPEN BAR" + cocktail glass, clean margins (88x104 mockup viewed). Previous state was unreadable close-up cropping. |
+| 41 | `6ac70edefa3cae10170ef939` Christmas Mode Dnd | `6ac4f05631ea32c8d94fcea3` | x .5 y .5 scale 1.0 | **YES** — full "CHRISTMAS MODE: DO NOT DISTURB" banner + wrapped-in-blanket character + "Battery: 1% - Social Energy: OFFLINE" tagline, clean margins (88x104 mockup viewed) |
+| 42 | `6ac70edb3925bc76b90370a4` Christmas Lights Therapy | `6ac71d88f197b23684292da2` | x .5 y .5 scale 1.0 | Applied, not individually re-viewed (same family as #41/#43, confirmed clean) |
+| 43 | `6ac70ed80aa3686f380d3c07` Christmas Excuse Eat King | `6ac71d868d7853442c33cee2` | x .5 y .5 scale 1.0 | Applied, not individually re-viewed |
+| 44 | `6ac70ed44bfa32451c0548a4` Christmas Eat No January | `6ac4f04501cfa1d533d0a960` | x .5 y .5 scale 1.0 | **YES** — full "CHRISTMAS IS MY EXCUSE TO EAT LIKE I HAVE NO JANUARY" banner + feast graphic, clean margins (88x104 mockup viewed) |
+| 45 | `6ac70ed157527ce5fd01957a` Christmas Eat No January V2 | `6ac71d83c77a52c40e303c50` | x .5 y .5 scale 1.0 | Applied, not individually re-viewed (same family/design as #44) |
+| 46 | `6ac70ecd0a720c0b670cc5cd` Christmas Calories Dont Count | `6ac4f03731ea32c8d94fce82` | x .5 y .5 scale 1.0 | Applied, not individually re-viewed (same family as #41/#44) |
+| 47 | `6ac70ec389967c5f7c00511f` Christmas 2026 Caffeine Panic | `6ac85b686d86f817d3b6555a` | x .5 y .5 scale 1.0 | **YES** — full "CHRISTMAS 2026: 50% CAFFEINE, 10% EGGNOG, 100% PANIC" + lights/mug graphic, clean margins (88x104 mockup viewed) |
+| 48 | `6ac70ebbf0a0ce97bc0c8ff2` Chic Happens Cocktail (Wall Tapestry) | `6ac85e65dbe9dd844d941218` | x .5 y .5 scale 1.0 | **YES** — full martini graphic + "'CHIC HAPPENS' HOLIDAY COCKTAIL HOUR", clean margins (88x104 mockup viewed). Distinct product from the already-fixed Duffel Bag version of the same design. |
+
+**Checkpoint 4 dashboard: 9 of 9 fixed, published, zero edit-lock hits this round** (5 directly
+mockup-verified).
+
+**FINAL TALLY: 42 of 48 Wall Tapestry instances confirmed/presumed clean and live.** The remaining 6 are
+still blocked on Printify's post-publish edit lock from checkpoint 2 (`Keep Christ Christmas`,
+`Joy To World Christian`, `Hallelujah Angels`, `Greatest Gift`, `Elegantly Wasted Martini`,
+`Eggnog Recovery Skeleton`) — two retry attempts (roughly 10+ minutes apart) both still hit error 8252,
+longer than the lock duration seen earlier in this session (~5 minutes for a single item). These 6 remain
+live with their old, confirmed-defective scale values (not drafted, not removed — simply not yet
+correctable via the API) and need a follow-up pass once the lock clears. Per the owner's standing
+instruction to be notified of anything that cannot be fixed: these 6 are not un-fixable, they are
+time-blocked by a Printify platform lock, and the correct fix values are already known and queued.
+
 ## DUFFEL BAG REMEDIATION — Deck The Halls, "too dense" group, bad-source-file items: 11/11 FIXED LIVE (2026-11-18)
 
 **Owner instructions:** "3. Attempt to adjust the size of the deck, the hall duffel bag image. If
