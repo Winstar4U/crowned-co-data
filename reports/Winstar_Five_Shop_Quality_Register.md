@@ -480,8 +480,50 @@ AUTHORIZE REMOVAL.
 **6. Not CRITICAL.** Catalog-discontinuation / unfulfillable-inventory issue, not a brand-safety or live
 trademark-infringement issue.
 
-**7. No action taken.** Neither listing has been removed, re-mapped, or otherwise modified. Pending owner
-decision.
+**7. UPDATE 2026-11-18 — owner authorization received ("if you can fix them... please do") and
+investigated. OUTCOME: genuinely not fixable as the same product; no live action taken.**
+
+Investigated whether either listing could be repaired and made purchasable again, per the owner's
+explicit conditional authorization. Findings:
+
+- **Correction to an earlier register entry:** two other Printify products previously logged as
+  "CLEAN" in the raw per-batch tables — `69c9a9a77ee2f2859c094675` ("Juicy Black Women's Thong...",
+  Etsy shop 26603005) and `69c9a9993f8316381202aff5` ("Brazil Flag Thong...", same shop) — were
+  checked directly as a possible lead (same design, maybe already working under a different id). Both
+  are **also on blueprint 1466 with every variant `is_enabled: false` / `is_available: false`**, and
+  both have empty `sales_channel_properties` (not pushed to any sales channel). They are **not**
+  actually clean/purchasable — the "CLEAN" label in the original visual-only inspection reflected a
+  cached mockup thumbnail still rendering, not actual current purchasability. This is a methodology
+  gap worth noting for other "CLEAN" Thong-blueprint entries if any remain, though a scan of the
+  register found no others on blueprint 1466 besides these 4.
+- **Checked whether any currently-active Printify blueprint matches "Thong"/bikini-style underwear.**
+  Fetched Printify's full global blueprint catalog (3,061 blueprints) and searched by title for
+  thong/panty/panties/underwear/brief/bikini/lingerie/undies. Result: **no active thong or
+  bikini-cut underwear blueprint exists in Printify's catalog at all.** The only remaining
+  women's-underwear blueprint is `407` ("Women's Briefs (AOP)", active print provider 14/ArtsAdd,
+  confirmed live via `printify-get-print-providers-9eb`) — a full-coverage brief, not a thong. This is
+  a different garment, not a compatible substitute blueprint for the same product.
+- **Confirmed real, non-fabricated source artwork still exists for both designs** (not reused or
+  invented): `69c7630e3acff09c580c3072` ("Unzip Itself") has a genuine attached print-area image,
+  `69c762d9c17e4cae751f90f4` ("Underwear - Womens Panties with This Isnt Going To Lick Itself.png",
+  2624x1632); `69c75c408ac9a0544a0ebe6d` ("Juicy Black") has image `69c75be481feb143ebe14b88`
+  ("Underwear - Womens Panties with Juicy.png", 2816x1536, the same file used on the Etsy duplicate).
+  So the blocker is purely the discontinued garment template, not missing art.
+
+**Conclusion: a literal fix — the same thong product, restored to purchasable — is not possible.**
+Printify has discontinued the entire thong/bikini-underwear garment category with no direct
+replacement, not just this one blueprint instance. The only available path to "keep something in
+front of customers" using this real artwork would be migrating to a **different physical garment**
+(briefs instead of a thong, blueprint 407) — which is a product substitution, not a repair of the
+original item, and changes what the customer is actually buying. Per the owner's own "if you can fix
+them" phrasing and the standing policy against doing a live, consequential product change without a
+clear go-ahead, **this substitution was not performed.** Both listings are left exactly as found — no
+unpublish, no delete, no re-map, no live change of any kind.
+
+**Decision needed, now narrowed:** the real choice is no longer "fix vs. remove" (no fix exists) but
+**(a) migrate both to Women's Briefs (AOP) as a different-but-related product using the same real
+artwork, (b) remove/unpublish both listings since the thong category is gone, or (c) hold as-is.**
+Follow-up posted to decision `D-0J1145520R` with this narrowed framing.
 
 ---
 
