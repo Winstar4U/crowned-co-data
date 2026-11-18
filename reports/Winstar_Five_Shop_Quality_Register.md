@@ -917,6 +917,34 @@ live-defect fixes from batches 7-8). 2 substantially fixed with minor caveats (u
 dense" pattern, referencing D-46651Y730N. 1 in the handle-obstruction pattern, referencing D-5B395E153M.
 2 needing new art (Candy Cane Lane, Chic Happens Cocktail). **41 of 45 classified, 4 remaining.**
 
+### Duffel Bag batch 10 (FINAL 4 items — all 4 fully fixed) — 45/45 CLASSIFICATION COMPLETE
+
+| Original live product | Live status | Fix attempted | Result | Staged draft |
+|---|---|---|---|---|
+| `6ac70ee24bfa32451c0548b1` "God Bless Christmas" | Untouched since Oct 9 | scale 0.5/y 0.4/x 0.5 → **scale 0.42/y 0.4** (2 attempts) | **FULLY FIXED (2nd pass)** — first pass had title touching both side edges; scale 0.42 gave "GOD BLESS CHRISTMAS" + wreath/cross graphic clean margins | `6afda58d64b943792d07ce2c` (2-variant) |
+| `6ac70ee64bfa32451c0548b6` "Greatest Gift" | Untouched since Oct 9 | scale 0.5/y 0.4/x 0.5 → **scale 0.42/y 0.4** (2 attempts) | **FULLY FIXED (2nd pass)** — first pass had "THE GREATEST GIFT" clipped at both edges; scale 0.42 gave full title + gift/cross graphic clean margins | `6afda58fe8a9c24e000dc60a` (2-variant) |
+| `6ac70ee9e2a15b1260026655` "Hallelujah Angels" | **LIVE DEFECT** — modified Oct 14 (`clean-faith-hallelujah-angels.png`), live mockup shows "[H]ALLELUJA[H]" sheared on both edges | scale 0.4/y 0.4/x 0.5 (started lower given the multi-figure illustration) | **FULLY FIXED on first try** — "HALLELUJAH" + 5-figure angel choir graphic, complete, clean margins | `6afda59264b943792d07ce2e` (2-variant) |
+| `6ac70eed0aa3686f380d3c23` "Joy To World Christian" | Untouched since Oct 9 | scale 0.5/y 0.4/x 0.5 (standard) | **FULLY FIXED on first try** — "JOY TO THE WORLD" + starburst graphic, complete, clean margins | `6afda5941cb1d74e0a01bd80` (2-variant) |
+
+**FINAL Duffel Bag tally: 32 of 45 fully confirmed clean and repair-ready**, including validated fixes
+for **6 currently-live defective products** (Christmas Open Bar, Christmas Party Survivor, Christmas
+Stress Tinsel Done, Christmas Vacation Canceled, Dear Santa Explain Santa, Hallelujah Angels). 2
+substantially fixed with minor caveats (Avoiding Carolers Gnome, Merry Everything Happy Always). 8 in the
+"too dense" pattern, referencing consolidated decision D-46651Y730N (Caffeine Panic, Avoiding Carolers
+Raccoon, Naughty List Resume Duffel, Naughty Is New Nice Duffel, Ill Be Home Christmas Probably, Thankful
+Grateful Blesse, Christmas Eat No January, Christmas Eat No January V2). 1 in the handle-obstruction
+pattern, referencing D-5B395E153M (Deck The Halls). 2 needing new art / not a position-scale problem
+(Candy Cane Lane — bad source file; Chic Happens Cocktail — title text absent from source).
+
+**✅ ALL 45 OF 45 DUFFEL BAG INSTANCES NOW CLASSIFIED.** Combined with Wall Tapestry (7/7 print-window-
+cropping instances fully staged and repair-ready from earlier in this session), this phase of repair-
+execution work is complete and ready for the consolidated owner-approval package.
+
+**Updated Bridge recommendation:** the 6 live-defect staged fixes (3 from D-6E461R1D3H plus Christmas
+Vacation Canceled, Dear Santa Explain Santa, and now Hallelujah Angels) should be the top priority for
+expedited owner approval, since they are actively showing broken artwork to customers today. Posting a
+follow-up note to D-6E461R1D3H with the Hallelujah Angels addition.
+
 ## 0. Shop directory
 
 | Shop name | Shop ID | Channel | Total products (last confirmed count) |
