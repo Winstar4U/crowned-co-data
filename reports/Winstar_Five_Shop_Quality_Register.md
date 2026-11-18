@@ -184,7 +184,7 @@ closer look given the similar title, but confirmed NOT a third duplicate once th
 `external` field, unverified against eBay's own storefront), 53/53 visually inspected (100% clean,
 0 confirmed defects, 2 duplicate pairs). Task T-0U6Q5K5G49 ready for Bridge submission.
 
-## 7. Shopify catalog position tracker (most important coverage gap — 1,212 of 2,912 total products)
+## 7. Shopify catalog position tracker (most important coverage gap — 1,112 of 2,912 total products)
 
 | Range | Status | Task |
 |---|---|---|
@@ -209,13 +209,14 @@ closer look given the similar title, but confirmed NOT a third duplicate once th
 | #1,761-1,860 | **Full visual inspection (100/100), see §8t** — 44/100 confirmed defects, 0 true duplicate pairs, 0 new brand-safety instances (brand-safety tally stays 15: 11 Youth Hoodie + 4 Baby Onesie). **Wall Tapestry: 24/25 (96%) defective** — confirms worst-blueprint status on largest sample yet. **Duffel Bag: 20/22 (91%) defective.** NEW mechanistic refinement: the 3 clean Wall Tapestry/Duffel Bag exceptions were all short-text-or-no-text designs — the defect tracks text length vs. print-window size, not the blueprint categorically. **Shorts: 0/28, Sweatpants: 0/25 — both 100% clean across full samples.** | T-0111181R67 (this session) |
 | #1,861-1,960 | **Full visual inspection (100/100), see §8u** — 43/100 confirmed defects, 0 confirmed true duplicate pairs (1 flagged candidate pending closer review), 0 new brand-safety instances (tally stays 15). **Wall Tapestry: 9/9 (100%) defective.** **Journal: 0/7 — 100% clean, most reliable blueprint found so far.** Large-scale cross-blueprint test confirmed: same designs clean on Journal/Shorts/Magnet, defective on Wall Tapestry/Duffel Bag/Sweatpants — defect is blueprint-specific print-window size vs. text length. | T-2F0U00544H (this session) |
 | #1,961-2,060 | **Full visual inspection (100/100), see §8v** — 49/100 confirmed defects (highest batch rate yet), 0 true duplicate pairs, 0 new brand-safety instances (tally stays 15, Kids' T-Shirt category confirmed 100% free of alcohol imagery). **Christmas Socks: 10/10 (100%) defective** — new worst-single-blueprint result, camera-angle wraparound-fragmentation intrinsic to the blueprint. **Bucket Hat: 7/9 (78%)** and **Apron: 2/3 (67%)** confirm opaque white-background-box defect at volume. **Scented Candle: 7/10 (70%)** confirms overscale/zoomed-design defect at volume, concentrated on nativity/religious designs. **Throw Blanket, Long Sleeve Tee, Tough Phone Case: 0% defective.** | T-3J2M0Z1I15 (this session) |
-| #2,061-2,912 | **NOT STARTED** (851 products) | Next batch(es) |
+| #2,061-2,160 | **Full visual inspection (100/100), see §8w** — 8/100 confirmed defects (one of the lowest batch rates in this effort), 0 true duplicate pairs, 0 new brand-safety instances (tally stays 15; blueprint mix had no Youth Hoodie/Baby Onesie). **T-Shirt (59 units), Tough Phone Case, Polo, Softstyle Tee, 11oz Mug: 0% defective.** Confirmed "Chic Happens Cocktail" renders CLEAN on T-Shirt despite being flagged defective on Lunch Box in an earlier batch — reconfirms print-area-size dependency. | T-1D1O420T4G (this session) |
+| #2,161-2,912 | **NOT STARTED** (751 products) | Next batch(es) |
 
 ## 8. Next eligible batch (for whichever session/dispatcher firing picks this up next)
 
-1. Shopify shop 26418699, #2,061 onward, continuing in ~100-product batches with full visual
-   inspection (every default mockup viewed, not sampled) — see §8f-§8v for the systemic defect-rate
-   finding (ranging 4%-49% across seventeen batches so far) that makes full inspection (not sampling)
+1. Shopify shop 26418699, #2,161 onward, continuing in ~100-product batches with full visual
+   inspection (every default mockup viewed, not sampled) — see §8f-§8w for the systemic defect-rate
+   finding (ranging 4%-49% across eighteen batches so far) that makes full inspection (not sampling)
    essential for this shop. Root causes identified so far: (a) print-window-vs-artwork-size cropping,
    affecting Backpack/Laptop Sleeve/Mouse Pad/Baby Onesie/Tank Top/Napkin Set/Throw Pillow/Coaster
    Set/Lunch Box/Wall Tapestry/Duffel Bag/Bucket Hat blueprints depending on the specific source file;
@@ -229,12 +230,12 @@ closer look given the similar title, but confirmed NOT a third duplicate once th
    entirely out of the visible label area. A duplicate-listing sub-pattern was also found in §8k:
    identical blueprint + identical artwork sold as separate listings differing only by declared pillow
    size (18x18 vs 20x20) — distinct from the "different blueprint = normal" pattern ruled out
-   elsewhere. 1,212 products remain unstarted.
+   elsewhere. 1,112 products remain unstarted.
 2. **eBay is now COMPLETE (53/53 visually inspected, see §6a) — do not re-inspect.** **Amazon is now
    COMPLETE (62/62 visually inspected, see §8a) — do not re-inspect.** **TikTok is now COMPLETE (71/71
    visually inspected, see §8b) — do not re-inspect.** **Etsy is now FULLY COMPLETE — all 297 products
    visually inspected across the pre-existing inspection round plus batches 1/3 (§8c), 2/3 (§8d), and 3/3
-   (§8e) — do not re-inspect any ID in §9–§13.** Only Shopify (1,212 remaining of 2,912 total, see item 1
+   (§8e) — do not re-inspect any ID in §9–§13.** Only Shopify (1,112 remaining of 2,912 total, see item 1
    above) remains as an unstarted shop in this five-shop recovery.
 3. Direct marketplace-side verification (actually checking eBay/Amazon/TikTok/Shopify storefronts, not
    just Printify's `external` field) for at least the highest-volume confirmed-gap SKUs, before any
@@ -4361,3 +4362,188 @@ products remain unstarted (#2,061-2,912).
 | 6ac6ff73154e72164e0d8d8a | "Walk By Faith" Christmas Long Sleeve Tee — Festive Holiday Long Sleeve Tee Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac6ff73154e72164e0d8d8a/25076/103304/walk-by-faith-christmas-long-sleeve-tee-festive-holiday-long-sleeve-tee-gift-winstar4u.jpg?camera_label=front |
 | 6ac6ff444f88f35ee90d3df0 | "Naughty List Resume" Christmas Tough Phone Case — Festive Holiday Tough Phone Case Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac6ff444f88f35ee90d3df0/93905/136144/naughty-list-resume-christmas-tough-phone-case-festive-holiday-tough-phone-case-gift-winstar4u.jpg?camera_label=front |
 | 6ac6ff41710be211d209a7be | "Christmas Lights Therapy" Christmas Tough Phone Case — Festive Holiday Tough Phone Case Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac6ff41710be211d209a7be/93905/136144/christmas-lights-therapy-christmas-tough-phone-case-festive-holiday-tough-phone-case-gift-winstar4u.jpg?camera_label=front |
+## 8w. Shopify shop (26418699, Winstar4U) #2,061-2,160 — eighteenth full-visual-inspection
+## batch (2026-11-18, this session)
+
+**Status: 100/100 products fully visually inspected (every default mockup individually viewed) —
+see §31 for the complete per-product evidence table.** 92/100 CLEAN, 8/100 DEFECT — one of the
+lowest defect rates of the recovery so far, driven by a blueprint mix dominated by T-Shirt (59
+units, 0 defects) and Tough Phone Case/Polo/Softstyle Tee/11oz Mug (all 0 defects).
+
+### Blueprint-by-blueprint breakdown
+
+| Blueprint | n | Clean | Defect | Defect rate |
+|---|---|---|---|---|
+| T-Shirt | 59 | 59 | 0 | **0%** |
+| Tough Phone Case | 9 | 9 | 0 | **0%** |
+| Unisex Hoodie | 9 | 5 | 4 | 44% |
+| Men's Piqué Polo | 7 | 7 | 0 | **0%** |
+| 15oz Ceramic Mug | 5 | 3 | 2 | 40% |
+| Softstyle T-Shirt | 5 | 5 | 0 | **0%** |
+| Crewneck Sweatshirt | 4 | 2 | 2 | 50% |
+| 11oz Ceramic Mug | 2 | 2 | 0 | **0%** |
+
+### Defects found
+
+All 8 defects fall into the two familiar patterns already documented repeatedly in this register:
+print-window text cropping (4 instances: #010 "Christmas Open Bar" 15oz Mug — top line missing;
+#012 "Elegantly Wasted Martini" 15oz Mug — "SINCE 2026" cut off at bottom; #034 "Naughty List
+Resume" Hoodie — bottom text cropped; #040 "Keep Christ Christmas" Hoodie — top line "KEEP CHRIST"
+missing) and dark-text-on-dark-garment color-contrast illegibility (4 instances, all on black
+Crewneck Sweatshirt/Hoodie: #029 "Christmas Stress Tinsel Done" Crewneck, #030 "Dreaming Stress Free
+Christmas" Crewneck, #037 "Naughty Is New Nice" Hoodie — low-contrast subtitle plus near-bottom
+cropping, #039 "Merry Everything Happy Always" Hoodie). No new defect types identified this batch.
+
+### Notable confirmation: "Chic Happens Cocktail" renders CLEAN on T-Shirt (large print area)
+
+This design's source file (`chic-happens-cocktail-transparent.png`) was previously flagged as a bad
+file (low-contrast subtitle) when found on a Lunch Box in an earlier batch. In this batch it appears
+on the T-Shirt blueprint (`6ac4f22162ebfea11507fa0b`) and is fully legible and well-centered —
+confirming the established pattern that this defect is print-area-size-dependent (small print
+windows expose low-contrast subtitles that a larger print area renders fine), not a categorical bad
+file.
+
+### Duplicate-pair detection: 0 true duplicates found this batch
+
+Ran a systematic pass: (1) grouped all 100 products by exact title+blueprint — 0 collisions; (2)
+grouped by title across different blueprints — 0 same-blueprint pairs; (3) grouped by print-area
+image filename across all 100 — found 16 instances of the same artwork file reused across different
+blueprints (e.g. `merry-everything-happy-always-transparent.png` on Phone Case + Polo + Hoodie), but
+this is the normal/expected cross-blueprint catalog pattern (same design offered as multiple product
+types), not a problematic duplicate signal. No same-blueprint-different-declared-size pairs (the
+§8k pillow-size pattern) appear in this batch's 100 products.
+
+### Brand-safety check: 0 new instances — running tally unchanged at 15 (11 Youth Hoodie + 4 Baby
+### Onesie)
+
+This batch's blueprint mix contains no Youth Hoodie or Baby Onesie products at all (the 9 Hoodie
+units present are the adult "Unisex Hoodie" blueprint, distinct from Youth Hoodie), so no new check
+was possible on those specific flagged blueprints. Several alcohol-themed titles appear in this
+batch ("Christmas Open Bar," "Elegantly Wasted Martini," "Jingle All Way Liquor," "Bah Humbug Wine,"
+"Corkscrew Wine Repeat," "Chic Happens Cocktail") but all on adult-apparel/drinkware blueprints
+(T-Shirt, Mug, Polo) — not a brand-safety concern on their own.
+
+### Sync-mapping status
+
+Consistent with every prior Shopify batch, this batch's bulk list calls show a populated Printify
+`external` field for only 9/100 products — a known tooling-visibility gap already documented
+repeatedly in this register, not a claim about actual Shopify-side sync status.
+
+### Methodology note (standing caveat, repeated per chatgpt's valid correction in `P-3K1D6D0O0I`)
+
+The 8% defect rate reported here is this specific 100-product batch's sample result, not an
+extrapolated shop-wide prevalence rate. Rates have ranged from 4% to 49% across the eighteen batches
+completed so far in this shop, correlating strongly with which blueprints happen to fall in each
+batch's catalog-position window — this batch's unusually low rate is explained by its heavy T-Shirt
+concentration (59/100 units, 0% defective), consistent with T-Shirt's reliably-clean status
+established across many prior batches.
+
+### Running Shopify total: 1,800/2,912 products not-previously-individually-inspected now fully
+visually inspected across eighteen consecutive batches (#361-460 through #2,061-2,160). 1,112
+products remain unstarted (#2,161-2,912).
+
+## 31. Shopify #2,061-2,160 full 100-row ID register (complete, per-product evidence, same format as
+§9-§30)
+
+| ID | Title | Result | Default Mockup URL |
+|---|---|---|---|
+| 6ac6ff3d7a961335020e18e3 | "Joy To World Christian" Christmas Tough Phone Case — Festive Holiday Tough Phone Case Gift \| Winstar4U | CLEAN | https://images.printify.com/mockup/6ac6ff3d7a961335020e18e3/93905/136144/joy-to-world-christian-christmas-tough-phone-case-festive-holiday-tough-phone-case-gift-winstar4u.jpg?camera_label=front |
+| 6ac6ff39826b7669c103bb25 | "My Elf Made Me" Christmas Tough Phone Case — Festive Holiday Tough Phone Case Gift \| Winstar4U | CLEAN | https://images.printify.com/mockup/6ac6ff39826b7669c103bb25/93905/136144/my-elf-made-me-christmas-tough-phone-case-festive-holiday-tough-phone-case-gift-winstar4u.jpg?camera_label=front |
+| 6ac6ff367a961335020e18e0 | "Christmas Mode Dnd" Christmas Tough Phone Case — Festive Holiday Tough Phone Case Gift \| Winstar4U | CLEAN | https://images.printify.com/mockup/6ac6ff367a961335020e18e0/93905/136144/christmas-mode-dnd-christmas-tough-phone-case-festive-holiday-tough-phone-case-gift-winstar4u.jpg?camera_label=front |
+| 6ac6ff32d907a8335b0f3a7e | "Merry Everything Happy Always" Christmas Tough Phone Case — Festive Holiday Tough Phone Case Gift \| Winstar4U | CLEAN | https://images.printify.com/mockup/6ac6ff32d907a8335b0f3a7e/93905/136144/merry-everything-happy-always-christmas-tough-phone-case-festive-holiday-tough-phone-case-gift-winstar4u.jpg?camera_label=front |
+| 6ac6ff2e7be9df884b032419 | "Reason For Season" Christmas Tough Phone Case — Festive Holiday Tough Phone Case Gift \| Winstar4U | CLEAN | https://images.printify.com/mockup/6ac6ff2e7be9df884b032419/93905/136144/reason-for-season-christmas-tough-phone-case-festive-holiday-tough-phone-case-gift-winstar4u.jpg?camera_label=front |
+| 6ac6ff2be586b62fb50464e7 | "Naughty Is New Nice" Christmas Tough Phone Case — Festive Holiday Tough Phone Case Gift \| Winstar4U | CLEAN | https://images.printify.com/mockup/6ac6ff2be586b62fb50464e7/93905/136144/naughty-is-new-nice-christmas-tough-phone-case-festive-holiday-tough-phone-case-gift-winstar4u.jpg?camera_label=front |
+| 6ac6ff272a2224fe7d077575 | "Merry Christmas Lets Get Lit" Christmas Tough Phone Case — Festive Holiday Tough Phone Case Gift \| Winstar4U | CLEAN | https://images.printify.com/mockup/6ac6ff272a2224fe7d077575/93905/136144/merry-christmas-lets-get-lit-christmas-tough-phone-case-festive-holiday-tough-phone-case-gift-winstar4u.jpg?camera_label=front |
+| 6ac6ff24a085d659d5022658 | "Jingle Bells Santa Smells" Christmas Tough Phone Case — Festive Holiday Tough Phone Case Gift \| Winstar4U | CLEAN | https://images.printify.com/mockup/6ac6ff24a085d659d5022658/93905/136144/jingle-bells-santa-smells-christmas-tough-phone-case-festive-holiday-tough-phone-case-gift-winstar4u.jpg?camera_label=front |
+| 6ac6ff20a085d659d5022656 | "O Holy Night" Christmas Tough Phone Case — Festive Holiday Tough Phone Case Gift \| Winstar4U | CLEAN | https://images.printify.com/mockup/6ac6ff20a085d659d5022656/93905/136144/o-holy-night-christmas-tough-phone-case-festive-holiday-tough-phone-case-gift-winstar4u.jpg?camera_label=front |
+| 6ac6ff151867075e770416ab | "Jingle All Way Liquor" Christmas 15oz Ceramic Mug — Festive Holiday 15oz Ceramic Mug Gift \| Winstar4U | CLEAN | https://images.printify.com/mockup/6ac6ff151867075e770416ab/62014/2711/jingle-all-way-liquor-christmas-15oz-ceramic-mug-festive-holiday-15oz-ceramic-mug-gift-winstar4u.jpg?camera_label=front |
+| 6ac6ff12a085d659d502264c | "Christmas Open Bar" Christmas 15oz Ceramic Mug — Festive Holiday 15oz Ceramic Mug Gift \| Winstar4U | DEFECT — top of text cropped at print-window edge (first line missing) | https://images.printify.com/mockup/6ac6ff12a085d659d502264c/62014/2711/christmas-open-bar-christmas-15oz-ceramic-mug-festive-holiday-15oz-ceramic-mug-gift-winstar4u.jpg?camera_label=front |
+| 6ac6ff0f1cf62ac72e0adb75 | "Dear Santa Bank Account" Christmas 15oz Ceramic Mug — Festive Holiday 15oz Ceramic Mug Gift \| Winstar4U | CLEAN | https://images.printify.com/mockup/6ac6ff0f1cf62ac72e0adb75/62014/2711/dear-santa-bank-account-christmas-15oz-ceramic-mug-festive-holiday-15oz-ceramic-mug-gift-winstar4u.jpg?camera_label=front |
+| 6ac6ff0bbfa347bea60c96bb | "Elegantly Wasted Martini" Christmas 15oz Ceramic Mug — Festive Holiday 15oz Ceramic Mug Gift \| Winstar4U | DEFECT — bottom of text cropped at print-window edge ("SINCE 2026" cut off) | https://images.printify.com/mockup/6ac6ff0bbfa347bea60c96bb/62014/2711/elegantly-wasted-martini-christmas-15oz-ceramic-mug-festive-holiday-15oz-ceramic-mug-gift-winstar4u.jpg?camera_label=front |
+| 6ac6ff04680525323b0089af | "Bah Humbug Wine" Christmas 15oz Ceramic Mug — Festive Holiday 15oz Ceramic Mug Gift \| Winstar4U | CLEAN | https://images.printify.com/mockup/6ac6ff04680525323b0089af/62014/2711/bah-humbug-wine-christmas-15oz-ceramic-mug-festive-holiday-15oz-ceramic-mug-gift-winstar4u.jpg?camera_label=front |
+| 6ac6fefdfc9fb872c3014c39 | "Corkscrew Wine Repeat" Christmas 11oz Ceramic Mug — Festive Holiday 11oz Ceramic Mug Gift \| Winstar4U | CLEAN | https://images.printify.com/mockup/6ac6fefdfc9fb872c3014c39/33719/6400/corkscrew-wine-repeat-christmas-11oz-ceramic-mug-festive-holiday-11oz-ceramic-mug-gift-winstar4u.jpg?camera_label=front |
+| 6ac6fef07a961335020e18d4 | "Christmas 2026 Caffeine Panic" Christmas 11oz Ceramic Mug — Festive Holiday 11oz Ceramic Mug Gift \| Winstar4U | CLEAN | https://images.printify.com/mockup/6ac6fef07a961335020e18d4/33719/6400/christmas-2026-caffeine-panic-christmas-11oz-ceramic-mug-festive-holiday-11oz-ceramic-mug-gift-winstar4u.jpg?camera_label=front |
+| 6ac6fee8154e72164e0d8d58 | "Christmas Party Survivor" Christmas Softstyle T-Shirt — Festive Holiday Softstyle T-Shirt Gift \| Winstar4U | CLEAN | https://images.printify.com/mockup/6ac6fee8154e72164e0d8d58/38191/97992/christmas-party-survivor-christmas-softstyle-t-shirt-festive-holiday-softstyle-t-shirt-gift-winstar4u.jpg?camera_label=front |
+| 6ac6fedc7be9df884b0323f0 | "Eggnog Recovery Skeleton" Christmas Softstyle T-Shirt — Festive Holiday Softstyle T-Shirt Gift \| Winstar4U | CLEAN | https://images.printify.com/mockup/6ac6fedc7be9df884b0323f0/38191/97992/eggnog-recovery-skeleton-christmas-softstyle-t-shirt-festive-holiday-softstyle-t-shirt-gift-winstar4u.jpg?camera_label=front |
+| 6ac6fed81e2eac4da206fa7b | "Jingle Bells Santa Smells" Christmas Softstyle T-Shirt — Festive Holiday Softstyle T-Shirt Gift \| Winstar4U | CLEAN | https://images.printify.com/mockup/6ac6fed81e2eac4da206fa7b/38191/97992/jingle-bells-santa-smells-christmas-softstyle-t-shirt-festive-holiday-softstyle-t-shirt-gift-winstar4u.jpg?camera_label=front |
+| 6ac6fed43a88d2f780057ae6 | "Merry Christmas Lets Get Lit" Christmas Softstyle T-Shirt — Festive Holiday Softstyle T-Shirt Gift \| Winstar4U | CLEAN | https://images.printify.com/mockup/6ac6fed43a88d2f780057ae6/38191/97992/merry-christmas-lets-get-lit-christmas-softstyle-t-shirt-festive-holiday-softstyle-t-shirt-gift-winstar4u.jpg?camera_label=front |
+| 6ac6fecc0a223533b30703fc | "Naughty List Skeleton V2" Christmas Softstyle T-Shirt — Festive Holiday Softstyle T-Shirt Gift \| Winstar4U | CLEAN | https://images.printify.com/mockup/6ac6fecc0a223533b30703fc/38191/97992/naughty-list-skeleton-v2-christmas-softstyle-t-shirt-festive-holiday-softstyle-t-shirt-gift-winstar4u.jpg?camera_label=front |
+| 6ac6fec8a085d659d5022632 | "Reason For Season" Christmas Men's Piqué Polo — Festive Holiday Men's Piqué Polo Gift \| Winstar4U | CLEAN | https://images.printify.com/mockup/6ac6fec8a085d659d5022632/104649/102236/reason-for-season-christmas-mens-pique-polo-festive-holiday-mens-pique-polo-gift-winstar4u.jpg?camera_label=front |
+| 6ac6fec51cf62ac72e0adb5d | "Deck The Halls Sit Down" Christmas Men's Piqué Polo — Festive Holiday Men's Piqué Polo Gift \| Winstar4U | CLEAN | https://images.printify.com/mockup/6ac6fec51cf62ac72e0adb5d/104649/102236/deck-the-halls-sit-down-christmas-mens-pique-polo-festive-holiday-mens-pique-polo-gift-winstar4u.jpg?camera_label=front |
+| 6ac6fec12a2224fe7d07754d | "Naughty Is New Nice" Christmas Men's Piqué Polo — Festive Holiday Men's Piqué Polo Gift \| Winstar4U | CLEAN | https://images.printify.com/mockup/6ac6fec12a2224fe7d07754d/104649/102236/naughty-is-new-nice-christmas-mens-pique-polo-festive-holiday-mens-pique-polo-gift-winstar4u.jpg?camera_label=front |
+| 6ac6febd7a961335020e18c2 | "O Holy Night" Christmas Men's Piqué Polo — Festive Holiday Men's Piqué Polo Gift \| Winstar4U | CLEAN | https://images.printify.com/mockup/6ac6febd7a961335020e18c2/104649/102236/o-holy-night-christmas-mens-pique-polo-festive-holiday-mens-pique-polo-gift-winstar4u.jpg?camera_label=front |
+| 6ac6feb91cf62ac72e0adb58 | "Merry Everything Happy Always" Christmas Men's Piqué Polo — Festive Holiday Men's Piqué Polo Gift \| Winstar4U | CLEAN | https://images.printify.com/mockup/6ac6feb91cf62ac72e0adb58/104649/102236/merry-everything-happy-always-christmas-mens-pique-polo-festive-holiday-mens-pique-polo-gift-winstar4u.jpg?camera_label=front |
+| 6ac6feb67a961335020e18be | "God Bless Christmas" Christmas Men's Piqué Polo — Festive Holiday Men's Piqué Polo Gift \| Winstar4U | CLEAN | https://images.printify.com/mockup/6ac6feb67a961335020e18be/104649/102236/god-bless-christmas-christmas-mens-pique-polo-festive-holiday-mens-pique-polo-gift-winstar4u.jpg?camera_label=front |
+| 6ac6feb22a2224fe7d077548 | "Keep Christ Christmas" Christmas Men's Piqué Polo — Festive Holiday Men's Piqué Polo Gift \| Winstar4U | CLEAN | https://images.printify.com/mockup/6ac6feb22a2224fe7d077548/104649/102236/keep-christ-christmas-christmas-mens-pique-polo-festive-holiday-mens-pique-polo-gift-winstar4u.jpg?camera_label=front |
+| 6ac6fea7680525323b008985 | "Joy To World Christian" Christmas Crewneck Sweatshirt — Festive Holiday Crewneck Sweatshirt Gift \| Winstar4U | CLEAN | https://images.printify.com/mockup/6ac6fea7680525323b008985/104791/102281/joy-to-world-christian-christmas-crewneck-sweatshirt-festive-holiday-crewneck-sweatshirt-gift-winstar4u.jpg?camera_label=front |
+| 6ac6fe9f0a223533b30703f2 | "Christmas Stress Tinsel Done" Christmas Crewneck Sweatshirt — Festive Holiday Crewneck Sweatshirt Gift \| Winstar4U | DEFECT — dark text on black garment, low-contrast illegibility | https://images.printify.com/mockup/6ac6fe9f0a223533b30703f2/104791/102281/christmas-stress-tinsel-done-christmas-crewneck-sweatshirt-festive-holiday-crewneck-sweatshirt-gift-winstar4u.jpg?camera_label=front |
+| 6ac6fe9c7a961335020e18a9 | "Dreaming Stress Free Christmas" Christmas Crewneck Sweatshirt — Festive Holiday Crewneck Sweatshirt Gift \| Winstar4U | DEFECT — dark gray text on black garment, low-contrast illegibility | https://images.printify.com/mockup/6ac6fe9c7a961335020e18a9/104791/102281/dreaming-stress-free-christmas-christmas-crewneck-sweatshirt-festive-holiday-crewneck-sweatshirt-gift-winstar4u.jpg?camera_label=front |
+| 6ac6fe94a085d659d5022614 | "Blessed Christmas" Christmas Crewneck Sweatshirt — Festive Holiday Crewneck Sweatshirt Gift \| Winstar4U | CLEAN | https://images.printify.com/mockup/6ac6fe94a085d659d5022614/104791/102281/blessed-christmas-christmas-crewneck-sweatshirt-festive-holiday-crewneck-sweatshirt-gift-winstar4u.jpg?camera_label=front |
+| 6ac6fe90a085d659d5022612 | "Ill Be Home Christmas Probably" Christmas Unisex Hoodie — Festive Holiday Unisex Hoodie Gift \| Winstar4U | CLEAN | https://images.printify.com/mockup/6ac6fe90a085d659d5022612/32920/98424/ill-be-home-christmas-probably-christmas-unisex-hoodie-festive-holiday-unisex-hoodie-gift-winstar4u.jpg?camera_label=front |
+| 6ac6fe8c3a88d2f780057acd | "O Holy Night" Christmas Unisex Hoodie — Festive Holiday Unisex Hoodie Gift \| Winstar4U | CLEAN | https://images.printify.com/mockup/6ac6fe8c3a88d2f780057acd/32920/98424/o-holy-night-christmas-unisex-hoodie-festive-holiday-unisex-hoodie-gift-winstar4u.jpg?camera_label=front |
+| 6ac6fe8835cf3f6ec802e0d9 | "Naughty List Resume" Christmas Unisex Hoodie — Festive Holiday Unisex Hoodie Gift \| Winstar4U | DEFECT — bottom of text cropped at print-window edge | https://images.printify.com/mockup/6ac6fe8835cf3f6ec802e0d9/32920/98424/naughty-list-resume-christmas-unisex-hoodie-festive-holiday-unisex-hoodie-gift-winstar4u.jpg?camera_label=front |
+| 6ac6fe840a223533b30703e0 | "My Elf Made Me" Christmas Unisex Hoodie — Festive Holiday Unisex Hoodie Gift \| Winstar4U | CLEAN | https://images.printify.com/mockup/6ac6fe840a223533b30703e0/32920/98424/my-elf-made-me-christmas-unisex-hoodie-festive-holiday-unisex-hoodie-gift-winstar4u.jpg?camera_label=front |
+| 6ac6fe7f7424c0bbb60dc077 | "Christmas Mode Dnd" Christmas Unisex Hoodie — Festive Holiday Unisex Hoodie Gift \| Winstar4U | CLEAN | https://images.printify.com/mockup/6ac6fe7f7424c0bbb60dc077/32920/98424/christmas-mode-dnd-christmas-unisex-hoodie-festive-holiday-unisex-hoodie-gift-winstar4u.jpg?camera_label=front |
+| 6ac6fe7bcf880756890d31c0 | "Naughty Is New Nice" Christmas Unisex Hoodie — Festive Holiday Unisex Hoodie Gift \| Winstar4U | DEFECT — low-contrast subtitle + text cropped near bottom edge | https://images.printify.com/mockup/6ac6fe7bcf880756890d31c0/32920/98424/naughty-is-new-nice-christmas-unisex-hoodie-festive-holiday-unisex-hoodie-gift-winstar4u.jpg?camera_label=front |
+| 6ac6fe740a223533b30703cb | "Reason For Season" Christmas Unisex Hoodie — Festive Holiday Unisex Hoodie Gift \| Winstar4U | CLEAN | https://images.printify.com/mockup/6ac6fe740a223533b30703cb/32920/98424/reason-for-season-christmas-unisex-hoodie-festive-holiday-unisex-hoodie-gift-winstar4u.jpg?camera_label=front |
+| 6ac6fe6d4f88f35ee90d3daf | "Merry Everything Happy Always" Christmas Unisex Hoodie — Festive Holiday Unisex Hoodie Gift \| Winstar4U | DEFECT — low-contrast gray text on black garment | https://images.printify.com/mockup/6ac6fe6d4f88f35ee90d3daf/32920/98424/merry-everything-happy-always-christmas-unisex-hoodie-festive-holiday-unisex-hoodie-gift-winstar4u.jpg?camera_label=front |
+| 6ac6fe66710be211d209a772 | "Keep Christ Christmas" Christmas Unisex Hoodie — Festive Holiday Unisex Hoodie Gift \| Winstar4U | DEFECT — top line ("KEEP CHRIST") missing/cropped at print-window edge | https://images.printify.com/mockup/6ac6fe66710be211d209a772/32920/98424/keep-christ-christmas-christmas-unisex-hoodie-festive-holiday-unisex-hoodie-gift-winstar4u.jpg?camera_label=front |
+| 6ac4f3d309e140391408e002 | "Naughty List Skeleton V2" Christmas T-Shirt — Festive Holiday Graphic Tee \| Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ac4f3d309e140391408e002/11848/102005/naughty-list-skeleton-v2-christmas-t-shirt-festive-holiday-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2 |
+| 6ac4f3cb2c94cf1edf0ae2a3 | "Naughty List Resume" Christmas T-Shirt — Festive Holiday Graphic Tee \| Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ac4f3cb2c94cf1edf0ae2a3/11848/102005/naughty-list-resume-christmas-t-shirt-festive-holiday-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2 |
+| 6ac4f3c085f5c4d0950fa190 | "Naughty Is New Nice" Christmas T-Shirt — Festive Holiday Graphic Tee \| Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ac4f3c085f5c4d0950fa190/11848/102005/naughty-is-new-nice-christmas-t-shirt-festive-holiday-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2 |
+| 6ac4f3b810f1b7baad012a05 | "My Elf Made Me" Christmas T-Shirt — Festive Holiday Graphic Tee \| Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ac4f3b810f1b7baad012a05/11848/102005/my-elf-made-me-christmas-t-shirt-festive-holiday-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2 |
+| 6ac4f3aacfce0e13f508c46b | "Merry Everything Happy Always" Christmas T-Shirt — Festive Holiday Graphic Tee \| Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ac4f3aacfce0e13f508c46b/11848/102005/merry-everything-happy-always-christmas-t-shirt-festive-holiday-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2 |
+| 6ac4f3a1b0f485cf9a0c631b | "Merry Christmas Lets Get Lit" Christmas T-Shirt — Festive Holiday Graphic Tee \| Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ac4f3a1b0f485cf9a0c631b/11848/102005/merry-christmas-lets-get-lit-christmas-t-shirt-festive-holiday-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2 |
+| 6ac4f392af219c58e8024e84 | "Jingle Bells Santa Smells" Christmas T-Shirt — Festive Holiday Graphic Tee \| Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ac4f392af219c58e8024e84/11848/102005/jingle-bells-santa-smells-christmas-t-shirt-festive-holiday-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2 |
+| 6ac4f389ed8068408706955f | "Jingle All Way Liquor" Christmas T-Shirt — Festive Holiday Graphic Tee \| Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ac4f389ed8068408706955f/11848/102005/jingle-all-way-liquor-christmas-t-shirt-festive-holiday-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2 |
+| 6ac4f383ed8068408706955b | "Ill Be Home Christmas Probably" Christmas T-Shirt — Festive Holiday Graphic Tee \| Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ac4f383ed8068408706955b/11848/102005/ill-be-home-christmas-probably-christmas-t-shirt-festive-holiday-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2 |
+| 6ac4f3555347ca938a029f28 | "Walk By Faith" Christmas T-Shirt — Festive Holiday Graphic Tee \| Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ac4f3555347ca938a029f28/11848/102005/walk-by-faith-christmas-t-shirt-festive-holiday-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2 |
+| 6ac4f34b8e31e52756032cd1 | "Thankful Grateful Blesse" Christmas T-Shirt — Festive Holiday Graphic Tee \| Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ac4f34b8e31e52756032cd1/11848/102005/thankful-grateful-blesse-christmas-t-shirt-festive-holiday-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2 |
+| 6ac4f3439213498a77030f58 | "Savior Born Manger" Christmas T-Shirt — Festive Holiday Graphic Tee \| Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ac4f3439213498a77030f58/11848/102005/savior-born-manger-christmas-t-shirt-festive-holiday-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2 |
+| 6ac4f33ca79b1f9c9507071b | "Rejoice Star" Christmas T-Shirt — Festive Holiday Graphic Tee \| Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ac4f33ca79b1f9c9507071b/11848/102005/rejoice-star-christmas-t-shirt-festive-holiday-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2 |
+| 6ac4f33462ebfea11507fa60 | "Reason For Season" Christmas T-Shirt — Festive Holiday Graphic Tee \| Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ac4f33462ebfea11507fa60/11848/102005/reason-for-season-christmas-t-shirt-festive-holiday-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2 |
+| 6ac4f32d49fccf67f7043be5 | "O Holy Night" Christmas T-Shirt — Festive Holiday Graphic Tee \| Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ac4f32d49fccf67f7043be5/11848/102005/o-holy-night-christmas-t-shirt-festive-holiday-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2 |
+| 6ac4f325bd01d1cd310f8946 | "Keep Christ Christmas" Christmas T-Shirt — Festive Holiday Graphic Tee \| Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ac4f325bd01d1cd310f8946/11848/102005/keep-christ-christmas-christmas-t-shirt-festive-holiday-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2 |
+| 6ac4f31eed8068408706952a | "Joy To World Christian" Christmas T-Shirt — Festive Holiday Graphic Tee \| Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ac4f31eed8068408706952a/11848/102005/joy-to-world-christian-christmas-t-shirt-festive-holiday-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2 |
+| 6ac4f316ce3865b2f8067ade | "Hallelujah Angels" Christmas T-Shirt — Festive Holiday Graphic Tee \| Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ac4f316ce3865b2f8067ade/11848/102005/hallelujah-angels-christmas-t-shirt-festive-holiday-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2 |
+| 6ac4f30f62ebfea11507fa46 | "Greatest Gift" Christmas T-Shirt — Festive Holiday Graphic Tee \| Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ac4f30f62ebfea11507fa46/11848/102005/greatest-gift-christmas-t-shirt-festive-holiday-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2 |
+| 6ac4f308eb9194a532068996 | "God Bless Christmas" Christmas T-Shirt — Festive Holiday Graphic Tee \| Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ac4f308eb9194a532068996/11848/102005/god-bless-christmas-christmas-t-shirt-festive-holiday-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2 |
+| 6ac4f30049fccf67f7043bd6 | "Glory To God" Christmas T-Shirt — Festive Holiday Graphic Tee \| Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ac4f30049fccf67f7043bd6/11848/102005/glory-to-god-christmas-t-shirt-festive-holiday-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2 |
+| 6ac4f2f849fccf67f7043bcd | "Christ Is Born" Christmas T-Shirt — Festive Holiday Graphic Tee \| Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ac4f2f849fccf67f7043bcd/11848/102005/christ-is-born-christmas-t-shirt-festive-holiday-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2 |
+| 6ac4f2f1af219c58e8024e37 | "Blessed Christmas" Christmas T-Shirt — Festive Holiday Graphic Tee \| Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ac4f2f1af219c58e8024e37/11848/102005/blessed-christmas-christmas-t-shirt-festive-holiday-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2 |
+| 6ac4f2eaaf219c58e8024e34 | "Amazing Grace" Christmas T-Shirt — Festive Holiday Graphic Tee \| Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ac4f2eaaf219c58e8024e34/11848/102005/amazing-grace-christmas-t-shirt-festive-holiday-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2 |
+| 6ac4f2dbeb9194a532068985 | "Elegantly Wasted Martini" Christmas T-Shirt — Festive Holiday Graphic Tee \| Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ac4f2dbeb9194a532068985/11848/102005/elegantly-wasted-martini-christmas-t-shirt-festive-holiday-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2 |
+| 6ac4f2d5fdd0e68b3b0d8a82 | "Eggnog Recovery Skeleton" Christmas T-Shirt — Festive Holiday Graphic Tee \| Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ac4f2d5fdd0e68b3b0d8a82/11848/102005/eggnog-recovery-skeleton-christmas-t-shirt-festive-holiday-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2 |
+| 6ac4f2cdb0f485cf9a0c62b8 | "Dreaming Stress Free Christmas" Christmas T-Shirt — Festive Holiday Graphic Tee \| Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ac4f2cdb0f485cf9a0c62b8/11848/102005/dreaming-stress-free-christmas-christmas-t-shirt-festive-holiday-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2 |
+| 6ac4f2c5bd01d1cd310f891b | "Deck The Halls Sit Down" Christmas T-Shirt — Festive Holiday Graphic Tee \| Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ac4f2c5bd01d1cd310f891b/11848/102005/deck-the-halls-sit-down-christmas-t-shirt-festive-holiday-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2 |
+| 6ac4f2be62ebfea11507fa26 | "Dear Santa Explain" Christmas T-Shirt — Festive Holiday Graphic Tee \| Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ac4f2be62ebfea11507fa26/11848/102005/dear-santa-explain-christmas-t-shirt-festive-holiday-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2 |
+| 6ac4f2b749fccf67f7043bb0 | "Dear Santa Explain Santa" Christmas T-Shirt — Festive Holiday Graphic Tee \| Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ac4f2b749fccf67f7043bb0/11848/102005/dear-santa-explain-santa-christmas-t-shirt-festive-holiday-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2 |
+| 6ac4f2a7502dc8f4d302fcd0 | "Dear Santa Bank Account" Christmas T-Shirt — Festive Holiday Graphic Tee \| Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ac4f2a7502dc8f4d302fcd0/11848/102005/dear-santa-bank-account-christmas-t-shirt-festive-holiday-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2 |
+| 6ac4f29f49495f1d960a50b6 | "Corkscrew Wine Repeat" Christmas T-Shirt — Festive Holiday Graphic Tee \| Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ac4f29f49495f1d960a50b6/11848/102005/corkscrew-wine-repeat-christmas-t-shirt-festive-holiday-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2 |
+| 6ac4f2912c94cf1edf0ae229 | "Christmas Vacation Canceled" Christmas T-Shirt — Festive Holiday Graphic Tee \| Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ac4f2912c94cf1edf0ae229/11848/102005/christmas-vacation-canceled-christmas-t-shirt-festive-holiday-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2 |
+| 6ac4f2879213498a77030f26 | "Christmas Stress Tinsel Done" Christmas T-Shirt — Festive Holiday Graphic Tee \| Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ac4f2879213498a77030f26/11848/102005/christmas-stress-tinsel-done-christmas-t-shirt-festive-holiday-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2 |
+| 6ac4f281af219c58e8024e1b | "Christmas Party Survivor" Christmas T-Shirt — Festive Holiday Graphic Tee \| Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ac4f281af219c58e8024e1b/11848/102005/christmas-party-survivor-christmas-t-shirt-festive-holiday-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2 |
+| 6ac4f278c206f153770bf98a | "Christmas Open Bar" Christmas T-Shirt — Festive Holiday Graphic Tee \| Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ac4f278c206f153770bf98a/11848/102005/christmas-open-bar-christmas-t-shirt-festive-holiday-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2 |
+| 6ac4f271c206f153770bf981 | "Christmas Mode Dnd" Christmas T-Shirt — Festive Holiday Graphic Tee \| Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ac4f271c206f153770bf981/11848/102005/christmas-mode-dnd-christmas-t-shirt-festive-holiday-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2 |
+| 6ac4f269af219c58e8024e10 | "Christmas Lights Therapy" Christmas T-Shirt — Festive Holiday Graphic Tee \| Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ac4f269af219c58e8024e10/11848/102005/christmas-lights-therapy-christmas-t-shirt-festive-holiday-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2 |
+| 6ac4f261fdd0e68b3b0d8a6d | "Christmas Excuse Eat King" Christmas T-Shirt — Festive Holiday Graphic Tee \| Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ac4f261fdd0e68b3b0d8a6d/11848/102005/christmas-excuse-eat-king-christmas-t-shirt-festive-holiday-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2 |
+| 6ac4f258a79b1f9c950706d3 | "Christmas Eat No January" Christmas T-Shirt — Festive Holiday Graphic Tee \| Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ac4f258a79b1f9c950706d3/11848/102005/christmas-eat-no-january-christmas-t-shirt-festive-holiday-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2 |
+| 6ac4f24b76be9b46fb062a01 | "Christmas Eat No January V2" Christmas T-Shirt — Festive Holiday Graphic Tee \| Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ac4f24b76be9b46fb062a01/11848/102005/christmas-eat-no-january-v2-christmas-t-shirt-festive-holiday-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2 |
+| 6ac4f2425347ca938a029ec0 | "Christmas Calories Dont Count" Christmas T-Shirt — Festive Holiday Graphic Tee \| Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ac4f2425347ca938a029ec0/11848/102005/christmas-calories-dont-count-christmas-t-shirt-festive-holiday-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2 |
+| 6ac4f228ee188e18fe036cdf | "Christmas 2026 Caffeine Panic" Christmas T-Shirt — Festive Holiday Graphic Tee \| Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ac4f228ee188e18fe036cdf/11848/102005/christmas-2026-caffeine-panic-christmas-t-shirt-festive-holiday-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2 |
+| 6ac4f22162ebfea11507fa0b | "Chic Happens Cocktail" Christmas T-Shirt — Festive Holiday Graphic Tee \| Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ac4f22162ebfea11507fa0b/11848/102005/chic-happens-cocktail-christmas-t-shirt-festive-holiday-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2 |
+| 6ac4f20fc206f153770bf93d | "Calories Dont Count Thanksgiving" Christmas T-Shirt — Festive Holiday Graphic Tee \| Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ac4f20fc206f153770bf93d/11848/102005/calories-dont-count-thanksgiving-christmas-t-shirt-festive-holiday-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2 |
+| 6ac4f207fdd0e68b3b0d8a58 | "Bah Humbug Wine" Christmas T-Shirt — Festive Holiday Graphic Tee \| Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ac4f207fdd0e68b3b0d8a58/11848/102005/bah-humbug-wine-christmas-t-shirt-festive-holiday-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2 |
+| 6ac4f1fefdd0e68b3b0d8a52 | "Avoiding Carolers Raccoon" Christmas T-Shirt — Festive Holiday Graphic Tee \| Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ac4f1fefdd0e68b3b0d8a52/11848/102005/avoiding-carolers-raccoon-christmas-t-shirt-festive-holiday-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2 |
+| 6ac4f1f6ce3865b2f8067a9a | "Avoiding Carolers Gnome" Christmas T-Shirt — Festive Holiday Graphic Tee \| Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ac4f1f6ce3865b2f8067a9a/11848/102005/avoiding-carolers-gnome-christmas-t-shirt-festive-holiday-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2 |
+| 6ac4f1ef0df821499c06cc5b | "All I Want Nap" Christmas T-Shirt — Festive Holiday Graphic Tee \| Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ac4f1ef0df821499c06cc5b/11848/102005/all-i-want-nap-christmas-t-shirt-festive-holiday-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2 |
+| 6ac4f1e70df821499c06cc59 | "All I Want Nap Pillow" Christmas T-Shirt — Festive Holiday Graphic Tee \| Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ac4f1e70df821499c06cc59/11848/102005/all-i-want-nap-pillow-christmas-t-shirt-festive-holiday-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2 |
+| 6ac367d63829cc477b04ae36 | Sleigh All Day Biker Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac367d63829cc477b04ae36/12100/102005/sleigh-all-day-biker-christmas-tee.jpg?camera_label=front-2 |
+| 6ac367883829cc477b04adac | Santas On The Loose Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac367883829cc477b04adac/12100/102005/santas-on-the-loose-christmas-tee.jpg?camera_label=front-2 |
+| 6ac36700a4ac719af1080564 | Naughty Dog Nice Human Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac36700a4ac719af1080564/12100/102005/naughty-dog-nice-human-christmas-tee.jpg?camera_label=front-2 |
+| 6ac365b6e6aafe2ba909ffca | Grumpy Cat Gift Box Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac365b6e6aafe2ba909ffca/12100/102005/grumpy-cat-gift-box-christmas-tee.jpg?camera_label=front-2 |
+| 6ac3657760b60423bc029933 | Fur Mama Christmas Vibes Tee | CLEAN | https://images.printify.com/mockup/6ac3657760b60423bc029933/12100/102005/fur-mama-christmas-vibes-tee.jpg?camera_label=front-2 |
+| 6ac363fea4ac719af1080435 | Parrot Santa Hat Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac363fea4ac719af1080435/12100/102005/parrot-santa-hat-christmas-tee.jpg?camera_label=front-2 |
+| 6ac363ad3829cc477b04aa64 | O Fish Ye Merry Gentlemen Christmas Tee | CLEAN | https://images.printify.com/mockup/6ac363ad3829cc477b04aa64/12100/102005/o-fish-ye-merry-gentlemen-christmas-tee.jpg?camera_label=front-2 |
+| 6ac3635b29f83f0901071710 | Merry Christmas Whiskers All Tee | CLEAN | https://images.printify.com/mockup/6ac3635b29f83f0901071710/12100/102005/merry-christmas-whiskers-all-tee.jpg?camera_label=front-2 |
+| 6ac3629a29f83f0901071675 | Hedgehog Christmas Lights Tee | CLEAN | https://images.printify.com/mockup/6ac3629a29f83f0901071675/12100/102005/hedgehog-christmas-lights-tee.jpg?camera_label=front-2 |
