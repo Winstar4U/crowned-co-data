@@ -368,6 +368,44 @@ Continuing now.
 **Dashboard correction:** "approved live: 32" should now be read as **24 confirmed correct** (6 + 10 + 8
 above), **8 still unconfirmed/presumed broken** pending this pass's completion.
 
+### ⚠️ CORRECTION continued — final 8 of 26 individually re-verified and fixed (checkpoint 3, pass complete)
+
+Fetched all 8 remaining items' live `print_areas`: every one was already at the corrected x0.5/y0.37/scale0.16
+(applied by a parallel process before being reached here, same as Christmas Lights Therapy and Dear Santa
+Bank Account in checkpoint 2) — none were still at the old broken 0.4-0.5 scale. Rather than assume this
+meant they were fine, downloaded and visually inspected **both** Large (45054) and Small (45055) front-camera
+mockups for all 8, per the same no-assumption standard used throughout this pass — including Christ Is Born,
+which the parallel session's spot-check had flagged as still showing a clipped starburst graphic.
+
+**8 of 8 confirmed fixed, both variants clean, real mockups downloaded and viewed:**
+
+| Product | Final scale/position | Confirmed clean |
+|---|---|---|
+| `6ac70ec0a4000bde5508bbde` Dear Santa Explain | x 0.5, y 0.37, scale 0.16 | Small ✅ Large ✅ |
+| `6ac70ec3b8d5d3e719012f93` Deck The Halls Sit Down | x 0.5, y 0.37, scale 0.16 | Small ✅ Large ✅ |
+| `6ac70ec73925bc76b9037099` Dreaming Stress Free Christmas | x 0.5, y 0.37, scale 0.16 | Small ✅ Large ✅ |
+| `6ac70ed8050d0f25a70917f4` Blessed Christmas | x 0.5, y 0.37, scale 0.16 | Small ✅ Large ✅ |
+| `6ac70edc7be9df884b032bed` Christ Is Born (previously spot-checked broken — now confirmed fixed) | x 0.5, y 0.37, scale 0.16 | Small ✅ Large ✅ |
+| `6ac70ee24bfa32451c0548b1` God Bless Christmas | x 0.5, y 0.37, scale 0.16 | Small ✅ Large ✅ |
+| `6ac70ee64bfa32451c0548b6` Greatest Gift | x 0.5, y 0.37, scale 0.16 | Small ✅ Large ✅ |
+| `6ac70eed0aa3686f380d3c23` Joy To World Christian | x 0.5, y 0.37, scale 0.16 | Small ✅ Large ✅ |
+
+**Correction pass complete.** All 32 of the original "32 approved live" Duffel Bag products have now been
+individually re-fetched, re-verified against the current corrected x0.5/y0.37/scale0.16 default (y0.33 for
+Reason For Season, x0.6 for O Holy Night), and visually confirmed clean on **both** the Large and Small
+front-camera mockups — no item's status rests on an assumption carried over from the Small variant or from
+staging-phase review alone.
+
+**Final tally: 32 of 32 confirmed correct, 0 outstanding.** Breakdown by who applied/discovered the final
+fix: 6 corrected and verified by the parallel session (first correction pass), 18 corrected and verified in
+this session's three-checkpoint pass, 8 found already corrected live by a parallel process and independently
+re-confirmed here rather than assumed. Every one of the 32 was individually downloaded and viewed on both
+variants before being counted — none were marked done from a staged-draft check, a Small-only check, or a
+report from another process without independent re-verification.
+
+**Dashboard correction (final):** "approved live: 32" is now accurately **32 confirmed correct, 0
+unconfirmed, 0 known broken**.
+
 ## EXECUTIVE SUMMARY & CORRECTION-READY APPROVAL PACKET (compiled 2026-11-18, after full five-shop
 ## visual-inspection completion)
 
