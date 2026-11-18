@@ -835,6 +835,48 @@ fixed with minor caveats (unchanged). 8 in the "too dense" pattern, referencing 
 Eat No January variants to the prior 6). 1 in the handle-obstruction pattern, referencing D-5B395E153M.
 2 needing new art (Candy Cane Lane, Chic Happens Cocktail). **29 of 45 classified, 16 remaining.**
 
+### ⚠️ URGENT — Duffel Bag batch 7: 3 of 4 items are LIVE RIGHT NOW with severe, worse-than-original cropping defects (not just staged-draft candidates)
+
+**Finding, not from this session's own edits:** while fetching the next 4 unclassified IDs, three of them —
+`6ac70e9f9a2f0cb82508f87d` "Christmas Open Bar", `6ac70ea3f0a0ce97bc0c8fe7` "Christmas Party Survivor",
+and `6ac70ea79a2f0cb82508f885` "Christmas Stress Tinsel Done" — showed `updated_at` timestamps of
+**2026-10-14**, several days after this register's original Oct 9 defect inventory, with source image
+filenames `openbar_fixed.png`, `christmas-party-survivor-FIXED.png`, and
+`clean-christmas-stress-tinsel-done.png`. This indicates **someone (or some process outside this
+session) already attempted a live fix on these three products** — but the attempted fix did not work.
+Pulling the current **live** mockup for each (not a staged draft — the actual product a customer would
+see and buy right now) showed severe cropping on all three: large chunks of the title/subtitle text cut
+off at both left and right edges and at the bottom curve (e.g. Open Bar's live mockup reads "HRISTMA
+2026: I'M JUST FOR THE [O]PEN BA[R]" — the leading "C" and trailing letters sheared off). **These three
+products are currently live, visible, and purchasable on Winstar4U in this defective state** — this is
+a different and more urgent situation than the rest of the Duffel Bag backlog, which (aside from these
+three) remains in its original un-touched, not-yet-staged condition.
+
+**This session took no live action on these three** — per standing policy, only staged test drafts were
+created to verify a fix is achievable. Per directive (C), this is flagged to the owner as a live-defect
+finding requiring expedited attention, not folded silently into the ordinary batch-by-batch staging
+queue.
+
+### Duffel Bag batch 7 (4 more items classified — all 4 fully fixed, 3 of them currently live defects)
+
+| Original live product | Live status | Fix attempted | Result | Staged draft |
+|---|---|---|---|---|
+| `6ac70e96050d0f25a70917cb` "Christmas Lights Therapy" | Untouched since Oct 9 (original defect state) | scale 0.5/y 0.4/x 0.5 (standard) | **FULLY FIXED** — "CHRISTMAS LIGHTS ARE MY THERAPY" + string-lights graphic, complete, clean margins on first try | `6afda29ce6ba52c5810c0dd5` (2-variant) |
+| `6ac70e9f9a2f0cb82508f87d` "Christmas Open Bar" | **LIVE DEFECT (see urgent note above)** — modified Oct 14, still broken | scale 0.5/y 0.4 → **scale 0.35/y 0.35** (2 attempts) | **FULLY FIXED (2nd pass)** — "CHRISTMAS 2026: I'M JUST FOR THE OPEN BAR," complete, clean margins | `6afda29f8dbf829fdc007a5f` (2-variant) |
+| `6ac70ea3f0a0ce97bc0c8fe7` "Christmas Party Survivor" | **LIVE DEFECT (see urgent note above)** — modified Oct 14, still broken | scale 0.5/y 0.4 → **scale 0.4/y 0.35** (2 attempts) | **FULLY FIXED (2nd pass)** — "CHRISTMAS" banner + lights/sunglasses/cocktail graphic + "PARTY SURVIVOR," complete, clean margins | `6afda2a18dbf829fdc007a64` (2-variant) |
+| `6ac70ea79a2f0cb82508f885` "Christmas Stress Tinsel Done" | **LIVE DEFECT (see urgent note above)** — modified Oct 14, still broken | scale 0.5/y 0.4 → **scale 0.35/y 0.35** (2 attempts) | **FULLY FIXED (2nd pass)** — "CHRISTMAS 2026: 90% STRESS, 10% TINSEL, 100% DONE," complete, clean margins | `6afda2a4598fa546c30706dd` (2-variant) |
+
+**Running Duffel Bag tally after batch 7: 20 of 45 fully confirmed clean and repair-ready**, including
+validated fixes for all 3 currently-live defective products. 2 substantially fixed with minor caveats
+(unchanged). 8 in the "too dense" pattern, referencing D-46651Y730N. 1 in the handle-obstruction pattern,
+referencing D-5B395E153M. 2 needing new art (Candy Cane Lane, Chic Happens Cocktail). **33 of 45
+classified, 12 remaining.**
+
+**Recommendation to owner:** the 3 live-defect staged fixes above (`6afda29f8dbf829fdc007a5f`,
+`6afda2a18dbf829fdc007a64`, `6afda2a4598fa546c30706dd`) are strong candidates for expedited approval and
+swap-in ahead of the rest of the Duffel Bag batch, since the live versions are actively showing broken
+artwork to customers today.
+
 ## 0. Shop directory
 
 | Shop name | Shop ID | Channel | Total products (last confirmed count) |
