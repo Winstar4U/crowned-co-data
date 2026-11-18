@@ -64,9 +64,13 @@ regenerate mockups. This is a live write and requires explicit owner approval be
 Image evidence: both mockups downloaded and visually inspected this session.
 
 **Sibling record also checked:** "Reindeer Cribbage Peg Race Christmas Ornament 2026" exists as a pair
-across both shops too — Etsy ID `6ad4307c18e0243bd10d533d` (not yet re-viewed this session) and Shopify
-ID `6ac76f3288d05d5634004c1a` (viewed this session, clean, scale not yet compared — flagged for a
-follow-up scale check against its Etsy twin).
+across both shops too — Etsy ID `6ad4307c18e0243bd10d533d` and Shopify ID `6ac76f3288d05d5634004c1a`.
+**Follow-up resolved (Etsy batch 1/3, see §8c):** the Etsy twin was reviewed and is a completely
+**different illustration** from the photo-realistic cribbage-board defect above (a cartoon reindeer
+race, not a photo), and despite also using `scale: 1.45`, its mockup is visually clean — no cropping.
+This confirms scale alone does not predict a defect; the specific source image's own padding/aspect
+ratio determines whether a given scale value crops the design. Each case must still be viewed, not
+inferred from the number.
 
 ## 3. Confirmed visual defects (actual mockup image opened and inspected — not metadata-inferred)
 
@@ -198,11 +202,14 @@ closer look given the similar title, but confirmed NOT a third duplicate once th
    viewing.
 2. **eBay is now COMPLETE (53/53 visually inspected, see §6a) — do not re-inspect.** **Amazon is now
    COMPLETE (62/62 visually inspected, see §8a) — do not re-inspect.** **TikTok is now COMPLETE (71/71
-   visually inspected, see §8b) — do not re-inspect.** Remaining: Etsy (297 total, only 50 sync-sampled, 5
-   visually inspected — both metadata and visual coverage remain large), and Shopify (2,429 total, see
-   item 1 above — by far the largest remaining gap). Recommend Etsy next (smaller, more tractable than
-   the Shopify range), using the same product_id-by-product_id + image-download method that completed
-   eBay, Amazon, and TikTok.
+   visually inspected, see §8b) — do not re-inspect.** **Etsy batch 1/3 is now COMPLETE (97/291 remaining
+   products visually inspected, see §8c) — do not re-inspect the IDs in §11.** Remaining: Etsy batches 2/3
+   and 3/3 (194 products, roster pre-split and staged at
+   `/tmp/claude-0/-home-user-crowned-co-data/c0034cf5-75d5-55a9-aa8f-5993db7544c2/scratchpad/etsy_batch/batch2.json`
+   and `batch3.json` as of this session — re-derive from a fresh shop listing if that scratchpad is gone),
+   and Shopify (2,429 total, see item 1 above — by far the largest remaining gap). Recommend finishing
+   Etsy batches 2 and 3 next, using the same bulk-list (`include_full=true`, page-by-page) + per-straggler
+   method that proved far more context-efficient than one-product-at-a-time fetching for batch 1.
 3. Direct marketplace-side verification (actually checking eBay/Amazon/TikTok/Shopify storefronts, not
    just Printify's `external` field) for at least the highest-volume confirmed-gap SKUs, before any
    resync/repair is proposed for owner approval.
@@ -428,6 +435,72 @@ purchasable on eBay's own site; all 53 are Printify-side sync-gapped (`external`
 direct marketplace-side check has been done for any of them. Both facts can be true at once: a listing
 can have perfectly clean artwork and still not be reachable by an eBay shopper.
 
+## 8c. Etsy shop (26603005) batch 1/3 — COMPLETE: 97/97 visually inspected, 1 confirmed content-mismatch
+## defect, 0 confirmed duplicate pairs (2026-11-18, this session)
+
+**Status: 97 of the 291 remaining Etsy products (291 = 297 total minus 6 already inspected in a prior
+session: the cribbage-ornament defect in §2 and 5 Christmas hoodies in §4) now have real image evidence.**
+This is batch 1 of 3; batches 2 and 3 (194 products) remain, rosters pre-staged in the scratchpad (see
+§8). 1 confirmed customer-facing defect. 0 confirmed true duplicate-listing pairs.
+
+**Method note (efficiency improvement for future batches):** fetching each product individually via
+`product_id` (as done for eBay/Amazon/TikTok) is far more expensive in context for this shop, because
+many Etsy listings carry large multi-size/multi-color variant arrays (e.g. a baby bodysuit with 60+
+variants, a poster with 46 size options). Fetching the shop's product **list** with `include_full=true`
+two pages at a time (100 products) and parsing the bulk JSON with a `python3 -I` extraction script,
+falling back to individual `product_id` fetches only for the handful of stragglers a given batch's roster
+split across a page boundary, cut the number of MCP tool calls from ~97 to ~4 for the metadata/sync/
+print-area side of this batch. Recommend this method for batches 2 and 3.
+
+### CONFIRMED DEFECT: "Funny Ornament Gift Set of 3" advertises 3 designs, Printify record has only 1
+
+**Product:** "Funny Ornament Gift Set of 3 - Ceramic Holiday Tree Ornaments, Gag Gift Set, White Elephant
+Gift Set", Printify ID `6ad42970f1aeec4b590f6d00`, Etsy shop 26603005, live at
+https://www.etsy.com/listing/4597799742/funny-ornament-gift-set-of-3-ceramic
+
+The listing description explicitly promises: "**This set includes:** Mischievous Raccoon, Merry Chaos
+Cat, Wine O'Clock" — three distinct designs across the product's 4 shape options (Circle, Heart, Star,
+Snowflake). Printify's print-area data shows only **one** image assigned across all 4 shape variants:
+`funny-raccoon.jpg` (scale 1.45). There is no Cat or Wine O'Clock artwork anywhere in the product record.
+Confirmed by downloading and viewing the mockups for both the Circle (69370) and Heart (74403) shape
+variants — both show the identical raccoon-with-Christmas-lights illustration; neither shows a cat or a
+wine-themed design.
+
+**Customer impact:** a buyer paying for a "set of 3" with named distinct designs would receive 3
+identical raccoon ornaments (or whatever the actual fulfillment behavior is for an under-populated
+multi-shape listing) instead of the 3 advertised designs — a listing-content/fulfillment mismatch, not an
+artwork-quality defect. This is RED, customer-facing.
+
+**Proposed remedy (owner-approval-only — NOT executed):** Either (a) upload the two missing designs
+(Merry Chaos Cat, Wine O'Clock) and assign them to the Star and Snowflake shape variants respectively so
+the listing matches its own description, or (b) correct the listing description/title to describe what
+is actually being sold (a single raccoon design in a choice of shape) if a 3-design version was never
+actually built. This is a live content change and requires explicit owner sign-off before any attempt.
+
+### Duplicate-candidate groups checked and ruled OUT (same artwork, different product type — normal reuse)
+
+9 groups of 2 were flagged by matching print-area image filename + scale + position, each pairing a
+"...Christmas **Sweatshirt**" listing with a "...Christmas **Shirt**" (t-shirt) listing sharing the
+identical artwork file: Cozy Season, Gardeners Grow Merry Christmas, Teacher Christmas Squad, Santa's
+Favorite Nurse, Cat Mom, Hooked on Christmas, Golden Retriever, Nutcracker/Nutcracker Season, Books Cocoa
+and Christmas, Highland Cow. Confirmed via title inspection that each pair spans two different product
+types (sweatshirt vs. t-shirt), consistent with the established normal, non-defect same-design-different-
+product-type reuse pattern already documented for Amazon's Cat Lineup family (§8a) and TikTok's Badge/
+Retro lines (§8b) — not counted as duplicates. No same-product-type duplicate was found in this batch.
+
+### Sync-mapping status (batch 1/3)
+
+75/97 have a populated Printify `external` channel-mapping field; 22/97 show `external: null`. Standing
+caveat applies (§1): this is Printify-side mapping evidence only, not confirmed Etsy-side buyability.
+
+### Resolved follow-up from §2
+
+The "Reindeer Cribbage Peg Race" Etsy twin (`6ad4307c18e0243bd10d533d`) is in this batch and is confirmed
+CLEAN — see the updated note in §2.
+
+**Etsy batch 1/3 is closed out: 97/97 visually inspected, 1 confirmed content-mismatch defect (the
+ornament gift-set), 0 confirmed duplicate pairs. See §11 for the full per-product ID table.**
+
 ## 10. TikTok full 71-row ID register (complete, per-product evidence, same format as §9)
 
 Format: `Printify ID | Title (truncated) | Visual result | Default mockup image URL used for inspection`.
@@ -506,3 +579,111 @@ populated Printify `external` field (channel-mapping evidence only); 32/71 show 
 6ad41005247ecdee090be974 | "Dog Mom Christmas" Funny Christmas T-Shirt — Humorous Christmas Graphic Tee / Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ad41005247ecdee090be974/12100/102005/dog-mom-christmas-funny-christmas-t-shirt-humorous-christmas-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2
 6ad40fff247ecdee090be96e | "Bah Humbug, Pass the Eggnog" Funny Christmas T-Shirt — Humorous Christmas Graphic Tee / Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ad40fff247ecdee090be96e/12100/102005/bah-humbug-pass-the-eggnog-funny-christmas-t-shirt-humorous-christmas-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2
 6ad40ff99c8f61e787077eb5 | "Santa Called For Backup" Firefighter Funny Christmas T-Shirt — Humorous Holiday Graphic Tee / Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ad40ff99c8f61e787077eb5/12100/102005/santa-called-for-backup-firefighter-funny-christmas-t-shirt-humorous-holiday-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2
+
+
+## 11. Etsy batch 1/3 full 97-row ID register (complete, per-product evidence, same format as §9/§10)
+
+Format: `Printify ID | Title | Visual result | Default mockup image URL used for inspection`. Same
+standing caveat as §9/§10: CLEAN is a visual-artwork judgment only; DEFECT marks the confirmed
+content-mismatch finding in §8c. 75/97 have a populated Printify `external` field (channel-mapping
+evidence only); 22/97 show `external: null`.
+
+```
+| 6afb724b037a5f765201a853 | My First Lunar New Year Baby Bodysuit 2027, Year of the Goat Baby Outfit, Chinese New Year Baby Gift, Newborn Goat One Piece | CLEAN | https://images.printify.com/mockup/6afb724b037a5f765201a853/31436/67/my-first-lunar-new-year-baby-bodysuit-2027-year-of-the-goat-baby-outfit-chinese-new-year-baby-gift-newborn-goat-one-piece.jpg?camera_label=front |
+| 6afb7247452e689d0f0fd2cf | Year of the Goat Sticker, Lunar New Year 2027 Baby Goat Kiss-Cut Sticker, Chinese New Year Red Envelope Filler, Cute Goat Decal | CLEAN | https://images.printify.com/mockup/6afb7247452e689d0f0fd2cf/45750/16655/year-of-the-goat-sticker-lunar-new-year-2027-baby-goat-kiss-cut-sticker-chinese-new-year-red-envelope-filler-cute-goat-decal.jpg?camera_label=front |
+| 6afb7235452e689d0f0fd2b5 | It's My Year Goat Shirt, Funny Year of the Goat 2027 Tee, Lunar New Year Funny T-Shirt, Chinese Zodiac Goat Gift | CLEAN | https://images.printify.com/mockup/6afb7235452e689d0f0fd2b5/12100/102005/its-my-year-goat-shirt-funny-year-of-the-goat-2027-tee-lunar-new-year-funny-t-shirt-chinese-zodiac-goat-gift.jpg?camera_label=front-2 |
+| 6afb7231231f5a78fa02582f | Born in the Year of the Goat Shirt, Chinese Zodiac Goat T-Shirt, Goat Year Birthday Gift, Lunar New Year Zodiac Tee | CLEAN | https://images.printify.com/mockup/6afb7231231f5a78fa02582f/12100/102005/born-in-the-year-of-the-goat-shirt-chinese-zodiac-goat-t-shirt-goat-year-birthday-gift-lunar-new-year-zodiac-tee.jpg?camera_label=front-2 |
+| 6afb721681a10a445510dcc4 | Family Lunar New Year 2027 Shirt, Matching Year of the Goat Family Tee, Chinese New Year Family Photo T-Shirt, Mom and Baby Goat | CLEAN | https://images.printify.com/mockup/6afb721681a10a445510dcc4/12100/102005/family-lunar-new-year-2027-shirt-matching-year-of-the-goat-family-tee-chinese-new-year-family-photo-t-shirt-mom-and-baby-goat.jpg?camera_label=front-2 |
+| 6afb7205a1efd1254e00294f | Year of the Goat 2027 T-Shirt, Mountain Goat Sunrise Lunar New Year Tee, Chinese Zodiac Goat Shirt, Plum Blossom Gift | CLEAN | https://images.printify.com/mockup/6afb7205a1efd1254e00294f/12100/102005/year-of-the-goat-2027-t-shirt-mountain-goat-sunrise-lunar-new-year-tee-chinese-zodiac-goat-shirt-plum-blossom-gift.jpg?camera_label=front-2 |
+| 6afb71f3b49d64decd050906 | Happy Lunar New Year 2027 Poster, Year of the Goat Wall Art, Chinese New Year Decor, Red Paper Cut Goat Print | CLEAN | https://images.printify.com/mockup/6afb71f3b49d64decd050906/43138/94683/happy-lunar-new-year-2027-poster-year-of-the-goat-wall-art-chinese-new-year-decor-red-paper-cut-goat-print.jpg?camera_label=front |
+| 6afb71e898d0423f460f01a5 | Lucky Goat 2027 Mug, Year of the Goat Coffee Mug, Lunar New Year Gift, Chinese New Year Red Envelope Ceramic Mug 11oz 15oz | CLEAN | https://images.printify.com/mockup/6afb71e898d0423f460f01a5/65216/6310/lucky-goat-2027-mug-year-of-the-goat-coffee-mug-lunar-new-year-gift-chinese-new-year-red-envelope-ceramic-mug-11oz-15oz.jpg?camera_label=front |
+| 6afb71d2141ec6078808799e | Year of the Fire Goat 2027 Sweatshirt, Lunar New Year Crewneck, Chinese Zodiac Goat Sweater, New Year 2027 Gift | CLEAN | https://images.printify.com/mockup/6afb71d2141ec6078808799e/25458/98502/year-of-the-fire-goat-2027-sweatshirt-lunar-new-year-crewneck-chinese-zodiac-goat-sweater-new-year-2027-gift.jpg?camera_label=front |
+| 6afb71af231f5a78fa0257ae | Year of the Goat 2027 Shirt, Lunar New Year 2027 Tee, Chinese New Year Gift, Cute Baby Goat Red Lantern T-Shirt | CLEAN | https://images.printify.com/mockup/6afb71af231f5a78fa0257ae/12100/102005/year-of-the-goat-2027-shirt-lunar-new-year-2027-tee-chinese-new-year-gift-cute-baby-goat-red-lantern-t-shirt.jpg?camera_label=front-2 |
+| 6af90b6cca5d307abc0160ff | Hooked on Christmas Hoodie, Crochet Christmas Hoodie, Crocheter Gift, Yarn Lover Holiday Hooded Sweatshirt | CLEAN | https://images.printify.com/mockup/6af90b6cca5d307abc0160ff/32912/98424/hooked-on-christmas-hoodie-crochet-christmas-hoodie-crocheter-gift-yarn-lover-holiday-hooded-sweatshirt.jpg?camera_label=front |
+| 6af90b5dca5d307abc0160e1 | Golden Retriever Christmas Hoodie, Golden Christmas Hoodie, Dog Mom Gift, Golden Retriever Holiday Hooded Sweatshirt | CLEAN | https://images.printify.com/mockup/6af90b5dca5d307abc0160e1/32912/98424/golden-retriever-christmas-hoodie-golden-christmas-hoodie-dog-mom-gift-golden-retriever-holiday-hooded-sweatshirt.jpg?camera_label=front |
+| 6af90b48948a470d5206d7db | Nutcracker Christmas Hoodie, Nutcracker Season Hoodie, Ballet Christmas Gift, Dance Mom Holiday Hooded Sweatshirt | CLEAN | https://images.printify.com/mockup/6af90b48948a470d5206d7db/32912/98424/nutcracker-christmas-hoodie-nutcracker-season-hoodie-ballet-christmas-gift-dance-mom-holiday-hooded-sweatshirt.jpg?camera_label=front |
+| 6af90b36ca5d307abc0160a4 | Books Cocoa and Christmas Hoodie, Book Lover Christmas Hoodie, Reader Gift, Bookish Holiday Hooded Sweatshirt | CLEAN | https://images.printify.com/mockup/6af90b36ca5d307abc0160a4/32912/98424/books-cocoa-and-christmas-hoodie-book-lover-christmas-hoodie-reader-gift-bookish-holiday-hooded-sweatshirt.jpg?camera_label=front |
+| 6af90b08c745d035040e94cf | Highland Cow Christmas Hoodie, Farmhouse Christmas Hoodie, Highland Cow Lover Gift, Tartan Bow Holiday Hooded Sweatshirt | CLEAN | https://images.printify.com/mockup/6af90b08c745d035040e94cf/32912/98424/highland-cow-christmas-hoodie-farmhouse-christmas-hoodie-highland-cow-lover-gift-tartan-bow-holiday-hooded-sweatshirt.jpg?camera_label=front |
+| 6af8ffc7c745d035040e8965 | Cozy Season Christmas Sweatshirt, Snowy Window Hot Cocoa Crewneck, Cozy Winter Sweatshirt, Holiday Gift | CLEAN | https://images.printify.com/mockup/6af8ffc7c745d035040e8965/25458/98502/cozy-season-christmas-sweatshirt-snowy-window-hot-cocoa-crewneck-cozy-winter-sweatshirt-holiday-gift.jpg?camera_label=front |
+| 6af8ffb6b2e1366dcb03a161 | Gardeners Grow Merry Christmas Sweatshirt, Gardener Christmas Gift, Plant Lover Crewneck, Vintage Seed Packet Sweatshirt | CLEAN | https://images.printify.com/mockup/6af8ffb6b2e1366dcb03a161/25458/98502/gardeners-grow-merry-christmas-sweatshirt-gardener-christmas-gift-plant-lover-crewneck-vintage-seed-packet-sweatshirt.jpg?camera_label=front |
+| 6af8ffa7b2e1366dcb03a14e | Teacher Christmas Sweatshirt, Teacher Christmas Squad Crewneck, Teacher Gift, Matching School Staff Holiday Sweatshirt | CLEAN | https://images.printify.com/mockup/6af8ffa7b2e1366dcb03a14e/25458/98502/teacher-christmas-sweatshirt-teacher-christmas-squad-crewneck-teacher-gift-matching-school-staff-holiday-sweatshirt.jpg?camera_label=front |
+| 6af8ff93383728621d0110c3 | Nurse Christmas Sweatshirt, Santa's Favorite Nurse Crewneck, Nurse Gift, RN Holiday Sweatshirt | CLEAN | https://images.printify.com/mockup/6af8ff93383728621d0110c3/25458/98502/nurse-christmas-sweatshirt-santas-favorite-nurse-crewneck-nurse-gift-rn-holiday-sweatshirt.jpg?camera_label=front |
+| 6af8ff826d67bf35520cb20f | Cat Mom Christmas Sweatshirt, Santa Hat Tabby Cat Crewneck, Cat Lover Gift, Cat Mom Holiday Sweatshirt | CLEAN | https://images.printify.com/mockup/6af8ff826d67bf35520cb20f/25458/98502/cat-mom-christmas-sweatshirt-santa-hat-tabby-cat-crewneck-cat-lover-gift-cat-mom-holiday-sweatshirt.jpg?camera_label=front |
+| 6af8ff6bc745d035040e88f4 | Hooked on Christmas Sweatshirt, Crochet Christmas Crewneck, Crocheter Gift, Yarn Lover Holiday Sweatshirt | CLEAN | https://images.printify.com/mockup/6af8ff6bc745d035040e88f4/25458/98502/hooked-on-christmas-sweatshirt-crochet-christmas-crewneck-crocheter-gift-yarn-lover-holiday-sweatshirt.jpg?camera_label=front |
+| 6af8ff5ea62de2d61c0c2d2d | Golden Retriever Christmas Sweatshirt, Golden Christmas Crewneck, Dog Mom Gift, Golden Retriever Holiday Sweatshirt | CLEAN | https://images.printify.com/mockup/6af8ff5ea62de2d61c0c2d2d/25458/98502/golden-retriever-christmas-sweatshirt-golden-christmas-crewneck-dog-mom-gift-golden-retriever-holiday-sweatshirt.jpg?camera_label=front |
+| 6af8ff4bc8d016720c098bf5 | Nutcracker Christmas Sweatshirt, Nutcracker Season Crewneck, Ballet Christmas Gift, Dance Mom Holiday Sweatshirt | CLEAN | https://images.printify.com/mockup/6af8ff4bc8d016720c098bf5/25458/98502/nutcracker-christmas-sweatshirt-nutcracker-season-crewneck-ballet-christmas-gift-dance-mom-holiday-sweatshirt.jpg?camera_label=front |
+| 6af8ff3b6d67bf35520cb1af | Books Cocoa and Christmas Sweatshirt, Book Lover Christmas Crewneck, Reader Gift, Bookish Holiday Sweatshirt | CLEAN | https://images.printify.com/mockup/6af8ff3b6d67bf35520cb1af/25458/98502/books-cocoa-and-christmas-sweatshirt-book-lover-christmas-crewneck-reader-gift-bookish-holiday-sweatshirt.jpg?camera_label=front |
+| 6af8feaa383728621d010fc2 | Highland Cow Christmas Sweatshirt, Farmhouse Christmas Crewneck, Highland Cow Lover Gift, Tartan Bow Holiday Sweatshirt | CLEAN | https://images.printify.com/mockup/6af8feaa383728621d010fc2/25458/98502/highland-cow-christmas-sweatshirt-farmhouse-christmas-crewneck-highland-cow-lover-gift-tartan-bow-holiday-sweatshirt.jpg?camera_label=front |
+| 6af8e188edd1928e090c83ef | Winter Garden Field Guide Christmas Shirt, Luna Moth Mushroom T-Shirt, Cottagecore Holiday Tee, Nature Lover Gift | CLEAN | https://images.printify.com/mockup/6af8e188edd1928e090c83ef/12100/102005/winter-garden-field-guide-christmas-shirt-luna-moth-mushroom-t-shirt-cottagecore-holiday-tee-nature-lover-gift.jpg?camera_label=front-2 |
+| 6af8e15fedd1928e090c839f | Frosted Star Christmas Shirt, Blue and Silver Star T-Shirt, Elegant Winter Holiday Tee, Pearl Star Christmas Gift | CLEAN | https://images.printify.com/mockup/6af8e15fedd1928e090c839f/12124/102005/frosted-star-christmas-shirt-blue-and-silver-star-t-shirt-elegant-winter-holiday-tee-pearl-star-christmas-gift.jpg?camera_label=front-2 |
+| 6af8e1506d67bf35520c8bea | Tied with a Bow Christmas Shirt, Pink Satin Bow T-Shirt, Coquette Holiday Tee, Pearl Heart Christmas Gift for Her | CLEAN | https://images.printify.com/mockup/6af8e1506d67bf35520c8bea/12100/102005/tied-with-a-bow-christmas-shirt-pink-satin-bow-t-shirt-coquette-holiday-tee-pearl-heart-christmas-gift-for-her.jpg?camera_label=front-2 |
+| 6af8e0c3a62de2d61c0c06c4 | Golden Retriever Christmas Shirt, Golden Christmas T-Shirt, Dog Lover Christmas Gift, Santa Hat Golden Retriever Holiday Tee | CLEAN | https://images.printify.com/mockup/6af8e0c3a62de2d61c0c06c4/12100/102005/golden-retriever-christmas-shirt-golden-christmas-t-shirt-dog-lover-christmas-gift-santa-hat-golden-retriever-holiday-tee.jpg?camera_label=front-2 |
+| 6af8e0b4edd1928e090c8308 | Even Santa Needs a Paramedic Shirt, Paramedic Christmas Gift, EMT EMS Holiday T-Shirt, Ambulance Xmas Tee, First Responder | CLEAN | https://images.printify.com/mockup/6af8e0b4edd1928e090c8308/12100/102005/even-santa-needs-a-paramedic-shirt-paramedic-christmas-gift-emt-ems-holiday-t-shirt-ambulance-xmas-tee-first-responder.jpg?camera_label=front-2 |
+| 6af8d8d2a62de2d61c0bff5d | Cat Mom Christmas Shirt, Santa Hat Tabby Cat T-Shirt, Cat Lover Christmas Gift, Cat Mama Holiday Tee, Gift for Cat Owner | CLEAN | https://images.printify.com/mockup/6af8d8d2a62de2d61c0bff5d/12100/102005/cat-mom-christmas-shirt-santa-hat-tabby-cat-t-shirt-cat-lover-christmas-gift-cat-mama-holiday-tee-gift-for-cat-owner.jpg?camera_label=front-2 |
+| 6af8d8c0383728621d00e292 | Santa's Favorite Hairstylist Christmas Shirt, Hair Stylist Gift, Salon Holiday T-Shirt, Hairdresser Xmas Tee, Barber Gift | CLEAN | https://images.printify.com/mockup/6af8d8c0383728621d00e292/12100/102005/santas-favorite-hairstylist-christmas-shirt-hair-stylist-gift-salon-holiday-t-shirt-hairdresser-xmas-tee-barber-gift.jpg?camera_label=front-2 |
+| 6af8d8af626b8d7aa001565b | Naughty or Nice Christmas Shirt, Santa's List T-Shirt, Vintage Scroll Holiday Tee, Funny Christmas Party Shirt, Xmas Gift | CLEAN | https://images.printify.com/mockup/6af8d8af626b8d7aa001565b/12100/102005/naughty-or-nice-christmas-shirt-santas-list-t-shirt-vintage-scroll-holiday-tee-funny-christmas-party-shirt-xmas-gift.jpg?camera_label=front-2 |
+| 6af8d89e626b8d7aa0015637 | Santa's Favorite Nurse Christmas Shirt, Nurse Christmas Gift, Stethoscope Santa Hat T-Shirt, RN Holiday Tee, Nursing Gift | CLEAN | https://images.printify.com/mockup/6af8d89e626b8d7aa0015637/12100/102005/santas-favorite-nurse-christmas-shirt-nurse-christmas-gift-stethoscope-santa-hat-t-shirt-rn-holiday-tee-nursing-gift.jpg?camera_label=front-2 |
+| 6af8d8912ffca93f7e0c7c2c | Teacher Christmas Squad Shirt, Teacher Christmas Gift, Chalkboard Holiday T-Shirt, School Staff Xmas Tee, Teacher Team Shirt | CLEAN | https://images.printify.com/mockup/6af8d8912ffca93f7e0c7c2c/12100/102005/teacher-christmas-squad-shirt-teacher-christmas-gift-chalkboard-holiday-t-shirt-school-staff-xmas-tee-teacher-team-shirt.jpg?camera_label=front-2 |
+| 6af8d6309e4469c0080fb7bc | Midnight Christmas Shirt, Stained Glass Moon and Stars T-Shirt, Celestial Holiday Tee, Holly Christmas Gift | CLEAN | https://images.printify.com/mockup/6af8d6309e4469c0080fb7bc/12100/102005/midnight-christmas-shirt-stained-glass-moon-and-stars-t-shirt-celestial-holiday-tee-holly-christmas-gift.jpg?camera_label=front-2 |
+| 6af8d6034643b0e30509224f | Opening Night Christmas Shirt, Theater Lover Gift, Broadway Fan Holiday T-Shirt, Red Stage Curtain Tee, Drama Gift | CLEAN | https://images.printify.com/mockup/6af8d6034643b0e30509224f/12100/102005/opening-night-christmas-shirt-theater-lover-gift-broadway-fan-holiday-t-shirt-red-stage-curtain-tee-drama-gift.jpg?camera_label=front-2 |
+| 6af8d5d4383728621d00df34 | Apres Ski Club Christmas Shirt, Skier Gift, Ski Lover Holiday T-Shirt, Ski Goggles Mountain Tee, Ski Trip Shirt | CLEAN | https://images.printify.com/mockup/6af8d5d4383728621d00df34/12100/102005/apres-ski-club-christmas-shirt-skier-gift-ski-lover-holiday-t-shirt-ski-goggles-mountain-tee-ski-trip-shirt.jpg?camera_label=front-2 |
+| 6af8d5caca5d307abc0120fd | Cozy Season Christmas Shirt, Snowy Window Hot Cocoa Books T-Shirt, Hygge Holiday Tee, Cozy Winter Gift for Her | CLEAN | https://images.printify.com/mockup/6af8d5caca5d307abc0120fd/12100/102005/cozy-season-christmas-shirt-snowy-window-hot-cocoa-books-t-shirt-hygge-holiday-tee-cozy-winter-gift-for-her.jpg?camera_label=front-2 |
+| 6af8d5b4a2664d401605a9fe | Tartan and Tradition Christmas Shirt, Red Plaid Bow T-Shirt, Blue and White Ornament Holiday Tee, Classic Christmas Gift | CLEAN | https://images.printify.com/mockup/6af8d5b4a2664d401605a9fe/12100/102005/tartan-and-tradition-christmas-shirt-red-plaid-bow-t-shirt-blue-and-white-ornament-holiday-tee-classic-christmas-gift.jpg?camera_label=front-2 |
+| 6af8c9ef4643b0e305091687 | Winter Herbarium Christmas Shirt, Vintage Botanical T-Shirt, Holly Pine Dried Orange Tee, Nature Lover Holiday Gift | CLEAN | https://images.printify.com/mockup/6af8c9ef4643b0e305091687/12100/102005/winter-herbarium-christmas-shirt-vintage-botanical-t-shirt-holly-pine-dried-orange-tee-nature-lover-holiday-gift.jpg?camera_label=front-2 |
+| 6af8c9df4643b0e305091678 | Nonna's Christmas Kitchen Shirt, Nonna Gift, Italian Grandma Christmas T-Shirt, Baking Holiday Tee, Gift for Grandma | CLEAN | https://images.printify.com/mockup/6af8c9df4643b0e305091678/12100/102005/nonnas-christmas-kitchen-shirt-nonna-gift-italian-grandma-christmas-t-shirt-baking-holiday-tee-gift-for-grandma.jpg?camera_label=front-2 |
+| 6af8c9cec745d035040e4b79 | Nutcracker Season Christmas Shirt, Classic Nutcracker T-Shirt, Ballet Christmas Gift, Vintage Holiday Tee, Nutcracker Lover | CLEAN | https://images.printify.com/mockup/6af8c9cec745d035040e4b79/12100/102005/nutcracker-season-christmas-shirt-classic-nutcracker-t-shirt-ballet-christmas-gift-vintage-holiday-tee-nutcracker-lover.jpg?camera_label=front-2 |
+| 6af8c9bf626b8d7aa00147c2 | Highland Cow Christmas Shirt, Farmhouse Christmas T-Shirt, Highland Cow Lover Gift, Tartan Bow Holiday Tee, Cow Shirt | CLEAN | https://images.printify.com/mockup/6af8c9bf626b8d7aa00147c2/12100/102005/highland-cow-christmas-shirt-farmhouse-christmas-t-shirt-highland-cow-lover-gift-tartan-bow-holiday-tee-cow-shirt.jpg?camera_label=front-2 |
+| 6af8c98c948a470d52068d4d | Cat Lineup Shirt, Funny Cat T-Shirt, Cat Lover Gift, Cats in Prison Stripes Police Lineup Tee, Cat Mom Cat Dad Shirt | CLEAN | https://images.printify.com/mockup/6af8c98c948a470d52068d4d/12100/102005/cat-lineup-shirt-funny-cat-t-shirt-cat-lover-gift-cats-in-prison-stripes-police-lineup-tee-cat-mom-cat-dad-shirt.jpg?camera_label=front-2 |
+| 6af8c97da2664d4016059f77 | Hooked on Christmas Shirt, Crochet Lover Christmas Gift, Yarn Knitting Holiday T-Shirt, Crocheter Xmas Tee for Her | CLEAN | https://images.printify.com/mockup/6af8c97da2664d4016059f77/12100/102005/hooked-on-christmas-shirt-crochet-lover-christmas-gift-yarn-knitting-holiday-t-shirt-crocheter-xmas-tee-for-her.jpg?camera_label=front-2 |
+| 6af8c96c2ffca93f7e0c6dce | Santa's Favorite Mechanic Christmas Shirt, Auto Mechanic Gift, Car Guy Holiday T-Shirt, Funny Garage Xmas Tee for Him | CLEAN | https://images.printify.com/mockup/6af8c96c2ffca93f7e0c6dce/12100/102005/santas-favorite-mechanic-christmas-shirt-auto-mechanic-gift-car-guy-holiday-t-shirt-funny-garage-xmas-tee-for-him.jpg?camera_label=front-2 |
+| 6af8c95cc745d035040e4b00 | Books Cocoa and Christmas Shirt, Book Lover Christmas Gift, Bookworm Holiday T-Shirt, Reading Teacher Librarian Xmas Tee | CLEAN | https://images.printify.com/mockup/6af8c95cc745d035040e4b00/12100/102005/books-cocoa-and-christmas-shirt-book-lover-christmas-gift-bookworm-holiday-t-shirt-reading-teacher-librarian-xmas-tee.jpg?camera_label=front-2 |
+| 6af8c913a62de2d61c0befd3 | Santa's Got a Truck Driver Christmas Shirt, Funny Trucker Christmas Gift, Semi Truck Holiday T-Shirt, CDL Driver Xmas Tee | CLEAN | https://images.printify.com/mockup/6af8c913a62de2d61c0befd3/12100/102005/santas-got-a-truck-driver-christmas-shirt-funny-trucker-christmas-gift-semi-truck-holiday-t-shirt-cdl-driver-xmas-tee.jpg?camera_label=front-2 |
+| 6af8c4374643b0e30509119d | Gardeners Grow Merry Christmas Shirt, Gardener Christmas Gift, Plant Lover Holiday T-Shirt, Vintage Seed Packet Tee | CLEAN | https://images.printify.com/mockup/6af8c4374643b0e30509119d/12100/102005/gardeners-grow-merry-christmas-shirt-gardener-christmas-gift-plant-lover-holiday-t-shirt-vintage-seed-packet-tee.jpg?camera_label=front-2 |
+| 6adf9fb0c392daed6500ee05 | Christmas Coffee Club Mug - 15oz Ceramic Coffee Mug, Santa Hat Latte Art, Coffee Lover Gift | CLEAN | https://images.printify.com/mockup/6adf9fb0c392daed6500ee05/104692/101750/christmas-coffee-club-mug-15oz-ceramic-coffee-mug-santa-hat-latte-art-coffee-lover-gift.jpg?camera_label=front |
+| 6ade4bc3aa01a54ae306f9ad | Read Sip Repeat Christmas Mug - 15oz Ceramic Coffee Mug, Book Lover Gift, Bookworm Holiday Present | CLEAN | https://images.printify.com/mockup/6ade4bc3aa01a54ae306f9ad/104692/101750/read-sip-repeat-christmas-mug-15oz-ceramic-coffee-mug-book-lover-gift-bookworm-holiday-present.jpg?camera_label=front |
+| 6ade4bbc3757c80615072b6d | Dad Fuel Christmas Mug - 15oz Ceramic Coffee Mug, Santa Hat and Plaid Scarf, Gift for Dad | CLEAN | https://images.printify.com/mockup/6ade4bbc3757c80615072b6d/104692/101750/dad-fuel-christmas-mug-15oz-ceramic-coffee-mug-santa-hat-and-plaid-scarf-gift-for-dad.jpg?camera_label=front |
+| 6ade4bb4580ff194290bca02 | Grandma Fuel Christmas Mug - 15oz Ceramic Coffee Mug, Santa Hat, Glasses and Yarn, Gift for Grandma | CLEAN | https://images.printify.com/mockup/6ade4bb4580ff194290bca02/104692/101750/grandma-fuel-christmas-mug-15oz-ceramic-coffee-mug-santa-hat-glasses-and-yarn-gift-for-grandma.jpg?camera_label=front |
+| 6ade4bab580ff194290bc9f7 | Mama Fuel Christmas Mug - 15oz Ceramic Coffee Mug, Santa Hat and Cookies, Gift for Mom | CLEAN | https://images.printify.com/mockup/6ade4bab580ff194290bc9f7/104692/101750/mama-fuel-christmas-mug-15oz-ceramic-coffee-mug-santa-hat-and-cookies-gift-for-mom.jpg?camera_label=front |
+| 6ade4ba0478a7d4f5f01f3c8 | Teacher Fuel Christmas Mug - 15oz Ceramic Coffee Mug, Apple and Holly, Teacher Gift | CLEAN | https://images.printify.com/mockup/6ade4ba0478a7d4f5f01f3c8/104692/101750/teacher-fuel-christmas-mug-15oz-ceramic-coffee-mug-apple-and-holly-teacher-gift.jpg?camera_label=front |
+| 6ade4b96aa1ddebc870bedc0 | Nurse Fuel Christmas Mug - 15oz Ceramic Coffee Mug, Stethoscope Santa Hat, Nurse Gift | CLEAN | https://images.printify.com/mockup/6ade4b96aa1ddebc870bedc0/104692/101750/nurse-fuel-christmas-mug-15oz-ceramic-coffee-mug-stethoscope-santa-hat-nurse-gift.jpg?camera_label=front |
+| 6ade4b8dd51db081ef0e7d2c | Cat Mom Fuel Christmas Mug - 15oz Ceramic Coffee Mug, Tabby Cat Santa Hat, Cat Lover Gift | CLEAN | https://images.printify.com/mockup/6ade4b8dd51db081ef0e7d2c/104692/101750/cat-mom-fuel-christmas-mug-15oz-ceramic-coffee-mug-tabby-cat-santa-hat-cat-lover-gift.jpg?camera_label=front |
+| 6ade4b78813f94035306f51a | Dog Mom Fuel Christmas Mug - 15oz Ceramic Coffee Mug, Golden Retriever Santa Hat, Dog Lover Gift | CLEAN | https://images.printify.com/mockup/6ade4b78813f94035306f51a/104692/101750/dog-mom-fuel-christmas-mug-15oz-ceramic-coffee-mug-golden-retriever-santa-hat-dog-lover-gift.jpg?camera_label=front |
+| 6add66f672b7b9abb209542a | Our First Christmas Mr. & Mrs. Mug - 15oz Ceramic Coffee Mug, Newlywed Gift, Married Christmas | CLEAN | https://images.printify.com/mockup/6add66f672b7b9abb209542a/104692/101750/our-first-christmas-mr-mrs-mug-15oz-ceramic-coffee-mug-newlywed-gift-married-christmas.jpg?camera_label=front |
+| 6add66ef21de5de625024db6 | Be Gentle With Yourself Mug - 15oz Ceramic Coffee Mug, Retro Groovy Daisy, Positive Vibes Gift | CLEAN | https://images.printify.com/mockup/6add66ef21de5de625024db6/104692/101750/be-gentle-with-yourself-mug-15oz-ceramic-coffee-mug-retro-groovy-daisy-positive-vibes-gift.jpg?camera_label=front |
+| 6adbc9485fff939bb8036a70 | Tabby Cat Christmas Ornament 2026 - Ceramic Cat Tree Ornament, Cat Lover Gift, Cat Mom Present | CLEAN | https://images.printify.com/mockup/6adbc9485fff939bb8036a70/69370/100661/tabby-cat-christmas-ornament-2026-ceramic-cat-tree-ornament-cat-lover-gift-cat-mom-present.jpg?camera_label=front |
+| 6adbc9405fff939bb8036a6d | Pug Christmas Ornament 2026 - Ceramic Dog Tree Ornament, Pug Lover Gift, Stocking Stuffer | CLEAN | https://images.printify.com/mockup/6adbc9405fff939bb8036a6d/69370/100661/pug-christmas-ornament-2026-ceramic-dog-tree-ornament-pug-lover-gift-stocking-stuffer.jpg?camera_label=front |
+| 6adbc9380c4296642f0b2121 | Corgi Christmas Ornament 2026 - Ceramic Dog Tree Ornament, Corgi Lover Gift | CLEAN | https://images.printify.com/mockup/6adbc9380c4296642f0b2121/69370/100661/corgi-christmas-ornament-2026-ceramic-dog-tree-ornament-corgi-lover-gift.jpg?camera_label=front |
+| 6adbc92edc3e5f08af09eec5 | German Shepherd Christmas Ornament 2026 - Ceramic Dog Tree Ornament, GSD Lover Gift | CLEAN | https://images.printify.com/mockup/6adbc92edc3e5f08af09eec5/69370/100661/german-shepherd-christmas-ornament-2026-ceramic-dog-tree-ornament-gsd-lover-gift.jpg?camera_label=front |
+| 6adbc925b28ea00167091751 | French Bulldog Christmas Ornament 2026 - Ceramic Frenchie Tree Ornament, Dog Lover Gift | CLEAN | https://images.printify.com/mockup/6adbc925b28ea00167091751/69370/100661/french-bulldog-christmas-ornament-2026-ceramic-frenchie-tree-ornament-dog-lover-gift.jpg?camera_label=front |
+| 6adbc91d09f4718717100103 | Labrador Christmas Ornament 2026 - Ceramic Dog Tree Ornament, Yellow Lab Gift, Dog Lover Present | CLEAN | https://images.printify.com/mockup/6adbc91d09f4718717100103/69370/100661/labrador-christmas-ornament-2026-ceramic-dog-tree-ornament-yellow-lab-gift-dog-lover-present.jpg?camera_label=front |
+| 6adbc915ac1177c7f010283f | Golden Retriever Christmas Ornament 2026 - Ceramic Dog Tree Ornament, Golden Lover Gift | CLEAN | https://images.printify.com/mockup/6adbc915ac1177c7f010283f/69370/100661/golden-retriever-christmas-ornament-2026-ceramic-dog-tree-ornament-golden-lover-gift.jpg?camera_label=front |
+| 6adbc8d30c4296642f0b20b0 | Dachshund Christmas Ornament 2026 - Ceramic Dog Tree Ornament, Doxie Gift, Dog Lover Christmas Gift | CLEAN | https://images.printify.com/mockup/6adbc8d30c4296642f0b20b0/69370/100661/dachshund-christmas-ornament-2026-ceramic-dog-tree-ornament-doxie-gift-dog-lover-christmas-gift.jpg?camera_label=front |
+| 6adbc5c5dc3e5f08af09eb7a | Pet Memorial Christmas Ornament, Paw Print Angel Wings, Dog Cat Remembrance Keepsake, Ceramic Ornament | CLEAN | https://images.printify.com/mockup/6adbc5c5dc3e5f08af09eb7a/111546/109570/pet-memorial-christmas-ornament-paw-print-angel-wings-dog-cat-remembrance-keepsake-ceramic-ornament.jpg?camera_label=front |
+| 6adbc5aa04ff64518d0e7067 | Teacher Christmas Ornament, Jeweled Apple and Books Teacher Gift, Ceramic Holiday Keepsake 2026 | CLEAN | https://images.printify.com/mockup/6adbc5aa04ff64518d0e7067/111546/109570/teacher-christmas-ornament-jeweled-apple-and-books-teacher-gift-ceramic-holiday-keepsake-2026.jpg?camera_label=front |
+| 6adbc58f04ff64518d0e704e | Nurse Christmas Ornament, Candy Cane Stethoscope Heart Nurse Gift, Ceramic Holiday Keepsake 2026 | CLEAN | https://images.printify.com/mockup/6adbc58f04ff64518d0e704e/111546/109570/nurse-christmas-ornament-candy-cane-stethoscope-heart-nurse-gift-ceramic-holiday-keepsake-2026.jpg?camera_label=front |
+| 6adbc573c2c3b6a62f0bc564 | Celestial Christmas Ornament, Blue and Silver Moon and Star, Winter Snowflake Ceramic Tree Decor 2026 | CLEAN | https://images.printify.com/mockup/6adbc573c2c3b6a62f0bc564/111546/109570/celestial-christmas-ornament-blue-and-silver-moon-and-star-winter-snowflake-ceramic-tree-decor-2026.jpg?camera_label=front |
+| 6adbc558bfae79f6740255ec | Nutcracker Christmas Ornament, Jeweled Velvet Soldier Holiday Wreath, Whimsical Ceramic Tree Decor 2026 | CLEAN | https://images.printify.com/mockup/6adbc558bfae79f6740255ec/111546/109570/nutcracker-christmas-ornament-jeweled-velvet-soldier-holiday-wreath-whimsical-ceramic-tree-decor-2026.jpg?camera_label=front |
+| 6adbc53bc2c3b6a62f0bc540 | Tartan Bow Christmas Ornament, Plaid Velvet Bow Evergreen Wreath, Heirloom Ceramic Tree Decor 2026 | CLEAN | https://images.printify.com/mockup/6adbc53bc2c3b6a62f0bc540/111546/109570/tartan-bow-christmas-ornament-plaid-velvet-bow-evergreen-wreath-heirloom-ceramic-tree-decor-2026.jpg?camera_label=front |
+| 6adbc51dac1177c7f010245e | Orange Tabby Cat Christmas Ornament 2026, Cat Mom Gift, Realistic Santa Hat Portrait, Merry Christmas Wreath Ceramic Keepsake | CLEAN | https://images.printify.com/mockup/6adbc51dac1177c7f010245e/111546/109570/orange-tabby-cat-christmas-ornament-2026-cat-mom-gift-realistic-santa-hat-portrait-merry-christmas-wreath-ceramic-keepsake.jpg?camera_label=front |
+| 6adbc503ac1177c7f0102440 | Chocolate Lab Christmas Ornament 2026, Labrador Dog Mom Gift, Realistic Santa Hat Portrait, Merry Christmas Wreath Ceramic Keepsake | CLEAN | https://images.printify.com/mockup/6adbc503ac1177c7f0102440/111546/109570/chocolate-lab-christmas-ornament-2026-labrador-dog-mom-gift-realistic-santa-hat-portrait-merry-christmas-wreath-ceramic-keepsake.jpg?camera_label=front |
+| 6adbc4e8ac1177c7f010242d | Corgi Christmas Ornament 2026, Corgi Mom Gift, Realistic Santa Hat Portrait, Merry Christmas Wreath Ceramic Keepsake | CLEAN | https://images.printify.com/mockup/6adbc4e8ac1177c7f010242d/111546/109570/corgi-christmas-ornament-2026-corgi-mom-gift-realistic-santa-hat-portrait-merry-christmas-wreath-ceramic-keepsake.jpg?camera_label=front |
+| 6adbc4ce09f47187170ffd46 | French Bulldog Christmas Ornament 2026, Frenchie Mom Gift, Realistic Santa Hat Portrait, Merry Christmas Wreath Ceramic Keepsake | CLEAN | https://images.printify.com/mockup/6adbc4ce09f47187170ffd46/111546/109570/french-bulldog-christmas-ornament-2026-frenchie-mom-gift-realistic-santa-hat-portrait-merry-christmas-wreath-ceramic-keepsake.jpg?camera_label=front |
+| 6adbc4b3ac1177c7f01023f4 | Golden Retriever Christmas Ornament 2026, Golden Mom Gift, Realistic Santa Hat Portrait, Merry Christmas Wreath Ceramic Keepsake | CLEAN | https://images.printify.com/mockup/6adbc4b3ac1177c7f01023f4/111546/109570/golden-retriever-christmas-ornament-2026-golden-mom-gift-realistic-santa-hat-portrait-merry-christmas-wreath-ceramic-keepsake.jpg?camera_label=front |
+| 6adbc48c1406181c4108061e | Dachshund Christmas Ornament 2026, Doxie Dog Mom Gift, Realistic Santa Hat Portrait, Merry Christmas Wreath Ceramic Keepsake | CLEAN | https://images.printify.com/mockup/6adbc48c1406181c4108061e/111546/109570/dachshund-christmas-ornament-2026-doxie-dog-mom-gift-realistic-santa-hat-portrait-merry-christmas-wreath-ceramic-keepsake.jpg?camera_label=front |
+| 6ad50c137e86416ffc09854a | Cheers Dears Wine Tumbler 20oz | Retro Christmas Wine Tumbler, Holiday Gift | CLEAN | https://images.printify.com/mockup/6ad50c137e86416ffc09854a/44519/849/cheers-dears-wine-tumbler-20oz-retro-christmas-wine-tumbler-holiday-gift.jpg?camera_label=front |
+| 6ad50c1233bc1400d808831d | Made It Wine Tumbler 20oz | Funny Christmas Lights Wine Tumbler, Holiday Gift | CLEAN | https://images.printify.com/mockup/6ad50c1233bc1400d808831d/44519/849/made-it-wine-tumbler-20oz-funny-christmas-lights-wine-tumbler-holiday-gift.jpg?camera_label=front |
+| 6ad50c0fc5bf429b0a083b1e | Cozy Season Sunburst Phone Case | Magnetic Impact-Resistant Case, Retro Holiday Gift | CLEAN | https://images.printify.com/mockup/6ad50c0fc5bf429b0a083b1e/96135/81354/cozy-season-sunburst-phone-case-magnetic-impact-resistant-case-retro-holiday-gift.jpg?camera_label=front |
+| 6ad50c0dc5bf429b0a083b1d | Cute Reindeer Lights Phone Case | Magnetic Impact-Resistant Case, Festive Christmas Gift | CLEAN | https://images.printify.com/mockup/6ad50c0dc5bf429b0a083b1d/96135/81354/cute-reindeer-lights-phone-case-magnetic-impact-resistant-case-festive-christmas-gift.jpg?camera_label=front |
+| 6ad50c0be2ff8ddc0b0e6f3c | Christmas Fox Scarf Phone Case | Magnetic Impact-Resistant Case, Cute Holiday Gift | CLEAN | https://images.printify.com/mockup/6ad50c0be2ff8ddc0b0e6f3c/96135/81354/christmas-fox-scarf-phone-case-magnetic-impact-resistant-case-cute-holiday-gift.jpg?camera_label=front |
+| 6ad4ed6d55fae0bc720d564b | 25th Anniversary Silver Bauble Christmas Ornament 2026 - Ceramic Holiday Tree Ornament, Silver Anniversary Gift for Couples - Winstar4U | CLEAN | https://images.printify.com/mockup/6ad4ed6d55fae0bc720d564b/69370/100661/25th-anniversary-silver-bauble-christmas-ornament-2026-ceramic-holiday-tree-ornament-silver-anniversary-gift-for-couples-winstar4u.jpg?camera_label=front |
+| 6ad456e49c8f61e78707bfa1 | Buffalo Plaid Ornament Phone Case | Magnetic Impact-Resistant Case, Rustic Christmas Gift | CLEAN | https://images.printify.com/mockup/6ad456e49c8f61e78707bfa1/96135/81354/buffalo-plaid-ornament-phone-case-magnetic-impact-resistant-case-rustic-christmas-gift.jpg?camera_label=front |
+| 6ad4561cf1aeec4b590f9b48 | Merry and Bright Christmas Mug - 15oz Ceramic Coffee Mug, Retro Holiday Gift | CLEAN | https://images.printify.com/mockup/6ad4561cf1aeec4b590f9b48/62014/2711/merry-and-bright-christmas-mug-15oz-ceramic-coffee-mug-retro-holiday-gift.jpg?camera_label=front |
+| 6ad455ac18e0243bd10d7d4f | Cozy Holiday Brew Christmas Mug - 15oz Ceramic Coffee Mug, Festive Cocoa and Coffee Gift | CLEAN | https://images.printify.com/mockup/6ad455ac18e0243bd10d7d4f/62014/2711/cozy-holiday-brew-christmas-mug-15oz-ceramic-coffee-mug-festive-cocoa-and-coffee-gift.jpg?camera_label=front |
+| 6ad455435a892ab3e300fe69 | Candy Cane and Holly Christmas Mug - 15oz Ceramic Coffee Mug, Vintage Holiday Gift | CLEAN | https://images.printify.com/mockup/6ad455435a892ab3e300fe69/62014/2711/candy-cane-and-holly-christmas-mug-15oz-ceramic-coffee-mug-vintage-holiday-gift.jpg?camera_label=front |
+| 6ad432a411e95e7c5f0ce1ea | 5th Anniversary Wooden Heart Christmas Ornament 2026 - Ceramic Holiday Tree Ornament, Wood Anniversary Gift for Couples | CLEAN | https://images.printify.com/mockup/6ad432a411e95e7c5f0ce1ea/69370/100661/5th-anniversary-wooden-heart-christmas-ornament-2026-ceramic-holiday-tree-ornament-wood-anniversary-gift-for-couples.jpg?camera_label=front |
+| 6ad431b65492c45147091870 | Golden Wedding Rings on Pine Christmas Ornament 2026 - Ceramic Holiday Tree Ornament, Golden Anniversary Gift for Couples | CLEAN | https://images.printify.com/mockup/6ad431b65492c45147091870/69370/100661/golden-wedding-rings-on-pine-christmas-ornament-2026-ceramic-holiday-tree-ornament-golden-anniversary-gift-for-couples.jpg?camera_label=front |
+| 6ad4307c18e0243bd10d533d | Reindeer Cribbage Peg Race Christmas Ornament 2026 - Ceramic Holiday Tree Ornament, Game Night Gift for Card Players | CLEAN | https://images.printify.com/mockup/6ad4307c18e0243bd10d533d/69370/100661/reindeer-cribbage-peg-race-christmas-ornament-2026-ceramic-holiday-tree-ornament-game-night-gift-for-card-players.jpg?camera_label=front |
+| 6ad42ff6f1aeec4b590f726e | Christmas Cards and Holly Christmas Ornament 2026 - Ceramic Holiday Tree Ornament, Game Night Gift for Card Players | CLEAN | https://images.printify.com/mockup/6ad42ff6f1aeec4b590f726e/69370/100661/christmas-cards-and-holly-christmas-ornament-2026-ceramic-holiday-tree-ornament-game-night-gift-for-card-players.jpg?camera_label=front |
+| 6ad429db236d14a85901de42 | Buffalo Plaid Heart Christmas Mug - 15oz Ceramic Coffee Mug, Cozy Rustic Holiday Gift | CLEAN | https://images.printify.com/mockup/6ad429db236d14a85901de42/62014/2711/buffalo-plaid-heart-christmas-mug-15oz-ceramic-coffee-mug-cozy-rustic-holiday-gift.jpg?camera_label=front |
+| 6ad42970f1aeec4b590f6d00 | Funny Ornament Gift Set of 3 - Ceramic Holiday Tree Ornaments, Gag Gift Set, White Elephant Gift Set | DEFECT | https://images.printify.com/mockup/6ad42970f1aeec4b590f6d00/69370/100661/funny-ornament-gift-set-of-3-ceramic-holiday-tree-ornaments-gag-gift-set-white-elephant-gift-set.jpg?camera_label=front |
+```
