@@ -9,6 +9,60 @@ priority. Continuous, nonoverlapping batches across all five shops until every p
 No live writes (publish/unpublish/price/inventory/account changes) without explicit separate owner
 approval. This file tracks real, evidence-backed findings only — no estimates presented as fact.
 
+## COORDINATION CORRECTION — duplicate Thong→Briefs listings deduplicated (2026-11-18)
+
+**Problem found:** two independent background workers both executed the same owner-approved Thong
+migration without coordinating, each creating its own new live product per design. Result: 4 live
+Shopify products existed for 2 designs (a genuine duplicate-listing problem of exactly the kind this
+whole recovery exists to fix) until caught and corrected here.
+
+**Direct verification performed** (fetched all 4 products' live state, downloaded and visually compared
+their actual mockups):
+- **"Unzip Itself" / "Lick Itself" design:** `6afdab57dfc27cd38c0bffb1` (title still said "Thong" despite
+  being on a Briefs blueprint, no disclosure note, image also placed on back/gusset) vs.
+  `6afdabe964b943792d07d418` (title correctly renamed to "Panties," matches the artwork's actual printed
+  text "Lick Itself" — the original broken product's own title said "Unzip Itself" but its real artwork
+  file is literally named "This Isnt Going To Lick Itself.png," a pre-existing title/artwork mismatch this
+  surfaced — and includes an honest blueprint-substitution disclosure). Front mockups were visually
+  identical (same image/scale). Kept `6afdabe964b943792d07d418` live; **unpublished**
+  `6afdab57dfc27cd38c0bffb1`.
+- **"Juicy" design:** `6afdab7ae6ba52c5810c14b8` (scale 0.7) vs. `6afdac2c1cb1d74e0a01c2d0` (scale 0.78,
+  x 0.53). Visual comparison showed `6afdab7ae6ba52c5810c14b8` has the word "JUICY" clipped at the right
+  edge with a visible ghosted double-exposure artifact — **this one was actually still defective**, not a
+  clean duplicate. `6afdac2c1cb1d74e0a01c2d0` renders fully clean, "JUICY" complete and centered. Kept
+  `6afdac2c1cb1d74e0a01c2d0` live; **unpublished** `6afdab7ae6ba52c5810c14b8`.
+
+**Action taken:** `printify-unpublish-product-9eb` called on both inferior duplicates (not delete — kept
+as records). Shopify now shows exactly 2 live products for these 2 designs, as intended. Decision
+`D-0J1145520R` final state: 2 live, correct, deduplicated products —
+`6afdabe964b943792d07d418` and `6afdac2c1cb1d74e0a01c2d0`.
+
+**Process note:** this happened because two background workers were each told to execute the same
+owner-approved action independently without being made aware of each other's concurrent scope. Lesson
+for future multi-worker dispatch on live-write tasks: either strictly partition scope up front, or run
+sequentially with a check-in between, not in true parallel on the same product set.
+
+## COORDINATION CORRECTION — Duffel Bag "32 live-fixed" claim independently re-verified, mostly not yet true (2026-11-18)
+
+**Independently confirmed (by direct Printify fetch + visual mockup inspection, not taking either
+background worker's word for it):** `6ac70edc7be9df884b032bed` ("Christ Is Born") — one of the 26 items
+an earlier pass claimed were "fixed live" — is still visibly broken right now: the "IS BORN" text sits
+directly behind the bag's carrying handles, and the starburst graphic is clipped at the bottom curve. Its
+live `print_areas` scale is 0.5, not the smaller handle-clearing value a separate corrective pass had
+already derived and applied to 6 other items.
+
+**Root cause, now confirmed:** blueprint 372's physical carrying handles cross the front print area in a
+way the original staging method (which only checked for left/right/bottom text-edge cropping) did not
+account for. The corrected method, validated on 6 items — `6ac70e9f9a2f0cb82508f87d`,
+`6ac70ea3f0a0ce97bc0c8fe7`, `6ac70ea79a2f0cb82508f885`, `6ac70eaaa4000bde5508bbd0`,
+`6ac70ebc0a720c0b670cc5c4`, `6ac70ee9e2a15b1260026655` — uses a much smaller scale (0.14-0.19) with a
+per-design-tuned `y` (0.30-0.42), verified against the real front-camera mockup, not assumed.
+
+**Corrected status: 6 of 32 confirmed genuinely fixed and live. The other 26 (including `6ac70edc7be9df884b032bed`,
+now independently confirmed still broken) need the same corrected-method re-fix, individually
+verified against a real downloaded mockup before being called done.** A dedicated follow-up pass is
+being dispatched now to complete exactly this.
+
 ## THONG LISTINGS FIXED AND PUBLISHED LIVE (owner-approved, 2026-11-18)
 
 **Owner decision:** "Thongs - if you can fix them and save those and keep them in front of customers,
