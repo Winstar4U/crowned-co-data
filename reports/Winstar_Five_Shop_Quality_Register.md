@@ -4,6 +4,28 @@
 source of truth requested by the owner; do not recreate parallel registers. Append new rows/sections
 rather than rewriting history.
 
+## CHECKERBOARD T-SHIRT BACKGROUND DEFECT — offline correction attempted, blocked by environment limitation (owner-directed, 2026-11-18)
+
+**Owner directive:** prioritize "checkerboard artwork defects" and "continue correcting defective artwork and preparing replacement mockups in offline working files." This task is offline/draft-only — no live product was touched.
+
+**Confirmed root cause (direct pixel-level inspection, not inferred):** fetched the actual uploaded source artwork (not a mockup photo) for `6ac356114cb82ddd30035d42` ("Merry Christmas Wreath") — image id `6ac860439e76522608757f3d`, a 2048x2048 RGBA PNG. Downloaded and viewed it directly: the gray/white checkerboard is baked into real RGB pixel data covering the entire canvas, including the interior of the wreath ring — this is the classic "export with transparency-preview grid rendered as real pixels instead of true alpha" mistake. The design content itself (wreath, pinecones, red bow, "MERRY CHRISTMAS" banner) is intact and undamaged; only the background is wrong. This confirms the original batch inspection's diagnosis for all 12 affected IDs (clustered at catalog positions #015-#032, consistent with a single bad export/upload session):
+`6ac35b8805e1de1c0a035dab`, `6ac35b41ebbf38f6ec068fcb`, `6ac35b0040c9c50ac20245c4`, `6ac3598debbf38f6ec068ec0`, `6ac3591601306e9d6b0a9e79`, `6ac358c152f41a8eba0998f5`, `6ac35801f0b487d2be06631b`, `6ac357bca84c54ac7608ab2b`, `6ac35777f3e4f34bd106b543`, `6ac356ae2776a7c47f00ee18`, `6ac3564b2070a33916078c17`, `6ac356114cb82ddd30035d42`.
+
+**Correction attempted, blocked at the environment level — not a per-image quality problem:**
+1. `mcp__Adobe_for_creativity__image_remove_background` (the correct tool for this exact defect — strip the checkerboard background, keep the sticker-style design) refuses both a direct Printify mockup URL and the direct S3 source-image URL with "domain not whitelisted."
+2. The documented fallback is to upload the file to Adobe's own Creative Cloud storage first (`asset_initialize_file_upload` -> PUT the file to the returned transfer URL -> `asset_finalize_file_upload`), then pass the resulting Adobe-hosted URL to the processing tool. `asset_initialize_file_upload` itself succeeds, but the actual file upload (`PUT` to `at.adobe.com`) is refused by this session's own egress proxy with a 403 policy denial, confirmed via the proxy's own status endpoint (`connect_rejected`, "gateway answered 403 to CONNECT (policy denial or other refusal)", host `at.adobe.com:443`). Per this environment's own proxy guidance, a 403 is a policy denial and must not be retried.
+3. The remaining documented fallback (`asset_add_file`, an interactive file picker) requires a human to select the file live — not usable in an unattended background task with no one watching.
+
+**Conclusion: this defect is NOT fixable with this session's current tool access**, not because the artwork is unsalvageable — it plainly is salvageable, the design content is fine — but because the one tool capable of the fix (`image_remove_background`) cannot currently receive an image in this environment. This is a tooling-access gap, not a design problem.
+
+**Options for the owner:**
+1. Re-run this exact task in an environment/session where Adobe Creative Cloud upload (`at.adobe.com`) is in the network allowlist — the fix itself (background removal on a design that already separates cleanly from its background) should be straightforward once the tool can actually receive the image.
+2. Source clean versions of these 12 designs if the original pre-export files still exist elsewhere (the person/process that uploaded them originally may still have the un-exported source).
+3. Commission/re-generate the 12 designs with a correct transparent export.
+4. Leave as-is for now (lowest-priority cosmetic defect among the current backlog — the design is still readable and recognizable, just visually unprofessional with the checkerboard square).
+
+No live product was modified. No image was edited. No draft was created, since no corrected image exists to stage. This entry documents the investigation and the specific environment blocker so a future session (or the owner directly) doesn't have to re-discover the same limitation.
+
 **Owner directive in force (2026-11-17):** Five-shop Printify quality recovery is the standing top
 priority. Continuous, nonoverlapping batches across all five shops until every product is assessed.
 No live writes (publish/unpublish/price/inventory/account changes) without explicit separate owner
