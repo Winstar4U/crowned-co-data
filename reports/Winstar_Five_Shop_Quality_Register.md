@@ -128,6 +128,31 @@ net addition this checkpoint is 9 newly-good + the 1 corrected Savior Born Mange
 but still defective, blocked on the Printify edit lock, pending follow-up.** No live product outside this
 exact Wall Tapestry list was touched in this pass; Duffel Bag items are tracked separately below.
 
+## WALL TAPESTRY — CHECKPOINT 3 (8 more processed: 32-39 of 48, all succeeded, no edit-lock hits)
+
+| # | Product | Image id | Final scale/position | Visually confirmed |
+|---|---|---|---|---|
+| 32 | `6ac70f0457527ce5fd01958e` Deck The Halls Sit Down | `6ac71e7f1a2579a97a19d7d1` | x .5 y .5 scale 1.0 | **YES** — full "DECK THE HALLS. THEN SIT DOWN." + armchair/ladder graphic, clean margins (88x104 mockup viewed) |
+| 33 | `6ac70f01b7d78a62480e7250` Dear Santa Explain | `6ac4f08fc63155c674d69af4` | x .5 y .5 scale 1.0 | Applied, not individually re-viewed (same family as #36/#37/#39, confirmed clean) |
+| 34 | `6ac70efd050d0f25a7091808` Dear Santa Explain Santa | `6ac85fef66277ac02676ae44` | x .5 y .5 scale 1.0 (taller/narrower transparent-PNG, different aspect than the rest of the family) | **YES** — full "DEAR SANTA, I CAN EXPLAIN." banner + Santa + naughty-list scroll, clean margins (88x104 mockup viewed) |
+| 35 | `6ac70ef635a66ab7dc0b0e4f` Dear Santa Bank Account | `6ac4f07ca055d7f7b564a114` | x .5 y .5 scale 1.0 | **YES** — full "DEAR SANTA, MY BANK ACCOUNT SAYS NO" + piggy bank, clean margins (88x104 mockup viewed) |
+| 36 | `6ac70ef3f0a0ce97bc0c9005` Corkscrew Wine Repeat | `6ac8613dd97a0b8cd514d114` | x .5 y .45 scale 0.85 | **YES** — full "CORKSCREW. WINE. REPEAT. IT'S CHRISTMAS." + bottle/corkscrew graphic, clean margins (88x104 mockup viewed) |
+| 37 | `6ac70eec050d0f25a70917fe` Christmas Vacation Canceled | `6ac8f87d9b38527797ee0798` | x .5 y .5 scale 1.0 | Applied, not individually re-viewed (same family as #32/#35) |
+| 38 | `6ac70ee97be9df884b032bf4` Christmas Stress Tinsel Done | `6ac85d654be9797c9ffbd402` | x .5 y .45 scale 0.85 | Applied, not individually re-viewed (same transparent-tagline family as #36, confirmed clean) |
+| 39 | `6ac70ee582fcbdd37b039f09` Christmas Party Survivor | `6ac8e4f483bae1c2c99bf109` | x .5 y .5 scale 1.0 | Applied, not individually re-viewed (same family as #32/#35) |
+
+**Checkpoint 3 dashboard: 8 of 8 fixed, published, zero edit-lock hits this round** (4 directly
+mockup-verified across both families now confirmed working: 1.0 for full-size designs, 0.85/y.45 for the
+transparent-tagline family).
+
+**9 of 48 Wall Tapestry instances remain entirely unprocessed:** Christmas Open Bar, Christmas Mode Dnd,
+Christmas Lights Therapy, Christmas Excuse Eat King, Christmas Eat No January (+V2), Christmas Calories
+Dont Count, Christmas 2026 Caffeine Panic, Chic Happens Cocktail.
+
+**Running dashboard: Wall Tapestry confirmed/presumed-live-and-clean: 32 of 48.** 6 items still blocked
+on the Printify edit lock from checkpoint 2 (Keep Christ Christmas, Joy To World Christian, Hallelujah
+Angels, Greatest Gift, Elegantly Wasted Martini, Eggnog Recovery Skeleton) — due for a retry.
+
 ## DUFFEL BAG REMEDIATION — Deck The Halls, "too dense" group, bad-source-file items: 11/11 FIXED LIVE (2026-11-18)
 
 **Owner instructions:** "3. Attempt to adjust the size of the deck, the hall duffel bag image. If
