@@ -197,15 +197,23 @@ closer look given the similar title, but confirmed NOT a third duplicate once th
 | #561-660 | **Full visual inspection (100/100), see §8h** — 21/100 confirmed defects, 0 true duplicate pairs | T-361W5U3Q3Q (this session) |
 | #661-760 | **Full visual inspection (100/100), see §8i** — 11/100 confirmed defects, 0 true duplicate pairs | T-722R432X5P (this session) |
 | #761-860 | **Full visual inspection (100/100), see §8j** — 4/100 confirmed defects (both recurrences of §8i source files), 0 true duplicate pairs | T-5T2F3N4B5K (this session) |
-| #861-2,429 | **NOT STARTED** (1,569 products) | Next batch(es) |
+| #861-960 | **Full visual inspection (100/100), see §8k** — 14/100 confirmed defects (incl. 2 new defect types: mirrored text, color-contrast illegibility), 3 true duplicate pairs (new sub-pattern: same blueprint/artwork, different declared pillow size) | T-2U1Q5T3L4A (this session) |
+| #961-2,429 | **NOT STARTED** (1,469 products) | Next batch(es) |
 
 ## 8. Next eligible batch (for whichever session/dispatcher firing picks this up next)
 
-1. Shopify shop 26418699, #561 onward, continuing in ~100-product batches with full visual inspection
-   (every default mockup viewed, not sampled) — see §8f and §8g for the major defect-rate finding (now
-   confirmed across two consecutive batches, 30% then 46%) that makes full inspection (not sampling)
-   essential for this shop, and specifically for the Backpack and Laptop Sleeve blueprints. 1,869 products
-   remain unstarted.
+1. Shopify shop 26418699, #961 onward, continuing in ~100-product batches with full visual inspection
+   (every default mockup viewed, not sampled) — see §8f-§8k for the systemic defect-rate finding (30%,
+   46%, 21%, 11%, 4%, 14% across six batches so far) that makes full inspection (not sampling) essential
+   for this shop. Root causes identified so far: (a) print-window-vs-artwork-size cropping, affecting
+   Backpack/Laptop Sleeve/Mouse Pad/Baby Onesie/Tank Top/Napkin Set/Throw Pillow/Coaster Set/Lunch Box
+   blueprints depending on the specific source file; (b) a handful of bad source-art files reused across
+   many listings regardless of blueprint (garbled/mirrored text, blank placeholder graphics, leftover
+   placeholder values, whole-image transparency artifacts); (c) one color-contrast/illegibility defect
+   (dark text on dark garment). A new duplicate-listing sub-pattern was also found in §8k: identical
+   blueprint + identical artwork sold as separate listings differing only by declared pillow size (18x18
+   vs 20x20) — distinct from the "different blueprint = normal" pattern ruled out elsewhere. 1,469
+   products remain unstarted.
 2. **eBay is now COMPLETE (53/53 visually inspected, see §6a) — do not re-inspect.** **Amazon is now
    COMPLETE (62/62 visually inspected, see §8a) — do not re-inspect.** **TikTok is now COMPLETE (71/71
    visually inspected, see §8b) — do not re-inspect.** **Etsy is now FULLY COMPLETE — all 297 products
@@ -1379,6 +1387,105 @@ Printify-mapping-only caveat applied throughout this register.
 **No live writes were made.** All findings above are documentation only; no publish/unpublish/price/
 inventory/delete action was taken on any of these 100 products.
 
+## 8k. Shopify shop (26418699, Winstar4U) #861-960 — sixth full-visual-inspection batch: 100/100
+## visually inspected, 14/100 confirmed defects, 3 confirmed duplicate pairs (new sub-pattern) (2026-11-18, this session)
+
+**STATUS: COMPLETE.** All 100 products in catalog positions #861-960 fully visually inspected (every
+default mockup image downloaded and viewed, not sampled). Blueprint mix this batch: Coaster Set (9),
+Pullover Hoodie — mixed Valentine's Day (9) + Thanksgiving (9) = 18, Fleece Zip-Up (17), Tablecloth (16),
+Lunch Box (14), Throw Pillow Case (21, split 18x18/20x20), Cloth Napkin Set (3), Women's T-Shirt (2).
+
+### Confirmed defects (14/100)
+
+**Cropping pattern (10/14)** — continuation of the systemic print-window-vs-artwork-size finding from
+§8f-§8j. Three listings are RECURRENCES of bad source-art files already flagged in prior batches
+(running totals now: "Happy Holidays Tree" HAPPY-clipped = 6 listings across Backpack/Laptop
+Sleeve/Tank Top/Coaster Set/Napkin Set/Tablecloth/Throw Pillow; "Candy Cane Lane" blank-sign-banner =
+6 listings across Backpack/Laptop Sleeve/Tank Top/Coaster Set/Napkin Set/Tablecloth/Throw Pillow).
+Seven are NEW occurrences on blueprints not previously confirmed affected (Lunch Box, Throw Pillow
+"Truck Tree"/"Home For Christmas"/"Fireplace Stocking"):
+
+- `6ac71308d9b782898109a98a` (Happy Holidays Tree Tablecloth) — top of "HAPPY" clipped (recurrence)
+- `6ac712fa42c818a1ad095f97` (Candy Cane Lane Tablecloth) — blank street-sign banner (recurrence)
+- `6ac71340b814691321003853` (Candy Cane Lane Throw Pillow 20x20) — blank street-sign banner (recurrence)
+- `6ac712f80ed8f1657605f2f1` (Candy Cane Lane Throw Pillow 18x18) — blank street-sign banner (recurrence)
+- `6ac71305fa3cae10170efb32` (Happy Holidays Tree Throw Pillow 18x18) — "HAPPY" fully cropped off,
+  only "HOLIDAYS" visible (worse crop than prior occurrences — recurrence)
+- `6ac7132e57527ce5fd0197dc` (Truck Tree Throw Pillow 18x18) — top of "CHRISTMAS" clipped — **NEW
+  occurrence on this design**
+- `6ac71309fa3cae10170efb40` (Home For Christmas Throw Pillow 18x18) — top line "HOME FOR"
+  clipped/barely legible — **NEW**
+- `6ac71302336f835866011570` (Fireplace Stocking Throw Pillow 18x18) — entire top line "CHRISTMAS"
+  cropped off, only "MORNING" visible — **NEW, severe**
+- `6ac713139ba30d41e40660a1` (I Came I Saw I Bought It Lunch Box) — top line "I CAME." nearly entirely
+  cropped — **NEW blueprint affected (Lunch Box), severe**
+- `6ac712fc0bf5e4d1ad0e6501` (Rejoice Star Lunch Box) — top of "REJOICE" clipped — **NEW blueprint**
+- `6ac712f10bf5e4d1ad0e64e8` (Keep Christ Christmas Lunch Box) — top of "KEEP CHRIST" clipped — **NEW blueprint**
+- `6ac71310a005c19c550d8a31` (Holiday Spirit Cookies Lunch Box) — minor: top serifs of "HOLIDAY" clipped — **NEW blueprint, minor**
+
+Note: the Tablecloth blueprint (1624) itself proved generally SAFE for this cropping pattern — 14 of 16
+Tablecloth products were clean; the 2 defective Tablecloth rows are recurrences of the same two bad
+*source-art files* (not a Tablecloth-blueprint-wide issue), confirming again that the defect tracks the
+individual artwork file's own margins against each blueprint's print window, not a fixed per-blueprint
+rule.
+
+**New defect types this batch, NOT cropping (2/14):**
+
+- `6ac7133c83f1a0e50d071de3` ("Christmas Open Bar" Fleece Zip-Up) — the top line "2026:" renders
+  mirrored/garbled, appearing reversed and illegible. This is a source-art text-rendering error, not a
+  print-window crop — a new defect category for this recovery.
+- `6ac71318d0a23214d80b2650` ("Chic Happens Cocktail" Fleece Zip-Up) — the subtitle line renders in
+  dark gray on the black garment color, essentially invisible due to near-zero contrast. Also a new
+  defect category: color-contrast/legibility, distinct from both cropping and garbled text.
+
+### Confirmed true duplicate pairs (3) — NEW sub-pattern: identical blueprint, identical artwork,
+### differing only in declared pillow size (18x18 vs 20x20)
+
+Unlike prior "different blueprint = normal reuse" rulings in this effort, these three pairs share the
+**same Printify blueprint_id (5353, Throw Pillow Case)**, the same print-area image filename, and the
+same scale value — the only difference is the product title declaring a different physical size (18x18
+vs 20x20). Both members of each pair were viewed and are visually identical except for pillow
+proportions implied by the title:
+
+1. "Candy Cane Lane Christmas Throw Pillow Case 20x20" (`6ac71340b814691321003853`) vs "...18x18"
+   (`6ac712f80ed8f1657605f2f1`) — both also carry the recurring blank-sign-banner defect.
+2. "Believe Sleigh Christmas Throw Pillow Case 20x20" (`6ac7133d0bf5e4d1ad0e6537`) vs "...18x18"
+   (`6ac712f442c818a1ad095f8e`) — both clean artwork.
+3. "Naughty List Vip Christmas Throw Pillow Case 20x20" (`6ac71339b81469132100384a`) vs "...18x18"
+   (`6ac712f06f976358160c47db`) — both clean artwork.
+
+**Assessment:** this looks like the same underlying catalog-integrity issue already flagged for Amazon
+(§8a) and Etsy (§8d/§8e) — the same design sold as two separate product *listings* for what a normal
+POD shop would typically offer as size *variants* within one listing. Whether Shopify/this Printify
+integration can actually merge pillow sizes into one listing's variant set is a platform-capability
+question outside this visual-inspection task's scope — flagging for the owner's consolidated decision,
+not treating it as resolved either way.
+
+### Duplicate-candidate groups checked and ruled OUT (same main title, different blueprint — normal
+### product-line variation, consistent with all prior batches)
+
+"Naughty List Vip" (Tablecloth + Napkin Set + the 2 Throw Pillow sizes above), "Believe Sleigh"
+(Tablecloth + Napkin Set + the 2 Throw Pillow sizes above), "Savior Born Manger" / "Rejoice Star" /
+"Reason For Season" / "O Holy Night" / "Keep Christ Christmas" (each reused across Coaster Set + Lunch
+Box) — all confirmed as the same artwork intentionally reused across genuinely different product types,
+not a duplicate-listing defect.
+
+"Christmas Eat No January" vs "...V2" (Fleece Zip-Up) and "Naughty List Skeleton" vs "...V2" (Fleece
+Zip-Up) — different background art/rendering style per the "V1 badge-style vs V2 retro-style" pattern
+already established in this effort; not duplicates.
+
+### Sync-mapping status (batch #861-960)
+
+18/100 products show a populated Printify `external` field via the bulk `include_full=true` list
+endpoint. Per the register's standing caveat (§1): this is Printify-side channel-mapping evidence only,
+not a claim about actual Shopify-side buyability, inventory, or listing status.
+
+### Methodology note
+
+No IP/trademark flags this batch. This batch's roster spanned three holiday themes (Christmas,
+Valentine's Day, Thanksgiving) rather than Christmas-only — all three themes inspected with the same
+method; no theme-specific issues found beyond the defects listed above.
+
 ## 13. Etsy batch 3/3 full 97-row ID register (complete, per-product evidence, same format as §9/§10/§11/§12)
 
 Format: `Printify ID | Title | Visual result | Default mockup image URL used for inspection`.
@@ -2010,3 +2117,111 @@ individually checked per-ID this batch — see §8f sync-mapping note.
 | 6ac71344fa3cae10170efb73 | Christmas Wishes Sta Christmas Throw Pillow Case 20x20 — Easy Couch & Bed Accent, Holiday Home Decor Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71344fa3cae10170efb73/244227/155841/christmas-wishes-sta-christmas-throw-pillow-case-20x20-easy-couch-bed-accent-holiday-home-decor-gift-winstar4u.jpg?camera_label=front |
 | 6ac7134483f1a0e50d071df7 | Candy Cane Lane Christmas Cloth Napkin Set — Elegant Holiday Hosting Essential, Holiday Gift | Winstar4U | DEFECT - blank street-sign banner (no text rendered, same source file) | https://images.printify.com/mockup/6ac7134483f1a0e50d071df7/113861/127466/candy-cane-lane-christmas-cloth-napkin-set-elegant-holiday-hosting-essential-holiday-gift-winstar4u.jpg?camera_label=front |
 | 6ac71343fa3cae10170efb72 | Christmas Stress Tinsel Done Christmas Fleece Zip-Up — Cozy Full-Zip Holiday Hoodie, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71343fa3cae10170efb72/31950/110719/christmas-stress-tinsel-done-christmas-fleece-zip-up-cozy-full-zip-holiday-hoodie-holiday-gift-winstar4u.jpg?camera_label=front-2 |
+
+
+## 19. Shopify #861-960 full 100-row ID register (complete, per-product evidence, same format as §9/§10/§11/§12/§13/§14/§15/§16/§17/§18)
+
+Format: `Printify ID | Title | Visual result | Default mockup image URL used for inspection`.
+
+| ID | Title | Result | Default mockup image |
+|---|---|---|---|
+| 6ac713430bf5e4d1ad0e653f | Savior Born Manger Christmas Coaster Set — Cork-Back Coaster Set, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac713430bf5e4d1ad0e653f/74633/40573/savior-born-manger-christmas-coaster-set-cork-back-coaster-set-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7134257527ce5fd0197fa | Purr-fect Valentine Cat Valentine's Day Hoodie — Cozy Pullover Hoodie, Valentine's Day Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7134257527ce5fd0197fa/32920/98424/purr-fect-valentine-cat-valentines-day-hoodie-cozy-pullover-hoodie-valentines-day-gift-winstar4u.jpg?camera_label=front |
+| 6ac71340d0a23214d80b2669 | Christmas Party Survivor Christmas Fleece Zip-Up — Cozy Full-Zip Holiday Hoodie, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71340d0a23214d80b2669/31948/110719/christmas-party-survivor-christmas-fleece-zip-up-cozy-full-zip-holiday-hoodie-holiday-gift-winstar4u.jpg?camera_label=front-2 |
+| 6ac71340b814691321003853 | Candy Cane Lane Christmas Throw Pillow Case 20x20 — Easy Couch & Bed Accent, Holiday Home Decor Gift | Winstar4U | DEFECT (blank street-sign banner — recurrence) [DUP-size-variant, see below] | https://images.printify.com/mockup/6ac71340b814691321003853/244227/155841/candy-cane-lane-christmas-throw-pillow-case-20x20-easy-couch-bed-accent-holiday-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac7134083f1a0e50d071df3 | Rejoice Star Christmas Coaster Set — Cork-Back Coaster Set, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7134083f1a0e50d071df3/74633/40573/rejoice-star-christmas-coaster-set-cork-back-coaster-set-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac71340336f8358660115af | Believe Sleigh Christmas Cloth Napkin Set — Elegant Holiday Hosting Essential, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71340336f8358660115af/113861/127466/believe-sleigh-christmas-cloth-napkin-set-elegant-holiday-hosting-essential-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7133d35a66ab7dc0b107d | Naughty List Vip Christmas Cloth Napkin Set — Elegant Holiday Hosting Essential, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7133d35a66ab7dc0b107d/113861/127466/naughty-list-vip-christmas-cloth-napkin-set-elegant-holiday-hosting-essential-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7133d0bf5e4d1ad0e6537 | Believe Sleigh Christmas Throw Pillow Case 20x20 — Easy Couch & Bed Accent, Holiday Home Decor Gift | Winstar4U | CLEAN [DUP-size-variant, see below] | https://images.printify.com/mockup/6ac7133d0bf5e4d1ad0e6537/244227/155841/believe-sleigh-christmas-throw-pillow-case-20x20-easy-couch-bed-accent-holiday-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac7133cfb1d11d19e037086 | Reason For Season Christmas Coaster Set — Cork-Back Coaster Set, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7133cfb1d11d19e037086/74633/40573/reason-for-season-christmas-coaster-set-cork-back-coaster-set-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7133c83f1a0e50d071de3 | Christmas Open Bar Christmas Fleece Zip-Up — Cozy Full-Zip Holiday Hoodie, Holiday Gift | Winstar4U | DEFECT (top line "2026:" renders mirrored/garbled — source-art text error) | https://images.printify.com/mockup/6ac7133c83f1a0e50d071de3/31950/110719/christmas-open-bar-christmas-fleece-zip-up-cozy-full-zip-holiday-hoodie-holiday-gift-winstar4u.jpg?camera_label=front-2 |
+| 6ac7133a83f1a0e50d071de1 | No Valentine? No Problem Valentine's Day Hoodie — Cozy Pullover Hoodie, Valentine's Day Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7133a83f1a0e50d071de1/32920/98424/no-valentine-no-problem-valentines-day-hoodie-cozy-pullover-hoodie-valentines-day-gift-winstar4u.jpg?camera_label=front |
+| 6ac71339b81469132100384a | Naughty List Vip Christmas Throw Pillow Case 20x20 — Easy Couch & Bed Accent, Holiday Home Decor Gift | Winstar4U | CLEAN [DUP-size-variant, see below] | https://images.printify.com/mockup/6ac71339b81469132100384a/244227/155841/naughty-list-vip-christmas-throw-pillow-case-20x20-easy-couch-bed-accent-holiday-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac713376356cae0df02e3ea | Christmas Mode Dnd Christmas Fleece Zip-Up — Cozy Full-Zip Holiday Hoodie, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac713376356cae0df02e3ea/31948/110719/christmas-mode-dnd-christmas-fleece-zip-up-cozy-full-zip-holiday-hoodie-holiday-gift-winstar4u.jpg?camera_label=front-2 |
+| 6ac713376356cae0df02e3e9 | O Holy Night Christmas Coaster Set — Cork-Back Coaster Set, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac713376356cae0df02e3e9/74633/40573/o-holy-night-christmas-coaster-set-cork-back-coaster-set-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac71336fa3cae10170efb5e | Love You More Splash Hearts Valentine's Day Hoodie — Cozy Pullover Hoodie, Valentine's Day Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71336fa3cae10170efb5e/32920/98424/love-you-more-splash-hearts-valentines-day-hoodie-cozy-pullover-hoodie-valentines-day-gift-winstar4u.jpg?camera_label=front |
+| 6ac71334d9b782898109a9af | Christmas Lights Therapy Christmas Fleece Zip-Up — Cozy Full-Zip Holiday Hoodie, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71334d9b782898109a9af/31950/110719/christmas-lights-therapy-christmas-fleece-zip-up-cozy-full-zip-holiday-hoodie-holiday-gift-winstar4u.jpg?camera_label=front-2 |
+| 6ac71334336f8358660115a1 | Keep Christ Christmas Christmas Coaster Set — Cork-Back Coaster Set, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71334336f8358660115a1/74633/40573/keep-christ-christmas-christmas-coaster-set-cork-back-coaster-set-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac71332fa3cae10170efb59 | Galentine's Gang Toast Valentine's Day Hoodie — Cozy Pullover Hoodie, Valentine's Day Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71332fa3cae10170efb59/32912/98424/galentines-gang-toast-valentines-day-hoodie-cozy-pullover-hoodie-valentines-day-gift-winstar4u.jpg?camera_label=front |
+| 6ac7133035cf3f6ec802eaf6 | Christmas Excuse Eat King Christmas Fleece Zip-Up — Cozy Full-Zip Holiday Hoodie, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7133035cf3f6ec802eaf6/31950/110719/christmas-excuse-eat-king-christmas-fleece-zip-up-cozy-full-zip-holiday-hoodie-holiday-gift-winstar4u.jpg?camera_label=front-2 |
+| 6ac71330336f8358660115a0 | Joy To World Christian Christmas Coaster Set — Cork-Back Coaster Set, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71330336f8358660115a0/74633/40573/joy-to-world-christian-christmas-coaster-set-cork-back-coaster-set-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7132f6356cae0df02e3e3 | Forever Yours Roses Valentine's Day Hoodie — Cozy Pullover Hoodie, Valentine's Day Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7132f6356cae0df02e3e3/32912/98424/forever-yours-roses-valentines-day-hoodie-cozy-pullover-hoodie-valentines-day-gift-winstar4u.jpg?camera_label=front |
+| 6ac7132eb81469132100383f | Naughty List Skeleton Christmas Cloth Napkin Set — Elegant Holiday Hosting Essential, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7132eb81469132100383f/113861/127466/naughty-list-skeleton-christmas-cloth-napkin-set-elegant-holiday-hosting-essential-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7132e57527ce5fd0197dc | Truck Tree Christmas Throw Pillow Case 18x18 — Easy Couch & Bed Accent, Holiday Home Decor Gift | Winstar4U | DEFECT (top of "CHRISTMAS" clipped) | https://images.printify.com/mockup/6ac7132e57527ce5fd0197dc/244224/155844/truck-tree-christmas-throw-pillow-case-18x18-easy-couch-bed-accent-holiday-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac7132d83cd0988460e92d4 | Hallelujah Angels Christmas Coaster Set — Cork-Back Coaster Set, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7132d83cd0988460e92d4/74633/40573/hallelujah-angels-christmas-coaster-set-cork-back-coaster-set-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7132d46dd1e896e04e1ad | Christmas Eat No January Christmas Fleece Zip-Up — Cozy Full-Zip Holiday Hoodie, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7132d46dd1e896e04e1ad/31948/110719/christmas-eat-no-january-christmas-fleece-zip-up-cozy-full-zip-holiday-hoodie-holiday-gift-winstar4u.jpg?camera_label=front-2 |
+| 6ac7132bd0a23214d80b2658 | Elegant Gold Filigree Hearts Valentine's Day Hoodie — Cozy Pullover Hoodie, Valentine's Day Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7132bd0a23214d80b2658/32912/98424/elegant-gold-filigree-hearts-valentines-day-hoodie-cozy-pullover-hoodie-valentines-day-gift-winstar4u.jpg?camera_label=front |
+| 6ac7132b83cd0988460e92d2 | Seasons Greetings Christmas Tablecloth — Festive Holiday Table Decor, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7132b83cd0988460e92d2/112701/112238/seasons-greetings-christmas-tablecloth-festive-holiday-table-decor-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7132b336f83586601159c | Silent Night Village Christmas Throw Pillow Case 18x18 — Easy Couch & Bed Accent, Holiday Home Decor Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7132b336f83586601159c/244224/155844/silent-night-village-christmas-throw-pillow-case-18x18-easy-couch-bed-accent-holiday-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac7132a6356cae0df02e3dd | Greatest Gift Christmas Coaster Set — Cork-Back Coaster Set, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7132a6356cae0df02e3dd/74633/40573/greatest-gift-christmas-coaster-set-cork-back-coaster-set-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7132a35cf3f6ec802eaf1 | Christmas Eat No January V2 Christmas Fleece Zip-Up — Cozy Full-Zip Holiday Hoodie, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7132a35cf3f6ec802eaf1/31950/110719/christmas-eat-no-january-v2-christmas-fleece-zip-up-cozy-full-zip-holiday-hoodie-holiday-gift-winstar4u.jpg?camera_label=front-2 |
+| 6ac71327fa3cae10170efb55 | Peace On Earth Christmas Tablecloth — Festive Holiday Table Decor, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71327fa3cae10170efb55/112701/112238/peace-on-earth-christmas-tablecloth-festive-holiday-table-decor-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7132735cf3f6ec802eaf0 | Seasons Greetings Christmas Throw Pillow Case 18x18 — Easy Couch & Bed Accent, Holiday Home Decor Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7132735cf3f6ec802eaf0/244224/155844/seasons-greetings-christmas-throw-pillow-case-18x18-easy-couch-bed-accent-holiday-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac71326fb1d11d19e037074 | Christmas Calories Dont Count Christmas Fleece Zip-Up — Cozy Full-Zip Holiday Hoodie, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71326fb1d11d19e037074/31948/110719/christmas-calories-dont-count-christmas-fleece-zip-up-cozy-full-zip-holiday-hoodie-holiday-gift-winstar4u.jpg?camera_label=front-2 |
+| 6ac7132683f1a0e50d071dcd | Besties Before Boys Valentine's Day Hoodie — Cozy Pullover Hoodie, Valentine's Day Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7132683f1a0e50d071dcd/32920/98424/besties-before-boys-valentines-day-hoodie-cozy-pullover-hoodie-valentines-day-gift-winstar4u.jpg?camera_label=front |
+| 6ac71324b32a96bbe40d0d4e | Peace On Earth Christmas Throw Pillow Case 18x18 — Easy Couch & Bed Accent, Holiday Home Decor Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71324b32a96bbe40d0d4e/244224/155844/peace-on-earth-christmas-throw-pillow-case-18x18-easy-couch-bed-accent-holiday-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac7132483cd0988460e92cc | Noel Elegant Christmas Tablecloth — Festive Holiday Table Decor, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7132483cd0988460e92cc/112701/112238/noel-elegant-christmas-tablecloth-festive-holiday-table-decor-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7132146dd1e896e04e1a5 | God Bless Christmas Christmas Coaster Set — Cork-Back Coaster Set, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7132146dd1e896e04e1a5/74633/40573/god-bless-christmas-christmas-coaster-set-cork-back-coaster-set-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac713206027ad007d0e7e3c | Merry Christmas Sant Christmas Tablecloth — Festive Holiday Table Decor, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac713206027ad007d0e7e3c/112701/112238/merry-christmas-sant-christmas-tablecloth-festive-holiday-table-decor-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7132042c818a1ad095fc9 | Noel Elegant Christmas Throw Pillow Case 18x18 — Easy Couch & Bed Accent, Holiday Home Decor Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7132042c818a1ad095fc9/244224/155844/noel-elegant-christmas-throw-pillow-case-18x18-easy-couch-bed-accent-holiday-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac7131e83f1a0e50d071dca | Be Mine Candy Heart Valentine's Day Hoodie — Cozy Pullover Hoodie, Valentine's Day Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7131e83f1a0e50d071dca/32912/98424/be-mine-candy-heart-valentines-day-hoodie-cozy-pullover-hoodie-valentines-day-gift-winstar4u.jpg?camera_label=front |
+| 6ac7131db32a96bbe40d0d4b | Jingle Bells Santa Smells Christmas Lunch Box — Bento Box for Holiday Lunches, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7131db32a96bbe40d0d4b/72920/16777/jingle-bells-santa-smells-christmas-lunch-box-bento-box-for-holiday-lunches-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7131d46dd1e896e04e1a0 | Merry Bright Lights Christmas Tablecloth — Festive Holiday Table Decor, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7131d46dd1e896e04e1a0/112701/112238/merry-bright-lights-christmas-tablecloth-festive-holiday-table-decor-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7131d0ed8f1657605f325 | Merry Christmas Sant Christmas Throw Pillow Case 18x18 — Easy Couch & Bed Accent, Holiday Home Decor Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7131d0ed8f1657605f325/244224/155844/merry-christmas-sant-christmas-throw-pillow-case-18x18-easy-couch-bed-accent-holiday-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac7131b336f835866011590 | Christmas 2026 Caffeine Panic Christmas Fleece Zip-Up — Cozy Full-Zip Holiday Hoodie, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7131b336f835866011590/31950/110719/christmas-2026-caffeine-panic-christmas-fleece-zip-up-cozy-full-zip-holiday-hoodie-holiday-gift-winstar4u.jpg?camera_label=front-2 |
+| 6ac7131ab32a96bbe40d0d4a | Jingle All Way Liquor Christmas Lunch Box — Bento Box for Holiday Lunches, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7131ab32a96bbe40d0d4a/72920/16777/jingle-all-way-liquor-christmas-lunch-box-bento-box-for-holiday-lunches-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7131a42c818a1ad095fc8 | Anti-Valentine's Club Valentine's Day Hoodie — Cozy Pullover Hoodie, Valentine's Day Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7131a42c818a1ad095fc8/32920/98424/anti-valentines-club-valentines-day-hoodie-cozy-pullover-hoodie-valentines-day-gift-winstar4u.jpg?camera_label=front |
+| 6ac71319d0a23214d80b2651 | Let It Snow Christmas Tablecloth — Festive Holiday Table Decor, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71319d0a23214d80b2651/112701/112238/let-it-snow-christmas-tablecloth-festive-holiday-table-decor-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7131942c818a1ad095fc7 | Merry Bright Lights Christmas Throw Pillow Case 18x18 — Easy Couch & Bed Accent, Holiday Home Decor Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7131942c818a1ad095fc7/244224/155844/merry-bright-lights-christmas-throw-pillow-case-18x18-easy-couch-bed-accent-holiday-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac71318d0a23214d80b2650 | Chic Happens Cocktail Christmas Fleece Zip-Up — Cozy Full-Zip Holiday Hoodie, Holiday Gift | Winstar4U | DEFECT (subtitle rendered dark-gray on black garment, illegible — contrast defect) | https://images.printify.com/mockup/6ac71318d0a23214d80b2650/31950/110719/chic-happens-cocktail-christmas-fleece-zip-up-cozy-full-zip-holiday-hoodie-holiday-gift-winstar4u.jpg?camera_label=front-2 |
+| 6ac713176356cae0df02e3d4 | Ill Be Home Christmas Probably Christmas Lunch Box — Bento Box for Holiday Lunches, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac713176356cae0df02e3d4/72920/16777/ill-be-home-christmas-probably-christmas-lunch-box-bento-box-for-holiday-lunches-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac71316d0a23214d80b264f | Let It Snow Christmas Throw Pillow Case 18x18 — Easy Couch & Bed Accent, Holiday Home Decor Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71316d0a23214d80b264f/244224/155844/let-it-snow-christmas-throw-pillow-case-18x18-easy-couch-bed-accent-holiday-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac713169ba30d41e40660a5 | Vintage Turkey Thanksgiving Hoodie — Cozy Pullover Hoodie, Thanksgiving Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac713169ba30d41e40660a5/32912/98424/vintage-turkey-thanksgiving-hoodie-cozy-pullover-hoodie-thanksgiving-gift-winstar4u.jpg?camera_label=front |
+| 6ac7131642c818a1ad095fc1 | Joy To World Christmas Tablecloth — Festive Holiday Table Decor, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7131642c818a1ad095fc1/112701/112238/joy-to-world-christmas-tablecloth-festive-holiday-table-decor-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac713139ba30d41e40660a1 | I Came I Saw I Bought It Christmas Lunch Box — Bento Box for Holiday Lunches, Holiday Gift | Winstar4U | DEFECT (top line "I CAME." nearly entirely cropped by print-area edge) | https://images.printify.com/mockup/6ac713139ba30d41e40660a1/72920/16777/i-came-i-saw-i-bought-it-christmas-lunch-box-bento-box-for-holiday-lunches-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac71312a4c95c48e20362b2 | Joy To World Christmas Throw Pillow Case 18x18 — Easy Couch & Bed Accent, Holiday Home Decor Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71312a4c95c48e20362b2/244224/155844/joy-to-world-christmas-throw-pillow-case-18x18-easy-couch-bed-accent-holiday-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac7131242c818a1ad095fbf | Turkey Sunglasses Thanksgiving Hoodie — Cozy Pullover Hoodie, Thanksgiving Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7131242c818a1ad095fbf/32912/98424/turkey-sunglasses-thanksgiving-hoodie-cozy-pullover-hoodie-thanksgiving-gift-winstar4u.jpg?camera_label=front |
+| 6ac71311336f835866011587 | Calories Dont Count Thanksgiving Christmas Fleece Zip-Up — Cozy Full-Zip Holiday Hoodie, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71311336f835866011587/31948/110719/calories-dont-count-thanksgiving-christmas-fleece-zip-up-cozy-full-zip-holiday-hoodie-holiday-gift-winstar4u.jpg?camera_label=front-2 |
+| 6ac71310a005c19c550d8a31 | Holiday Spirit Cookies Christmas Lunch Box — Bento Box for Holiday Lunches, Holiday Gift | Winstar4U | DEFECT-minor (top of "HOLIDAY" serifs clipped) | https://images.printify.com/mockup/6ac71310a005c19c550d8a31/72920/16777/holiday-spirit-cookies-christmas-lunch-box-bento-box-for-holiday-lunches-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7130f2d1baaa3fd00586c | Turkey On The Run Thanksgiving Hoodie — Cozy Pullover Hoodie, Thanksgiving Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7130f2d1baaa3fd00586c/32912/98424/turkey-on-the-run-thanksgiving-hoodie-cozy-pullover-hoodie-thanksgiving-gift-winstar4u.jpg?camera_label=front |
+| 6ac7130f0ed8f1657605f31a | Jingle Bells Christmas Tablecloth — Festive Holiday Table Decor, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7130f0ed8f1657605f31a/112701/112238/jingle-bells-christmas-tablecloth-festive-holiday-table-decor-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7130ea4c95c48e20362a8 | Bah Humbug Wine Christmas Fleece Zip-Up — Cozy Full-Zip Holiday Hoodie, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7130ea4c95c48e20362a8/31948/110719/bah-humbug-wine-christmas-fleece-zip-up-cozy-full-zip-holiday-hoodie-holiday-gift-winstar4u.jpg?camera_label=front-2 |
+| 6ac7130ca005c19c550d8a2d | Ho Ho Pour Another Christmas Lunch Box — Bento Box for Holiday Lunches, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7130ca005c19c550d8a2d/72920/16777/ho-ho-pour-another-christmas-lunch-box-bento-box-for-holiday-lunches-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7130c0bf5e4d1ad0e651e | Jingle Bells Christmas Throw Pillow Case 18x18 — Easy Couch & Bed Accent, Holiday Home Decor Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7130c0bf5e4d1ad0e651e/244224/155844/jingle-bells-christmas-throw-pillow-case-18x18-easy-couch-bed-accent-holiday-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac7130b42c818a1ad095fb9 | Home For Christmas Christmas Tablecloth — Festive Holiday Table Decor, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7130b42c818a1ad095fb9/112701/112238/home-for-christmas-christmas-tablecloth-festive-holiday-table-decor-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7130b35a66ab7dc0b105a | Turkey Day Squad Thanksgiving Hoodie — Cozy Pullover Hoodie, Thanksgiving Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7130b35a66ab7dc0b105a/32912/98424/turkey-day-squad-thanksgiving-hoodie-cozy-pullover-hoodie-thanksgiving-gift-winstar4u.jpg?camera_label=front |
+| 6ac7130a0bf5e4d1ad0e651c | Avoiding Carolers Raccoon Christmas Fleece Zip-Up — Cozy Full-Zip Holiday Hoodie, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7130a0bf5e4d1ad0e651c/31950/110719/avoiding-carolers-raccoon-christmas-fleece-zip-up-cozy-full-zip-holiday-hoodie-holiday-gift-winstar4u.jpg?camera_label=front-2 |
+| 6ac71309fa3cae10170efb40 | Home For Christmas Christmas Throw Pillow Case 18x18 — Easy Couch & Bed Accent, Holiday Home Decor Gift | Winstar4U | DEFECT (top line "HOME FOR" clipped/barely legible) | https://images.printify.com/mockup/6ac71309fa3cae10170efb40/244224/155844/home-for-christmas-christmas-throw-pillow-case-18x18-easy-couch-bed-accent-holiday-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac71309b32a96bbe40d0d36 | Here For Snacks Christmas Lunch Box — Bento Box for Holiday Lunches, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71309b32a96bbe40d0d36/72920/16777/here-for-snacks-christmas-lunch-box-bento-box-for-holiday-lunches-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac71308d9b782898109a98a | Happy Holidays Tree Christmas Tablecloth — Festive Holiday Table Decor, Holiday Gift | Winstar4U | DEFECT (top of "HAPPY" clipped — recurrence of bad source file) | https://images.printify.com/mockup/6ac71308d9b782898109a98a/112701/112238/happy-holidays-tree-christmas-tablecloth-festive-holiday-table-decor-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac71307fa3cae10170efb3c | Thankful Grateful Blessed Thanksgiving Hoodie — Cozy Pullover Hoodie, Thanksgiving Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71307fa3cae10170efb3c/32920/98424/thankful-grateful-blessed-thanksgiving-hoodie-cozy-pullover-hoodie-thanksgiving-gift-winstar4u.jpg?camera_label=front |
+| 6ac713079ba30d41e4066092 | Avoiding Carolers Gnome Christmas Fleece Zip-Up — Cozy Full-Zip Holiday Hoodie, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac713079ba30d41e4066092/31950/110719/avoiding-carolers-gnome-christmas-fleece-zip-up-cozy-full-zip-holiday-hoodie-holiday-gift-winstar4u.jpg?camera_label=front-2 |
+| 6ac713060ed8f1657605f30c | Walk By Faith Christmas Lunch Box — Bento Box for Holiday Lunches, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac713060ed8f1657605f30c/72920/16777/walk-by-faith-christmas-lunch-box-bento-box-for-holiday-lunches-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac71305fa3cae10170efb32 | Happy Holidays Tree Christmas Throw Pillow Case 18x18 — Easy Couch & Bed Accent, Holiday Home Decor Gift | Winstar4U | DEFECT-severe ("HAPPY" fully cropped off, only "HOLIDAYS" visible — recurrence) [DUP-size-variant, see below] | https://images.printify.com/mockup/6ac71305fa3cae10170efb32/244224/155844/happy-holidays-tree-christmas-throw-pillow-case-18x18-easy-couch-bed-accent-holiday-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac71304fa3cae10170efb30 | Fireplace Stocking Christmas Tablecloth — Festive Holiday Table Decor, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71304fa3cae10170efb30/112701/112238/fireplace-stocking-christmas-tablecloth-festive-holiday-table-decor-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac71303a005c19c550d8a17 | All I Want Nap Christmas Fleece Zip-Up — Cozy Full-Zip Holiday Hoodie, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71303a005c19c550d8a17/31948/110719/all-i-want-nap-christmas-fleece-zip-up-cozy-full-zip-holiday-hoodie-holiday-gift-winstar4u.jpg?camera_label=front-2 |
+| 6ac713039ba30d41e406608d | Talk Turkey To Me Thanksgiving Hoodie — Cozy Pullover Hoodie, Thanksgiving Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac713039ba30d41e406608d/32912/98424/talk-turkey-to-me-thanksgiving-hoodie-cozy-pullover-hoodie-thanksgiving-gift-winstar4u.jpg?camera_label=front |
+| 6ac71302b32a96bbe40d0d25 | Thankful Grateful Blesse Christmas Lunch Box — Bento Box for Holiday Lunches, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71302b32a96bbe40d0d25/72920/16777/thankful-grateful-blesse-christmas-lunch-box-bento-box-for-holiday-lunches-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac71302336f835866011570 | Fireplace Stocking Christmas Throw Pillow Case 18x18 — Easy Couch & Bed Accent, Holiday Home Decor Gift | Winstar4U | DEFECT-severe (entire top line "CHRISTMAS" cropped, only "MORNING" visible) | https://images.printify.com/mockup/6ac71302336f835866011570/244224/155844/fireplace-stocking-christmas-throw-pillow-case-18x18-easy-couch-bed-accent-holiday-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac71301336f83586601156e | Deck The Halls Christmas Tablecloth — Festive Holiday Table Decor, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71301336f83586601156e/112701/112238/deck-the-halls-christmas-tablecloth-festive-holiday-table-decor-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac71300a005c19c550d8a0f | All I Want Nap Pillow Christmas Fleece Zip-Up — Cozy Full-Zip Holiday Hoodie, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71300a005c19c550d8a0f/31950/110719/all-i-want-nap-pillow-christmas-fleece-zip-up-cozy-full-zip-holiday-hoodie-holiday-gift-winstar4u.jpg?camera_label=front-2 |
+| 6ac712ffd9b782898109a981 | Savior Born Manger Christmas Lunch Box — Bento Box for Holiday Lunches, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac712ffd9b782898109a981/72920/16777/savior-born-manger-christmas-lunch-box-bento-box-for-holiday-lunches-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac712fefa3cae10170efb27 | Deck The Halls Christmas Throw Pillow Case 18x18 — Easy Couch & Bed Accent, Holiday Home Decor Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac712fefa3cae10170efb27/244224/155844/deck-the-halls-christmas-throw-pillow-case-18x18-easy-couch-bed-accent-holiday-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac712fd6356cae0df02e3ad | Christmas Wishes Sta Christmas Tablecloth — Festive Holiday Table Decor, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac712fd6356cae0df02e3ad/112701/112238/christmas-wishes-sta-christmas-tablecloth-festive-holiday-table-decor-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac712fc0bf5e4d1ad0e6501 | Rejoice Star Christmas Lunch Box — Bento Box for Holiday Lunches, Holiday Gift | Winstar4U | DEFECT (top of "REJOICE" clipped) | https://images.printify.com/mockup/6ac712fc0bf5e4d1ad0e6501/72920/16777/rejoice-star-christmas-lunch-box-bento-box-for-holiday-lunches-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac712fbfa3cae10170efb1d | Leftovers Crew Thanksgiving Hoodie — Cozy Pullover Hoodie, Thanksgiving Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac712fbfa3cae10170efb1d/32912/98424/leftovers-crew-thanksgiving-hoodie-cozy-pullover-hoodie-thanksgiving-gift-winstar4u.jpg?camera_label=front |
+| 6ac712fb42c818a1ad095f99 | Christmas Wishes Sta Christmas Throw Pillow Case 18x18 — Easy Couch & Bed Accent, Holiday Home Decor Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac712fb42c818a1ad095f99/244224/155844/christmas-wishes-sta-christmas-throw-pillow-case-18x18-easy-couch-bed-accent-holiday-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac712fa42c818a1ad095f97 | Candy Cane Lane Christmas Tablecloth — Festive Holiday Table Decor, Holiday Gift | Winstar4U | DEFECT (blank street-sign banner, no text — recurrence of bad source file) | https://images.printify.com/mockup/6ac712fa42c818a1ad095f97/112701/112238/candy-cane-lane-christmas-tablecloth-festive-holiday-table-decor-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac712f883cd0988460e9293 | Reason For Season Christmas Lunch Box — Bento Box for Holiday Lunches, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac712f883cd0988460e9293/72920/16777/reason-for-season-christmas-lunch-box-bento-box-for-holiday-lunches-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac712f80ed8f1657605f2f1 | Candy Cane Lane Christmas Throw Pillow Case 18x18 — Easy Couch & Bed Accent, Holiday Home Decor Gift | Winstar4U | DEFECT (blank street-sign banner — recurrence) [DUP-size-variant, see below] | https://images.printify.com/mockup/6ac712f80ed8f1657605f2f1/244224/155844/candy-cane-lane-christmas-throw-pillow-case-18x18-easy-couch-bed-accent-holiday-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac712f79ba30d41e4066075 | Harvest Blessings Thanksgiving Hoodie — Cozy Pullover Hoodie, Thanksgiving Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac712f79ba30d41e4066075/32912/98424/harvest-blessings-thanksgiving-hoodie-cozy-pullover-hoodie-thanksgiving-gift-winstar4u.jpg?camera_label=front |
+| 6ac712f783cd0988460e928f | Naughty List Skeleton V2 Christmas Fleece Zip-Up — Cozy Full-Zip Holiday Hoodie, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac712f783cd0988460e928f/31950/110719/naughty-list-skeleton-v2-christmas-fleece-zip-up-cozy-full-zip-holiday-hoodie-holiday-gift-winstar4u.jpg?camera_label=front-2 |
+| 6ac712f6fa3cae10170efb12 | Believe Sleigh Christmas Tablecloth — Festive Holiday Table Decor, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac712f6fa3cae10170efb12/112701/112238/believe-sleigh-christmas-tablecloth-festive-holiday-table-decor-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac712f507e4149a0f0010bf | O Holy Night Christmas Lunch Box — Bento Box for Holiday Lunches, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac712f507e4149a0f0010bf/72920/16777/o-holy-night-christmas-lunch-box-bento-box-for-holiday-lunches-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac712f442c818a1ad095f8e | Believe Sleigh Christmas Throw Pillow Case 18x18 — Easy Couch & Bed Accent, Holiday Home Decor Gift | Winstar4U | CLEAN [DUP-size-variant, see below] | https://images.printify.com/mockup/6ac712f442c818a1ad095f8e/244224/155844/believe-sleigh-christmas-throw-pillow-case-18x18-easy-couch-bed-accent-holiday-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac712f3d9b782898109a96b | Naughty List Vip Christmas Tablecloth — Festive Holiday Table Decor, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac712f3d9b782898109a96b/112701/112238/naughty-list-vip-christmas-tablecloth-festive-holiday-table-decor-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac712f3a005c19c550d89fe | Christmas Mode Dnd Christmas Women's T-Shirt — Festive Holiday Tee for Her, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac712f3a005c19c550d89fe/17979/88/christmas-mode-dnd-christmas-womens-t-shirt-festive-holiday-tee-for-her-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac712f36f976358160c47e0 | Happy Harvest Retro Thanksgiving Hoodie — Cozy Pullover Hoodie, Thanksgiving Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac712f36f976358160c47e0/32912/98424/happy-harvest-retro-thanksgiving-hoodie-cozy-pullover-hoodie-thanksgiving-gift-winstar4u.jpg?camera_label=front |
+| 6ac712f10bf5e4d1ad0e64e8 | Keep Christ Christmas Christmas Lunch Box — Bento Box for Holiday Lunches, Holiday Gift | Winstar4U | DEFECT (top of "KEEP CHRIST" clipped) | https://images.printify.com/mockup/6ac712f10bf5e4d1ad0e64e8/72920/16777/keep-christ-christmas-christmas-lunch-box-bento-box-for-holiday-lunches-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac712f06f976358160c47db | Naughty List Vip Christmas Throw Pillow Case 18x18 — Easy Couch & Bed Accent, Holiday Home Decor Gift | Winstar4U | CLEAN [DUP-size-variant, see below] | https://images.printify.com/mockup/6ac712f06f976358160c47db/244224/155844/naughty-list-vip-christmas-throw-pillow-case-18x18-easy-couch-bed-accent-holiday-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac712f057527ce5fd019799 | Christmas Lights Therapy Christmas Women's T-Shirt — Festive Holiday Tee for Her, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac712f057527ce5fd019799/17979/88/christmas-lights-therapy-christmas-womens-t-shirt-festive-holiday-tee-for-her-holiday-gift-winstar4u.jpg?camera_label=front |
