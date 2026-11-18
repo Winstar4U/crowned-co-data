@@ -501,6 +501,66 @@ CLEAN — see the updated note in §2.
 **Etsy batch 1/3 is closed out: 97/97 visually inspected, 1 confirmed content-mismatch defect (the
 ornament gift-set), 0 confirmed duplicate pairs. See §11 for the full per-product ID table.**
 
+## 8d. Etsy shop (26603005) batch 2/3 — COMPLETE: 97/97 visually inspected, 0 confirmed defects, 2
+## confirmed true duplicate pairs, 1 IP/trademark flag (2026-11-18, this session)
+
+**Status: batch 2 of 3 for the Etsy shop, following batch 1 (§8c, 97/97, 1 confirmed defect).** 97/97
+products in this batch visually inspected (every default mockup downloaded and opened). 0 confirmed
+artwork/cropping/spelling defects. 2 confirmed true duplicate-listing pairs (same artwork, same Printify
+blueprint/product template). 1 trademark/IP risk flagged for owner review. 194/291 of the Etsy backlog
+is now covered across batches 1+2; batch 3 (97 products) remains, roster pre-staged at
+`batch3.json` in the scratchpad.
+
+### CONFIRMED TRUE DUPLICATE PAIR 1: Puerto Rico Flag Phone Case
+
+`6a493c49e2256aa80f0b82c5` ("Puerto Rico Flag Phone Case | Tough Cases") and `6a493c41e2256aa80f0b82c2`
+("Puerto Rico Flag Phone Case | Tough Case") — identical print-area image (`fd-pr-starfix-bp421.jpg`),
+identical scale (1.01) and position (0.5/0.5), **identical Printify blueprint (421, same case model)**.
+Confirmed pixel-identical by viewing both default mockups side by side. Titles differ only by "Cases" vs
+"Case." This is the same severity class as the Amazon duplicate-ASIN finding in §8a: two separate Printify
+product records selling the exact same physical item.
+
+### CONFIRMED TRUE DUPLICATE PAIR 2: American Flag Sea Turtle T-Shirt
+
+`6a5196c03a9be4cece03732d` ("...Patriotic Ocean Turtle Tee") and `6a51901cc25325ab6a026059`
+("...Patriotic Turtle Shirt USA") — identical print-area image (`Turtle Americana.png`), identical scale
+(0.966) and position, **identical Printify blueprint (145, same T-shirt template)**. Confirmed
+pixel-identical by viewing both default mockups side by side.
+
+### Duplicate-candidate groups checked and ruled OUT (same artwork, different blueprint/product-type — normal reuse)
+
+This batch surfaced an unusually large "American Flag Sea Turtle" product family (11 listings: T-shirt
+×3, phone case ×4, canvas wall art ×2 (framed + stretched), lunch bag, beach towel) and several
+flag/pattern phone-case pairs that share artwork across **different Printify blueprints** (e.g. "Pink Bow
+and Hearts Phone Case" bp421 vs "Pink Bow Hearts Phone Case" bp269; "Dominican Republic Flag Phone Case"
+bp1273 vs bp421; "Brazil Flag Phone Case" bp421 vs bp1273; multiple Sea Turtle phone cases across bp421/
+bp1273/bp1521/bp6). In every one of these cases the print-area scale/position differs between the two
+records even when the filename matches, consistent with an artist re-cropping the same source artwork for
+a different case model/phone model's placeholder — a legitimate, deliberate product-line pattern (same
+style offered across phone brands/case types), not a duplicate-listing defect, consistent with the
+Amazon Cat-Lineup (§8a) and TikTok Badge/Retro (§8b) precedent. Also ruled out: the two "Jumping Bass
+Phone Case" listings (different filenames, different artwork — confirmed by direct visual comparison,
+one more muted/realistic style, one brighter/stylized), and the "I Put the Boo in Booty Call" family (4
+product types — sticker, hoodie, shirt, tote — sharing one design, normal cross-product-type reuse).
+**Only the 2 pairs above share both an identical artwork fingerprint AND an identical Printify blueprint
+— the bar this register uses for a true duplicate finding.**
+
+### IP/TRADEMARK FLAG (not a visual defect — flagged per the directive's IP-review dimension)
+
+`6a53ee979296b919210641d5` ("Matte Canvas, Framed (Multi-color)") — a framed canvas print whose artwork
+is a vintage-style photo/illustration prominently featuring a "TEXACO" branded gas station storefront and
+pump signage (plus a "Texaco" roundel). This was not previously flagged in the register. Recommend an
+owner/counsel review of whether this specific stock/AI-generated image carries a clear usage right before
+continued sale; no live action taken.
+
+### Sync-mapping status (batch 2/3)
+
+80/97 have a populated Printify `external` channel-mapping field; 17/97 show `external: null`. Standing
+caveat applies (§1): Printify-side mapping evidence only, not confirmed Etsy-side buyability.
+
+**Etsy batch 2/3 is closed out: 97/97 visually inspected, 0 artwork defects, 2 confirmed true duplicate
+pairs, 1 IP flag. See §12 for the full per-product ID table.**
+
 ## 10. TikTok full 71-row ID register (complete, per-product evidence, same format as §9)
 
 Format: `Printify ID | Title (truncated) | Visual result | Default mockup image URL used for inspection`.
@@ -687,3 +747,108 @@ evidence only); 22/97 show `external: null`.
 | 6ad429db236d14a85901de42 | Buffalo Plaid Heart Christmas Mug - 15oz Ceramic Coffee Mug, Cozy Rustic Holiday Gift | CLEAN | https://images.printify.com/mockup/6ad429db236d14a85901de42/62014/2711/buffalo-plaid-heart-christmas-mug-15oz-ceramic-coffee-mug-cozy-rustic-holiday-gift.jpg?camera_label=front |
 | 6ad42970f1aeec4b590f6d00 | Funny Ornament Gift Set of 3 - Ceramic Holiday Tree Ornaments, Gag Gift Set, White Elephant Gift Set | DEFECT | https://images.printify.com/mockup/6ad42970f1aeec4b590f6d00/69370/100661/funny-ornament-gift-set-of-3-ceramic-holiday-tree-ornaments-gag-gift-set-white-elephant-gift-set.jpg?camera_label=front |
 ```
+
+## 12. Etsy batch 2/3 full 97-row ID register (complete, per-product evidence, same format as §9/§10/§11)
+
+Format: `Printify ID | Title | Visual result | Default mockup image URL used for inspection`.
+`[DUP-PAIR]` marks the two confirmed true-duplicate pairs (§8d); `[IP-FLAG]` marks the one
+trademark/IP risk flagged for owner review (§8d). Same standing caveat as prior ID registers:
+CLEAN is a visual-artwork judgment only, not a confirmed Etsy-side buyability/sync claim.
+
+| 6ad410659c8f61e787077ef0 | Construction Workers Make a Merry Christmas Funny Christmas T-Shirt - Humorous Christmas Graphic Tee, Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ad410659c8f61e787077ef0/12100/102005/construction-workers-make-a-merry-christmas-funny-christmas-t-shirt-humorous-christmas-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2 |
+| 6a493c02c49b3a4cb20a9feb | Pink Bow and Hearts Phone Case | Tough Case | CLEAN | https://images.printify.com/mockup/6a493c02c49b3a4cb20a9feb/61521/2494/pink-bow-and-hearts-phone-case-tough-case.jpg?camera_label=front-and-side |
+| 6a493c3d7599ea93f7080d46 | Venezuela Heart Flag phone case | Tough Case | CLEAN | https://images.printify.com/mockup/6a493c3d7599ea93f7080d46/61521/2494/venezuela-heart-flag-phone-case-tough-case.jpg?camera_label=front-and-side |
+| 6a493c1fa36a12099202d046 | Jumping Bass Phone Case | Fishing Lake Illustration, Durable Tough Case | CLEAN | https://images.printify.com/mockup/6a493c1fa36a12099202d046/62582/97458/jumping-bass-phone-case-fishing-lake-illustration-durable-tough-case.jpg?camera_label=front-and-side |
+| 6a493c4ce2256aa80f0b82c7 | Dominican Republic Flag Phone Case | Magnetic Impact-Resistant Case | CLEAN | https://images.printify.com/mockup/6a493c4ce2256aa80f0b82c7/96135/81354/dominican-republic-flag-phone-case-magnetic-impact-resistant-case.jpg?camera_label=front |
+| 6a4d9a16069947de980417ae | Main Stage Marsupial Tee | Band Animal Orchestra T-Shirt | CLEAN | https://images.printify.com/mockup/6a4d9a16069947de980417ae/12100/92570/main-stage-marsupial-tee-band-animal-orchestra-t-shirt.jpg?camera_label=front |
+| 6ad4288511e95e7c5f0cdab2 | Accountant Santa Calculator Christmas Ornament 2026 - Ceramic Holiday Tree Ornament, CPA Gift, Office Christmas Gift - Winstar4U | CLEAN | https://images.printify.com/mockup/6ad4288511e95e7c5f0cdab2/69370/100661/accountant-santa-calculator-christmas-ornament-2026-ceramic-holiday-tree-ornament-cpa-gift-office-christmas-gift-winstar4u.jpg?camera_label=front |
+| 6a91ea5ca9aca0129704ed8e | Spiral Notebook - Ruled Line | CLEAN | https://images.printify.com/mockup/6a91ea5ca9aca0129704ed8e/34240/3024/spiral-notebook-ruled-line.jpg?camera_label=front |
+| 6a493ca508efc981890568c6 | Retro Doodle Collage Tee | Neon Smiley, Lightning, Stars, Sticker Art | CLEAN | https://images.printify.com/mockup/6a493ca508efc981890568c6/18542/92547/retro-doodle-collage-tee-neon-smiley-lightning-stars-sticker-art.jpg?camera_label=front |
+| 6a9393a10b0a3612b7065bb8 | I Put the Boo in Booty Call Halloween Stickers - Funny Ghost Kiss-Cut Sticker, Spooky Laptop Decal | CLEAN | https://images.printify.com/mockup/6a9393a10b0a3612b7065bb8/45750/16655/i-put-the-boo-in-booty-call-halloween-stickers-funny-ghost-kiss-cut-sticker-spooky-laptop-decal.jpg?camera_label=front |
+| 6a493c5808efc981890568b7 | Union Jack Flag Phone Case | Magnetic Impact-Resistant Case | CLEAN | https://images.printify.com/mockup/6a493c5808efc981890568b7/96135/81354/union-jack-flag-phone-case-magnetic-impact-resistant-case.jpg?camera_label=front |
+| 6ac2f508368bb1b26d051cd7 | Cookie Dealer Funny Christmas T-Shirt - Humorous Christmas Graphic Tee - Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ac2f508368bb1b26d051cd7/12100/102005/cookie-dealer-funny-christmas-t-shirt-humorous-christmas-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2 |
+| 6a9393a103cee7960c039cca | I Put the Boo in Booty Call Halloween Hoodie - Funny Ghost Spooky Season Sweatshirt Gift | CLEAN | https://images.printify.com/mockup/6a9393a103cee7960c039cca/32912/98424/i-put-the-boo-in-booty-call-halloween-hoodie-funny-ghost-spooky-season-sweatshirt-gift.jpg?camera_label=front |
+| 6a493cbda36a12099202d051 | Dripping Rose Illustration T-shirt | Melting Floral Graphic Tee | CLEAN | https://images.printify.com/mockup/6a493cbda36a12099202d051/73207/98445/dripping-rose-illustration-t-shirt-melting-floral-graphic-tee.jpg?camera_label=front |
+| 6a519288dee7682ac20a71d7 | American Flag Sea Turtle Lunch Bag | Patriotic Turtle Ocean | CLEAN | https://images.printify.com/mockup/6a519288dee7682ac20a71d7/74699/19826/american-flag-sea-turtle-lunch-bag-patriotic-turtle-ocean.jpg?camera_label=front |
+| 6a493cc8a36a12099202d055 | Brazil Heart Flag phone case | Tough Cases | CLEAN | https://images.printify.com/mockup/6a493cc8a36a12099202d055/61521/2494/brazil-heart-flag-phone-case-tough-cases.jpg?camera_label=front-and-side |
+| 6a518db03a9be4cece0363ae | American Flag Sea Turtle phone case | iPhone Samsung patriotic turtle | CLEAN | https://images.printify.com/mockup/6a518db03a9be4cece0363ae/112191/105690/american-flag-sea-turtle-phone-case-iphone-samsung-patriotic-turtle.jpg?camera_label=front |
+| 6a493c5a08efc981890568b9 | Mexican Flag Heart Phone Case | Magnetic Impact-Resistant Case | CLEAN | https://images.printify.com/mockup/6a493c5a08efc981890568b9/96135/81354/mexican-flag-heart-phone-case-magnetic-impact-resistant-case.jpg?camera_label=front |
+| 6a53f01e80e93ca2e00be91c | Fly Fishing Canvas Wall Art - Framed Mountain River Print, Rustic Cabin Decor, Gift for Fishermen | CLEAN | https://images.printify.com/mockup/6a53f01e80e93ca2e00be91c/244002/169199/fly-fishing-canvas-wall-art-framed-mountain-river-print-rustic-cabin-decor-gift-for-fishermen.jpg?camera_label=front |
+| 6a53ec619296b91921063ffc | American Flag Sea Turtle Canvas Wall Art - Framed Patriotic Ocean Print, Coastal Beach Decor Gift | CLEAN | https://images.printify.com/mockup/6a53ec619296b91921063ffc/244002/169199/american-flag-sea-turtle-canvas-wall-art-framed-patriotic-ocean-print-coastal-beach-decor-gift.jpg?camera_label=front |
+| 6a493c5508efc981890568b5 | Canadian Flag Phone Case | Tough Case | CLEAN | https://images.printify.com/mockup/6a493c5508efc981890568b5/61521/2494/canadian-flag-phone-case-tough-case.jpg?camera_label=front-and-side |
+| 6ac2f50abde50e6b7a0cb4a6 | Festive AF Funny Christmas T-Shirt - Humorous Christmas Graphic Tee - Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ac2f50abde50e6b7a0cb4a6/12100/102005/festive-af-funny-christmas-t-shirt-humorous-christmas-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2 |
+| 6a518e6d3a9be4cece0364c7 | American Flag Sea Turtle phone case | Phone Case | CLEAN | https://images.printify.com/mockup/6a518e6d3a9be4cece0364c7/130091/111262/american-flag-sea-turtle-phone-case-phone-case.jpg?camera_label=front |
+| 6a53ed8256fc14f8d20264b4 | Owl Family Canvas Wall Art - Framed Woodland Owl and Owlets Print, Rustic Nursery Cabin Decor Gift | CLEAN | https://images.printify.com/mockup/6a53ed8256fc14f8d20264b4/244002/169199/owl-family-canvas-wall-art-framed-woodland-owl-and-owlets-print-rustic-nursery-cabin-decor-gift.jpg?camera_label=front |
+| 6a518f9a88a0f72a6207dc03 | American Flag Sea Turtle T-Shirt | Patriotic Turtle Tee | CLEAN | https://images.printify.com/mockup/6a518f9a88a0f72a6207dc03/12100/92570/american-flag-sea-turtle-t-shirt-patriotic-turtle-tee.jpg?camera_label=front |
+| 6ad423ddf1aeec4b590f682a | Mahjong Christmas Ornament 2026 - Ceramic Tile Wreath Tree Ornament, Game Night Gift for Mahjong Players | CLEAN | https://images.printify.com/mockup/6ad423ddf1aeec4b590f682a/69370/100661/mahjong-christmas-ornament-2026-ceramic-tile-wreath-tree-ornament-game-night-gift-for-mahjong-players.jpg?camera_label=front |
+| 6a493cc2a36a12099202d053 | Panama Flag Heart Phone Case Patriotic Panama iPhone Case | CLEAN | https://images.printify.com/mockup/6a493cc2a36a12099202d053/61521/2494/panama-flag-heart-phone-case-patriotic-panama-iphone-case.jpg?camera_label=front-and-side |
+| 6a493c24a36a12099202d049 | Drippy Smiley Face Phone Case | Purple Swirl Oops Pattern | CLEAN | https://images.printify.com/mockup/6a493c24a36a12099202d049/61521/2494/drippy-smiley-face-phone-case-purple-swirl-oops-pattern.jpg?camera_label=front-and-side |
+| 6a5196c03a9be4cece03732d | American Flag Sea Turtle T-Shirt | Patriotic Ocean Turtle Tee | CLEAN [DUP-PAIR] | https://images.printify.com/mockup/6a5196c03a9be4cece03732d/38191/97992/american-flag-sea-turtle-t-shirt-patriotic-ocean-turtle-tee.jpg?camera_label=front |
+| 6a53ebfa9296b91921063fb1 | American Flag Sea Turtle Canvas Wall Art - Stretched Patriotic Ocean Print, Coastal Beach Decor Gift | CLEAN | https://images.printify.com/mockup/6a53ebfa9296b91921063fb1/95209/78945/american-flag-sea-turtle-canvas-wall-art-stretched-patriotic-ocean-print-coastal-beach-decor-gift.jpg?camera_label=front |
+| 6a53edf3fa4d54eeeb0835d2 | Cows in Pasture Canvas Wall Art - Framed Farm Landscape Print, Rustic Country Farmhouse Decor Gift | CLEAN | https://images.printify.com/mockup/6a53edf3fa4d54eeeb0835d2/244002/169199/cows-in-pasture-canvas-wall-art-framed-farm-landscape-print-rustic-country-farmhouse-decor-gift.jpg?camera_label=front |
+| 6aa5b4a1836de9f29f08aea4 | Positive Doodle Pattern Phone Case | Tough Phone Case | CLEAN | https://images.printify.com/mockup/6aa5b4a1836de9f29f08aea4/76611/97514/positive-doodle-pattern-phone-case-tough-phone-case.jpg?camera_label=front |
+| 6ad4116c3af1c130250b6447 | Christmas Calories Don't Count Shirt - Funny Foodie Holiday Tee, Xmas Gift for Bakers & Cookie Lovers | CLEAN | https://images.printify.com/mockup/6ad4116c3af1c130250b6447/12100/102005/christmas-calories-dont-count-shirt-funny-foodie-holiday-tee-xmas-gift-for-bakers-cookie-lovers.jpg?camera_label=front-2 |
+| 6ad426a6236d14a85901dbdd | 10th Anniversary Tin Star Christmas Ornament 2026 - Ceramic Holiday Tree Ornament, Tin Anniversary Gift for Couples - Winstar4U | CLEAN | https://images.printify.com/mockup/6ad426a6236d14a85901dbdd/69370/100661/10th-anniversary-tin-star-christmas-ornament-2026-ceramic-holiday-tree-ornament-tin-anniversary-gift-for-couples-winstar4u.jpg?camera_label=front |
+| 6a9393a16a6b71db650295d3 | I Put the Boo in Booty Call Halloween Shirt - Funny Ghost Halloween Tee, Spooky Party Gift | CLEAN | https://images.printify.com/mockup/6a9393a16a6b71db650295d3/79038/98448/i-put-the-boo-in-booty-call-halloween-shirt-funny-ghost-halloween-tee-spooky-party-gift.jpg?camera_label=person-2 |
+| 6a493c5d08efc981890568bc | American Flag Heart Phone Case | Magnetic Impact-Resistant Case | CLEAN | https://images.printify.com/mockup/6a493c5d08efc981890568bc/96135/81354/american-flag-heart-phone-case-magnetic-impact-resistant-case.jpg?camera_label=front |
+| 6a493c01c49b3a4cb20a9fea | Pink Bow Hearts Phone Case | Tough Phone Case | CLEAN | https://images.printify.com/mockup/6a493c01c49b3a4cb20a9fea/62582/97458/pink-bow-hearts-phone-case-tough-phone-case.jpg?camera_label=front-and-side |
+| 6a93901d86d78c685200e2a0 | Alien Rating Graphic Tee | HUMANS: 0/10 Would Not Abduct Again T-Shirt | CLEAN | https://images.printify.com/mockup/6a93901d86d78c685200e2a0/12100/92570/alien-rating-graphic-tee-humans-010-would-not-abduct-again-t-shirt.jpg?camera_label=front |
+| 6a4d989f9a0edbf1560cfb4b | Colorful Hummingbird Floral Patch Hat | Washed Cap | CLEAN | https://images.printify.com/mockup/6a4d989f9a0edbf1560cfb4b/288219/128148/colorful-hummingbird-floral-patch-hat-washed-cap.jpg?camera_label=front |
+| 6a51901cc25325ab6a026059 | American Flag Sea Turtle T-Shirt | Patriotic Turtle Shirt USA | CLEAN [DUP-PAIR] | https://images.printify.com/mockup/6a51901cc25325ab6a026059/38191/97992/american-flag-sea-turtle-t-shirt-patriotic-turtle-shirt-usa.jpg?camera_label=front |
+| 6a493c397599ea93f7080d44 | Dominican Republic Heart Phone Case | Tough Case | CLEAN | https://images.printify.com/mockup/6a493c397599ea93f7080d44/61521/2494/dominican-republic-heart-phone-case-tough-case.jpg?camera_label=front-and-side |
+| 6a493c8a08efc981890568c0 | God Bless the USA Tee | Patriotic Flag Letters, Fireworks 4th of July | CLEAN | https://images.printify.com/mockup/6a493c8a08efc981890568c0/12100/92570/god-bless-the-usa-tee-patriotic-flag-letters-fireworks-4th-of-july.jpg?camera_label=front |
+| 6ad4281d07b78bf56e0d3d80 | Mountain Lake Pine Wreath Christmas Ornament 2026 - Ceramic Holiday Tree Ornament, Wilderness Lover Gift, Nature Ornament - Winstar4U | CLEAN | https://images.printify.com/mockup/6ad4281d07b78bf56e0d3d80/69370/100661/mountain-lake-pine-wreath-christmas-ornament-2026-ceramic-holiday-tree-ornament-wilderness-lover-gift-nature-ornament-winstar4u.jpg?camera_label=front |
+| 6a91ea5c94f23b466e08d75d | Sipper Glass, 16oz | CLEAN | https://images.printify.com/mockup/6a91ea5c94f23b466e08d75d/105129/101837/sipper-glass-16oz.jpg?camera_label=front |
+| 6a493c357599ea93f7080d42 | Pink Striped Bow Pattern Phone Case | Tough Magnetic Case | CLEAN | https://images.printify.com/mockup/6a493c357599ea93f7080d42/109328/107253/pink-striped-bow-pattern-phone-case-tough-magnetic-case.jpg?camera_label=front |
+| 6a493c0ddf721fcc700771a9 | Red Toadstool Mushrooms Phone Case | Butterflies, Floral Nature Design | CLEAN | https://images.printify.com/mockup/6a493c0ddf721fcc700771a9/96135/81354/red-toadstool-mushrooms-phone-case-butterflies-floral-nature-design.jpg?camera_label=front |
+| 6a91ea5c1c993de91b03e981 | Cotton Canvas Tote Bag | CLEAN | https://images.printify.com/mockup/6a91ea5c1c993de91b03e981/101409/93895/cotton-canvas-tote-bag.jpg?camera_label=front |
+| 6a493bfdc49b3a4cb20a9fe6 | Pink Bow Pattern Phone Case | Magnetic Impact-Resistant Case | CLEAN | https://images.printify.com/mockup/6a493bfdc49b3a4cb20a9fe6/96135/81354/pink-bow-pattern-phone-case-magnetic-impact-resistant-case.jpg?camera_label=front |
+| 6a9393a16a6b71db650295d2 | I Put the Boo in Booty Call Halloween Tote Bag - Funny Ghost Trick or Treat Canvas Bag Gift | CLEAN | https://images.printify.com/mockup/6a9393a16a6b71db650295d2/101409/93895/i-put-the-boo-in-booty-call-halloween-tote-bag-funny-ghost-trick-or-treat-canvas-bag-gift.jpg?camera_label=front |
+| 6ad411615492c4514708fcb1 | Baker Christmas Shirt - Funny Baking Holiday Tee, Gift for Bakers & Christmas Baking Crews | CLEAN | https://images.printify.com/mockup/6ad411615492c4514708fcb1/12100/102005/baker-christmas-shirt-funny-baking-holiday-tee-gift-for-bakers-christmas-baking-crews.jpg?camera_label=front-2 |
+| 6ad41166236d14a85901ca0c | Dear Santa I Was Goodish Shirt - Funny Christmas Tee, Sarcastic Santa Letter Holiday Party Gift | CLEAN | https://images.printify.com/mockup/6ad41166236d14a85901ca0c/12100/102005/dear-santa-i-was-goodish-shirt-funny-christmas-tee-sarcastic-santa-letter-holiday-party-gift.jpg?camera_label=front-2 |
+| 6a4d9953d023be308b09aa8e | Colorful Watercolor Hummingbird T-Shirt | Floral Bird Tee | CLEAN | https://images.printify.com/mockup/6a4d9953d023be308b09aa8e/12100/92570/colorful-watercolor-hummingbird-t-shirt-floral-bird-tee.jpg?camera_label=front |
+| 6a53ee979296b919210641d5 | Matte Canvas, Framed (Multi-color) | CLEAN [IP-FLAG] | https://images.printify.com/mockup/6a53ee979296b919210641d5/244004/169259/matte-canvas-framed-multi-color.jpg?camera_label=front |
+| 6a493c2ea36a12099202d04c | Retro Daisy Checkerboard iPhone Case | Impact-Resistant Case | CLEAN | https://images.printify.com/mockup/6a493c2ea36a12099202d04c/77016/23412/retro-daisy-checkerboard-iphone-case-impact-resistant-case.jpg?camera_label=front |
+| 6ad428ed11e95e7c5f0cdb14 | Teacher Books and Apple Christmas Ornament 2026 - Ceramic Holiday Tree Ornament, Teacher Gift, Classroom Christmas Gift | CLEAN | https://images.printify.com/mockup/6ad428ed11e95e7c5f0cdb14/69370/100661/teacher-books-and-apple-christmas-ornament-2026-ceramic-holiday-tree-ornament-teacher-gift-classroom-christmas-gift.jpg?camera_label=front |
+| 6ad4271084e559ec0e0b8e78 | Snowy Mountain Peaks Christmas Ornament 2026 - Ceramic Holiday Tree Ornament, Wilderness Lover Gift, Nature Ornament - Winstar4U | CLEAN | https://images.printify.com/mockup/6ad4271084e559ec0e0b8e78/69370/100661/snowy-mountain-peaks-christmas-ornament-2026-ceramic-holiday-tree-ornament-wilderness-lover-gift-nature-ornament-winstar4u.jpg?camera_label=front |
+| 6ad425b8236d14a85901db0e | Golden 50th Anniversary Christmas Ornament 2026 - Ceramic Holiday Tree Ornament, Golden Anniversary Gift for Couples - Winstar4U | CLEAN | https://images.printify.com/mockup/6ad425b8236d14a85901db0e/69370/100661/golden-50th-anniversary-christmas-ornament-2026-ceramic-holiday-tree-ornament-golden-anniversary-gift-for-couples-winstar4u.jpg?camera_label=front |
+| 6a493c08df721fcc700771a5 | American Flag Phone Case with Card Holder | Patriotic USA Wallet Case | CLEAN | https://images.printify.com/mockup/6a493c08df721fcc700771a5/79732/44702/american-flag-phone-case-with-card-holder-patriotic-usa-wallet-case.jpg?camera_label=front |
+| 6a91ea5da9aca0129704ed8f | Pink Bows Phone Case - Coquette Bow Pattern Tough Case, Cute Girly iPhone Samsung Cover Gift | CLEAN | https://images.printify.com/mockup/6a91ea5da9aca0129704ed8f/67996/7968/pink-bows-phone-case-coquette-bow-pattern-tough-case-cute-girly-iphone-samsung-cover-gift.jpg?camera_label=front-and-side |
+| 6ad4105a9c8f61e787077ee9 | Firefighter Christmas Shirt - Funny Santa Rescue Tee, Gift for Firefighter & First Responders, Holiday Party Shirt | CLEAN | https://images.printify.com/mockup/6ad4105a9c8f61e787077ee9/12100/102005/firefighter-christmas-shirt-funny-santa-rescue-tee-gift-for-firefighter-first-responders-holiday-party-shirt.jpg?camera_label=front-2 |
+| 6a493c9d08efc981890568c3 | American Flag LOVE T-Shirt | Patriotic Floral Sunflower Design | CLEAN | https://images.printify.com/mockup/6a493c9d08efc981890568c3/38191/97992/american-flag-love-t-shirt-patriotic-floral-sunflower-design.jpg?camera_label=front |
+| 6a493c652964869925020b3b | Brazil Flag Phone Case | Tough Phone Case | CLEAN | https://images.printify.com/mockup/6a493c652964869925020b3b/61521/2494/brazil-flag-phone-case-tough-phone-case.jpg?camera_label=front-and-side |
+| 6a5191a1c25325ab6a0261d4 | American Flag Sea Turtle Beach Cloth | Boho Coastal Towel | CLEAN | https://images.printify.com/mockup/6a5191a1c25325ab6a0261d4/79535/45467/american-flag-sea-turtle-beach-cloth-boho-coastal-towel.jpg?camera_label=front |
+| 6a493c0adf721fcc700771a6 | Golden Retriever and Dog Portraits Phone Case | Tough Phone Case | CLEAN | https://images.printify.com/mockup/6a493c0adf721fcc700771a6/62582/97458/golden-retriever-and-dog-portraits-phone-case-tough-phone-case.jpg?camera_label=front-and-side |
+| 6a493c70df721fcc700771af | Iguana Loco Nurse Illustration T-shirt | Tropical Retro Graphic Tee | CLEAN | https://images.printify.com/mockup/6a493c70df721fcc700771af/73207/98445/iguana-loco-nurse-illustration-t-shirt-tropical-retro-graphic-tee.jpg?camera_label=front |
+| 6a493c337599ea93f7080d40 | Vintage Watercolor Floral Tough Case | Blue Pink Roses Phone Cover | CLEAN | https://images.printify.com/mockup/6a493c337599ea93f7080d40/61521/2494/vintage-watercolor-floral-tough-case-blue-pink-roses-phone-cover.jpg?camera_label=front-and-side |
+| 6ad4279907b78bf56e0d3d2b | Deer Under Northern Lights Christmas Ornament 2026 - Ceramic Holiday Tree Ornament, Wilderness Lover Gift, Nature Ornament - Winstar4U | CLEAN | https://images.printify.com/mockup/6ad4279907b78bf56e0d3d2b/69370/100661/deer-under-northern-lights-christmas-ornament-2026-ceramic-holiday-tree-ornament-wilderness-lover-gift-nature-ornament-winstar4u.jpg?camera_label=front |
+| 6a493c622964869925020b39 | Canadian Maple Leaf Phone Case | Magnetic Impact-Resistant Case | CLEAN | https://images.printify.com/mockup/6a493c622964869925020b39/96135/81354/canadian-maple-leaf-phone-case-magnetic-impact-resistant-case.jpg?camera_label=front |
+| 6a493c49e2256aa80f0b82c5 | Puerto Rico Flag Phone Case | Tough Cases | CLEAN [DUP-PAIR] | https://images.printify.com/mockup/6a493c49e2256aa80f0b82c5/61521/2494/puerto-rico-flag-phone-case-tough-cases.jpg?camera_label=front-and-side |
+| 6a493c407599ea93f7080d48 | Waving Puerto Rico Flag Phone Case | Magnetic Impact-Resistant Case | CLEAN | https://images.printify.com/mockup/6a493c407599ea93f7080d48/96135/81354/waving-puerto-rico-flag-phone-case-magnetic-impact-resistant-case.jpg?camera_label=front |
+| 6ad4244e9c8f61e787078f70 | Mahjong Tiles in Santa Hats Christmas Ornament 2026 - Ceramic Holiday Tree Ornament, Game Night Gift for Mahjong Lovers - Winstar4U | CLEAN | https://images.printify.com/mockup/6ad4244e9c8f61e787078f70/69370/100661/mahjong-tiles-in-santa-hats-christmas-ornament-2026-ceramic-holiday-tree-ornament-game-night-gift-for-mahjong-lovers-winstar4u.jpg?camera_label=front |
+| 6a518d144e3673bc45016ac3 | American Flag Sea Turtle Tough Magnetic Case | Patriotic Turtle Phone Cover | CLEAN | https://images.printify.com/mockup/6a518d144e3673bc45016ac3/129532/111226/american-flag-sea-turtle-tough-magnetic-case-patriotic-turtle-phone-cover.jpg?camera_label=front |
+| 6ad4213a11e95e7c5f0cd488 | Construction Worker Christmas Shirt - Funny Contractor Holiday Tee, Gift for Builders & Construction Crews | CLEAN | https://images.printify.com/mockup/6ad4213a11e95e7c5f0cd488/12100/102005/construction-worker-christmas-shirt-funny-contractor-holiday-tee-gift-for-builders-construction-crews.jpg?camera_label=front-2 |
+| 6ad410763af1c130250b6337 | Dog Mom Christmas Shirt - Funny Xmas Dog Lover Tee, Paw Print Holiday Gift for Dog Moms | CLEAN | https://images.printify.com/mockup/6ad410763af1c130250b6337/12100/102005/dog-mom-christmas-shirt-funny-xmas-dog-lover-tee-paw-print-holiday-gift-for-dog-moms.jpg?camera_label=front-2 |
+| 6a493c8808efc981890568be | American Flag Butterfly Canvas Lunch Bag | CLEAN | https://images.printify.com/mockup/6a493c8808efc981890568be/91358/59663/american-flag-butterfly-canvas-lunch-bag.jpg?camera_label=front |
+| 6a493c6a2964869925020b3d | Brazil Flag Phone Case | Magnetic Impact-Resistant Case | CLEAN | https://images.printify.com/mockup/6a493c6a2964869925020b3d/96135/81354/brazil-flag-phone-case-magnetic-impact-resistant-case.jpg?camera_label=front |
+| 6a493c7ddf721fcc700771b1 | American Flag Butterfly Muscle Tank | America the Beautiful | CLEAN | https://images.printify.com/mockup/6a493c7ddf721fcc700771b1/125340/120169/american-flag-butterfly-muscle-tank-america-the-beautiful.jpg?camera_label=front |
+| 6a493c16df721fcc700771ad | Strawberry Pattern Tough Case | Cute Pink Berry Phone Case | CLEAN | https://images.printify.com/mockup/6a493c16df721fcc700771ad/61521/2494/strawberry-pattern-tough-case-cute-pink-berry-phone-case.jpg?camera_label=front-and-side |
+| 6a493bffc49b3a4cb20a9fe8 | Retro Floral Pattern Phone Case | Tough Magnetic Case | CLEAN | https://images.printify.com/mockup/6a493bffc49b3a4cb20a9fe8/109328/107253/retro-floral-pattern-phone-case-tough-magnetic-case.jpg?camera_label=front |
+| 6a493c6d2964869925020b3f | Mexico Flag Phone Case | Magnetic Impact-Resistant Case | CLEAN | https://images.printify.com/mockup/6a493c6d2964869925020b3f/96135/81354/mexico-flag-phone-case-magnetic-impact-resistant-case.jpg?camera_label=front |
+| 6a493c602964869925020b37 | Canadian Maple Leaf Heart phone case | Tough Magnetic Case | CLEAN | https://images.printify.com/mockup/6a493c602964869925020b37/109328/107253/canadian-maple-leaf-heart-phone-case-tough-magnetic-case.jpg?camera_label=front |
+| 6a493c51e2256aa80f0b82c9 | Dominican Republic Flag Phone Case | Tough Case | CLEAN | https://images.printify.com/mockup/6a493c51e2256aa80f0b82c9/61521/2494/dominican-republic-flag-phone-case-tough-case.jpg?camera_label=front-and-side |
+| 6a493ca008efc981890568c4 | Distressed American Flag Tank Top | Vintage USA Patriotic Sleeveless Tee | CLEAN | https://images.printify.com/mockup/6a493ca008efc981890568c4/105810/102834/distressed-american-flag-tank-top-vintage-usa-patriotic-sleeveless-tee.jpg?camera_label=front |
+| 6a4d9ce9069947de980419b2 | Ladybug Illustration Tee | Adorable Spring Bug Shirt, Cute Insect Graphic | CLEAN | https://images.printify.com/mockup/6a4d9ce9069947de980419b2/12100/92570/ladybug-illustration-tee-adorable-spring-bug-shirt-cute-insect-graphic.jpg?camera_label=front |
+| 6ad4262318e0243bd10d4b6a | 50 Years Golden Heart Christmas Ornament 2026 - Ceramic Holiday Tree Ornament, Golden Anniversary Gift for Couples - Winstar4U | CLEAN | https://images.printify.com/mockup/6ad4262318e0243bd10d4b6a/69370/100661/50-years-golden-heart-christmas-ornament-2026-ceramic-holiday-tree-ornament-golden-anniversary-gift-for-couples-winstar4u.jpg?camera_label=front |
+| 6a51933d4e3673bc450171d4 | American Flag Sea Turtle Tough Case | Patriotic Ocean Phone Case | CLEAN | https://images.printify.com/mockup/6a51933d4e3673bc450171d4/112191/105690/american-flag-sea-turtle-tough-case-patriotic-ocean-phone-case.jpg?camera_label=front |
+| 6a493c41e2256aa80f0b82c2 | Puerto Rico Flag Phone Case | Tough Case | CLEAN [DUP-PAIR] | https://images.printify.com/mockup/6a493c41e2256aa80f0b82c2/61521/2494/puerto-rico-flag-phone-case-tough-case.jpg?camera_label=front-and-side |
+| 6ad410603af1c130250b6328 | Bah Humbug Shirt - Funny Eggnog Christmas Tee, Sarcastic Holiday Shirt, Retro Xmas Gift for the Family Grouch | CLEAN | https://images.printify.com/mockup/6ad410603af1c130250b6328/12100/102005/bah-humbug-shirt-funny-eggnog-christmas-tee-sarcastic-holiday-shirt-retro-xmas-gift-for-the-family-grouch.jpg?camera_label=front-2 |
+| 6a493c22a36a12099202d048 | Jumping Bass Phone Case | Fishing Lake Water Illustration | CLEAN | https://images.printify.com/mockup/6a493c22a36a12099202d048/61521/2494/jumping-bass-phone-case-fishing-lake-water-illustration.jpg?camera_label=front-and-side |
+| 6a493c0fdf721fcc700771ab | Abstract Botanical Phone Case | Modern Leaf Art, Peach & Black Shapes | CLEAN | https://images.printify.com/mockup/6a493c0fdf721fcc700771ab/62582/97458/abstract-botanical-phone-case-modern-leaf-art-peach-black-shapes.jpg?camera_label=front-and-side |
+| 6a493c7edf721fcc700771b3 | Patriot 250 Eagle Flag Dad Cap | American Flag, Distressed Embroidery | CLEAN | https://images.printify.com/mockup/6a493c7edf721fcc700771b3/105381/102307/patriot-250-eagle-flag-dad-cap-american-flag-distressed-embroidery.jpg?camera_label=front |
+| 6a493c5b08efc981890568ba | Union Jack Heart Phone Case | Magnetic Impact-Resistant Case | CLEAN | https://images.printify.com/mockup/6a493c5b08efc981890568ba/96135/81354/union-jack-heart-phone-case-magnetic-impact-resistant-case.jpg?camera_label=front |
+| 6ad424bcf1aeec4b590f68ff | Cozy Mahjong Game Night Christmas Ornament 2026 - Ceramic Holiday Tree Ornament, Game Night Gift for Mahjong Lovers - Winstar4U | CLEAN | https://images.printify.com/mockup/6ad424bcf1aeec4b590f68ff/69370/100661/cozy-mahjong-game-night-christmas-ornament-2026-ceramic-holiday-tree-ornament-game-night-gift-for-mahjong-lovers-winstar4u.jpg?camera_label=front |
+| 6a493bfa131a5b73ff0f1d0b | American Flag Phone Case | Magnetic Impact-Resistant Case | CLEAN | https://images.printify.com/mockup/6a493bfa131a5b73ff0f1d0b/96135/81354/american-flag-phone-case-magnetic-impact-resistant-case.jpg?camera_label=front |
+| 6ac2f509bde50e6b7a0cb4a5 | Tree Rex Funny Christmas T-Shirt - Humorous Christmas Graphic Tee - Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ac2f509bde50e6b7a0cb4a5/12100/102005/tree-rex-funny-christmas-t-shirt-humorous-christmas-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2 |
+| 6a493c81df721fcc700771b5 | Great American Kid Youth Tee | Distressed Flag Kids Shirt, Patriotic 4th of July | CLEAN | https://images.printify.com/mockup/6a493c81df721fcc700771b5/61520/94623/great-american-kid-youth-tee-distressed-flag-kids-shirt-patriotic-4th-of-july.jpg?camera_label=front |
+| 6aa59fa32f9b5f342a0f9955 | Autumn Cozy Snowman Phone Case | Fall Pumpkin Leaves Pattern Halloween Theme | CLEAN | https://images.printify.com/mockup/6aa59fa32f9b5f342a0f9955/76611/97514/autumn-cozy-snowman-phone-case-fall-pumpkin-leaves-pattern-halloween-theme.jpg?camera_label=front |
