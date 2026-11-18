@@ -143,6 +143,94 @@ credential, or app/theme modification. On any of the five shops, at any point in
 recovery. Every "proposed remedy" above is exactly that — a proposal for the owner to approve, reject,
 or modify; none has been executed.
 
+## REPAIR QUEUE (owner directive: repair-execution phase, compiled 2026-11-18)
+
+**Purpose:** per the owner's "BEGIN IMMEDIATELY" repair-execution directive, this is the structured,
+itemized repair queue consolidating every confirmed finding from §0-§34 into the required schema.
+Priority A items (brand-safety/IP/misleading) are listed individually by exact Printify ID, since there
+are few enough to do so. Priority B (defective merchandise) and Priority C (catalog integrity) are
+grouped by root cause/defect type, with an exact instance count and a pointer to the register section(s)
+holding every individual ID — repeating 500+ rows here would not be more "real" than pointing to where
+they already are, verified, with mockup URLs. **No Printify writes of any kind were made while compiling
+this queue — it is a pure read/consolidate pass over the existing register.**
+
+### PRIORITY A — brand safety, IP/trademark, and misleading listings (19 products, every one listed individually)
+
+| Printify ID | Shop | Problem | Purchasable? | Required Correction | Status | Owner Approval Required? |
+|---|---|---|---|---|---|---|
+| `6ac712026356cae0df02e31c` | Shopify | "Elegantly Wasted Martini" — alcohol/cocktail art on Youth Hoodie (children's blueprint) | yes | Remove/re-map off Youth Hoodie; keep on adult blueprints | RED | Yes — approve remedy direction (remove vs. re-map vs. leave) |
+| `6ac711e03925bc76b903727e` | Shopify | "Corkscrew Wine Repeat" — alcohol art on Youth Hoodie | yes | Same as above | RED | Yes — approve remedy direction |
+| `6ac711fea005c19c550d898b` | Shopify | "Eggnog Recovery Skeleton" — alcohol/hangover-joke art on Youth Hoodie | yes | Same as above | RED | Yes — approve remedy direction |
+| `6ac711cec077332834034d2e` | Shopify | "Christmas Open Bar" — alcohol art on Youth Hoodie (also has a top-line crop defect) | yes | Same as above, plus cropping fix if kept on any blueprint | RED | Yes — approve remedy direction |
+| `6ac711ab336f8358660114d1` | Shopify | "Chic Happens Cocktail" — alcohol art on Youth Hoodie | yes | Same as above | RED | Yes — approve remedy direction |
+| `6ac7118fc077332834034cfd` | Shopify | "Naughty List Skeleton V2" — skeleton holding a cocktail glass, on Youth Hoodie | yes | Same as above | RED | Yes — approve remedy direction |
+| `6ac70fecb8d5d3e71901300d` | Shopify | "Elegantly Wasted Martini" — alcohol art on Youth Hoodie (distinct batch/listing from above) | yes | Same as above | RED | Yes — approve remedy direction |
+| `6ac70fe9b8d5d3e71901300a` | Shopify | "Eggnog Recovery Skeleton" — alcohol art on Youth Hoodie (distinct listing) | yes | Same as above | RED | Yes — approve remedy direction |
+| `6ac70fd0e2a15b1260026691` | Shopify | "Corkscrew Wine Repeat" — alcohol art on Youth Hoodie (distinct listing) | yes | Same as above | RED | Yes — approve remedy direction |
+| `6ac70fbf35a66ab7dc0b0e9b` | Shopify | "Christmas Open Bar" — alcohol art on Youth Hoodie (distinct listing; also top-word-cropped) | yes | Same as above, plus cropping fix if kept | RED | Yes — approve remedy direction |
+| `6ac70f9c35a66ab7dc0b0e86` | Shopify | "Chic Happens Cocktail" — alcohol art on Youth Hoodie (distinct listing) | yes | Same as above | RED | Yes — approve remedy direction |
+| `6ac7114807e4149a0f000fef` | Shopify | "Naughty List Skeleton V2" — cocktail imagery on **Baby Onesie** (infant apparel) | yes | Remove/re-map off Baby Onesie | RED | Yes — approve remedy direction |
+| `6ac7108350fc6704d30bf899` | Shopify | "Elegantly Wasted Martini" — martini graphic on Baby Onesie | yes | Same as above | RED | Yes — approve remedy direction |
+| `6ac7108007e4149a0f000f4e` | Shopify | "Eggnog Recovery Skeleton" — hangover-joke art on Baby Onesie | yes | Same as above | RED | Yes — approve remedy direction |
+| `6ac7105707e4149a0f000f3b` | Shopify | "Christmas Open Bar" — cocktail-glass art on Baby Onesie | yes | Same as above | RED | Yes — approve remedy direction |
+| `6a53ee979296b919210641d5` | Etsy | "Matte Canvas, Framed" prominently features TEXACO-branded signage/storefront — trademark exposure | yes | Owner/counsel review of usage rights; remove or replace art if rights are not held | RED | Yes — approve remedy direction (and likely legal sign-off) |
+| `6ad42970f1aeec4b590f6d00` | Etsy | "Funny Ornament Gift Set of 3" advertises Raccoon+Cat+Wine O'Clock designs; Printify record has only the Raccoon artwork across all 4 shape variants | yes (but misleading — customer receives 1 design, not 3) | Upload the 2 missing designs to match the listing, OR correct the listing description to describe what is actually sold | RED | Yes — approve remedy direction |
+| `69c7630e3acff09c580c3072` | Shopify | "Women's Thong This Is Not Going To Unzip Itself" — zero Printify mockups, `images: []`, every variant disabled | **no** | Re-enable variants + regenerate mockups (requires sourcing/re-uploading the art, since none currently exists in the product record), or remove the listing | RED | Yes — approve remedy direction |
+| `69c75c408ac9a0544a0ebe6d` | Shopify | "Juicy Black Women's Thong — Playful Pink Puff Lettering" — zero Printify mockups, `images: []`, every variant disabled | **no** | Same as above | RED | Yes — approve remedy direction |
+
+### PRIORITY B — defective merchandise (artwork/mockup defects), grouped by root cause
+
+| Group / Root cause | Shop(s) | Instance count | Purchasable? | Required Correction | Status | Register pointer | Owner Approval Required? |
+|---|---|---|---|---|---|---|---|
+| Wall Tapestry edge-text-cropping (text sized for a bigger canvas than the print window; worst blueprint in the recovery) | Shopify | 24+ confirmed (96-100% of every full sample) | yes | Reduce text size / reposition within the print window per design, or reduce default print-area scale on this blueprint | RED | §8r, §8s, §8t, §8u (narrative); §26-§29 (IDs) | Yes — approve remedy direction, then each corrected draft before any live swap |
+| Duffel Bag edge-text-cropping (same mechanism as Wall Tapestry) | Shopify | 20+ confirmed (83-91%) | yes | Same as above | RED | §8s, §8t | Yes — same |
+| Christmas Socks wraparound-fragmentation (curved/wrapped print surface, camera-angle issue) | Shopify | 10 confirmed (100% of sample) | yes | Likely needs a redesigned layout accounting for the sock's print geometry, not a simple scale fix | RED | §8v | Yes — approve remedy direction |
+| Water Bottle cylindrical wraparound-cropping (text clipped at the left/right seam) | Shopify | 7+ confirmed (64-75%) | yes | Reposition text away from the wraparound seam | RED | §8q, §8r | Yes — approve remedy direction |
+| Bucket Hat / Apron opaque non-transparent background (prints as a visible white box) | Shopify | 9 confirmed (Bucket Hat 7/9, Apron 2/3) | yes | Re-export source art with a genuinely transparent background | RED | §8v | Yes — approve remedy direction |
+| Scented Candle overscale/zoomed design (design scaled past the visible label area) | Shopify | 7 confirmed (70%) | yes | Reduce scale to fit the label print area | RED | §8u, §8v | Yes — approve remedy direction |
+| Fanny Pack / Throw Pillow Case / Backpack / Laptop Sleeve edge-cropping (same text-length-vs-print-window mechanism as Wall Tapestry, lower but still material rates) | Shopify | ~90 confirmed combined (rates 33-71% depending on blueprint/batch) | yes | Same remedy family as Wall Tapestry — case-by-case reposition/rescale | RED | §8f-§8m, §8q-§8t | Yes — approve remedy direction |
+| Recurring bad source-art files: "Happy Holidays Tree" (HAPPY clipped) | Shopify | 7+ listings | yes | Fix the one source file; propagates to every listing using it | RED | §8i, §8j, §8m | Yes — approve the corrected master file before it's reused |
+| Recurring bad source-art file: "Candy Cane Lane" (blank banner, no text rendered) | Shopify | 10+ listings | yes | Fix the one source file | RED | §8i, §8j, §8m | Yes — same |
+| Recurring bad source-art file: "Tree Up Patience Down" (garbled "PATITANECE" text) | Shopify | 5+ listings | yes | Fix the one source file | RED | §8i, §8o, §8p | Yes — same |
+| Recurring bad source-art file: "Santa's Favorite Customer VIP" (literal "PRICE" placeholder text left in) | Shopify | 3+ listings | yes | Fix the one source file | RED | §8i, §8o | Yes — same |
+| Recurring bad source-art file: "Chic Happens Cocktail" (low-contrast subtitle — separate from its brand-safety flag above) | Shopify | 2+ listings | yes | Fix the one source file (contrast only; the brand-safety question is tracked separately in Priority A) | YELLOW | §8i, §8q | Yes — same |
+| Checkerboard-transparency artifact (PNG never flattened before upload) — a recurring workflow gap, confirmed on multiple unrelated designs | Shopify | 14+ confirmed across several batches | yes | Fix the export/upload workflow so transparent PNGs are always flattened; re-export each affected design | RED | §8o, §8x (12-ID cluster #015-#032, flagged by chatgpt as a likely single bad upload session — see YELLOW note in the executive summary) | Yes — approve remedy direction |
+| Color-authoring illegibility: white/pale text invisible on white Hoodie | Shopify | 7 confirmed | yes | Recolor text for the light-garment variant | RED | §8m | Yes — approve remedy direction |
+| Color-authoring illegibility: dark text on black-garment color variant | Shopify | 8+ confirmed | yes | Recolor text for the dark-garment variant | RED | §8m, §8n, §8o | Yes — approve remedy direction |
+| Wine Tumbler laser-engraving legibility (dense art/multi-line text washes out, bleeds, or garbles in the engraving mockup) | Shopify | 9 confirmed in one batch alone | yes | Simplify/re-letter affected designs specifically for the engraving mockup; simple flat-icon designs are unaffected | RED | §8o | Yes — approve remedy direction |
+| Shopify same-artwork/same-blueprint, different-declared-pillow-size pairs (may be a legitimate size-variant need, not a mistake) | Shopify | 3 pairs (6 products) | yes | Needs an owner/platform-capability decision before any "fix" — may not need fixing at all | YELLOW | §8k | Yes — decide if this is even a defect |
+| Minor text-layout collisions (lines spaced too close, reduce but don't destroy legibility) | Shopify | 2+ confirmed (e.g. "My Elf Made Me") | yes | Add vertical spacing between lines | YELLOW | §8o | Yes — low priority, approve remedy direction |
+
+### PRIORITY C — marketplace catalog integrity (duplicates, sync gaps)
+
+| Group | Shop | Instance count | Required Correction | Status | Register pointer | Owner Approval Required? |
+|---|---|---|---|---|---|---|
+| True duplicate ASIN pairs, 7 with both members showing a populated ASIN (most severe — possible split reviews/sales-rank) | Amazon | 11 pairs (22 products), 7 both-live | Retire or merge one ASIN per both-live pair | YELLOW (see verification gap below — "both-live" is Printify-mapping evidence only, not confirmed Amazon buyability) | §8a | Yes — and a marketplace-side buyability check first |
+| True duplicate-listing clusters (same artwork, same blueprint, sold as 2+ separate listings) | Etsy | 17 clusters (32+ products in one batch alone) | Retire the redundant listing(s) per cluster, keep the better-performing one | RED | §8d, §8e | Yes — approve which listing to retire per cluster |
+| True duplicate-listing pairs | eBay | 2 pairs (already sync-gapped, not currently live) | Catalog hygiene only — lower urgency | YELLOW | §5a | Yes — low priority |
+| True duplicate-listing pairs (2 "Naughty List Skeleton" V1/V2, 1 "Christmas Eat No January" cross-blueprint, 1 leftover "Copy of..." duplicate-product operation) | Shopify | 7 pairs | Retire the redundant listing per pair | RED (the "Copy of" one is also a customer-facing title defect) | §8f, §8g, §8p, §8z | Yes — approve which listing to retire per pair |
+| Shopify-wide Printify-to-channel sync-mapping gaps (`external` field null on a material fraction of inspected products, varies by batch) | Shopify | Varies by batch (0% to ~90% populated, see each batch's sync-mapping note in §8f-§8z) | Investigate and resync via Printify if the product should be live; this is Printify-side mapping only, not a confirmed missing live listing | UNKNOWN | §8f-§8z (every batch) | Yes — pending the marketplace-verification pass below |
+| eBay/Amazon/TikTok sync-mapping gaps (pre-existing, from earlier sessions) | eBay, Amazon, TikTok | See §1 for exact per-shop sampled counts | Same as above | UNKNOWN | §1 | Yes — same |
+
+### CONSOLIDATED DASHBOARD
+
+| Metric | Count |
+|---|---|
+| Products visually inspected across all 5 shops | **2,552** (eBay 53 + Amazon 62 + TikTok 71 + Etsy 297 + Shopify 2,069 in the full-visual-inspection scope) |
+| Total defect/finding instances confirmed (Priority A + B + C combined) | **553** (Priority A: 19 products + Priority B: 497 Shopify artwork-defect instances, summed directly from every batch's confirmed-defect count in §7's tracker table + Priority C: 37 duplicate pairs/clusters) |
+| Staged repairs completed | **0** — this consolidation pass made no Printify writes; no artwork has been corrected or re-staged yet |
+| Repairs awaiting owner approval | **553** — every item above, since none has been approved |
+| Approved live repairs | **0** |
+| Post-publication verifications completed | **0** |
+
+**Note on the 553 figure:** Priority A and Priority B are compiled from different per-batch tallies in the
+source register and a small number of Youth Hoodie products (at most ~9) were flagged in both places at
+once (once as a "defect" — e.g. low-contrast text — and once as a brand-safety item for the same
+product). This table counts them once under Priority A (brand-safety takes precedence as the more
+severe classification) and does not double-subtract them from the Priority B sum inherited from §7, so
+553 is a conservative upper bound on distinct instances, not an exact deduplicated count — flagged here
+for transparency rather than presented as falsely precise.
+
 ## 0. Shop directory
 
 | Shop name | Shop ID | Channel | Total products (last confirmed count) |
