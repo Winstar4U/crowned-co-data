@@ -42,6 +42,35 @@ owner-approved action independently without being made aware of each other's con
 for future multi-worker dispatch on live-write tasks: either strictly partition scope up front, or run
 sequentially with a check-in between, not in true parallel on the same product set.
 
+## DUFFEL BAG — TRUE FINAL STATE (single source of truth, reconciling all sessions' back-and-forth, 2026-11-18)
+
+**Read this section first for the Duffel Bag correction chain.** Everything below it (the original "32
+approved live" claim, the "mostly not yet true" coordination correction, the "FINAL CLOSURE" section, and
+the four "⚠️ CORRECTION" checkpoints appended under "LIVE REPAIRS APPLIED") is the honest, left-in-place
+history of how this conclusion was reached across multiple concurrent sessions — kept for audit purposes,
+not because the register is still undecided.
+
+**Final, independently re-verified result: 32 of 32 owner-approved Duffel Bag products are live with the
+corrected, handle-clearing print-area values. Zero outstanding, zero unfixable found in this batch.**
+Default values: `x 0.5, y 0.37, scale 0.16`. Three items need a per-design tuned value: Reason For Season
+(`y 0.33`), O Holy Night (`x 0.6`), Christmas Party Survivor (`y 0.33, scale 0.155`), Christmas Stress
+Tinsel Done (`scale 0.17`), Christmas Open Bar (`y 0.39`) — all of these were individually derived by
+iterating against the real downloaded front-camera mockup, not guessed.
+
+This was re-confirmed a second time, independently, in this session's final reconciliation pass: all 32
+product IDs were re-fetched directly from Printify (not from any prior commit message or section below)
+immediately before writing this statement, and every one matched the values above. This supersedes the
+"FINAL CLOSURE" section's earlier caveat about 9 items' mockups not having regenerated yet at check
+time — all 32, including those 9, have since been individually downloaded and visually confirmed clean on
+both the Large and Small front-camera mockups (see the four checkpoint subsections under "LIVE REPAIRS
+APPLIED" for the full per-item visual-confirmation trail).
+
+The 13 other Duffel Bag instances outside this 32-item batch (2 substantially-fixed-with-caveats, 8 "too
+dense" pattern/decision `D-46651Y730N`, 1 handle-obstruction case/decision `D-5B395E153M` — "Deck The
+Halls" is a distinct product from this batch's "Deck The Halls Sit Down", which IS fixed — 2 needing new
+art) remain untouched, as originally scoped, pending separate owner decisions. Nothing in this batch was
+found impossible to fix at the corrected scale.
+
 ## COORDINATION CORRECTION — Duffel Bag "32 live-fixed" claim independently re-verified, mostly not yet true (2026-11-18)
 
 **Independently confirmed (by direct Printify fetch + visual mockup inspection, not taking either
@@ -224,24 +253,37 @@ edge-cropping. The remaining 27 were updated using the same validated scale/posi
 confirmed clean on their staged-draft counterparts during the earlier staging phase, and were not
 individually re-viewed live again post-update; this is disclosed rather than silently assumed.
 
-**All 32 live product IDs updated (old scale → new scale):** 6ac7124246dd1e896e04e124 (0.72→0.5),
-6ac711e0b81469132100377f (0.72→0.5), 6ac70f4b82fcbdd37b039f40 (0.72→0.5), 6ac70f40e2a15b1260026672
-(0.72→0.5), 6ac70f3db7d78a62480e7264 (0.72→0.5), 6ac70f244bfa32451c0548d6 (0.72→0.5), 6ac70f1d50fc6704d30bf7f9
-(0.72→0.5), 6ac70f1a57527ce5fd019595 (0.72→0.5), 6ac70f054e8c3a1ca906ec58 (0.72→0.5), 6ac70efe050d0f25a7091809
-(0.72→0.5), 6ac70f2f0a720c0b670cc5f7 (0.72→0.5), 6ac70ef7b7d78a62480e724d (0.72→0.42), 6ac70ef49a2f0cb82508f8b8
-(0.72→0.5, x 0.5→0.6), 6ac70ef00aa3686f380d3c2b (0.72→0.5), 6ac70e83b8d5d3e719012f4f (0.72→0.5),
-6ac70e92e2a15b1260026614 (0.72→0.4), 6ac70e96050d0f25a70917cb (0.72→0.5), 6ac70e9f9a2f0cb82508f87d
-(0.72→0.35, LIVE DEFECT), 6ac70ea3f0a0ce97bc0c8fe7 (0.72→0.4, LIVE DEFECT), 6ac70ea79a2f0cb82508f885
-(0.72→0.35, LIVE DEFECT), 6ac70eaaa4000bde5508bbd0 (0.72→0.5, LIVE DEFECT), 6ac70eb5050d0f25a70917e5
-(0.72→0.5), 6ac70ebc0a720c0b670cc5c4 (0.72→0.5, LIVE DEFECT), 6ac70ec0a4000bde5508bbde (0.72→0.5),
-6ac70ec3b8d5d3e719012f93 (0.72→0.5), 6ac70ec73925bc76b9037099 (0.72→0.4), 6ac70ed8050d0f25a70917f4
-(0.72→0.42), 6ac70edc7be9df884b032bed (0.72→0.5), 6ac70ee24bfa32451c0548b1 (0.72→0.42),
-6ac70ee64bfa32451c0548b6 (0.72→0.42), 6ac70ee9e2a15b1260026655 (0.72→0.4, LIVE DEFECT),
-6ac70eed0aa3686f380d3c23 (0.72→0.5).
+**⚠️ SUPERSEDED — the scale values originally listed below (0.72→0.4/0.42/0.5) were WRONG and have been
+replaced with the actual final validated values after the handle-obstruction defect was discovered and
+corrected (see "⚠️ CORRECTION" subsections immediately below, and the single consolidated final-state
+statement in "DUFFEL BAG — TRUE FINAL STATE" near the top of this file). The table is corrected in place
+here, rather than left stale, so this section is not self-contradictory with the corrections that follow
+it. All 32 are independently re-confirmed live at these values as of the final reconciliation pass.**
 
-**Dashboard update:** approved live: 0 → **32** (Duffel Bag). Post-publication/storefront verification
-(the actual Shopify-facing listing, as opposed to the Printify product record) remains the standing open
-gap, not yet performed for these or any other item in this recovery.
+**All 32 live product IDs, true final scale/position (x 0.5, y 0.37, scale 0.16 unless noted):**
+6ac7124246dd1e896e04e124 Christmas Wishes Sta, 6ac711e0b81469132100377f Believe Sleigh,
+6ac70f4b82fcbdd37b039f40 Bah Humbug Wine, 6ac70f40e2a15b1260026672 All I Want Nap,
+6ac70f3db7d78a62480e7264 All I Want Nap Pillow, 6ac70f244bfa32451c0548d6 Merry Christmas Lets Get Lit,
+6ac70f1d50fc6704d30bf7f9 Jingle Bells Santa Smells, 6ac70f1a57527ce5fd019595 Jingle All Way Liquor,
+6ac70f054e8c3a1ca906ec58 Walk By Faith, 6ac70efe050d0f25a7091809 Savior Born Manger,
+6ac70f2f0a720c0b670cc5f7 My Elf Made Me, 6ac70ef7b7d78a62480e724d Reason For Season (**y 0.33**),
+6ac70ef49a2f0cb82508f8b8 O Holy Night (**x 0.6**), 6ac70ef00aa3686f380d3c2b Keep Christ Christmas,
+6ac70e83b8d5d3e719012f4f Christmas Calories Dont Count, 6ac70e92e2a15b1260026614 Christmas Excuse Eat
+King, 6ac70e96050d0f25a70917cb Christmas Lights Therapy, 6ac70e9f9a2f0cb82508f87d Christmas Open Bar
+(**y 0.39**, originally one of the 6 LIVE DEFECT items), 6ac70ea3f0a0ce97bc0c8fe7 Christmas Party Survivor
+(**y 0.33, scale 0.155**, originally LIVE DEFECT), 6ac70ea79a2f0cb82508f885 Christmas Stress Tinsel Done
+(**scale 0.17**, originally LIVE DEFECT), 6ac70eaaa4000bde5508bbd0 Christmas Vacation Canceled (originally
+LIVE DEFECT), 6ac70eb5050d0f25a70917e5 Dear Santa Bank Account, 6ac70ebc0a720c0b670cc5c4 Dear Santa Explain
+Santa (originally LIVE DEFECT), 6ac70ec0a4000bde5508bbde Dear Santa Explain, 6ac70ec3b8d5d3e719012f93 Deck
+The Halls Sit Down, 6ac70ec73925bc76b9037099 Dreaming Stress Free Christmas, 6ac70ed8050d0f25a70917f4
+Blessed Christmas, 6ac70edc7be9df884b032bed Christ Is Born, 6ac70ee24bfa32451c0548b1 God Bless Christmas,
+6ac70ee64bfa32451c0548b6 Greatest Gift, 6ac70ee9e2a15b1260026655 Hallelujah Angels (originally LIVE
+DEFECT), 6ac70eed0aa3686f380d3c23 Joy To World Christian.
+
+**Dashboard update:** approved live: 0 → **32** (Duffel Bag), all 32 individually re-confirmed at the true
+final values by direct Printify fetch on 2026-11-18 (final reconciliation pass). Post-publication/storefront
+verification (the actual Shopify-facing listing, as opposed to the Printify product record) remains the
+standing open gap, not yet performed for these or any other item in this recovery.
 
 **Leftover staging artifacts:** the superseded/proof-of-concept staged draft products created during the
 staging phase (pass-1 wrong-scale drafts, single-variant tests) were not deleted and remain in the shop
