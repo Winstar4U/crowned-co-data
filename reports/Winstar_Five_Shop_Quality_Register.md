@@ -184,7 +184,22 @@ closer look given the similar title, but confirmed NOT a third duplicate once th
 `external` field, unverified against eBay's own storefront), 53/53 visually inspected (100% clean,
 0 confirmed defects, 2 duplicate pairs). Task T-0U6Q5K5G49 ready for Bridge submission.
 
-## 7. Shopify catalog position tracker (most important coverage gap — 912 of 2,912 total products)
+## 7. Shopify catalog position tracker (most important coverage gap — 69 of 2,429 total Shopify
+## products remain for full visual inspection)
+
+**DENOMINATOR CORRECTION (2026-11-18, this session, prompted by chatgpt's independent review
+`P-6U5M471H0J`):** Every "Running Shopify total: X/2,912" line from §8v onward (batches
+#1,961-2,060 through #2,261-2,360) used the WRONG denominator. **2,912 is the five-shop combined
+total** (eBay 53 + Amazon 62 + TikTok 71 + Etsy 297 + Shopify 2,429 = 2,912, see §1), not the
+Shopify-only catalog size. The actual Shopify catalog total is **2,429**, confirmed directly from
+Printify's live API `total` field on five separate page fetches this session (pages 44-48, each
+independently reporting `"total": 2429`). The Shopify full-visual-inspection scope is #361-2,429
+(2,069 products, since #1-360 were already metadata/sync-sampled in earlier sessions, not
+full-visual-inspected). With 2,000 products inspected across twenty batches (#361-460 through
+#2,261-2,360), **only 69 products remain: #2,361-2,429** — far fewer than the 552/912 previously
+(incorrectly) reported. The historical "X/2,912" lines inside §8v-§8y are left as originally written
+(for audit-trail integrity) but should be read as erroneous; this section and §8 below are the
+corrected, current pointers.
 
 | Range | Status | Task |
 |---|---|---|
@@ -212,13 +227,13 @@ closer look given the similar title, but confirmed NOT a third duplicate once th
 | #2,061-2,160 | **Full visual inspection (100/100), see §8w** — 8/100 confirmed defects (one of the lowest batch rates in this effort), 0 true duplicate pairs, 0 new brand-safety instances (tally stays 15; blueprint mix had no Youth Hoodie/Baby Onesie). **T-Shirt (59 units), Tough Phone Case, Polo, Softstyle Tee, 11oz Mug: 0% defective.** Confirmed "Chic Happens Cocktail" renders CLEAN on T-Shirt despite being flagged defective on Lunch Box in an earlier batch — reconfirms print-area-size dependency. | T-1D1O420T4G (this session) |
 | #2,161-2,260 | **Full visual inspection (100/100), see §8x** — 13/100 confirmed defects, 0 true duplicate pairs, 0 new brand-safety instances (tally stays 15; batch was 100% T-Shirt blueprint, no Youth Hoodie/Baby Onesie). NEW defect class isolated: checkerboard transparency-indicator artifact baked into printed design (12/13 defects, clustered #015-#032). 1 duplicated-word typo instance ("AND, AND CAFFEINATED") confirms the recurring source-art text-duplication bug on a new design. | T-08535N036G (this session) |
 | #2,261-2,360 | **Full visual inspection (100/100), see §8y** — 0/100 confirmed defects, the first fully-clean 100-product batch in this entire recovery effort. 0 true duplicate pairs, 0 new brand-safety instances (tally stays 15; only 1 Youth Tee present, confirmed clean). Batch was 79% T-Shirt plus a diverse mix of swimwear/accessory blueprints sampled at volume for the first time (Tank Top, Muscle Tank, Swimsuit, Bikini, Women's Briefs — all clean). NEW note: 24 products had their Printify-reported default mockup hosted on a non-Printify CDN domain this session's network policy blocks; a valid images.printify.com alternate was substituted and confirmed for all 24. | T-6H3962210T (this session) |
-| #2,361-2,912 | **NOT STARTED** (552 products) | Next batch(es) |
+| #2,361-2,429 | **NOT STARTED** (69 products — corrected denominator, see note above) | Next batch(es) |
 
 ## 8. Next eligible batch (for whichever session/dispatcher firing picks this up next)
 
-1. Shopify shop 26418699, #2,361 onward, continuing in ~100-product batches with full visual
-   inspection (every default mockup viewed, not sampled) — see §8f-§8y for the systemic defect-rate
-   finding (ranging 0%-49% across twenty batches so far) that makes full inspection (not sampling)
+1. Shopify shop 26418699, #2,361-2,429 (the final 69 products — corrected denominator, see §7),
+   completing the full-visual-inspection sweep in one final batch — see §8f-§8y for the systemic
+   defect-rate finding (ranging 0%-49% across twenty batches so far) that makes full inspection (not sampling)
    essential for this shop. Root causes identified so far: (a) print-window-vs-artwork-size cropping,
    affecting Backpack/Laptop Sleeve/Mouse Pad/Baby Onesie/Tank Top/Napkin Set/Throw Pillow/Coaster
    Set/Lunch Box/Wall Tapestry/Duffel Bag/Bucket Hat blueprints depending on the specific source file;
@@ -232,12 +247,13 @@ closer look given the similar title, but confirmed NOT a third duplicate once th
    entirely out of the visible label area. A duplicate-listing sub-pattern was also found in §8k:
    identical blueprint + identical artwork sold as separate listings differing only by declared pillow
    size (18x18 vs 20x20) — distinct from the "different blueprint = normal" pattern ruled out
-   elsewhere. 912 products remain unstarted.
+   elsewhere. 69 products remain unstarted (corrected denominator, see §7).
 2. **eBay is now COMPLETE (53/53 visually inspected, see §6a) — do not re-inspect.** **Amazon is now
    COMPLETE (62/62 visually inspected, see §8a) — do not re-inspect.** **TikTok is now COMPLETE (71/71
    visually inspected, see §8b) — do not re-inspect.** **Etsy is now FULLY COMPLETE — all 297 products
    visually inspected across the pre-existing inspection round plus batches 1/3 (§8c), 2/3 (§8d), and 3/3
-   (§8e) — do not re-inspect any ID in §9–§13.** Only Shopify (912 remaining of 2,912 total, see item 1
+   (§8e) — do not re-inspect any ID in §9–§13.** Only Shopify (69 remaining of 2,429 Shopify total,
+   corrected denominator — see §7 — not the old erroneous 912/2,912 figure; see item 1
    above) remains as an unstarted shop in this five-shop recovery.
 3. Direct marketplace-side verification (actually checking eBay/Amazon/TikTok/Shopify storefronts, not
    just Printify's `external` field) for at least the highest-volume confirmed-gap SKUs, before any
