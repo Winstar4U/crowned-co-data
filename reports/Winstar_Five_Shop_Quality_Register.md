@@ -719,6 +719,31 @@ point (scale ≈0.5, y ≈0.4, vs. the original ≈0.72/0.32) as a first attempt
 **Dashboard update:** Duffel Bag staged repairs completed: **1 of 45** (Subtype B, fully confirmed
 fixed and repair-ready). The 2 earlier Subtype-A test drafts remain diagnostic-only, not repairs.
 
+### Duffel Bag batch 2 (6 more items classified/staged)
+
+Continuing per owner instruction: classify each remaining instance, stage+fix Subtype B (edge-cropping,
+same method: start scale 0.5/y 0.4, same blueprint 372/99), reference decision D-5B395E153M for
+confirmed Subtype A (handle obstruction) without re-attempting, flag anything that doesn't cleanly fit
+either category.
+
+| Original live product | Starting point (scale 0.72/y 0.32, same blueprint) | Fix attempted | Result | Staged draft |
+|---|---|---|---|---|
+| `6ac711e0b81469132100377f` "Believe Sleigh" Duffel | scale 0.72/y 0.32 | scale 0.5/y 0.4 | **FULLY FIXED** — "BELIEVE" + sleigh graphic complete, clean margins | `6afd9e71598fa546c30703b3` (2-variant) |
+| `6ac70f597be9df884b032c1b` "Christmas 2026 Caffeine Panic" | scale 0.72/y 0.32 | scale 0.5/y 0.4, then scale 0.4/y 0.38 | **SUBSTANTIALLY IMPROVED, NOT FULLY CLEAN** — 4-line stacked text ("'CHRISTMAS 2026: / 50% CAFFEINE, / 10% EGGNOG, / 100% PANIC.'"); even at reduced scale the 4th line is still clipped by the bottom curve. This design has too much stacked text for the available flat panel, similar in kind to the Subtype-A handle-obstruction problem even though its register note says "edges" — recommend treating as its own case (see below), not continuing to iterate scale further (diminishing returns observed). | `6afd9e8a8ea52c16770aada2` (1-variant test, not finalized as a clean repair) |
+| `6ac70f4b82fcbdd37b039f40` "Bah Humbug Wine" | scale 0.72/y 0.32 | scale 0.5/y 0.4 | **FULLY FIXED** — "BAH HUMBUG" title + top-hat character graphic complete, clean margins | `6afd9ea364b943792d07c86a` (2-variant) |
+| `6ac70f47b7d78a62480e726b` "Avoiding Carolers Raccoon" | scale 0.72/y 0.32 | scale 0.5/y 0.4 | **NOT FIXED** — 3-line text ("CURRENTLY AVOIDING CAROLERS (AND...") still has line 3 and the raccoon icon entirely missing below the curve; this is the same "too much stacked content" pattern as Caffeine Panic. Also recall the original register note separately flagged "icon graphic missing entirely" — that part may be a distinct source-art problem on top of the layout problem. Own case, not forced into Subtype A or B. | `6afd9ea78ea52c16770aadb6` (test only, not a clean repair) |
+| `6ac70f444e8c3a1ca906ec70` "Avoiding Carolers Gnome" | scale 0.72/y 0.32 | scale 0.5/y 0.4 | **SUBSTANTIALLY FIXED** — "CURRENTLY AVOIDING CAROLERS" text fully legible, gnome/elf face graphic mostly visible with only a minor bottom trim. Close to clean; could likely reach fully-clean with one more small iteration (not attempted this pass to conserve tool calls). | `6afd9eac5d18cea8e70b1274` (2-variant, usable as-is or with one more refinement) |
+| `6ac70f55fa3cae10170ef95c` "Chic Happens Cocktail" | scale 0.72/y 0.32 | scale 0.5/y 0.4 | **SCALE/POSITION ISSUE FIXED, BUT FLAG FOR SEPARATE REVIEW** — the resulting mockup shows a clean, fully-visible cocktail-glass icon with no cropping. However the original register defect note said "text cropped/obscured, title missing" and no "Chic Happens Cocktail" title text appears anywhere in this corrected render either — suggesting the title text may not actually exist as a distinct, visible element in this source image (possibly a color/contrast issue, e.g. white text on white background, rather than a crop). This needs a quick human/owner look at the source artwork itself before treating it as a clean repair; the crop/position problem specifically is resolved. | `6afd9eae8ea52c16770aadc2` (2-variant) |
+
+**Running Duffel Bag tally after batch 2:** 1 (Christmas Wishes Sta) + 2 new fully-fixed (Believe Sleigh,
+Bah Humbug Wine) = **3 of 45 fully confirmed clean and repair-ready**. 1 substantially-fixed-minor-trim
+(Avoiding Carolers Gnome) usable with caveat. 2 flagged as their own case, not clean Subtype B fixes
+(Caffeine Panic, Avoiding Carolers Raccoon — both have more stacked text than the panel can hold even
+at reduced scale). 1 flagged for owner/art review (Chic Happens Cocktail — possible missing/invisible
+title text in the source art, separate from the crop issue). 2 confirmed Subtype A, referencing decision
+D-5B395E153M, no further action (Deck The Halls, and by extension any other handle-obstructed instance
+found later). 37 of 45 not yet classified.
+
 ## 0. Shop directory
 
 | Shop name | Shop ID | Channel | Total products (last confirmed count) |
