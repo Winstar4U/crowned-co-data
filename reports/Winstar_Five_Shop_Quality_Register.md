@@ -877,6 +877,32 @@ classified, 12 remaining.**
 swap-in ahead of the rest of the Duffel Bag batch, since the live versions are actively showing broken
 artwork to customers today.
 
+**Bridge decision filed:** `D-6E461R1D3H` — proposed to owner with APPROVE/REQUEST REVISION/HOLD/
+AUTHORIZE REMOVAL options, covering the 3 live defects above. Two more live defects (below, batch 8)
+were found immediately after filing this decision — they fall under the same pattern and should be
+considered together with it rather than as a separate decision.
+
+### Duffel Bag batch 8 (4 more items classified — all 4 fully fixed, 2 more of them currently live defects)
+
+| Original live product | Live status | Fix attempted | Result | Staged draft |
+|---|---|---|---|---|
+| `6ac70eaaa4000bde5508bbd0` "Christmas Vacation Canceled" | **LIVE DEFECT** — modified Oct 14 (`clean-christmas-vacation-canceled.png`), live mockup shows "MY [C]HRISTMA[S] [V]ACATIO[N] HAS BEEN [C]ANCELE[D]" sheared on both edges | scale 0.5/y 0.4/x 0.5 (standard) | **FULLY FIXED on first try** — "MY CHRISTMAS VACATION HAS BEEN CANCELED" + gift/suitcase graphic, complete, clean margins | `6afda4d837262f37de0bf164` (2-variant) |
+| `6ac70eb5050d0f25a70917e5` "Dear Santa Bank Account" | Untouched since Oct 9 (original defect state) | scale 0.5/y 0.4/x 0.5 (standard) | **FULLY FIXED on first try** — "DEAR SANTA, MY BANK ACCOUNT SAYS NO" + Santa-hat cat graphic, complete, clean margins | `6afda4db37262f37de0bf168` (2-variant) |
+| `6ac70ebc0a720c0b670cc5c4` "Dear Santa Explain Santa" | **LIVE DEFECT** — modified Oct 14 (`dear-santa-explain-santa-transparent.png`), live mockup shows "[D]EAR SAN[TA] I CAN EXPLAI[N]" sheared on both edges | scale 0.5/y 0.4/x 0.5 (standard) | **FULLY FIXED on first try** — "DEAR SANTA, I CAN EXPLAIN." + winking Santa graphic, complete, clean margins | `6afda4de64b943792d07cdcc` (2-variant) |
+| `6ac70ec0a4000bde5508bbde` "Dear Santa Explain" | Untouched since Oct 9 (original defect state) | scale 0.5/y 0.4/x 0.5 (standard) | **FULLY FIXED on first try** — "DEAR SANTA, I CAN EXPLAIN" + startled-face graphic, complete, clean margins | `6afda4e01cb1d74e0a01bd22` (2-variant) |
+
+**Running Duffel Bag tally after batch 8: 24 of 45 fully confirmed clean and repair-ready**, including
+validated fixes for 5 total currently-live defective products (3 from batch 7 + 2 new from this batch:
+Christmas Vacation Canceled, Dear Santa Explain Santa). 2 substantially fixed with minor caveats
+(unchanged). 8 in the "too dense" pattern, referencing D-46651Y730N. 1 in the handle-obstruction pattern,
+referencing D-5B395E153M. 2 needing new art (Candy Cane Lane, Chic Happens Cocktail). **37 of 45
+classified, 8 remaining.**
+
+**Updated recommendation to owner:** add staged drafts `6afda4d837262f37de0bf164` (Christmas Vacation
+Canceled) and `6afda4de64b943792d07cdcc` (Dear Santa Explain Santa) to the same expedited-approval
+request as decision `D-6E461R1D3H` — now 5 live-defective products total with validated staged fixes
+ready to swap in.
+
 ## 0. Shop directory
 
 | Shop name | Shop ID | Channel | Total products (last confirmed count) |
