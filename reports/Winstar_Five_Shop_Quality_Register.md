@@ -4,6 +4,61 @@
 source of truth requested by the owner; do not recreate parallel registers. Append new rows/sections
 rather than rewriting history.
 
+## MARKETPLACE-SIDE STOREFRONT VERIFICATION (first real pass, 2026-11-18)
+
+**Why:** this exact gap — "all verification to date has been Printify-API-side only (print_areas,
+mockups, `external` field), never a real live storefront page" — had been flagged repeatedly across the
+whole recovery (by chatgpt's Bridge challenges and in this register's own Master Dashboard note). This
+environment has headless Chromium + Playwright pre-installed, and it had never been used for this purpose
+in the entire five-shop recovery until now. Result below is reported honestly, including where the attempt
+was blocked, rather than claiming a pass that didn't happen.
+
+**Sample set attempted (read-only, no live changes):** 3 Duffel Bags, 2 Wall Tapestries, and the 2 new
+Etsy Thong→Briefs replacements (all re-fetched fresh from Printify first to get current `external.handle`
+URLs), plus 2 genuine-absence checks (the drafted ornament set, one deleted alcohol/infant item).
+
+**Outcome — real browser verification could NOT be completed, for two separate, non-product reasons:**
+
+1. **Shopify storefront (`4juy1i-kq.myshopify.com`) — blocked by this session's own network egress
+   policy, not a product defect.** All 5 Shopify-channel URls (3 Duffel Bags, 2 Wall Tapestries) failed
+   with `net::ERR_TUNNEL_CONNECTION_FAILED`. Checked `$HTTPS_PROXY/__agentproxy/status`, which confirmed
+   `"kind": "connect_rejected", "detail": "gateway answered 403 to CONNECT (policy denial or other
+   refusal)", "host": "4juy1i-kq.myshopify.com:443"` — a deliberate egress-policy denial of that specific
+   host, the same class of restriction this session has already respected elsewhere (e.g. the earlier
+   Adobe `at.adobe.com` denial). Per environment rules this was **not** retried or worked around.
+2. **Etsy storefront (`www.etsy.com`) — blocked by Etsy's own anti-bot challenge, not a product defect.**
+   Both Etsy Thong-replacement listing URLs returned HTTP 403 with title `etsy.com` and body text "Please
+   enable JS and disable any ad blocker" — Etsy's standard bot-detection challenge page served to headless
+   browsers (the proxy log also shows the page's captcha-delivery subresource, `ct.captcha-delivery.com`,
+   independently denied). This is an anti-automation measure on Etsy's side; defeating it would be
+   detection evasion, which is out of scope and was not attempted.
+
+**What this means:** a genuine marketplace-side (real storefront page) verification pass is **not
+achievable from inside this specific sandboxed environment** for either the Shopify or Etsy sales
+channels, via Playwright/headless Chromium. This is an environment/tooling limitation, not a finding about
+the products themselves, and should not be read as "verification passed" or "verification failed" for any
+of the 7 sampled live items — it is genuinely **unverified by this method**. Printify-API-side evidence for
+those 7 (print_areas, scale/x/y values, mockup URLs) remains exactly as already documented elsewhere in
+this register and is unchanged by this attempt.
+
+**Absence checks — these DID succeed, via direct Printify API calls (no browser needed):**
+- Etsy "Funny Ornament Gift Set of 3" (`6ad42970f1aeec4b590f6d00`): fresh fetch shows **no `external` field
+  at all** on the product (contrast with every live product above, which all carry a populated
+  `external.handle`) — confirms it is genuinely not published to any sales channel, i.e. truly absent from
+  any live storefront, consistent with the owner's "draft it out" decision. **Confirmed absent.**
+- "Elegantly Wasted Martini" Youth Hoodie (`6ac712026356cae0df02e31c`), shop `26418699`: fresh fetch
+  returns Printify API `404 printify_product_not_found` — the product record itself no longer exists.
+  **Confirmed deleted.**
+
+**Net effect on the standing gap:** the gap is now investigated and the reason it can't be closed is
+understood and documented (two independent, unrelated blockers — one environment network policy, one
+target-site anti-bot defense) rather than simply left open and unexamined. Closing it for real would
+require either an environment network-policy change (owner/infra decision, out of scope for this session to
+make unilaterally) for the Shopify domain, or accepting Etsy's bot page as unavoidable for any headless
+client. Recommend to the owner: treat Printify-API-side mockup verification (already done for all closed
+items) as the practical ceiling for this environment, or verify Shopify/Etsy pages manually/via a real
+logged-in browser session outside this sandbox if page-exact confirmation is required.
+
 ## OWNER DECISIONS 2026-11-18 (batch 3): Amazon duplicates kept as-is, Etsy Thong migration authorized
 
 **Owner instructions (verbatim), answering the 4 open items presented:** "1. Approve. 2. Leave them
