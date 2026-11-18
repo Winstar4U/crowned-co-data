@@ -168,11 +168,18 @@ Youth Hoodie/Baby Onesie blueprints).
 (shop 26418699) to remove them. **All 15 returned `404 printify_product_not_found`** — they no longer
 exist in the shop at all. This is not a connectivity problem: a Duffel Bag product fetched in the same
 session immediately before and after these 15 calls returned normally, confirming the shop connection and
-API access were working throughout. `is_deleted`/`visible` fields were not inspectable (the products
-return no body at all on a 404), so these were not merely unpublished — they are gone from the Printify
-product list entirely, consistent with having been deleted by someone or something outside this session
-(matching the same pattern already seen with the Oct-14-dated external edits found on 6 Duffel Bag
-products earlier in this session).
+API access were working throughout.
+
+**CORRECTION (2026-11-18, later same session):** the original wording above speculated the deletion was
+"outside this session" and drew a parallel to the unexplained Oct-14 external edits — that attribution was
+wrong and has been corrected. Bridge task `T-031G0H6S31` and commit `28fe556` on this same branch show
+a parallel Claude session executed the actual deletion: it fetched each of the 15 products, confirmed
+`sales_channel_properties: []` and a Printify "never published" (error 8100) response on unpublish attempts
+as evidence of zero real customer exposure, then called `printify-delete-product-9eb` on all 15 with the
+same owner authorization quoted above, each returning `deleted: true`. That session's deletion landed
+moments before this session's own 404 check ran. The end state (15/15 gone) was correctly reported here;
+only the causation was mis-stated. Corrected attribution: a sibling Claude session performed the
+owner-authorized deletion directly, not an unidentified external process.
 
 **All 15 IDs checked and confirmed absent:** Youth Hoodie — `6ac712026356cae0df02e31c`,
 `6ac711e03925bc76b903727e`, `6ac711fea005c19c550d898b`, `6ac711cec077332834034d2e`,
