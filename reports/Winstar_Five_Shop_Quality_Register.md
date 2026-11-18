@@ -231,6 +231,245 @@ severe classification) and does not double-subtract them from the Priority B sum
 553 is a conservative upper bound on distinct instances, not an exact deduplicated count — flagged here
 for transparency rather than presented as falsely precise.
 
+## POLICY VIOLATION REVIEW (owner protocol, compiled 2026-11-18)
+
+**Purpose:** per the owner's "POLICY VIOLATIONS AND FINAL APPROVAL" directive, this section documents
+every identified policy/compliance concern from §0-§34 and the REPAIR QUEUE above in the owner's required
+8-point review format: Flag / Policy source / Proposed compliant correction / Before-after / Decision
+options / Critical flag / No-action-taken confirmation. **This is a documentation-only pass. No Printify
+writes, no publish/unpublish/price/inventory/account changes, and no removal, deactivation, replacement,
+or other live modification have been made to any product discussed below — every item is pending owner
+decision.** Decision options for every item in this section are exactly: **APPROVE PROPOSED CORRECTION /
+REQUEST REVISION / HOLD FOR FURTHER REVIEW / AUTHORIZE REMOVAL.**
+
+---
+
+### Item 1 — Alcohol/cocktail-themed artwork on children's and infant apparel — **CRITICAL**
+
+**CRITICAL reason:** systemic brand-safety pattern recurring across 6 independent inspection batches on
+two children's/infant blueprints, carrying real account-suspension and legal/liability exposure if left
+live.
+
+**1. Flag.** 15 confirmed Printify product IDs, all Shopify shop `26418699` (Winstar4U), place
+alcohol/cocktail artwork (martini glasses, wine bottles, a skeleton holding a drink, explicit copy such
+as "ELEGANTLY WASTED SINCE 2026 / HOLIDAY SPIRITS" and "I'M JUST FOR THE OPEN BAR") on two
+children's/infant-marketed blueprints: Youth Hoodie (11 instances) and Baby Onesie (4 instances). No
+marketplace listing URLs are recorded in the register for these Shopify products beyond the Printify
+mockup URLs already cited per-ID below; this register does not capture live Shopify storefront URLs.
+Concern category: brand-safety / content-audience mismatch.
+
+Youth Hoodie (11):
+| Printify ID | Design | Evidence |
+|---|---|---|
+| `6ac712026356cae0df02e31c` | Elegantly Wasted Martini | §8n ID table, row for this ID: "content/brand-safety flag (cocktail design on kids blueprint)" |
+| `6ac711e03925bc76b903727e` | Corkscrew Wine Repeat | §8n ID table: "content/brand-safety flag (wine design on kids blueprint)" |
+| `6ac711fea005c19c550d898b` | Eggnog Recovery Skeleton | REPAIR QUEUE row (above) lists this as RED/brand-safety; **note for transparency: the raw §8n per-ID table marks this same ID "CLEAN"** — an internal inconsistency in the source register between the narrative brand-safety note at §8n ("Three alcohol/cocktail-themed designs... are mapped onto the Youth Hoodie blueprint," naming this design) and its own ID-table row. Flagged here as-is, with the discrepancy disclosed rather than silently resolved; owner/reviewer should treat this ID as needing direct re-inspection before relying on either label. |
+| `6ac711cec077332834034d2e` | Christmas Open Bar | §13 ID table (line 3272): "DEFECT: alcohol/cocktail artwork on Youth Hoodie (children's blueprint) + CHRISTMAS text cropped at top edge" |
+| `6ac711ab336f8358660114d1` | Chic Happens Cocktail | §13 ID table (line 3312): "DEFECT: alcohol/cocktail artwork on Youth Hoodie (children's blueprint) + low-contrast near-black text" |
+| `6ac7118fc077332834034cfd` | Naughty List Skeleton V2 | §13 ID table (line 3345): "DEFECT: alcohol/cocktail (martini) imagery on Youth Hoodie (children's blueprint)" |
+| `6ac70fecb8d5d3e71901300d` | Elegantly Wasted Martini (distinct listing, "Kids Hoodie" title) | §8s ID table (line 3998): "BRAND-SAFETY FLAG — explicit alcohol/cocktail design... on Youth Hoodie" |
+| `6ac70fe9b8d5d3e71901300a` | Eggnog Recovery Skeleton (distinct listing) | §8s ID table (line 4001): "BRAND-SAFETY FLAG" |
+| `6ac70fd0e2a15b1260026691` | Corkscrew Wine Repeat (distinct listing) | §8s ID table (line 4009): "BRAND-SAFETY FLAG" |
+| `6ac70fbf35a66ab7dc0b0e9b` | Christmas Open Bar (distinct listing) | §8s ID table (line 4015): "DEFECT — top word cropped; BRAND-SAFETY FLAG" |
+| `6ac70f9c35a66ab7dc0b0e86` | Chic Happens Cocktail (distinct listing) | §8s ID table (line 4032): "BRAND-SAFETY FLAG" |
+
+Baby Onesie (4):
+| Printify ID | Design | Evidence |
+|---|---|---|
+| `6ac7114807e4149a0f000fef` | Naughty List Skeleton V2 | §8q-range ID table (line 3570): "BRAND-SAFETY FLAG — confirmed actual martini-glass/cocktail imagery (visible purple liquid) on a Baby Onesie" |
+| `6ac7108350fc6704d30bf899` | Elegantly Wasted Martini | line 3783: "BRAND-SAFETY FLAG — 'ELEGANTLY WASTED SINCE 2026 / HOLIDAY SPIRITS' + martini graphic on infant apparel" |
+| `6ac7108007e4149a0f000f4e` | Eggnog Recovery Skeleton | line 3785: "BRAND-SAFETY FLAG — 'EGGNOG RECOVERY IN PROGRESS' hangover-joke skeleton on infant apparel" |
+| `6ac7105707e4149a0f000f3b` | Christmas Open Bar | §8q-range ID table: "BRAND-SAFETY FLAG — cocktail-glass art on Baby Onesie" |
+
+This total of 15 matches the owner directive's expected count exactly (11 Youth Hoodie + 4 Baby Onesie),
+cross-verified against the running tallies logged at register lines 3975, 4088, 4234, 4267, 4468, 4658,
+4837, 5028, and 5236 (all state "15: 11 Youth Hoodie + 4 Baby Onesie," unchanged through the remainder of
+the full-visual-inspection sweep). The same adult-humor design family also appears, correctly unflagged,
+on adult blueprints (Shot Glass, Wine Tumbler, Fleece Zip-Up, Shower Curtain, Winter Scarf) — those
+instances are not a concern and are not included in this count.
+
+**2. Policy source.** Printify and major marketplaces (Shopify's Acceptable Use Policy, Etsy's and
+Amazon's content policies) generally prohibit marketing age-inappropriate or adult-themed content as
+children's/infant products, and Printify's own blueprint descriptions market Youth Hoodie and Baby Onesie
+specifically as children's/infant apparel. I have no live web access in this review and cannot cite
+current exact policy-clause text — **owner/counsel should confirm the exact, current policy language for
+each affected sales channel (Shopify, and any channel these Shopify-sourced designs sync to) before any
+enforcement action.**
+
+**3. Proposed compliant correction (draft).** No corrected asset exists for any of these 15 products. Two
+honest options, neither of which has been executed: (a) remove/unpublish the 15 SKUs from the Youth
+Hoodie/Baby Onesie blueprints only, while keeping the identical designs live on the adult blueprints where
+they are not a concern; or (b) re-map each SKU's print area to a different, non-children's blueprint
+instead of deleting the listing outright. No new artwork would need to be created for either option — this
+is a blueprint-mapping change, not an art-correction. I am not proposing a specific one of these two without
+owner direction.
+
+**4. Before/after.** "Before" = the live Printify mockup URL cited in each table row above. "After": no
+corrected or re-mapped asset exists yet for any of the 15 — nothing has been generated, so there is no
+"after" image to show.
+
+**5. Decision options:** APPROVE PROPOSED CORRECTION / REQUEST REVISION / HOLD FOR FURTHER REVIEW /
+AUTHORIZE REMOVAL.
+
+**6. (CRITICAL — see reason above.)**
+
+**7. No action taken.** None of these 15 products has been removed, deactivated, re-mapped, or otherwise
+live-modified. All are pending owner decision.
+
+---
+
+### Item 2 — TEXACO trademark exposure — **CRITICAL**
+
+**CRITICAL reason:** live, currently-sold third-party trademark use (not merely a risk pattern) —
+real, ongoing legal exposure for as long as the listing stays up.
+
+**1. Flag.** Etsy product `6a53ee979296b919210641d5` ("Matte Canvas, Framed"), Etsy shop `26603005`,
+prominently features a TEXACO-branded gas-station storefront and pump signage in a vintage-style
+photo/illustration. Register evidence (Executive Summary, lines 45-47): "**TEXACO trademark exposure** —
+Etsy product `6a53ee979296b919210641d5` ('Matte Canvas, Framed') prominently features a TEXACO-branded gas
+station storefront and pump signage in a vintage-style photo/illustration. Recommend owner/counsel review
+of usage rights before continued sale (§8d)." Same item appears in the REPAIR QUEUE table (line 176) as
+RED, "yes" purchasable. No Etsy listing URL is separately recorded in the register beyond the product ID
+and shop ID. Concern category: trademark/IP.
+
+**2. Policy source.** General trademark law prohibits unauthorized commercial use of a registered mark on
+merchandise, and Etsy's own intellectual-property policy prohibits listings that infringe a third party's
+trademark. I have no live web access and cannot confirm whether this specific use (a vintage-style
+illustration, not a verbatim logo reproduction) would be found infringing, or whether any license exists —
+**owner/counsel must review current trademark law and Etsy's IP policy before any enforcement or
+continued-sale decision.**
+
+**3. Proposed compliant correction (draft).** No corrected, TEXACO-free version of this artwork currently
+exists. The only honest options are: (a) remove the listing, or (b) commission/source replacement artwork
+that does not depict the TEXACO mark and re-upload it as a new design. I am not fabricating a "fixed"
+image — none exists yet.
+
+**4. Before/after.** "Before" = the existing Printify mockup for `6a53ee979296b919210641d5` (URL on file in
+§8d's ID table for this product). "After": no corrected asset exists.
+
+**5. Decision options:** APPROVE PROPOSED CORRECTION / REQUEST REVISION / HOLD FOR FURTHER REVIEW /
+AUTHORIZE REMOVAL.
+
+**6. (CRITICAL — see reason above.)**
+
+**7. No action taken.** This listing has not been removed, deactivated, or modified. Pending owner
+decision.
+
+---
+
+### Item 3 — 2 broken Shopify Thong listings (unfulfillable; catalog-discontinued blueprint) — not CRITICAL
+
+**1. Flag.** Shopify shop `26418699` (Winstar4U), two products: `69c7630e3acff09c580c3072` ("Women's Thong
+This Is Not Going To Unzip Itself") and `69c75c408ac9a0544a0ebe6d` ("Juicy Black Women's Thong — Playful
+Pink Puff Lettering"). Both have zero Printify-generated mockups (`images: []`) and every variant disabled
+— register evidence, REPAIR QUEUE lines 178-179 and §8z. Root cause, confirmed via a direct Printify
+print-providers-by-blueprint API call made earlier in this repair effort (not yet written into the register
+body before this entry): **Printify blueprint 1466 has been removed entirely from Printify's global
+catalog** — the API call returned a 404 with error code `printify_blueprint_not_found`. This is a
+catalog-level discontinuation cascading to every product built on that blueprint, not a per-product artwork
+defect. Concern category: unfulfillable-listing / marketplace-duplicate-policy-adjacent (most marketplace
+policies prohibit listing items that cannot actually be fulfilled or previewed).
+
+**2. Policy source.** Marketplace policies (Shopify's own terms and general consumer-protection norms)
+generally require listings to be purchasable and deliverable as described; a product with no mockup images
+and all variants disabled cannot be fulfilled. I have no live web access to cite Shopify's current exact
+policy text — owner should confirm current terms before treating this as a formal violation versus simply
+broken inventory.
+
+**3. Proposed compliant correction (draft).** Because the root cause is Printify-side catalog
+discontinuation (blueprint 1466 no longer exists), the realistic options are: (a) remove both listings, since
+the underlying blueprint can no longer be re-enabled through Printify; or (b) re-map both products' existing
+artwork onto a different, currently-available Printify blueprint (e.g. another underwear/apparel blueprint
+still in Printify's catalog) and republish. No "fixed" mockup can be regenerated on blueprint 1466 itself —
+it does not exist in Printify's catalog anymore.
+
+**4. Before/after.** "Before": no mockup exists for either product (`images: []`) — there is nothing to show
+as a before image either. "After": no corrected asset exists.
+
+**5. Decision options:** APPROVE PROPOSED CORRECTION / REQUEST REVISION / HOLD FOR FURTHER REVIEW /
+AUTHORIZE REMOVAL.
+
+**6. Not CRITICAL.** Catalog-discontinuation / unfulfillable-inventory issue, not a brand-safety or live
+trademark-infringement issue.
+
+**7. No action taken.** Neither listing has been removed, re-mapped, or otherwise modified. Pending owner
+decision.
+
+---
+
+### Item 4 — Amazon both-live duplicate-ASIN pairs — not CRITICAL (cross-reference)
+
+**1. Flag.** Amazon shop. 11 total duplicate-listing pairs identified, of which **7 pairs show BOTH members
+with a populated ASIN** (register §8a; also REPAIR QUEUE line 208 and Executive Summary lines 60-64).
+Example cited in the Executive Summary: `6ae414e52e006c787106bd99` (ASIN B0HPS4FTHJ) /
+`6ae2af0ed0738075d402e2b2` (ASIN B0HPMTHR4C), both titled "Dog Mom Christmas." Full pair-by-pair detail,
+including all 7 both-live pairs' Printify IDs and ASINs, already exists in §8a — not re-derived here, per
+scope. Concern category: marketplace-duplicate-policy (Amazon's catalog policy prohibits separate detail
+pages for identical products, since duplicate ASINs can split reviews, sales rank, and search visibility).
+
+**2. Policy source.** Amazon's Product Detail Page Rules prohibit creating a new listing for a product that
+already has a detail page. I have no live web access to cite the current exact policy text — owner should
+confirm current Amazon seller policy before treating any specific pair as a confirmed violation.
+
+**3. Proposed compliant correction (draft).** For each both-live pair: retire or merge one of the two ASINs,
+keeping the better-performing one. This requires an Amazon Seller Central-side action and a prior
+buyability/live-status check (flagged as a verification gap in the REPAIR QUEUE, line 208) — not something
+resolvable from Printify data alone.
+
+**4. Before/after.** Not applicable in the image-mockup sense — this is a catalog-structure issue, not an
+artwork defect. "Before" = the current duplicate-ASIN state documented in §8a.
+
+**5. Decision options:** APPROVE PROPOSED CORRECTION / REQUEST REVISION / HOLD FOR FURTHER REVIEW /
+AUTHORIZE REMOVAL.
+
+**6. Not CRITICAL.** Catalog-integrity/policy-adjacent issue, not brand-safety or trademark exposure.
+
+**7. No action taken.** No Amazon ASIN has been retired, merged, or otherwise modified. Pending owner
+decision.
+
+---
+
+### Item 5 — Etsy "Funny Ornament Gift Set of 3" sells 1 design, not 3 — not CRITICAL
+
+**1. Flag.** Etsy product `6ad42970f1aeec4b590f6d00` ("Funny Ornament Gift Set of 3"), Etsy shop `26603005`
+— a LIVE listing (`visible: true`, has an Etsy external handle/listing reference per the register). The
+listing description promises 3 designs (Mischievous Raccoon, Merry Chaos Cat, Wine O'Clock), but the
+Printify product's print_area contains only 1 image (`funny-raccoon.jpg`) across all 4 shape variants.
+Register evidence: Executive Summary lines 48-51 and REPAIR QUEUE line 177. Concern category:
+misleading-description.
+
+**2. Policy source.** Etsy's policies generally require listings to accurately describe what the buyer will
+receive. I have no live web access to cite the exact current policy text — owner should confirm before
+treating this as a formal violation versus a listing-copy error to simply fix.
+
+**3. Proposed compliant correction (draft), stated honestly.** I checked the Printify uploads library for
+this shop and found **no "Cat" or "Wine O'Clock" design currently exists** in the upload library — only the
+raccoon design is present. So the two realistic, honest options are: (a) upload the 2 missing designs (Cat,
+Wine O'Clock) so the product actually matches its description — this requires new artwork that does not yet
+exist, not something I can generate or fabricate in this review; or (b) correct the listing description to
+describe only the 1 design actually sold (the raccoon), dropping the "gift set of 3" framing. I am not
+proposing a specific one of these without owner direction, and I am not claiming a fix exists that doesn't.
+
+**4. Before/after.** "Before" = the existing Printify mockup/print_area for `6ad42970f1aeec4b590f6d00`
+(raccoon design only). "After": no corrected asset or listing copy exists yet — nothing has been uploaded or
+edited.
+
+**5. Decision options:** APPROVE PROPOSED CORRECTION / REQUEST REVISION / HOLD FOR FURTHER REVIEW /
+AUTHORIZE REMOVAL.
+
+**6. Not CRITICAL.** Misleading-description issue affecting one listing, not a brand-safety or live
+trademark-infringement issue.
+
+**7. No action taken.** This listing has not been removed, edited, or had any design uploaded to it. Pending
+owner decision.
+
+---
+
+**Summary: 5 items documented, 2 marked CRITICAL (Item 1: alcohol-on-children's/infant-apparel pattern, 15
+instances; Item 2: TEXACO trademark exposure). Items 3-5 not CRITICAL. No Printify writes, no live changes
+of any kind were made in compiling this review — every item awaits owner decision per the required decision
+options above.**
+
 ## 0. Shop directory
 
 | Shop name | Shop ID | Channel | Total products (last confirmed count) |
