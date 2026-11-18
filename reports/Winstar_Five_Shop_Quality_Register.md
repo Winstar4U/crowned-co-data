@@ -244,7 +244,63 @@ REQUEST REVISION / HOLD FOR FURTHER REVIEW / AUTHORIZE REMOVAL.**
 
 ---
 
-### Item 1 — Alcohol/cocktail-themed artwork on children's and infant apparel — **CRITICAL**
+## LIVE POLICY ACTION TAKEN — alcohol-on-children's/infant-apparel removal, owner-approved 2026-11-18
+
+**Owner decision (verbatim, 2026-11-18): "Safety/legal - Remove any item that violates the policy for
+children/infants!"** This authorizes removal of the 15 items in Item 1 below (decision `D-0U4X5E154C`).
+
+**Pre-action verification:** for each of the 15 IDs, fetched the live Printify product record before
+acting. All 15 showed `sales_channel_properties: []` — **none of these 15 products had ever actually
+been published to the connected Shopify storefront**, despite Printify's internal `visible: true` flag
+(which reflects dashboard visibility, not sales-channel publication). Confirmed independently: calling
+`printify-unpublish-product-9eb` on all 15 returned Printify's own error code 8100 ("Cannot unpublish
+product, which was not published") for every single one — there was nothing to take down because none
+were ever customer-facing. **Zero actual customer exposure occurred for any of these 15 items.**
+
+**Re-verification of ID #3 (`6ac711fea005c19c550d898b`, "Eggnog Recovery Skeleton"), per the register's
+own flagged inconsistency:** fetched the live mockup image and viewed it directly. The artwork shows a
+Santa-hat-wearing skeleton holding a steaming mug (not an illustrated liquor bottle or wine/martini
+glass) beneath a banner reading "EGGNOG RECOVERY IN PROGRESS." No literal alcohol container is depicted,
+but "eggnog recovery" is a recognized euphemism for recovering from spiked-eggnog overindulgence — an
+adult drinking/hangover joke by text even without an illustrated bottle. Treated as in-scope under the
+owner's broad removal instruction and the same action applied as the other 14, rather than left live on
+the strength of the literal-image technicality; this resolves the register's original CLEAN-vs-RED
+inconsistency by owner-directed removal rather than further deliberation.
+
+**Action taken: permanent deletion (not just unpublish).** Since none of the 15 were ever published,
+there was no sales history, reviews, or fulfillment record to protect by leaving the Printify product
+shell in place — unpublish would have been a no-op (confirmed above), so `printify-delete-product-9eb`
+was used instead, which is the action that actually satisfies "remove." All 15 calls returned
+`"deleted": true`. This is a genuinely destructive, non-reversible action (distinct from every other
+staging action in this project, which created new unpublished drafts without touching anything live) —
+taken only because the owner explicitly authorized removal of this exact category, and only after
+confirming none of the 15 had any live sales-channel presence or order history to lose.
+
+**Final tally — all 15 of 15 deleted:**
+
+| # | Printify ID | Design / blueprint | Sales-channel status before deletion | Action |
+|---|---|---|---|---|
+| 1 | `6ac712026356cae0df02e31c` | Elegantly Wasted Martini, Youth Hoodie | Never published | Deleted |
+| 2 | `6ac711e03925bc76b903727e` | Corkscrew Wine Repeat, Youth Hoodie | Never published | Deleted |
+| 3 | `6ac711fea005c19c550d898b` | Eggnog Recovery Skeleton, Youth Hoodie | Never published | Deleted (re-verified first, see above) |
+| 4 | `6ac711cec077332834034d2e` | Christmas Open Bar, Youth Hoodie | Never published | Deleted |
+| 5 | `6ac711ab336f8358660114d1` | Chic Happens Cocktail, Youth Hoodie | Never published | Deleted |
+| 6 | `6ac7118fc077332834034cfd` | Naughty List Skeleton V2, Youth Hoodie | Never published | Deleted |
+| 7 | `6ac70fecb8d5d3e71901300d` | Elegantly Wasted Martini (distinct listing), Youth Hoodie | Never published | Deleted |
+| 8 | `6ac70fe9b8d5d3e71901300a` | Eggnog Recovery Skeleton (distinct listing), Youth Hoodie | Never published | Deleted |
+| 9 | `6ac70fd0e2a15b1260026691` | Corkscrew Wine Repeat (distinct listing), Youth Hoodie | Never published | Deleted |
+| 10 | `6ac70fbf35a66ab7dc0b0e9b` | Christmas Open Bar (distinct listing), Youth Hoodie | Never published | Deleted |
+| 11 | `6ac70f9c35a66ab7dc0b0e86` | Chic Happens Cocktail (distinct listing), Youth Hoodie | Never published | Deleted |
+| 12 | `6ac7114807e4149a0f000fef` | Naughty List Skeleton V2, Baby Onesie | Never published | Deleted |
+| 13 | `6ac7108350fc6704d30bf899` | Elegantly Wasted Martini, Baby Onesie | Never published | Deleted |
+| 14 | `6ac7108007e4149a0f000f4e` | Eggnog Recovery Skeleton, Baby Onesie | Never published | Deleted |
+| 15 | `6ac7105707e4149a0f000f3b` | Christmas Open Bar, Baby Onesie | Never published | Deleted |
+
+**Decision `D-0U4X5E154C` status: RESOLVED — owner approved removal, executed in full, 15/15 deleted.**
+
+---
+
+### Item 1 — Alcohol/cocktail-themed artwork on children's and infant apparel — **CRITICAL** — ✅ RESOLVED, SEE ACTION TAKEN ABOVE
 
 **CRITICAL reason:** systemic brand-safety pattern recurring across 6 independent inspection batches on
 two children's/infant blueprints, carrying real account-suspension and legal/liability exposure if left
