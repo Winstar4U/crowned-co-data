@@ -470,6 +470,63 @@ instances; Item 2: TEXACO trademark exposure). Items 3-5 not CRITICAL. No Printi
 of any kind were made in compiling this review — every item awaits owner decision per the required decision
 options above.**
 
+## STAGED REPAIRS — CONFIRMED FIXES (owner directive: repair-execution phase, compiled 2026-11-18)
+
+**Status: draft/staging only. Nothing below has been applied to any live product. Staged repairs
+completed and visually confirmed: 1 of ~44+ estimated Priority-B print-window-cropping instances
+(Wall Tapestry + Duffel Bag groups combined, per the Repair Queue).**
+
+### Repair #1 — CONFIRMED FIX: Wall Tapestry print-window cropping (uniform-scale correction)
+
+- **Original defective product:** `6ac7105d35cf3f6ec802e989` — "Naughty List Skeleton Christmas Wall
+  Tapestry — Bold Holiday Statement Wall Art, Holiday Home Decor Gift | Winstar4U", shop 26418699
+  (Winstar4U/Shopify). Blueprint 241, print provider 99. Same source image (id
+  `6ac85f75cef025550dad7241`, native 1262x1493 px) reused across all 8 size variants with `scale`
+  values ranging from 0.999 (variant 41686, 26x36", smallest) up to 3.816 (variant 61899, 88x104",
+  largest).
+- **Root cause (confirmed via `printify-get-blueprint-variants-9eb`, blueprint 241 / provider 99):**
+  Printify's print-area pixel window scales up proportionally with physical product size at roughly
+  constant DPI (~155-167 DPI across all 8 variants). `scale` is relative to that size-dependent
+  window, not to the source image's native resolution. A single fixed-resolution image assigned
+  increasing `scale` values as the physical size grows is effectively "zoomed in" further and further
+  relative to its own bounds, pushing content past the print-safe edges on larger variants.
+- **Proposed correction:** apply one uniform, smaller `scale` value (0.999 - the value already used,
+  correctly, on the smallest variant) across all size variants instead of a value that increases with
+  size.
+- **Staging method:** created a brand-new, unpublished draft product via `printify-upsert-product-9eb`
+  called **without** `product_id` (confirmed via the tool's own schema: omitting `product_id` always
+  POSTs/creates a new product and can never modify an existing one). Title prefixed
+  `[STAGED REPAIR DRAFT - NOT FOR SALE]`, description states it is an internal test pending owner
+  approval, not published, not for sale. Reused the existing original-artwork image id directly (no
+  re-upload, no new artwork). Only the two size-extreme variants were included (26x36 smallest and
+  88x104 largest) to bound the test, both with `scale: 0.999`.
+  - **New staging product:** `6afd97c18ea52c16770aa9a2` (shop 26418699, **unpublished draft, zero
+    sales-channel mapping, not live, not purchasable anywhere**).
+- **Evidence - before/after (all URLs are real Printify-rendered mockups, fetched and visually
+  reviewed directly, not inferred):**
+
+  | Variant | BEFORE (original, defective) | AFTER (staged, scale-corrected) | Visual result |
+  |---|---|---|---|
+  | 26x36" (smallest) | `https://images.printify.com/mockup/6ac7105d35cf3f6ec802e989/41686/1557/...jpg?camera_label=front` | `https://images.printify.com/mockup/6afd97c18ea52c16770aa9a2/41686/1557/...jpg?camera_label=front` | BEFORE already shows the banner text ("ON THE NAUGHTY LIST") clipped at both left and right edges, with the martini glass clipped at the left edge. AFTER shows the full design - skeleton, Santa hat, full martini glass, and complete banner text on both lines - cleanly framed with margin on all sides. |
+  | 88x104" (largest) | `https://images.printify.com/mockup/6ac7105d35cf3f6ec802e989/61899/1560/...jpg?camera_label=front` | `https://images.printify.com/mockup/6afd97c18ea52c16770aa9a2/61899/1560/...jpg?camera_label=front` | BEFORE is a severe, essentially unusable crop - the mockup shows only an extreme close-up of the ribcage/Christmas-light-ornament area; the skull, Santa hat, martini glass, and all banner text are entirely absent from the printed area. AFTER shows the complete design, correctly framed, visually matching the smallest variant's composition. |
+
+- **Verdict: FIX CONFIRMED.** The uniform `scale: 0.999` correction eliminates the cropping on both
+  tested size extremes, including the worst-case 88x104" variant where the original was unsellable
+  (no recognizable design element other than ribcage bones). This confirms the root-cause diagnosis
+  and validates the remedy method for the rest of the Wall Tapestry/Duffel Bag print-window-cropping
+  backlog.
+- **Disposition of staging artifact:** retained (not deleted) as owner-reviewable evidence per the
+  repair-execution directive. It is a draft product with no sales-channel mapping - confirmed
+  unpublished, not purchasable, not visible on any storefront. Will be deleted on owner instruction
+  once reviewed, or reused as the basis for the live correction if approved.
+- **Not yet done:** scaling this method to the remaining Wall Tapestry instances and the Duffel Bag
+  group (both tracked in the Repair Queue's Priority-B print-window-cropping rows); formal
+  owner-approval package (before/after + proposed live action + APPROVE/REJECT) for this repair group;
+  applying anything to the live product `6ac7105d35cf3f6ec802e989` itself, which remains untouched.
+
+**Dashboard update:** staged repairs completed: 0 -> **1**. All other dashboard counts (reviewed 2,552 /
+findings 553 / awaiting approval 553 / approved live 0 / post-publication verified 0) unchanged.
+
 ## 0. Shop directory
 
 | Shop name | Shop ID | Channel | Total products (last confirmed count) |
