@@ -236,9 +236,18 @@ a TRUE duplicate by matching print-area image filename + scale + x + y (not just
 | 10 | Christmas Dog With Santa Hat And Holiday Ball.png | 6ae41f68e88b7e964c0e737e | — | 6adea7d6853b5615b805ead5 | B0HPN22XVP | Only #2 live |
 | 11 | "THE NAUGHTY LIST" cat-mugshot art (two different internal filenames: cat-lineup-the-naughty-list.png / cat-lineup-naughty-list-cats-only.png, but the RENDERED artwork is visually identical — same 4 cats, same hats, same banner — confirmed by opening both images, not just filename matching) | 6ae414e0e88b7e964c0e72ee | B0HPSD8268 | 6ae41f6ce88b7e964c0e7383 | — | Only #1 live |
 
-**7 of 11 pairs (14 products) are confirmed simultaneously live on Amazon with separate ASINs for
-identical artwork.** Note: pair #11 was caught only by visually comparing the two mockup images side by
-side — their internal Printify filenames differ, so the filename+scale matching method used for pairs
+**CAVEAT ADDED PER INDEPENDENT REVIEW (correct and accepted):** "Live" in the table above means Printify
+records a populated `external.handle` (ASIN) for that listing — this is Printify-side mapping evidence
+only. It does NOT by itself prove the Amazon offer is currently buyable, has active inventory, or that
+reviews/sales-rank are actually split between the two ASINs. No Amazon Seller Central / marketplace-side
+read has been performed for any of these 14 ASINs; their real-world buyable status is UNKNOWN, not
+asserted. The proposed remedy (retire/merge one ASIN per pair) is now explicitly conditioned on a
+marketplace-side verification pass first, including confirming whether Amazon's own variation policy
+would even permit a merge — this verification has not been done and is the natural next step before any
+remedy decision, separate from this visual-inspection task.
+
+**7 of 11 pairs (14 products) show both Printify records carrying a populated ASIN.** Note: pair #11 was
+caught only by visually comparing the two mockup images side by side — their internal Printify filenames differ, so the filename+scale matching method used for pairs
 1-10 would have missed it. This means the 10 filename-matched pairs are a reliable floor, not a ceiling:
 the true count of near-identical-artwork duplicates could be modestly higher than what automated
 filename matching finds alone; a dedicated title-similarity + visual-compare pass across the full
