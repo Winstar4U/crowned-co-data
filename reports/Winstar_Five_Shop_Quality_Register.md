@@ -9,6 +9,48 @@ priority. Continuous, nonoverlapping batches across all five shops until every p
 No live writes (publish/unpublish/price/inventory/account changes) without explicit separate owner
 approval. This file tracks real, evidence-backed findings only — no estimates presented as fact.
 
+## THONG LISTINGS FIXED AND PUBLISHED LIVE (owner-approved, 2026-11-18)
+
+**Owner decision:** "Thongs - if you can fix them and save those and keep them in front of customers,
+please do." Resolves decision `D-0J1145520R` (2 broken Shopify Thong listings, discontinued blueprint
+1466).
+
+**Finding:** Printify's catalog contains **no Thong blueprint at all anymore** (confirmed by listing the
+entire ~3,061-item global blueprint catalog and searching titles for thong/panty/panties/underwear/brief —
+zero Thong results). The closest active, still-produced substitute is **"Women's Briefs (AOP)"**,
+blueprint 407, print provider 14 (ArtsAdd), an all-over-print full-coverage brief — not a thong cut.
+This is a genuine garment-style change, not a true like-for-like fix; disclosed here and in both new
+product descriptions rather than silently substituted.
+
+**What was done — empirically tested before committing to this path (not assumed):** built one test
+product on blueprint 407/provider 14 reusing the original "This Isn't Going To Lick Itself" artwork
+(image id `69c762d9c17e4cae751f90f4`) on the front placeholder only (back/gusset left blank — renders as
+plain white, which looks like a normal product photo, not a defect). The result was clean and fully
+legible on the first try (scale 1.0, centered) — confirmed by downloading and viewing the actual mockup.
+
+- **New product 1 (live):** `6afdabe964b943792d07d418` — "Women's Panties \"This Isn't Going To Lick
+  Itself!\" Funny Novelty Underwear" (retitled from "Thong" to "Panties" to accurately describe the new
+  cut). All 6 size variants (XS-2XL) enabled, $24.15 each. Published to Shopify —
+  `external.id: 15522699837807`, confirmed live handle:
+  `https://4juy1i-kq.myshopify.com/products/womens-panties-this-isnt-going-to-lick-itself-funny-novelty-underwear`.
+- **New product 2 (live):** `6afdac2c1cb1d74e0a01c2d0` — "Juicy Black Women's Panties - Playful Pink Puff
+  Lettering" using the original "Juicy" artwork (image id `69c75be481feb143ebe14b88`). This one needed 3
+  position/scale iterations (scale 1.0 centered → left edge of "J" clipped; x 0.6 → right edge of "Y"
+  clipped; **final: x 0.53, y 0.5, scale 0.78 → fully clean, full word visible with margin on both sides**,
+  confirmed by viewing each iteration's actual mockup, following the same empirical method used throughout
+  this recovery). All 6 size variants enabled, $24.15 each. Published to Shopify.
+- **Old broken products left untouched (not deleted):** `69c7630e3acff09c580c3072` and
+  `69c75c408ac9a0544a0ebe6d`. Attempted to unpublish both as cleanup; Printify returned
+  `printify_unpublish_not_published` for both — confirming they were genuinely never published in the
+  first place (consistent with their zero-mockup, all-variants-disabled state), so there is no live
+  duplicate-listing risk and no further action was needed on them. They remain as harmless orphaned draft
+  records; their original artwork is safely preserved and already reused in the new live products.
+
+**Dashboard update:** 2 more approved-live items (Thong migration), bringing the running total of
+owner-approved live changes in this recovery to 34 (32 Duffel Bag scale fixes + 2 Thong migrations).
+
+**Decision `D-0J1145520R` is resolved.**
+
 ## POLICY DECISION RESOLVED: alcohol-on-kids/infant apparel (owner said "Remove", found already gone)
 
 **Owner decision (2026-11-18):** "Remove any item that violates the policy for children/infants!" —
