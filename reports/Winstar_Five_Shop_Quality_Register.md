@@ -116,7 +116,25 @@ Per the owner's "continue, reconcile the duffel discrepancies" directive, finish
 
 **Duffel Bag: 45 of 45 confirmed fixed and live. 0 remaining.** This batch is closed.
 
-## CHECKERBOARD T-SHIRT BACKGROUND DEFECT — SUPERSEDED: 10 of 12 corrected offline, staged as drafts with real Printify mockup proof; 2 of 12 still broken (updated in place 2026-11-18)
+## CHECKERBOARD T-SHIRT BACKGROUND DEFECT — SUPERSEDED: owner approved swap-in (10) + draft-out (2); 2 of 12 unpublished live, 10 of 12 BLOCKED on a Printify platform conflict, not yet live (updated in place 2026-11-18)
+
+**Owner decision (2026-11-18, verbatim from chat): "1. Approve. 2. Leave them (draft)."** — item 1 = approve the live swap-in for the 10 corrected drafts below; item 2 = draft out (unpublish) the 2 unfixable items (Candy Cane Holly, Season's Greetings Sleigh).
+
+**Part B — COMPLETE.** Both unfixable items unpublished via `printify-unpublish-product-9eb`, calls succeeded (no error), not deleted:
+- `6ac358c152f41a8eba0998f5` (Candy Cane Holly) — unpublished.
+- `6ac356ae2776a7c47f00ee18` (Season's Greetings Sleigh) — unpublished.
+
+**Part A — BLOCKED, 0 of 10 swapped live. Root cause: a genuine Printify platform data conflict, not an input error.** Attempted the in-place `printify-upsert-product-9eb` swap (product_id = original live id, replacing only the `front` image reference, variants/price/title untouched) on the first product (`6ac356114cb82ddd30035d42`, Merry Christmas Wreath) and hit an irreconcilable validation deadlock:
+- The live product's stored `variants`/`print_areas` carry 579 variant ids for blueprint 6 / print provider 99.
+- A direct blueprint-variant catalog read (`printify-get-blueprint-variants-9eb`, both default and `show_out_of_stock: true`) confirms the **current valid catalog for this blueprint+provider pair is only 531 variant ids** — 48 of the product's 579 stored ids (various sizes/colors, confirmed **none currently enabled/orderable**) have since been retired from the catalog.
+- Sending the full 579 in `print_areas` → rejected, naming exactly those 48 ids as `invalid_variant_id` (not valid for blueprint 6 / print provider 99).
+- Sending only the 531 catalog-valid ids (verified by exact set-equality against the fresh catalog read) → rejected with code 8251, "make sure all product variants are present in print_areas.variant_ids" — i.e. Printify's own coverage check still measures against the product's existing 579, not the submitted set.
+- Including a matching 531-entry `variants` array in the same call (to try to shrink the required-coverage set) made no difference — same 8251.
+- Confirmed via an isolated no-op test (single-variant price touch, no `print_areas`) that ordinary variant-level writes to this live product work fine — **the product is not edit-locked in general; the conflict is specific to replacing `print_areas` while 48 legacy, no-longer-catalog-valid variant ids remain attached to the product.**
+- **No live product was modified by any of these attempts — every one was a pre-write validation rejection.** All 10 live products are untouched and remain exactly as before, still showing the checkerboard defect.
+- Because all 10 affected live products share the identical 579-variant structure (confirmed earlier by md5 hash match), this blocker almost certainly affects all 10, not just the wreath — it was not re-tested individually on the other 9 to avoid repeating a known-futile call 9 more times.
+
+**This needs owner/Printify-side resolution before Part A can proceed** — options: (a) Printify support ticket to purge the 48 retired variant ids from these 10 products' stored state, after which a normal `print_areas` swap should work; (b) do the artwork swap through the Printify merchant dashboard UI directly (may handle legacy-variant cleanup differently than the public API); (c) accept recreating the 10 products fresh with corrected artwork and the current 531-variant catalog (loses existing listing history/reviews/SEO — a bigger decision than this approval covered, not taken unilaterally). No action taken on (c) without separate explicit approval.
 
 **Owner directive:** prioritize "checkerboard artwork defects," correct offline, stage replacement mockups, no live writes without approval.
 
@@ -170,10 +188,10 @@ approval. This file tracks real, evidence-backed findings only — no estimates 
 | Etsy "Funny Ornament Gift Set of 3" | **Drafted. CLOSED.** |
 | Texaco trademark exposure | **HOLD (owner decision). CLOSED.** |
 | Amazon duplicate-ASIN pairs (7 pairs) | **Keep all 7, no consolidation (owner decision). CLOSED.** |
-| Checkerboard-background T-shirts (12 items) | **10/12 approved for live swap-in by owner — execution in progress (background).** 2/12 (Candy Cane Holly, Season's Greetings Sleigh) being drafted off the storefront per owner's "not correctable = draft" rule. |
+| Checkerboard-background T-shirts (12 items) | **2/12 (Candy Cane Holly, Season's Greetings Sleigh) unpublished — CLOSED.** 10/12 owner-approved swap-in **BLOCKED**: Printify rejects the `print_areas` update because 48 legacy variant ids on these live products are no longer valid in the current blueprint-6/provider-99 catalog, and its own coverage check still demands they be present — a platform-level conflict, not an input error. No live product touched; all 10 still show the checkerboard defect. Needs owner/Printify-side resolution (see full write-up above) before retrying. |
 | Direct marketplace-side (storefront) verification | **Standing gap called out repeatedly by chatgpt — now actionable.** This environment has Playwright/Chromium available; a real storefront verification pass (not just Printify API state) has not yet been run this session. Next planned work. |
 
-**Owner approvals still needed:** none outstanding right now. Checkerboard swap-in execution is the only in-flight item.
+**Owner approvals still needed:** a decision on how to resolve the checkerboard T-shirt swap-in blocker — Printify support ticket to purge 48 retired variant ids, manual dashboard-side edit, or product recreation (see "CHECKERBOARD T-SHIRT BACKGROUND DEFECT" above). The draft-out of the 2 unfixable items is complete and needs no further approval.
 
 ## OWNER DECISIONS 2026-11-18 (batch 2): ornament set drafted, Etsy thongs confirmed draft, Deck The
 ## Halls/too-dense/bad-source-file remediation and full Wall Tapestry rollout in progress
