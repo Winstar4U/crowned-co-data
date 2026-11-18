@@ -196,12 +196,13 @@ closer look given the similar title, but confirmed NOT a third duplicate once th
    compact list calls first (cheap) and individual `product_id` full-detail pulls for sync-status on a
    meaningful sample per batch, prioritizing ornament/mug/shape-sensitive categories for actual image
    viewing.
-2. **eBay is now COMPLETE (53/53 visually inspected, see §6a) — do not re-inspect.** Remaining smaller
-   shops: Amazon (62 total, 62/62 sync-known, ~7 visually inspected — ~55 remain), TikTok (71 total,
-   71/71 sync-known, ~5 visually inspected — ~66 remain), Etsy (297 total, only 50 sync-sampled, 5
-   visually inspected — both metadata and visual coverage remain large). Recommend Amazon next (smallest
-   remaining gap to full coverage), using the same product_id-by-product_id + image-download method that
-   completed eBay.
+2. **eBay is now COMPLETE (53/53 visually inspected, see §6a) — do not re-inspect.** **Amazon is now
+   COMPLETE (62/62 visually inspected, see §8a) — do not re-inspect.** **TikTok is now COMPLETE (71/71
+   visually inspected, see §8b) — do not re-inspect.** Remaining: Etsy (297 total, only 50 sync-sampled, 5
+   visually inspected — both metadata and visual coverage remain large), and Shopify (2,429 total, see
+   item 1 above — by far the largest remaining gap). Recommend Etsy next (smaller, more tractable than
+   the Shopify range), using the same product_id-by-product_id + image-download method that completed
+   eBay, Amazon, and TikTok.
 3. Direct marketplace-side verification (actually checking eBay/Amazon/TikTok/Shopify storefronts, not
    just Printify's `external` field) for at least the highest-volume confirmed-gap SKUs, before any
    resync/repair is proposed for owner approval.
@@ -303,6 +304,58 @@ cleared, see above), and the "Naughty List Cat" singular vs. "The Naughty List C
 **Amazon shop is now fully closed out: 62/62 visually inspected, 0 artwork defects, 11 confirmed
 duplicate pairs (7 both-live) as the one standing finding requiring an owner decision.**
 
+## 8b. TikTok shop (28122957, My Tiktok Shop) — COMPLETE: 71/71 visually inspected, 0 defects, 0
+## confirmed duplicates (2026-11-18, this session)
+
+**Status: 71/71 products now have real image evidence. 0 confirmed visual/artwork defects. 0 confirmed
+true duplicate pairs.** Third shop (after eBay and Amazon) to reach full visual-inspection completion.
+Sync-status: 39/71 have a populated Printify `external` channel-mapping field, 32/71 show `external: null`
+(45.1% gap rate) — this matches the full-population figure already recorded in §1, and carries the same
+standing caveat: a populated/absent `external` field is Printify-side mapping evidence only, not confirmed
+TikTok-side buyability.
+
+**Notable methodology finding, distinct from eBay/Amazon — a near-miss that was checked and ruled OUT:**
+This shop runs what is effectively two full parallel product lines sharing the same roster of character
+concepts (Dog Dad, Dog Mom, Cat Mom, Mama/Papa/Nana/Grandma/Auntie Claus, Howdy, Cozy Season, Joy to the
+World, Faith Hope Love, Merry & Bright, Merry & Booked, Dash Away All, Doxie Claus) — a **"Badge" style**
+(photorealistic pet/object photo inside an oval badge) and a **"Retro Varsity" style** (flat vector
+lettering/illustration, gingham or varsity-text treatment). This produced 18 same-main-title candidate
+pairs that superficially look exactly like the Amazon duplicate-ASIN pattern. Each of the 18 pairs was
+checked by BOTH methods used in this recovery effort:
+- Print-area image filename + scale + x/y position: all 18 pairs use **completely different internal
+  filenames** (e.g. `sw-dash-away-all-badge-4096.png` vs `dash-away-all-dachshund-4096.png`) with
+  non-matching scale/position values — no filename or placement match on any pair.
+- Direct visual comparison of both mockup images (the ground-truth method, per the lesson learned on
+  Amazon's Naughty-List-Cat pair): all 18 pairs were opened and viewed side by side. Every pair showed
+  genuinely distinct artwork — different illustration style, different composition, not the same image
+  reused. None of the 18 is a true duplicate.
+
+The 18 checked-and-ruled-out pairs (Badge ID / Retro ID): Dash Away All (6adec782a02eb7366a027554 /
+6ada37b8e722ba383a04d99d), Doxie Claus (6ade503e265c71475d0579e6 / 6ada37a6f09eaff83506fe81), Merry &
+Bright (6adec7a61320136327024b32 / 6ada375d4546c925a8082fd5), Merry & Booked (6ade7a75d4524eaf210e45d7 /
+6ad9fe3e590d21532607c2be), Auntie Claus (6adecae2a02eb7366a0277e5 / 6ad9fe05a9063187d908e62e), Faith Hope
+Love (6adf6da49d15ca1a990f6a40 / 6ad9e765a84ca20cc21000d7), Nana Claus (6adecab859a53cf55f030c14 /
+6ad9e72f14510fbba8093d07), Papa Claus (6adecaa51320136327024d4d / 6ad9e71d14510fbba8093cfe), Howdy
+(6adecaf559a53cf55f030c45 / 6ad9e70b3612b5771905f0f4), Cozy Season (6ade7ad480e75cb4ea09a135 /
+6ad9e6f33612b5771905f0e8), Joy to the World (6adf6d92c60cddcb060105af / 6ad9e57b385590147b0be0e1), Dog Dad
+(6ade7a3b9760402ba10b71b2 / 6ad9e55614510fbba8093bf4), Cat Mom (6ade7a1491f7e585510c842a /
+6ad9e544e70d4d290c05ee2f), Dog Mom (6ade7a28aa1ddebc870c112a / 6ad98e5e4d5521405502a781), Grandma Claus
+(6adecacc59a53cf55f030c1c / 6ad98e4b13800a74da04df4e), Mama Claus (6adec793259305e1d1049ae9 /
+6ad98e3913800a74da04df33), Merry Nurse (6ade7a623757c80615075085 / 6ad98e2613800a74da04df1d), Merry
+Teacher (6ade7a4fd4524eaf210e45b8 / 6ad98e109d94429bd0047c9a).
+
+Also checked and ruled OUT: the "Santa Called For Backup" phrase appears twice (a reindeer-themed
+sweatshirt, 6adf6d46b95bee5547043b54, vs. a firefighter-themed t-shirt, 6ad40ff99c8f61e787077eb5) — two
+completely different illustrations and product types, same pattern as the eBay Firefighter pair, not a
+duplicate. "Everyone Go Home," "Bah Humbug," and "Dog Mom" phrases also each appear on both a sweatshirt
+(oval-badge or crest art) and a separate t-shirt (different composition) — legitimate separate designs,
+not duplicates. The Golden Retriever/Tabby Cat/stethoscope/apple photos are legitimately reused across
+product types (sweatshirt + matching mug) within the Badge line, consistent with the normal, non-defect
+same-design-different-product-type pattern already documented for Amazon's Cat Lineup family.
+
+**TikTok shop is now fully closed out: 71/71 visually inspected, 0 artwork defects, 0 confirmed duplicate
+pairs — the cleanest of the three shops completed so far.**
+
 ## 9. eBay full 53-row ID register (complete, per-product evidence — produced in response to an
    independent-verifier request for inspectable per-product rows, not just a report link)
 
@@ -374,3 +427,82 @@ alignment, spelling or print-boundary defects. It is NOT a confirmation that the
 purchasable on eBay's own site; all 53 are Printify-side sync-gapped (`external` absent), meaning no
 direct marketplace-side check has been done for any of them. Both facts can be true at once: a listing
 can have perfectly clean artwork and still not be reachable by an eBay shopper.
+
+## 10. TikTok full 71-row ID register (complete, per-product evidence, same format as §9)
+
+Format: `Printify ID | Title (truncated) | Visual result | Default mockup image URL used for inspection`.
+Same standing caveat as §9: CLEAN is a visual-artwork judgment only (no cropping/alignment/spelling/
+print-boundary defects found) — it is NOT confirmation of live TikTok-side buyability. 39/71 have a
+populated Printify `external` field (channel-mapping evidence only); 32/71 show `external: null`.
+
+6adf6def3a852e6fa20e6caa | Hot Cocoa Club Christmas Sweatshirt / Cocoa Bar and Peppermint Badge Holiday Crewneck, Unisex | CLEAN | https://images.printify.com/mockup/6adf6def3a852e6fa20e6caa/25458/98502/hot-cocoa-club-christmas-sweatshirt-cocoa-bar-and-peppermint-badge-holiday-crewneck-unisex.jpg?camera_label=front
+6adf6ddcc60cddcb06010608 | Merry Catmas Christmas Sweatshirt / Tabby Cat and Christmas Tree Badge Holiday Crewneck, Unisex | CLEAN | https://images.printify.com/mockup/6adf6ddcc60cddcb06010608/25458/98502/merry-catmas-christmas-sweatshirt-tabby-cat-and-christmas-tree-badge-holiday-crewneck-unisex.jpg?camera_label=front
+6adf6dc9250930614e0f3bce | Dachshund Through the Snow Christmas Sweatshirt / Dachshund in Santa Hat Badge Holiday Crewneck, Unisex | CLEAN | https://images.printify.com/mockup/6adf6dc9250930614e0f3bce/25458/98502/dachshund-through-the-snow-christmas-sweatshirt-dachshund-in-santa-hat-badge-holiday-crewneck-unisex.jpg?camera_label=front
+6adf6db7250930614e0f3bba | Let It Snow Winter Sweatshirt / Red Mittens, Scarf and Snowflake Badge Crewneck, Unisex | CLEAN | https://images.printify.com/mockup/6adf6db7250930614e0f3bba/25458/98502/let-it-snow-winter-sweatshirt-red-mittens-scarf-and-snowflake-badge-crewneck-unisex.jpg?camera_label=front
+6adf6da49d15ca1a990f6a40 | Faith Hope Love Christmas Sweatshirt / Advent Candles and Wreath Badge Holiday Crewneck, Unisex | CLEAN | https://images.printify.com/mockup/6adf6da49d15ca1a990f6a40/25458/98502/faith-hope-love-christmas-sweatshirt-advent-candles-and-wreath-badge-holiday-crewneck-unisex.jpg?camera_label=front
+6adf6d92c60cddcb060105af | Joy to the World Christmas Sweatshirt / Gold Star and Brass Bell Badge Holiday Crewneck, Unisex | CLEAN | https://images.printify.com/mockup/6adf6d92c60cddcb060105af/25458/98502/joy-to-the-world-christmas-sweatshirt-gold-star-and-brass-bell-badge-holiday-crewneck-unisex.jpg?camera_label=front
+6adf6d7f10aa455cb00a1608 | Snack Season Christmas Sweatshirt / Holiday Snack Board Badge Funny Foodie Crewneck, Unisex | CLEAN | https://images.printify.com/mockup/6adf6d7f10aa455cb00a1608/25458/98502/snack-season-christmas-sweatshirt-holiday-snack-board-badge-funny-foodie-crewneck-unisex.jpg?camera_label=front
+6adf6d6b2c5edee2420ad5d8 | Morning Person Dec 25 Christmas Sweatshirt / Vintage Alarm Clock and Presents Badge Holiday Crewneck, Unisex | CLEAN | https://images.printify.com/mockup/6adf6d6b2c5edee2420ad5d8/25458/98502/morning-person-dec-25-christmas-sweatshirt-vintage-alarm-clock-and-presents-badge-holiday-crewneck-unisex.jpg?camera_label=front
+6adf6d599d15ca1a990f69ba | Everyone Go Home Christmas Sweatshirt / Cozy Slippers and Cocoa Badge Funny Holiday Crewneck, Unisex | CLEAN | https://images.printify.com/mockup/6adf6d599d15ca1a990f69ba/25458/98502/everyone-go-home-christmas-sweatshirt-cozy-slippers-and-cocoa-badge-funny-holiday-crewneck-unisex.jpg?camera_label=front
+6adf6d46b95bee5547043b54 | Santa Called for Backup Christmas Sweatshirt / Reindeer with Jingle Bells Badge Holiday Crewneck, Unisex | CLEAN | https://images.printify.com/mockup/6adf6d46b95bee5547043b54/25458/98502/santa-called-for-backup-christmas-sweatshirt-reindeer-with-jingle-bells-badge-holiday-crewneck-unisex.jpg?camera_label=front
+6adecb5e1320136327024db7 | Cookie Season Christmas Sweatshirt / Christmas Cookies and Milk Badge Holiday Crewneck, Unisex | CLEAN | https://images.printify.com/mockup/6adecb5e1320136327024db7/25458/98502/cookie-season-christmas-sweatshirt-christmas-cookies-and-milk-badge-holiday-crewneck-unisex.jpg?camera_label=front
+6adecb44305999dc2d067254 | Merry 2026 Christmas Sweatshirt / Evergreen Wreath with Red Velvet Bow Holiday Crewneck, Unisex | CLEAN | https://images.printify.com/mockup/6adecb44305999dc2d067254/25458/98502/merry-2026-christmas-sweatshirt-evergreen-wreath-with-red-velvet-bow-holiday-crewneck-unisex.jpg?camera_label=front
+6adecb3059a53cf55f030c69 | Bah Humbug Christmas Sweatshirt / Stocking with Coal Badge Funny Holiday Crewneck, Unisex | CLEAN | https://images.printify.com/mockup/6adecb3059a53cf55f030c69/25458/98502/bah-humbug-christmas-sweatshirt-stocking-with-coal-badge-funny-holiday-crewneck-unisex.jpg?camera_label=front
+6adecb1c59a53cf55f030c5b | Snowman Season Winter Sweatshirt / Snowman in Scarf and Top Hat Badge Crewneck, Unisex | CLEAN | https://images.printify.com/mockup/6adecb1c59a53cf55f030c5b/25458/98502/snowman-season-winter-sweatshirt-snowman-in-scarf-and-top-hat-badge-crewneck-unisex.jpg?camera_label=front
+6adecb086d10f640af0603a7 | Chill Penguin Winter Sweatshirt / Baby Penguin in Scarf and Beanie Badge Crewneck, Unisex | CLEAN | https://images.printify.com/mockup/6adecb086d10f640af0603a7/25458/98502/chill-penguin-winter-sweatshirt-baby-penguin-in-scarf-and-beanie-badge-crewneck-unisex.jpg?camera_label=front
+6adecaf559a53cf55f030c45 | Howdy Christmas Sweatshirt / Cowboy Boots and Santa Hat Western Holiday Crewneck, Unisex | CLEAN | https://images.printify.com/mockup/6adecaf559a53cf55f030c45/25458/98502/howdy-christmas-sweatshirt-cowboy-boots-and-santa-hat-western-holiday-crewneck-unisex.jpg?camera_label=front
+6adecae2a02eb7366a0277e5 | Auntie Claus Christmas Sweatshirt / Santa Hat and Gift Boxes Badge Holiday Crewneck, Unisex | CLEAN | https://images.printify.com/mockup/6adecae2a02eb7366a0277e5/25458/98502/auntie-claus-christmas-sweatshirt-santa-hat-and-gift-boxes-badge-holiday-crewneck-unisex.jpg?camera_label=front
+6adecacc59a53cf55f030c1c | Grandma Claus Christmas Sweatshirt / Santa Hat, Reading Glasses and Cocoa Badge Holiday Crewneck, Unisex | CLEAN | https://images.printify.com/mockup/6adecacc59a53cf55f030c1c/25458/98502/grandma-claus-christmas-sweatshirt-santa-hat-reading-glasses-and-cocoa-badge-holiday-crewneck-unisex.jpg?camera_label=front
+6adecab859a53cf55f030c14 | Nana Claus Christmas Sweatshirt / Santa Hat, Yarn and Cookies Badge Holiday Crewneck, Unisex | CLEAN | https://images.printify.com/mockup/6adecab859a53cf55f030c14/25458/98502/nana-claus-christmas-sweatshirt-santa-hat-yarn-and-cookies-badge-holiday-crewneck-unisex.jpg?camera_label=front
+6adecaa51320136327024d4d | Papa Claus Christmas Sweatshirt / Santa Hat and Plaid Flannel Badge Holiday Crewneck, Unisex | CLEAN | https://images.printify.com/mockup/6adecaa51320136327024d4d/25458/98502/papa-claus-christmas-sweatshirt-santa-hat-and-plaid-flannel-badge-holiday-crewneck-unisex.jpg?camera_label=front
+6adec7a61320136327024b32 | Merry & Bright Christmas Sweatshirt / Vintage Ornaments and Tinsel Badge Holiday Crewneck, Unisex | CLEAN | https://images.printify.com/mockup/6adec7a61320136327024b32/25458/98502/merry-bright-christmas-sweatshirt-vintage-ornaments-and-tinsel-badge-holiday-crewneck-unisex.jpg?camera_label=front
+6adec793259305e1d1049ae9 | Mama Claus Christmas Sweatshirt / Santa Hat Cocoa and Cookies Badge Holiday Crewneck, Unisex | CLEAN | https://images.printify.com/mockup/6adec793259305e1d1049ae9/25458/98502/mama-claus-christmas-sweatshirt-santa-hat-cocoa-and-cookies-badge-holiday-crewneck-unisex.jpg?camera_label=front
+6adec782a02eb7366a027554 | Dash Away All Christmas Sweatshirt / Leaping Dachshund in Santa Hat Badge Holiday Crewneck, Unisex | CLEAN | https://images.printify.com/mockup/6adec782a02eb7366a027554/25458/98502/dash-away-all-christmas-sweatshirt-leaping-dachshund-in-santa-hat-badge-holiday-crewneck-unisex.jpg?camera_label=front
+6ade7ad480e75cb4ea09a135 | Cozy Season Christmas Sweatshirt / Hot Cocoa and Plaid Blanket Badge Holiday Crewneck, Unisex | CLEAN | https://images.printify.com/mockup/6ade7ad480e75cb4ea09a135/25458/98502/cozy-season-christmas-sweatshirt-hot-cocoa-and-plaid-blanket-badge-holiday-crewneck-unisex.jpg?camera_label=front
+6ade7a75d4524eaf210e45d7 | Merry & Booked Christmas Sweatshirt / Book Lover Santa Hat Badge Holiday Crewneck, Unisex | CLEAN | https://images.printify.com/mockup/6ade7a75d4524eaf210e45d7/25458/98502/merry-booked-christmas-sweatshirt-book-lover-santa-hat-badge-holiday-crewneck-unisex.jpg?camera_label=front
+6ade7a623757c80615075085 | Merry Nurse Christmas Sweatshirt / Stethoscope and Santa Hat Badge Holiday Crewneck, Unisex | CLEAN | https://images.printify.com/mockup/6ade7a623757c80615075085/25458/98502/merry-nurse-christmas-sweatshirt-stethoscope-and-santa-hat-badge-holiday-crewneck-unisex.jpg?camera_label=front
+6ade7a4fd4524eaf210e45b8 | Merry Teacher Christmas Sweatshirt / Apple, Pencil and Books Badge Holiday Crewneck, Unisex | CLEAN | https://images.printify.com/mockup/6ade7a4fd4524eaf210e45b8/25458/98502/merry-teacher-christmas-sweatshirt-apple-pencil-and-books-badge-holiday-crewneck-unisex.jpg?camera_label=front
+6ade7a3b9760402ba10b71b2 | Dog Dad Christmas Sweatshirt / Labrador in Santa Hat and Plaid Bandana Holiday Crewneck, Unisex | CLEAN | https://images.printify.com/mockup/6ade7a3b9760402ba10b71b2/25458/98502/dog-dad-christmas-sweatshirt-labrador-in-santa-hat-and-plaid-bandana-holiday-crewneck-unisex.jpg?camera_label=front
+6ade7a28aa1ddebc870c112a | Dog Mom Christmas Sweatshirt / Golden Retriever in Santa Hat Badge Holiday Crewneck, Unisex | CLEAN | https://images.printify.com/mockup/6ade7a28aa1ddebc870c112a/25458/98502/dog-mom-christmas-sweatshirt-golden-retriever-in-santa-hat-badge-holiday-crewneck-unisex.jpg?camera_label=front
+6ade7a1491f7e585510c842a | Cat Mom Christmas Sweatshirt / Tabby Cat in Santa Hat Badge Holiday Crewneck, Unisex | CLEAN | https://images.printify.com/mockup/6ade7a1491f7e585510c842a/25458/98502/cat-mom-christmas-sweatshirt-tabby-cat-in-santa-hat-badge-holiday-crewneck-unisex.jpg?camera_label=front
+6ade503e265c71475d0579e6 | Doxie Claus Christmas Sweatshirt / Dachshund in Santa Hat Holiday Crewneck, Unisex | CLEAN | https://images.printify.com/mockup/6ade503e265c71475d0579e6/25458/98502/doxie-claus-christmas-sweatshirt-dachshund-in-santa-hat-holiday-crewneck-unisex.jpg?camera_label=front
+6ade501caa01a54ae306fd7f | Teacher Fuel Christmas Mug / 15oz Ceramic Coffee Mug with Apple, Pencil and Books | CLEAN | https://images.printify.com/mockup/6ade501caa01a54ae306fd7f/104692/101750/teacher-fuel-christmas-mug-15oz-ceramic-coffee-mug-with-apple-pencil-and-books.jpg?camera_label=front
+6ade50143757c80615072f2a | Nurse Fuel Christmas Mug / 15oz Ceramic Coffee Mug with Stethoscope and Santa Hat | CLEAN | https://images.printify.com/mockup/6ade50143757c80615072f2a/104692/101750/nurse-fuel-christmas-mug-15oz-ceramic-coffee-mug-with-stethoscope-and-santa-hat.jpg?camera_label=front
+6ade500d580ff194290bcdbb | Cat Mom Fuel Christmas Mug / 15oz Ceramic Coffee Mug with Tabby Cat in Santa Hat | CLEAN | https://images.printify.com/mockup/6ade500d580ff194290bcdbb/104692/101750/cat-mom-fuel-christmas-mug-15oz-ceramic-coffee-mug-with-tabby-cat-in-santa-hat.jpg?camera_label=front
+6ade5004aa01a54ae306fd68 | Dog Mom Fuel Christmas Mug / 15oz Ceramic Coffee Mug with Golden Retriever in Santa Hat | CLEAN | https://images.printify.com/mockup/6ade5004aa01a54ae306fd68/104692/101750/dog-mom-fuel-christmas-mug-15oz-ceramic-coffee-mug-with-golden-retriever-in-santa-hat.jpg?camera_label=front
+6ada37b8e722ba383a04d99d | Dash Away All Christmas Sweatshirt / Leaping Dachshund Santa Hat Holiday Crewneck, Unisex | CLEAN | https://images.printify.com/mockup/6ada37b8e722ba383a04d99d/25458/98502/dash-away-all-christmas-sweatshirt-leaping-dachshund-santa-hat-holiday-crewneck-unisex.jpg?camera_label=front
+6ada37a6f09eaff83506fe81 | Doxie Claus Christmas Sweatshirt / Dachshund in Santa Hat Retro Holiday Crewneck, Unisex | CLEAN | https://images.printify.com/mockup/6ada37a6f09eaff83506fe81/25458/98502/doxie-claus-christmas-sweatshirt-dachshund-in-santa-hat-retro-holiday-crewneck-unisex.jpg?camera_label=front
+6ada379473b8f5726400fb91 | Tartan & Tinsel Christmas Sweatshirt / Plaid Bow and Gold Tinsel Holiday Crewneck, Unisex | CLEAN | https://images.printify.com/mockup/6ada379473b8f5726400fb91/25458/98502/tartan-tinsel-christmas-sweatshirt-plaid-bow-and-gold-tinsel-holiday-crewneck-unisex.jpg?camera_label=front
+6ada3782f09eaff83506fe54 | Retro Christmas Sweatshirt / Big-Bulb Lights Vintage Holiday Crewneck, Unisex | CLEAN | https://images.printify.com/mockup/6ada3782f09eaff83506fe54/25458/98502/retro-christmas-sweatshirt-big-bulb-lights-vintage-holiday-crewneck-unisex.jpg?camera_label=front
+6ada377073b8f5726400fb7d | Tinsel Time Christmas Sweatshirt / Retro Tinsel Garland Holiday Crewneck, Unisex | CLEAN | https://images.printify.com/mockup/6ada377073b8f5726400fb7d/25458/98502/tinsel-time-christmas-sweatshirt-retro-tinsel-garland-holiday-crewneck-unisex.jpg?camera_label=front
+6ada375d4546c925a8082fd5 | Merry & Bright Christmas Sweatshirt / Retro Baubles and Tinsel Holiday Crewneck, Unisex | CLEAN | https://images.printify.com/mockup/6ada375d4546c925a8082fd5/25458/98502/merry-bright-christmas-sweatshirt-retro-baubles-and-tinsel-holiday-crewneck-unisex.jpg?camera_label=front
+6ad9fe3e590d21532607c2be | Merry & Booked Christmas Sweatshirt / Book Lover Santa Hat Retro Holiday Crewneck, Unisex | CLEAN | https://images.printify.com/mockup/6ad9fe3e590d21532607c2be/25458/98502/merry-booked-christmas-sweatshirt-book-lover-santa-hat-retro-holiday-crewneck-unisex.jpg?camera_label=front
+6ad9fe2ca9063187d908e64d | Merry Mom Life Christmas Sweatshirt / Retro Varsity Gingham Holiday Crewneck, Unisex | CLEAN | https://images.printify.com/mockup/6ad9fe2ca9063187d908e64d/25458/98502/merry-mom-life-christmas-sweatshirt-retro-varsity-gingham-holiday-crewneck-unisex.jpg?camera_label=front
+6ad9fe1917756d1fdc0bd0fd | Cozy & Blessed Christmas Sweatshirt / Retro Gold Star Holiday Crewneck, Unisex | CLEAN | https://images.printify.com/mockup/6ad9fe1917756d1fdc0bd0fd/25458/98502/cozy-blessed-christmas-sweatshirt-retro-gold-star-holiday-crewneck-unisex.jpg?camera_label=front
+6ad9fe05a9063187d908e62e | Auntie Claus Christmas Sweatshirt / Retro Varsity Santa Hat Holiday Crewneck, Unisex | CLEAN | https://images.printify.com/mockup/6ad9fe05a9063187d908e62e/25458/98502/auntie-claus-christmas-sweatshirt-retro-varsity-santa-hat-holiday-crewneck-unisex.jpg?camera_label=front
+6ad9e765a84ca20cc21000d7 | Faith Hope Love Christmas Sweatshirt / Gold Star Retro Holiday Crewneck, Unisex | CLEAN | https://images.printify.com/mockup/6ad9e765a84ca20cc21000d7/25458/98502/faith-hope-love-christmas-sweatshirt-gold-star-retro-holiday-crewneck-unisex.jpg?camera_label=front
+6ad9e72f14510fbba8093d07 | Nana Claus Christmas Sweatshirt / Retro Varsity Santa Hat Holiday Crewneck, Unisex | CLEAN | https://images.printify.com/mockup/6ad9e72f14510fbba8093d07/25458/98502/nana-claus-christmas-sweatshirt-retro-varsity-santa-hat-holiday-crewneck-unisex.jpg?camera_label=front
+6ad9e71d14510fbba8093cfe | Papa Claus Christmas Sweatshirt / Retro Varsity Santa Hat Holiday Crewneck, Unisex | CLEAN | https://images.printify.com/mockup/6ad9e71d14510fbba8093cfe/25458/98502/papa-claus-christmas-sweatshirt-retro-varsity-santa-hat-holiday-crewneck-unisex.jpg?camera_label=front
+6ad9e70b3612b5771905f0f4 | Howdy Christmas Sweatshirt / Western Cowboy Hat Holly Retro Holiday Crewneck, Unisex | CLEAN | https://images.printify.com/mockup/6ad9e70b3612b5771905f0f4/25458/98502/howdy-christmas-sweatshirt-western-cowboy-hat-holly-retro-holiday-crewneck-unisex.jpg?camera_label=front
+6ad9e6f33612b5771905f0e8 | Cozy Season Christmas Sweatshirt / Retro Hot Cocoa Snowflake Holiday Crewneck, Unisex | CLEAN | https://images.printify.com/mockup/6ad9e6f33612b5771905f0e8/25458/98502/cozy-season-christmas-sweatshirt-retro-hot-cocoa-snowflake-holiday-crewneck-unisex.jpg?camera_label=front
+6ad9e57b385590147b0be0e1 | Joy to the World Christmas Sweatshirt / Gold Star Retro Holiday Crewneck, Unisex | CLEAN | https://images.printify.com/mockup/6ad9e57b385590147b0be0e1/25458/98502/joy-to-the-world-christmas-sweatshirt-gold-star-retro-holiday-crewneck-unisex.jpg?camera_label=front
+6ad9e55614510fbba8093bf4 | Dog Dad Christmas Sweatshirt / Retro Varsity Paw Print Santa Hat Crewneck, Unisex | CLEAN | https://images.printify.com/mockup/6ad9e55614510fbba8093bf4/25458/98502/dog-dad-christmas-sweatshirt-retro-varsity-paw-print-santa-hat-crewneck-unisex.jpg?camera_label=front
+6ad9e544e70d4d290c05ee2f | Cat Mom Christmas Sweatshirt / Retro Varsity Santa Hat Cat Holiday Crewneck, Unisex | CLEAN | https://images.printify.com/mockup/6ad9e544e70d4d290c05ee2f/25458/98502/cat-mom-christmas-sweatshirt-retro-varsity-santa-hat-cat-holiday-crewneck-unisex.jpg?camera_label=front
+6ad98e5e4d5521405502a781 | Dog Mom Christmas Sweatshirt / Retro Varsity Paw Print Santa Hat Crewneck, Unisex | CLEAN | https://images.printify.com/mockup/6ad98e5e4d5521405502a781/25458/98502/dog-mom-christmas-sweatshirt-retro-varsity-paw-print-santa-hat-crewneck-unisex.jpg?camera_label=front
+6ad98e4b13800a74da04df4e | Grandma Claus Christmas Sweatshirt / Retro Varsity Santa Hat Holiday Crewneck, Unisex | CLEAN | https://images.printify.com/mockup/6ad98e4b13800a74da04df4e/25458/98502/grandma-claus-christmas-sweatshirt-retro-varsity-santa-hat-holiday-crewneck-unisex.jpg?camera_label=front
+6ad98e3913800a74da04df33 | Mama Claus Christmas Sweatshirt / Retro Varsity Santa Hat Holiday Crewneck, Unisex | CLEAN | https://images.printify.com/mockup/6ad98e3913800a74da04df33/25458/98502/mama-claus-christmas-sweatshirt-retro-varsity-santa-hat-holiday-crewneck-unisex.jpg?camera_label=front
+6ad98e2613800a74da04df1d | Merry Nurse Christmas Sweatshirt / Candy Cane Stethoscope Gingham Holiday Crewneck | CLEAN | https://images.printify.com/mockup/6ad98e2613800a74da04df1d/25458/98502/merry-nurse-christmas-sweatshirt-candy-cane-stethoscope-gingham-holiday-crewneck.jpg?camera_label=front
+6ad98e109d94429bd0047c9a | Merry Teacher Christmas Sweatshirt / Retro Varsity Gingham Holiday Crewneck, Unisex | CLEAN | https://images.printify.com/mockup/6ad98e109d94429bd0047c9a/25458/98502/merry-teacher-christmas-sweatshirt-retro-varsity-gingham-holiday-crewneck-unisex.jpg?camera_label=front
+6ad98d1b9d94429bd0047bd6 | Merry Mama Christmas Sweatshirt / Retro Varsity Gingham Holiday Crewneck, Unisex | CLEAN | https://images.printify.com/mockup/6ad98d1b9d94429bd0047bd6/25458/98502/merry-mama-christmas-sweatshirt-retro-varsity-gingham-holiday-crewneck-unisex.jpg?camera_label=front
+6ad410369c8f61e787077ed0 | Chill Penguin Winter Hoodie — Cozy Pullover Hoodie, Winter Gift / Winstar4U | CLEAN | https://images.printify.com/mockup/6ad410369c8f61e787077ed0/32912/98424/chill-penguin-winter-hoodie-cozy-pullover-hoodie-winter-gift-winstar4u.jpg?camera_label=front
+6ad410313af1c130250b630e | Snowflake Mandala Winter Hoodie — Cozy Pullover Hoodie, Winter Gift / Winstar4U | CLEAN | https://images.printify.com/mockup/6ad410313af1c130250b630e/32912/98424/snowflake-mandala-winter-hoodie-cozy-pullover-hoodie-winter-gift-winstar4u.jpg?camera_label=front
+6ad4102c07b78bf56e0d2986 | Snowman Winter Hoodie — Cozy Pullover Hoodie, Winter Gift / Winstar4U | CLEAN | https://images.printify.com/mockup/6ad4102c07b78bf56e0d2986/32912/98424/snowman-winter-hoodie-cozy-pullover-hoodie-winter-gift-winstar4u.jpg?camera_label=front
+6ad4102711e95e7c5f0cc68a | "Christmas Wreath 2026" Funny Christmas T-Shirt — Humorous Christmas Graphic Tee / Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ad4102711e95e7c5f0cc68a/12100/102005/christmas-wreath-2026-funny-christmas-t-shirt-humorous-christmas-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2
+6ad4102107b78bf56e0d297d | "I'm Only a Morning Person on Dec 25th" Funny Christmas T-Shirt — Humorous Christmas Graphic Tee / Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ad4102107b78bf56e0d297d/12100/102005/im-only-a-morning-person-on-dec-25th-funny-christmas-t-shirt-humorous-christmas-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2
+6ad4101c11e95e7c5f0cc687 | "Ho Ho Ho" Funny Christmas T-Shirt — Humorous Christmas Graphic Tee / Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ad4101c11e95e7c5f0cc687/12100/102005/ho-ho-ho-funny-christmas-t-shirt-humorous-christmas-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2
+6ad41016247ecdee090be983 | "I'm Just Here for the Christmas Snacks" Funny Christmas T-Shirt — Humorous Christmas Graphic Tee / Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ad41016247ecdee090be983/12100/102005/im-just-here-for-the-christmas-snacks-funny-christmas-t-shirt-humorous-christmas-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2
+6ad41011236d14a85901c8d7 | "All I Want for Christmas Is for Everyone to Go Home" Funny Christmas T-Shirt / Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ad41011236d14a85901c8d7/12100/102005/all-i-want-for-christmas-is-for-everyone-to-go-home-funny-christmas-t-shirt-unisex-heavy-cotton-shirt.jpg?camera_label=front-2
+6ad4100b07b78bf56e0d2977 | "I'm Full of Holiday Spirit. And Cookies." Funny Christmas T-Shirt — Humorous Christmas Graphic Tee / Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ad4100b07b78bf56e0d2977/12100/102005/im-full-of-holiday-spirit-and-cookies-funny-christmas-t-shirt-humorous-christmas-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2
+6ad41005247ecdee090be974 | "Dog Mom Christmas" Funny Christmas T-Shirt — Humorous Christmas Graphic Tee / Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ad41005247ecdee090be974/12100/102005/dog-mom-christmas-funny-christmas-t-shirt-humorous-christmas-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2
+6ad40fff247ecdee090be96e | "Bah Humbug, Pass the Eggnog" Funny Christmas T-Shirt — Humorous Christmas Graphic Tee / Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ad40fff247ecdee090be96e/12100/102005/bah-humbug-pass-the-eggnog-funny-christmas-t-shirt-humorous-christmas-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2
+6ad40ff99c8f61e787077eb5 | "Santa Called For Backup" Firefighter Funny Christmas T-Shirt — Humorous Holiday Graphic Tee / Unisex Heavy Cotton Shirt | CLEAN | https://images.printify.com/mockup/6ad40ff99c8f61e787077eb5/12100/102005/santa-called-for-backup-firefighter-funny-christmas-t-shirt-humorous-holiday-graphic-tee-unisex-heavy-cotton-shirt.jpg?camera_label=front-2
