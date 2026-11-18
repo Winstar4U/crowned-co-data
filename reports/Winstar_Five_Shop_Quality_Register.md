@@ -882,6 +882,17 @@ image was not generated in this task (out of scope — would need its own owner 
 **7. No action taken.** This listing has not been removed, deactivated, or modified. Pending owner
 decision — decision `D-1L6N71490T` remains open with this updated finding.
 
+**OWNER DECISION (2026-11-18): HOLD — accept risk, leave listing live as-is.** Verbatim: "Ok just leave
+Texaco there. I see the Texaco logo and brand in a lot of places and I don't believe that's a huge risk
+right now. If we get a warning or a cease and desist, we will take it down. For now as we go with it."
+This is the owner's explicit choice of the "HOLD FOR FURTHER REVIEW" option under the required
+decision-options protocol, made with full knowledge of the confirmed finding above (Texaco is an
+actively registered, currently enforced Chevron trademark, not defunct). **No live action taken or
+needed** — product `6a53ee979296b919210641d5` remains exactly as it was, untouched throughout this
+entire review. **Decision `D-1L6N71490T` status: RESOLVED — owner-directed HOLD, contingency plan is
+to remove on actual legal contact (warning or cease-and-desist), not proactively.** No further action
+on this item unless and until such contact occurs or the owner revisits it.
+
 ---
 
 ### Item 3 — 2 broken Shopify Thong listings (unfulfillable; catalog-discontinued blueprint) — not CRITICAL
