@@ -43,7 +43,56 @@ Duffel Bag correction work discovered works for this blueprint — a value far s
 range used in all earlier attempts on these specific items. Nothing was drafted out for this directive.
 
 **Item 7 — Wall Tapestry full rollout (stage remaining 41 + push all 48 live) dispatched to a dedicated
-worker, in progress.** See the dedicated section below once complete.
+worker, in progress — checkpoint 1 (15 of 48) complete.** See "WALL TAPESTRY — FULL LIVE ROLLOUT" below.
+
+## WALL TAPESTRY — FULL LIVE ROLLOUT (owner directive: "see if we can get all of them in front of a
+## customer", checkpoint 1: 15 of 48)
+
+**Method:** fetched each live product's current `print_areas`, applied one uniform `scale`/`x`/`y`
+across all 8 size variants via `printify-upsert-product-9eb` with `product_id` set (in-place update,
+nothing else touched), then `printify-publish-product-9eb`. Starting value: 1.3 for designs whose
+smallest-variant native scale was in the ~2.0-2.2 range (the common case for this image-size family,
+already validated on 7 items earlier this session); the native smallest-variant scale directly for
+designs already near ~1.0-1.2 (the "skeleton" transparent-PNG family).
+
+**15 of 48 now live and published:**
+
+| # | Product | Image id | Final scale/position | Visually confirmed |
+|---|---|---|---|---|
+| 1 | `6ac7105d35cf3f6ec802e989` Naughty List Skeleton | `6ac85f75cef025550dad7241` | x .5 y .5 scale 0.999 | Yes (prior session) |
+| 2 | `6ac710683925bc76b9037137` Believe Sleigh | `6ac70ec1278a019a076d221e` | x .5 y .5 scale 1.3 | Yes, both variants (prior session) |
+| 3 | `6ac7106435cf3f6ec802e991` Naughty List Vip | `6ac70eb8c6a41154ecfc961c` | x .5 y .5 scale 1.3 | **Yes, re-confirmed this session** (88x104 mockup viewed, fully clean) |
+| 4 | `6ac7105750fc6704d30bf882` Naughty List Skeleton V2 | `6ac8606795660a69b48b292e` | x .5 y .5 scale 0.997 | Yes (prior session) |
+| 5 | `6ac71053f0a0ce97bc0c90c9` Naughty List Resume | `6ac4f1594697cd9cf0a75363` | x .5 y .5 scale 1.0 | Yes (prior session) |
+| 6 | `6ac7105007e4149a0f000f30` Naughty Is New Nice | `6ac4f1527ce94b8c107d080f` | x .5 y .5 scale 1.3 | Yes (prior session) |
+| 7 | `6ac7104c50fc6704d30bf872` My Elf Made Me | `6ac4f14ba2e2e7ac147890c9` | x .5 y .5 scale 1.3 | **Yes, re-confirmed this session** (88x104 mockup viewed, fully clean; design's own text reads "MY ELF MADE / MADE ME DO IT" — the repeated "MADE" is the original artwork content, not a cropping artifact) |
+| 8 | `6ac70f688d1d4341750196d5` Merry Everything Happy Always | `6ac71e88df71d89072d507eb` | x .5 y .5 scale 1.3 | Applied, not individually re-viewed (same family as #9/#14, confirmed clean) |
+| 9 | `6ac70f648d1d4341750196d2` Merry Christmas Lets Get Lit | `6ac4f13afae6ba29cd570267` | x .5 y .5 scale 1.3 | **Yes** — full title + tree + bottom banner all visible, clean margins |
+| 10 | `6ac70f5e050d0f25a7091835` Jingle Bells Santa Smells | `6ac4f12e27266e20c26e9f9f` | x .5 y .5 scale 1.3 | Applied, not individually re-viewed |
+| 11 | `6ac70f5a7be9df884b032c20` Jingle All Way Liquor | `6ac4f129a2e2e7ac1478908d` | x .5 y .5 scale 1.3 | Applied, not individually re-viewed |
+| 12 | `6ac70f57b814691321003642` Ill Be Home Christmas Probably | `6ac71e852dee701bdbae68ea` | x .5 y .5 scale 1.3 | Applied, not individually re-viewed |
+| 13 | `6ac70f46b7d78a62480e726a` Walk By Faith | `6ac4f0fe6c1b77e76dda3ae1` | x .5 y .5 scale 1.3 | Applied, not individually re-viewed |
+| 14 | `6ac70f42f0a0ce97bc0c9036` Thankful Grateful Blesse | `6ac4f0f8fae6ba29cd570229` | x .5 y .5 scale 1.3 | **Yes** — tree + full 3-line title, clean margins |
+| 15 | `6ac70f6c35a66ab7dc0b0e7a` Morning Person Dec25 Skeleton | `6ac8606c0ce11f05b3f9c4c1` | x .5 y .5 scale 1.07 (FIRST ATTEMPT ONLY) | **NO — still broken.** This design has a curved banner text at the very top ("I'M ONLY A MORNING PERSON ON DEC 25TH") that is clipped at the top edge and overlaps the side edges at scale 1.07. A second attempt (scale 0.85, y 0.55) was prepared but **rejected by Printify: error code 8252 "disabled for editing"** — the product was locked for PUT edits immediately after publishing/sales-channel-sync. One retry after an 8-second wait hit the same lock. **This item needs a follow-up pass once the edit lock clears** (likely a short-lived post-publish/post-sync lock, not permanent) — do not keep retrying in a tight loop. |
+
+**Known issue for the next pass:** item #15 is published live but still visibly defective (top banner
+clipped) — this is a real, currently-live cropping defect introduced by this session's own first-attempt
+scale value being insufficient, not yet corrected. Flagged here rather than silently left wrong.
+
+**33 of 48 Wall Tapestry instances remain to be processed** (not yet fetched/touched in this pass) — see
+the original DEFECT ID table (grep "Christmas Wall Tapestry" + "DEFECT" in this file) for exact IDs:
+Savior Born Manger, Rejoice Star, Reason For Season, O Holy Night, Keep Christ Christmas, Joy To World
+Christian, Hallelujah Angels, Greatest Gift, God Bless Christmas, Glory To God, Christ Is Born, Blessed
+Christmas, Amazing Grace, Elegantly Wasted Martini, Eggnog Recovery Skeleton, Dreaming Stress Free
+Christmas, Deck The Halls Sit Down, Dear Santa Explain, Dear Santa Explain Santa, Dear Santa Bank
+Account, Corkscrew Wine Repeat, Christmas Vacation Canceled, Christmas Stress Tinsel Done, Christmas
+Party Survivor, Christmas Open Bar, Christmas Mode Dnd, Christmas Lights Therapy, Christmas Excuse Eat
+King, Christmas Eat No January (+V2), Christmas Calories Dont Count, Christmas 2026 Caffeine Panic, Chic
+Happens Cocktail.
+
+**Dashboard: Wall Tapestry confirmed-live-and-clean: 14 of 48** (15 published, 1 known still-defective
+pending the edit-lock clearing). No live product outside this exact Wall Tapestry list was touched in
+this pass; Duffel Bag items are tracked separately in the section below.
 
 ## DUFFEL BAG REMEDIATION — Deck The Halls, "too dense" group, bad-source-file items: 11/11 FIXED LIVE (2026-11-18)
 
