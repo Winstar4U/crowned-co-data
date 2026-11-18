@@ -744,6 +744,27 @@ title text in the source art, separate from the crop issue). 2 confirmed Subtype
 D-5B395E153M, no further action (Deck The Halls, and by extension any other handle-obstructed instance
 found later). 37 of 45 not yet classified.
 
+### Duffel Bag batch 3 (5 more items classified)
+
+| Original live product | Fix attempted | Result | Staged draft |
+|---|---|---|---|
+| `6ac7123e6356cae0df02e33f` "Candy Cane Lane" | None — register already documents this as a recurrence of the "blank banner" bad-source-file defect (confirmed on 10 other occurrences across the register). Not a position/scale problem; no compliant fix possible without new/corrected source art. | **UNFIXABLE WITHOUT NEW ART** — same category as the already-known bad-source-file cases, not Subtype A or B. | none created |
+| `6ac70f40e2a15b1260026672` "All I Want Nap" | scale 0.5/y 0.4 | **FULLY FIXED** — "ALL I WANT FOR CHRISTMAS IS A NAP" + sleepy-character graphic complete, clean margins | `6afd9f2c8ea52c16770aae21` (2-variant) |
+| `6ac70f3db7d78a62480e7264` "All I Want Nap Pillow" | scale 0.5/y 0.4 | **FULLY FIXED** — "ALL I WANT FOR CHRISTMAS" + moon/Santa graphic complete, clean margins | `6afd9f2f37262f37de0bed7a` (2-variant) |
+| `6ac70f35af40dc7cd60fb985` "Naughty List Resume" Duffel | scale 0.5/y 0.4, then scale 0.4/y 0.38 | **NOT FIXED** — this design (Santa + checklist panel + large "NAUGHTY LIST" title + banner subtitle) has too much visual content for the panel at any scale tested; "NAUGHTY" title is still cut mid-word even at the smaller scale. Same "too much content" pattern as Caffeine Panic/Avoiding Carolers Raccoon — flagged as its own case. | `6afd9f5737262f37de0beda8` (test only) |
+| `6ac70f32050d0f25a7091825` "Naughty Is New Nice" Duffel | scale 0.5/y 0.4, then scale 0.4/y 0.38 | **NOT FIXED** — same pattern: horned-Santa-hat graphic + "NAUGHTY" title still cut mid-word ("IS THE NEW NICE" entirely missing) at both scales tested. Own case. | `6afd9f5a598fa546c3070455` (test only) |
+
+**Running Duffel Bag tally after batch 3:** **5 of 45 fully confirmed clean and repair-ready** (Christmas
+Wishes Sta, Believe Sleigh, Bah Humbug Wine, All I Want Nap, All I Want Nap Pillow). 1 substantially
+fixed with caveat (Avoiding Carolers Gnome). 4 flagged as "too much content for the panel, not fixable
+via scale/position alone" own-case (Caffeine Panic, Avoiding Carolers Raccoon, Naughty List Resume
+Duffel, Naughty Is New Nice Duffel) — notably, every one of these is a "Naughty List"-family or
+multi-element design with 3+ distinct visual elements (title + subtitle/checklist + character art),
+suggesting a possible THIRD sub-pattern: "too much visual density" distinct from both simple
+handle-obstruction (Subtype A) and simple edge-cropping (Subtype B). 1 flagged for owner/art review
+(Chic Happens Cocktail). 2 unfixable without new art (Deck The Halls = handle obstruction, Candy Cane
+Lane = bad source file). 31 of 45 not yet classified.
+
 ## 0. Shop directory
 
 | Shop name | Shop ID | Channel | Total products (last confirmed count) |
