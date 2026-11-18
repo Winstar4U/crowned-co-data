@@ -607,6 +607,41 @@ unpublish, no delete, no re-map, no live change of any kind.
 artwork, (b) remove/unpublish both listings since the thong category is gone, or (c) hold as-is.**
 Follow-up posted to decision `D-0J1145520R` with this narrowed framing.
 
+**8. LIVE ACTION TAKEN 2026-11-18 — owner explicitly chose option (a): "If you can create a similar
+product to the thongs on a woman's undergarment, go ahead and do that."** Executed for both Winstar4U
+(shop `26418699`) items. Real live writes, both now published and purchasable.
+
+| Original (unchanged, left as historical/discontinued record) | New live product (blueprint 407 "Women's Briefs (AOP)", print provider 14/ArtsAdd, shop 26418699) | Scale used | Mockup check | Publish status |
+|---|---|---|---|---|
+| `69c7630e3acff09c580c3072` "Women's Thong This Is Not Going To Unzip Itself" | `6afdab57dfc27cd38c0bffb1` "Women's Thong This Is Not Going To Unzip Itself Funny Lingerie" (title kept for continuity) | 1.0 (first attempt — clean immediately, no iteration needed) | Visually confirmed clean on front and back mockups: full text "This Isn't Going to Lick Itself!" legible, centered, no cropping, no distortion | **Published** to Shopify sales channel via `printify-publish-product-9eb` — confirmed success (empty-body response per the tool's documented success behavior) |
+| `69c75c408ac9a0544a0ebe6d` "Juicy Black Women's Thong — Playful Pink Puff Lettering" | `6afdab7ae6ba52c5810c14b8` "Juicy Black Women's Panties — Playful Pink Puff Lettering" | 1.0 first attempt was cropped at both edges ("JUICY" clipped left/right); **0.7 second attempt fully clean** | Visually confirmed at scale 0.7: full "JUICY" glitter lettering, no cropping, clean margins on both sides (same iterative-scale-reduction method validated earlier on Wall Tapestry/Duffel Bag) | **Published** to Shopify sales channel — confirmed success |
+
+Both new products reuse each original's real, non-fabricated artwork image id directly (no re-upload,
+no new art) applied to all three AOP placeholders (front/back/gusset — this blueprint, unlike the
+dye-sublimation Thong, requires every placeholder to carry an image; the same single real graphic was
+applied to all three rather than fabricating separate back/gusset art). All 6 size variants
+(XS-2XL, this blueprint's only colorway) enabled at $24.15, matching the original Thong's default
+retail price.
+
+The two original broken Thong products (`69c7630e3acff09c580c3072`, `69c75c408ac9a0544a0ebe6d`) were
+**left exactly as they were** — not unpublished, not deleted, not modified — since they already had
+zero enabled variants and no live sales-channel presence; they remain as historical/discontinued
+records while the new Briefs-based products now serve these designs to customers.
+
+**Etsy-shop pair explicitly NOT touched.** The two other broken-on-blueprint-1466 products discovered
+during the investigation — `69c9a9a77ee2f2859c094675` ("Juicy Black Women's Thong...") and
+`69c9a9993f8316381202aff5` ("Brazil Flag Thong...") — belong to a **different shop**, Etsy shop
+`26603005` (Winstar Etsy Store), not Shopify shop `26418699`. The owner's "go ahead" was given in the
+context of decision `D-0J1145520R`, which covers the Shopify pair specifically. Per the standing
+instruction to keep consequential actions scoped to what was actually authorized, these two Etsy
+products were left completely untouched (no fetch-and-modify, no new product, no publish) and are
+flagged here as **candidates for the identical fix, pending a separate, explicit owner confirmation
+that the same authorization extends to the Etsy shop.**
+
+Bridge: task submitted with full evidence; follow-up posted to `D-0J1145520R` noting the owner's
+explicit choice and that it is now executed for the 2 Shopify items, with the Etsy pair called out as
+unresolved and awaiting separate confirmation.
+
 ---
 
 ### Item 4 — Amazon both-live duplicate-ASIN pairs — not CRITICAL (cross-reference)
