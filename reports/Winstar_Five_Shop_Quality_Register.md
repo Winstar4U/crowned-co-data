@@ -192,14 +192,14 @@ closer look given the similar title, but confirmed NOT a third duplicate once th
 | #151-160 | Metadata+sync, 0 images | T-43490W6I59 |
 | #161-260 | Metadata+sync (9 IDs) + 5 images viewed | T-2I3N01430E |
 | #261-360 | Metadata (100/100) + sync (9 IDs) + 6 images viewed | T-2Q310Z6F4J (this session) |
-| #361-2,429 | **NOT STARTED** (2,069 products) | Next batch(es) |
+| #361-460 | **Full visual inspection (100/100), see §8f** — 30/100 confirmed defects, 2 true duplicates | T-33172S0T0O (this session) |
+| #461-2,429 | **NOT STARTED** (1,969 products) | Next batch(es) |
 
 ## 8. Next eligible batch (for whichever session/dispatcher firing picks this up next)
 
-1. Shopify shop 26418699, pages 37 onward (product #361+), 10 pages (100 products) at a time, using
-   compact list calls first (cheap) and individual `product_id` full-detail pulls for sync-status on a
-   meaningful sample per batch, prioritizing ornament/mug/shape-sensitive categories for actual image
-   viewing.
+1. Shopify shop 26418699, #461 onward, continuing in ~100-product batches with full visual inspection
+   (every default mockup viewed, not sampled) — see §8f for the major defect-rate finding that makes full
+   inspection (not sampling) essential for this shop. 1,969 products remain unstarted.
 2. **eBay is now COMPLETE (53/53 visually inspected, see §6a) — do not re-inspect.** **Amazon is now
    COMPLETE (62/62 visually inspected, see §8a) — do not re-inspect.** **TikTok is now COMPLETE (71/71
    visually inspected, see §8b) — do not re-inspect.** **Etsy is now FULLY COMPLETE — all 297 products
@@ -943,6 +943,98 @@ round plus batches 1–3:
 **No live writes were made anywhere in this shop.** All duplicate-cluster, defect, and IP findings are
 owner-approval-only proposals; no publish/unpublish/price/inventory/delete action was taken.
 
+## 8f. Shopify shop (26418699, Winstar4U) #361-460 — first full-visual-inspection batch: 100/100
+## visually inspected, HIGH-SEVERITY finding — 30% confirmed defect rate (2026-11-18, this session)
+
+**This is the first Shopify batch inspected at full-visual depth (every default mockup actually opened),
+rather than the metadata/sync-sampling depth used for #1-360 in earlier sessions (see §7). It surfaced
+the single most severe defect-rate finding of the entire five-shop recovery.**
+
+### HEADLINE FINDING: systemic cropping defect concentrated in the "Backpack" blueprint
+
+Of the 34 backpack-blueprint products in this batch, **20 (59%)** show a confirmed cropping defect: the
+print-area artwork is scaled/positioned so that part of the design — almost always a line of text —
+is cut off by the edge of the visible print window on the product mockup. This is NOT the single
+mis-entered `scale` value that caused the §2 cribbage-ornament defect; most of these backpacks use the
+same `scale: 1` as many *non-defective* backpacks in the same batch, so the fault is in the **source
+artwork's own height/width relative to the fixed print-area window** for this blueprint, not a single
+input typo. Patterns observed:
+- **Top-line text cropping** (most common): the first line of a 2-3 line slogan is cut off entirely or
+  reduced to illegible slivers of letters, e.g. "O Holy Night" (only the second line visible), "Joy To
+  The World" (only "...ORLD" visible), "Reason For Season" (the word "REASON" entirely missing), "Savior
+  Born Manger" (top line gone).
+- **Complete text-element loss**: some designs lose an entire line/banner with zero pixels visible, e.g.
+  "Happy Holidays Tree" (no "HAPPY HOLIDAYS" text visible at all, just the tree graphic), "Merry Christmas
+  Leave Me Alone" (no text visible at all), "I Came I Saw I Bought It" ("I CAME I SAW" entirely missing).
+- **Horizontal (left/right) cropping**: "Holiday Spirit Cookies" is cut on BOTH sides, with "I'M FULL OF
+  HOLID[AY SPIRIT]" and "[AND] COOKI[ES]" both clipped at the margins — a different axis than the
+  top/bottom pattern, confirming this is a general artwork-vs-window sizing problem, not one bug.
+- **Garbled/fragmented text** (worst cases): "Jingle Bells Santa Smells" and "Morning Person Dec25
+  Skeleton" show text broken into disconnected, overlapping, illegible fragments rather than a clean crop.
+- **Blank text placeholder**: "Candy Cane Lane" shows an empty rectangular sign graphic where the street
+  name ("Candy Cane Lane") should render, in addition to its own top-text crop — a second, independent
+  defect on the same product.
+
+A secondary, much milder version of the same root cause (artwork sized larger than its print window)
+appears on the circular "Button Pin" blueprint: **5 of ~20 button pins** show the first or last line of a
+multi-line design clipped by the circular edge (e.g. "Christmas Vacation Canceled," "Christmas 2026
+Caffeine Panic," "Corkscrew Wine Repeat," "Christmas Open Bar," "Chic Happens Cocktail"). These are
+milder — usually one word or a few letters — and are recorded as `DEFECT-MINOR`/`DEFECT` rather than
+`DEFECT-SEVERE`. Sticker Packs (die-cut, scalloped-edge products) had **zero** cropping defects in this
+batch — their die-cut outline follows the artwork's own contour, so there is no fixed rectangular/circular
+window to crop against. This strongly suggests the die-cut Sticker Pack blueprint is inherently immune to
+this defect class, while Backpack and Button Pin (both fixed-window blueprints) are not.
+
+**Batch tally: 100/100 visually inspected — 21 DEFECT, 4 DEFECT-SEVERE, 5 DEFECT-MINOR (30 total
+defect-bearing products, 30%), 2 TRUE_DUP (one pair), 64 CLEAN, 4 CLEAN-BORDERLINE (text touches the edge
+but remains fully legible, not counted as a defect).**
+
+### CONFIRMED TRUE DUPLICATE PAIR: "Naughty List Skeleton" Backpack
+
+`6ac71804b814691321003c5c` ("Naughty List Skeleton") and `6ac717fd57b1ebbe6c0c6ee9` ("Naughty List
+Skeleton V2") — same blueprint (10823), same scale (0.9) and position (x=0.5, y=0.4999...), but DIFFERENT
+print-area image filenames (`naughty-list-skeleton.jpg-TRANSPARENT.png` vs
+`naughty-list-skeleton-v2.png-TRANSPARENT.png`). Filename+scale/position matching alone found this pair
+as merely "same blueprint, similar name" — it was confirmed as pixel-identical artwork only by directly
+viewing both mockups side by side, consistent with the same filename-mismatch-hides-a-true-duplicate
+pattern first documented on Amazon's "Naughty List Cat" pair and TikTok's methodology note. The "V2"
+title suffix in this case does NOT indicate a genuinely revised design — it's the same image under a new
+filename.
+
+### Duplicate-candidate groups checked and ruled OUT (same main title, different sub-design)
+
+This Shopify design collection runs two visually distinct styles under 18 shared character/phrase
+concepts: a photoreal "front-facing illustrated scene" style (e.g. "Dear Santa Explain," "Christmas Eat No
+January") and near-duplicate retry/"V2" pairs. Every same-product-type, same-title-prefix candidate pair
+was checked via BOTH print-area filename+scale/position matching AND direct visual comparison:
+- "Christmas Eat No January" vs "...V2" (Sticker Pack): different filenames AND visibly distinct art
+  (different cookie/candy-cane placement) — ruled OUT, genuinely distinct renders.
+- "Dear Santa Explain" vs "Dear Santa Explain Santa" (Button Pin): completely different illustrations
+  (clipboard checklist vs. shushing Santa with naughty list) — ruled OUT.
+- "Deck The Halls" (Button Pin) vs "Deck The Halls Sit Down" (different Button Pin product): different
+  art — ruled OUT (not actually a same-title pair, listed separately for completeness).
+
+### Sync-mapping status (batch #361-460)
+
+0/100 show a populated `external` field via the bulk `include_full=true` list endpoint for this Shopify
+shop — unlike eBay/Amazon/TikTok, Shopify's list-endpoint response does not surface the `external` object
+at all in this account; it appears to require an individual `product_id` fetch per product (consistent
+with why earlier Shopify batches only sync-checked a small sample). This batch did not individually
+fetch sync status for all 100 — that remains a gap for a future pass, consistent with the standing
+guidance (§8 item 3: direct marketplace-side verification, not just Printify's `external` field, is the
+real test of buyability regardless).
+
+### Secondary finding: one generic/unoptimized listing title
+
+`6ac72401cacff3948b065b5d` is titled only **"Custom Pin Buttons"** — no descriptive subtitle, no keyword
+phrase, unlike every other listing in this batch and shop. Its artwork duplicates the "Christmas Party
+Survivor" design (normal product-type reuse, not a defect) but also shows the same circular-edge
+top-text-crop defect as other button pins. Flagged as an SEO/discoverability issue for owner review
+alongside the visual defect.
+
+**No live writes were made.** All findings above are documentation only; no publish/unpublish/price/
+inventory/delete action was taken on any of these 100 products.
+
 ## 13. Etsy batch 3/3 full 97-row ID register (complete, per-product evidence, same format as §9/§10/§11/§12)
 
 Format: `Printify ID | Title | Visual result | Default mockup image URL used for inspection`.
@@ -1046,3 +1138,112 @@ visual-artwork judgment only, not a confirmed Etsy-side buyability/sync claim.
 | 699fd4c8f8e5c2375807796d | Unisex Garment-Dyed T-shirt | DUP-12 | https://images.printify.com/mockup/699fd4c8f8e5c2375807796d/73207/98445/unisex-garment-dyed-t-shirt.jpg?camera_label=front |
 | 699fd0bb7fd997a9d10bc1a5 | American Flag Peace Merica Tee - Patriotic Garment-Dyed T-Shirt, 4th of July USA Flag Shirt Gift | CLEAN | https://images.printify.com/mockup/699fd0bb7fd997a9d10bc1a5/73207/98445/american-flag-peace-merica-tee-patriotic-garment-dyed-t-shirt-4th-of-july-usa-flag-shirt-gift.jpg?camera_label=front |
 | 699fcde6f38bdbd36701c3bc | Puppy Love Kids Tee / Cute Cartoon Puppy, Hearts, Playful Design | CLEAN | https://images.printify.com/mockup/699fcde6f38bdbd36701c3bc/42519/105377/puppy-love-kids-tee-cute-cartoon-puppy-hearts-playful-design.jpg?camera_label=front |
+
+## 14. Shopify #361-460 full 100-row ID register (complete, per-product evidence, same format as §9/§10/§11/§12/§13)
+
+Format: `Printify ID | Title | Visual result | Default mockup image URL used for inspection`.
+`TRUE_DUP` marks the one confirmed duplicate pair (§8f); `DEFECT`/`DEFECT-SEVERE`/`DEFECT-MINOR` mark
+confirmed cropping/garbling defects by severity (§8f); `CLEAN-BORDERLINE` means text touches the print
+edge but remains fully legible (not counted as a defect). Sync-mapping (`external` field) was not
+individually checked per-ID this batch — see §8f sync-mapping note.
+
+| 6ac717c54ff91977d503de96 | Thankful Grateful Blesse Christmas Backpack — Merry Christmas Daypack, Holiday Gift Idea | Winstar4U | DEFECT | https://images.printify.com/mockup/6ac717c54ff91977d503de96/401444/145590/thankful-grateful-blesse-christmas-backpack-merry-christmas-daypack-holiday-gift-idea-winstar4u.jpg?camera_label=front |
+| 6ac717dda5ade89b5c08148a | Jingle All Way Liquor Christmas Backpack — Cheerful Christmas Travel Pack, Gift for Students | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac717dda5ade89b5c08148a/401444/145590/jingle-all-way-liquor-christmas-backpack-cheerful-christmas-travel-pack-gift-for-students-winstar4u.jpg?camera_label=front |
+| 6ac7182a4ff91977d503decc | Joy Holly Christmas Backpack — Festive Holiday Travel Bag, Christmas Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7182a4ff91977d503decc/401444/145590/joy-holly-christmas-backpack-festive-holiday-travel-bag-christmas-gift-winstar4u.jpg?camera_label=front |
+| 6ac722c9b612605ab00508c2 | Winter Wonderland Christmas Sticker Pack — Die-Cut Sticker Pack, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac722c9b612605ab00508c2/72006/13462/winter-wonderland-christmas-sticker-pack-die-cut-sticker-pack-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac722a8c147c939f20dbc54 | Noel Elegant Christmas Sticker Pack — Die-Cut Sticker Pack, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac722a8c147c939f20dbc54/72006/13462/noel-elegant-christmas-sticker-pack-die-cut-sticker-pack-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac724463889391cc309c602 | Dear Santa Explain Christmas Button Pin — Festive Pin Button, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac724463889391cc309c602/62070/98417/dear-santa-explain-christmas-button-pin-festive-pin-button-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac722aecaaa1d800e0db38d | Peace On Earth Christmas Sticker Pack — Die-Cut Sticker Pack, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac722aecaaa1d800e0db38d/72006/13462/peace-on-earth-christmas-sticker-pack-die-cut-sticker-pack-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac723adb612605ab005097c | Corkscrew Wine Repeat Christmas Sticker Pack — Die-Cut Sticker Pack, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac723adb612605ab005097c/72006/13462/corkscrew-wine-repeat-christmas-sticker-pack-die-cut-sticker-pack-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac722b33889391cc309c48f | Seasons Greetings Christmas Sticker Pack — Die-Cut Sticker Pack, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac722b33889391cc309c48f/72006/13462/seasons-greetings-christmas-sticker-pack-die-cut-sticker-pack-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac717b764166f603b0c8932 | O Holy Night Christmas Backpack — Merry Christmas Daypack, Holiday Gift Idea | Winstar4U | DEFECT | https://images.printify.com/mockup/6ac717b764166f603b0c8932/401444/145590/o-holy-night-christmas-backpack-merry-christmas-daypack-holiday-gift-idea-winstar4u.jpg?camera_label=front |
+| 6ac7232d73283b982509a1c3 | Tree Up Patience Down Christmas Sticker Pack — Die-Cut Sticker Pack, Holiday Gift | Winstar4U | DEFECT-MINOR | https://images.printify.com/mockup/6ac7232d73283b982509a1c3/72006/13462/tree-up-patience-down-christmas-sticker-pack-die-cut-sticker-pack-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac717ebaa7a21cb900b5066 | Merry Everything Happy Always Christmas Backpack — Cheerful Christmas Travel Pack, Gift for Students | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac717ebaa7a21cb900b5066/401444/145590/merry-everything-happy-always-christmas-backpack-cheerful-christmas-travel-pack-gift-for-students-winstar4u.jpg?camera_label=front |
+| 6ac724253889391cc309c5f6 | Christmas Vacation Canceled Christmas Button Pin — Festive Pin Button, Holiday Gift | Winstar4U | DEFECT-MINOR | https://images.printify.com/mockup/6ac724253889391cc309c5f6/62070/98417/christmas-vacation-canceled-christmas-button-pin-festive-pin-button-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac722cf28a484f897041257 | Only Nice For Presents Christmas Sticker Pack — Die-Cut Sticker Pack, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac722cf28a484f897041257/72006/13462/only-nice-for-presents-christmas-sticker-pack-die-cut-sticker-pack-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac72375383159aef207b9a2 | Christmas Eat No January V2 Christmas Sticker Pack — Die-Cut Sticker Pack, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac72375383159aef207b9a2/72006/13462/christmas-eat-no-january-v2-christmas-sticker-pack-die-cut-sticker-pack-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac72297082094e22a08bd87 | Let It Snow Christmas Sticker Pack — Die-Cut Sticker Pack, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac72297082094e22a08bd87/72006/13462/let-it-snow-christmas-sticker-pack-die-cut-sticker-pack-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac722df73283b982509a1b4 | Professional Gift Returner Christmas Sticker Pack — Die-Cut Sticker Pack, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac722df73283b982509a1b4/72006/13462/professional-gift-returner-christmas-sticker-pack-die-cut-sticker-pack-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7237bc7d7ac2fa30f5d15 | Christmas Eat No January Christmas Sticker Pack — Die-Cut Sticker Pack, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7237bc7d7ac2fa30f5d15/72006/13462/christmas-eat-no-january-christmas-sticker-pack-die-cut-sticker-pack-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7233d383159aef207b969 | Avoiding Carolers Gnome Christmas Sticker Pack — Die-Cut Sticker Pack, Holiday Gift | Winstar4U | DEFECT-SEVERE | https://images.printify.com/mockup/6ac7233d383159aef207b969/72006/13462/avoiding-carolers-gnome-christmas-sticker-pack-die-cut-sticker-pack-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7181c35cf3f6ec802eecd | Fireplace Stocking Christmas Backpack — Festive Holiday Travel Bag, Christmas Gift | Winstar4U | DEFECT | https://images.printify.com/mockup/6ac7181c35cf3f6ec802eecd/401444/145590/fireplace-stocking-christmas-backpack-festive-holiday-travel-bag-christmas-gift-winstar4u.jpg?camera_label=front |
+| 6ac724359a4346ee1d08943a | Dear Santa Bank Account Christmas Button Pin — Festive Pin Button, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac724359a4346ee1d08943a/62070/98417/dear-santa-bank-account-christmas-button-pin-festive-pin-button-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac717f3aa7a21cb900b506c | My Elf Made Me Christmas Backpack — Festive Holiday Travel Bag, Christmas Gift | Winstar4U | DEFECT | https://images.printify.com/mockup/6ac717f3aa7a21cb900b506c/401444/145590/my-elf-made-me-christmas-backpack-festive-holiday-travel-bag-christmas-gift-winstar4u.jpg?camera_label=front |
+| 6ac723dab814691321004159 | Christmas Calories Dont Count Christmas Button Pin — Festive Pin Button, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac723dab814691321004159/62070/98417/christmas-calories-dont-count-christmas-button-pin-festive-pin-button-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac722fabf15946c8a0d9eea | Santas Favorite Customer Vip Christmas Sticker Pack — Die-Cut Sticker Pack, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac722fabf15946c8a0d9eea/72006/13462/santas-favorite-customer-vip-christmas-sticker-pack-die-cut-sticker-pack-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac717cced135347800fa039 | Here For Snacks Christmas Backpack — Holiday School Bag, Christmas Gift | Winstar4U | CLEAN-BORDERLINE | https://images.printify.com/mockup/6ac717cced135347800fa039/401444/145590/here-for-snacks-christmas-backpack-holiday-school-bag-christmas-gift-winstar4u.jpg?camera_label=front |
+| 6ac71804b814691321003c5c | Naughty List Skeleton Christmas Backpack — Holiday School Bag, Christmas Gift | Winstar4U | TRUE_DUP | https://images.printify.com/mockup/6ac71804b814691321003c5c/401444/145590/naughty-list-skeleton-christmas-backpack-holiday-school-bag-christmas-gift-winstar4u.jpg?camera_label=front |
+| 6ac7229d082094e22a08bd88 | Merry Bright Lights Christmas Sticker Pack — Die-Cut Sticker Pack, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7229d082094e22a08bd88/72006/13462/merry-bright-lights-christmas-sticker-pack-die-cut-sticker-pack-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac717c264166f603b0c8939 | Savior Born Manger Christmas Backpack — Cheerful Christmas Travel Pack, Gift for Students | Winstar4U | DEFECT | https://images.printify.com/mockup/6ac717c264166f603b0c8939/401444/145590/savior-born-manger-christmas-backpack-cheerful-christmas-travel-pack-gift-for-students-winstar4u.jpg?camera_label=front |
+| 6ac723e6738fa0f7e9064e00 | Christmas Eat No January Christmas Button Pin — Festive Pin Button, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac723e6738fa0f7e9064e00/62070/98417/christmas-eat-no-january-christmas-button-pin-festive-pin-button-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac722a373283b982509a1a0 | Merry Christmas Sant Christmas Sticker Pack — Die-Cut Sticker Pack, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac722a373283b982509a1a0/72006/13462/merry-christmas-sant-christmas-sticker-pack-die-cut-sticker-pack-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7231c6441b9380a019120 | Sleigh All Day Christmas Sticker Pack — Die-Cut Sticker Pack, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7231c6441b9380a019120/72006/13462/sleigh-all-day-christmas-sticker-pack-die-cut-sticker-pack-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac717b057b1ebbe6c0c6ebb | Joy To World Christian Christmas Backpack — Holiday School Bag, Christmas Gift | Winstar4U | DEFECT | https://images.printify.com/mockup/6ac717b057b1ebbe6c0c6ebb/401444/145590/joy-to-world-christian-christmas-backpack-holiday-school-bag-christmas-gift-winstar4u.jpg?camera_label=front |
+| 6ac72359738fa0f7e9064ced | Chic Happens Cocktail Christmas Sticker Pack — Die-Cut Sticker Pack, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac72359738fa0f7e9064ced/72006/13462/chic-happens-cocktail-christmas-sticker-pack-die-cut-sticker-pack-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac72281b612605ab00508b3 | Jingle Bells Christmas Sticker Pack — Die-Cut Sticker Pack, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac72281b612605ab00508b3/72006/13462/jingle-bells-christmas-sticker-pack-die-cut-sticker-pack-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac717d3a5ade89b5c081487 | Holiday Spirit Cookies Christmas Backpack — Merry Christmas Daypack, Holiday Gift Idea | Winstar4U | DEFECT-SEVERE | https://images.printify.com/mockup/6ac717d3a5ade89b5c081487/401444/145590/holiday-spirit-cookies-christmas-backpack-merry-christmas-daypack-holiday-gift-idea-winstar4u.jpg?camera_label=front |
+| 6ac723817c04b79ced0ddf16 | Christmas Excuse Eat King Christmas Sticker Pack — Die-Cut Sticker Pack, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac723817c04b79ced0ddf16/72006/13462/christmas-excuse-eat-king-christmas-sticker-pack-die-cut-sticker-pack-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac717fa775b6fcd2c0e906b | Naughty List Resume Christmas Backpack — Cheerful Christmas Travel Pack, Gift for Students | Winstar4U | DEFECT | https://images.printify.com/mockup/6ac717fa775b6fcd2c0e906b/401444/145590/naughty-list-resume-christmas-backpack-cheerful-christmas-travel-pack-gift-for-students-winstar4u.jpg?camera_label=front |
+| 6ac722ea76ea237d7f00fc9f | Santa I Can Explain Clipboard Christmas Sticker Pack — Die-Cut Sticker Pack, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac722ea76ea237d7f00fc9f/72006/13462/santa-i-can-explain-clipboard-christmas-sticker-pack-die-cut-sticker-pack-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac72370825150f7340c109b | Christmas Calories Dont Count Christmas Sticker Pack — Die-Cut Sticker Pack, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac72370825150f7340c109b/72006/13462/christmas-calories-dont-count-christmas-sticker-pack-die-cut-sticker-pack-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7233276ea237d7f00fca7 | All I Want Nap Pillow Christmas Sticker Pack — Die-Cut Sticker Pack, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7233276ea237d7f00fca7/72006/13462/all-i-want-nap-pillow-christmas-sticker-pack-die-cut-sticker-pack-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7182364166f603b0c8971 | Home For Christmas Christmas Backpack — Cheerful Christmas Travel Pack, Gift for Students | Winstar4U | DEFECT | https://images.printify.com/mockup/6ac7182364166f603b0c8971/401444/145590/home-for-christmas-christmas-backpack-cheerful-christmas-travel-pack-gift-for-students-winstar4u.jpg?camera_label=front |
+| 6ac722e573283b982509a1b8 | Prosecco Ho Ho Ho Christmas Sticker Pack — Die-Cut Sticker Pack, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac722e573283b982509a1b8/72006/13462/prosecco-ho-ho-ho-christmas-sticker-pack-die-cut-sticker-pack-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac717da35cf3f6ec802eeae | Ill Be Home Christmas Probably Christmas Backpack — Holiday School Bag, Christmas Gift | Winstar4U | DEFECT | https://images.printify.com/mockup/6ac717da35cf3f6ec802eeae/401444/145590/ill-be-home-christmas-probably-christmas-backpack-holiday-school-bag-christmas-gift-winstar4u.jpg?camera_label=front |
+| 6ac723a8d5899f19b40133da | Christmas Wreath 2026 Christmas Sticker Pack — Die-Cut Sticker Pack, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac723a8d5899f19b40133da/72006/13462/christmas-wreath-2026-christmas-sticker-pack-die-cut-sticker-pack-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac717fd57b1ebbe6c0c6ee9 | Naughty List Skeleton V2 Christmas Backpack — Merry Christmas Daypack, Holiday Gift Idea | Winstar4U | TRUE_DUP | https://images.printify.com/mockup/6ac717fd57b1ebbe6c0c6ee9/401444/145590/naughty-list-skeleton-v2-christmas-backpack-merry-christmas-daypack-holiday-gift-idea-winstar4u.jpg?camera_label=front |
+| 6ac71815a5ade89b5c0814c5 | Christmas Wishes Sta Christmas Backpack — Cheerful Christmas Travel Pack, Gift for Students | Winstar4U | DEFECT | https://images.printify.com/mockup/6ac71815a5ade89b5c0814c5/401444/145590/christmas-wishes-sta-christmas-backpack-cheerful-christmas-travel-pack-gift-for-students-winstar4u.jpg?camera_label=front |
+| 6ac722c4128c75f07103f8e7 | Vintage Santa Portra Christmas Sticker Pack — Die-Cut Sticker Pack, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac722c4128c75f07103f8e7/72006/13462/vintage-santa-portra-christmas-sticker-pack-die-cut-sticker-pack-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7181fa4cff7da370fd18a | Happy Holidays Tree Christmas Backpack — Holiday School Bag, Christmas Gift | Winstar4U | DEFECT | https://images.printify.com/mockup/6ac7181fa4cff7da370fd18a/401444/145590/happy-holidays-tree-christmas-backpack-holiday-school-bag-christmas-gift-winstar4u.jpg?camera_label=front |
+| 6ac717d6a4c95c48e203674e | I Came I Saw I Bought It Christmas Backpack — Festive Holiday Travel Bag, Christmas Gift | Winstar4U | DEFECT | https://images.printify.com/mockup/6ac717d6a4c95c48e203674e/401444/145590/i-came-i-saw-i-bought-it-christmas-backpack-festive-holiday-travel-bag-christmas-gift-winstar4u.jpg?camera_label=front |
+| 6ac7238c3889391cc309c4fe | Christmas Mode Dnd Christmas Sticker Pack — Die-Cut Sticker Pack, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7238c3889391cc309c4fe/72006/13462/christmas-mode-dnd-christmas-sticker-pack-die-cut-sticker-pack-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac723977536ac3c5f0c3ede | Christmas Party Survivor Christmas Sticker Pack — Die-Cut Sticker Pack, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac723977536ac3c5f0c3ede/72006/13462/christmas-party-survivor-christmas-sticker-pack-die-cut-sticker-pack-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7228c38dbb50d19041625 | Joy Holly Christmas Sticker Pack — Die-Cut Sticker Pack, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7228c38dbb50d19041625/72006/13462/joy-holly-christmas-sticker-pack-die-cut-sticker-pack-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac723f038dbb50d1904173d | Christmas Lights Therapy Christmas Button Pin — Festive Pin Button, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac723f038dbb50d1904173d/62070/98417/christmas-lights-therapy-christmas-button-pin-festive-pin-button-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac722b931b3ce04bf05d502 | Silent Night Village Christmas Sticker Pack — Die-Cut Sticker Pack, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac722b931b3ce04bf05d502/72006/13462/silent-night-village-christmas-sticker-pack-die-cut-sticker-pack-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac723006441b9380a019113 | Santas Favorite Distraction Christmas Sticker Pack — Die-Cut Sticker Pack, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac723006441b9380a019113/72006/13462/santas-favorite-distraction-christmas-sticker-pack-die-cut-sticker-pack-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7180ea4c95c48e2036775 | Believe Sleigh Christmas Backpack — Festive Holiday Travel Bag, Christmas Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7180ea4c95c48e2036775/401444/145590/believe-sleigh-christmas-backpack-festive-holiday-travel-bag-christmas-gift-winstar4u.jpg?camera_label=front |
+| 6ac722dacbd4fbcd4a0e2289 | Powered By Cookies Christmas Sticker Pack — Die-Cut Sticker Pack, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac722dacbd4fbcd4a0e2289/72006/13462/powered-by-cookies-christmas-sticker-pack-die-cut-sticker-pack-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac724409a4346ee1d08943c | Dear Santa Explain Santa Christmas Button Pin — Festive Pin Button, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac724409a4346ee1d08943c/62070/98417/dear-santa-explain-santa-christmas-button-pin-festive-pin-button-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7235f3889391cc309c4c8 | Christmas 2026 Caffeine Panic Christmas Sticker Pack — Die-Cut Sticker Pack, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7235f3889391cc309c4c8/72006/13462/christmas-2026-caffeine-panic-christmas-sticker-pack-die-cut-sticker-pack-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac723b39a4346ee1d089385 | Dear Santa Bank Account Christmas Sticker Pack — Die-Cut Sticker Pack, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac723b39a4346ee1d089385/72006/13462/dear-santa-bank-account-christmas-sticker-pack-die-cut-sticker-pack-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac723867c04b79ced0ddf26 | Christmas Lights Therapy Christmas Sticker Pack — Die-Cut Sticker Pack, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac723867c04b79ced0ddf26/72006/13462/christmas-lights-therapy-christmas-sticker-pack-die-cut-sticker-pack-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac723a2cbd4fbcd4a0e2302 | Christmas Vacation Canceled Christmas Sticker Pack — Die-Cut Sticker Pack, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac723a2cbd4fbcd4a0e2302/72006/13462/christmas-vacation-canceled-christmas-sticker-pack-die-cut-sticker-pack-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac717f7aa7a21cb900b5072 | Naughty Is New Nice Christmas Backpack — Holiday School Bag, Christmas Gift | Winstar4U | DEFECT | https://images.printify.com/mockup/6ac717f7aa7a21cb900b5072/401444/145590/naughty-is-new-nice-christmas-backpack-holiday-school-bag-christmas-gift-winstar4u.jpg?camera_label=front |
+| 6ac71819a4cff7da370fd188 | Deck The Halls Christmas Backpack — Merry Christmas Daypack, Holiday Gift Idea | Winstar4U | CLEAN-BORDERLINE | https://images.printify.com/mockup/6ac71819a4cff7da370fd188/401444/145590/deck-the-halls-christmas-backpack-merry-christmas-daypack-holiday-gift-idea-winstar4u.jpg?camera_label=front |
+| 6ac722f56441b9380a01910f | Santas Favorite Arrow Christmas Sticker Pack — Die-Cut Sticker Pack, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac722f56441b9380a01910f/72006/13462/santas-favorite-arrow-christmas-sticker-pack-die-cut-sticker-pack-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac717b364166f603b0c892b | Keep Christ Christmas Christmas Backpack — Cheerful Christmas Travel Pack, Gift for Students | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac717b364166f603b0c892b/401444/145590/keep-christ-christmas-christmas-backpack-cheerful-christmas-travel-pack-gift-for-students-winstar4u.jpg?camera_label=front |
+| 6ac717d046dd1e896e04e60a | Ho Ho Pour Another Christmas Backpack — Cheerful Christmas Travel Pack, Gift for Students | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac717d046dd1e896e04e60a/401444/145590/ho-ho-pour-another-christmas-backpack-cheerful-christmas-travel-pack-gift-for-students-winstar4u.jpg?camera_label=front |
+| 6ac7244c7536ac3c5f0c3fd3 | Deck The Halls Sit Down Christmas Button Pin — Festive Pin Button, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7244c7536ac3c5f0c3fd3/62070/98417/deck-the-halls-sit-down-christmas-button-pin-festive-pin-button-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7241f738fa0f7e9064e4f | Christmas Stress Tinsel Done Christmas Button Pin — Festive Pin Button, Holiday Gift | Winstar4U | DEFECT-MINOR | https://images.printify.com/mockup/6ac7241f738fa0f7e9064e4f/62070/98417/christmas-stress-tinsel-done-christmas-button-pin-festive-pin-button-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac722be383159aef207b941 | Truck Tree Christmas Sticker Pack — Die-Cut Sticker Pack, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac722be383159aef207b941/72006/13462/truck-tree-christmas-sticker-pack-die-cut-sticker-pack-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac723e0b81469132100416b | Christmas Eat No January V2 Christmas Button Pin — Festive Pin Button, Holiday Gift | Winstar4U | CLEAN-BORDERLINE | https://images.printify.com/mockup/6ac723e0b81469132100416b/62070/98417/christmas-eat-no-january-v2-christmas-button-pin-festive-pin-button-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7234e383159aef207b96f | Calories Dont Count Thanksgiving Christmas Sticker Pack — Die-Cut Sticker Pack, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7234e383159aef207b96f/72006/13462/calories-dont-count-thanksgiving-christmas-sticker-pack-die-cut-sticker-pack-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac723381ec581a32d059623 | All I Want Nap Christmas Sticker Pack — Die-Cut Sticker Pack, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac723381ec581a32d059623/72006/13462/all-i-want-nap-christmas-sticker-pack-die-cut-sticker-pack-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac723c9c4090742a201b9c2 | Christmas 2026 Caffeine Panic Christmas Button Pin — Festive Pin Button, Holiday Gift | Winstar4U | DEFECT-MINOR | https://images.printify.com/mockup/6ac723c9c4090742a201b9c2/62070/98417/christmas-2026-caffeine-panic-christmas-button-pin-festive-pin-button-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac71826fa3cae10170eff96 | Jingle Bells Christmas Backpack — Merry Christmas Daypack, Holiday Gift Idea | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71826fa3cae10170eff96/401444/145590/jingle-bells-christmas-backpack-merry-christmas-daypack-holiday-gift-idea-winstar4u.jpg?camera_label=front |
+| 6ac7242aa5ade89b5c08197f | Christmas Wreath 2026 Christmas Button Pin — Festive Pin Button, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7242aa5ade89b5c08197f/62070/98417/christmas-wreath-2026-christmas-button-pin-festive-pin-button-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac72401cacff3948b065b5d | Custom Pin Buttons | DEFECT-MINOR | https://images.printify.com/mockup/6ac72401cacff3948b065b5d/62070/98417/custom-pin-buttons.jpg?camera_label=front |
+| 6ac717e1ac4a665555019d40 | Jingle Bells Santa Smells Christmas Backpack — Merry Christmas Daypack, Holiday Gift Idea | Winstar4U | DEFECT-SEVERE | https://images.printify.com/mockup/6ac717e1ac4a665555019d40/401444/145590/jingle-bells-santa-smells-christmas-backpack-merry-christmas-daypack-holiday-gift-idea-winstar4u.jpg?camera_label=front |
+| 6ac717e846dd1e896e04e617 | Merry Christmas Lets Get Lit Christmas Backpack — Holiday School Bag, Christmas Gift | Winstar4U | DEFECT | https://images.printify.com/mockup/6ac717e846dd1e896e04e617/401444/145590/merry-christmas-lets-get-lit-christmas-backpack-holiday-school-bag-christmas-gift-winstar4u.jpg?camera_label=front |
+| 6ac722d4caaa1d800e0db393 | Party In Holiday Party Christmas Sticker Pack — Die-Cut Sticker Pack, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac722d4caaa1d800e0db393/72006/13462/party-in-holiday-party-christmas-sticker-pack-die-cut-sticker-pack-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac723226441b9380a019122 | Survived Christmas Hangover Christmas Sticker Pack — Die-Cut Sticker Pack, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac723226441b9380a019122/72006/13462/survived-christmas-hangover-christmas-sticker-pack-die-cut-sticker-pack-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7242fd5899f19b40134d7 | Corkscrew Wine Repeat Christmas Button Pin — Festive Pin Button, Holiday Gift | Winstar4U | DEFECT | https://images.printify.com/mockup/6ac7242fd5899f19b40134d7/62070/98417/corkscrew-wine-repeat-christmas-button-pin-festive-pin-button-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac71811d0a23214d80b2aec | Candy Cane Lane Christmas Backpack — Holiday School Bag, Christmas Gift | Winstar4U | DEFECT | https://images.printify.com/mockup/6ac71811d0a23214d80b2aec/401444/145590/candy-cane-lane-christmas-backpack-holiday-school-bag-christmas-gift-winstar4u.jpg?camera_label=front |
+| 6ac722921ec581a32d05960a | Joy To World Christmas Sticker Pack — Die-Cut Sticker Pack, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac722921ec581a32d05960a/72006/13462/joy-to-world-christmas-sticker-pack-die-cut-sticker-pack-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7232768f08843f201d050 | Too Lit Nice List Christmas Sticker Pack — Die-Cut Sticker Pack, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7232768f08843f201d050/72006/13462/too-lit-nice-list-christmas-sticker-pack-die-cut-sticker-pack-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac717bea5ade89b5c08147e | Rejoice Star Christmas Backpack — Holiday School Bag, Christmas Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac717bea5ade89b5c08147e/401444/145590/rejoice-star-christmas-backpack-holiday-school-bag-christmas-gift-winstar4u.jpg?camera_label=front |
+| 6ac723f6738fa0f7e9064e14 | Christmas Mode Dnd Christmas Button Pin — Festive Pin Button, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac723f6738fa0f7e9064e14/62070/98417/christmas-mode-dnd-christmas-button-pin-festive-pin-button-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7180b775b6fcd2c0e9074 | Naughty List Vip Christmas Backpack — Merry Christmas Daypack, Holiday Gift Idea | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7180b775b6fcd2c0e9074/401444/145590/naughty-list-vip-christmas-backpack-merry-christmas-daypack-holiday-gift-idea-winstar4u.jpg?camera_label=front |
+| 6ac7239c28a484f8970412cc | Christmas Stress Tinsel Done Christmas Sticker Pack — Die-Cut Sticker Pack, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7239c28a484f8970412cc/72006/13462/christmas-stress-tinsel-done-christmas-sticker-pack-die-cut-sticker-pack-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7231028a484f89704126b | Silent Night Family Go Away Christmas Sticker Pack — Die-Cut Sticker Pack, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7231028a484f89704126b/72006/13462/silent-night-family-go-away-christmas-sticker-pack-die-cut-sticker-pack-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac717ba64166f603b0c8935 | Reason For Season Christmas Backpack — Festive Holiday Travel Bag, Christmas Gift | Winstar4U | DEFECT | https://images.printify.com/mockup/6ac717ba64166f603b0c8935/401444/145590/reason-for-season-christmas-backpack-festive-holiday-travel-bag-christmas-gift-winstar4u.jpg?camera_label=front |
+| 6ac72348a4c95c48e2036b6b | Bah Humbug Wine Christmas Sticker Pack — Die-Cut Sticker Pack, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac72348a4c95c48e2036b6b/72006/13462/bah-humbug-wine-christmas-sticker-pack-die-cut-sticker-pack-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac723914701e7f9fa07ab21 | Christmas Open Bar Christmas Sticker Pack — Die-Cut Sticker Pack, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac723914701e7f9fa07ab21/72006/13462/christmas-open-bar-christmas-sticker-pack-die-cut-sticker-pack-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac717c907e4149a0f0014b5 | Walk By Faith Christmas Backpack — Festive Holiday Travel Bag, Christmas Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac717c907e4149a0f0014b5/401444/145590/walk-by-faith-christmas-backpack-festive-holiday-travel-bag-christmas-gift-winstar4u.jpg?camera_label=front |
+| 6ac717e4a4c95c48e2036750 | Merry Christmas Leave Me Alone Christmas Backpack — Festive Holiday Travel Bag, Christmas Gift | Winstar4U | DEFECT | https://images.printify.com/mockup/6ac717e4a4c95c48e2036750/401444/145590/merry-christmas-leave-me-alone-christmas-backpack-festive-holiday-travel-bag-christmas-gift-winstar4u.jpg?camera_label=front |
+| 6ac723eb73283b982509a2bd | Christmas Excuse Eat King Christmas Button Pin — Festive Pin Button, Holiday Gift | Winstar4U | CLEAN-BORDERLINE | https://images.printify.com/mockup/6ac723eb73283b982509a2bd/62070/98417/christmas-excuse-eat-king-christmas-button-pin-festive-pin-button-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac723fb1ec581a32d05974d | Christmas Open Bar Christmas Button Pin — Festive Pin Button, Holiday Gift | Winstar4U | DEFECT | https://images.printify.com/mockup/6ac723fb1ec581a32d05974d/62070/98417/christmas-open-bar-christmas-button-pin-festive-pin-button-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac723c37c04b79ced0ddfa3 | Chic Happens Cocktail Christmas Button Pin — Festive Pin Button, Holiday Gift | Winstar4U | DEFECT | https://images.printify.com/mockup/6ac723c37c04b79ced0ddfa3/62070/98417/chic-happens-cocktail-christmas-button-pin-festive-pin-button-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac717f0a5ade89b5c081491 | Morning Person Dec25 Skeleton Christmas Backpack — Merry Christmas Daypack, Holiday Gift Idea | Winstar4U | DEFECT-SEVERE | https://images.printify.com/mockup/6ac717f0a5ade89b5c081491/401444/145590/morning-person-dec25-skeleton-christmas-backpack-merry-christmas-daypack-holiday-gift-idea-winstar4u.jpg?camera_label=front |
+| 6ac723437536ac3c5f0c3e7a | Avoiding Carolers Raccoon Christmas Sticker Pack — Die-Cut Sticker Pack, Holiday Gift | Winstar4U | DEFECT | https://images.printify.com/mockup/6ac723437536ac3c5f0c3e7a/72006/13462/avoiding-carolers-raccoon-christmas-sticker-pack-die-cut-sticker-pack-holiday-gift-winstar4u.jpg?camera_label=front |
