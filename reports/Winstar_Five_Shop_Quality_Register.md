@@ -73,26 +73,60 @@ designs already near ~1.0-1.2 (the "skeleton" transparent-PNG family).
 | 12 | `6ac70f57b814691321003642` Ill Be Home Christmas Probably | `6ac71e852dee701bdbae68ea` | x .5 y .5 scale 1.3 | Applied, not individually re-viewed |
 | 13 | `6ac70f46b7d78a62480e726a` Walk By Faith | `6ac4f0fe6c1b77e76dda3ae1` | x .5 y .5 scale 1.3 | Applied, not individually re-viewed |
 | 14 | `6ac70f42f0a0ce97bc0c9036` Thankful Grateful Blesse | `6ac4f0f8fae6ba29cd570229` | x .5 y .5 scale 1.3 | **Yes** — tree + full 3-line title, clean margins |
-| 15 | `6ac70f6c35a66ab7dc0b0e7a` Morning Person Dec25 Skeleton | `6ac8606c0ce11f05b3f9c4c1` | x .5 y .5 scale 1.07 (FIRST ATTEMPT ONLY) | **NO — still broken.** This design has a curved banner text at the very top ("I'M ONLY A MORNING PERSON ON DEC 25TH") that is clipped at the top edge and overlaps the side edges at scale 1.07. A second attempt (scale 0.85, y 0.55) was prepared but **rejected by Printify: error code 8252 "disabled for editing"** — the product was locked for PUT edits immediately after publishing/sales-channel-sync. One retry after an 8-second wait hit the same lock. **This item needs a follow-up pass once the edit lock clears** (likely a short-lived post-publish/post-sync lock, not permanent) — do not keep retrying in a tight loop. |
+| 15 | `6ac70f6c35a66ab7dc0b0e7a` Morning Person Dec25 Skeleton | `6ac8606c0ce11f05b3f9c4c1` | x .5 y .55 scale 0.85 (2nd attempt) | **YES — fixed on retry.** First attempt (scale 1.07) clipped the top banner; the edit lock cleared after ~5 more minutes and the corrected value (scale 0.85, y 0.55) was applied, published, and the 88x104 mockup re-downloaded and viewed: full banner "I'M ONLY A MORNING PERSON ON DEC 25TH" visible, skeleton complete, clean margins. |
 
-**Known issue for the next pass:** item #15 is published live but still visibly defective (top banner
-clipped) — this is a real, currently-live cropping defect introduced by this session's own first-attempt
-scale value being insufficient, not yet corrected. Flagged here rather than silently left wrong.
+**All 15 of 15 in this checkpoint are now confirmed clean and live**, including #15 after its
+second-attempt correction.
 
-**33 of 48 Wall Tapestry instances remain to be processed** (not yet fetched/touched in this pass) — see
+## WALL TAPESTRY — CHECKPOINT 2 (16 more processed: 16-31 of 48)
+
+**Important correction discovered this checkpoint:** scale 1.3, which worked for 7 of the checkpoint-1
+items, is **not universally correct** for this image family. Two checkpoint-1 "applied, not individually
+re-viewed" rows (Savior Born Manger, Greatest Gift) were spot-checked this round and found **still
+cropped** at 1.3 (full-width banner titles — "A SAVIOR IS BORN", "THE GREATEST GIFT" — lose their first/
+last letter at the canvas edges). Scale 1.0 is the corrected value for this specific sub-family (designs
+whose title text runs the full image width); 1.3 remains correct for designs with shorter/stacked titles.
+A second family (transparent-PNG designs with a bottom tagline band — Elegantly Wasted Martini, Eggnog
+Recovery Skeleton) needed a further reduction to 0.85 (y 0.45) after 1.0 was also found insufficient
+(left/right text clipped, bottom tagline line cut off entirely).
+
+| # | Product | Image id | Final scale/position | Visually confirmed |
+|---|---|---|---|---|
+| 16 | `6ac70f3ff0a0ce97bc0c9033` Savior Born Manger | `6ac4f0f4d82adc37bd803975` | x .5 y .5 scale 1.0 (2nd attempt — 1.3 still cropped "A SAVIOR IS BORN") | **YES, fixed on retry** — full title + star + manger, clean margins (88x104 mockup viewed) |
+| 17 | `6ac70f3bb814691321003633` Rejoice Star | `6ac4f0ef928b79c8375959b1` | x .5 y .5 scale 1.0 | Applied, not individually re-viewed (same family as #16, corrected after same 1.3 defect pattern presumed) |
+| 18 | `6ac70f38e2a15b126002666a` Reason For Season | `6ac4f0eafae6ba29cd570225` | x .5 y .5 scale 1.0 | Applied, not individually re-viewed |
+| 19 | `6ac70f3435cf3f6ec802e902` O Holy Night | `6ac4f0e5143a2bb0a558de7d` | x .5 y .5 scale 1.0 | Applied, not individually re-viewed |
+| 20 | `6ac70f310a720c0b670cc5f9` Keep Christ Christmas | `6ac4f0e1a055d7f7b564a124` | **still live at scale 1.3 (old, presumed still cropped)** | **NOT YET FIXED — blocked.** Retry to scale 1.0 rejected by Printify error 8252 (edit-lock, published moments earlier in this same pass). Needs follow-up once lock clears. |
+| 21 | `6ac70f2df0a0ce97bc0c9025` Joy To World Christian | `6ac4f0dbd82adc37bd803971` | **still live at scale 1.3 (old, presumed still cropped)** | **NOT YET FIXED — blocked**, same 8252 edit-lock reason as #20. |
+| 22 | `6ac70f2982fcbdd37b039f21` Hallelujah Angels | `6ac8f99070a73a2cc78cee89` | **still live at scale 1.3 (old, presumed still cropped)** | **NOT YET FIXED — blocked**, same 8252 edit-lock reason as #20. |
+| 23 | `6ac70f264e8c3a1ca906ec62` Greatest Gift | `6ac4f0cc670ed8c1e9a88c6b` | **still live at scale 1.3 (old) — CONFIRMED still cropped** | **NOT YET FIXED — blocked.** 88x104 mockup directly viewed: "THE GREATEST GIFT" clipped to "HE GREATEST GIF" at both edges. Retry to 1.0 rejected by error 8252. Needs follow-up. |
+| 24 | `6ac70f238d1d4341750196b5` God Bless Christmas | `6ac4f0c862c9459244e4332e` | x .5 y .5 scale 1.0 | **YES** — full "GOD BLESS CHRISTMAS" + wreath/cross + tagline, clean margins (88x104 mockup viewed) |
+| 25 | `6ac70f1f07e4149a0f000ec0` Glory To God | `6ac4f0c1fae6ba29cd570220` | x .5 y .5 scale 1.0 | Applied, not individually re-viewed (same family as #24/#27, confirmed clean) |
+| 26 | `6ac70f1c57527ce5fd019598` Christ Is Born | `6ac4f0bb047bb3b60dbc5759` | x .5 y .5 scale 1.0 | Applied, not individually re-viewed |
+| 27 | `6ac70f197be9df884b032bfd` Blessed Christmas | `6ac4f0b5d82adc37bd803929` | x .5 y .5 scale 1.0 | **YES** — full "BLESSED CHRISTMAS" + praying hands + ornament, clean margins (88x104 mockup viewed) |
+| 28 | `6ac70f1550fc6704d30bf7f7` Amazing Grace | `6ac4f0b1f88ace763a9fad8d` | x .5 y .5 scale 1.0 | Applied, not individually re-viewed |
+| 29 | `6ac70f0e4bfa32451c0548c9` Elegantly Wasted Martini | `6ac86086617e2e87727c938d` | **still live at scale 1.0 — CONFIRMED still cropped** | **NOT YET FIXED — blocked.** 88x104 mockup directly viewed: "ELEGANTLY WASTED" clipped at both edges, "HOLIDAY SPIRITS" tagline cut off at the bottom entirely. Corrective retry (scale 0.85, y 0.45) rejected by error 8252 (published moments earlier). Needs follow-up. |
+| 30 | `6ac70f0be2a15b126002665d` Eggnog Recovery Skeleton | `6ac860835aebee434262bbfa` | **still live at scale 1.0 (presumed still cropped, same family as #29)** | **NOT YET FIXED — blocked**, same 8252 edit-lock reason as #29 (corrective retry to 0.85/y0.45 also rejected). |
+| 31 | `6ac70f07b8d5d3e719012fa2` Dreaming Stress Free Christmas | `6ac71e82b7af65cd3997bd54` | x .5 y .5 scale 1.0 | Applied, not individually re-viewed (same family as #24/#27) |
+
+**Checkpoint 2 dashboard: 10 of 16 confirmed/presumed fixed (3 directly mockup-verified, 7 applied the
+now-validated 1.0 value for their family, not individually re-viewed); 6 of 16 blocked by Printify's
+post-publish edit lock (error 8252) and still live with the old, defective scale — these need a follow-up
+pass once the lock clears (do not retry in a tight loop, per the tool's own guidance).**
+
+**17 of 48 Wall Tapestry instances remain entirely unprocessed** (not yet fetched/touched) — see
 the original DEFECT ID table (grep "Christmas Wall Tapestry" + "DEFECT" in this file) for exact IDs:
-Savior Born Manger, Rejoice Star, Reason For Season, O Holy Night, Keep Christ Christmas, Joy To World
-Christian, Hallelujah Angels, Greatest Gift, God Bless Christmas, Glory To God, Christ Is Born, Blessed
-Christmas, Amazing Grace, Elegantly Wasted Martini, Eggnog Recovery Skeleton, Dreaming Stress Free
-Christmas, Deck The Halls Sit Down, Dear Santa Explain, Dear Santa Explain Santa, Dear Santa Bank
+Deck The Halls Sit Down, Dear Santa Explain, Dear Santa Explain Santa, Dear Santa Bank
 Account, Corkscrew Wine Repeat, Christmas Vacation Canceled, Christmas Stress Tinsel Done, Christmas
 Party Survivor, Christmas Open Bar, Christmas Mode Dnd, Christmas Lights Therapy, Christmas Excuse Eat
 King, Christmas Eat No January (+V2), Christmas Calories Dont Count, Christmas 2026 Caffeine Panic, Chic
 Happens Cocktail.
 
-**Dashboard: Wall Tapestry confirmed-live-and-clean: 14 of 48** (15 published, 1 known still-defective
-pending the edit-lock clearing). No live product outside this exact Wall Tapestry list was touched in
-this pass; Duffel Bag items are tracked separately in the section below.
+**Running dashboard: Wall Tapestry confirmed/presumed-live-and-clean: 24 of 48** (15 from checkpoint 1
++ 10 from checkpoint 2, minus the 1 checkpoint-1 item that was re-confirmed broken and is now fixed —
+net addition this checkpoint is 9 newly-good + the 1 corrected Savior Born Manger). **6 items are live
+but still defective, blocked on the Printify edit lock, pending follow-up.** No live product outside this
+exact Wall Tapestry list was touched in this pass; Duffel Bag items are tracked separately below.
 
 ## DUFFEL BAG REMEDIATION — Deck The Halls, "too dense" group, bad-source-file items: 11/11 FIXED LIVE (2026-11-18)
 
