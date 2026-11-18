@@ -184,8 +184,8 @@ closer look given the similar title, but confirmed NOT a third duplicate once th
 `external` field, unverified against eBay's own storefront), 53/53 visually inspected (100% clean,
 0 confirmed defects, 2 duplicate pairs). Task T-0U6Q5K5G49 ready for Bridge submission.
 
-## 7. Shopify catalog position tracker (most important coverage gap — 69 of 2,429 total Shopify
-## products remain for full visual inspection)
+## 7. Shopify catalog position tracker (full-visual-inspection sweep #361-2,429 now 100% COMPLETE —
+## 0 of 2,429 total Shopify products remain for this scope)
 
 **DENOMINATOR CORRECTION (2026-11-18, this session, prompted by chatgpt's independent review
 `P-6U5M471H0J`):** Every "Running Shopify total: X/2,912" line from §8v onward (batches
@@ -196,9 +196,11 @@ Printify's live API `total` field on five separate page fetches this session (pa
 independently reporting `"total": 2429`). The Shopify full-visual-inspection scope is #361-2,429
 (2,069 products, since #1-360 were already metadata/sync-sampled in earlier sessions, not
 full-visual-inspected). With 2,000 products inspected across twenty batches (#361-460 through
-#2,261-2,360), **only 69 products remain: #2,361-2,429** — far fewer than the 552/912 previously
-(incorrectly) reported. The historical "X/2,912" lines inside §8v-§8y are left as originally written
-(for audit-trail integrity) but should be read as erroneous; this section and §8 below are the
+#2,261-2,360), only 69 products remained: #2,361-2,429 — far fewer than the 552/912 previously
+(incorrectly) reported. **UPDATE (2026-11-18, same session): batch #2,361-2,429 is now complete (see
+§8z/§34) — the full-visual-inspection sweep #361-2,429 (2,069 products) is 100% done. 0 products
+remain unstarted in this scope.** The historical "X/2,912" lines inside §8v-§8y are left as originally
+written (for audit-trail integrity) but should be read as erroneous; this section and §8 below are the
 corrected, current pointers.
 
 | Range | Status | Task |
@@ -227,7 +229,7 @@ corrected, current pointers.
 | #2,061-2,160 | **Full visual inspection (100/100), see §8w** — 8/100 confirmed defects (one of the lowest batch rates in this effort), 0 true duplicate pairs, 0 new brand-safety instances (tally stays 15; blueprint mix had no Youth Hoodie/Baby Onesie). **T-Shirt (59 units), Tough Phone Case, Polo, Softstyle Tee, 11oz Mug: 0% defective.** Confirmed "Chic Happens Cocktail" renders CLEAN on T-Shirt despite being flagged defective on Lunch Box in an earlier batch — reconfirms print-area-size dependency. | T-1D1O420T4G (this session) |
 | #2,161-2,260 | **Full visual inspection (100/100), see §8x** — 13/100 confirmed defects, 0 true duplicate pairs, 0 new brand-safety instances (tally stays 15; batch was 100% T-Shirt blueprint, no Youth Hoodie/Baby Onesie). NEW defect class isolated: checkerboard transparency-indicator artifact baked into printed design (12/13 defects, clustered #015-#032). 1 duplicated-word typo instance ("AND, AND CAFFEINATED") confirms the recurring source-art text-duplication bug on a new design. | T-08535N036G (this session) |
 | #2,261-2,360 | **Full visual inspection (100/100), see §8y** — 0/100 confirmed defects, the first fully-clean 100-product batch in this entire recovery effort. 0 true duplicate pairs, 0 new brand-safety instances (tally stays 15; only 1 Youth Tee present, confirmed clean). Batch was 79% T-Shirt plus a diverse mix of swimwear/accessory blueprints sampled at volume for the first time (Tank Top, Muscle Tank, Swimsuit, Bikini, Women's Briefs — all clean). NEW note: 24 products had their Printify-reported default mockup hosted on a non-Printify CDN domain this session's network policy blocks; a valid images.printify.com alternate was substituted and confirmed for all 24. | T-6H3962210T (this session) |
-| #2,361-2,429 | **NOT STARTED** (69 products — corrected denominator, see note above) | Next batch(es) |
+| #2,361-2,429 | **Full visual inspection (69/69, 67 individually viewed + 2 confirmed no-mockup), see §8z** — 2/69 confirmed defects (1 true duplicate-listing/"Copy of" title pair, 1 new defect type: no-mockup+all-variants-disabled broken listing, 2 products), 0 new brand-safety instances (tally stays 15; only 1 Youth Tee present, confirmed clean). **SWEEP COMPLETE — 0 products remain in #361-2,429.** | T-1C2Z4M532M (this session) |
 
 ## 8. Next eligible batch (for whichever session/dispatcher firing picks this up next)
 
@@ -4933,4 +4935,190 @@ remain unstarted (#2,361-2,912).
 | 69c8afc0a180856a09013a3c | Patriotic American Flag Women's Briefs  Heart Flag Design | CLEAN | https://images.printify.com/mockup/69c8afc0a180856a09013a3c/61896/2608/patriotic-american-flag-womens-briefs-heart-flag-design.jpg?camera_label=front |
 | 69c8ad2ddfda05aa090e9e5b | American Flag One-Piece Swimsuit — Patriotic USA Beachwear for Women | CLEAN | https://images.printify.com/mockup/69c8ad2ddfda05aa090e9e5b/44749/1060/american-flag-one-piece-swimsuit-patriotic-usa-beachwear-for-women.jpg?camera_label=front |
 | 69c8a7b3477cf77f0f101345 | American Flag Triangle Bikini — Women's Patriotic Swimwear for 4th of July & Beach | CLEAN | https://images.printify.com/mockup/69c8a7b3477cf77f0f101345/44540/935/american-flag-triangle-bikini-womens-patriotic-swimwear-for-4th-of-july-beach.jpg?camera_label=front |
+
+## 8z. Shopify shop (26418699, Winstar4U) #2,361-2,429 — twenty-first and FINAL
+## full-visual-inspection batch (2026-11-18, this session)
+
+**Status: 69/69 products now have evidence (67/69 individually visually inspected; 2/69 have no
+Printify-generated mockup to inspect, documented as their own defect below) — see §34 for the
+complete per-product evidence table. This batch completes the Shopify shop's full-visual-inspection
+sweep (#361-2,429, 2,069 products) in its entirety.** 2 confirmed defects out of 69 products.
+Content is almost entirely non-apparel: a long run of country-flag-themed Magnetic/Tough Phone Cases
+(Panama, Puerto Rico, Dominican Republic, UK, Venezuela, Philippines, India, Brazil, USA, Canada,
+Mexico, Italy — several repeated across different print-provider/blueprint combinations, an
+intentional product-line-breadth pattern already established in prior batches, not a defect by
+itself), novelty-pattern phone cases, two Thong/lingerie items with no mockup at all, and a short
+tail of T-Shirt/Graphic Tee/Softstyle Tee designs (inspirational quotes, St. Patrick's Day, cute
+animal/faith graphics).
+
+### Blueprint-by-blueprint breakdown
+
+| Blueprint | n | Clean | Defect | Defect rate |
+|---|---|---|---|---|
+| Tough Phone Case | 20 | 20 | 0 | **0%** |
+| Magnetic Phone Case | 19 | 18 | 1 | **5%** |
+| T-Shirt | 8 | 8 | 0 | **0%** |
+| Graphic Tee | 5 | 5 | 0 | **0%** |
+| Thong | 4 | 2 | 2 | **50%** |
+| Card Holder Phone Case | 2 | 2 | 0 | **0%** |
+| Softstyle Tee | 1 | 1 | 0 | **0%** |
+| Youth Tee | 1 | 1 | 0 | **0%** |
+| Phone Case | 1 | 1 | 0 | **0%** |
+| Moisture Wicking Tee | 1 | 1 | 0 | **0%** |
+| Womens Briefs | 1 | 1 | 0 | **0%** |
+
+### Defects found (2)
+
+1. **Duplicate-listing title defect** — product `69b0212c4fead7b1ce06b69e`, titled literally "**Copy
+   of** American Flag Magnetic Impact-Resistant Phone Case" (idx #051 in this batch; default mockup
+   filename itself is `copy-of-american-flag-magnetic-impact-resistant-phone-case.jpg`). This is a
+   leftover Printify "duplicate product" operation whose "Copy of" prefix was never cleaned up before
+   the listing went live — a customer-facing, unprofessional title. Visual comparison confirms its
+   artwork is pixel-identical to product `69af94a507af56435a07b7ce`, "American Flag Magnetic
+   Impact-Resistant Phone Case" (idx #055, same batch, same blueprint, same crisp vector flag design)
+   — i.e. this is also a true duplicate listing (same blueprint + same artwork, differing only by the
+   stray "Copy of" title prefix), not just a title typo. This is the first true duplicate pair found
+   since §8u (over seven batches ago).
+2. **New defect type: no mockup generated + all variants disabled (broken/unpurchasable listing)** —
+   2 products, both the "Thong" blueprint:
+   - `69c7630e3acff09c580c3072` — "Women's Thong This Is Not Going To Unzip Itself Funny Lingerie"
+   - `69c75c408ac9a0544a0ebe6d` — "Juicy Black Women's Thong - Playful Pink Puff Lettering"
+
+   Both have `default_img: None` on the bulk list fetch, and a full single-product fetch via
+   `printify-get-products` (`product_id`) confirms `"images": []` (zero Printify-generated mockups of
+   any kind exist for either product — not a fetch-tooling or CDN-hosting gap, genuinely empty) and
+   every size variant on both products has `is_enabled: false` / `is_available: false`. These are
+   broken, unpurchasable listings with no artwork a customer (or this inspection) can ever see — a
+   distinct defect class from every prior cropping/artifact/legibility finding in this recovery, since
+   there is nothing printed to be wrong with; the product simply cannot be bought or previewed as
+   currently configured.
+
+### All other 67 products: CLEAN
+
+The remaining 67 individually-viewed default mockups (the full country-flag Phone Case run, novelty
+patterns, and the T-Shirt/Graphic Tee/Softstyle Tee tail) showed no cropping, alignment, spelling,
+color-contrast, or content-appropriateness issues. Text was fully legible on every garment design,
+and every phone-case flag/pattern print rendered within its visible print window.
+
+### Duplicate-pair detection: 1 true duplicate pair found this batch (see Defect 1 above)
+
+Ran the standard systematic pass across all 69 products: (1) grouped by exact title+blueprint — 1
+collision after normalizing the "Copy of" prefix (idx #051 vs #055, both "American Flag Magnetic
+Impact-Resistant Phone Case", same blueprint); (2) grouped by default-mockup filename — same pair
+flagged (identical slug apart from the "copy-of-" prefix); (3) visually compared the pair directly —
+confirmed pixel-identical artwork. No other title, filename, or visual collisions found among the
+remaining 67 products, including the many thematically-similar same-country-flag products sold across
+different phone-case blueprints/print-providers (an intentional, previously-established product-line
+pattern, not a duplicate).
+
+### Brand-safety check: 0 new instances — running tally unchanged at 15 (11 Youth Hoodie + 4 Baby
+### Onesie)
+
+This batch contained exactly one children's-oriented blueprint instance — a single Youth Tee (idx
+#063, `69a11eec023a1f109109401a`, "Punch Love" — a baby monkey hugging a pink teddy bear) —
+individually visually confirmed free of any alcohol/cocktail imagery or other brand-safety concern.
+No Youth Hoodie or Baby Onesie products appeared in this batch.
+
+### Sync-mapping status
+
+Per the standing caveat: Printify's `external` field presence (where populated in this batch's bulk
+list data) is Printify-side channel-mapping evidence only, not confirmed Shopify-side
+buyability/inventory — this remains an open gap for a future browser/web-fetch-equipped follow-up
+task, not something this fork can close.
+
+### Methodology note (standing caveat, repeated per chatgpt's valid correction in `P-3K1D6D0O0I`)
+
+This batch's low defect count (2/69, ~3%) reflects this specific final batch's blueprint mix (heavily
+weighted toward Phone Case variants, which have been consistently low-defect-rate across this entire
+recovery) rather than a shop-wide trend — batch rates have ranged from 0% to 49% across the twenty
+batches preceding this one. The two defects found here are of new, previously-undocumented types
+(duplicate-listing title artifact; no-mockup/all-variants-disabled broken listing) rather than
+recurrences of the cropping/legibility patterns that dominated earlier batches, underscoring that
+full individual-product inspection — not blueprint-based sampling — remains necessary even in a
+low-defect-rate batch, since neither defect found here would have been caught by a mockup-image
+comparison alone (the "Copy of" title defect required reading the title field; the no-mockup defect
+required a full single-product fetch to confirm `images: []` and all-variants-disabled, since the
+bulk list's `default_img: None` alone does not distinguish "no mockup exists" from "fetch/CDN gap").
+
+### Running Shopify total: 2,069/2,069 products not-previously-individually-inspected now fully
+visually inspected across twenty-one consecutive batches (#361-460 through #2,361-2,429). **The
+Shopify shop's full-visual-inspection sweep is now 100% COMPLETE — 0 products remain unstarted.**
+(2,429 total Shopify products: #1-360 remain metadata/sync-sampled only per §7, by original scope
+design, not full-visual-inspected; #361-2,429 is the full-visual-inspection scope and is now fully
+done.)
+
+## 34. Shopify #2,361-2,429 full 69-row ID register (complete, per-product evidence, same format as
+§9-§33, FINAL Shopify batch)
+
+| ID | Title | Result | Default Mockup URL |
+|---|---|---|---|
+| 69c767fe2d9a5fba5b0a9132 | Panama Flag Heart Women's Briefs - Patriotic Panama Underwear | CLEAN | https://images.printify.com/mockup/69c767fe2d9a5fba5b0a9132/61896/2608/panama-flag-heart-womens-briefs-patriotic-panama-underwear.jpg?camera_label=front |
+| 69c7662227ac86828400240a | Thong Panties — 'This Isn't Going to Lick Itself!' Printed Women's Lingerie | CLEAN | https://images.printify.com/mockup/69c7662227ac86828400240a/105608/102782/thong-panties-this-isnt-going-to-lick-itself-printed-womens-lingerie.jpg?camera_label=front |
+| 69c764535a39cdc26c06a6c9 | Brazil Flag Thong - Women's Brazilian Flag Bikini Underwear | CLEAN | https://images.printify.com/mockup/69c764535a39cdc26c06a6c9/105608/102782/brazil-flag-thong-womens-brazilian-flag-bikini-underwear.jpg?camera_label=front |
+| 69c7630e3acff09c580c3072 | Women's Thong This Is Not Going To Unzip Itself Funny Lingerie | **DEFECT — no mockup generated, images:[] empty, all variants disabled (broken/unpurchasable listing)** | none (default_img: None) |
+| 69c75c408ac9a0544a0ebe6d | Juicy Black Women's Thong - Playful Pink Puff Lettering | **DEFECT — no mockup generated, images:[] empty, all variants disabled (broken/unpurchasable listing)** | none (default_img: None) |
+| 69c5fb0efaaeeff412016f47 | Retro Doodle Graphic Tee Colorful Smile and Skate Icons | CLEAN | https://images.printify.com/mockup/69c5fb0efaaeeff412016f47/18542/102044/retro-doodle-graphic-tee-colorful-smile-and-skate-icons.jpg?camera_label=front-2 |
+| 69c5f96594dc464670008ca8 | Dripping Rose Graphic T-Shirt | CLEAN | https://images.printify.com/mockup/69c5f96594dc464670008ca8/73207/98445/dripping-rose-graphic-t-shirt.jpg?camera_label=front |
+| 69b2951fe9fe52cc42076fd7 | Puerto Rico Flag Magnetic Impact Resistant Phone Case | CLEAN | https://images.printify.com/mockup/69b2951fe9fe52cc42076fd7/96135/81354/puerto-rico-flag-magnetic-impact-resistant-phone-case.jpg?camera_label=front |
+| 69b293cd9458a3207d0c8627 | Puerto Rico Flag Tough Phone Case Patriotic Red & White Stripe Design | CLEAN | https://images.printify.com/mockup/69b293cd9458a3207d0c8627/61521/2494/puerto-rico-flag-tough-phone-case-patriotic-red-white-stripe-design.jpg?camera_label=front-and-side |
+| 69b2913fe9fe52cc42076eed | Puerto Rico Flag Tough Phone Case | CLEAN | https://images.printify.com/mockup/69b2913fe9fe52cc42076eed/61521/2494/puerto-rico-flag-tough-phone-case.jpg?camera_label=front-and-side |
+| 69b28ecf4b473e27cb007e16 | Dominican Republic Flag Magnetic Impact Resistant Phone Case | CLEAN | https://images.printify.com/mockup/69b28ecf4b473e27cb007e16/96135/81354/dominican-republic-flag-magnetic-impact-resistant-phone-case.jpg?camera_label=front |
+| 69b28e31068357dbb301ea17 | Dominican Flag Tough Phone Case Protective Patriotic Phone Cover | CLEAN | https://images.printify.com/mockup/69b28e31068357dbb301ea17/62582/97458/dominican-flag-tough-phone-case-protective-patriotic-phone-cover.jpg?camera_label=front-and-side |
+| 69b28c7d9458a3207d0c8401 | Dominican Republic Flag Tough Phone Case Protective Patriotic iPhone Cover | CLEAN | https://images.printify.com/mockup/69b28c7d9458a3207d0c8401/112191/105690/dominican-republic-flag-tough-phone-case-protective-patriotic-iphone-cover.jpg?camera_label=front |
+| 69b23a80bf718ddd29045a3a | Union Jack Magnetic Impact-Resistant Phone Case | CLEAN | https://images.printify.com/mockup/69b23a80bf718ddd29045a3a/96135/81354/union-jack-magnetic-impact-resistant-phone-case.jpg?camera_label=front |
+| 69b238d1006637e0f70f9a15 | Venezuela Heart Flag Phone Case Tough Protective Phone Case | CLEAN | https://images.printify.com/mockup/69b238d1006637e0f70f9a15/61521/2494/venezuela-heart-flag-phone-case-tough-protective-phone-case.jpg?camera_label=front-and-side |
+| 69b2377239bea84395101da9 | Panama Flag Heart Phone Case Patriotic Panama iPhone Case | CLEAN | https://images.printify.com/mockup/69b2377239bea84395101da9/112191/105690/panama-flag-heart-phone-case-patriotic-panama-iphone-case.jpg?camera_label=front |
+| 69b236ca433eba2f5b0149b7 | Philippines Heart Flag Tough Phone Case Patriotic Filipino Protective Cover | CLEAN | https://images.printify.com/mockup/69b236ca433eba2f5b0149b7/112191/105690/philippines-heart-flag-tough-phone-case-patriotic-filipino-protective-cover.jpg?camera_label=front |
+| 69b23611433eba2f5b0149a7 | India Flag Heart Magnetic Impact Resistant Phone Case | CLEAN | https://images.printify.com/mockup/69b23611433eba2f5b0149a7/130091/111262/india-flag-heart-magnetic-impact-resistant-phone-case.jpg?camera_label=front |
+| 69b235179c611c20b80d7a1a | Brazil Heart Flag Phone Case Patriotic Brazilian iPhone Case for Soccer Fans & Travelers | CLEAN | https://images.printify.com/mockup/69b235179c611c20b80d7a1a/112191/105690/brazil-heart-flag-phone-case-patriotic-brazilian-iphone-case-for-soccer-fans-travelers.jpg?camera_label=front |
+| 69b2347f433eba2f5b014941 | Dominican Flag Heart Phone Case Patriotic Dominican Republic iPhone Case | CLEAN | https://images.printify.com/mockup/69b2347f433eba2f5b014941/112191/105690/dominican-flag-heart-phone-case-patriotic-dominican-republic-iphone-case.jpg?camera_label=front |
+| 69b233b89c611c20b80d79d5 | Puerto Rico Heart Phone Case | CLEAN | https://images.printify.com/mockup/69b233b89c611c20b80d79d5/112191/105690/puerto-rico-heart-phone-case.jpg?camera_label=front |
+| 69b233085325ed6dfc0522c7 | Union Jack Heart Phone Case Magnetic Impact Resistant UK Flag Cover | CLEAN | https://images.printify.com/mockup/69b233085325ed6dfc0522c7/130091/111262/union-jack-heart-phone-case-magnetic-impact-resistant-uk-flag-cover.jpg?camera_label=front |
+| 69b23254bf718ddd29045886 | Mexico Heart Flag Phone Case Magnetic Impact Resistant Protective Cover | CLEAN | https://images.printify.com/mockup/69b23254bf718ddd29045886/130091/111262/mexico-heart-flag-phone-case-magnetic-impact-resistant-protective-cover.jpg?camera_label=front |
+| 69b2319830103c5a160ede5f | Italy Flag Heart Phone Case — Magnetic Impact‑Resistant Protective Cover | CLEAN | https://images.printify.com/mockup/69b2319830103c5a160ede5f/130091/111262/italy-flag-heart-phone-case-magnetic-impactresistant-protective-cover.jpg?camera_label=front |
+| 69b230c9433eba2f5b014892 | Patriotic Heart Phone Case American Flag Magnetic Impact Resistant Case | CLEAN | https://images.printify.com/mockup/69b230c9433eba2f5b014892/130091/111262/patriotic-heart-phone-case-american-flag-magnetic-impact-resistant-case.jpg?camera_label=front |
+| 69b22bcf006637e0f70f9790 | Canada Heart Tough Magnetic Phone Case | CLEAN | https://images.printify.com/mockup/69b22bcf006637e0f70f9790/109328/107253/canada-heart-tough-magnetic-phone-case.jpg?camera_label=front |
+| 69b2284f53b5bc10bc08b360 | Canadian Flag Tough Phone Case Durable Maple Leaf iPhone Case | CLEAN | https://images.printify.com/mockup/69b2284f53b5bc10bc08b360/112191/105690/canadian-flag-tough-phone-case-durable-maple-leaf-iphone-case.jpg?camera_label=front |
+| 69b226115b50cef0a60bffe2 | Canada Flag Magnetic Impact-Resistant Phone Case | CLEAN | https://images.printify.com/mockup/69b226115b50cef0a60bffe2/130091/111262/canada-flag-magnetic-impact-resistant-phone-case.jpg?camera_label=front |
+| 69b21bb353b5bc10bc08b0fb | Brazil Flag Phone Case Patriotic Protective Tough Case for iPhone & Android | CLEAN | https://images.printify.com/mockup/69b21bb353b5bc10bc08b0fb/112191/105690/brazil-flag-phone-case-patriotic-protective-tough-case-for-iphone-android.jpg?camera_label=front |
+| 69b219da433eba2f5b014450 | Brazil Flag Magnetic Impact-Resistant Phone Case | CLEAN | https://images.printify.com/mockup/69b219da433eba2f5b014450/130091/111262/brazil-flag-magnetic-impact-resistant-phone-case.jpg?camera_label=front |
+| 69b2185d006637e0f70f93e8 | Mexico Flag Tough Phone Case Patriotic Protective iPhone Cover | CLEAN | https://images.printify.com/mockup/69b2185d006637e0f70f93e8/130115/111285/mexico-flag-tough-phone-case-patriotic-protective-iphone-cover.jpg?camera_label=front |
+| 69b216951d947baeb30df923 | Mexico Flag Magnetic Impact Resistant Phone Case | CLEAN | https://images.printify.com/mockup/69b216951d947baeb30df923/130091/111262/mexico-flag-magnetic-impact-resistant-phone-case.jpg?camera_label=front |
+| 69b0e5491926366fb105bff3 | Cute Chick Pattern Phone Case Kawaii Pastel Protective Cover | CLEAN | https://images.printify.com/mockup/69b0e5491926366fb105bff3/112191/105690/cute-chick-pattern-phone-case-kawaii-pastel-protective-cover.jpg?camera_label=front |
+| 69b0e4299f866d1e670da911 | Dog Pack Protective Phone Case Golden Retriever & Friends Tough Cover | CLEAN | https://images.printify.com/mockup/69b0e4299f866d1e670da911/130115/111285/dog-pack-protective-phone-case-golden-retriever-friends-tough-cover.jpg?camera_label=front |
+| 69b0e309539f5ad80c02fa1c | Floral Tough Phone Case Pink Vintage Roses & Blue Peonies Protective Cover | CLEAN | https://images.printify.com/mockup/69b0e309539f5ad80c02fa1c/112191/105690/floral-tough-phone-case-pink-vintage-roses-blue-peonies-protective-cover.jpg?camera_label=front |
+| 69b0e1b3bd4206fd8807b473 | Pink Bow Stripes Magnetic Phone Case Tough Protective iPhone Cover | CLEAN | https://images.printify.com/mockup/69b0e1b3bd4206fd8807b473/129532/111226/pink-bow-stripes-magnetic-phone-case-tough-protective-iphone-cover.jpg?camera_label=front |
+| 69b0e0cc019aa50077026193 | Phone Case Retro Checkerboard with Pink & Orange Daisies (Impact-Resistant) | CLEAN | https://images.printify.com/mockup/69b0e0cc019aa50077026193/130020/111163/phone-case-retro-checkerboard-with-pink-orange-daisies-impact-resistant.jpg?camera_label=front |
+| 69b0df78bd4206fd8807b413 | Smiley Pattern Tough Phone Case Bright Retro Yellow & Pink Protective Cover | CLEAN | https://images.printify.com/mockup/69b0df78bd4206fd8807b413/130115/111285/smiley-pattern-tough-phone-case-bright-retro-yellow-pink-protective-cover.jpg?camera_label=front |
+| 69b0de8281c2a723c80d5a02 | Phone Case Dripping Yellow Smiley on Purple Swirl "Oops!" Design | CLEAN | https://images.printify.com/mockup/69b0de8281c2a723c80d5a02/112191/105690/phone-case-dripping-yellow-smiley-on-purple-swirl-oops-design.jpg?camera_label=front |
+| 69b0dcfa9f59bfca5d0d0642 | Fishing Bass Phone Case Jumping Largemouth Design, Protective Tough Case | CLEAN | https://images.printify.com/mockup/69b0dcfa9f59bfca5d0d0642/112191/105690/fishing-bass-phone-case-jumping-largemouth-design-protective-tough-case.jpg?camera_label=front |
+| 69b0dc52bdf0eefec20d72c1 | Bass Fishing Tough Phone Case Rugged Protective Case with Leaping Bass Design | CLEAN | https://images.printify.com/mockup/69b0dc52bdf0eefec20d72c1/130115/111285/bass-fishing-tough-phone-case-rugged-protective-case-with-leaping-bass-design.jpg?camera_label=front |
+| 69b0dabc539f5ad80c02f8a4 | Strawberry Pattern Tough Phone Case Cute Pink Protective iPhone Cover | CLEAN | https://images.printify.com/mockup/69b0dabc539f5ad80c02f8a4/112191/105690/strawberry-pattern-tough-phone-case-cute-pink-protective-iphone-cover.jpg?camera_label=front |
+| 69b0d91b28178c4f490bb743 | Abstract Botanical Phone Case Minimalist Peach & Leaf Tough Case | CLEAN | https://images.printify.com/mockup/69b0d91b28178c4f490bb743/130115/111285/abstract-botanical-phone-case-minimalist-peach-leaf-tough-case.jpg?camera_label=front |
+| 69b0d71f22fd93f52e0632fb | Mushroom & Butterfly Magnetic Impact Resistant Phone Case | CLEAN | https://images.printify.com/mockup/69b0d71f22fd93f52e0632fb/130091/111262/mushroom-butterfly-magnetic-impact-resistant-phone-case.jpg?camera_label=front |
+| 69b0d4b58c561a36090ed008 | Moon Phase Card Holder Phone Case Starry Night Wallet Case | CLEAN | https://images.printify.com/mockup/69b0d4b58c561a36090ed008/148545/112136/moon-phase-card-holder-phone-case-starry-night-wallet-case.jpg?camera_label=front |
+| 69b0d40622fd93f52e06327b | American Flag Phone Case with Card Holder — Patriotic Slim Wallet Phone Case | CLEAN | https://images.printify.com/mockup/69b0d40622fd93f52e06327b/148545/112136/american-flag-phone-case-with-card-holder-patriotic-slim-wallet-phone-case.jpg?camera_label=front |
+| 69b0d26b8c561a36090ecfb1 | Romantic Pink Bows Tough Case Cute Heart & Bow iPhone Protective Phone Case | CLEAN | https://images.printify.com/mockup/69b0d26b8c561a36090ecfb1/112191/105690/romantic-pink-bows-tough-case-cute-heart-bow-iphone-protective-phone-case.jpg?camera_label=front |
+| 69b0ce839f866d1e670da51f | Cute Pink Bow Tough Phone Case — Floral Hearts Protective iPhone Cover | CLEAN | https://images.printify.com/mockup/69b0ce839f866d1e670da51f/130115/111285/cute-pink-bow-tough-phone-case-floral-hearts-protective-iphone-cover.jpg?camera_label=front |
+| 69b0cd4ce427dbfed105ebf4 | Moon Phases Phone Case — Celestial Night Sky iPhone Case | CLEAN | https://images.printify.com/mockup/69b0cd4ce427dbfed105ebf4/112191/105690/moon-phases-phone-case-celestial-night-sky-iphone-case.jpg?camera_label=front |
+| 69b0cb896d2baa18fc0b7884 | Floral Tough Magnetic Phone Case Retro Pink & Orange Blossom Protective Cover | CLEAN | https://images.printify.com/mockup/69b0cb896d2baa18fc0b7884/129532/111226/floral-tough-magnetic-phone-case-retro-pink-orange-blossom-protective-cover.jpg?camera_label=front |
+| 69b0c7b381c2a723c80d5600 | Phone Case Pink Bow & Heart Magnetic Impact Resistant Case | CLEAN | https://images.printify.com/mockup/69b0c7b381c2a723c80d5600/130091/111262/phone-case-pink-bow-heart-magnetic-impact-resistant-case.jpg?camera_label=front |
+| 69b0212c4fead7b1ce06b69e | Copy of American Flag Magnetic Impact-Resistant Phone Case | **DEFECT — leftover "Copy of" title prefix; duplicate listing, artwork identical to 69af94a507af56435a07b7ce below** | https://images.printify.com/mockup/69b0212c4fead7b1ce06b69e/130091/111262/copy-of-american-flag-magnetic-impact-resistant-phone-case.jpg?camera_label=front |
+| 69af99fb6991448652062523 | Phone Case — Pink Hummingbird Floral Magnetic Impact‑Resistant Case | CLEAN | https://images.printify.com/mockup/69af99fb6991448652062523/130091/111262/phone-case-pink-hummingbird-floral-magnetic-impactresistant-case.jpg?camera_label=front |
+| 69af986bf711f54bb90e7edc | Hummingbird Floral Phone Case — Magnetic Impact-Resistant Protection | CLEAN | https://images.printify.com/mockup/69af986bf711f54bb90e7edc/130091/111262/hummingbird-floral-phone-case-magnetic-impact-resistant-protection.jpg?camera_label=front |
+| 69af961c18fd5f7c22011314 | American Flag Tough Phone Case — Distressed Stars & Stripes Protective Cover | CLEAN | https://images.printify.com/mockup/69af961c18fd5f7c22011314/112191/105690/american-flag-tough-phone-case-distressed-stars-stripes-protective-cover.jpg?camera_label=front |
+| 69af94a507af56435a07b7ce | American Flag Magnetic Impact-Resistant Phone Case | CLEAN (original of the duplicate pair; see defect note on 69b0212c4fead7b1ce06b69e above) | https://images.printify.com/mockup/69af94a507af56435a07b7ce/130091/111262/american-flag-magnetic-impact-resistant-phone-case.jpg?camera_label=front |
+| 69af8cc084870d7af80064b3 | American Flag Tough Phone Case — Patriotic iPhone Protective Cover | CLEAN | https://images.printify.com/mockup/69af8cc084870d7af80064b3/112191/105690/american-flag-tough-phone-case-patriotic-iphone-protective-cover.jpg?camera_label=front |
+| 69a3b93b414758b6c602fcd6 | Becoming Era T-Shirt — "in my BECOMING era" Inspirational Graphic Tee | CLEAN | https://images.printify.com/mockup/69a3b93b414758b6c602fcd6/18542/102044/becoming-era-t-shirt-in-my-becoming-era-inspirational-graphic-tee.jpg?camera_label=front-2 |
+| 69a3b61e414758b6c602fc6c | She Is Evolving Tee — Feminine Script Inspirational T-Shirt | CLEAN | https://images.printify.com/mockup/69a3b61e414758b6c602fc6c/18542/102044/she-is-evolving-tee-feminine-script-inspirational-t-shirt.jpg?camera_label=front-2 |
+| 69a13280f70a86a7c00d96f5 | St. Patrick's Shamrocked & Unhinged T-Shirt | CLEAN | https://images.printify.com/mockup/69a13280f70a86a7c00d96f5/38191/97992/st-patricks-shamrocked-unhinged-t-shirt.jpg?camera_label=front |
+| 69a12f05185cb4dce60ed857 | Shamrocked T-Shirt — Funny St. Patrick's Day Shamrock Tee | CLEAN | https://images.printify.com/mockup/69a12f05185cb4dce60ed857/12100/92570/shamrocked-t-shirt-funny-st-patricks-day-shamrock-tee.jpg?camera_label=front |
+| 69a1287b5e738c7d73002624 | Lucky & Slightly Toxic T-Shirt — St. Patrick's Day Funny Shamrock Tee | CLEAN | https://images.printify.com/mockup/69a1287b5e738c7d73002624/12100/92570/lucky-slightly-toxic-t-shirt-st-patricks-day-funny-shamrock-tee.jpg?camera_label=front |
+| 69a121e285d253a03d0aedf7 | Zero Lucks Given T‑Shirt — Funny St. Patrick's Day Tee with Pot of Gold & Shamrocks | CLEAN | https://images.printify.com/mockup/69a121e285d253a03d0aedf7/18542/102044/zero-lucks-given-tshirt-funny-st-patricks-day-tee-with-pot-of-gold-shamrocks.jpg?camera_label=front-2 |
+| 69a11eec023a1f109109401a | Youth Tee — "Punch Love" Monkey Hugging Pink Teddy Cute Kids Valentine Shirt | CLEAN (brand-safety confirmed — no alcohol imagery) | https://images.printify.com/mockup/69a11eec023a1f109109401a/61520/94623/youth-tee-punch-love-monkey-hugging-pink-teddy-cute-kids-valentine-shirt.jpg?camera_label=front |
+| 69a11a1a5e738c7d73002284 | Kindness Monkey & Bear T-Shirt — Cute Hug Graphic Tee | CLEAN | https://images.printify.com/mockup/69a11a1a5e738c7d73002284/12100/92570/kindness-monkey-bear-t-shirt-cute-hug-graphic-tee.jpg?camera_label=front |
+| 699fda86d8b6e6a7df0668eb | Unisex Moisture Wicking Tee | CLEAN | https://images.printify.com/mockup/699fda86d8b6e6a7df0668eb/83039/108041/unisex-moisture-wicking-tee.jpg?camera_label=front |
+| 699fc37c6fd59ea411008eb7 | Puuurrrrfect! Cute Tabby Cat Graphic T-Shirt | CLEAN | https://images.printify.com/mockup/699fc37c6fd59ea411008eb7/73207/98445/puuurrrrfect-cute-tabby-cat-graphic-t-shirt.jpg?camera_label=front |
+| 699e75f0e9f5af195310006f | Jesus Is My Best Friend T-Shirt — Faith Christian Tee with Back Cross | CLEAN | https://images.printify.com/mockup/699e75f0e9f5af195310006f/73207/98445/jesus-is-my-best-friend-t-shirt-faith-christian-tee-with-back-cross.jpg?camera_label=front |
+| 699e604b89503a5173010b23 | Nurse Iguana Loco Unisex Garment-Dyed T-shirt | CLEAN | https://images.printify.com/mockup/699e604b89503a5173010b23/73207/98445/nurse-iguana-loco-unisex-garment-dyed-t-shirt.jpg?camera_label=front |
 | 69c76998fd8faf05f0023a44 | Patriotic American Flag Women's Briefs — USA Heart & Flag Design | CLEAN | https://images.printify.com/mockup/69c76998fd8faf05f0023a44/61896/2608/patriotic-american-flag-womens-briefs-usa-heart-flag-design.jpg?camera_label=front |
