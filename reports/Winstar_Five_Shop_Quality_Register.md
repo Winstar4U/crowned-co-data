@@ -683,9 +683,41 @@ published.
   Printify's catalog for this print provider. None of these decisions can be made unilaterally per the
   owner's standing directive against consequential changes without approval.
 
-**Dashboard update:** Duffel Bag staged repairs completed: still **0 of 45** — the 2 test drafts above
-are diagnostic only, not repairs. This is reported as a genuine finding (the method doesn't generalize
-to this blueprint the way it did for Wall Tapestry), not a stall.
+### Duffel Bag — UPDATE: a second, fixable subtype found (Repair D1 — CONFIRMED FIX)
+
+After filing the decision above, one more live Duffel Bag defect was checked to see whether ALL
+instances share the unfixable handle-obstruction mechanism, or whether some are closer to Wall
+Tapestry's simpler edge-cropping pattern. They are not uniform — there are (at least) two distinct
+subtypes:
+
+- **Subtype A (handle obstruction, e.g. "Deck The Halls"):** NOT fixable via position/scale alone, per
+  the investigation above and decision D-5B395E153M.
+- **Subtype B (pure edge-text-cropping, e.g. "Christmas Wishes Sta" — single wide title line, no
+  3-line stack reaching the bottom curve):** IS fixable the same way Wall Tapestry was, by reducing
+  scale (and a small position nudge to also clear the handle on the top text line).
+
+**Repair D1 — CONFIRMED FIX: `6ac7124246dd1e896e04e124` "Christmas Wishes Sta Christmas Duffel Bag"**
+(shop 26418699, blueprint 372, print provider 99, image id `6ac70ef3d9f383b0aa90a5a1`, 2048x1365).
+Original: scale 0.72, y 0.32 — "CHRISTMAS" clipped at both left and right edges (first/last letters
+missing). Test 1 (scale 0.5, y unchanged) fixed the edge-cropping but the handle then crossed directly
+over the now-smaller "CHRISTMAS" text. Test 2 (scale 0.5, y 0.32→0.4 — a small downward nudge) cleared
+the handle as well: the final mockup shows the complete "CHRISTMAS WISHES" title fully legible with no
+edge-cropping and no handle obstruction. The star/skyline graphic beneath the title is now mostly
+cropped by the bag's bottom curve, which is a trade-off, but the originally-flagged defect (title text
+clipped at both edges) is fully resolved and the result is a clean, legible, sellable-looking design —
+a clear net improvement over the original.
+**Final 2-variant staged draft (Large + Small): `6afd9deb8dbf829fdc0076ca`.**
+
+**Revised Duffel Bag outlook:** the group is NOT uniformly stuck. An unknown fraction of the 45
+instances are likely Subtype B (fixable) and some are Subtype A (not fixable without new art per the
+filed decision). Each instance still needs individual diagnosis (check whether the live mockup's
+defect is "text clipped at edges" — likely Subtype B, worth attempting — versus "obscured by carrying
+handles" with multi-line stacked text reaching toward the bottom curve — likely Subtype A, probably not
+fixable this way) rather than a blanket formula, but Subtype B items can now use a validated starting
+point (scale ≈0.5, y ≈0.4, vs. the original ≈0.72/0.32) as a first attempt.
+
+**Dashboard update:** Duffel Bag staged repairs completed: **1 of 45** (Subtype B, fully confirmed
+fixed and repair-ready). The 2 earlier Subtype-A test drafts remain diagnostic-only, not repairs.
 
 ## 0. Shop directory
 
