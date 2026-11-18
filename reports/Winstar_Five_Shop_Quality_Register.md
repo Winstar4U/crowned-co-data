@@ -9,6 +9,140 @@ priority. Continuous, nonoverlapping batches across all five shops until every p
 No live writes (publish/unpublish/price/inventory/account changes) without explicit separate owner
 approval. This file tracks real, evidence-backed findings only — no estimates presented as fact.
 
+## EXECUTIVE SUMMARY & CORRECTION-READY APPROVAL PACKET (compiled 2026-11-18, after full five-shop
+## visual-inspection completion)
+
+### Headline
+
+**All five shops are now 100% visually inspected.** eBay 53/53, Amazon 62/62, TikTok 71/71, Etsy
+297/297, Shopify 2,069/2,069 of the in-scope full-visual-inspection range (#361-2,429; #1-360 remain
+metadata/sync-sampled only per the original scope design, not full-visual-inspected). Every mockup
+image across all five shops has been individually downloaded and viewed — none of the findings below
+are inferred from metadata alone. **Zero live changes have been made anywhere in any shop**: no
+publish/unpublish, no price or inventory change, no deletion, no account modification. This section is
+the action-ready packet for owner decisions; everything below is a proposal awaiting sign-off, not
+something already done. Detailed per-batch narratives and full per-product ID tables are in the
+sections that follow (§0-§34) — this summary gives pointers rather than repeating them.
+
+### RED — customer-facing defects requiring correction (AWAITING OWNER APPROVAL — NOT EXECUTED)
+
+**1. Alcohol/cocktail imagery mapped onto children's and infant apparel (most serious finding).**
+15 confirmed instances of adult-humor cocktail/alcohol artwork (martini glasses, wine bottles, a
+skeleton holding a drink) printed on **Youth Hoodie (11 instances)** and **Baby Onesie (4 instances)**
+— both marketed by Printify as children's/infant garments. Representative IDs: Youth Hoodie
+`6ac711cec077332834034d2e` ("Christmas Open Bar"), `6ac711ab336f8358660114d1` ("Chic Happens
+Cocktail"), `6ac7118fc077332834034cfd` ("Naughty List Skeleton V2" — skeleton holding a martini);
+Baby Onesie `6ac7114807e4149a0f000fef` ("Naughty List Skeleton V2," confirmed on infant apparel too).
+Full lists are in §8n/§8o (first 6 instances) and §8p/§8q/§8r/§8s (the remaining 9). This pattern
+recurred across 6 consecutive Shopify batches, confirming the entire adult-humor design family is
+being auto-mapped onto every blueprint — including children's and infant items — with no
+content-appropriateness filter. **Proposed remedy:** remove or re-map these 15 SKUs off the
+Youth Hoodie/Baby Onesie blueprints (keep them on adult blueprints — Shot Glass, Wine Tumbler, Winter
+Scarf, Shower Curtain — where the same designs are not a concern). This is the single highest-priority
+item in this packet given brand-safety/liability exposure.
+
+**2. Other content-mismatch / IP findings.**
+- **TEXACO trademark exposure** — Etsy product `6a53ee979296b919210641d5` ("Matte Canvas, Framed")
+  prominently features a TEXACO-branded gas station storefront and pump signage in a vintage-style
+  photo/illustration. Recommend owner/counsel review of usage rights before continued sale (§8d).
+- **Etsy "gift set of 3" sells 1 design** — `6ad42970f1aeec4b590f6d00` ("Funny Ornament Gift Set of 3")
+  advertises Raccoon + Cat + Wine O'Clock designs but Printify's record has only the raccoon artwork
+  across all 4 shape variants. Proposed remedy: either upload the 2 missing designs to match the
+  listing, or correct the listing description to describe what is actually sold (§8c).
+- **2 broken/unpurchasable Shopify listings** — Thong-blueprint products `69c7630e3acff09c580c3072`
+  and `69c75c408ac9a0544a0ebe6d` have zero Printify-generated mockups (`images: []`) and every variant
+  disabled. Nothing is wrong with the artwork because there is no artwork — these cannot currently be
+  bought or previewed. Proposed remedy: fix the product configuration (re-enable variants, regenerate
+  mockups) or remove the listing (§8z).
+
+**3. True duplicate-listing pairs (same artwork, same product template, sold as two separate
+listings) — by shop:**
+- **Amazon: 11 pairs, 7 of which show BOTH members with a populated ASIN** (§8a) — the most severe
+  duplicate-listing finding in this recovery, since both ASINs may be simultaneously buyable, splitting
+  reviews/sales-rank/search visibility. Example: `6ae414e52e006c787106bd99` (ASIN B0HPS4FTHJ) /
+  `6ae2af0ed0738075d402e2b2` (ASIN B0HPMTHR4C), both "Dog Mom Christmas." Proposed remedy: retire or
+  merge one ASIN per both-live pair — see the YELLOW section below for the verification gate on this.
+- **Etsy: 17 duplicate clusters** (32 of 97 products in one batch alone) — the largest count of any
+  shop (§8d: 2 pairs incl. the Puerto Rico Flag Phone Case pair `6a493c49e2256aa80f0b82c5`/
+  `6a493c41e2256aa80f0b82c2`; §8e: 15 clusters incl. a 4-way American Flag Magnetic Phone Case cluster).
+  Proposed remedy: retire the redundant listing(s) per cluster, keeping the better-performing one.
+- **eBay: 2 pairs**, both already sync-gapped (not live) — lower urgency, catalog hygiene only (§5a).
+- **TikTok: 0 pairs** — cleanest shop in the recovery.
+- **Shopify: 7 confirmed pairs** — 2 "Naughty List Skeleton" V1/V2 pairs (Backpack §8f, Laptop Sleeve
+  §8g — same character art re-exported under a different filename), 1 "Christmas Eat No January"
+  pair recurring across Wine Tumbler and Winter Scarf (§8p), 1 "Copy of American Flag Magnetic
+  Impact-Resistant Phone Case" (`69b0212c4fead7b1ce06b69e`) — a leftover unclean duplicate-product
+  operation, duplicate of `69af94a507af56435a07b7ce` (§8z) — plus 3 pillow-size pairs, listed
+  separately in YELLOW below since they raise a platform-capability question rather than a clear
+  "retire one" fix.
+
+**4. Print-window cropping / text-illegibility — the dominant Shopify defect bucket (consolidated).**
+This single root-cause family (source artwork sized for a bigger canvas than a given blueprint's fixed
+print window) accounts for the large majority of the ~600+ confirmed Shopify defects across 21 batches
+(batch rates ranged 0%-49%, see §7's tracker table for every batch's exact count). Worst-affected
+blueprints by confirmed rate at full sample: **Wall Tapestry 96-100%** (worst blueprint in the entire
+recovery, §8r/§8t), **Duffel Bag 83-91%** (§8s/§8t), **Water Bottle 64-75%** (cylindrical wraparound,
+§8q/§8r), **Christmas Socks 100%** (camera-angle fragmentation, a related but distinct mechanism,
+§8v), **Bucket Hat 78%/Apron 67%** (a different root cause — opaque non-transparent background prints
+as a visible white box, §8v), **Scented Candle 70%** (design scaled/zoomed past its own label area,
+§8u/§8v), **Fanny Pack 36-54%**, **Throw Pillow Case 44-71%**, **Backpack 59-96%**, **Laptop Sleeve
+33-45%**. A separate, smaller set of recurring bad source-art files (not blueprint-specific) reproduces
+the same defect everywhere they're reused: "Happy Holidays Tree" (HAPPY clipped, 7+ listings),
+"Candy Cane Lane" (blank banner, 10+ listings), "Tree Up Patience Down" (garbled "PATITANECE" text, 5+
+listings), "Santa's Favorite Customer VIP" (literal "PRICE" placeholder text, 3+ listings), "Chic
+Happens Cocktail" (low-contrast subtitle, 2+ listings). A third, independent root cause is
+color-authoring: white/pale text invisible on white Hoodie (7 instances, §8m) and dark text on the
+black-garment color variant (§8m/§8n). Exact per-product IDs for every one of these are in the §14-§34
+per-batch ID tables, cross-referenced from each batch's §8f-§8z findings section — not relisted here.
+**Proposed remedy:** prioritize correcting the master source-art files (fixes many listings at once per
+the §8i observation), then address the worst 3-4 blueprints' print-window sizing with Printify/the
+designer, before attempting a product-by-product fix.
+
+### YELLOW — items needing an owner decision, not clearly a defect to simply fix
+
+- **Amazon "both-live" ASIN pairs**: "live" means both Printify records carry a populated
+  `external.handle` (ASIN) — Printify-side mapping evidence only. It does **not** confirm either
+  offer is actually buyable right now, has active inventory, or that reviews/sales-rank are genuinely
+  split — no Amazon Seller Central check has been done (§8a). Decide after that check, not before.
+- **Shopify same-artwork, same-blueprint, different-declared-pillow-size pairs** (3 pairs, §8k):
+  these may be a legitimate size-variant need (Printify/Shopify limitation forcing two listings) rather
+  than a duplicate-listing mistake — needs an owner/platform-capability decision, not a "retire one"
+  fix.
+- **Checkerboard-transparency T-shirt cluster** (12 IDs, catalog positions #015-#032 of batch
+  #2,161-2,260, §8x) — chatgpt correctly flagged these as a likely single bad upload/export session
+  and asked for them to be grouped by shared source asset before any repair packet; this fork lacks
+  the tooling to establish the exact shared-asset grouping beyond catalog-position clustering, and
+  lacks browser/storefront tools to check live Shopify visibility — both are open follow-up items.
+- **Shopify duplicate-TITLE (not duplicate-artwork) pattern**: several title phrases (e.g. "Adulting
+  Is A Witch...") recur across multiple genuinely-different-artwork listings (§5) — a process issue
+  (title field not made unique per upload) worth flagging separately from any artwork defect, since no
+  correction is needed to the artwork itself.
+- **Minor SEO findings** (not visual defects): a handful of truncated or non-descriptive listing
+  titles across Shopify and Etsy (e.g. Etsy `699fd4c8f8e5c2375807796d` titled only "Unisex
+  Garment-Dyed T-shirt"; Shopify `6ac72401cacff3948b065b5d` titled only "Custom Pin Buttons"; several
+  titles cut mid-word like "Merry Christmas Sant...") — cosmetic/discoverability issues, listed for
+  completeness.
+
+### Outstanding verification gap
+
+**No direct marketplace-storefront check has been performed anywhere in this recovery.** Every
+finding above is Printify-side only — either the Printify API's `external` mapping field, or an
+actual Printify-generated mockup image. No tool in this effort has read eBay's, Amazon's, TikTok's,
+Etsy's, or Shopify's own public storefront pages to confirm live status, buyability, inventory, price,
+or reviews for any SKU. chatgpt's independent reviews repeatedly and correctly raised this point across
+the register (e.g. P-22715Q6A1N on the Amazon duplicate-ASIN finding, P-6U5M471H0J on the Shopify
+checkerboard cluster). **Recommended next step before executing any remedy below:** a dedicated
+marketplace-side verification pass (browser or web-fetch tooling, which this recovery effort's
+Printify+Bridge+git tool access does not include) against at minimum the 7 both-live Amazon pairs and
+the highest-impact Shopify SKUs, before any resync, unpublish, or merge action is taken.
+
+### What has NOT been done
+
+No publish or unpublish action. No price or inventory change. No product deletion. No account,
+credential, or app/theme modification. On any of the five shops, at any point in this entire
+recovery. Every "proposed remedy" above is exactly that — a proposal for the owner to approve, reject,
+or modify; none has been executed.
+
 ## 0. Shop directory
 
 | Shop name | Shop ID | Channel | Total products (last confirmed count) |
