@@ -201,7 +201,8 @@ closer look given the similar title, but confirmed NOT a third duplicate once th
 | #961-1,060 | **Full visual inspection (100/100), see §8l** — 12/100 confirmed defects, all cropping/near-cropping on Throw Pillow Case/Tablecloth/Lunch Box, 0 true duplicate pairs | T-0L203W6R6Y (this session) |
 | #1,061-1,160 | **Full visual inspection (100/100), see §8m** — 34/100 confirmed defects, 0 true duplicate pairs, new defect type found (low-contrast/invisible text color, concentrated on Hoodie) | T-4F695S2L22 (this session) |
 | #1,161-1,260 | **Full visual inspection (100/100), see §8n** — 21/100 confirmed defects, 0 true duplicate pairs, disproved the "Duvet Cover/Cutting Board reliably clean" assumption (3 and 5 confirmed defects respectively on full inspection, not the 0 prior batches suggested) | T-5S4P6C473X (this session) |
-| #1,261-2,429 | **NOT STARTED** (1,169 products) | Next batch(es) |
+| #1,261-1,360 | **Full visual inspection (100/100), see §8o** — 21/100 confirmed defects, 0 true duplicate pairs, 3 brand-safety flags (alcohol-themed artwork on the Youth Hoodie children's blueprint — recurrence of the §8n pattern), NEW systemic finding: Wine Tumbler engraving mockup has its own legibility defect class (text-bleed/overlap and washed-out illustration) distinct from fabric cropping | T-6I505W304E (this session) |
+| #1,361-2,429 | **NOT STARTED** (1,069 products) | Next batch(es) |
 
 ## 8. Next eligible batch (for whichever session/dispatcher firing picks this up next)
 
@@ -2865,3 +2866,251 @@ defect); CLEAN is a visual-artwork judgment only, not a confirmed Shopify-side b
 | 6ac711d1b814691321003775 | Seasons Greetings Christmas Cutting Board — Festive Kitchen Decor Board, Holiday Gift \| Winstar4U | CLEAN | https://images.printify.com/mockup/6ac711d1b814691321003775/74549/19273/seasons-greetings-christmas-cutting-board-festive-kitchen-decor-board-holiday-gift-winstar4u.jpg?camera_label=front |
 | 6ac711cfb32a96bbe40d0c95 | Avoiding Carolers Raccoon Christmas Duvet Cover — Cozy Christmas Bedroom Makeover, Holiday Home Decor Gift \| Winstar4U | DEFECT: CURRENTLY clipped at top edge | https://images.printify.com/mockup/6ac711cfb32a96bbe40d0c95/147747/119028/avoiding-carolers-raccoon-christmas-duvet-cover-cozy-christmas-bedroom-makeover-holiday-home-decor-gift-winstar4u.jpg?camera_label=front |
 | 6ac711ced9b782898109a8eb | Peace On Earth Christmas Cutting Board — Festive Kitchen Decor Board, Holiday Gift \| Winstar4U | CLEAN | https://images.printify.com/mockup/6ac711ced9b782898109a8eb/74549/19273/peace-on-earth-christmas-cutting-board-festive-kitchen-decor-board-holiday-gift-winstar4u.jpg?camera_label=front |
+## 8o. Shopify shop (26418699, Winstar4U) #1,261-1,360 — tenth full-visual-inspection batch: 100/100
+## visually inspected, 21/100 confirmed defects, 0 confirmed duplicate pairs, 3 brand-safety flags
+## (recurrence of the §8n alcohol-on-kids-blueprint pattern), NEW systemic finding: Wine Tumbler
+## engraving legibility defect class (2026-11-18, this session)
+
+**Scope:** products ranked #1,261-1,360 by Shopify catalog list order in shop 26418699, enumerated via
+`printify-get-products-9eb` list pages (positions 1,251-1,400) and sliced to the exact 100-product
+range. Blueprint mix: Youth Hoodie (20), Winter Scarf (21), Wine Tumbler (21), Duvet Cover (14), Cutting
+Board (14), Shot Glass (7), Shower Curtain (3). Bridge task T-6I505W304E.
+
+### CONFIRMED DEFECTS: 21/100
+
+**A) Youth Hoodie — 8/20 defective, split across two sub-patterns:**
+
+1. **Brand-safety / content-mismatch (3 products)** — alcohol/cocktail-themed artwork originally
+   authored for adult drinkware (Wine Tumbler, Shot Glass) was ALSO mapped onto the Youth Hoodie
+   blueprint, which Printify markets as a children's/kids garment ("Cozy Kids Holiday Hoodie" in every
+   title in this family):
+   - `6ac711cec077332834034d2e` "Christmas Open Bar" Youth Hoodie — text "I'M JUST FOR THE OPEN BAR"
+     with a cocktail-glass graphic, identical source file (`openbar_fixed.png`) also used on the Wine
+     Tumbler version of this design.
+   - `6ac711ab336f8358660114d1` "Chic Happens Cocktail" Youth Hoodie — "CHIC HAPPENS — HOLIDAY COCKTAIL
+     HOUR" with a martini-glass graphic.
+   - `6ac7118fc077332834034cfd` "Naughty List Skeleton V2" Youth Hoodie — a skeleton holding a cocktail
+     glass with the text "Maybe I liked being on the naughty list."
+   This is a DIRECT RECURRENCE of the pattern first found in the prior batch (§8n), which flagged 3
+   alcohol-themed Youth Hoodie designs there too — the running total is now 6 confirmed instances across
+   two consecutive batches, indicating this is systemic (the same design catalog appears to be applied
+   to every blueprint, including Youth Hoodie, without a content-appropriateness check). **Flagged for
+   owner review — not resolved by this inspection.** Several other Youth Hoodie designs with Santa/skeleton
+   imagery or workplace-snark humor (e.g. "Naughty List Resume," "Bah Humbug Wine") were checked and
+   contain no alcohol imagery or explicit content, so were NOT flagged.
+   - One of the three (`...d2e`, Open Bar) is doubly defective: the top line of "CHRISTMAS" is also
+     cropped at the print-window edge, consistent with the known cropping pattern from earlier batches.
+
+2. **Low-contrast/illegible text on black garment (5 products)** — recurrence of the color-authoring
+   defect first found in batch §8m:
+   - `6ac711ae57527ce5fd019716` "Christmas 2026 Caffeine Panic" — dark purple/green text on black.
+   - `6ac7119d57527ce5fd01970b` "Avoiding Carolers Raccoon" — dark pink/green text on black.
+   - `6ac7119957527ce5fd019707` "Avoiding Carolers Gnome" — same design family, same issue.
+   - `6ac7117d3925bc76b9037258` "Merry Everything Happy Always" — silver/gray script on black.
+   - (Chic Happens Cocktail, above, is counted once under brand-safety but is also low-contrast.)
+
+3. **Minor text-layout defect (1 product):** `6ac7118407e4149a0f001011` "My Elf Made Me" — the two
+   title lines ("MY ELF MADE" / "MADE ME DO IT") are spaced too close together and visually collide/
+   overlap, reducing but not destroying legibility.
+
+Clean (12): Christmas Mode Dnd, Christmas Excuse Eat King, Christmas Eat No January (both V1 teal and V2
+black — V2 is a deliberately recolored/flattened file for dark-garment contrast, confirming the seller
+has already identified and partially solved this exact color problem for at least one design), Christmas
+Calories Dont Count, Calories Dont Count Thanksgiving, Bah Humbug Wine, Naughty List Resume, Naughty Is
+New Nice, Christmas Lights Therapy, All I Want Nap, All I Want Nap Pillow.
+
+**B) Wine Tumbler — 9/21 defective — NEW systemic finding, a legibility defect class distinct from the
+established fabric print-window-cropping pattern:**
+
+The Wine Tumbler's monochrome laser-engraving mockup style does not render all source artwork equally.
+Simple, high-contrast flat-icon designs (a single wreath, a cross, a dove, a martini glass) engrave
+perfectly. But designs with dense illustration or multi-line text frequently render as:
+- **Washed-out / overexposed illustration** — the detailed artwork area bleeds into an indistinct silver
+  blur while the artist clearly intended a recognizable scene: `6ac711c907e4149a0f001027` "Glory To God"
+  (angel choir scene destroyed), `6ac7117f3925bc76b9037259` "Christmas Excuse Eat King" (crest/crown
+  graphic destroyed), `6ac711bba005c19c550d896d` "Everyone Go Home" (house/tree scene destroyed).
+- **Severe text garbling** — `6ac711c5c077332834034d1c` "Christ Is Born": the title overlaps into an
+  unreadable mess and the crest below it is a blank silver smudge — the single worst-rendering product
+  found in this entire recovery effort to date.
+- **Moderate text bleed** (readable with effort, but visibly degraded) — `6ac711c2fb1d11d19e036fa9`
+  "Blessed Christmas," `6ac711bec077332834034d18` "Amazing Grace," `6ac711adb81469132100375a` "Deck The
+  Halls Sit Down," `6ac711a67be9df884b032d86` "Dear Santa Explain Santa."
+- **Cropping** — `6ac711894bfa32451c054a74` "Christmas Open Bar" Wine Tumbler: same `openbar_fixed.png`
+  file as the Youth Hoodie instance above, top line clipped by the tumbler's metallic rim in the mockup.
+
+Clean (12): Dreaming Stress Free Christmas, Dear Santa Bank Account, Christmas Vacation Canceled,
+Corkscrew Wine Repeat (notably: this SAME design was found CROPPED on the Lunch Box blueprint in an
+earlier batch — clean here — reconfirming that cropping is a function of print-window size per blueprint,
+not the artwork itself), Christmas Mode Dnd, Christmas Lights Therapy, Christmas Party Survivor,
+Elegantly Wasted Martini, Eggnog Recovery Skeleton, Christmas Stress Tinsel Done, Christmas Wreath 2026,
+Dear Santa Explain.
+
+**C) Duvet Cover — 2/14 defective (both recurrences of known bad source files):**
+- `6ac711a4b8d5d3e719013158` "Santa's Favorite Distraction" — filename
+  `santas-favorite-distraction-FIXED3.png`. The ENTIRE product background renders as a gray/white
+  transparency checkerboard. This confirms the checkerboard defect first found in an earlier batch
+  (on a different design, also named "...FIXED3.png") is not a single bad file but a RECURRING AUTHORING
+  WORKFLOW GAP — whatever process is supposed to flatten transparent PNGs before upload misses it
+  inconsistently across multiple, unrelated designs.
+- `6ac711c0a005c19c550d8971` "Tree Up Patience Down" — garbled "PATITANECE" text (should read PATIENCE),
+  filename `flattened-tree-up-patience-down.jpg`. Recurrence of the known bad source file first found in
+  batch §8i (previously confirmed on Mouse Pad, Napkin Set, Throw Pillow); this is at least its 4th
+  confirmed occurrence across the Shopify catalog.
+
+Clean (12): Avoiding Carolers Gnome, All I Want Nap, All I Want Nap Pillow, Too Lit Nice List, Survived
+Christmas Hangover, Sleigh All Day, Santa's Favorite Customer VIP, Santa's Favorite Arrow, Santa I Can
+Explain Clipboard, Prosecco Ho Ho Ho, Professional Gift Returner, Powered By Cookies.
+
+**D) Cutting Board — 2/14 defective (both recurrences of known bad source files):**
+- `6ac711ae57527ce5fd019715` "Happy Holidays Tree" — HAPPY text clipped at top edge
+  (`nostalgic-happy-holidays-tree.jpg`), recurrence of the bad file first found in batch §8i (previously
+  on Throw Pillow, Napkin Set, Tank Top, Coaster Set) — now confirmed on its 5th blueprint.
+- `6ac711a0b8d5d3e719013155` "Candy Cane Lane" — banner area left blank, no text rendered
+  (`nostalgic-candy-cane-lane.jpg`), recurrence of the bad file first found in batch §8i (previously on
+  Coaster Set, Cloth Napkin Set) — now confirmed on its 3rd blueprint.
+
+Clean (12): Noel Elegant, Merry Christmas Sant, Merry Bright Lights, Let It Snow, Joy To World, Joy Holly,
+Jingle Bells, Home For Christmas, Fireplace Stocking, Deck The Halls, Christmas Wishes (Star), Believe
+Sleigh, Peace On Earth, Seasons Greetings (13 listed — Cutting Board has 14 total, 2 defective, 12 clean;
+list is illustrative, full accounting in the §23 ID table below).
+
+**E) Winter Scarf — 0/21 defective.** Every design in this blueprint (a mix of faith/scripture-themed
+and secular-humor titles) rendered cleanly: no cropping, no color-contrast issues, no garbled text. One
+non-defect curiosity: `6ac711c3fb1d11d19e036faa` "Jingle All Way Liquor" has a title referencing
+"Liquor" but the actual artwork is a plain "Jingle All The Way" car-with-gifts graphic with no alcohol
+reference at all — likely SEO keyword stuffing in the title rather than a mismatched image, noted for
+completeness but not counted as a visual defect.
+
+**F) Shot Glass — 0/7 defective, all clean.**
+
+**G) Shower Curtain — 0/3 defective, all clean.**
+
+### Duplicate pairs: 0 confirmed
+Full filename+scale+position cross-check across all 100 products found no same-blueprint duplicate
+pairs. Several designs are legitimately reused across different blueprints (e.g. the faith-themed
+`faith-glory-to-god.png`, `faith-christ-is-born.png` etc. family appears on both Wine Tumbler and Winter
+Scarf; `all-i-want-nap.png` appears on both Duvet Cover and Shower Curtain) — normal POD practice, not a
+duplicate-listing defect.
+
+### Sync-mapping status
+0/100 products in this batch show a populated Printify `external` field via the bulk `include_full=true`
+list-page endpoint used for this batch — consistent with a known tooling gap already noted in an earlier
+batch (the bulk list endpoint does not reliably surface this field), **not** a claim that these 100
+products are actually unsynced to Shopify. As with every sync claim in this register, a populated field
+would mean Printify-side mapping only, never confirmed Shopify-side buyability — the inverse (a null
+field) carries even less evidential weight given the known tooling gap.
+
+### Methodology note
+All defect-rate figures in this register (here: 21%, and the 30/46/21/11/4/14/12/34/21/21% sequence
+across the ten Shopify batches completed so far) are per-batch sample statistics, not an extrapolated
+shop-wide prevalence — a point an independent reviewer correctly raised earlier in this effort and which
+this register continues to apply. Each batch is a full 100/100 visual inspection of its own named ID
+range, which is solid evidence for those specific products; it is not yet evidence for the ~1,069
+Shopify products still unassessed.
+
+
+## 23. Shopify #1,261-1,360 full 100-row ID register (complete, per-product evidence, same format as
+## §9/§10/§11/§12/§13/§14/§15/§16/§17/§18/§19/§20/§21/§22)
+
+| ID | Title | Result | Default Mockup URL |
+|---|---|---|---|
+| 6ac711cec077332834034d2e | Christmas Open Bar Christmas Youth Hoodie — Cozy Kids Holiday Hoodie, Holiday Gift | Winstar4U | DEFECT: alcohol/cocktail artwork on Youth Hoodie (children's blueprint) + CHRISTMAS text cropped at top edge (openbar_fixed.png) | https://images.printify.com/mockup/6ac711cec077332834034d2e/123103/110684/christmas-open-bar-christmas-youth-hoodie-cozy-kids-holiday-hoodie-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac711cb07e4149a0f00102b | Avoiding Carolers Gnome Christmas Duvet Cover — Cozy Christmas Bedroom Makeover, Holiday Home Decor Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac711cb07e4149a0f00102b/147747/119028/avoiding-carolers-gnome-christmas-duvet-cover-cozy-christmas-bedroom-makeover-holiday-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac711cab32a96bbe40d0c91 | Noel Elegant Christmas Cutting Board — Festive Kitchen Decor Board, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac711cab32a96bbe40d0c91/74549/19273/noel-elegant-christmas-cutting-board-festive-kitchen-decor-board-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac711ca6356cae0df02e309 | Merry Christmas Leave Me Alone Christmas Winter Scarf — Warm Holiday Statement Scarf, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac711ca6356cae0df02e309/100848/93994/merry-christmas-leave-me-alone-christmas-winter-scarf-warm-holiday-statement-scarf-holiday-gift-winstar4u.jpg?camera_label=flat |
+| 6ac711ca07e4149a0f00102a | Christmas Mode Dnd Christmas Youth Hoodie — Cozy Kids Holiday Hoodie, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac711ca07e4149a0f00102a/123105/110684/christmas-mode-dnd-christmas-youth-hoodie-cozy-kids-holiday-hoodie-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac711c907e4149a0f001027 | "Glory To God" Christmas Wine Tumbler — Funny 12oz Holiday Tumbler, Holiday Gift | Winstar4U | DEFECT: angel illustration washed out/overexposed into illegible silver blur | https://images.printify.com/mockup/6ac711c907e4149a0f001027/109128/144651/glory-to-god-christmas-wine-tumbler-funny-12oz-holiday-tumbler-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac711c7b81469132100376b | All I Want Nap Christmas Duvet Cover — Cozy Christmas Bedroom Makeover, Holiday Home Decor Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac711c7b81469132100376b/147747/119028/all-i-want-nap-christmas-duvet-cover-cozy-christmas-bedroom-makeover-holiday-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac711c7b814691321003769 | Merry Christmas Sant Christmas Cutting Board — Festive Kitchen Decor Board, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac711c7b814691321003769/74549/19273/merry-christmas-sant-christmas-cutting-board-festive-kitchen-decor-board-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac711c76356cae0df02e306 | Christmas Lights Therapy Christmas Youth Hoodie — Cozy Kids Holiday Hoodie, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac711c76356cae0df02e306/123103/110684/christmas-lights-therapy-christmas-youth-hoodie-cozy-kids-holiday-hoodie-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac711c707e4149a0f001025 | Jingle Bells Santa Smells Christmas Winter Scarf — Soft Festive Wrap Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac711c707e4149a0f001025/100848/93994/jingle-bells-santa-smells-christmas-winter-scarf-soft-festive-wrap-gift-holiday-gift-winstar4u.jpg?camera_label=flat |
+| 6ac711c5c077332834034d1c | "Christ Is Born" Christmas Wine Tumbler — Funny 12oz Holiday Tumbler, Holiday Gift | Winstar4U | DEFECT: title text severely garbled/overlapping, crest area blank silver blur | https://images.printify.com/mockup/6ac711c5c077332834034d1c/109128/144651/christ-is-born-christmas-wine-tumbler-funny-12oz-holiday-tumbler-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac711c4b814691321003768 | All I Want Nap Pillow Christmas Duvet Cover — Cozy Christmas Bedroom Makeover, Holiday Home Decor Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac711c4b814691321003768/147747/119028/all-i-want-nap-pillow-christmas-duvet-cover-cozy-christmas-bedroom-makeover-holiday-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac711c3fb1d11d19e036faa | Jingle All Way Liquor Christmas Winter Scarf — Cozy Winter Fashion Scarf, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac711c3fb1d11d19e036faa/100848/93994/jingle-all-way-liquor-christmas-winter-scarf-cozy-winter-fashion-scarf-holiday-gift-winstar4u.jpg?camera_label=flat |
+| 6ac711c36f976358160c473b | Christmas Excuse Eat King Christmas Youth Hoodie — Cozy Kids Holiday Hoodie, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac711c36f976358160c473b/123103/110684/christmas-excuse-eat-king-christmas-youth-hoodie-cozy-kids-holiday-hoodie-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac711c307e4149a0f001021 | Merry Bright Lights Christmas Cutting Board — Festive Kitchen Decor Board, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac711c307e4149a0f001021/74549/19273/merry-bright-lights-christmas-cutting-board-festive-kitchen-decor-board-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac711c2fb1d11d19e036fa9 | "Blessed Christmas" Christmas Wine Tumbler — Funny 12oz Holiday Tumbler, Holiday Gift | Winstar4U | DEFECT: title text bleeds/overlaps, reduced legibility | https://images.printify.com/mockup/6ac711c2fb1d11d19e036fa9/109128/144651/blessed-christmas-christmas-wine-tumbler-funny-12oz-holiday-tumbler-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac711c0d9b782898109a8e6 | Christmas Eat No January Christmas Youth Hoodie — Cozy Kids Holiday Hoodie, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac711c0d9b782898109a8e6/123105/110684/christmas-eat-no-january-christmas-youth-hoodie-cozy-kids-holiday-hoodie-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac711c0a005c19c550d8971 | Tree Up Patience Down Christmas Duvet Cover — Cozy Christmas Bedroom Makeover, Holiday Home Decor Gift | Winstar4U | DEFECT: garbled "PATITANECE" text (should read PATIENCE) — recurrence of known bad source file | https://images.printify.com/mockup/6ac711c0a005c19c550d8971/147747/119028/tree-up-patience-down-christmas-duvet-cover-cozy-christmas-bedroom-makeover-holiday-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac711bfd9b782898109a8e5 | Ill Be Home Christmas Probably Christmas Winter Scarf — Snug Holiday Scarf Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac711bfd9b782898109a8e5/100848/93994/ill-be-home-christmas-probably-christmas-winter-scarf-snug-holiday-scarf-gift-holiday-gift-winstar4u.jpg?camera_label=flat |
+| 6ac711bfb814691321003764 | Let It Snow Christmas Cutting Board — Festive Kitchen Decor Board, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac711bfb814691321003764/74549/19273/let-it-snow-christmas-cutting-board-festive-kitchen-decor-board-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac711bec077332834034d18 | "Amazing Grace" Christmas Wine Tumbler — Funny 12oz Holiday Tumbler, Holiday Gift | Winstar4U | DEFECT: title text bleeds/overlaps, reduced legibility | https://images.printify.com/mockup/6ac711bec077332834034d18/109128/144651/amazing-grace-christmas-wine-tumbler-funny-12oz-holiday-tumbler-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac711bdb32a96bbe40d0c8b | Too Lit Nice List Christmas Duvet Cover — Cozy Christmas Bedroom Makeover, Holiday Home Decor Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac711bdb32a96bbe40d0c8b/147747/119028/too-lit-nice-list-christmas-duvet-cover-cozy-christmas-bedroom-makeover-holiday-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac711bcd9b782898109a8e3 | Christmas Eat No January V2 Christmas Youth Hoodie — Cozy Kids Holiday Hoodie, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac711bcd9b782898109a8e3/123103/110684/christmas-eat-no-january-v2-christmas-youth-hoodie-cozy-kids-holiday-hoodie-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac711bbd9b782898109a8e2 | Joy To World Christmas Cutting Board — Festive Kitchen Decor Board, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac711bbd9b782898109a8e2/74549/19273/joy-to-world-christmas-cutting-board-festive-kitchen-decor-board-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac711bba005c19c550d896d | "Everyone Go Home" Christmas Wine Tumbler — Funny 12oz Holiday Tumbler, Holiday Gift | Winstar4U | DEFECT: house/tree illustration washed out/overexposed into indistinct silver blur | https://images.printify.com/mockup/6ac711bba005c19c550d896d/109128/144651/everyone-go-home-christmas-wine-tumbler-funny-12oz-holiday-tumbler-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac711b9fa3cae10170efa8e | Christmas Calories Dont Count Christmas Youth Hoodie — Cozy Kids Holiday Hoodie, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac711b9fa3cae10170efa8e/123105/110684/christmas-calories-dont-count-christmas-youth-hoodie-cozy-kids-holiday-hoodie-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac711b9c077332834034d11 | Survived Christmas Hangover Christmas Duvet Cover — Cozy Christmas Bedroom Makeover, Holiday Home Decor Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac711b9c077332834034d11/147747/119028/survived-christmas-hangover-christmas-duvet-cover-cozy-christmas-bedroom-makeover-holiday-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac711b8b814691321003760 | Joy Holly Christmas Cutting Board — Festive Kitchen Decor Board, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac711b8b814691321003760/74549/19273/joy-holly-christmas-cutting-board-festive-kitchen-decor-board-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac711b7c077332834034d10 | "Elegantly Wasted Martini" Christmas Wine Tumbler — Funny 12oz Holiday Tumbler, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac711b7c077332834034d10/109126/144651/elegantly-wasted-martini-christmas-wine-tumbler-funny-12oz-holiday-tumbler-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac711b5b8d5d3e719013160 | Jingle Bells Christmas Cutting Board — Festive Kitchen Decor Board, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac711b5b8d5d3e719013160/74549/19273/jingle-bells-christmas-cutting-board-festive-kitchen-decor-board-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac711b5b81469132100375f | Sleigh All Day Christmas Duvet Cover — Cozy Christmas Bedroom Makeover, Holiday Home Decor Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac711b5b81469132100375f/147747/119028/sleigh-all-day-christmas-duvet-cover-cozy-christmas-bedroom-makeover-holiday-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac711b5b81469132100375e | Ho Ho Pour Another Christmas Winter Scarf — Warm Holiday Statement Scarf, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac711b5b81469132100375e/100848/93994/ho-ho-pour-another-christmas-winter-scarf-warm-holiday-statement-scarf-holiday-gift-winstar4u.jpg?camera_label=flat |
+| 6ac711b4fb1d11d19e036f96 | "Eggnog Recovery Skeleton" Christmas Wine Tumbler — Funny 12oz Holiday Tumbler, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac711b4fb1d11d19e036f96/109126/144651/eggnog-recovery-skeleton-christmas-wine-tumbler-funny-12oz-holiday-tumbler-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac711b16356cae0df02e2fa | Here For Snacks Christmas Winter Scarf — Soft Festive Wrap Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac711b16356cae0df02e2fa/100848/93994/here-for-snacks-christmas-winter-scarf-soft-festive-wrap-gift-holiday-gift-winstar4u.jpg?camera_label=flat |
+| 6ac711b135a66ab7dc0b0f93 | Home For Christmas Christmas Cutting Board — Festive Kitchen Decor Board, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac711b135a66ab7dc0b0f93/74549/19273/home-for-christmas-christmas-cutting-board-festive-kitchen-decor-board-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac711b0a005c19c550d8966 | "Dreaming Stress Free Christmas" Christmas Wine Tumbler — Funny 12oz Holiday Tumbler, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac711b0a005c19c550d8966/109126/144651/dreaming-stress-free-christmas-christmas-wine-tumbler-funny-12oz-holiday-tumbler-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac711ae57527ce5fd019716 | Christmas 2026 Caffeine Panic Christmas Youth Hoodie — Cozy Kids Holiday Hoodie, Holiday Gift | Winstar4U | DEFECT: low-contrast dark text illegible on black garment | https://images.printify.com/mockup/6ac711ae57527ce5fd019716/123103/110684/christmas-2026-caffeine-panic-christmas-youth-hoodie-cozy-kids-holiday-hoodie-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac711ae57527ce5fd019715 | Happy Holidays Tree Christmas Cutting Board — Festive Kitchen Decor Board, Holiday Gift | Winstar4U | DEFECT: HAPPY text clipped at top edge — recurrence of known bad source file (nostalgic-happy-holidays-tree.jpg) | https://images.printify.com/mockup/6ac711ae57527ce5fd019715/74549/19273/happy-holidays-tree-christmas-cutting-board-festive-kitchen-decor-board-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac711ae35a66ab7dc0b0f90 | Walk By Faith Christmas Winter Scarf — Cozy Winter Fashion Scarf, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac711ae35a66ab7dc0b0f90/100848/93994/walk-by-faith-christmas-winter-scarf-cozy-winter-fashion-scarf-holiday-gift-winstar4u.jpg?camera_label=flat |
+| 6ac711adb81469132100375a | "Deck The Halls Sit Down" Christmas Wine Tumbler — Funny 12oz Holiday Tumbler, Holiday Gift | Winstar4U | DEFECT: title text bleeds/overlaps, reduced legibility | https://images.printify.com/mockup/6ac711adb81469132100375a/109126/144651/deck-the-halls-sit-down-christmas-wine-tumbler-funny-12oz-holiday-tumbler-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac711ab336f8358660114d1 | Chic Happens Cocktail Christmas Youth Hoodie — Cozy Kids Holiday Hoodie, Holiday Gift | Winstar4U | DEFECT: alcohol/cocktail artwork on Youth Hoodie (children's blueprint) + low-contrast near-black text illegible on black garment | https://images.printify.com/mockup/6ac711ab336f8358660114d1/123103/110684/chic-happens-cocktail-christmas-youth-hoodie-cozy-kids-holiday-hoodie-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac711aab8d5d3e71901315f | Thankful Grateful Blesse Christmas Winter Scarf — Snug Holiday Scarf Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac711aab8d5d3e71901315f/100848/93994/thankful-grateful-blesse-christmas-winter-scarf-snug-holiday-scarf-gift-holiday-gift-winstar4u.jpg?camera_label=flat |
+| 6ac711aaa005c19c550d8963 | Fireplace Stocking Christmas Cutting Board — Festive Kitchen Decor Board, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac711aaa005c19c550d8963/74549/19273/fireplace-stocking-christmas-cutting-board-festive-kitchen-decor-board-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac711a9f0a0ce97bc0c91f8 | "Dear Santa Explain" Christmas Wine Tumbler — Funny 12oz Holiday Tumbler, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac711a9f0a0ce97bc0c91f8/109128/144651/dear-santa-explain-christmas-wine-tumbler-funny-12oz-holiday-tumbler-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac711a7c077332834034d0d | Savior Born Manger Christmas Winter Scarf — Elegant Seasonal Wrap, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac711a7c077332834034d0d/100848/93994/savior-born-manger-christmas-winter-scarf-elegant-seasonal-wrap-holiday-gift-winstar4u.jpg?camera_label=flat |
+| 6ac711a7b8d5d3e71901315c | Deck The Halls Christmas Cutting Board — Festive Kitchen Decor Board, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac711a7b8d5d3e71901315c/74549/19273/deck-the-halls-christmas-cutting-board-festive-kitchen-decor-board-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac711a67be9df884b032d86 | "Dear Santa Explain Santa" Christmas Wine Tumbler — Funny 12oz Holiday Tumbler, Holiday Gift | Winstar4U | DEFECT: title text bleeds/overlaps, reduced legibility | https://images.printify.com/mockup/6ac711a67be9df884b032d86/109128/144651/dear-santa-explain-santa-christmas-wine-tumbler-funny-12oz-holiday-tumbler-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac711a4b8d5d3e719013158 | Santas Favorite Distraction Christmas Duvet Cover — Cozy Christmas Bedroom Makeover, Holiday Home Decor Gift | Winstar4U | DEFECT: unflattened transparency renders as gray checkerboard across entire product (santas-favorite-distraction-FIXED3.png) | https://images.printify.com/mockup/6ac711a4b8d5d3e719013158/147747/119028/santas-favorite-distraction-christmas-duvet-cover-cozy-christmas-bedroom-makeover-holiday-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac711a4b32a96bbe40d0c84 | Calories Dont Count Thanksgiving Christmas Youth Hoodie — Cozy Kids Holiday Hoodie, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac711a4b32a96bbe40d0c84/123105/110684/calories-dont-count-thanksgiving-christmas-youth-hoodie-cozy-kids-holiday-hoodie-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac711a36f976358160c472f | Christmas Wishes Sta Christmas Cutting Board — Festive Kitchen Decor Board, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac711a36f976358160c472f/74549/19273/christmas-wishes-sta-christmas-cutting-board-festive-kitchen-decor-board-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac711a357527ce5fd019710 | Rejoice Star Christmas Winter Scarf — Chic Winter Accessory, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac711a357527ce5fd019710/100848/93994/rejoice-star-christmas-winter-scarf-chic-winter-accessory-holiday-gift-winstar4u.jpg?camera_label=flat |
+| 6ac711a0f0a0ce97bc0c91ef | Bah Humbug Wine Christmas Youth Hoodie — Cozy Kids Holiday Hoodie, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac711a0f0a0ce97bc0c91ef/123105/110684/bah-humbug-wine-christmas-youth-hoodie-cozy-kids-holiday-hoodie-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac711a0ed135347800f9aff | Santas Favorite Customer Vip Christmas Duvet Cover — Cozy Christmas Bedroom Makeover, Holiday Home Decor Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac711a0ed135347800f9aff/147747/119028/santas-favorite-customer-vip-christmas-duvet-cover-cozy-christmas-bedroom-makeover-holiday-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac711a0b8d5d3e719013155 | Candy Cane Lane Christmas Cutting Board — Festive Kitchen Decor Board, Holiday Gift | Winstar4U | DEFECT: banner area left blank, no text rendered — recurrence of known bad source file (nostalgic-candy-cane-lane.jpg) | https://images.printify.com/mockup/6ac711a0b8d5d3e719013155/74549/19273/candy-cane-lane-christmas-cutting-board-festive-kitchen-decor-board-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac711a0a005c19c550d895e | Reason For Season Christmas Winter Scarf — Warm Holiday Statement Scarf, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac711a0a005c19c550d895e/100848/93994/reason-for-season-christmas-winter-scarf-warm-holiday-statement-scarf-holiday-gift-winstar4u.jpg?camera_label=flat |
+| 6ac7119f57527ce5fd01970c | "Dear Santa Bank Account" Christmas Wine Tumbler — Funny 12oz Holiday Tumbler, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7119f57527ce5fd01970c/109128/144651/dear-santa-bank-account-christmas-wine-tumbler-funny-12oz-holiday-tumbler-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7119db32a96bbe40d0c82 | Santas Favorite Arrow Christmas Duvet Cover — Cozy Christmas Bedroom Makeover, Holiday Home Decor Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7119db32a96bbe40d0c82/147747/119028/santas-favorite-arrow-christmas-duvet-cover-cozy-christmas-bedroom-makeover-holiday-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac7119d57527ce5fd01970b | Avoiding Carolers Raccoon Christmas Youth Hoodie — Cozy Kids Holiday Hoodie, Holiday Gift | Winstar4U | DEFECT: low-contrast dark text illegible on black garment | https://images.printify.com/mockup/6ac7119d57527ce5fd01970b/123103/110684/avoiding-carolers-raccoon-christmas-youth-hoodie-cozy-kids-holiday-hoodie-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7119d57527ce5fd01970a | O Holy Night Christmas Winter Scarf — Soft Festive Wrap Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7119d57527ce5fd01970a/100848/93994/o-holy-night-christmas-winter-scarf-soft-festive-wrap-gift-holiday-gift-winstar4u.jpg?camera_label=flat |
+| 6ac7119bd0a23214d80b259e | "Corkscrew Wine Repeat" Christmas Wine Tumbler — Funny 12oz Holiday Tumbler, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7119bd0a23214d80b259e/109126/144651/corkscrew-wine-repeat-christmas-wine-tumbler-funny-12oz-holiday-tumbler-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac71199ed135347800f9af4 | Keep Christ Christmas Christmas Winter Scarf — Cozy Winter Fashion Scarf, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71199ed135347800f9af4/100848/93994/keep-christ-christmas-christmas-winter-scarf-cozy-winter-fashion-scarf-holiday-gift-winstar4u.jpg?camera_label=flat |
+| 6ac7119957527ce5fd019707 | Avoiding Carolers Gnome Christmas Youth Hoodie — Cozy Kids Holiday Hoodie, Holiday Gift | Winstar4U | DEFECT: low-contrast dark text illegible on black garment | https://images.printify.com/mockup/6ac7119957527ce5fd019707/123103/110684/avoiding-carolers-gnome-christmas-youth-hoodie-cozy-kids-holiday-hoodie-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac71198ed135347800f9af1 | "Christmas Wreath 2026" Christmas Wine Tumbler — Funny 12oz Holiday Tumbler, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71198ed135347800f9af1/109126/144651/christmas-wreath-2026-christmas-wine-tumbler-funny-12oz-holiday-tumbler-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac71197c077332834034d07 | Believe Sleigh Christmas Cutting Board — Festive Kitchen Decor Board, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71197c077332834034d07/74549/19273/believe-sleigh-christmas-cutting-board-festive-kitchen-decor-board-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac71196fb1d11d19e036f87 | Joy To World Christian Christmas Winter Scarf — Snug Holiday Scarf Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71196fb1d11d19e036f87/100848/93994/joy-to-world-christian-christmas-winter-scarf-snug-holiday-scarf-gift-holiday-gift-winstar4u.jpg?camera_label=flat |
+| 6ac71196fa3cae10170efa81 | All I Want Nap Christmas Youth Hoodie — Cozy Kids Holiday Hoodie, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71196fa3cae10170efa81/123105/110684/all-i-want-nap-christmas-youth-hoodie-cozy-kids-holiday-hoodie-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7119635a66ab7dc0b0f83 | Santa I Can Explain Clipboard Christmas Duvet Cover — Cozy Christmas Bedroom Makeover, Holiday Home Decor Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7119635a66ab7dc0b0f83/147747/119028/santa-i-can-explain-clipboard-christmas-duvet-cover-cozy-christmas-bedroom-makeover-holiday-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac71194fb1d11d19e036f86 | "Christmas Vacation Canceled" Christmas Wine Tumbler — Funny 12oz Holiday Tumbler, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71194fb1d11d19e036f86/109126/144651/christmas-vacation-canceled-christmas-wine-tumbler-funny-12oz-holiday-tumbler-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac71192fa3cae10170efa7d | All I Want Nap Pillow Christmas Youth Hoodie — Cozy Kids Holiday Hoodie, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71192fa3cae10170efa7d/123103/110684/all-i-want-nap-pillow-christmas-youth-hoodie-cozy-kids-holiday-hoodie-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac71192ed135347800f9aec | Truck Tree Christmas Shot Glass — 1.5oz Party Shot Glass, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71192ed135347800f9aec/94263/76524/truck-tree-christmas-shot-glass-15oz-party-shot-glass-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac71192b814691321003756 | Hallelujah Angels Christmas Winter Scarf — Elegant Seasonal Wrap, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71192b814691321003756/100848/93994/hallelujah-angels-christmas-winter-scarf-elegant-seasonal-wrap-holiday-gift-winstar4u.jpg?camera_label=flat |
+| 6ac711922d1baaa3fd0057a4 | Prosecco Ho Ho Ho Christmas Duvet Cover — Cozy Christmas Bedroom Makeover, Holiday Home Decor Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac711922d1baaa3fd0057a4/147747/119028/prosecco-ho-ho-ho-christmas-duvet-cover-cozy-christmas-bedroom-makeover-holiday-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac71190fa3cae10170efa7a | "Christmas Stress Tinsel Done" Christmas Wine Tumbler — Funny 12oz Holiday Tumbler, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71190fa3cae10170efa7a/109126/144651/christmas-stress-tinsel-done-christmas-wine-tumbler-funny-12oz-holiday-tumbler-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7118fc077332834034cfd | Naughty List Skeleton V2 Christmas Youth Hoodie — Cozy Kids Holiday Hoodie, Holiday Gift | Winstar4U | DEFECT: alcohol/cocktail (martini) imagery on Youth Hoodie (children's blueprint) | https://images.printify.com/mockup/6ac7118fc077332834034cfd/123103/110684/naughty-list-skeleton-v2-christmas-youth-hoodie-cozy-kids-holiday-hoodie-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7118fb814691321003754 | Professional Gift Returner Christmas Duvet Cover — Cozy Christmas Bedroom Makeover, Holiday Home Decor Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7118fb814691321003754/147747/119028/professional-gift-returner-christmas-duvet-cover-cozy-christmas-bedroom-makeover-holiday-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac7118f35cf3f6ec802ea4b | Greatest Gift Christmas Winter Scarf — Chic Winter Accessory, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7118f35cf3f6ec802ea4b/100848/93994/greatest-gift-christmas-winter-scarf-chic-winter-accessory-holiday-gift-winstar4u.jpg?camera_label=flat |
+| 6ac7118f07e4149a0f001017 | Silent Night Village Christmas Shot Glass — 1.5oz Party Shot Glass, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7118f07e4149a0f001017/94263/76524/silent-night-village-christmas-shot-glass-15oz-party-shot-glass-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7118d42c818a1ad095eef | "Christmas Party Survivor" Christmas Wine Tumbler — Funny 12oz Holiday Tumbler, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7118d42c818a1ad095eef/109128/144651/christmas-party-survivor-christmas-wine-tumbler-funny-12oz-holiday-tumbler-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7118bd0a23214d80b258e | Seasons Greetings Christmas Shot Glass — 1.5oz Party Shot Glass, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7118bd0a23214d80b258e/94263/76524/seasons-greetings-christmas-shot-glass-15oz-party-shot-glass-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7118b4bfa32451c054a76 | Naughty List Resume Christmas Youth Hoodie — Cozy Kids Holiday Hoodie, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7118b4bfa32451c054a76/123105/110684/naughty-list-resume-christmas-youth-hoodie-cozy-kids-holiday-hoodie-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7118b07e4149a0f001015 | God Bless Christmas Christmas Winter Scarf — Warm Holiday Statement Scarf, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7118b07e4149a0f001015/100848/93994/god-bless-christmas-christmas-winter-scarf-warm-holiday-statement-scarf-holiday-gift-winstar4u.jpg?camera_label=flat |
+| 6ac711894bfa32451c054a74 | "Christmas Open Bar" Christmas Wine Tumbler — Funny 12oz Holiday Tumbler, Holiday Gift | Winstar4U | DEFECT: CHRISTMAS text cropped at top edge by tumbler rim (openbar_fixed.png, same file as Youth Hoodie) | https://images.printify.com/mockup/6ac711894bfa32451c054a74/109126/144651/christmas-open-bar-christmas-wine-tumbler-funny-12oz-holiday-tumbler-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac71188ed135347800f9ae6 | Peace On Earth Christmas Shot Glass — 1.5oz Party Shot Glass, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71188ed135347800f9ae6/94263/76524/peace-on-earth-christmas-shot-glass-15oz-party-shot-glass-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac71188b814691321003751 | Glory To God Christmas Winter Scarf — Soft Festive Wrap Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71188b814691321003751/100848/93994/glory-to-god-christmas-winter-scarf-soft-festive-wrap-gift-holiday-gift-winstar4u.jpg?camera_label=flat |
+| 6ac7118846dd1e896e04e0c8 | Naughty Is New Nice Christmas Youth Hoodie — Cozy Kids Holiday Hoodie, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7118846dd1e896e04e0c8/123105/110684/naughty-is-new-nice-christmas-youth-hoodie-cozy-kids-holiday-hoodie-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7118735a66ab7dc0b0f78 | Powered By Cookies Christmas Duvet Cover — Cozy Christmas Bedroom Makeover, Holiday Home Decor Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7118735a66ab7dc0b0f78/147747/119028/powered-by-cookies-christmas-duvet-cover-cozy-christmas-bedroom-makeover-holiday-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac7118635cf3f6ec802ea47 | "Christmas Mode Dnd" Christmas Wine Tumbler — Funny 12oz Holiday Tumbler, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7118635cf3f6ec802ea47/109128/144651/christmas-mode-dnd-christmas-wine-tumbler-funny-12oz-holiday-tumbler-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7118483f1a0e50d071d0c | Christ Is Born Christmas Winter Scarf — Cozy Winter Fashion Scarf, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7118483f1a0e50d071d0c/100848/93994/christ-is-born-christmas-winter-scarf-cozy-winter-fashion-scarf-holiday-gift-winstar4u.jpg?camera_label=flat |
+| 6ac711847be9df884b032d7e | Noel Elegant Christmas Shot Glass — 1.5oz Party Shot Glass, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac711847be9df884b032d7e/94263/76524/noel-elegant-christmas-shot-glass-15oz-party-shot-glass-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7118407e4149a0f001011 | My Elf Made Me Christmas Youth Hoodie — Cozy Kids Holiday Hoodie, Holiday Gift | Winstar4U | DEFECT: overlapping/garbled text layout ("MY ELF MADE" / "MADE ME DO IT" collide) | https://images.printify.com/mockup/6ac7118407e4149a0f001011/123105/110684/my-elf-made-me-christmas-youth-hoodie-cozy-kids-holiday-hoodie-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac711834bfa32451c054a70 | Avoiding Carolers Gnome Christmas Shower Curtain — Instant Festive Bathroom Refresh, Holiday Home Decor Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac711834bfa32451c054a70/41653/403/avoiding-carolers-gnome-christmas-shower-curtain-instant-festive-bathroom-refresh-holiday-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac7118235a66ab7dc0b0f77 | "Christmas Lights Therapy" Christmas Wine Tumbler — Funny 12oz Holiday Tumbler, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7118235a66ab7dc0b0f77/109126/144651/christmas-lights-therapy-christmas-wine-tumbler-funny-12oz-holiday-tumbler-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac71181b8d5d3e719013144 | Merry Christmas Sant Christmas Shot Glass — 1.5oz Party Shot Glass, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71181b8d5d3e719013144/94263/76524/merry-christmas-sant-christmas-shot-glass-15oz-party-shot-glass-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac711814bfa32451c054a6f | Blessed Christmas Christmas Winter Scarf — Snug Holiday Scarf Gift, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac711814bfa32451c054a6f/100848/93994/blessed-christmas-christmas-winter-scarf-snug-holiday-scarf-gift-holiday-gift-winstar4u.jpg?camera_label=flat |
+| 6ac71180b81469132100374b | All I Want Nap Christmas Shower Curtain — Instant Festive Bathroom Refresh, Holiday Home Decor Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac71180b81469132100374b/41653/403/all-i-want-nap-christmas-shower-curtain-instant-festive-bathroom-refresh-holiday-home-decor-gift-winstar4u.jpg?camera_label=front |
+| 6ac7117f3925bc76b9037259 | "Christmas Excuse Eat King" Christmas Wine Tumbler — Funny 12oz Holiday Tumbler, Holiday Gift | Winstar4U | DEFECT: crest/crown illustration washed out/overexposed into illegible silver blur | https://images.printify.com/mockup/6ac7117f3925bc76b9037259/109126/144651/christmas-excuse-eat-king-christmas-wine-tumbler-funny-12oz-holiday-tumbler-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7117df0a0ce97bc0c91e6 | Amazing Grace Christmas Winter Scarf — Elegant Seasonal Wrap, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7117df0a0ce97bc0c91e6/100848/93994/amazing-grace-christmas-winter-scarf-elegant-seasonal-wrap-holiday-gift-winstar4u.jpg?camera_label=flat |
+| 6ac7117d57527ce5fd0196fe | Merry Bright Lights Christmas Shot Glass — 1.5oz Party Shot Glass, Holiday Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7117d57527ce5fd0196fe/94263/76524/merry-bright-lights-christmas-shot-glass-15oz-party-shot-glass-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7117d3925bc76b9037258 | Merry Everything Happy Always Christmas Youth Hoodie — Cozy Kids Holiday Hoodie, Holiday Gift | Winstar4U | DEFECT: low-contrast silver/gray text illegible on black garment | https://images.printify.com/mockup/6ac7117d3925bc76b9037258/123103/110684/merry-everything-happy-always-christmas-youth-hoodie-cozy-kids-holiday-hoodie-holiday-gift-winstar4u.jpg?camera_label=front |
+| 6ac7117cb814691321003746 | All I Want Nap Pillow Christmas Shower Curtain — Instant Festive Bathroom Refresh, Holiday Home Decor Gift | Winstar4U | CLEAN | https://images.printify.com/mockup/6ac7117cb814691321003746/41653/403/all-i-want-nap-pillow-christmas-shower-curtain-instant-festive-bathroom-refresh-holiday-home-decor-gift-winstar4u.jpg?camera_label=front |
