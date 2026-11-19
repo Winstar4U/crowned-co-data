@@ -122,4 +122,4 @@ Nothing below has been executed. Every item is waiting on you.
 **While these are pending:** the work continues without needing approval.
 - Fill in Shopify storefront links for the 1,602 Shopify SELL NOW products (read-only).
 - Prepare corrected placements for D6 offline.
-- Give ChatGPT the 131 linked holiday SELL NOW products for promotion (`reports/Winstar_Sales_Readiness_Register.md`).
+- Give ChatGPT the 129 linked holiday SELL NOW products for promotion (`reports/Winstar_Sales_Readiness_Register.md`).

@@ -19,7 +19,7 @@ LIVE = sys.argv[1]
 SHOP_ID = {"Shopify": "26418699", "Etsy": "26603005", "eBay": "28059412",
            "TikTok": "28122957", "Amazon": "29451844"}
 
-HOLIDAY = re.compile(r"christmas|xmas|holiday|santa|reindeer|elf\b|elves|snow|winter|ornament|"
+HOLIDAY = re.compile(r"christmas|xmas|holiday|santa|reindeer|\belf\b|\belves\b|snow|winter|ornament|"
                      r"stocking|naughty|nice list|noel|jingle|gingerbread|grinch|mistletoe|"
                      r"thanksgiving|new year|hanukkah|nativity|merry|festive|sleigh|candy cane", re.I)
 
