@@ -4,8 +4,8 @@ Inputs (read-only):
   - reports/Winstar_Five_Shop_Quality_Register.md  (visual-inspection evidence, per-ID rows)
   - reports/Winstar_Tapestry_Pricing_Correction_Table.csv (48 tapestry IDs, pricing)
   - reports/Winstar_Tapestry_Duffel_Profitability_Evidence.md (45 duffel IDs)
-  - live Printify product pulls (full JSON) for Amazon, TikTok, Etsy, saved in a
-    scratch directory passed as argv[1]  (amzF*.json, tt*.json, et_*.json)
+  - live Printify product pulls (full JSON) for Amazon, TikTok, Etsy, Shopify, saved in a
+    scratch directory passed as argv[1]  (amzF*.json, tt*.json, et_*.json, sh_*.json)
 
 Output: reports/Winstar_Sales_Readiness_Register.csv
 No Printify writes are made by this script.
@@ -106,7 +106,8 @@ for i, line in enumerate(open(os.path.join(REP, "Winstar_Five_Shop_Quality_Regis
 
 # ---------- live Printify pulls ----------
 live = {}
-for pat, shop in (("amzF*.json", "Amazon"), ("tt*.json", "TikTok"), ("et_*.json", "Etsy")):
+for pat, shop in (("amzF*.json", "Amazon"), ("tt*.json", "TikTok"), ("et_*.json", "Etsy"),
+                  ("sh_*.json", "Shopify")):
     for fn in glob.glob(os.path.join(LIVE, pat)):
         for p in json.load(open(fn))["data"]:
             e = p.get("external") or {}
@@ -119,12 +120,14 @@ for pat, shop in (("amzF*.json", "Amazon"), ("tt*.json", "TikTok"), ("et_*.json"
 
 def link_for(pid, shop):
     lv = live.get(pid)
-    if not lv or not lv["handle"]:
+    if not lv or not lv["handle"] or lv["shop"] != shop:  # never borrow another shop's link
         return ""
     h = lv["handle"]
     if shop == "Amazon":
         return f"https://www.amazon.com/dp/{h}"
-    return h  # Etsy: public listing URL; TikTok: seller-center product URL
+    if shop == "Shopify" and not h.startswith("http"):
+        return f"https://4juy1i-kq.myshopify.com/products/{h}"
+    return h  # Etsy: public listing URL; TikTok: seller-center product URL; Shopify: product URL
 
 rows = []
 seen = set()
@@ -133,6 +136,11 @@ def add(pid, shop, title, bucket, reason, action, evidence, flags=""):
     if pid in seen:
         return
     seen.add(pid)
+    if bucket == "SELL NOW" and shop == "Shopify" and not link_for(pid, shop):
+        bucket = "UNKNOWN"
+        reason = "Artwork clean, but no Shopify storefront link in Printify; listing status unconfirmed"
+        action = "Confirm in Shopify admin; re-publish only with owner approval"
+        flags = (flags + " NO_CHANNEL_LINK").strip()
     lv = live.get(pid, {})
     rows.append(dict(
         bucket=bucket, product_id=pid, shop=shop, shop_id=SHOP_ID.get(shop, ""),
@@ -209,8 +217,8 @@ for pid, occ in recs.items():
                 "Confirm in channel dashboard; re-publish only with owner approval", ev, flags)
     else:  # Shopify
         add(pid, shop, last["title"], "SELL NOW",
-            "Artwork clean on real mockup (full-visual sweep #361-2,429)",
-            "None (storefront link pull pending -- next task)", ev, flags)
+            "Artwork clean on real mockup (full-visual sweep #361-2,429); live Shopify storefront link present",
+            "None", ev, flags)
 
 # 3. live-pull products not in register evidence (Amazon has no per-ID table; new Etsy items)
 for pid, lv in live.items():

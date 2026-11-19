@@ -21,7 +21,7 @@
 | Checkerboard Printify support ticket (ready to submit) | `reports/Printify_Support_Packet_Checkerboard_Legacy_Variants.md` |
 | Full defect and repair history | `reports/Winstar_Five_Shop_Quality_Register.md` (long; grep, don't read) |
 | Tapestry shipping (bp 241/pp 99, US first item) | $5.69 / $6.99 / $9.29 / $9.29 (fetched 2026-11-19) |
-| **SELL NOW / REPAIR FIRST / HOLD / UNKNOWN register (2,558 products)** | `reports/Winstar_Sales_Readiness_Register.csv` + `.md` (built 2026-11-19 by `work/build_sales_register.py`) |
+| **SELL NOW / REPAIR FIRST / HOLD / UNKNOWN register (3,008 products)** | `reports/Winstar_Sales_Readiness_Register.csv` + `.md` (built 2026-11-19 by `work/build_sales_register.py`) |
 | **Owner decision register D1-D7** | `reports/Winstar_Owner_Decision_Register.md` |
 
 ## Waiting on owner (nothing executes until decided). Full detail in `Winstar_Owner_Decision_Register.md`
@@ -43,5 +43,5 @@
 ## Next action for the next session (resume here)
 
 1. Apply any D-decisions the owner has answered (D1 = set prices on 48 products from the CSV, then re-fetch each to verify).
-2. Otherwise, no approval needed: pull the Shopify catalog (shop 26418699, 49 pages, `include_full`) and fill `channel_link` for the 1,602 Shopify SELL NOW rows (rebuild with `work/build_sales_register.py`). Then give ChatGPT the linked holiday list.
+2. ~~Pull the Shopify catalog and fill Shopify `channel_link`.~~ **DONE 2026-11-19:** read-only pull of shop 26418699 (51 pages, 2,508 products; 486 have a storefront URL). Of the 1,602 Shopify SELL NOW rows, 330 have a link and stay SELL NOW; 1,272 have no link and are now UNKNOWN. 450 pulled Shopify products have no inspection row (UNKNOWN). New totals: SELL NOW 608 (Shopify 330, Etsy 241, TikTok 20, Amazon 17), REPAIR FIRST 447, HOLD 1, UNKNOWN 1,930, REMOVED 22. Linked holiday shortlist: 348 (Shopify 219, Etsy 92, TikTok 20, Amazon 17). Still to do: give ChatGPT the linked holiday list.
 3. Then do D6 offline prep: corrected placement values for holiday REPAIR FIRST products, worst blueprint first. No live writes.
