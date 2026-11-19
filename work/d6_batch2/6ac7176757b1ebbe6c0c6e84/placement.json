@@ -1,0 +1,73 @@
+{
+ "product_id": "6ac7176757b1ebbe6c0c6e84",
+ "shop_id": "26418699",
+ "title": "Christmas Party Survivor Christmas Backpack \u2014 Festive Holiday Travel Bag, Christmas Gift | Winstar4U",
+ "blueprint_id": 10823,
+ "print_provider_id": 99,
+ "position": "front_dtf",
+ "image_id": "6ac8e4f483bae1c2c99bf109",
+ "image_name": "christmas-party-survivor-FIXED.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/77228f1c-8573-43aa-bcd9-fcc704b99a7b",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "dtf",
+ "visible": true,
+ "updated_at": "2026-10-09 13:02:50+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT-SEVERE (\"PARTY\" clipped bottom, \"SURVIVOR\" entirely missing)",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 1,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0,
+  0.0,
+  1.0,
+  1.0
+ ],
+ "current_content_box_in_placeholder": [
+  0.0,
+  -0.8333,
+  1.0,
+  1.8333
+ ],
+ "current_inside_safe_frac": {
+  "401444": 0.3654
+ },
+ "effective_px_ratio_after": 2.547,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.496,
+  "scale": 0.335,
+  "angle": 0
+ },
+ "placeholders": {
+  "401444": [
+   2400,
+   900
+  ]
+ },
+ "safe_area_source": {
+  "401444": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "401444": 1.0
+ },
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 31%",
+  "bottom 31%"
+ ],
+ "notes": [
+  "PARTY SURVIVOR art defect: original 'christmas-party-survivor-FIXED.png' (shared by 6ac7176757.., 6ac7020d74.., 6ac70ffa4b..) has a baked-in fake-transparency CHECKERBOARD (white/grey squares) scattered across the whole 2048px canvas and visible inside the badge behind the plate (~25% of pixels are opaque near-white). Prints as grey/white dust around the badge. Needs clean transparent re-export of the badge. Placement below is computed/verified for the CURRENT art only (its bbox is the full canvas, so the badge is smaller than needed).",
+  "current: 63.5% of visible content outside safe area (variant 401444)"
+ ],
+ "live_change_made": false
+}

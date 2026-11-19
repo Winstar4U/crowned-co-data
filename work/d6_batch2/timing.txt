@@ -1,0 +1,4 @@
+start_utc=2026-11-19T23:18:54Z
+build_end_utc=2026-11-19T23:32:27Z
+end_utc=2026-11-19T23:32:37Z
+mode=NON-LIVE prep; Printify calls used: get-products (40, read-only), get-blueprint-variants (3 new pairs: 1698/99, 39/99, 937/99; 10 pairs reused from d6_batch1/placeholders.json). No upsert/upload/publish/delete/price/order calls. No drafts. No git commit/push. No Bridge posts.

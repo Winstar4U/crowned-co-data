@@ -1,0 +1,74 @@
+{
+ "product_id": "6ac7117346dd1e896e04e0c4",
+ "shop_id": "26418699",
+ "title": "Eggnog Recovery Skeleton Christmas Winter Scarf \u2014 Soft Festive Wrap Gift, Holiday Gift | Winstar4U",
+ "blueprint_id": 1327,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac860835aebee434262bbfa",
+ "image_name": "eggnog-recovery-skeleton.png-TRANSPARENT.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/5e50471c-01dc-41c1-9c24-e3085c5d1a89",
+ "image_px": [
+  1349,
+  1553
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 03:37:25+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "MINOR \u2014 banner text partly obscured by overlapping foreground art (not an edge-crop)",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.4,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0074,
+  0.0064,
+  0.9926,
+  0.9936
+ ],
+ "current_content_box_in_placeholder": [
+  0.303,
+  -0.1114,
+  0.697,
+  1.1114
+ ],
+ "current_inside_safe_frac": {
+  "100848": 0.7378
+ },
+ "effective_px_ratio_after": 0.453,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.268,
+  "angle": 0
+ },
+ "placeholders": {
+  "100848": [
+   11100,
+   4126
+  ]
+ },
+ "safe_area_source": {
+  "100848": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "100848": 1.0
+ },
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 9%",
+  "bottom 9%"
+ ],
+ "notes": [
+  "Art composition defect (matches audit note, not an edge-crop): the 'EGGNOG RECOVERY IN PROGRESS' banner is partly covered by the skeleton's arms/legs in the original file itself. Re-placement cannot fix it; needs re-generated art with the banner clear (transparent PNG). Placement below also fixes the separate top/bottom edge clip, for the CURRENT art.",
+  "LOW-RES: art upscaled 2.2x on largest variant (src px/print px=0.45)",
+  "current: 26.2% of visible content outside safe area (variant 100848)"
+ ],
+ "live_change_made": false
+}

@@ -1,0 +1,88 @@
+{
+ "product_id": "6ac710117be9df884b032c6c",
+ "shop_id": "26418699",
+ "title": "Christmas Open Bar Christmas Tank Top \u2014 Cute Christmas Apparel, Holiday Gift | Winstar4U",
+ "blueprint_id": 39,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac8ddcce9406544747ac5d9",
+ "image_name": "openbar_fixed.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/8bf92d94-f895-40e5-8307-2410100e5a46",
+ "image_px": [
+  1079,
+  1773
+ ],
+ "decoration_method": "dtg",
+ "visible": true,
+ "updated_at": "2026-10-09 12:28:29+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT \u2014 top line cropped (adult apparel, not a brand-safety blueprint)",
+ "current": {
+  "x": 0.5,
+  "y": 0.38,
+  "scale": 0.9,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0093,
+  0.0056,
+  0.9907,
+  0.855
+ ],
+ "current_content_box_in_placeholder": [
+  0.0583,
+  -0.2292,
+  0.9417,
+  0.8176
+ ],
+ "current_inside_safe_frac": {
+  "24828": 0.6965,
+  "24830": 0.6965,
+  "24829": 0.6965
+ },
+ "effective_px_ratio_after": 0.436,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.572,
+  "scale": 0.771,
+  "angle": 0
+ },
+ "placeholders": {
+  "24828": [
+   3210,
+   3852
+  ],
+  "24830": [
+   2631,
+   3156
+  ],
+  "24829": [
+   2920,
+   3504
+  ]
+ },
+ "safe_area_source": {
+  "24828": "rect",
+  "24830": "rect",
+  "24829": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "24828": 1.0,
+  "24830": 1.0,
+  "24829": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 22%"
+ ],
+ "notes": [
+  "Contrast caveat: dark ink art on enabled Black variants (low contrast); White variants fine. Tank safe area = 5% rect (view SVG has no safe-area element).",
+  "geometry checked for 8 enabled variants (3 distinct placeholder geometries)",
+  "LOW-RES: art upscaled 2.3x on largest variant (src px/print px=0.44)",
+  "current: 30.3% of visible content outside safe area (variant 24828)"
+ ],
+ "live_change_made": false
+}

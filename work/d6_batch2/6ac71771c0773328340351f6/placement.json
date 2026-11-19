@@ -1,0 +1,73 @@
+{
+ "product_id": "6ac71771c0773328340351f6",
+ "shop_id": "26418699",
+ "title": "Christmas Wreath 2026 Christmas Backpack \u2014 Merry Christmas Daypack, Holiday Gift Idea | Winstar4U",
+ "blueprint_id": 10823,
+ "print_provider_id": 99,
+ "position": "front_dtf",
+ "image_id": "6ac8613a12c3453a773d67d4",
+ "image_name": "christmas-wreath-2026.png-TRANSPARENT.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/605eeefa-eeee-4539-8e2c-d0583cebe557",
+ "image_px": [
+  1504,
+  1541
+ ],
+ "decoration_method": "dtf",
+ "visible": true,
+ "updated_at": "2026-10-09 03:41:48+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT-SEVERE (top half of wreath + all text cropped away)",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.9,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0066,
+  0.0065,
+  0.9934,
+  0.9935
+ ],
+ "current_content_box_in_placeholder": [
+  0.056,
+  -0.7136,
+  0.944,
+  1.7136
+ ],
+ "current_inside_safe_frac": {
+  "401444": 0.4418
+ },
+ "effective_px_ratio_after": 1.775,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.52,
+  "scale": 0.353,
+  "angle": 0
+ },
+ "placeholders": {
+  "401444": [
+   2400,
+   900
+  ]
+ },
+ "safe_area_source": {
+  "401444": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "401444": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 29%",
+  "bottom 29%"
+ ],
+ "notes": [
+  "Art is a wreath with only a tiny '2026' (no 'Merry Christmas' text). Contrast caveat: dark green/purple wreath on black backpack (dtf).",
+  "current: 55.8% of visible content outside safe area (variant 401444)"
+ ],
+ "live_change_made": false
+}

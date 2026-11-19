@@ -1,0 +1,73 @@
+{
+ "product_id": "6ac71790ed135347800fa01b",
+ "shop_id": "26418699",
+ "title": "Elegantly Wasted Martini Christmas Backpack \u2014 Festive Holiday Travel Bag, Christmas Gift | Winstar4U",
+ "blueprint_id": 10823,
+ "print_provider_id": 99,
+ "position": "front_dtf",
+ "image_id": "6ac86086617e2e87727c938d",
+ "image_name": "elegantly-wasted-martini.png-TRANSPARENT.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/f31b6ed0-5dc6-42d8-8903-bb90152f6b24",
+ "image_px": [
+  1276,
+  1516
+ ],
+ "decoration_method": "dtf",
+ "visible": true,
+ "updated_at": "2026-10-09 03:37:24+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT-SEVERE (only top sliver of art visible, rest cropped away)",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.9,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0078,
+  0.0066,
+  0.9922,
+  0.9934
+ ],
+ "current_content_box_in_placeholder": [
+  0.0571,
+  -0.9069,
+  0.9429,
+  1.9069
+ ],
+ "current_inside_safe_frac": {
+  "401444": 0.1824
+ },
+ "effective_px_ratio_after": 1.865,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.496,
+  "scale": 0.285,
+  "angle": 0
+ },
+ "placeholders": {
+  "401444": [
+   2400,
+   900
+  ]
+ },
+ "safe_area_source": {
+  "401444": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "401444": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "LOW: 'Elegantly Wasted' is also an INXS song/album title (titles rarely protectable; review)",
+ "clip_edges_current": [
+  "top 32%",
+  "bottom 32%"
+ ],
+ "notes": [
+  "Contrast caveat: thin dark-maroon/grey line art and text on black backpack (dtf) - will read poorly; consider light-ink variant.",
+  "current: 81.8% of visible content outside safe area (variant 401444)"
+ ],
+ "live_change_made": false
+}

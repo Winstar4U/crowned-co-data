@@ -1,0 +1,73 @@
+{
+ "product_id": "6ac7113cc077332834034cca",
+ "shop_id": "26418699",
+ "title": "Christmas Eat No January Christmas Winter Scarf \u2014 Chic Winter Accessory, Holiday Gift | Winstar4U",
+ "blueprint_id": 1327,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac4f04501cfa1d533d0a960",
+ "image_name": "christmas-eat-no-january.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/2f3eeebe-1ed1-45af-8a75-4791f67561be",
+ "image_px": [
+  1707,
+  2048
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 02:02:11+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT \u2014 bottom word \"JANUARY\" cropped at bottom edge; CONFIRMED TRUE DUPLICATE of next row (identical turkey-dinner artwork, different internal filename, direc",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.4,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0012,
+  0.0005,
+  1.0,
+  0.999
+ ],
+ "current_content_box_in_placeholder": [
+  0.3005,
+  -0.1449,
+  0.7,
+  1.1443
+ ],
+ "current_inside_safe_frac": {
+  "100848": 0.7178
+ },
+ "effective_px_ratio_after": 0.605,
+ "proposed": {
+  "x": 0.5001,
+  "y": 0.5,
+  "scale": 0.254,
+  "angle": 0
+ },
+ "placeholders": {
+  "100848": [
+   11100,
+   4126
+  ]
+ },
+ "safe_area_source": {
+  "100848": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "100848": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 11%",
+  "bottom 11%"
+ ],
+ "notes": [
+  "CONFIRMED DUPLICATE of 6ac711386f.. (same design, same blank). Both carry the real bottom-edge crop; fix computed for both. Owner decision: keep one, retire/merge the other.",
+  "current: 28.2% of visible content outside safe area (variant 100848)"
+ ],
+ "live_change_made": false
+}

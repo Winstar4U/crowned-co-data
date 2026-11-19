@@ -1,0 +1,73 @@
+{
+ "product_id": "6ac7179eb814691321003c22",
+ "shop_id": "26418699",
+ "title": "Christ Is Born Christmas Backpack \u2014 Festive Holiday Travel Bag, Christmas Gift | Winstar4U",
+ "blueprint_id": 10823,
+ "print_provider_id": 99,
+ "position": "front_dtf",
+ "image_id": "6ac4f0bb047bb3b60dbc5759",
+ "image_name": "faith-christ-is-born.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/86a9544b-c87c-46c4-a7f8-0f03de27824f",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "dtf",
+ "visible": true,
+ "updated_at": "2026-10-09 00:47:13+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT-SEVERE (\"CHRIST\" entirely cropped off left, only \"IS BORN\" visible)",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 1,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0894,
+  0.0635,
+  0.9077,
+  0.959
+ ],
+ "current_content_box_in_placeholder": [
+  0.0894,
+  -0.6641,
+  0.9077,
+  1.724
+ ],
+ "current_inside_safe_frac": {
+  "401444": 0.4099
+ },
+ "effective_px_ratio_after": 2.294,
+ "proposed": {
+  "x": 0.4991,
+  "y": 0.484,
+  "scale": 0.372,
+  "angle": 0
+ },
+ "placeholders": {
+  "401444": [
+   2400,
+   900
+  ]
+ },
+ "safe_area_source": {
+  "401444": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "401444": 1.0
+ },
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 28%",
+  "bottom 30%"
+ ],
+ "notes": [
+  "art has opaque WHITE background on dtf print over coloured blank -> visible white patch; needs transparent re-export of same design (placement computed+verified, apply together)",
+  "current: 59.0% of visible content outside safe area (variant 401444)"
+ ],
+ "live_change_made": false
+}

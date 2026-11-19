@@ -1,0 +1,94 @@
+{
+ "product_id": "6ac7105ef0a0ce97bc0c90dc",
+ "shop_id": "26418699",
+ "title": "Christmas Stress Tinsel Done Christmas Baby Onesie \u2014 Adorable Baby Christmas Gift, Holiday Gift | Winstar4U",
+ "blueprint_id": 568,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac85ff9dd6f9330c7788111",
+ "image_name": "christmas-stress-tinsel-done-transparent.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/a7410fab-c680-4571-a9dc-2f2e987e0aac",
+ "image_px": [
+  1702,
+  2048
+ ],
+ "decoration_method": "dtg",
+ "visible": true,
+ "updated_at": "2026-10-09 03:57:47+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT \u2014 top line cropped",
+ "current": {
+  "x": 0.5,
+  "y": 0.3,
+  "scale": 0.9,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.1398,
+  0.1372,
+  0.8584,
+  0.8608
+ ],
+ "current_content_box_in_placeholder": [
+  0.1759,
+  -0.044,
+  0.8226,
+  0.6421
+ ],
+ "current_inside_safe_frac": {
+  "70900": 0.8038,
+  "70904": 0.8038,
+  "71073": 0.8038,
+  "71089": 0.8038
+ },
+ "effective_px_ratio_after": 0.901,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.396,
+  "scale": 0.9,
+  "angle": 0
+ },
+ "placeholders": {
+  "70900": [
+   1800,
+   2056
+  ],
+  "70904": [
+   2100,
+   2400
+  ],
+  "71073": [
+   1500,
+   1714
+  ],
+  "71089": [
+   1200,
+   1371
+  ]
+ },
+ "safe_area_source": {
+  "70900": "rect",
+  "70904": "rect",
+  "71073": "rect",
+  "71089": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "70900": 1.0,
+  "70904": 1.0,
+  "71073": 1.0,
+  "71089": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 6%"
+ ],
+ "notes": [
+  "Cosmetic: art headline starts with a stray unmatched opening quote mark (\u2018CHRISTMAS ... no closing quote). Not a placement issue; optional text fix on next art refresh.",
+  "geometry checked for 6 enabled variants (4 distinct placeholder geometries)",
+  "current: 19.6% of visible content outside safe area (variant 70900)"
+ ],
+ "live_change_made": false
+}

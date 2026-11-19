@@ -1,0 +1,71 @@
+{
+ "6ac71018e2a15b12600266b5": {
+  "status": "BLOCKED",
+  "no_proposal": true,
+  "note": "Cannot reproduce: live placement (x=0.5,y=0.38,scale=0.9) is already inside the 5% safe area on all 8 enabled variants, and the zoomed live mockup shows the top line ('CHRISTMAS) fully visible below the neckline - audit flag looks like a false positive (likely confused with sibling Open Bar tank 6ac710117b.., which IS cropped). Recommend close without change after owner eyeball. Cosmetic: art headline starts with a stray unmatched opening quote mark (‘CHRISTMAS ... no closing quote). Not a placement issue; optional text fix on next art refresh."
+ },
+ "6ac7117346dd1e896e04e0c4": {
+  "status": "NEEDS_NEW_ART",
+  "note": "Art composition defect (matches audit note, not an edge-crop): the 'EGGNOG RECOVERY IN PROGRESS' banner is partly covered by the skeleton's arms/legs in the original file itself. Re-placement cannot fix it; needs re-generated art with the banner clear (transparent PNG). Placement below also fixes the separate top/bottom edge clip, for the CURRENT art."
+ },
+ "6ac7176757b1ebbe6c0c6e84": {
+  "status": "NEEDS_NEW_ART",
+  "note": "PARTY SURVIVOR art defect: original 'christmas-party-survivor-FIXED.png' (shared by 6ac7176757.., 6ac7020d74.., 6ac70ffa4b..) has a baked-in fake-transparency CHECKERBOARD (white/grey squares) scattered across the whole 2048px canvas and visible inside the badge behind the plate (~25% of pixels are opaque near-white). Prints as grey/white dust around the badge. Needs clean transparent re-export of the badge. Placement below is computed/verified for the CURRENT art only (its bbox is the full canvas, so the badge is smaller than needed)."
+ },
+ "6ac7020d7424c0bbb60dc1bd": {
+  "status": "NEEDS_NEW_ART",
+  "note": "PARTY SURVIVOR art defect: original 'christmas-party-survivor-FIXED.png' (shared by 6ac7176757.., 6ac7020d74.., 6ac70ffa4b..) has a baked-in fake-transparency CHECKERBOARD (white/grey squares) scattered across the whole 2048px canvas and visible inside the badge behind the plate (~25% of pixels are opaque near-white). Prints as grey/white dust around the badge. Needs clean transparent re-export of the badge. Placement below is computed/verified for the CURRENT art only (its bbox is the full canvas, so the badge is smaller than needed). Bucket-hat safe area = 5% rect (Printify view SVG has no explicit safe-area element)."
+ },
+ "6ac70ffa4bfa32451c05490d": {
+  "status": "NEEDS_NEW_ART",
+  "note": "PARTY SURVIVOR art defect: original 'christmas-party-survivor-FIXED.png' (shared by 6ac7176757.., 6ac7020d74.., 6ac70ffa4b..) has a baked-in fake-transparency CHECKERBOARD (white/grey squares) scattered across the whole 2048px canvas and visible inside the badge behind the plate (~25% of pixels are opaque near-white). Prints as grey/white dust around the badge. Needs clean transparent re-export of the badge. Placement below is computed/verified for the CURRENT art only (its bbox is the full canvas, so the badge is smaller than needed)."
+ },
+ "6ac7113cc077332834034cca": {
+  "note": "CONFIRMED DUPLICATE of 6ac711386f.. (same design, same blank). Both carry the real bottom-edge crop; fix computed for both. Owner decision: keep one, retire/merge the other."
+ },
+ "6ac711386f976358160c46fe": {
+  "note": "CONFIRMED DUPLICATE of 6ac7113cc0.. (same design, V2 is a flattened JPEG). Owner decision: keep one, retire/merge the other."
+ },
+ "6ac702e21e2eac4da206fc57": {
+  "note": "Canvas 16x12: square art in 4:3 canvas - fitting the whole design leaves white bands left/right (art is opaque white-background, so bands blend with the white art bg). Alternative for owner: a 4:3 re-export of the design to fill the canvas. Safe area = 5% rect (Printify canvas view SVG has no safe-area element; wrap edge not modelled)."
+ },
+ "6ac714aaa4c95c48e203635a": {
+  "note": "Cosmetic: art headline starts with a stray unmatched opening quote mark (‘CHRISTMAS ... no closing quote). Not a placement issue; optional text fix on next art refresh."
+ },
+ "6ac70fbb35a66ab7dc0b0e98": {
+  "note": "Cosmetic: art headline starts with a stray unmatched opening quote mark (‘CHRISTMAS ... no closing quote). Not a placement issue; optional text fix on next art refresh."
+ },
+ "6ac7105ef0a0ce97bc0c90dc": {
+  "note": "Cosmetic: art headline starts with a stray unmatched opening quote mark (‘CHRISTMAS ... no closing quote). Not a placement issue; optional text fix on next art refresh."
+ },
+ "6ac70ffe050d0f25a7091875": {
+  "note": "Cosmetic: art headline starts with a stray unmatched opening quote mark (‘CHRISTMAS ... no closing quote). Not a placement issue; optional text fix on next art refresh."
+ },
+ "6ac711516f976358160c470e": {
+  "note": "Cosmetic: art headline starts with a stray unmatched opening quote mark (‘CHRISTMAS ... no closing quote). Not a placement issue; optional text fix on next art refresh."
+ },
+ "6ac70edb0aa3686f380d3c0f": {
+  "note": "Cosmetic: art headline starts with a stray unmatched opening quote mark (‘CHRISTMAS ... no closing quote). Not a placement issue; optional text fix on next art refresh. Contrast caveat: dark ink art on enabled Black variants (low contrast); White variants fine."
+ },
+ "6ac7176a4636838bd804f82b": {
+  "note": "Cosmetic: art headline starts with a stray unmatched opening quote mark (‘CHRISTMAS ... no closing quote). Not a placement issue; optional text fix on next art refresh. Contrast caveat: dark green/maroon text on black backpack (dtf) - low contrast."
+ },
+ "6ac70eb14e8c3a1ca906ec42": {
+  "note": "Contrast caveat: dark ink art on enabled Black variants (low contrast); White variants fine."
+ },
+ "6ac70ed4e2a15b1260026649": {
+  "note": "Contrast caveat: dark ink art on enabled Black variants (low contrast); White variants fine."
+ },
+ "6ac710117be9df884b032c6c": {
+  "note": "Contrast caveat: dark ink art on enabled Black variants (low contrast); White variants fine. Tank safe area = 5% rect (view SVG has no safe-area element)."
+ },
+ "6ac71771c0773328340351f6": {
+  "note": "Art is a wreath with only a tiny '2026' (no 'Merry Christmas' text). Contrast caveat: dark green/purple wreath on black backpack (dtf)."
+ },
+ "6ac71790ed135347800fa01b": {
+  "note": "Contrast caveat: thin dark-maroon/grey line art and text on black backpack (dtf) - will read poorly; consider light-ink variant."
+ },
+ "6ac71200b32a96bbe40d0ca9": {
+  "note": "Fitted art is only 1079px wide on a 15900px King placeholder (8x upscale) - will print soft; a high-res (>=4000px) re-export is recommended before go-live even with this placement."
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "product_id": "6ac7178307e4149a0f001490",
+ "shop_id": "26418699",
+ "title": "Dear Santa Explain Christmas Backpack \u2014 Festive Holiday Travel Bag, Christmas Gift | Winstar4U",
+ "blueprint_id": 10823,
+ "print_provider_id": 99,
+ "position": "front_dtf",
+ "image_id": "6ac4f08fc63155c674d69af4",
+ "image_name": "dear-santa-explain.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/0e67f572-47e3-40af-a5c2-362e55841468",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "dtf",
+ "visible": true,
+ "updated_at": "2026-10-09 00:47:05+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT (\"I CAN EXPLAIN\" clipped at top edge)",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 1,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.1289,
+  0.0781,
+  0.8726,
+  0.9219
+ ],
+ "current_content_box_in_placeholder": [
+  0.1289,
+  -0.625,
+  0.8726,
+  1.625
+ ],
+ "current_inside_safe_frac": {
+  "401444": 0.3685
+ },
+ "effective_px_ratio_after": 2.166,
+ "proposed": {
+  "x": 0.5004,
+  "y": 0.496,
+  "scale": 0.394,
+  "angle": 0
+ },
+ "placeholders": {
+  "401444": [
+   2400,
+   900
+  ]
+ },
+ "safe_area_source": {
+  "401444": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "401444": 1.0
+ },
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 28%",
+  "bottom 28%"
+ ],
+ "notes": [
+  "art has opaque WHITE background on dtf print over coloured blank -> visible white patch; needs transparent re-export of same design (placement computed+verified, apply together)",
+  "current: 63.2% of visible content outside safe area (variant 401444)"
+ ],
+ "live_change_made": false
+}

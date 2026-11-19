@@ -1,0 +1,73 @@
+{
+ "product_id": "6ac70fbb35a66ab7dc0b0e98",
+ "shop_id": "26418699",
+ "title": "Christmas 2026 Caffeine Panic Christmas Fanny Pack \u2014 Trendy Festival Belt Bag, Holiday Gift | Winstar4U",
+ "blueprint_id": 468,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac8f5487f6535769e592ecd",
+ "image_name": "clean-christmas-2026-caffeine-panic.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/3f76e85a-fcef-4900-a8b6-24c0a4bde4a1",
+ "image_px": [
+  1702,
+  2048
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 14:31:14+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT \u2014 third line cropped at bottom curved edge",
+ "current": {
+  "x": 0.5,
+  "y": 0.62,
+  "scale": 0.7,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0388,
+  0.1353,
+  0.9783,
+  0.8618
+ ],
+ "current_content_box_in_placeholder": [
+  0.1771,
+  -0.2236,
+  0.8348,
+  1.4568
+ ],
+ "current_inside_safe_frac": {
+  "65045": 0.4264
+ },
+ "effective_px_ratio_after": 2.45,
+ "proposed": {
+  "x": 0.5034,
+  "y": 0.504,
+  "scale": 0.299,
+  "angle": 0
+ },
+ "placeholders": {
+  "65045": [
+   2323,
+   846
+  ]
+ },
+ "safe_area_source": {
+  "65045": "printify_print_outline"
+ },
+ "verify_inside_safe_frac": {
+  "65045": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 13%",
+  "bottom 27%"
+ ],
+ "notes": [
+  "Cosmetic: art headline starts with a stray unmatched opening quote mark (\u2018CHRISTMAS ... no closing quote). Not a placement issue; optional text fix on next art refresh.",
+  "current: 57.4% of visible content outside safe area (variant 65045)"
+ ],
+ "live_change_made": false
+}

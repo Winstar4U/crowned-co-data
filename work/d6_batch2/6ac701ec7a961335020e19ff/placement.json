@@ -1,0 +1,73 @@
+{
+ "product_id": "6ac701ec7a961335020e19ff",
+ "shop_id": "26418699",
+ "title": "Christmas Mode Dnd Christmas Throw Pillow \u2014 Festive Holiday Decorative Pillow, Cozy Winter Home Decor Gift | Winstar4U",
+ "blueprint_id": 220,
+ "print_provider_id": 10,
+ "position": "front",
+ "image_id": "6ac4f05631ea32c8d94fcea3",
+ "image_name": "christmas-mode-dnd.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/11930ed6-73d8-4152-9d18-a6256a5daae8",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 01:43:35+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT \u2014 text cropped top/right edges of pillow face",
+ "current": {
+  "x": 0.25,
+  "y": 0.5,
+  "scale": 0.8,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.1177,
+  0.1016,
+  0.8823,
+  0.9165
+ ],
+ "current_content_box_in_placeholder": [
+  -0.0559,
+  -0.1375,
+  0.5559,
+  1.1664
+ ],
+ "current_inside_safe_frac": {
+  "41524": 0.5169
+ },
+ "effective_px_ratio_after": 0.769,
+ "proposed": {
+  "x": 0.25,
+  "y": 0.492,
+  "scale": 0.507,
+  "angle": 0
+ },
+ "placeholders": {
+  "41524": [
+   5250,
+   2625
+  ]
+ },
+ "safe_area_source": {
+  "41524": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "41524": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "left 9%",
+  "top 11%",
+  "bottom 13%"
+ ],
+ "notes": [
+  "current: 48.3% of visible content outside safe area (variant 41524)"
+ ],
+ "live_change_made": false
+}

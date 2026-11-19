@@ -1,0 +1,232 @@
+{
+ "10823/99": {
+  "401444": {
+   "front_dtf": [
+    2400,
+    900
+   ]
+  },
+  "_source": "cached from d6_batch1/placeholders.json"
+ },
+ "1245/228": {
+  "94263": {
+   "front": [
+    525,
+    450
+   ]
+  },
+  "_source": "cached from d6_batch1/placeholders.json"
+ },
+ "1327/99": {
+  "100848": {
+   "front": [
+    11100,
+    4126
+   ]
+  },
+  "_source": "cached from d6_batch1/placeholders.json"
+ },
+ "1398/99": {
+  "*": {
+   "left_leg_front": [
+    1200,
+    4800
+   ]
+  },
+  "_source": "cached from d6_batch1/placeholders.json"
+ },
+ "220/10": {
+  "41524": {
+   "front": [
+    5250,
+    2625
+   ]
+  },
+  "_note": "double-width sheet (front+back faces); x=0.25 = left half face",
+  "_source": "cached from d6_batch1/placeholders.json"
+ },
+ "2662/10": {
+  "147745": {
+   "front": [
+    15900,
+    13500
+   ]
+  },
+  "147746": {
+   "front": [
+    13500,
+    13500
+   ]
+  },
+  "147747": {
+   "front": [
+    10500,
+    13500
+   ]
+  },
+  "147748": {
+   "front": [
+    10500,
+    14175
+   ]
+  },
+  "_source": "cached from d6_batch1/placeholders.json"
+ },
+ "468/99": {
+  "65045": {
+   "front": [
+    2323,
+    846
+   ],
+   "top_part_to_front": [
+    2335,
+    306
+   ]
+  },
+  "_source": "cached from d6_batch1/placeholders.json"
+ },
+ "531/99": {
+  "68983": {
+   "front": [
+    1043,
+    996
+   ]
+  },
+  "69370": {
+   "front": [
+    954,
+    954
+   ]
+  },
+  "74403": {
+   "front": [
+    978,
+    972
+   ]
+  },
+  "74404": {
+   "front": [
+    866,
+    960
+   ]
+  },
+  "_source": "cached from d6_batch1/placeholders.json"
+ },
+ "568/99": {
+  "70900": {
+   "front": [
+    1800,
+    2056
+   ]
+  },
+  "70904": {
+   "front": [
+    2100,
+    2400
+   ]
+  },
+  "70908": {
+   "front": [
+    2100,
+    2400
+   ]
+  },
+  "71073": {
+   "front": [
+    1500,
+    1714
+   ]
+  },
+  "71079": {
+   "front": [
+    1500,
+    1714
+   ]
+  },
+  "71089": {
+   "front": [
+    1200,
+    1371
+   ]
+  },
+  "_source": "cached from d6_batch1/placeholders.json"
+ },
+ "582/99": {
+  "71665": {
+   "front": [
+    2625,
+    2625
+   ]
+  },
+  "_source": "cached from d6_batch1/placeholders.json"
+ },
+ "39/99": {
+  "24830": {
+   "front": [
+    2631,
+    3156
+   ]
+  },
+  "24641": {
+   "front": [
+    2631,
+    3156
+   ]
+  },
+  "24829": {
+   "front": [
+    2920,
+    3504
+   ]
+  },
+  "24640": {
+   "front": [
+    2920,
+    3504
+   ]
+  },
+  "24828": {
+   "front": [
+    3210,
+    3852
+   ]
+  },
+  "24639": {
+   "front": [
+    3210,
+    3852
+   ]
+  },
+  "24831": {
+   "front": [
+    3210,
+    3852
+   ]
+  },
+  "24642": {
+   "front": [
+    3210,
+    3852
+   ]
+  },
+  "_source": "printify-get-blueprint-variants 2026-11-19 (batch 2)"
+ },
+ "937/99": {
+  "82220": {
+   "front": [
+    4800,
+    3600
+   ]
+  },
+  "_source": "printify-get-blueprint-variants 2026-11-19 (batch 2)"
+ },
+ "1698/99": {
+  "116654": {
+   "front": [
+    1500,
+    705
+   ]
+  },
+  "_source": "printify-get-blueprint-variants 2026-11-19 (batch 2)"
+ }
+}

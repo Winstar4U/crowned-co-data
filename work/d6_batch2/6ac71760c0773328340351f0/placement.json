@@ -1,0 +1,73 @@
+{
+ "product_id": "6ac71760c0773328340351f0",
+ "shop_id": "26418699",
+ "title": "Christmas Mode Dnd Christmas Backpack \u2014 Cheerful Christmas Travel Pack, Gift for Students | Winstar4U",
+ "blueprint_id": 10823,
+ "print_provider_id": 99,
+ "position": "front_dtf",
+ "image_id": "6ac4f05631ea32c8d94fcea3",
+ "image_name": "christmas-mode-dnd.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/11930ed6-73d8-4152-9d18-a6256a5daae8",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "dtf",
+ "visible": true,
+ "updated_at": "2026-10-09 00:46:32+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT-SEVERE (title banner almost entirely cropped, sliver only)",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 1,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.1177,
+  0.1016,
+  0.8823,
+  0.9165
+ ],
+ "current_content_box_in_placeholder": [
+  0.1177,
+  -0.5625,
+  0.8823,
+  1.6107
+ ],
+ "current_inside_safe_frac": {
+  "401444": 0.3061
+ },
+ "effective_px_ratio_after": 2.081,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.488,
+  "scale": 0.41,
+  "angle": 0
+ },
+ "placeholders": {
+  "401444": [
+   2400,
+   900
+  ]
+ },
+ "safe_area_source": {
+  "401444": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "401444": 1.0
+ },
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 26%",
+  "bottom 28%"
+ ],
+ "notes": [
+  "art has opaque WHITE background on dtf print over coloured blank -> visible white patch; needs transparent re-export of same design (placement computed+verified, apply together)",
+  "current: 69.4% of visible content outside safe area (variant 401444)"
+ ],
+ "live_change_made": false
+}
