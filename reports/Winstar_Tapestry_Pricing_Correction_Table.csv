@@ -1,0 +1,385 @@
+#,product_id,design,variant_id,size,cost,us_ship,current_price,net_custpays_ship,netpct_A,net_merchant_absorbs,netpct_B,rec_price_A,rec_price_B,rec_B_netpct,risk
+1,6ac7105d35cf3f6ec802e989,Naughty List Skeleton,41686,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+1,6ac7105d35cf3f6ec802e989,Naughty List Skeleton,46152,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+1,6ac7105d35cf3f6ec802e989,Naughty List Skeleton,41687,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+1,6ac7105d35cf3f6ec802e989,Naughty List Skeleton,46153,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+1,6ac7105d35cf3f6ec802e989,Naughty List Skeleton,45130,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+1,6ac7105d35cf3f6ec802e989,Naughty List Skeleton,46154,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+1,6ac7105d35cf3f6ec802e989,Naughty List Skeleton,61899,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+1,6ac7105d35cf3f6ec802e989,Naughty List Skeleton,46151,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+2,6ac710683925bc76b9037137,Believe Sleigh,41686,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+2,6ac710683925bc76b9037137,Believe Sleigh,46152,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+2,6ac710683925bc76b9037137,Believe Sleigh,41687,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+2,6ac710683925bc76b9037137,Believe Sleigh,46153,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+2,6ac710683925bc76b9037137,Believe Sleigh,45130,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+2,6ac710683925bc76b9037137,Believe Sleigh,46154,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+2,6ac710683925bc76b9037137,Believe Sleigh,61899,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+2,6ac710683925bc76b9037137,Believe Sleigh,46151,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+3,6ac7106435cf3f6ec802e991,Naughty List Vip,41686,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+3,6ac7106435cf3f6ec802e991,Naughty List Vip,46152,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+3,6ac7106435cf3f6ec802e991,Naughty List Vip,41687,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+3,6ac7106435cf3f6ec802e991,Naughty List Vip,46153,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+3,6ac7106435cf3f6ec802e991,Naughty List Vip,45130,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+3,6ac7106435cf3f6ec802e991,Naughty List Vip,46154,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+3,6ac7106435cf3f6ec802e991,Naughty List Vip,61899,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+3,6ac7106435cf3f6ec802e991,Naughty List Vip,46151,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+4,6ac7105750fc6704d30bf882,Naughty List Skeleton V2,41686,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+4,6ac7105750fc6704d30bf882,Naughty List Skeleton V2,46152,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+4,6ac7105750fc6704d30bf882,Naughty List Skeleton V2,41687,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+4,6ac7105750fc6704d30bf882,Naughty List Skeleton V2,46153,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+4,6ac7105750fc6704d30bf882,Naughty List Skeleton V2,45130,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+4,6ac7105750fc6704d30bf882,Naughty List Skeleton V2,46154,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+4,6ac7105750fc6704d30bf882,Naughty List Skeleton V2,61899,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+4,6ac7105750fc6704d30bf882,Naughty List Skeleton V2,46151,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+5,6ac71053f0a0ce97bc0c90c9,Naughty List Resume,41686,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+5,6ac71053f0a0ce97bc0c90c9,Naughty List Resume,46152,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+5,6ac71053f0a0ce97bc0c90c9,Naughty List Resume,41687,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+5,6ac71053f0a0ce97bc0c90c9,Naughty List Resume,46153,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+5,6ac71053f0a0ce97bc0c90c9,Naughty List Resume,45130,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+5,6ac71053f0a0ce97bc0c90c9,Naughty List Resume,46154,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+5,6ac71053f0a0ce97bc0c90c9,Naughty List Resume,61899,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+5,6ac71053f0a0ce97bc0c90c9,Naughty List Resume,46151,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+6,6ac7105007e4149a0f000f30,Naughty Is New Nice,41686,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+6,6ac7105007e4149a0f000f30,Naughty Is New Nice,46152,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+6,6ac7105007e4149a0f000f30,Naughty Is New Nice,41687,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+6,6ac7105007e4149a0f000f30,Naughty Is New Nice,46153,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+6,6ac7105007e4149a0f000f30,Naughty Is New Nice,45130,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+6,6ac7105007e4149a0f000f30,Naughty Is New Nice,46154,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+6,6ac7105007e4149a0f000f30,Naughty Is New Nice,61899,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+6,6ac7105007e4149a0f000f30,Naughty Is New Nice,46151,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+7,6ac7104c50fc6704d30bf872,My Elf Made Me,41686,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+7,6ac7104c50fc6704d30bf872,My Elf Made Me,46152,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+7,6ac7104c50fc6704d30bf872,My Elf Made Me,41687,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+7,6ac7104c50fc6704d30bf872,My Elf Made Me,46153,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+7,6ac7104c50fc6704d30bf872,My Elf Made Me,45130,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+7,6ac7104c50fc6704d30bf872,My Elf Made Me,46154,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+7,6ac7104c50fc6704d30bf872,My Elf Made Me,61899,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+7,6ac7104c50fc6704d30bf872,My Elf Made Me,46151,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+8,6ac70f688d1d4341750196d5,Merry Everything Happy Always,41686,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+8,6ac70f688d1d4341750196d5,Merry Everything Happy Always,46152,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+8,6ac70f688d1d4341750196d5,Merry Everything Happy Always,41687,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+8,6ac70f688d1d4341750196d5,Merry Everything Happy Always,46153,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+8,6ac70f688d1d4341750196d5,Merry Everything Happy Always,45130,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+8,6ac70f688d1d4341750196d5,Merry Everything Happy Always,46154,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+8,6ac70f688d1d4341750196d5,Merry Everything Happy Always,61899,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+8,6ac70f688d1d4341750196d5,Merry Everything Happy Always,46151,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+9,6ac70f648d1d4341750196d2,Merry Christmas Lets Get Lit,41686,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+9,6ac70f648d1d4341750196d2,Merry Christmas Lets Get Lit,46152,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+9,6ac70f648d1d4341750196d2,Merry Christmas Lets Get Lit,41687,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+9,6ac70f648d1d4341750196d2,Merry Christmas Lets Get Lit,46153,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+9,6ac70f648d1d4341750196d2,Merry Christmas Lets Get Lit,45130,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+9,6ac70f648d1d4341750196d2,Merry Christmas Lets Get Lit,46154,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+9,6ac70f648d1d4341750196d2,Merry Christmas Lets Get Lit,61899,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+9,6ac70f648d1d4341750196d2,Merry Christmas Lets Get Lit,46151,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+10,6ac70f5e050d0f25a7091835,Jingle Bells Santa Smells,41686,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+10,6ac70f5e050d0f25a7091835,Jingle Bells Santa Smells,46152,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+10,6ac70f5e050d0f25a7091835,Jingle Bells Santa Smells,41687,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+10,6ac70f5e050d0f25a7091835,Jingle Bells Santa Smells,46153,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+10,6ac70f5e050d0f25a7091835,Jingle Bells Santa Smells,45130,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+10,6ac70f5e050d0f25a7091835,Jingle Bells Santa Smells,46154,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+10,6ac70f5e050d0f25a7091835,Jingle Bells Santa Smells,61899,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+10,6ac70f5e050d0f25a7091835,Jingle Bells Santa Smells,46151,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+11,6ac70f5a7be9df884b032c20,Jingle All Way Liquor,41686,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+11,6ac70f5a7be9df884b032c20,Jingle All Way Liquor,46152,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+11,6ac70f5a7be9df884b032c20,Jingle All Way Liquor,41687,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+11,6ac70f5a7be9df884b032c20,Jingle All Way Liquor,46153,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+11,6ac70f5a7be9df884b032c20,Jingle All Way Liquor,45130,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+11,6ac70f5a7be9df884b032c20,Jingle All Way Liquor,46154,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+11,6ac70f5a7be9df884b032c20,Jingle All Way Liquor,61899,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+11,6ac70f5a7be9df884b032c20,Jingle All Way Liquor,46151,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+12,6ac70f57b814691321003642,Ill Be Home Christmas Probably,41686,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+12,6ac70f57b814691321003642,Ill Be Home Christmas Probably,46152,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+12,6ac70f57b814691321003642,Ill Be Home Christmas Probably,41687,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+12,6ac70f57b814691321003642,Ill Be Home Christmas Probably,46153,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+12,6ac70f57b814691321003642,Ill Be Home Christmas Probably,45130,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+12,6ac70f57b814691321003642,Ill Be Home Christmas Probably,46154,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+12,6ac70f57b814691321003642,Ill Be Home Christmas Probably,61899,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+12,6ac70f57b814691321003642,Ill Be Home Christmas Probably,46151,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+13,6ac70f46b7d78a62480e726a,Walk By Faith,41686,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+13,6ac70f46b7d78a62480e726a,Walk By Faith,46152,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+13,6ac70f46b7d78a62480e726a,Walk By Faith,41687,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+13,6ac70f46b7d78a62480e726a,Walk By Faith,46153,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+13,6ac70f46b7d78a62480e726a,Walk By Faith,45130,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+13,6ac70f46b7d78a62480e726a,Walk By Faith,46154,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+13,6ac70f46b7d78a62480e726a,Walk By Faith,61899,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+13,6ac70f46b7d78a62480e726a,Walk By Faith,46151,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+14,6ac70f42f0a0ce97bc0c9036,Thankful Grateful Blesse,41686,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+14,6ac70f42f0a0ce97bc0c9036,Thankful Grateful Blesse,46152,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+14,6ac70f42f0a0ce97bc0c9036,Thankful Grateful Blesse,41687,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+14,6ac70f42f0a0ce97bc0c9036,Thankful Grateful Blesse,46153,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+14,6ac70f42f0a0ce97bc0c9036,Thankful Grateful Blesse,45130,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+14,6ac70f42f0a0ce97bc0c9036,Thankful Grateful Blesse,46154,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+14,6ac70f42f0a0ce97bc0c9036,Thankful Grateful Blesse,61899,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+14,6ac70f42f0a0ce97bc0c9036,Thankful Grateful Blesse,46151,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+15,6ac70f6c35a66ab7dc0b0e7a,Morning Person Dec25 Skeleton,41686,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+15,6ac70f6c35a66ab7dc0b0e7a,Morning Person Dec25 Skeleton,46152,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+15,6ac70f6c35a66ab7dc0b0e7a,Morning Person Dec25 Skeleton,41687,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+15,6ac70f6c35a66ab7dc0b0e7a,Morning Person Dec25 Skeleton,46153,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+15,6ac70f6c35a66ab7dc0b0e7a,Morning Person Dec25 Skeleton,45130,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+15,6ac70f6c35a66ab7dc0b0e7a,Morning Person Dec25 Skeleton,46154,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+15,6ac70f6c35a66ab7dc0b0e7a,Morning Person Dec25 Skeleton,61899,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+15,6ac70f6c35a66ab7dc0b0e7a,Morning Person Dec25 Skeleton,46151,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+16,6ac70f3ff0a0ce97bc0c9033,Savior Born Manger,41686,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+16,6ac70f3ff0a0ce97bc0c9033,Savior Born Manger,46152,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+16,6ac70f3ff0a0ce97bc0c9033,Savior Born Manger,41687,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+16,6ac70f3ff0a0ce97bc0c9033,Savior Born Manger,46153,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+16,6ac70f3ff0a0ce97bc0c9033,Savior Born Manger,45130,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+16,6ac70f3ff0a0ce97bc0c9033,Savior Born Manger,46154,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+16,6ac70f3ff0a0ce97bc0c9033,Savior Born Manger,61899,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+16,6ac70f3ff0a0ce97bc0c9033,Savior Born Manger,46151,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+17,6ac70f3bb814691321003633,Rejoice Star,41686,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+17,6ac70f3bb814691321003633,Rejoice Star,46152,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+17,6ac70f3bb814691321003633,Rejoice Star,41687,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+17,6ac70f3bb814691321003633,Rejoice Star,46153,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+17,6ac70f3bb814691321003633,Rejoice Star,45130,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+17,6ac70f3bb814691321003633,Rejoice Star,46154,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+17,6ac70f3bb814691321003633,Rejoice Star,61899,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+17,6ac70f3bb814691321003633,Rejoice Star,46151,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+18,6ac70f38e2a15b126002666a,Reason For Season,41686,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+18,6ac70f38e2a15b126002666a,Reason For Season,46152,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+18,6ac70f38e2a15b126002666a,Reason For Season,41687,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+18,6ac70f38e2a15b126002666a,Reason For Season,46153,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+18,6ac70f38e2a15b126002666a,Reason For Season,45130,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+18,6ac70f38e2a15b126002666a,Reason For Season,46154,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+18,6ac70f38e2a15b126002666a,Reason For Season,61899,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+18,6ac70f38e2a15b126002666a,Reason For Season,46151,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+19,6ac70f3435cf3f6ec802e902,O Holy Night,41686,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+19,6ac70f3435cf3f6ec802e902,O Holy Night,46152,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+19,6ac70f3435cf3f6ec802e902,O Holy Night,41687,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+19,6ac70f3435cf3f6ec802e902,O Holy Night,46153,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+19,6ac70f3435cf3f6ec802e902,O Holy Night,45130,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+19,6ac70f3435cf3f6ec802e902,O Holy Night,46154,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+19,6ac70f3435cf3f6ec802e902,O Holy Night,61899,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+19,6ac70f3435cf3f6ec802e902,O Holy Night,46151,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+20,6ac70f310a720c0b670cc5f9,Keep Christ Christmas,41686,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+20,6ac70f310a720c0b670cc5f9,Keep Christ Christmas,46152,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+20,6ac70f310a720c0b670cc5f9,Keep Christ Christmas,41687,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+20,6ac70f310a720c0b670cc5f9,Keep Christ Christmas,46153,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+20,6ac70f310a720c0b670cc5f9,Keep Christ Christmas,45130,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+20,6ac70f310a720c0b670cc5f9,Keep Christ Christmas,46154,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+20,6ac70f310a720c0b670cc5f9,Keep Christ Christmas,61899,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+20,6ac70f310a720c0b670cc5f9,Keep Christ Christmas,46151,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+21,6ac70f2df0a0ce97bc0c9025,Joy To World Christian,41686,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+21,6ac70f2df0a0ce97bc0c9025,Joy To World Christian,46152,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+21,6ac70f2df0a0ce97bc0c9025,Joy To World Christian,41687,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+21,6ac70f2df0a0ce97bc0c9025,Joy To World Christian,46153,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+21,6ac70f2df0a0ce97bc0c9025,Joy To World Christian,45130,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+21,6ac70f2df0a0ce97bc0c9025,Joy To World Christian,46154,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+21,6ac70f2df0a0ce97bc0c9025,Joy To World Christian,61899,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+21,6ac70f2df0a0ce97bc0c9025,Joy To World Christian,46151,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+22,6ac70f2982fcbdd37b039f21,Hallelujah Angels,41686,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+22,6ac70f2982fcbdd37b039f21,Hallelujah Angels,46152,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+22,6ac70f2982fcbdd37b039f21,Hallelujah Angels,41687,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+22,6ac70f2982fcbdd37b039f21,Hallelujah Angels,46153,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+22,6ac70f2982fcbdd37b039f21,Hallelujah Angels,45130,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+22,6ac70f2982fcbdd37b039f21,Hallelujah Angels,46154,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+22,6ac70f2982fcbdd37b039f21,Hallelujah Angels,61899,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+22,6ac70f2982fcbdd37b039f21,Hallelujah Angels,46151,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+23,6ac70f264e8c3a1ca906ec62,Greatest Gift,41686,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+23,6ac70f264e8c3a1ca906ec62,Greatest Gift,46152,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+23,6ac70f264e8c3a1ca906ec62,Greatest Gift,41687,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+23,6ac70f264e8c3a1ca906ec62,Greatest Gift,46153,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+23,6ac70f264e8c3a1ca906ec62,Greatest Gift,45130,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+23,6ac70f264e8c3a1ca906ec62,Greatest Gift,46154,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+23,6ac70f264e8c3a1ca906ec62,Greatest Gift,61899,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+23,6ac70f264e8c3a1ca906ec62,Greatest Gift,46151,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+24,6ac70f238d1d4341750196b5,God Bless Christmas,41686,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+24,6ac70f238d1d4341750196b5,God Bless Christmas,46152,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+24,6ac70f238d1d4341750196b5,God Bless Christmas,41687,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+24,6ac70f238d1d4341750196b5,God Bless Christmas,46153,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+24,6ac70f238d1d4341750196b5,God Bless Christmas,45130,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+24,6ac70f238d1d4341750196b5,God Bless Christmas,46154,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+24,6ac70f238d1d4341750196b5,God Bless Christmas,61899,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+24,6ac70f238d1d4341750196b5,God Bless Christmas,46151,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+25,6ac70f1f07e4149a0f000ec0,Glory To God,41686,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+25,6ac70f1f07e4149a0f000ec0,Glory To God,46152,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+25,6ac70f1f07e4149a0f000ec0,Glory To God,41687,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+25,6ac70f1f07e4149a0f000ec0,Glory To God,46153,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+25,6ac70f1f07e4149a0f000ec0,Glory To God,45130,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+25,6ac70f1f07e4149a0f000ec0,Glory To God,46154,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+25,6ac70f1f07e4149a0f000ec0,Glory To God,61899,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+25,6ac70f1f07e4149a0f000ec0,Glory To God,46151,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+26,6ac70f1c57527ce5fd019598,Christ Is Born,41686,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+26,6ac70f1c57527ce5fd019598,Christ Is Born,46152,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+26,6ac70f1c57527ce5fd019598,Christ Is Born,41687,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+26,6ac70f1c57527ce5fd019598,Christ Is Born,46153,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+26,6ac70f1c57527ce5fd019598,Christ Is Born,45130,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+26,6ac70f1c57527ce5fd019598,Christ Is Born,46154,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+26,6ac70f1c57527ce5fd019598,Christ Is Born,61899,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+26,6ac70f1c57527ce5fd019598,Christ Is Born,46151,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+27,6ac70f197be9df884b032bfd,Blessed Christmas,41686,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+27,6ac70f197be9df884b032bfd,Blessed Christmas,46152,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+27,6ac70f197be9df884b032bfd,Blessed Christmas,41687,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+27,6ac70f197be9df884b032bfd,Blessed Christmas,46153,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+27,6ac70f197be9df884b032bfd,Blessed Christmas,45130,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+27,6ac70f197be9df884b032bfd,Blessed Christmas,46154,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+27,6ac70f197be9df884b032bfd,Blessed Christmas,61899,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+27,6ac70f197be9df884b032bfd,Blessed Christmas,46151,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+28,6ac70f1550fc6704d30bf7f7,Amazing Grace,41686,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+28,6ac70f1550fc6704d30bf7f7,Amazing Grace,46152,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+28,6ac70f1550fc6704d30bf7f7,Amazing Grace,41687,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+28,6ac70f1550fc6704d30bf7f7,Amazing Grace,46153,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+28,6ac70f1550fc6704d30bf7f7,Amazing Grace,45130,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+28,6ac70f1550fc6704d30bf7f7,Amazing Grace,46154,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+28,6ac70f1550fc6704d30bf7f7,Amazing Grace,61899,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+28,6ac70f1550fc6704d30bf7f7,Amazing Grace,46151,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+29,6ac70f0e4bfa32451c0548c9,Elegantly Wasted Martini,41686,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+29,6ac70f0e4bfa32451c0548c9,Elegantly Wasted Martini,46152,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+29,6ac70f0e4bfa32451c0548c9,Elegantly Wasted Martini,41687,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+29,6ac70f0e4bfa32451c0548c9,Elegantly Wasted Martini,46153,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+29,6ac70f0e4bfa32451c0548c9,Elegantly Wasted Martini,45130,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+29,6ac70f0e4bfa32451c0548c9,Elegantly Wasted Martini,46154,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+29,6ac70f0e4bfa32451c0548c9,Elegantly Wasted Martini,61899,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+29,6ac70f0e4bfa32451c0548c9,Elegantly Wasted Martini,46151,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+30,6ac70f0be2a15b126002665d,Eggnog Recovery Skeleton,41686,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+30,6ac70f0be2a15b126002665d,Eggnog Recovery Skeleton,46152,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+30,6ac70f0be2a15b126002665d,Eggnog Recovery Skeleton,41687,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+30,6ac70f0be2a15b126002665d,Eggnog Recovery Skeleton,46153,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+30,6ac70f0be2a15b126002665d,Eggnog Recovery Skeleton,45130,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+30,6ac70f0be2a15b126002665d,Eggnog Recovery Skeleton,46154,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+30,6ac70f0be2a15b126002665d,Eggnog Recovery Skeleton,61899,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+30,6ac70f0be2a15b126002665d,Eggnog Recovery Skeleton,46151,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+31,6ac70f07b8d5d3e719012fa2,Dreaming Stress Free Christmas,41686,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+31,6ac70f07b8d5d3e719012fa2,Dreaming Stress Free Christmas,46152,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+31,6ac70f07b8d5d3e719012fa2,Dreaming Stress Free Christmas,41687,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+31,6ac70f07b8d5d3e719012fa2,Dreaming Stress Free Christmas,46153,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+31,6ac70f07b8d5d3e719012fa2,Dreaming Stress Free Christmas,45130,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+31,6ac70f07b8d5d3e719012fa2,Dreaming Stress Free Christmas,46154,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+31,6ac70f07b8d5d3e719012fa2,Dreaming Stress Free Christmas,61899,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+31,6ac70f07b8d5d3e719012fa2,Dreaming Stress Free Christmas,46151,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+32,6ac70f0457527ce5fd01958e,Deck The Halls Sit Down,41686,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+32,6ac70f0457527ce5fd01958e,Deck The Halls Sit Down,46152,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+32,6ac70f0457527ce5fd01958e,Deck The Halls Sit Down,41687,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+32,6ac70f0457527ce5fd01958e,Deck The Halls Sit Down,46153,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+32,6ac70f0457527ce5fd01958e,Deck The Halls Sit Down,45130,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+32,6ac70f0457527ce5fd01958e,Deck The Halls Sit Down,46154,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+32,6ac70f0457527ce5fd01958e,Deck The Halls Sit Down,61899,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+32,6ac70f0457527ce5fd01958e,Deck The Halls Sit Down,46151,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+33,6ac70f01b7d78a62480e7250,Dear Santa Explain,41686,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+33,6ac70f01b7d78a62480e7250,Dear Santa Explain,46152,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+33,6ac70f01b7d78a62480e7250,Dear Santa Explain,41687,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+33,6ac70f01b7d78a62480e7250,Dear Santa Explain,46153,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+33,6ac70f01b7d78a62480e7250,Dear Santa Explain,45130,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+33,6ac70f01b7d78a62480e7250,Dear Santa Explain,46154,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+33,6ac70f01b7d78a62480e7250,Dear Santa Explain,61899,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+33,6ac70f01b7d78a62480e7250,Dear Santa Explain,46151,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+34,6ac70efd050d0f25a7091808,Dear Santa Explain Santa,41686,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+34,6ac70efd050d0f25a7091808,Dear Santa Explain Santa,46152,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+34,6ac70efd050d0f25a7091808,Dear Santa Explain Santa,41687,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+34,6ac70efd050d0f25a7091808,Dear Santa Explain Santa,46153,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+34,6ac70efd050d0f25a7091808,Dear Santa Explain Santa,45130,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+34,6ac70efd050d0f25a7091808,Dear Santa Explain Santa,46154,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+34,6ac70efd050d0f25a7091808,Dear Santa Explain Santa,61899,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+34,6ac70efd050d0f25a7091808,Dear Santa Explain Santa,46151,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+35,6ac70ef635a66ab7dc0b0e4f,Dear Santa Bank Account,41686,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+35,6ac70ef635a66ab7dc0b0e4f,Dear Santa Bank Account,46152,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+35,6ac70ef635a66ab7dc0b0e4f,Dear Santa Bank Account,41687,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+35,6ac70ef635a66ab7dc0b0e4f,Dear Santa Bank Account,46153,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+35,6ac70ef635a66ab7dc0b0e4f,Dear Santa Bank Account,45130,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+35,6ac70ef635a66ab7dc0b0e4f,Dear Santa Bank Account,46154,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+35,6ac70ef635a66ab7dc0b0e4f,Dear Santa Bank Account,61899,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+35,6ac70ef635a66ab7dc0b0e4f,Dear Santa Bank Account,46151,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+36,6ac70ef3f0a0ce97bc0c9005,Corkscrew Wine Repeat,41686,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+36,6ac70ef3f0a0ce97bc0c9005,Corkscrew Wine Repeat,46152,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+36,6ac70ef3f0a0ce97bc0c9005,Corkscrew Wine Repeat,41687,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+36,6ac70ef3f0a0ce97bc0c9005,Corkscrew Wine Repeat,46153,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+36,6ac70ef3f0a0ce97bc0c9005,Corkscrew Wine Repeat,45130,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+36,6ac70ef3f0a0ce97bc0c9005,Corkscrew Wine Repeat,46154,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+36,6ac70ef3f0a0ce97bc0c9005,Corkscrew Wine Repeat,61899,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+36,6ac70ef3f0a0ce97bc0c9005,Corkscrew Wine Repeat,46151,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+37,6ac70eec050d0f25a70917fe,Christmas Vacation Canceled,41686,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+37,6ac70eec050d0f25a70917fe,Christmas Vacation Canceled,46152,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+37,6ac70eec050d0f25a70917fe,Christmas Vacation Canceled,41687,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+37,6ac70eec050d0f25a70917fe,Christmas Vacation Canceled,46153,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+37,6ac70eec050d0f25a70917fe,Christmas Vacation Canceled,45130,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+37,6ac70eec050d0f25a70917fe,Christmas Vacation Canceled,46154,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+37,6ac70eec050d0f25a70917fe,Christmas Vacation Canceled,61899,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+37,6ac70eec050d0f25a70917fe,Christmas Vacation Canceled,46151,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+38,6ac70ee97be9df884b032bf4,Christmas Stress Tinsel Done,41686,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+38,6ac70ee97be9df884b032bf4,Christmas Stress Tinsel Done,46152,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+38,6ac70ee97be9df884b032bf4,Christmas Stress Tinsel Done,41687,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+38,6ac70ee97be9df884b032bf4,Christmas Stress Tinsel Done,46153,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+38,6ac70ee97be9df884b032bf4,Christmas Stress Tinsel Done,45130,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+38,6ac70ee97be9df884b032bf4,Christmas Stress Tinsel Done,46154,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+38,6ac70ee97be9df884b032bf4,Christmas Stress Tinsel Done,61899,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+38,6ac70ee97be9df884b032bf4,Christmas Stress Tinsel Done,46151,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+39,6ac70ee582fcbdd37b039f09,Christmas Party Survivor,41686,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+39,6ac70ee582fcbdd37b039f09,Christmas Party Survivor,46152,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+39,6ac70ee582fcbdd37b039f09,Christmas Party Survivor,41687,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+39,6ac70ee582fcbdd37b039f09,Christmas Party Survivor,46153,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+39,6ac70ee582fcbdd37b039f09,Christmas Party Survivor,45130,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+39,6ac70ee582fcbdd37b039f09,Christmas Party Survivor,46154,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+39,6ac70ee582fcbdd37b039f09,Christmas Party Survivor,61899,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+39,6ac70ee582fcbdd37b039f09,Christmas Party Survivor,46151,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+40,6ac70ee20aa3686f380d3c1a,Christmas Open Bar,41686,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+40,6ac70ee20aa3686f380d3c1a,Christmas Open Bar,46152,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+40,6ac70ee20aa3686f380d3c1a,Christmas Open Bar,41687,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+40,6ac70ee20aa3686f380d3c1a,Christmas Open Bar,46153,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+40,6ac70ee20aa3686f380d3c1a,Christmas Open Bar,45130,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+40,6ac70ee20aa3686f380d3c1a,Christmas Open Bar,46154,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+40,6ac70ee20aa3686f380d3c1a,Christmas Open Bar,61899,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+40,6ac70ee20aa3686f380d3c1a,Christmas Open Bar,46151,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+41,6ac70edefa3cae10170ef939,Christmas Mode Dnd,41686,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+41,6ac70edefa3cae10170ef939,Christmas Mode Dnd,46152,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+41,6ac70edefa3cae10170ef939,Christmas Mode Dnd,41687,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+41,6ac70edefa3cae10170ef939,Christmas Mode Dnd,46153,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+41,6ac70edefa3cae10170ef939,Christmas Mode Dnd,45130,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+41,6ac70edefa3cae10170ef939,Christmas Mode Dnd,46154,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+41,6ac70edefa3cae10170ef939,Christmas Mode Dnd,61899,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+41,6ac70edefa3cae10170ef939,Christmas Mode Dnd,46151,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+42,6ac70edb3925bc76b90370a4,Christmas Lights Therapy,41686,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+42,6ac70edb3925bc76b90370a4,Christmas Lights Therapy,46152,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+42,6ac70edb3925bc76b90370a4,Christmas Lights Therapy,41687,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+42,6ac70edb3925bc76b90370a4,Christmas Lights Therapy,46153,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+42,6ac70edb3925bc76b90370a4,Christmas Lights Therapy,45130,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+42,6ac70edb3925bc76b90370a4,Christmas Lights Therapy,46154,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+42,6ac70edb3925bc76b90370a4,Christmas Lights Therapy,61899,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+42,6ac70edb3925bc76b90370a4,Christmas Lights Therapy,46151,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+43,6ac70ed80aa3686f380d3c07,Christmas Excuse Eat King,41686,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+43,6ac70ed80aa3686f380d3c07,Christmas Excuse Eat King,46152,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+43,6ac70ed80aa3686f380d3c07,Christmas Excuse Eat King,41687,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+43,6ac70ed80aa3686f380d3c07,Christmas Excuse Eat King,46153,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+43,6ac70ed80aa3686f380d3c07,Christmas Excuse Eat King,45130,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+43,6ac70ed80aa3686f380d3c07,Christmas Excuse Eat King,46154,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+43,6ac70ed80aa3686f380d3c07,Christmas Excuse Eat King,61899,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+43,6ac70ed80aa3686f380d3c07,Christmas Excuse Eat King,46151,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+44,6ac70ed44bfa32451c0548a4,Christmas Eat No January,41686,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+44,6ac70ed44bfa32451c0548a4,Christmas Eat No January,46152,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+44,6ac70ed44bfa32451c0548a4,Christmas Eat No January,41687,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+44,6ac70ed44bfa32451c0548a4,Christmas Eat No January,46153,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+44,6ac70ed44bfa32451c0548a4,Christmas Eat No January,45130,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+44,6ac70ed44bfa32451c0548a4,Christmas Eat No January,46154,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+44,6ac70ed44bfa32451c0548a4,Christmas Eat No January,61899,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+44,6ac70ed44bfa32451c0548a4,Christmas Eat No January,46151,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+45,6ac70ed157527ce5fd01957a,Christmas Eat No January V2,41686,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+45,6ac70ed157527ce5fd01957a,Christmas Eat No January V2,46152,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+45,6ac70ed157527ce5fd01957a,Christmas Eat No January V2,41687,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+45,6ac70ed157527ce5fd01957a,Christmas Eat No January V2,46153,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+45,6ac70ed157527ce5fd01957a,Christmas Eat No January V2,45130,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+45,6ac70ed157527ce5fd01957a,Christmas Eat No January V2,46154,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+45,6ac70ed157527ce5fd01957a,Christmas Eat No January V2,61899,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+45,6ac70ed157527ce5fd01957a,Christmas Eat No January V2,46151,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+46,6ac70ecd0a720c0b670cc5cd,Christmas Calories Dont Count,41686,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+46,6ac70ecd0a720c0b670cc5cd,Christmas Calories Dont Count,46152,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+46,6ac70ecd0a720c0b670cc5cd,Christmas Calories Dont Count,41687,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+46,6ac70ecd0a720c0b670cc5cd,Christmas Calories Dont Count,46153,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+46,6ac70ecd0a720c0b670cc5cd,Christmas Calories Dont Count,45130,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+46,6ac70ecd0a720c0b670cc5cd,Christmas Calories Dont Count,46154,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+46,6ac70ecd0a720c0b670cc5cd,Christmas Calories Dont Count,61899,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+46,6ac70ecd0a720c0b670cc5cd,Christmas Calories Dont Count,46151,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+47,6ac70ec389967c5f7c00511f,Christmas 2026 Caffeine Panic,41686,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+47,6ac70ec389967c5f7c00511f,Christmas 2026 Caffeine Panic,46152,26x36/36x26,16.75,5.69,30.99,11.49,37.1%,5.8,18.7%,30.99,31.99,21.0,AMBER-profit <20% net if shipping absorbed
+47,6ac70ec389967c5f7c00511f,Christmas 2026 Caffeine Panic,41687,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+47,6ac70ec389967c5f7c00511f,Christmas 2026 Caffeine Panic,46153,50x60/60x50,24.59,6.99,30.99,3.65,11.8%,-3.34,-10.8%,34.99,44.99,21.2,AMBER-profit <20% net either way
+47,6ac70ec389967c5f7c00511f,Christmas 2026 Caffeine Panic,45130,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+47,6ac70ec389967c5f7c00511f,Christmas 2026 Caffeine Panic,46154,68x80/80x68,36.05,9.29,30.99,-7.81,-25.2%,-17.1,-55.2%,50.99,63.99,20.8,RED-below cost
+47,6ac70ec389967c5f7c00511f,Christmas 2026 Caffeine Panic,61899,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+47,6ac70ec389967c5f7c00511f,Christmas 2026 Caffeine Panic,46151,88x104/104x88,47.62,9.29,30.99,-19.38,-62.5%,-28.67,-92.5%,66.99,79.99,20.6,RED-below cost
+48,6ac70ebbf0a0ce97bc0c8ff2,Chic Happens Cocktail,41686,26x36/36x26,16.75,5.69,34.99,15.18,43.4%,9.49,27.1%,34.99,34.99,27.1,GREEN
+48,6ac70ebbf0a0ce97bc0c8ff2,Chic Happens Cocktail,46152,26x36/36x26,16.75,5.69,34.99,15.18,43.4%,9.49,27.1%,34.99,34.99,27.1,GREEN
+48,6ac70ebbf0a0ce97bc0c8ff2,Chic Happens Cocktail,41687,50x60/60x50,24.59,6.99,34.99,7.34,21.0%,0.35,1.0%,34.99,44.99,21.2,AMBER-profit <20% net if shipping absorbed
+48,6ac70ebbf0a0ce97bc0c8ff2,Chic Happens Cocktail,46153,50x60/60x50,24.59,6.99,34.99,7.34,21.0%,0.35,1.0%,34.99,44.99,21.2,AMBER-profit <20% net if shipping absorbed
+48,6ac70ebbf0a0ce97bc0c8ff2,Chic Happens Cocktail,45130,68x80/80x68,36.05,9.29,40.99,1.4,3.4%,-7.89,-19.2%,50.99,63.99,20.8,AMBER-profit <20% net either way
+48,6ac70ebbf0a0ce97bc0c8ff2,Chic Happens Cocktail,46154,68x80/80x68,36.05,9.29,40.99,1.4,3.4%,-7.89,-19.2%,50.99,63.99,20.8,AMBER-profit <20% net either way
+48,6ac70ebbf0a0ce97bc0c8ff2,Chic Happens Cocktail,61899,88x104/104x88,47.62,9.29,52.99,0.88,1.7%,-8.41,-15.9%,66.99,79.99,20.6,AMBER-profit <20% net either way
+48,6ac70ebbf0a0ce97bc0c8ff2,Chic Happens Cocktail,46151,88x104/104x88,47.62,9.29,52.99,0.88,1.7%,-8.41,-15.9%,66.99,79.99,20.6,AMBER-profit <20% net either way
