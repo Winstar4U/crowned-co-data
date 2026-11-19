@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="front" width="100%" height="100%" viewBox="0 0 3359.16 3359.16" xmlns:printify="http://printify.com/adjuster"  printify:width="888.78" printify:height="888.78">
+  <defs>
+    <clipPath id="clippath">
+      <rect x="0" y="665.89" width="3359.16" height="1679.58" fill="none"/>
+    </clipPath>
+  <image x="0" y="0" width="3359.16" height="3359.16" id="fabric-image"/><path d="" id="fabric-0"/><clipPath id="fabric-0-clip"><use xlink:href="#fabric-0"/></clipPath><path d="" id="fabric-1"/><clipPath id="fabric-1-clip"><use xlink:href="#fabric-1"/></clipPath><rect id="_front-path" width="3359.16" height="1679.58" fill="none" transform=""/><clipPath><use stroke-width="3.7032499999999997mm" xlink:href="#_front-path"/></clipPath></defs>
+  <g id="color_first" fill-rule="nonzero" fill="#fff"><use xlink:href="#fabric-0"/><use clip-path="url(#fabric-0-clip)" xlink:href="#fabric-image"/>
+    <g clip-path="url(#clippath)">
+      <rect id="color_background" x="0" y="665.89" width="3359.16" height="1679.58" fill="#fff" fill-rule="nonzero"><use xlink:href="#fabric-1"/><use clip-path="url(#fabric-1-clip)" xlink:href="#fabric-image"/></rect>
+      
+    <g clip-path="url(#_front-clippath)" transform="translate(0 665.89)"><svg id="placeholder_front" width="3359.16" height="1679.58" preserveAspectRatio="xMidYMid slice" viewBox="0 0 3359.16 1679.58"><use stroke-width="3.7032499999999997mm" xlink:href="#_front-path" stroke="#ffffff"/><use stroke-width="3.7032499999999997mm" xlink:href="#_front-path" stroke="#000000" stroke-dasharray="7.406499999999999mm, 7.406499999999999mm"/></svg></g></g>
+  </g>
+  <g id="outlines">
+    <path d="M0,665.89v1679.58h3359.16V665.89H0ZM1535.26,2202.92H143.63V811.29h1391.63v1391.63ZM3215.56,2202.92h-1391.63V811.29h1391.63v1391.63Z" fill="#fff" opacity=".4"/>
+    <path d="M0,665.89v1679.58h3359.16V665.89H0ZM1535.26,2202.92H143.63V811.29h1391.63v1391.63ZM3215.56,2202.92h-1391.63V811.29h1391.63v1391.63Z" opacity=".4"/>
+    <path id="Safe area" d="M143.63,811.29h1391.63v1391.63H143.63V811.29ZM1823.93,811.29h1391.63v1391.63h-1391.63V811.29Z" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="2.67"/>
+    <path id="Safe area" d="M143.63,811.29h1391.63v1391.63H143.63V811.29ZM1823.93,811.29h1391.63v1391.63h-1391.63V811.29Z" fill="none" stroke="#000" stroke-dasharray="26.67 26.67 0 0" stroke-linejoin="round" stroke-width="2.67"/>
+    <path id="Print" d="M1752.88,738.29h1535.6v1535.6h-1535.6V738.29ZM71.65,738.74h1535.6v1535.6H71.65V738.74Z" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="4.45"/>
+    <line x1="1680.48" y1="2345.47" x2="1680.21" y2="665.89" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="1.78"/>
+    <g id="Icons">
+      <g>
+        <path d="M2776.36,2669.01s-69.26,103.38-187.28,103.38h-138.67c-118.02,0-187.28-103.38-187.28-103.38" fill="none" stroke="#14c95d" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
+        <g>
+          <path d="M2263.14,2669.01s74.81-130.23,256.61-130.23" fill="none" stroke="#c5c5c5" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
+          <path d="M2519.75,2538.78c181.8,0,256.61,130.23,256.61,130.23" fill="none" stroke="#c5c5c5" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
+        </g>
+        <polyline points="2263.14 2672.01 2493.48 2672.01 2519.75 2672.01 2776.36 2672.01" fill="none" stroke="#14c95d" stroke-dasharray="14 16" stroke-linecap="round" stroke-linejoin="round" stroke-width="6"/>
+      </g>
+      <g>
+        <path d="M1097.96,2669.26s-69.77,104.15-188.66,104.15h-139.69c-118.89,0-188.66-104.15-188.66-104.15" fill="none" stroke="#c5c5c5" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
+        <g>
+          <path d="M580.96,2669.26s75.36-131.2,258.5-131.2" fill="none" stroke="#14c95d" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
+          <path d="M839.46,2538.07c183.14,0,258.5,131.2,258.5,131.2" fill="none" stroke="#14c95d" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
+        </g>
+        <polyline points="580.96 2672.28 812.99 2672.28 839.46 2672.28 1097.96 2672.28" fill="none" stroke="#14c95d" stroke-dasharray="14 16" stroke-linecap="round" stroke-linejoin="round" stroke-width="6"/>
+      </g>
+    </g>
+  </g>
+</svg>

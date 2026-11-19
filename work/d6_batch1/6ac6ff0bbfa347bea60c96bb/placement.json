@@ -1,0 +1,72 @@
+{
+ "product_id": "6ac6ff0bbfa347bea60c96bb",
+ "shop_id": "26418699",
+ "title": "\"Elegantly Wasted Martini\" Christmas 15oz Ceramic Mug \u2014 Festive Holiday 15oz Ceramic Mug Gift | Winstar4U",
+ "blueprint_id": 425,
+ "print_provider_id": 1,
+ "position": "front",
+ "image_id": "6ac86086617e2e87727c938d",
+ "image_name": "elegantly-wasted-martini.png-TRANSPARENT.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/f31b6ed0-5dc6-42d8-8903-bb90152f6b24",
+ "image_px": [
+  1276,
+  1516
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 12:14:19+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT \u2014 bottom of text cropped at print-window edge (\"SINCE 2026\" cut off)",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.46,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0078,
+  0.0066,
+  0.9922,
+  0.9934
+ ],
+ "current_content_box_in_placeholder": [
+  0.2736,
+  -0.1172,
+  0.7264,
+  1.1172
+ ],
+ "current_inside_safe_frac": {
+  "62014": 0.7523
+ },
+ "effective_px_ratio_after": 1.412,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.324,
+  "angle": 0
+ },
+ "placeholders": {
+  "62014": [
+   2790,
+   1219
+  ]
+ },
+ "safe_area_source": {
+  "62014": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "62014": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "LOW: 'Elegantly Wasted' is also an INXS song/album title (titles rarely protectable; review)",
+ "clip_edges_current": [
+  "top 9%",
+  "bottom 9%"
+ ],
+ "notes": [
+  "current: 24.8% of visible content outside safe area (variant 62014)"
+ ],
+ "live_change_made": false
+}

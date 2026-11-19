@@ -1,0 +1,87 @@
+{
+ "product_id": "6ac6fe66710be211d209a772",
+ "shop_id": "26418699",
+ "title": "\"Keep Christ Christmas\" Christmas Unisex Hoodie \u2014 Festive Holiday Unisex Hoodie Gift | Winstar4U",
+ "blueprint_id": 77,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac85feb4be9797c9ffbd4fd",
+ "image_name": "faith-keep-christ-christmas-transparent.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/6c97fc15-2034-4f6d-a340-a57529192e41",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "dtg",
+ "visible": true,
+ "updated_at": "2026-10-09 03:51:06+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT \u2014 top line (\"KEEP CHRIST\") missing/cropped at print-window edge",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 1,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0874,
+  0.0283,
+  0.9131,
+  0.9771
+ ],
+ "current_content_box_in_placeholder": [
+  0.0874,
+  -0.2081,
+  0.9131,
+  1.2162
+ ],
+ "current_inside_safe_frac": {
+  "32920": 0.5989,
+  "32878": 0.5989,
+  "32879": 0.5989
+ },
+ "effective_px_ratio_after": 0.921,
+ "proposed": {
+  "x": 0.5001,
+  "y": 0.5,
+  "scale": 0.63,
+  "angle": 0
+ },
+ "placeholders": {
+  "32920": [
+   3531,
+   2352
+  ],
+  "32878": [
+   2919,
+   1944
+  ],
+  "32879": [
+   3273,
+   2180
+  ]
+ },
+ "safe_area_source": {
+  "32920": "rect",
+  "32878": "rect",
+  "32879": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "32920": 1.0,
+  "32878": 1.0,
+  "32879": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 15%",
+  "bottom 15%"
+ ],
+ "notes": [
+  "geometry checked for 35 enabled variants (3 distinct placeholder geometries)",
+  "current: 40.1% of visible content outside safe area (variant 32920)"
+ ],
+ "live_change_made": false
+}

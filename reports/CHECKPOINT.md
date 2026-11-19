@@ -40,7 +40,23 @@
 - The Shopify app connected in this session is "Winstar Marketing" (winstarmarketing.shop), **not** the Winstar4U store.
 - Luzilly Fragrances (T-3Z2E4A4V60) is deferred by the owner. Do not claim it.
 
+## D6 / D7 artwork state (2026-11-19 23:00 UTC)
+
+- **Queue:** `work/artwork_redesign_batches.csv`. 389 products in 10 batches (9 x 40, then 29). Order: products with a channel link first, then holiday, then easiest fix.
+- **Batch 1:** DONE as non-live prep. Ran 22:16:50 to 22:49:20 UTC (32.5 min). Evidence is in `work/d6_batch1/`: `batch1_results.csv`, contact sheets 1 and 2, and per-product `placement.json` and `before_after.png`.
+  - **34 READY_FOR_REVIEW:** corrected placement, geometry check passed.
+  - **4 NEEDS_NEW_ART:** 3 have opaque white backgrounds; Candy Cane Lane `6ac7125707e4149a0f001074` has a blank sign.
+  - **2 BLOCKED:**
+    - `69b0212c4fead7b1ce06b69e` is a duplicate "Copy of" listing, not an art defect.
+    - `6ac70ec09a2f0cb82508f89a`: the defect could not be reproduced.
+  - Nothing is live. Applying the fixes needs owner approval, product by product.
+- **Batch 2:** next (seq 41 to 80).
+- **D7:** 2 Higgsfield variants generated. They are not inspected because the image host is blocked here, and the star emblem still needs a trademark check. See `work/d7_texaco_replacement/README.md`.
+- **Notifications:** batch packets go to the Bridge as soon as each batch finishes. There is no push to the owner's phone: the Bridge has no webhooks configured, and PushNotification isn't set up.
+
 ## Next action for the next session (resume here)
+
+0. Run `/resume`, then `/batch 2`.
 
 1. Apply any D-decisions the owner has answered (D1 = set prices on 48 products from the CSV, then re-fetch each to verify).
 2. ~~Pull the Shopify catalog and fill Shopify `channel_link`.~~ **DONE 2026-11-19:** read-only pull of shop 26418699 (51 pages, 2,508 products; 486 have a storefront URL). Of the 1,602 Shopify SELL NOW rows, 330 have a link and stay SELL NOW; 1,272 have no link and are now UNKNOWN. 450 pulled Shopify products have no inspection row (UNKNOWN). New totals: SELL NOW 608 (Shopify 330, Etsy 241, TikTok 20, Amazon 17), REPAIR FIRST 447, HOLD 1, UNKNOWN 1,930, REMOVED 22. Linked holiday shortlist: 348 (Shopify 219, Etsy 92, TikTok 20, Amazon 17). Still to do: give ChatGPT the linked holiday list.

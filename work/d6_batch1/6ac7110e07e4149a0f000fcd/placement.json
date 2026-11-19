@@ -1,0 +1,73 @@
+{
+ "product_id": "6ac7110e07e4149a0f000fcd",
+ "shop_id": "26418699",
+ "title": "Avoiding Carolers Gnome Christmas Winter Scarf \u2014 Elegant Seasonal Wrap, Holiday Gift | Winstar4U",
+ "blueprint_id": 1327,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac85b6719b47091d6d6c9ff",
+ "image_name": "avoiding-carolers-gnome.png-TRANSPARENT.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/eaea46f1-5141-418a-ae05-4d79eaf87dea",
+ "image_px": [
+  952,
+  1429
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 03:28:40+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT \u2014 top word (\"AVOIDING\") cropped off, only \"CAROLERS\" visible",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.4,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0105,
+  0.007,
+  0.9895,
+  0.993
+ ],
+ "current_content_box_in_placeholder": [
+  0.3042,
+  -0.2963,
+  0.6958,
+  1.2963
+ ],
+ "current_inside_safe_frac": {
+  "100848": 0.4972
+ },
+ "effective_px_ratio_after": 0.418,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.205,
+  "angle": 0
+ },
+ "placeholders": {
+  "100848": [
+   11100,
+   4126
+  ]
+ },
+ "safe_area_source": {
+  "100848": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "100848": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 19%",
+  "bottom 19%"
+ ],
+ "notes": [
+  "LOW-RES: art upscaled 2.4x on largest variant (src px/print px=0.42)",
+  "current: 50.3% of visible content outside safe area (variant 100848)"
+ ],
+ "live_change_made": false
+}

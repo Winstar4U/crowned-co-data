@@ -1,0 +1,93 @@
+{
+ "product_id": "6ac71152fb1d11d19e036f6e",
+ "shop_id": "26418699",
+ "title": "Avoiding Carolers Gnome Christmas Baby Onesie \u2014 Adorable Baby Christmas Gift, Holiday Gift | Winstar4U",
+ "blueprint_id": 568,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac85ff696758595fb79bc46",
+ "image_name": "avoiding-carolers-gnome-transparent.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/1c03f161-97a6-48b4-bfa4-cc921089d34d",
+ "image_px": [
+  1702,
+  2048
+ ],
+ "decoration_method": "dtg",
+ "visible": true,
+ "updated_at": "2026-10-09 04:02:53+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT \u2014 top word \"CURRENTLY\" clipped at collar print-window edge",
+ "current": {
+  "x": 0.5,
+  "y": 0.3,
+  "scale": 0.9,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.2297,
+  0.1382,
+  0.7767,
+  0.8257
+ ],
+ "current_content_box_in_placeholder": [
+  0.2568,
+  -0.043,
+  0.7491,
+  0.6088
+ ],
+ "current_inside_safe_frac": {
+  "70900": 0.8783,
+  "70904": 0.8783,
+  "71073": 0.8783,
+  "71089": 0.8783
+ },
+ "effective_px_ratio_after": 0.901,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.396,
+  "scale": 0.9,
+  "angle": 0
+ },
+ "placeholders": {
+  "70900": [
+   1800,
+   2056
+  ],
+  "70904": [
+   2100,
+   2400
+  ],
+  "71073": [
+   1500,
+   1714
+  ],
+  "71089": [
+   1200,
+   1371
+  ]
+ },
+ "safe_area_source": {
+  "70900": "rect",
+  "70904": "rect",
+  "71073": "rect",
+  "71089": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "70900": 1.0,
+  "70904": 1.0,
+  "71073": 1.0,
+  "71089": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 7%"
+ ],
+ "notes": [
+  "geometry checked for 6 enabled variants (4 distinct placeholder geometries)",
+  "current: 12.2% of visible content outside safe area (variant 70900)"
+ ],
+ "live_change_made": false
+}

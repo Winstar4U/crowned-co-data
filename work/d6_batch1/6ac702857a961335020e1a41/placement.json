@@ -1,0 +1,69 @@
+{
+ "product_id": "6ac702857a961335020e1a41",
+ "shop_id": "26418699",
+ "title": "Avoiding Carolers Raccoon Christmas Dog Bandana \u2014 Festive Holiday Pet Bandana, Cute Dog Christmas Outfit Gift | Winstar4U",
+ "blueprint_id": 562,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac85ff6b832fdc6d07c4c8e",
+ "image_name": "clean-avoiding-carolers-raccoon.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/61f88fdc-bcdf-4e79-9239-627c18afe455",
+ "image_px": [
+  1702,
+  2048
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-14 12:50:43+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT \u2014 text cropped at bottom point of triangle bandana (\"...AND CONVERSATION\" cut off)",
+ "current": {
+  "x": 0.5,
+  "y": 0.52,
+  "scale": 0.55,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.1992,
+  0.1338,
+  0.809,
+  0.8564
+ ],
+ "current_content_box_in_placeholder": [
+  0.3345,
+  0.0744,
+  0.67,
+  0.9537
+ ],
+ "current_inside_safe_frac": {
+  "101404": 0.6964
+ },
+ "effective_px_ratio_after": 1.053,
+ "proposed": {
+  "x": 0.4984,
+  "y": 0.456,
+  "scale": 0.378,
+  "angle": 0
+ },
+ "placeholders": {
+  "101404": [
+   4275,
+   2325
+  ]
+ },
+ "safe_area_source": {
+  "101404": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "101404": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [],
+ "notes": [
+  "current: 30.4% of visible content outside safe area (variant 101404)"
+ ],
+ "live_change_made": false
+}

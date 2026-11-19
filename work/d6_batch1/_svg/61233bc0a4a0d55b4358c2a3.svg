@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 1536.95 1536.95" xmlns:printify="http://printify.com/adjuster"  printify:width="406.65000000000003" printify:height="406.65000000000003">
+  <defs>
+    <clipPath id="clip-path">
+      <rect x="0.67" y="216.61" width="1535.62" height="1103.72" fill="none"/>
+    </clipPath>
+  <image x="0" y="0" width="1536.95" height="1536.95" id="fabric-image"/><path d="" id="fabric-0"/><clipPath id="fabric-0-clip"><use xlink:href="#fabric-0"/></clipPath><path d="" id="fabric-1"/><clipPath id="fabric-1-clip"><use xlink:href="#fabric-1"/></clipPath><rect id="_front-path" width="1535.62" height="1103.72" fill="none" transform=""/><clipPath><use stroke-width="1.6943750000000002mm" xlink:href="#_front-path"/></clipPath></defs>
+  <g id="color_first" fill-rule="nonzero" fill="#fff"><use xlink:href="#fabric-0"/><use clip-path="url(#fabric-0-clip)" xlink:href="#fabric-image"/>
+    <g clip-path="url(#clip-path)">
+      <rect id="color_background" x="0.67" y="216.61" width="1535.62" height="1103.72" fill="#fff" fill-rule="nonzero"><use xlink:href="#fabric-1"/><use clip-path="url(#fabric-1-clip)" xlink:href="#fabric-image"/></rect>
+      
+    <g clip-path="url(#_front-clippath)" transform="translate(0.67 216.61)"><svg id="placeholder_front" width="1535.62" height="1103.72" preserveAspectRatio="xMidYMid slice" viewBox="0 0 1535.62 1103.72"><use stroke-width="1.6943750000000002mm" xlink:href="#_front-path" stroke="#ffffff"/><use stroke-width="1.6943750000000002mm" xlink:href="#_front-path" stroke="#000000" stroke-dasharray="3.3887500000000004mm, 3.3887500000000004mm"/></svg></g></g>
+  </g>
+  <g id="outlines">
+    <path d="M.67,216.61V1320.34H1536.28V216.61ZM1505.3,1290.91a14.12,14.12,0,0,1-14.12,14.12H45.77a14.12,14.12,0,0,1-14.12-14.12V246a14.12,14.12,0,0,1,14.12-14.12H1491.18A14.12,14.12,0,0,1,1505.3,246Z" fill="#2a2422" opacity="0.2"/>
+    <path d="M.67,216.61V1320.34H1536.28V216.61ZM1505.3,1290.91a14.12,14.12,0,0,1-14.12,14.12H45.77a14.12,14.12,0,0,1-14.12-14.12V246a14.12,14.12,0,0,1,14.12-14.12H1491.18A14.12,14.12,0,0,1,1505.3,246Z" fill="#fff" opacity="0.2"/>
+    <rect x="269.7" y="69.44" width="997.55" height="1398.07" rx="9.95" transform="translate(1536.95 0) rotate(90)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    <rect x="269.7" y="69.44" width="997.55" height="1398.07" rx="9.95" transform="translate(1536.95 0) rotate(90)" fill="none" stroke="#14130f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" stroke-dasharray="6.86 11.43"/>
+    <rect x="0.67" y="216.61" width="1535.62" height="1103.72" fill="none" stroke="#14130f" stroke-miterlimit="10" stroke-width="1.33"/>
+    <rect x="31.65" y="231.92" width="1473.65" height="1073.12" rx="14.12" fill="none" stroke="#14130f" stroke-miterlimit="10" stroke-width="1.33"/>
+  </g>
+</svg>

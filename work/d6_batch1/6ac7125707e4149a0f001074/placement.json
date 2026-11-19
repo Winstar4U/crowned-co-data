@@ -1,0 +1,70 @@
+{
+ "product_id": "6ac7125707e4149a0f001074",
+ "shop_id": "26418699",
+ "title": "Candy Cane Lane Christmas Fanny Pack \u2014 Hands-Free Holiday Crossbody, Holiday Gift | Winstar4U",
+ "blueprint_id": 468,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ad6167d209bec0de5b98a2f",
+ "image_name": "candy-cane-lane-fannypack-v1.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/688de233-f3fb-4a10-b09c-dfd1ab995786",
+ "image_px": [
+  3000,
+  1500
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-19 13:13:05+00:00",
+ "defect_cause": "other",
+ "defect_note": "DEFECT",
+ "current": {
+  "x": 0.47,
+  "y": 0.5,
+  "scale": 0.56,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.1007,
+  0.1807,
+  0.899,
+  0.97
+ ],
+ "current_content_box_in_placeholder": [
+  0.2464,
+  0.2545,
+  0.6934,
+  0.8614
+ ],
+ "current_inside_safe_frac": {
+  "65045": 0.8887
+ },
+ "effective_px_ratio_after": 2.365,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.388,
+  "scale": 0.546,
+  "angle": 0
+ },
+ "placeholders": {
+  "65045": [
+   2323,
+   846
+  ]
+ },
+ "safe_area_source": {
+  "65045": "printify_print_outline"
+ },
+ "verify_inside_safe_frac": {
+  "65045": 1.0
+ },
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [],
+ "notes": [
+  "OTHER-defect inspected: art itself is unfinished - the central hanging green sign is BLANK (no text) on the original upload, visible on the live mockup. Re-placement alone cannot fix it; needs regenerated art (Higgsfield) with sign text or sign removed, transparent PNG. Placement below is computed/verified for the CURRENT art only.",
+  "current: 11.1% of visible content outside safe area (variant 65045)"
+ ],
+ "live_change_made": false
+}

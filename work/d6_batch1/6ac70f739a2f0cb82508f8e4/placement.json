@@ -1,0 +1,72 @@
+{
+ "product_id": "6ac70f739a2f0cb82508f8e4",
+ "shop_id": "26418699",
+ "title": "Calories Dont Count Thanksgiving Christmas Fanny Pack \u2014 Concert-Ready Waist Pack, Holiday Gift | Winstar4U",
+ "blueprint_id": 468,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac8f4360ae36ab7980c78bb",
+ "image_name": "clean-calories-dont-count-thanksgiving.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/d3a69589-e114-4c46-b303-17fc255b31c3",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 14:31:09+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT \u2014 top banner text cropped at top curved edge",
+ "current": {
+  "x": 0.5,
+  "y": 0.62,
+  "scale": 0.7,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.1016,
+  0.019,
+  0.8989,
+  0.9717
+ ],
+ "current_content_box_in_placeholder": [
+  0.2211,
+  -0.3044,
+  0.7792,
+  1.5266
+ ],
+ "current_inside_safe_frac": {
+  "65045": 0.3199
+ },
+ "effective_px_ratio_after": 3.365,
+ "proposed": {
+  "x": 0.5001,
+  "y": 0.488,
+  "scale": 0.262,
+  "angle": 0
+ },
+ "placeholders": {
+  "65045": [
+   2323,
+   846
+  ]
+ },
+ "safe_area_source": {
+  "65045": "printify_print_outline"
+ },
+ "verify_inside_safe_frac": {
+  "65045": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 17%",
+  "bottom 29%"
+ ],
+ "notes": [
+  "current: 68.0% of visible content outside safe area (variant 65045)"
+ ],
+ "live_change_made": false
+}

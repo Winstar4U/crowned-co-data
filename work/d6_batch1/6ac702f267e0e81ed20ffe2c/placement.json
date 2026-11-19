@@ -1,0 +1,76 @@
+{
+ "product_id": "6ac702f267e0e81ed20ffe2c",
+ "shop_id": "26418699",
+ "title": "\"Thankful Grateful Blesse\" Thanksgiving Apron \u2014 Funny Holiday Cooking Apron for the Family Cook, Thanksgiving Host Gift | Winstar4U",
+ "blueprint_id": 5546,
+ "print_provider_id": 217,
+ "position": "front_dtf",
+ "image_id": "6ac4f0f8fae6ba29cd570229",
+ "image_name": "faith-thankful-grateful-blesse.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/8efa75d3-1fc7-487e-aa33-c7de41bb708c",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "dtf",
+ "visible": true,
+ "updated_at": "2026-10-09 01:54:35+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT \u2014 text cropped AND non-transparent white background patch visible against gray apron fabric (new defect sub-type)",
+ "current": {
+  "x": 0.5,
+  "y": 0.58,
+  "scale": 1.7,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.1963,
+  0.0342,
+  0.8027,
+  0.96
+ ],
+ "current_content_box_in_placeholder": [
+  -0.0163,
+  -0.0535,
+  1.0146,
+  1.2055
+ ],
+ "current_inside_safe_frac": {
+  "250694": 0.7362
+ },
+ "effective_px_ratio_after": 0.708,
+ "proposed": {
+  "x": 0.4998,
+  "y": 0.504,
+  "scale": 1.205,
+  "angle": 0
+ },
+ "placeholders": {
+  "250694": [
+   2400,
+   3000
+  ]
+ },
+ "safe_area_source": {
+  "250694": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "250694": 1.0
+ },
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "left 2%",
+  "right 1%",
+  "top 4%",
+  "bottom 16%"
+ ],
+ "notes": [
+  "art has opaque WHITE background on dtf print over coloured blank -> visible white patch; needs transparent re-export of same design (placement computed+verified, apply together)",
+  "geometry checked for 2 enabled variants (1 distinct placeholder geometries)",
+  "current: 26.4% of visible content outside safe area (variant 250694)"
+ ],
+ "live_change_made": false
+}

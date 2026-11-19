@@ -1,0 +1,72 @@
+{
+ "product_id": "6ac7112383f1a0e50d071cdf",
+ "shop_id": "26418699",
+ "title": "Checked Santas List Christmas Winter Scarf \u2014 Warm Holiday Statement Scarf, Holiday Gift | Winstar4U",
+ "blueprint_id": 1327,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac8789bc74e0a7a04e5b1d9",
+ "image_name": "checked-santas-list.png-TRANSPARENT.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/f835102d-bd55-4de3-baed-3a9151cf1afd",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 05:16:14+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT \u2014 minor top-line crop (\"I CHECKED\")",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.4,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0,
+  0.0,
+  1.0,
+  1.0
+ ],
+ "current_content_box_in_placeholder": [
+  0.3,
+  -0.0381,
+  0.7,
+  1.0381
+ ],
+ "current_inside_safe_frac": {
+  "100848": 0.8222
+ },
+ "effective_px_ratio_after": 0.605,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.305,
+  "angle": 0
+ },
+ "placeholders": {
+  "100848": [
+   11100,
+   4126
+  ]
+ },
+ "safe_area_source": {
+  "100848": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "100848": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 4%",
+  "bottom 4%"
+ ],
+ "notes": [
+  "current: 17.8% of visible content outside safe area (variant 100848)"
+ ],
+ "live_change_made": false
+}

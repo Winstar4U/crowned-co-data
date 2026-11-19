@@ -1,0 +1,69 @@
+{
+ "product_id": "6ac70342a085d659d5022827",
+ "shop_id": "26418699",
+ "title": "\"Blessed Christmas\" Thanksgiving Oven Mitts \u2014 Festive Holiday Kitchen Gift for the Cook, Thanksgiving Hostess Gift | Winstar4U",
+ "blueprint_id": 714,
+ "print_provider_id": 48,
+ "position": "Left",
+ "image_id": "6ac86e4d12c3453a773d6969",
+ "image_name": "faith-blessed-christmas.png-TRANSPARENT-rot.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/05c8ef3e-a9b1-42c5-a464-978a9b19521e",
+ "image_px": [
+  1316,
+  1642
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 04:32:18+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT \u2014 text cropped (tiny Oven Mitts print-pocket mismatch)",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.85,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0076,
+  0.0061,
+  0.9924,
+  0.9939
+ ],
+ "current_content_box_in_placeholder": [
+  0.0815,
+  0.0271,
+  0.9185,
+  0.9729
+ ],
+ "current_inside_safe_frac": {
+  "76173": 0.7896
+ },
+ "effective_px_ratio_after": 1.977,
+ "proposed": {
+  "x": 0.44,
+  "y": 0.54,
+  "scale": 0.608,
+  "angle": 0
+ },
+ "placeholders": {
+  "76173": [
+   1095,
+   1213
+  ]
+ },
+ "safe_area_source": {
+  "76173": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "76173": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [],
+ "notes": [
+  "current: 21.0% of visible content outside safe area (variant 76173)"
+ ],
+ "live_change_made": false
+}

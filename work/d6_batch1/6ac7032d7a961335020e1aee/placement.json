@@ -1,0 +1,69 @@
+{
+ "product_id": "6ac7032d7a961335020e1aee",
+ "shop_id": "26418699",
+ "title": "\"Here For Snacks\" Thanksgiving Oven Mitts \u2014 Festive Holiday Kitchen Gift for the Cook, Thanksgiving Hostess Gift | Winstar4U",
+ "blueprint_id": 714,
+ "print_provider_id": 48,
+ "position": "Left",
+ "image_id": "6ac87094f071d5d39671ce00",
+ "image_name": "here-for-snacks.png-TRANSPARENT-rot.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/5db7e60a-b820-40cd-a5d1-faea0cf6312a",
+ "image_px": [
+  1289,
+  1651
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 04:42:01+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT \u2014 text cropped (tiny Oven Mitts print-pocket mismatch)",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.85,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0078,
+  0.0061,
+  0.9922,
+  0.9939
+ ],
+ "current_content_box_in_placeholder": [
+  0.0816,
+  0.0146,
+  0.9184,
+  0.9854
+ ],
+ "current_inside_safe_frac": {
+  "76173": 0.722
+ },
+ "effective_px_ratio_after": 1.965,
+ "proposed": {
+  "x": 0.53,
+  "y": 0.532,
+  "scale": 0.599,
+  "angle": 0
+ },
+ "placeholders": {
+  "76173": [
+   1095,
+   1213
+  ]
+ },
+ "safe_area_source": {
+  "76173": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "76173": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [],
+ "notes": [
+  "current: 27.8% of visible content outside safe area (variant 76173)"
+ ],
+ "live_change_made": false
+}

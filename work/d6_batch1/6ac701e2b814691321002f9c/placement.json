@@ -1,0 +1,73 @@
+{
+ "product_id": "6ac701e2b814691321002f9c",
+ "shop_id": "26418699",
+ "title": "All I Want Nap Pillow Christmas Throw Pillow \u2014 Festive Holiday Decorative Pillow, Cozy Winter Home Decor Gift | Winstar4U",
+ "blueprint_id": 220,
+ "print_provider_id": 10,
+ "position": "front",
+ "image_id": "6ac4effa1d3fc42ccdb4d493",
+ "image_name": "all-i-want-nap-pillow.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/f9d574e9-0efd-4066-a705-838b200ba980",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 01:43:40+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT \u2014 text cropped at top of pillow face",
+ "current": {
+  "x": 0.25,
+  "y": 0.5,
+  "scale": 0.8,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.1826,
+  0.1167,
+  0.8115,
+  0.8809
+ ],
+ "current_content_box_in_placeholder": [
+  -0.0039,
+  -0.1133,
+  0.4992,
+  1.1094
+ ],
+ "current_inside_safe_frac": {
+  "41524": 0.6154
+ },
+ "effective_px_ratio_after": 0.721,
+ "proposed": {
+  "x": 0.2492,
+  "y": 0.504,
+  "scale": 0.541,
+  "angle": 0
+ },
+ "placeholders": {
+  "41524": [
+   5250,
+   2625
+  ]
+ },
+ "safe_area_source": {
+  "41524": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "41524": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "left 1%",
+  "top 9%",
+  "bottom 9%"
+ ],
+ "notes": [
+  "current: 38.5% of visible content outside safe area (variant 41524)"
+ ],
+ "live_change_made": false
+}
