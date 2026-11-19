@@ -21,14 +21,18 @@
 | Checkerboard Printify support ticket (ready to submit) | `reports/Printify_Support_Packet_Checkerboard_Legacy_Variants.md` |
 | Full defect and repair history | `reports/Winstar_Five_Shop_Quality_Register.md` (long; grep, don't read) |
 | Tapestry shipping (bp 241/pp 99, US first item) | $5.69 / $6.99 / $9.29 / $9.29 (fetched 2026-11-19) |
+| **SELL NOW / REPAIR FIRST / HOLD / UNKNOWN register (2,558 products)** | `reports/Winstar_Sales_Readiness_Register.csv` + `.md` (built 2026-11-19 by `work/build_sales_register.py`) |
+| **Owner decision register D1-D7** | `reports/Winstar_Owner_Decision_Register.md` |
 
-## Waiting on owner (nothing executes until decided)
+## Waiting on owner (nothing executes until decided). Full detail in `Winstar_Owner_Decision_Register.md`
 
-1. Tapestry repricing: choose Scenario B prices ($31.99 / $44.99 / $63.99 / $79.99), Scenario A, or disable the two large sizes.
-2. Confirm whether Winstar4U customers pay shipping.
-3. Shopify admin check of the 5 unmapped duffels, then approve a re-publish.
-4. Submit the checkerboard support ticket.
-5. The 10 checkerboard swap-ins (T-4P5P5J571N), after the support ticket resolves.
+- D1 tapestry pricing (A / B / C)
+- D2 who pays shipping
+- D3 the 5 duffels with no Shopify link
+- D4 checkerboard support ticket (owner action)
+- D5 eBay/Amazon/TikTok listing exports (owner action)
+- D6 repair approval for 389 products with artwork defects (Batch 1 = 3 ornaments)
+- D7 optional Texaco unpublish
 
 ## Known blockers
 
@@ -36,6 +40,8 @@
 - The Shopify app connected in this session is "Winstar Marketing" (winstarmarketing.shop), **not** the Winstar4U store.
 - Luzilly Fragrances (T-3Z2E4A4V60) is deferred by the owner. Do not claim it.
 
-## Next action for the next session
+## Next action for the next session (resume here)
 
-Wait for the owner's pricing decision. Once approved, run `printify-set-product-prices` on the 48 products using the CSV, re-fetch each one to verify, update this file, and post the result to Bridge.
+1. Apply any D-decisions the owner has answered (D1 = set prices on 48 products from the CSV, then re-fetch each to verify).
+2. Otherwise, no approval needed: pull the Shopify catalog (shop 26418699, 49 pages, `include_full`) and fill `channel_link` for the 1,602 Shopify SELL NOW rows (rebuild with `work/build_sales_register.py`). Then give ChatGPT the linked holiday list.
+3. Then do D6 offline prep: corrected placement values for holiday REPAIR FIRST products, worst blueprint first. No live writes.
