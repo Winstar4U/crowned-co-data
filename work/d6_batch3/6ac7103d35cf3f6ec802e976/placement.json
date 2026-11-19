@@ -66,6 +66,7 @@
   "bottom 16%"
  ],
  "notes": [
+  "3:2 opaque design on a 2.7:1 fanny-pack strip: safe fit is scale 0.435. Fixes the 48% crop; optional wide re-layout would use the strip better.",
   "current: 47.9% of visible content outside safe area (variant 65045)"
  ],
  "live_change_made": false

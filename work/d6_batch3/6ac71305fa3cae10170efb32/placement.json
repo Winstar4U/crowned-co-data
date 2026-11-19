@@ -41,11 +41,43 @@
   "244227": 0.6986,
   "244228": 0.7307
  },
- "effective_px_ratio_after": 0.97,
- "proposed": {
+ "proposed_per_variant_group": {
+  "244226": {
+   "x": 0.5016,
+   "y": 0.504,
+   "scale": 0.649,
+   "angle": 0
+  },
+  "244224": {
+   "x": 0.5031,
+   "y": 0.504,
+   "scale": 0.406,
+   "angle": 0
+  },
+  "244227": {
+   "x": 0.5015,
+   "y": 0.504,
+   "scale": 0.661,
+   "angle": 0
+  },
+  "244228": {
+   "x": 0.5013,
+   "y": 0.504,
+   "scale": 0.686,
+   "angle": 0
+  }
+ },
+ "shared_placement_alternative": {
   "x": 0.5031,
   "y": 0.504,
   "scale": 0.406,
+  "angle": 0
+ },
+ "effective_px_ratio_after": 0.574,
+ "proposed": {
+  "x": 0.5016,
+  "y": 0.504,
+  "scale": 0.649,
   "angle": 0
  },
  "placeholders": {
@@ -87,8 +119,9 @@
   "bottom 4%"
  ],
  "notes": [
-  "DUPLICATE (same art 6ac70f1158.., same blueprint 5353/92) as 6ac7134eb8.. ('Pillow Case 20x20'); both listings sell the 20x20 and 24x24 sizes. Same fix computed for both. Owner decision: keep one, retire/merge the other.",
+  "DUPLICATE (same art 6ac70f1158.., same blueprint 5353/92) as 6ac7134eb8.. ('Pillow Case 20x20'); both listings sell the 20x20 and 24x24 sizes. Same fix computed for both. Owner decision: keep one, retire/merge the other. The enabled 12x18 landscape size (3000x2100) forces a shared placement to ~0.41-0.57 scale on the square sizes; proposal splits print_areas into per-size groups (each verified). If the owner prefers one shared print_area, use shared_placement_alternative in placement.json.",
   "geometry checked for 4 enabled variants (4 distinct placeholder geometries)",
+  "SPLIT print_areas per variant group (shared placement would be scale 0.406): 244226:x=0.5016,y=0.5040,s=0.649; 244224:x=0.5031,y=0.5040,s=0.406; 244227:x=0.5015,y=0.5040,s=0.661; 244228:x=0.5013,y=0.5040,s=0.686",
   "current: 67.5% of visible content outside safe area (variant 244224)"
  ],
  "live_change_made": false

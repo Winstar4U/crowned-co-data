@@ -1,5 +1,26 @@
 {
- "6ac71305fa3cae10170efb32": {"note": "DUPLICATE (same art 6ac70f1158.., same blueprint 5353/92) as 6ac7134eb8.. ('Pillow Case 20x20'); both listings sell the 20x20 and 24x24 sizes. Same fix computed for both. Owner decision: keep one, retire/merge the other."},
- "6ac7134eb814691321003867": {"note": "DUPLICATE (same art 6ac70f1158.., same blueprint 5353/92) as 6ac71305fa.. ('Pillow Case 18x18'); overlapping enabled sizes 20x20/24x24. Same fix computed for both. Owner decision: keep one, retire/merge the other."},
- "6ac70260710be211d209a8e8": {"note": "SAME ART + SAME BLANK as batch-1 product 6ac7032d7a.. (Thanksgiving 'Here For Snacks' oven mitts, batch-1 proposal x=0.53 y=0.532 scale=0.599). Christmas re-title of the same design - possible duplicate listing; owner decision. Only the Left mitt is printed (Right/all empty)."}
+ "6ac71305fa3cae10170efb32": {
+  "note": "DUPLICATE (same art 6ac70f1158.., same blueprint 5353/92) as 6ac7134eb8.. ('Pillow Case 20x20'); both listings sell the 20x20 and 24x24 sizes. Same fix computed for both. Owner decision: keep one, retire/merge the other. The enabled 12x18 landscape size (3000x2100) forces a shared placement to ~0.41-0.57 scale on the square sizes; proposal splits print_areas into per-size groups (each verified). If the owner prefers one shared print_area, use shared_placement_alternative in placement.json.",
+  "per_variant": true
+ },
+ "6ac7134eb814691321003867": {
+  "note": "DUPLICATE (same art 6ac70f1158.., same blueprint 5353/92) as 6ac71305fa.. ('Pillow Case 18x18'); overlapping enabled sizes 20x20/24x24. Same fix computed for both. Owner decision: keep one, retire/merge the other."
+ },
+ "6ac70260710be211d209a8e8": {
+  "note": "SAME ART + SAME BLANK as batch-1 product 6ac7032d7a.. (Thanksgiving 'Here For Snacks' oven mitts, batch-1 proposal x=0.53 y=0.532 scale=0.599). Christmas re-title of the same design - possible duplicate listing; owner decision. Only the Left mitt is printed (Right/all empty)."
+ },
+ "6ac71302336f835866011570": {
+  "per_variant": true,
+  "note": "The enabled 12x18 landscape size (3000x2100) forces a shared placement to ~0.41-0.57 scale on the square sizes; proposal splits print_areas into per-size groups (each verified). If the owner prefers one shared print_area, use shared_placement_alternative in placement.json."
+ },
+ "6ac71309fa3cae10170efb40": {
+  "per_variant": true,
+  "note": "The enabled 12x18 landscape size (3000x2100) forces a shared placement to ~0.41-0.57 scale on the square sizes; proposal splits print_areas into per-size groups (each verified). If the owner prefers one shared print_area, use shared_placement_alternative in placement.json."
+ },
+ "6ac7104435cf3f6ec802e97f": {
+  "note": "Square opaque design on a 2.7:1 fanny-pack strip: safe fit is only scale 0.29 (small badge, ~674px wide). Placement fixes the 70% crop; for a better product, owner may want a wide re-layout of the art (optional, not required for the crop fix)."
+ },
+ "6ac7103d35cf3f6ec802e976": {
+  "note": "3:2 opaque design on a 2.7:1 fanny-pack strip: safe fit is scale 0.435. Fixes the 48% crop; optional wide re-layout would use the strip better."
+ }
 }

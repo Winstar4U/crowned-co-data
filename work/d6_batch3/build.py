@@ -450,8 +450,25 @@ def main():
                 status = "BLOCKED"; notes.append("optimiser found no feasible placement")
             else:
                 vres = verify(variants, cinfo, ar, proposed)
-                # effective resolution: source px per placeholder px
                 eff = min(img.width / (proposed["scale"] * V["W"]) for V in variants)
+                if OVR.get(pid, {}).get("per_variant") and len(variants) > 1:
+                    # batch 3: one shared placement is forced tiny by an outlier geometry (e.g. 12x18
+                    # landscape pillow case). Printify print_areas can be split per variant group, so
+                    # optimise + verify each distinct geometry separately.
+                    per, vres, eff = {}, [], 99.0
+                    for V in variants:
+                        pv = optimise([V], cinfo, ar, hint, cur)
+                        if pv is None:
+                            vres.append((V["vid"], 0.0)); continue
+                        per[V["vid"]] = pv
+                        vres.append(verify([V], cinfo, ar, pv)[0])
+                        eff = min(eff, img.width / (pv["scale"] * V["W"]))
+                    rec["proposed_per_variant_group"] = per
+                    rec["shared_placement_alternative"] = proposed
+                    notes.append("SPLIT print_areas per variant group (shared placement would be scale %.3f): %s" % (
+                        proposed["scale"], "; ".join("%s:x=%.4f,y=%.4f,s=%.3f" % (v, q["x"], q["y"], q["scale"]) for v, q in per.items())))
+                    proposed = per.get(variants[0]["vid"], proposed)
+                # effective resolution: source px per placeholder px
                 rec["effective_px_ratio_after"] = round(eff, 3)
                 if eff < 0.5:
                     notes.append("LOW-RES: art upscaled %.1fx on largest variant (src px/print px=%.2f)" % (1 / eff, eff))

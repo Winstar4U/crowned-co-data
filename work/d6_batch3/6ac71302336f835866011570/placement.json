@@ -41,11 +41,43 @@
   "244227": 0.9891,
   "244228": 1.0
  },
- "effective_px_ratio_after": 0.976,
- "proposed": {
+ "proposed_per_variant_group": {
+  "244226": {
+   "x": 0.5001,
+   "y": 0.496,
+   "scale": 0.859,
+   "angle": 0
+  },
+  "244224": {
+   "x": 0.5006,
+   "y": 0.496,
+   "scale": 0.538,
+   "angle": 0
+  },
+  "244227": {
+   "x": 0.5,
+   "y": 0.496,
+   "scale": 0.876,
+   "angle": 0
+  },
+  "244228": {
+   "x": 0.5,
+   "y": 0.5,
+   "scale": 0.9,
+   "angle": 0
+  }
+ },
+ "shared_placement_alternative": {
   "x": 0.5006,
   "y": 0.496,
   "scale": 0.538,
+  "angle": 0
+ },
+ "effective_px_ratio_after": 0.583,
+ "proposed": {
+  "x": 0.5001,
+  "y": 0.496,
+  "scale": 0.859,
   "angle": 0
  },
  "placeholders": {
@@ -84,7 +116,9 @@
  "ip_flag": "none found (title/filename scan + visual check)",
  "clip_edges_current": [],
  "notes": [
+  "The enabled 12x18 landscape size (3000x2100) forces a shared placement to ~0.41-0.57 scale on the square sizes; proposal splits print_areas into per-size groups (each verified). If the owner prefers one shared print_area, use shared_placement_alternative in placement.json.",
   "geometry checked for 4 enabled variants (4 distinct placeholder geometries)",
+  "SPLIT print_areas per variant group (shared placement would be scale 0.538): 244226:x=0.5001,y=0.4960,s=0.859; 244224:x=0.5006,y=0.4960,s=0.538; 244227:x=0.5000,y=0.4960,s=0.876; 244228:x=0.5000,y=0.5000,s=0.900",
   "current: 39.5% of visible content outside safe area (variant 244224)"
  ],
  "live_change_made": false
