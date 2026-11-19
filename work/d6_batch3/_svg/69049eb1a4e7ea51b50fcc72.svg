@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 305.196 305.196" xmlns:printify="http://printify.com/adjuster"  printify:width="80.7495" printify:height="80.7495">
+  <defs>
+    <clipPath id="clippath">
+      <path d="M305.196,152.598c0,84.278-68.32,152.598-152.598,152.598S0,236.876,0,152.598,68.32,0,152.598,0s152.598,68.32,152.598,152.598ZM152.598,42.905c-5.217,0-9.446,4.229-9.446,9.446s4.229,9.446,9.446,9.446,9.446-4.229,9.446-9.446-4.229-9.446-9.446-9.446Z" fill="none"/>
+    </clipPath>
+  <image x="0" y="0" width="305.196" height="305.196" id="fabric-image"/><path d="" id="fabric-0"/><clipPath id="fabric-0-clip"><use xlink:href="#fabric-0"/></clipPath><path d="" id="fabric-1"/><clipPath id="fabric-1-clip"><use xlink:href="#fabric-1"/></clipPath><rect id="_front-path" width="305.196" height="305.196" fill="none" transform=""/><clipPath><use stroke-width="0.33645625mm" xlink:href="#_front-path"/></clipPath></defs>
+  <g id="color_first" fill-rule="nonzero" fill="#fff"><use xlink:href="#fabric-0"/><use clip-path="url(#fabric-0-clip)" xlink:href="#fabric-image"/>
+    <g clip-path="url(#clippath)">
+      <rect id="color_background" y="-.152" width="305.196" height="305.196" fill="#fff" fill-rule="nonzero"><use xlink:href="#fabric-1"/><use clip-path="url(#fabric-1-clip)" xlink:href="#fabric-image"/></rect>
+      
+    <g clip-path="url(#_front-clippath)" transform="translate(0 -.152)"><svg id="placeholder_front" width="305.196" height="305.196" preserveAspectRatio="xMidYMid slice" viewBox="0 0 305.196 305.196"><use stroke-width="0.33645625mm" xlink:href="#_front-path" stroke="#ffffff"/><use stroke-width="0.33645625mm" xlink:href="#_front-path" stroke="#000000" stroke-dasharray="0.6729125mm, 0.6729125mm"/></svg></g></g>
+  </g>
+  <g id="outlines">
+    <path id="bleed" d="M152.598,0C68.32,0,0,68.32,0,152.598s68.32,152.598,152.598,152.598,152.598-68.32,152.598-152.598S236.876,0,152.598,0ZM152.598,42.905c5.217,0,9.446,4.229,9.446,9.446s-4.229,9.446-9.446,9.446-9.446-4.229-9.446-9.446,4.229-9.446,9.446-9.446ZM152.598,274.457c-67.301,0-121.859-54.558-121.859-121.859,0-59.597,42.782-109.202,99.311-119.777,0,0,5.472-1.376,5.423,4.154-.049,5.53,0,16.095,0,16.095,0,0,.63,16.243,17.126,16.44,16.495.198,17.187-17.159,17.187-17.159l.099-15.525c.036-5.715,5.34-3.991,5.34-3.991,56.49,10.606,99.234,60.193,99.234,119.763,0,67.301-54.558,121.859-121.859,121.859Z" opacity=".4"/>
+    <path id="bleedw" d="M152.598,0C68.32,0,0,68.32,0,152.598s68.32,152.598,152.598,152.598,152.598-68.32,152.598-152.598S236.876,0,152.598,0ZM152.598,42.905c5.217,0,9.446,4.229,9.446,9.446s-4.229,9.446-9.446,9.446-9.446-4.229-9.446-9.446,4.229-9.446,9.446-9.446ZM152.598,274.457c-67.301,0-121.859-54.558-121.859-121.859,0-59.597,42.782-109.202,99.311-119.777,0,0,5.472-1.376,5.423,4.154-.049,5.53,0,16.095,0,16.095,0,0,.63,16.243,17.126,16.44,16.495.198,17.187-17.159,17.187-17.159l.099-15.525c.036-5.715,5.34-3.991,5.34-3.991,56.49,10.606,99.234,60.193,99.234,119.763,0,67.301-54.558,121.859-121.859,121.859Z" fill="#fff" opacity=".4"/>
+    <path id="safew" d="M169.883,36.827l-.099,15.524s-.691,17.356-17.187,17.159c-16.495-.197-17.126-16.44-17.126-16.44,0,0-.049-10.565,0-16.095s-5.423-4.154-5.423-4.154c-56.528,10.576-99.311,60.18-99.311,119.777,0,67.301,54.558,121.859,121.859,121.859s121.859-54.558,121.859-121.859c0-59.57-42.744-109.157-99.234-119.763,0,0-5.303-1.723-5.34,3.991Z" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width=".72"/>
+    <path id="safe" d="M169.883,36.827l-.099,15.524s-.691,17.356-17.187,17.159c-16.495-.197-17.126-16.44-17.126-16.44,0,0-.049-10.565,0-16.095s-5.423-4.154-5.423-4.154c-56.528,10.576-99.311,60.18-99.311,119.777,0,67.301,54.558,121.859,121.859,121.859s121.859-54.558,121.859-121.859c0-59.57-42.744-109.157-99.234-119.763,0,0-5.303-1.723-5.34,3.991Z" fill="none" stroke="#000" stroke-dasharray="7.198 7.198 0 0" stroke-linejoin="round" stroke-width=".72"/>
+    <circle id="printarea" cx="152.598" cy="152.598" r="131.817" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="1.2"/>
+    <circle id="printarea" cx="152.598" cy="52.351" r="9.446" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="1.2"/>
+  </g>
+</svg>

@@ -1,0 +1,5 @@
+{
+ "6ac71305fa3cae10170efb32": {"note": "DUPLICATE (same art 6ac70f1158.., same blueprint 5353/92) as 6ac7134eb8.. ('Pillow Case 20x20'); both listings sell the 20x20 and 24x24 sizes. Same fix computed for both. Owner decision: keep one, retire/merge the other."},
+ "6ac7134eb814691321003867": {"note": "DUPLICATE (same art 6ac70f1158.., same blueprint 5353/92) as 6ac71305fa.. ('Pillow Case 18x18'); overlapping enabled sizes 20x20/24x24. Same fix computed for both. Owner decision: keep one, retire/merge the other."},
+ "6ac70260710be211d209a8e8": {"note": "SAME ART + SAME BLANK as batch-1 product 6ac7032d7a.. (Thanksgiving 'Here For Snacks' oven mitts, batch-1 proposal x=0.53 y=0.532 scale=0.599). Christmas re-title of the same design - possible duplicate listing; owner decision. Only the Left mitt is printed (Right/all empty)."}
+}

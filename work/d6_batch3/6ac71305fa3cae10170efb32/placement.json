@@ -1,0 +1,95 @@
+{
+ "product_id": "6ac71305fa3cae10170efb32",
+ "shop_id": "26418699",
+ "title": "Happy Holidays Tree Christmas Throw Pillow Case 18x18 \u2014 Easy Couch & Bed Accent, Holiday Home Decor Gift | Winstar4U",
+ "blueprint_id": 5353,
+ "print_provider_id": 92,
+ "position": "front",
+ "image_id": "6ac70f1158b544dcbb743f7c",
+ "image_name": "nostalgic-happy-holidays-tree.jpg",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/7427f397-5b1d-4288-9a6d-3974f2868464",
+ "image_px": [
+  1536,
+  2048
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 01:47:56+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT-severe (\"HAPPY\" fully cropped off, only \"HOLIDAYS\" visible \u2014 recurrence) [DUP-size-variant, see below]",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.9,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0553,
+  0.0342,
+  0.957,
+  0.9526
+ ],
+ "current_content_box_in_placeholder": [
+  0.0998,
+  -0.059,
+  0.9113,
+  1.0432
+ ],
+ "current_inside_safe_frac": {
+  "244226": 0.6829,
+  "244224": 0.325,
+  "244227": 0.6986,
+  "244228": 0.7307
+ },
+ "effective_px_ratio_after": 0.97,
+ "proposed": {
+  "x": 0.5031,
+  "y": 0.504,
+  "scale": 0.406,
+  "angle": 0
+ },
+ "placeholders": {
+  "244226": [
+   3000,
+   3000
+  ],
+  "244224": [
+   3000,
+   2100
+  ],
+  "244227": [
+   3300,
+   3300
+  ],
+  "244228": [
+   3900,
+   3900
+  ]
+ },
+ "safe_area_source": {
+  "244226": "printify_safe_area",
+  "244224": "printify_safe_area",
+  "244227": "printify_safe_area",
+  "244228": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "244226": 1.0,
+  "244224": 1.0,
+  "244227": 1.0,
+  "244228": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 5%",
+  "bottom 4%"
+ ],
+ "notes": [
+  "DUPLICATE (same art 6ac70f1158.., same blueprint 5353/92) as 6ac7134eb8.. ('Pillow Case 20x20'); both listings sell the 20x20 and 24x24 sizes. Same fix computed for both. Owner decision: keep one, retire/merge the other.",
+  "geometry checked for 4 enabled variants (4 distinct placeholder geometries)",
+  "current: 67.5% of visible content outside safe area (variant 244224)"
+ ],
+ "live_change_made": false
+}

@@ -1,0 +1,77 @@
+{
+ "product_id": "6ac713dbfb1d11d19e0370dc",
+ "shop_id": "26418699",
+ "title": "Happy Holidays Tree Christmas Coaster Set \u2014 Cork-Back Coaster Set, Holiday Gift | Winstar4U",
+ "blueprint_id": 480,
+ "print_provider_id": 70,
+ "position": "front",
+ "image_id": "6ac70f1158b544dcbb743f7c",
+ "image_name": "nostalgic-happy-holidays-tree.jpg",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/7427f397-5b1d-4288-9a6d-3974f2868464",
+ "image_px": [
+  1536,
+  2048
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 01:54:49+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT (same \"HAPPY\" clipped, this time by the circular coaster edge \u2014 same source file as Tank Top twin)",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.7,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0553,
+  0.0342,
+  0.957,
+  0.9526
+ ],
+ "current_content_box_in_placeholder": [
+  0.1887,
+  0.0652,
+  0.8199,
+  0.9225
+ ],
+ "current_inside_safe_frac": {
+  "74633": 0.8495,
+  "71689": 1.0
+ },
+ "effective_px_ratio_after": 2.017,
+ "proposed": {
+  "x": 0.5008,
+  "y": 0.5,
+  "scale": 0.577,
+  "angle": 0
+ },
+ "placeholders": {
+  "74633": [
+   1320,
+   1320
+  ],
+  "71689": [
+   1200,
+   1200
+  ]
+ },
+ "safe_area_source": {
+  "74633": "printify_safe_area",
+  "71689": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "74633": 1.0,
+  "71689": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [],
+ "notes": [
+  "geometry checked for 2 enabled variants (2 distinct placeholder geometries)",
+  "current: 15.0% of visible content outside safe area (variant 74633)"
+ ],
+ "live_change_made": false
+}

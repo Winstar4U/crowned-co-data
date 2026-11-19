@@ -1,0 +1,72 @@
+{
+ "product_id": "6ac710cd3925bc76b90371e9",
+ "shop_id": "26418699",
+ "title": "Keep Christ Christmas Christmas Shot Glass \u2014 1.5oz Party Shot Glass, Holiday Gift | Winstar4U",
+ "blueprint_id": 1245,
+ "print_provider_id": 228,
+ "position": "front",
+ "image_id": "6ac860a2ec88645f54ca4fad",
+ "image_name": "fixed_6ac4f0e1a055d7f7b564a124.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/91f77572-afa0-4107-8d1e-cae957f8012a",
+ "image_px": [
+  1710,
+  1960
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 03:42:31+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT \u2014 top line cropped at rim (minor)",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.8,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0058,
+  0.0051,
+  0.9942,
+  0.9949
+ ],
+ "current_content_box_in_placeholder": [
+  0.1047,
+  -0.0294,
+  0.8953,
+  1.0294
+ ],
+ "current_inside_safe_frac": {
+  "94263": 0.7798
+ },
+ "effective_px_ratio_after": 5.357,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.608,
+  "angle": 0
+ },
+ "placeholders": {
+  "94263": [
+   525,
+   450
+  ]
+ },
+ "safe_area_source": {
+  "94263": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "94263": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 3%",
+  "bottom 3%"
+ ],
+ "notes": [
+  "current: 22.0% of visible content outside safe area (variant 94263)"
+ ],
+ "live_change_made": false
+}

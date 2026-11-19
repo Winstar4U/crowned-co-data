@@ -1,0 +1,81 @@
+{
+ "product_id": "6ac713526356cae0df02e40e",
+ "shop_id": "26418699",
+ "title": "Happy Holidays Tree Christmas Cloth Napkin Set \u2014 Elegant Holiday Hosting Essential, Holiday Gift | Winstar4U",
+ "blueprint_id": 1646,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac70f1158b544dcbb743f7c",
+ "image_name": "nostalgic-happy-holidays-tree.jpg",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/7427f397-5b1d-4288-9a6d-3974f2868464",
+ "image_px": [
+  1536,
+  2048
+ ],
+ "decoration_method": "direct-to-fabric",
+ "visible": true,
+ "updated_at": "2026-10-09 01:46:58+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT - HAPPY text cropped at top edge (same source file)",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.9,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0553,
+  0.0342,
+  0.957,
+  0.9526
+ ],
+ "current_content_box_in_placeholder": [
+  0.0998,
+  -0.059,
+  0.9113,
+  1.0432
+ ],
+ "current_inside_safe_frac": {
+  "113862": 0.7888,
+  "113861": 0.7084
+ },
+ "effective_px_ratio_after": 0.327,
+ "proposed": {
+  "x": 0.5014,
+  "y": 0.504,
+  "scale": 0.667,
+  "angle": 0
+ },
+ "placeholders": {
+  "113862": [
+   7050,
+   7050
+  ],
+  "113861": [
+   3450,
+   3450
+  ]
+ },
+ "safe_area_source": {
+  "113862": "printify_safe_area",
+  "113861": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "113862": 1.0,
+  "113861": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 5%",
+  "bottom 4%"
+ ],
+ "notes": [
+  "geometry checked for 2 enabled variants (2 distinct placeholder geometries)",
+  "LOW-RES: art upscaled 3.1x on largest variant (src px/print px=0.33)",
+  "current: 29.2% of visible content outside safe area (variant 113861)"
+ ],
+ "live_change_made": false
+}

@@ -1,0 +1,72 @@
+{
+ "product_id": "6ac7103d35cf3f6ec802e976",
+ "shop_id": "26418699",
+ "title": "Greatest Gift Christmas Fanny Pack \u2014 Hands-Free Holiday Crossbody, Holiday Gift | Winstar4U",
+ "blueprint_id": 468,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac4f0cc670ed8c1e9a88c6b",
+ "image_name": "faith-greatest-gift.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/4fd49dac-3f5f-44c9-9efe-4a4f108878d4",
+ "image_px": [
+  2048,
+  1365
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-08 03:38:37+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT \u2014 title cropped at curved zipper edge",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.9,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0635,
+  0.0593,
+  0.9395,
+  0.9495
+ ],
+ "current_content_box_in_placeholder": [
+  0.1071,
+  -0.2258,
+  0.8955,
+  1.2403
+ ],
+ "current_inside_safe_frac": {
+  "65045": 0.5207
+ },
+ "effective_px_ratio_after": 2.027,
+ "proposed": {
+  "x": 0.5007,
+  "y": 0.496,
+  "scale": 0.435,
+  "angle": 0
+ },
+ "placeholders": {
+  "65045": [
+   2323,
+   846
+  ]
+ },
+ "safe_area_source": {
+  "65045": "printify_print_outline"
+ },
+ "verify_inside_safe_frac": {
+  "65045": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 15%",
+  "bottom 16%"
+ ],
+ "notes": [
+  "current: 47.9% of visible content outside safe area (variant 65045)"
+ ],
+ "live_change_made": false
+}

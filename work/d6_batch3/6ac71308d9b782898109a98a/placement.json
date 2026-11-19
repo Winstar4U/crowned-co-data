@@ -1,0 +1,81 @@
+{
+ "product_id": "6ac71308d9b782898109a98a",
+ "shop_id": "26418699",
+ "title": "Happy Holidays Tree Christmas Tablecloth \u2014 Festive Holiday Table Decor, Holiday Gift | Winstar4U",
+ "blueprint_id": 1624,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac70f1158b544dcbb743f7c",
+ "image_name": "nostalgic-happy-holidays-tree.jpg",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/7427f397-5b1d-4288-9a6d-3974f2868464",
+ "image_px": [
+  1536,
+  2048
+ ],
+ "decoration_method": "direct-to-fabric",
+ "visible": true,
+ "updated_at": "2026-10-09 01:47:54+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT (top of \"HAPPY\" clipped \u2014 recurrence of bad source file)",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 1.0,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0553,
+  0.0342,
+  0.957,
+  0.9526
+ ],
+ "current_content_box_in_placeholder": [
+  0.0553,
+  -0.1211,
+  0.957,
+  1.1035
+ ],
+ "current_inside_safe_frac": {
+  "112701": 0.6924,
+  "112702": 0.9997
+ },
+ "effective_px_ratio_after": 0.235,
+ "proposed": {
+  "x": 0.5017,
+  "y": 0.508,
+  "scale": 0.726,
+  "angle": 0
+ },
+ "placeholders": {
+  "112701": [
+   9000,
+   9000
+  ],
+  "112702": [
+   9000,
+   15600
+  ]
+ },
+ "safe_area_source": {
+  "112701": "printify_safe_area",
+  "112702": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "112701": 1.0,
+  "112702": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 10%",
+  "bottom 8%"
+ ],
+ "notes": [
+  "geometry checked for 2 enabled variants (2 distinct placeholder geometries)",
+  "LOW-RES: art upscaled 4.3x on largest variant (src px/print px=0.24)",
+  "current: 30.8% of visible content outside safe area (variant 112701)"
+ ],
+ "live_change_made": false
+}

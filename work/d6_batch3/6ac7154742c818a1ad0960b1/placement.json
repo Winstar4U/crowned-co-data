@@ -1,0 +1,87 @@
+{
+ "product_id": "6ac7154742c818a1ad0960b1",
+ "shop_id": "26418699",
+ "title": "Merry Christmas Lets Get Lit Christmas Laptop Sleeve \u2014 Stylish Tech Travel Gift, Holiday Gift | Winstar4U",
+ "blueprint_id": 429,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac4f13afae6ba29cd570267",
+ "image_name": "merry-christmas-lets-get-lit.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/ec120d95-d197-44c2-97a2-f73c67384a21",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 02:00:09+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT-SEVERE (MERRY almost entirely cropped top)",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.9,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.1157,
+  0.02,
+  0.8887,
+  0.98
+ ],
+ "current_content_box_in_placeholder": [
+  0.1542,
+  -0.094,
+  0.8498,
+  1.094
+ ],
+ "current_inside_safe_frac": {
+  "62038": 0.7266,
+  "62037": 0.7568,
+  "62039": 0.7135
+ },
+ "effective_px_ratio_after": 0.681,
+ "proposed": {
+  "x": 0.5005,
+  "y": 0.5,
+  "scale": 0.668,
+  "angle": 0
+ },
+ "placeholders": {
+  "62038": [
+   4125,
+   3000
+  ],
+  "62037": [
+   3600,
+   2700
+  ],
+  "62039": [
+   4500,
+   3225
+  ]
+ },
+ "safe_area_source": {
+  "62038": "rect",
+  "62037": "rect",
+  "62039": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "62038": 1.0,
+  "62037": 1.0,
+  "62039": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 8%",
+  "bottom 8%"
+ ],
+ "notes": [
+  "geometry checked for 3 enabled variants (3 distinct placeholder geometries)",
+  "current: 28.7% of visible content outside safe area (variant 62039)"
+ ],
+ "live_change_made": false
+}

@@ -1,0 +1,79 @@
+{
+ "product_id": "6ac714f0b8146913210038f0",
+ "shop_id": "26418699",
+ "title": "Happy Holidays Tree Christmas Women's T-Shirt \u2014 Festive Holiday Tee for Her, Holiday Gift | Winstar4U",
+ "blueprint_id": 9,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac860ae1debc4a494b85b30",
+ "image_name": "nostalgic-happy-holidays-tree-transparent.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/bbe915e2-e2fc-4340-9137-86c511b0cd3a",
+ "image_px": [
+  1536,
+  2048
+ ],
+ "decoration_method": "dtg",
+ "visible": true,
+ "updated_at": "2026-10-09 03:54:35+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT (HAPPY cropped at neckline, tops of letters missing)",
+ "current": {
+  "x": 0.5,
+  "y": 0.38,
+  "scale": 0.9,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0475,
+  0.0347,
+  0.957,
+  0.9521
+ ],
+ "current_content_box_in_placeholder": [
+  0.0928,
+  -0.111,
+  0.9113,
+  0.857
+ ],
+ "current_inside_safe_frac": {
+  "17979": 0.83,
+  "17978": 0.83
+ },
+ "effective_px_ratio_after": 0.579,
+ "proposed": {
+  "x": 0.5002,
+  "y": 0.508,
+  "scale": 0.826,
+  "angle": 0
+ },
+ "placeholders": {
+  "17979": [
+   3210,
+   3651
+  ],
+  "17978": [
+   2831,
+   3220
+  ]
+ },
+ "safe_area_source": {
+  "17979": "rect",
+  "17978": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "17979": 1.0,
+  "17978": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 11%"
+ ],
+ "notes": [
+  "geometry checked for 3 enabled variants (2 distinct placeholder geometries)",
+  "current: 17.0% of visible content outside safe area (variant 17979)"
+ ],
+ "live_change_made": false
+}

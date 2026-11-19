@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="front" width="100%" height="100%" viewBox="0 0 7102.22 7390.15" xmlns:printify="http://printify.com/adjuster"  printify:width="5326.665" printify:height="5542.612499999999">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Bleed area" width="7102.22" height="7390.15" fill="none"/>
+    </clipPath>
+  <image x="0" y="0" width="7102.22" height="7390.15" id="fabric-image"/><path d="" id="fabric-0"/><clipPath id="fabric-0-clip"><use xlink:href="#fabric-0"/></clipPath><path d="" id="fabric-1"/><clipPath id="fabric-1-clip"><use xlink:href="#fabric-1"/></clipPath><rect id="_front-path" width="7102.22" height="7390.15" fill="none" transform=""/><clipPath><use stroke-width="22.1944375mm" xlink:href="#_front-path"/></clipPath></defs>
+  <g id="color_first" fill-rule="nonzero" fill="#fff"><use xlink:href="#fabric-0"/><use clip-path="url(#fabric-0-clip)" xlink:href="#fabric-image"/>
+    <g clip-path="url(#clip-path)">
+      <rect id="color_background" width="7102.22" height="7390.15" fill="#fff" fill-rule="nonzero"><use xlink:href="#fabric-1"/><use clip-path="url(#fabric-1-clip)" xlink:href="#fabric-image"/></rect>
+      
+    <g clip-path="url(#_front-clippath)" transform="translate(0 0)"><svg id="placeholder_front" width="7102.22" height="7390.15" preserveAspectRatio="xMidYMid slice" viewBox="0 0 7102.22 7390.15"><use stroke-width="22.1944375mm" xlink:href="#_front-path" stroke="#ffffff"/><use stroke-width="22.1944375mm" xlink:href="#_front-path" stroke="#000000" stroke-dasharray="44.388875mm, 44.388875mm"/></svg></g></g>
+  </g>
+  <g id="outlines">
+    <path id="Bleed area - black" d="M0,0V7390.15H7102.22V0ZM6950.48,7239.57H162.13V150.79H6950.48Z" opacity="0.4"/>
+    <path id="Bleed area - white" d="M0,0V7390.15H7102.22V0ZM6950.48,7239.57H162.13V150.79H6950.48Z" fill="#fff" opacity="0.4"/>
+    <rect id="Safe area - white" x="289.1" y="289.19" width="6523.86" height="6812.58" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="7.09"/>
+    <rect id="Safe area - black" x="289.1" y="289.19" width="6523.86" height="6812.58" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="7.09" stroke-dasharray="52.5 52.5"/>
+    <g id="Bleed area">
+      <rect width="7102.22" height="7390.15" fill="none"/>
+    </g>
+    <path id="Print area" d="M162.13,150.79V7239.57H6950.48V150.79Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="14.17"/>
+  </g>
+</svg>

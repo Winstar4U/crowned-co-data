@@ -1,0 +1,72 @@
+{
+ "product_id": "6ac71169336f8358660114b7",
+ "shop_id": "26418699",
+ "title": "Happy Holidays Tree Christmas Shot Glass \u2014 1.5oz Party Shot Glass, Holiday Gift | Winstar4U",
+ "blueprint_id": 1245,
+ "print_provider_id": 228,
+ "position": "front",
+ "image_id": "6ac860fb4d672244ed4e6c2c",
+ "image_name": "fixed_6ac70f1158b544dcbb743f7c.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/e0565a88-0031-4310-aa12-eaac1d947c0a",
+ "image_px": [
+  1380,
+  1901
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 03:39:41+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT \u2014 \"HAPPY\" clipped at top edge, 7th occurrence of known \"Happy Holidays Tree\" bad source file",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.8,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0072,
+  0.0053,
+  0.9928,
+  0.9947
+ ],
+ "current_content_box_in_placeholder": [
+  0.1058,
+  -0.1361,
+  0.8942,
+  1.1361
+ ],
+ "current_inside_safe_frac": {
+  "94263": 0.578
+ },
+ "effective_px_ratio_after": 4.702,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.559,
+  "angle": 0
+ },
+ "placeholders": {
+  "94263": [
+   525,
+   450
+  ]
+ },
+ "safe_area_source": {
+  "94263": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "94263": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 11%",
+  "bottom 11%"
+ ],
+ "notes": [
+  "current: 42.2% of visible content outside safe area (variant 94263)"
+ ],
+ "live_change_made": false
+}

@@ -1,0 +1,73 @@
+{
+ "product_id": "6ac717a95a14e80fa703f22f",
+ "shop_id": "26418699",
+ "title": "Greatest Gift Christmas Backpack \u2014 Merry Christmas Daypack, Holiday Gift Idea | Winstar4U",
+ "blueprint_id": 10823,
+ "print_provider_id": 99,
+ "position": "front_dtf",
+ "image_id": "6ac4f0cc670ed8c1e9a88c6b",
+ "image_name": "faith-greatest-gift.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/4fd49dac-3f5f-44c9-9efe-4a4f108878d4",
+ "image_px": [
+  2048,
+  1365
+ ],
+ "decoration_method": "dtf",
+ "visible": true,
+ "updated_at": "2026-10-09 00:47:18+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT (title text clipped at top edge, gold-on-black illegible)",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 1.0,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0635,
+  0.0593,
+  0.9395,
+  0.9495
+ ],
+ "current_content_box_in_placeholder": [
+  0.0635,
+  -0.2832,
+  0.9395,
+  1.2988
+ ],
+ "current_inside_safe_frac": {
+  "401444": 0.6295
+ },
+ "effective_px_ratio_after": 1.518,
+ "proposed": {
+  "x": 0.5006,
+  "y": 0.492,
+  "scale": 0.562,
+  "angle": 0
+ },
+ "placeholders": {
+  "401444": [
+   2400,
+   900
+  ]
+ },
+ "safe_area_source": {
+  "401444": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "401444": 1.0
+ },
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 18%",
+  "bottom 19%"
+ ],
+ "notes": [
+  "art has opaque WHITE background on dtf print over coloured blank -> visible white patch; needs transparent re-export of same design (placement computed+verified, apply together)",
+  "current: 37.1% of visible content outside safe area (variant 401444)"
+ ],
+ "live_change_made": false
+}

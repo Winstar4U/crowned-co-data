@@ -1,0 +1,72 @@
+{
+ "product_id": "6ac712f10bf5e4d1ad0e64e8",
+ "shop_id": "26418699",
+ "title": "Keep Christ Christmas Christmas Lunch Box \u2014 Bento Box for Holiday Lunches, Holiday Gift | Winstar4U",
+ "blueprint_id": 695,
+ "print_provider_id": 23,
+ "position": "front",
+ "image_id": "6ac4f0e1a055d7f7b564a124",
+ "image_name": "faith-keep-christ-christmas.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/080d76cb-70be-4d1d-a53d-d316e9321ccc",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 02:05:19+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT (top of \"KEEP CHRIST\" clipped)",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.7,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0874,
+  0.0283,
+  0.9131,
+  0.9771
+ ],
+ "current_content_box_in_placeholder": [
+  0.2112,
+  -0.033,
+  0.7892,
+  1.0391
+ ],
+ "current_inside_safe_frac": {
+  "72920": 0.8657
+ },
+ "effective_px_ratio_after": 1.56,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.585,
+  "angle": 0
+ },
+ "placeholders": {
+  "72920": [
+   2244,
+   1390
+  ]
+ },
+ "safe_area_source": {
+  "72920": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "72920": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 3%",
+  "bottom 4%"
+ ],
+ "notes": [
+  "current: 13.4% of visible content outside safe area (variant 72920)"
+ ],
+ "live_change_made": false
+}

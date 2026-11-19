@@ -1,0 +1,72 @@
+{
+ "product_id": "6ac71310a005c19c550d8a31",
+ "shop_id": "26418699",
+ "title": "Holiday Spirit Cookies Christmas Lunch Box \u2014 Bento Box for Holiday Lunches, Holiday Gift | Winstar4U",
+ "blueprint_id": 695,
+ "print_provider_id": 23,
+ "position": "front",
+ "image_id": "6ac860be4f7d9a18a9c95b76",
+ "image_name": "fixed_6ac4f117bf39941ff913f270.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/694507ce-dcd0-4c92-9297-bf9ba9fa56e4",
+ "image_px": [
+  1610,
+  1979
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 03:36:36+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT-minor (top of \"HOLIDAY\" serifs clipped)",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.7,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0062,
+  0.0051,
+  0.9938,
+  0.9949
+ ],
+ "current_content_box_in_placeholder": [
+  0.1543,
+  -0.1875,
+  0.8457,
+  1.1875
+ ],
+ "current_inside_safe_frac": {
+  "72920": 0.6793
+ },
+ "effective_px_ratio_after": 1.587,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.452,
+  "angle": 0
+ },
+ "placeholders": {
+  "72920": [
+   2244,
+   1390
+  ]
+ },
+ "safe_area_source": {
+  "72920": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "72920": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 14%",
+  "bottom 14%"
+ ],
+ "notes": [
+  "current: 32.1% of visible content outside safe area (variant 72920)"
+ ],
+ "live_change_made": false
+}
