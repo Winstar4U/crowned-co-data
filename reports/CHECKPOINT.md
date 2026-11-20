@@ -71,3 +71,8 @@
 1. Apply any D-decisions the owner has answered (D1 = set prices on 48 products from the CSV, then re-fetch each to verify).
 2. ~~Pull the Shopify catalog and fill Shopify `channel_link`.~~ **DONE 2026-11-19:** read-only pull of shop 26418699 (51 pages, 2,508 products; 486 have a storefront URL). Of the 1,602 Shopify SELL NOW rows, 330 have a link and stay SELL NOW; 1,272 have no link and are now UNKNOWN. 450 pulled Shopify products have no inspection row (UNKNOWN). New totals: SELL NOW 608 (Shopify 330, Etsy 241, TikTok 20, Amazon 17), REPAIR FIRST 447, HOLD 1, UNKNOWN 1,930, REMOVED 22. Linked holiday shortlist: 348 (Shopify 219, Etsy 92, TikTok 20, Amazon 17). Still to do: give ChatGPT the linked holiday list.
 3. Then do D6 offline prep: corrected placement values for holiday REPAIR FIRST products, worst blueprint first. No live writes.
+
+## Network blocker for Higgsfield (2026-11-20 02:30 UTC)
+- The Default environment's proxy refuses `upload.higgsfield.ai` and the Higgsfield CDNs (`d8j0ntlcm91z4.cloudfront.net`, `d2ol7oe51mr4n9.cloudfront.net`). Without them, original art can't be uploaded as a reference and generated art can't be downloaded or checked.
+- I created a personal environment, **crowned-co-data** (`env_015q5EFENfgNJvd5DYp1ZNLK`), that allows those hosts plus the existing Printify and Etsy hosts. This session could not switch to it.
+- **To resume the Higgsfield regeneration:** start a new session on crowned-co-data, run `/resume`, then work through the GENERATE groups in `work/d6_new_art/results.csv` (largest shared-art groups first) and review the D7 art (`work/d7_texaco_replacement/README.md`).
