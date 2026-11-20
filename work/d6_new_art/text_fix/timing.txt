@@ -1,0 +1,3 @@
+start_utc=2026-11-20T03:57:26Z
+end_utc=2026-11-20T04:29:33Z
+note=D6 GENERATE-route local text/art repair; local files only; no Printify/Higgsfield/Bridge/git calls
