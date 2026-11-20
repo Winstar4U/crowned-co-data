@@ -1,0 +1,93 @@
+{
+ "product_id": "6ac711516f976358160c470e",
+ "shop_id": "26418699",
+ "title": "Christmas Stress Tinsel Done Christmas Winter Scarf \u2014 Chic Winter Accessory, Holiday Gift | Winstar4U",
+ "blueprint_id": 1327,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac85d654be9797c9ffbd402",
+ "image_name": "christmas-stress-tinsel-done.png-TRANSPARENT.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/bbcf0f22-8386-417c-b49a-b3a785559692",
+ "image_px": [
+  4972,
+  6008
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 03:20:16+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT \u2014 top line \"CHRISTMAS\" almost entirely cropped at top edge (alcohol-themed wine-glass icon, adult Winter Scarf, not a brand-safety flag)",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.4,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.008,
+  0.0067,
+  0.992,
+  0.9933
+ ],
+ "current_content_box_in_placeholder": [
+  0.3032,
+  -0.1415,
+  0.6968,
+  1.1415
+ ],
+ "current_inside_safe_frac": {
+  "100848": 0.676
+ },
+ "effective_px_ratio_after": 0.439,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.255,
+  "angle": 0
+ },
+ "placeholders": {
+  "100848": [
+   11100,
+   4126
+  ]
+ },
+ "safe_area_source": {
+  "100848": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "100848": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 11%",
+  "bottom 11%"
+ ],
+ "notes": [
+  "Cosmetic: art headline starts with a stray unmatched opening quote mark (\u2018CHRISTMAS ... no closing quote). Not a placement issue; optional text fix on next art refresh.",
+  "LOW-RES: art upscaled 2.3x on largest variant (src px/print px=0.44)",
+  "current: 32.4% of visible content outside safe area (variant 100848)"
+ ],
+ "live_change_made": false,
+ "warn_fix": {
+  "kind": "upscale",
+  "source_original": "work/d6_batch2/6ac711516f976358160c470e/original.png",
+  "new_art_local": "work/d6_warn_disposition/art/christmas-stress-tinsel-done_x4.png",
+  "new_art_sha256": "35f10cb118e908d58eb1e6a676efc67ccac3950275293492c0de7ef984c43cb5",
+  "new_art_px": [
+   4972,
+   6008
+  ],
+  "old_image_px": [
+   1243,
+   1502
+  ],
+  "placement_changed": false,
+  "note": "Real-ESRGAN anime6B x4 local upscale (edge-bleed RGB, Lanczos alpha); upscale adds no true detail: native-pixel resolution unchanged",
+  "requires": "upload new art as a NEW Printify image + owner-approved product update (not done; local only)",
+  "qa_after": "PASS"
+ },
+ "image_name_proposed": "christmas-stress-tinsel-done_x4.png"
+}

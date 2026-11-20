@@ -1,0 +1,100 @@
+{
+ "product_id": "6ac711f1b32a96bbe40d0ca2",
+ "shop_id": "26418699",
+ "title": "Prosecco Ho Ho Ho Christmas Cutting Board \u2014 Festive Kitchen Decor Board, Holiday Gift | Winstar4U",
+ "blueprint_id": 643,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac85f74a8a43eed332dbab5",
+ "image_name": "prosecco-ho-ho-ho.png-TRANSPARENT.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/3adddad8-b239-4030-85b1-a95344bc1a05",
+ "image_px": [
+  5140,
+  5576
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 04:56:43+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT: PROSECCO clipped top, final HO clipped bottom",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.7,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0078,
+  0.0072,
+  0.9922,
+  0.9928
+ ],
+ "current_content_box_in_placeholder": [
+  0.1554,
+  -0.0207,
+  0.8446,
+  1.0207
+ ],
+ "current_inside_safe_frac": {
+  "74549": 0.843,
+  "74550": 0.8531
+ },
+ "effective_px_ratio_after": 0.445,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.602,
+  "angle": 0
+ },
+ "placeholders": {
+  "74549": [
+   4800,
+   3450
+  ],
+  "74550": [
+   3525,
+   2550
+  ]
+ },
+ "safe_area_source": {
+  "74549": "rect",
+  "74550": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "74549": 1.0,
+  "74550": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 2%",
+  "bottom 2%"
+ ],
+ "notes": [
+  "geometry checked for 2 enabled variants (2 distinct placeholder geometries)",
+  "LOW-RES: art upscaled 2.2x on largest variant (src px/print px=0.44)",
+  "current: 15.7% of visible content outside safe area (variant 74549)"
+ ],
+ "live_change_made": false,
+ "warn_fix": {
+  "kind": "upscale",
+  "source_original": "work/d6_batch4/6ac711f1b32a96bbe40d0ca2/original.png",
+  "new_art_local": "work/d6_warn_disposition/art/prosecco-ho-ho-ho_x4.png",
+  "new_art_sha256": "6038e64a84b448aee5321662973393471bc421f0e9d965e9cb4e5fd7a9cd6a19",
+  "new_art_px": [
+   5140,
+   5576
+  ],
+  "old_image_px": [
+   1285,
+   1394
+  ],
+  "placement_changed": false,
+  "note": "Real-ESRGAN anime6B x4 local upscale (edge-bleed RGB, Lanczos alpha); upscale adds no true detail: native-pixel resolution unchanged",
+  "requires": "upload new art as a NEW Printify image + owner-approved product update (not done; local only)",
+  "qa_after": "PASS"
+ },
+ "image_name_proposed": "prosecco-ho-ho-ho_x4.png"
+}

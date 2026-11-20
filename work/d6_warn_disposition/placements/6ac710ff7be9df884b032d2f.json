@@ -1,0 +1,92 @@
+{
+ "product_id": "6ac710ff7be9df884b032d2f",
+ "shop_id": "26418699",
+ "title": "Naughty List Skeleton V2 Christmas Winter Scarf \u2014 Soft Festive Wrap Gift, Holiday Gift | Winstar4U",
+ "blueprint_id": 1327,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac8606795660a69b48b292e",
+ "image_name": "naughty-list-skeleton-v2.png-TRANSPARENT.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/dfad8bb5-163b-4f7a-84e0-e66c7154afc1",
+ "image_px": [
+  5044,
+  5976
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 03:33:08+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT \u2014 bottom banner text cropped at fabric edge (\"ON T[...] LIST\")",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.4,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0079,
+  0.0067,
+  0.9921,
+  0.9933
+ ],
+ "current_content_box_in_placeholder": [
+  0.3032,
+  -0.1289,
+  0.6968,
+  1.1289
+ ],
+ "current_inside_safe_frac": {
+  "100848": 0.6889
+ },
+ "effective_px_ratio_after": 0.437,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.26,
+  "angle": 0
+ },
+ "placeholders": {
+  "100848": [
+   11100,
+   4126
+  ]
+ },
+ "safe_area_source": {
+  "100848": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "100848": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 10%",
+  "bottom 10%"
+ ],
+ "notes": [
+  "LOW-RES: art upscaled 2.3x on largest variant (src px/print px=0.44)",
+  "current: 31.1% of visible content outside safe area (variant 100848)"
+ ],
+ "live_change_made": false,
+ "warn_fix": {
+  "kind": "upscale",
+  "source_original": "work/d6_batch4/6ac710ff7be9df884b032d2f/original.png",
+  "new_art_local": "work/d6_warn_disposition/art/naughty-list-skeleton-v2_x4.png",
+  "new_art_sha256": "1711458a5513265a38b2bb3c159e8850bc240628c56adef0bd95d029d391bcb1",
+  "new_art_px": [
+   5044,
+   5976
+  ],
+  "old_image_px": [
+   1261,
+   1494
+  ],
+  "placement_changed": false,
+  "note": "Real-ESRGAN anime6B x4 local upscale (edge-bleed RGB, Lanczos alpha); upscale adds no true detail: native-pixel resolution unchanged",
+  "requires": "upload new art as a NEW Printify image + owner-approved product update (not done; local only)",
+  "qa_after": "PASS"
+ },
+ "image_name_proposed": "naughty-list-skeleton-v2_x4.png"
+}
