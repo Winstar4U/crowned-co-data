@@ -36,15 +36,15 @@
   1.2591
  ],
  "current_inside_safe_frac": {
-  "76801": 0.5409,
-  "76802": 0.7202,
-  "76803": 0.6558
+  "76801": 0.3605,
+  "76802": 0.4796,
+  "76803": 0.4365
  },
- "effective_px_ratio_after": 1.234,
+ "effective_px_ratio_after": 1.444,
  "proposed": {
   "x": 0.5,
   "y": 0.5,
-  "scale": 0.467,
+  "scale": 0.399,
   "angle": 0
  },
  "placeholders": {
@@ -81,7 +81,7 @@
  ],
  "notes": [
   "geometry checked for 3 enabled variants (3 distinct placeholder geometries)",
-  "current: 45.9% of visible content outside safe area (variant 76801)"
+  "current: 64.0% of visible content outside safe area (variant 76801)"
  ],
  "live_change_made": false
 }

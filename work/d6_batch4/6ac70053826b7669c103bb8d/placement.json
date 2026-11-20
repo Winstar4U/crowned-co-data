@@ -36,15 +36,15 @@
   0.3916
  ],
  "current_inside_safe_frac": {
-  "45132": 1.0,
-  "45133": 1.0,
-  "45134": 1.0
+  "45132": 0.9491,
+  "45133": 0.9608,
+  "45134": 0.9555
  },
- "effective_px_ratio_after": 1.787,
+ "effective_px_ratio_after": 2.045,
  "proposed": {
-  "x": 0.5,
+  "x": 0.4964,
   "y": 0.3,
-  "scale": 0.85,
+  "scale": 0.743,
   "angle": 0
  },
  "placeholders": {
@@ -79,7 +79,7 @@
  "notes": [
   "BLOCKED (not an art defect alone): print provider 99 no longer manufactures socks blueprint 376 (get-blueprint-variants 376/99 -> 404 printify_blueprint_print_provider_mismatch; only provider 1 SPOKE listed) and all 3 enabled variants (45132/45133/45134) report is_available=false, so the live listing cannot be produced or repaired in place. Owner decision: rebuild on provider 1 or retire. REFERENCE placement below was computed+verified on 376/1 dims (same variant ids) with the leg-curvature zone u 0.20-0.80, and is meant for all 4 leg positions (front/back x left/right share dims and the same image).",
   "geometry checked for 3 enabled variants (3 distinct placeholder geometries)",
-  "current placement already inside safe area on all checked variants"
+  "current: 5.1% of visible content outside safe area (variant 45132)"
  ],
  "live_change_made": false
 }

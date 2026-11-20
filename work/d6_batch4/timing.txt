@@ -1,1 +1,4 @@
 start_utc=2026-11-19T23:49:29Z
+end_utc=2026-11-20T00:08:29Z
+note=first build run 23:58Z; rerun after rule changes was killed by a container restart (exit 137); final foreground build 00:01-00:08Z (7m07s), outputs rewritten 00:08Z
+mode=NON-LIVE prep; Printify calls used: get-products (40, read-only, shop 26418699), get-blueprint-variants (3 calls: 376/99 -> 404 provider mismatch, 376/1, 636/99); 12 pairs reused from d6_batch1..3 placeholders.json. get-product-mockups not needed. Downloads: 40 originals (S3), 40 mockups, 4 new view SVGs (images.printify.com) - no failures. No upsert/upload/publish/delete/price/order calls. No drafts. No git. No Bridge posts.
