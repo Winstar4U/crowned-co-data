@@ -75,6 +75,13 @@
 - **Bridge:** P-475F6P6J6A, P-4P6T5C6T31, P-2Q0X721S4B, plus the package post.
 - **Nothing is live.**
 
+## BF launch (2026-11-20 21:00 UTC)
+- **Packet:** `reports/black_friday/launch/LAUNCH_APPROVAL_PACKET.md`.
+- **Wave 1:** 16 products whose public pages were verified LIVE (Etsy 15, Amazon 1), all at regular price.
+- **On hold:** 10 Shopify products. winstarmarketing.shop is on hold.
+- **Decisions:** `reports/phase6/OWNER_DECISIONS.md`.
+- **Final art rework:** `work/d6_final_rework/` (49 per-product wording previews).
+
 ## Next action for the next session (resume here)
 
 0. Run `/resume`. Check the Bridge for owner replies to the PHASE6 decision register (wording reply line, `APPROVE LA-xx`, BF offers, D2). Execute ONLY the exact approved items, following the per-batch steps in PHASE6_PACKAGE.md section 5:
