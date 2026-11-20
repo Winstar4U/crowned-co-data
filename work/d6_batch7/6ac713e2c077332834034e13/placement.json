@@ -1,0 +1,80 @@
+{
+ "product_id": "6ac713e2c077332834034e13",
+ "shop_id": "26418699",
+ "title": "Santas Favorite Customer Vip Christmas Cloth Napkin Set \u2014 Elegant Holiday Hosting Essential, Holiday Gift | Winstar4U",
+ "blueprint_id": 1646,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac71e8c46d784de2f1714c8",
+ "image_name": "flattened-santas-favorite-customer-vip.jpg",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/b0fbd529-6bc2-4b26-b754-78db271ff73b",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "direct-to-fabric",
+ "visible": true,
+ "updated_at": "2026-10-09 01:45:50+00:00",
+ "defect_cause": "source-file: placeholder text",
+ "defect_note": "DEFECT (receipt graphic shows literal \"PRICE\" placeholder text x3, not real values)",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.9,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.2168,
+  0.1509,
+  0.7798,
+  0.8516
+ ],
+ "current_content_box_in_placeholder": [
+  0.2451,
+  0.1858,
+  0.7518,
+  0.8164
+ ],
+ "current_inside_safe_frac": {
+  "113862": 1.0,
+  "113861": 1.0
+ },
+ "effective_px_ratio_after": 0.323,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.9,
+  "angle": 0
+ },
+ "placeholders": {
+  "113862": [
+   7050,
+   7050
+  ],
+  "113861": [
+   3450,
+   3450
+  ]
+ },
+ "safe_area_source": {
+  "113862": "printify_safe_area",
+  "113861": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "113862": 1.0,
+  "113861": 1.0
+ },
+ "new_art_category": "blank_text",
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [],
+ "notes": [
+  "NEEDS_NEW_ART: receipt graphic shows literal placeholder text 'PRICE' x3 and placeholder '$99,999.99' total - visually confirmed in source flattened-santas-favorite-customer-vip; regenerate with real joke values. Placement already inside safe area.",
+  "geometry checked for 2 enabled variants (2 distinct placeholder geometries)",
+  "LOW-RES: art upscaled 3.1x on largest variant (src px/print px=0.32)",
+  "current placement already inside safe area on all checked variants"
+ ],
+ "live_change_made": false
+}

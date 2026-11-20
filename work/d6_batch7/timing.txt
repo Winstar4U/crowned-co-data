@@ -1,1 +1,7 @@
 start_utc=2026-11-20T00:44:59Z
+build_run1_start=00:50:19
+build_run1_end=00:52:24
+build_run2_start=00:54:00
+build_run2_end=00:56:03
+end_utc=2026-11-20T00:56:10Z
+mode=NON-LIVE prep; Printify calls: get-products x40 (read-only, shop 26418699); get-blueprint-variants x4 show_out_of_stock=true (727/99 -> 404 provider no longer makes bp 727; 727/75 ref dims; 2005/99; 66/99). Other dims reused from d6_batch1..6 placeholders.json. get-product-mockups not needed. Downloads: 40 originals (S3), 40 default mockups, 1 view SVG (615c6e76..., kept in _dl, unused) - 19 SVGs reused from earlier batches; no failures. No upsert/upload/publish/unpublish/delete/price/order calls. No drafts. No git. No Bridge posts.

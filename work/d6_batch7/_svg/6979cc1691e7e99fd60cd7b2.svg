@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 6624 6624" xmlns:printify="http://printify.com/adjuster"  printify:width="1752.6000000000001" printify:height="1752.6000000000001">
+  <defs>
+    <clipPath id="clippath">
+      <rect id="printarea" x="792" y="72" width="5040" height="6480" fill="none"/>
+    </clipPath>
+  <image x="0" y="0" width="6624" height="6624" id="fabric-image"/><path d="" id="fabric-0"/><clipPath id="fabric-0-clip"><use xlink:href="#fabric-0"/></clipPath><path d="" id="fabric-1"/><clipPath id="fabric-1-clip"><use xlink:href="#fabric-1"/></clipPath><rect id="_front-path" width="5040" height="6480" fill="none" transform=""/><clipPath><use stroke-width="7.3025mm" xlink:href="#_front-path"/></clipPath></defs>
+  <g id="color_first" fill-rule="nonzero" fill="#fff"><use xlink:href="#fabric-0"/><use clip-path="url(#fabric-0-clip)" xlink:href="#fabric-image"/>
+    <g clip-path="url(#clippath)">
+      <rect id="color_background" x="792" y="72" width="5040" height="6480" fill="#fff" fill-rule="nonzero"><use xlink:href="#fabric-1"/><use clip-path="url(#fabric-1-clip)" xlink:href="#fabric-image"/></rect>
+      
+    <g clip-path="url(#_front-clippath)" transform="translate(792 72)"><svg id="placeholder_front" width="5040" height="6480" preserveAspectRatio="xMidYMid slice" viewBox="0 0 5040 6480"><use stroke-width="7.3025mm" xlink:href="#_front-path" stroke="#ffffff"/><use stroke-width="7.3025mm" xlink:href="#_front-path" stroke="#000000" stroke-dasharray="14.605mm, 14.605mm"/></svg></g></g>
+  </g>
+  <g id="outlines">
+    <path id="bleed" d="M5688.001,6407.999l-4752,.002-.002-6192,4752-.002.002,6192ZM5831.999,71.999l-5040,.002.002,6480,5040-.002-.002-6480Z" opacity=".4"/>
+    <path id="bleedw" d="M5688.001,6407.999l-4752,.002-.002-6192,4752-.002.002,6192ZM5831.999,71.999l-5040,.002.002,6480,5040-.002-.002-6480Z" fill="#fff" opacity=".4"/>
+    <rect id="safew" x="936" y="216" width="4752" height="6192" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="6"/>
+    <g id="safe">
+      <g>
+        <polyline points="5688.001 6377.999 5688.001 6407.999 5658.001 6407.999" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="6"/>
+        <line x1="5598.619" y1="6407.999" x2="5598.608" y2="6407.999" fill="none" stroke="#000" stroke-dasharray=".01 0" stroke-linejoin="round" stroke-width="6"/>
+        <line x1="5598.608" y1="6407.999" x2="966.001" y2="6408.001" fill="none" stroke="#000" stroke-dasharray="59.392 59.383 .01 0" stroke-linejoin="round" stroke-width="6"/>
+        <polyline points="966.001 6408.001 936.001 6408.001 936.001 6378.001" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="6"/>
+        <line x1="936.001" y1="6318.477" x2="936.001" y2="6318.467" fill="none" stroke="#000" stroke-dasharray=".01 0" stroke-linejoin="round" stroke-width="6"/>
+        <line x1="936.001" y1="6318.467" x2="935.999" y2="246.001" fill="none" stroke="#000" stroke-dasharray="59.534 59.524 .01 0" stroke-linejoin="round" stroke-width="6"/>
+        <polyline points="935.999 246.001 935.999 216.001 965.999 216.001" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="6"/>
+        <line x1="1025.381" y1="216.001" x2="1025.391" y2="216.001" fill="none" stroke="#000" stroke-dasharray=".01 0" stroke-linejoin="round" stroke-width="6"/>
+        <line x1="1025.391" y1="216.001" x2="5657.999" y2="215.999" fill="none" stroke="#000" stroke-dasharray="59.392 59.383 .01 0" stroke-linejoin="round" stroke-width="6"/>
+        <polyline points="5657.999 215.999 5687.999 215.999 5687.999 245.999" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="6"/>
+        <line x1="5687.999" y1="305.523" x2="5687.999" y2="305.533" fill="none" stroke="#000" stroke-dasharray=".01 0" stroke-linejoin="round" stroke-width="6"/>
+        <line x1="5687.999" y1="305.533" x2="5688.001" y2="6377.999" fill="none" stroke="#000" stroke-dasharray="59.534 59.524 .01 0" stroke-linejoin="round" stroke-width="6"/>
+      </g>
+    </g>
+    <rect id="printarea" x="792" y="72" width="5040" height="6480" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="12"/>
+  </g>
+</svg>

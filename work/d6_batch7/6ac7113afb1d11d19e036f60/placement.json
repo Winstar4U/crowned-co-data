@@ -1,0 +1,71 @@
+{
+ "product_id": "6ac7113afb1d11d19e036f60",
+ "shop_id": "26418699",
+ "title": "My Elf Made Me Christmas Shot Glass \u2014 1.5oz Party Shot Glass, Holiday Gift | Winstar4U",
+ "blueprint_id": 1245,
+ "print_provider_id": 228,
+ "position": "front",
+ "image_id": "6ac860d8ecd0bed01c1b82b8",
+ "image_name": "fixed_6ac4f14ba2e2e7ac147890c9.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/aa7ec81d-9a47-475b-9033-39a9e7e503e2",
+ "image_px": [
+  1515,
+  1312
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 03:40:50+00:00",
+ "defect_cause": "source-file: garbled text",
+ "defect_note": "DEFECT \u2014 duplicated word (\"MY ELF MADE / MADE ME DO IT\"), recurrence of known garbled-text defect",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.8,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.0066,
+  0.0076,
+  0.9934,
+  0.9924
+ ],
+ "current_content_box_in_placeholder": [
+  0.1053,
+  0.102,
+  0.8947,
+  0.898
+ ],
+ "current_inside_safe_frac": {
+  "94263": 0.878
+ },
+ "effective_px_ratio_after": 4.754,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.607,
+  "angle": 0
+ },
+ "placeholders": {
+  "94263": [
+   525,
+   450
+  ]
+ },
+ "safe_area_source": {
+  "94263": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "94263": 1.0
+ },
+ "new_art_category": "garbled_text",
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [],
+ "notes": [
+  "NEEDS_NEW_ART: duplicated-word text bug 'MY ELF MADE / MADE ME DO IT' CONFIRMED in source (visually checked; recurring bad file, also batch 6). Placement fix (scale 0.607, visible front band) verified.",
+  "current: 12.2% of visible content outside safe area (variant 94263)"
+ ],
+ "live_change_made": false
+}

@@ -1,0 +1,89 @@
+{
+ "product_id": "6ac71559c077332834034f19",
+ "shop_id": "26418699",
+ "title": "Santas Favorite Customer Vip Christmas Women's T-Shirt \u2014 Festive Holiday Tee for Her, Holiday Gift | Winstar4U",
+ "blueprint_id": 9,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac86013cef025550dad7249",
+ "image_name": "flattened-santas-favorite-customer-vip-transparent.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/eeb9bdb9-9b4b-4126-ac36-ff7b368b8516",
+ "image_px": [
+  400,
+  400
+ ],
+ "decoration_method": "dtg",
+ "visible": true,
+ "updated_at": "2026-10-09 03:43:39+00:00",
+ "defect_cause": "source-file: placeholder text",
+ "defect_note": "DEFECT (receipt graphic shows literal \"PRICE\" placeholder text, not values)",
+ "current": {
+  "x": 0.5,
+  "y": 0.38,
+  "scale": 0.9,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.2175,
+  0.15,
+  0.78,
+  0.8525
+ ],
+ "contrast_vs_black": 0.058,
+ "current_content_box_in_placeholder": [
+  0.2458,
+  0.103,
+  0.752,
+  0.6589
+ ],
+ "current_inside_safe_frac": {
+  "17979": 1.0,
+  "17978": 1.0,
+  "17743": 1.0
+ },
+ "effective_px_ratio_after": 0.138,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.38,
+  "scale": 0.9,
+  "angle": 0
+ },
+ "placeholders": {
+  "17979": [
+   3210,
+   3651
+  ],
+  "17978": [
+   2831,
+   3220
+  ],
+  "17743": [
+   2452,
+   2789
+  ]
+ },
+ "safe_area_source": {
+  "17979": "rect",
+  "17978": "rect",
+  "17743": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "17979": 1.0,
+  "17978": 1.0,
+  "17743": 1.0
+ },
+ "new_art_category": "blank_text",
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [],
+ "notes": [
+  "NEEDS_NEW_ART: receipt graphic shows literal placeholder text 'PRICE' x3 and placeholder '$99,999.99' total - visually confirmed in source flattened-santas-favorite-customer-vip; regenerate with real joke values. ALSO LOW-RES: 400x400 thumbnail upscaled 7.2x. Placement unchanged.",
+  "NEEDS_NEW_ART: source art is only 400x400 px (flattened thumbnail export) - upscaled 7.2x at print size, will print soft/pixelated. Placement fix computed+verified; apply together with a >=2000 px re-export of the same transparent design.",
+  "geometry checked for 8 enabled variants (3 distinct placeholder geometries)",
+  "LOW-RES: art upscaled 7.2x on largest variant (src px/print px=0.14)",
+  "current placement already inside safe area on all checked variants"
+ ],
+ "live_change_made": false
+}

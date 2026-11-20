@@ -1,0 +1,71 @@
+{
+ "product_id": "6ac714eba5ade89b5c0810e2",
+ "shop_id": "26418699",
+ "title": "Ho Ho Pour Another Christmas Mouse Pad \u2014 Funny Desk Gift, Holiday Gift | Winstar4U",
+ "blueprint_id": 582,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac860bbab493563659a7eaa",
+ "image_name": "ho-ho-pour-another.png-TRANSPARENT.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/9fb2f0f2-3607-4a39-876e-7b077e686463",
+ "image_px": [
+  1605,
+  1945
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 05:10:45+00:00",
+ "defect_cause": "source-file: placeholder text",
+ "defect_note": "DEFECT (blank unfinished banner placeholder, no text)",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.65,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.0062,
+  0.0051,
+  0.9938,
+  0.9949
+ ],
+ "current_content_box_in_placeholder": [
+  0.179,
+  0.1102,
+  0.821,
+  0.8898
+ ],
+ "current_inside_safe_frac": {
+  "71665": 0.9895
+ },
+ "effective_px_ratio_after": 0.997,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.528,
+  "scale": 0.613,
+  "angle": 0
+ },
+ "placeholders": {
+  "71665": [
+   2625,
+   2625
+  ]
+ },
+ "safe_area_source": {
+  "71665": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "71665": 1.0
+ },
+ "new_art_category": "blank_text",
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [],
+ "notes": [
+  "NEEDS_NEW_ART: bottom green ribbon banner is BLANK (no text rendered) in the source file - visually confirmed; title punchline ('Pour Another') missing from art. Placement fix (scale 0.613, inside 5% safe circle) verified.",
+  "current: 1.1% of visible content outside safe area (variant 71665)"
+ ],
+ "live_change_made": false
+}

@@ -1,0 +1,72 @@
+{
+ "product_id": "6ac711357be9df884b032d51",
+ "shop_id": "26418699",
+ "title": "Truck Tree Christmas Shower Curtain \u2014 Instant Festive Bathroom Refresh, Holiday Home Decor Gift | Winstar4U",
+ "blueprint_id": 235,
+ "print_provider_id": 10,
+ "position": "front",
+ "image_id": "6ac70f98df19766f478b22b5",
+ "image_name": "nostalgic-truck-tree.jpg",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/747166f1-48f2-4960-bb86-c64fb0b63d6a",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 01:51:57+00:00",
+ "defect_cause": "source-file: placeholder text",
+ "defect_note": "DEFECT \u2014 green ribbon banner blank/no text rendered (blank-banner-placeholder pattern)",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 1.0,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.0835,
+  0.0796,
+  0.9102,
+  0.917
+ ],
+ "current_content_box_in_placeholder": [
+  0.0835,
+  0.096,
+  0.9102,
+  0.9007
+ ],
+ "current_inside_safe_frac": {
+  "41653": 1.0
+ },
+ "effective_px_ratio_after": 0.288,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 1.0,
+  "angle": 0
+ },
+ "placeholders": {
+  "41653": [
+   7104,
+   7392
+  ]
+ },
+ "safe_area_source": {
+  "41653": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "41653": 1.0
+ },
+ "new_art_category": "blank_text",
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [],
+ "notes": [
+  "NEEDS_NEW_ART: green ribbon banner under the truck is BLANK (no text) in source nostalgic-truck-tree - visually confirmed. Placement inside safe area.",
+  "LOW-RES: art upscaled 3.5x on largest variant (src px/print px=0.29)",
+  "current placement already inside safe area on all checked variants"
+ ],
+ "live_change_made": false
+}

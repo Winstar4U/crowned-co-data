@@ -1,0 +1,82 @@
+{
+ "product_id": "6ac7146d83f1a0e50d071e6b",
+ "shop_id": "26418699",
+ "title": "Professional Gift Returner Christmas Baby Onesie \u2014 Adorable Baby Christmas Gift, Holiday Gift | Winstar4U",
+ "blueprint_id": 568,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac8600c4d672244ed4e6bca",
+ "image_name": "professional-gift-returner-transparent.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/ddc7011a-b54d-4580-99c1-109b892c8176",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "dtg",
+ "visible": true,
+ "updated_at": "2026-10-09 03:39:16+00:00",
+ "defect_cause": "source-file: garbled text",
+ "defect_note": "DEFECT-MINOR (top banner text compressed/overlapping, partially garbled)",
+ "current": {
+  "x": 0.5,
+  "y": 0.3,
+  "scale": 0.9,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.0698,
+  0.0488,
+  0.9312,
+  0.9546
+ ],
+ "contrast_vs_white": 0.042,
+ "current_content_box_in_placeholder": [
+  0.1128,
+  -0.0555,
+  0.888,
+  0.6582
+ ],
+ "current_inside_safe_frac": {
+  "70900": 0.8273,
+  "70904": 0.8273
+ },
+ "effective_px_ratio_after": 1.084,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.412,
+  "scale": 0.9,
+  "angle": 0
+ },
+ "placeholders": {
+  "70900": [
+   1800,
+   2056
+  ],
+  "70904": [
+   2100,
+   2400
+  ]
+ },
+ "safe_area_source": {
+  "70900": "rect",
+  "70904": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "70900": 1.0,
+  "70904": 1.0
+ },
+ "new_art_category": "",
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 8%"
+ ],
+ "notes": [
+  "Register 'top banner compressed/garbled' NOT reproduced: 'PROFESSIONAL GIFT RETURNER' and all secondary text are clean (visually checked at full res). Real defect = placement: live y=0.30 pushes 8% of the art off the top of the onesie print area; corrected placement (x=0.5 y=0.412 scale 0.9) verified on all 3 enabled sizes. Note: fine-print bottom line is tiny at onesie size (legibility only).",
+  "geometry checked for 3 enabled variants (2 distinct placeholder geometries)",
+  "current: 17.3% of visible content outside safe area (variant 70900)"
+ ],
+ "live_change_made": false
+}

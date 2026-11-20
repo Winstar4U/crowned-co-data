@@ -1,0 +1,71 @@
+{
+ "product_id": "6ac71443a005c19c550d8a93",
+ "shop_id": "26418699",
+ "title": "Tree Up Patience Down Christmas Mouse Pad \u2014 Funny Desk Gift, Holiday Gift | Winstar4U",
+ "blueprint_id": 582,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac71e8e73560ed6dcc5023e",
+ "image_name": "flattened-tree-up-patience-down.jpg",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/b9713140-9318-465b-9e60-5ef25e1054e3",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 01:58:14+00:00",
+ "defect_cause": "source-file: garbled text",
+ "defect_note": "DEFECT (thermometer graphic reads garbled \"PATITANECE\" instead of PATIENCE \u2014 source-art spelling error)",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.65,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.1582,
+  0.0405,
+  0.8467,
+  0.9712
+ ],
+ "current_content_box_in_placeholder": [
+  0.2778,
+  0.2013,
+  0.7253,
+  0.8063
+ ],
+ "current_inside_safe_frac": {
+  "71665": 1.0
+ },
+ "effective_px_ratio_after": 1.2,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.65,
+  "angle": 0
+ },
+ "placeholders": {
+  "71665": [
+   2625,
+   2625
+  ]
+ },
+ "safe_area_source": {
+  "71665": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "71665": 1.0
+ },
+ "new_art_category": "garbled_text",
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [],
+ "notes": [
+  "NEEDS_NEW_ART: garbled thermometer text 'PATITANECE' (should read PATIENCE) CONFIRMED in source flattened-tree-up-patience-down.jpg (visually checked; recurring bad file, 6 products in this batch). Placement inside safe circle.",
+  "current placement already inside safe area on all checked variants"
+ ],
+ "live_change_made": false
+}

@@ -1,0 +1,80 @@
+{
+ "product_id": "6ac7151a7be9df884b032edd",
+ "shop_id": "26418699",
+ "title": "Truck Tree Christmas Women's T-Shirt \u2014 Festive Holiday Tee for Her, Holiday Gift | Winstar4U",
+ "blueprint_id": 9,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac8600fdbe9dd844d941232",
+ "image_name": "nostalgic-truck-tree-transparent.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/8f88c4df-978b-448d-98f4-be7921aaed4f",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "dtg",
+ "visible": true,
+ "updated_at": "2026-10-09 03:44:26+00:00",
+ "defect_cause": "source-file: placeholder text",
+ "defect_note": "DEFECT (blank unfinished banner placeholder, no text)",
+ "current": {
+  "x": 0.5,
+  "y": 0.38,
+  "scale": 0.9,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.0835,
+  0.0796,
+  0.9102,
+  0.9165
+ ],
+ "contrast_vs_white": 0.233,
+ "current_content_box_in_placeholder": [
+  0.1251,
+  0.0473,
+  0.8691,
+  0.7096
+ ],
+ "current_inside_safe_frac": {
+  "17979": 0.9998,
+  "17978": 0.9998
+ },
+ "effective_px_ratio_after": 0.709,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.388,
+  "scale": 0.9,
+  "angle": 0
+ },
+ "placeholders": {
+  "17979": [
+   3210,
+   3651
+  ],
+  "17978": [
+   2831,
+   3220
+  ]
+ },
+ "safe_area_source": {
+  "17979": "rect",
+  "17978": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "17979": 1.0,
+  "17978": 1.0
+ },
+ "new_art_category": "blank_text",
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [],
+ "notes": [
+  "NEEDS_NEW_ART: green ribbon banner under the truck is BLANK (no text) in source nostalgic-truck-tree - visually confirmed. Placement inside safe area.",
+  "geometry checked for 3 enabled variants (2 distinct placeholder geometries)",
+  "current placement already inside safe area on all checked variants"
+ ],
+ "live_change_made": false
+}

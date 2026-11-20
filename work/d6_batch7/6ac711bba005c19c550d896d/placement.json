@@ -1,0 +1,73 @@
+{
+ "product_id": "6ac711bba005c19c550d896d",
+ "shop_id": "26418699",
+ "title": "\"Everyone Go Home\" Christmas Wine Tumbler \u2014 Funny 12oz Holiday Tumbler, Holiday Gift | Winstar4U",
+ "blueprint_id": 1515,
+ "print_provider_id": 217,
+ "position": "drinkware_front",
+ "image_id": "6ac85835735984ace62b99b6",
+ "image_name": "fixed_6ac4f0ab5180f93cc4e557b1.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/4858b0d2-425d-4afd-842d-ba705b013b81",
+ "image_px": [
+  1708,
+  1990
+ ],
+ "decoration_method": "engraving",
+ "visible": true,
+ "updated_at": "2026-10-09 03:38:08+00:00",
+ "defect_cause": "other",
+ "defect_note": "DEFECT: house/tree illustration washed out/overexposed into indistinct silver blur",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.8,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.0059,
+  0.005,
+  0.9941,
+  0.995
+ ],
+ "contrast_vs_iron_gray": 0.429,
+ "current_content_box_in_placeholder": [
+  0.1047,
+  0.1032,
+  0.8953,
+  0.8968
+ ],
+ "current_inside_safe_frac": {
+  "109128": 1.0
+ },
+ "effective_px_ratio_after": 3.31,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.8,
+  "angle": 0
+ },
+ "placeholders": {
+  "109128": [
+   645,
+   750
+  ]
+ },
+ "safe_area_source": {
+  "109128": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "109128": 1.0
+ },
+ "new_art_category": "engraving",
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [],
+ "notes": [
+  "NEEDS_NEW_ART (engraving): full-colour raster art sent to ENGRAVING on the 1515/217 powder-coated wine tumbler - engraving is 1-colour (coating removed to steel), so shading/colour collapses into a silver blob; live mockup confirms illegible silver blur (visually checked). Needs a 1-colour high-contrast line-art/text engraving file. House/tree illustration washes out. Placement inside area.",
+  "geometry checked for 3 enabled variants (1 distinct placeholder geometries)",
+  "current placement already inside safe area on all checked variants"
+ ],
+ "live_change_made": false
+}

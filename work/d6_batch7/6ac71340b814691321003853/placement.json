@@ -1,0 +1,79 @@
+{
+ "product_id": "6ac71340b814691321003853",
+ "shop_id": "26418699",
+ "title": "Candy Cane Lane Christmas Throw Pillow Case 20x20 \u2014 Easy Couch & Bed Accent, Holiday Home Decor Gift | Winstar4U",
+ "blueprint_id": 5353,
+ "print_provider_id": 92,
+ "position": "front",
+ "image_id": "6ac70eebea48037033ff5469",
+ "image_name": "nostalgic-candy-cane-lane.jpg",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/4d2cdd9d-d20e-4d09-8b99-d9e4c5dbe201",
+ "image_px": [
+  2048,
+  1365
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 01:47:12+00:00",
+ "defect_cause": "source-file: blank banner",
+ "defect_note": "DEFECT (blank street-sign banner \u2014 recurrence) [DUP-size-variant, see below]",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.9,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.1001,
+  0.0352,
+  0.9014,
+  0.9641
+ ],
+ "current_content_box_in_placeholder": [
+  0.1401,
+  0.2212,
+  0.8612,
+  0.7784
+ ],
+ "current_inside_safe_frac": {
+  "244227": 1.0,
+  "244228": 1.0
+ },
+ "effective_px_ratio_after": 0.583,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.9,
+  "angle": 0
+ },
+ "placeholders": {
+  "244227": [
+   3300,
+   3300
+  ],
+  "244228": [
+   3900,
+   3900
+  ]
+ },
+ "safe_area_source": {
+  "244227": "printify_safe_area",
+  "244228": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "244227": 1.0,
+  "244228": 1.0
+ },
+ "new_art_category": "blank_text",
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [],
+ "notes": [
+  "NEEDS_NEW_ART: blank street-sign banner CONFIRMED in source (green sign between the candy canes has no text - visually checked; recurring bad source file nostalgic-candy-cane-lane). Placement unchanged/inside safe area; regenerate with sign text. DUPLICATE LISTING: identical file (mean diff 0.0) and same bp 5353/pp 92 pillow with overlapping 20x20+24x24 variants as batch-6 6ac712f80ed8f1657605f2f1 '18x18' listing - owner decision: merge or narrow variants.",
+  "geometry checked for 2 enabled variants (2 distinct placeholder geometries)",
+  "current placement already inside safe area on all checked variants"
+ ],
+ "live_change_made": false
+}

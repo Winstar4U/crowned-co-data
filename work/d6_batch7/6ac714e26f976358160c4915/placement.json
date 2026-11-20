@@ -1,0 +1,80 @@
+{
+ "product_id": "6ac714e26f976358160c4915",
+ "shop_id": "26418699",
+ "title": "Candy Cane Lane Christmas Women's T-Shirt \u2014 Festive Holiday Tee for Her, Holiday Gift | Winstar4U",
+ "blueprint_id": 9,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac860b213b7ef794ca2a013",
+ "image_name": "nostalgic-candy-cane-lane-transparent.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/1828a201-7425-490e-b773-62c4367aea19",
+ "image_px": [
+  2048,
+  1365
+ ],
+ "decoration_method": "dtg",
+ "visible": true,
+ "updated_at": "2026-10-09 03:54:52+00:00",
+ "defect_cause": "source-file: placeholder text",
+ "defect_note": "DEFECT (blank unfinished banner/sign placeholder, no text)",
+ "current": {
+  "x": 0.5,
+  "y": 0.38,
+  "scale": 0.9,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.1001,
+  0.0352,
+  0.9014,
+  0.9641
+ ],
+ "contrast_vs_white": 0.316,
+ "current_content_box_in_placeholder": [
+  0.1401,
+  0.1348,
+  0.8612,
+  0.6248
+ ],
+ "current_inside_safe_frac": {
+  "17979": 1.0,
+  "17978": 1.0
+ },
+ "effective_px_ratio_after": 0.709,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.38,
+  "scale": 0.9,
+  "angle": 0
+ },
+ "placeholders": {
+  "17979": [
+   3210,
+   3651
+  ],
+  "17978": [
+   2831,
+   3220
+  ]
+ },
+ "safe_area_source": {
+  "17979": "rect",
+  "17978": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "17979": 1.0,
+  "17978": 1.0
+ },
+ "new_art_category": "blank_text",
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [],
+ "notes": [
+  "NEEDS_NEW_ART: blank street-sign banner CONFIRMED in source (green sign between the candy canes has no text - visually checked; recurring bad source file nostalgic-candy-cane-lane-transparent.png). Placement unchanged/inside safe area; regenerate with sign text.",
+  "geometry checked for 3 enabled variants (2 distinct placeholder geometries)",
+  "current placement already inside safe area on all checked variants"
+ ],
+ "live_change_made": false
+}

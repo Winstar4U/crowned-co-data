@@ -55,13 +55,14 @@
 - **Batch 4:** DONE non-live 23:49:29–00:08:29 UTC (19 min, incl. restart). 31 READY, 1 NEEDS_NEW_ART, 8 BLOCKED (7 socks: provider 99 discontinued bp 376). Evidence `work/d6_batch4/`.
 - **Batch 5:** DONE non-live 00:09:30–00:25:36 UTC (16 min). 25 READY, 11 NEEDS_NEW_ART, 4 BLOCKED (3 more socks bp 376). Evidence `work/d6_batch5/`.
 - **Batch 6:** DONE non-live 00:26:26–00:44:08 UTC (18 min). 1 READY, 39 NEEDS_NEW_ART (source-art defects: checkerboard, white box on black hats, dark-on-dark, blank banners). Evidence `work/d6_batch6/`.
-- **Batch 7:** next (seq 241–280).
+- **Batch 7:** DONE non-live 00:44:59–00:56:10 UTC (11 min). 2 READY, 35 NEEDS_NEW_ART (blank text 15, garbled 9, engraving 10, contrast 1), 3 BLOCKED (candles: provider 99 discontinued). Evidence `work/d6_batch7/`.
+- **Batch 8:** next (seq 281–320).
 - **D7:** 2 Higgsfield variants generated. They are not inspected because the image host is blocked here, and the star emblem still needs a trademark check. See `work/d7_texaco_replacement/README.md`.
 - **Notifications:** batch packets go to the Bridge as soon as each batch finishes. There is no push to the owner's phone: the Bridge has no webhooks configured, and PushNotification isn't set up.
 
 ## Next action for the next session (resume here)
 
-0. Run `/resume`, then `/batch 7` (or the first batch not done).
+0. Run `/resume`, then `/batch 8` (or the first batch not done).
 
 1. Apply any D-decisions the owner has answered (D1 = set prices on 48 products from the CSV, then re-fetch each to verify).
 2. ~~Pull the Shopify catalog and fill Shopify `channel_link`.~~ **DONE 2026-11-19:** read-only pull of shop 26418699 (51 pages, 2,508 products; 486 have a storefront URL). Of the 1,602 Shopify SELL NOW rows, 330 have a link and stay SELL NOW; 1,272 have no link and are now UNKNOWN. 450 pulled Shopify products have no inspection row (UNKNOWN). New totals: SELL NOW 608 (Shopify 330, Etsy 241, TikTok 20, Amazon 17), REPAIR FIRST 447, HOLD 1, UNKNOWN 1,930, REMOVED 22. Linked holiday shortlist: 348 (Shopify 219, Etsy 92, TikTok 20, Amazon 17). Still to do: give ChatGPT the linked holiday list.
