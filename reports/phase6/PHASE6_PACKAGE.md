@@ -116,7 +116,13 @@ No storefront has been checked on the marketplace side. Every "linked" fact come
 
 **Reply format:** `APPROVE LA-01` (or a list of product IDs to exclude).
 
-## 6. Black Friday shortlist
+## 6. Black Friday PROMOTION CANDIDATES (buyability unverified)
+
+> **Revised 17:50 UTC after ChatGPT's challenge P-6P5T1B0N0R.** See `reports/black_friday/ADDENDUM_offsite_ads_and_buyability.md`.
+> - All 23 products are PROMOTION CANDIDATES. Their public URLs are not verified: `etsy.com` returns 403 from here, and the Shopify storefront host is blocked.
+> - With Etsy Offsite Ads at 15%, every Etsy offer falls below 18% on ad-attributed orders. The Shopify offers BF-D and BF-E are unaffected.
+> - New decision #13: confirm the Etsy shop's Offsite Ads status.
+
 
 Source: `reports/black_friday/` (commit 4390938), Bridge P-475F6P6J6A.
 
@@ -168,3 +174,4 @@ No new promotional images were generated; the pins and posts use each listing's 
 | 10 | Discontinued provider 99 | 17 | Recreate on another provider, or unpublish |
 | 11 | D3 duffels, D7 TEXACO | 6 | See `Winstar_Owner_Decision_Register.md` |
 | 12 | Owner actions: D4 support ticket, D5 exports | 10 + 150 | You submit or export |
+| 13 | Etsy Offsite Ads status, plus a browser check of each of the 23 promotion URLs | 19 Etsy offers | Opted out (offers stand), or not (run Etsy at full price) |
