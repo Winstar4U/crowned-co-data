@@ -59,7 +59,8 @@
 - **Batch 8:** DONE non-live 00:57:04–01:20:05 UTC (23 min). 25 READY, 11 NEEDS_NEW_ART, 4 BLOCKED (candles, provider 99). Evidence `work/d6_batch8/`.
 - **Batch 9:** DONE non-live 01:20:51–01:45 UTC (25 min). 24 READY, 16 NEEDS_NEW_ART (11 white box on black backpacks). Evidence `work/d6_batch9/`.
 - **Batch 10:** DONE non-live 01:46:21–02:01:51 UTC (15.5 min). 13 READY, 16 NEEDS_NEW_ART. ALL 389 PREPPED.
-- **Next:** new-art fixes for NEEDS_NEW_ART products (non-live), starting with mechanical fixes.
+- **New art (02:02–02:26 UTC):** 143 inventoried. 64 FIXED_LOCAL (transparent/outlined files in `work/d6_new_art/fixed/`), 10 FAILED_LOCAL, 69 NEEDS_GENERATION (grouped by shared art; ~41 unique files). See `work/d6_new_art/results.csv`.
+- **Next:** Higgsfield regeneration, largest shared-art groups first (Candy Cane Lane, Tree Up, Elf, Santa VIP).
 - **D7:** 2 Higgsfield variants generated. They are not inspected because the image host is blocked here, and the star emblem still needs a trademark check. See `work/d7_texaco_replacement/README.md`.
 - **Notifications:** batch packets go to the Bridge as soon as each batch finishes. There is no push to the owner's phone: the Bridge has no webhooks configured, and PushNotification isn't set up.
 
