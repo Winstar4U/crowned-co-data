@@ -1,0 +1,70 @@
+{
+ "product_id": "6ac71179b814691321003745",
+ "shop_id": "26418699",
+ "title": "Tree Up Patience Down Christmas Shower Curtain \u2014 Instant Festive Bathroom Refresh, Holiday Home Decor Gift | Winstar4U",
+ "blueprint_id": 235,
+ "print_provider_id": 10,
+ "position": "front",
+ "decoration_method": "dye-sublimation",
+ "issue": "repaired-art FAIL: LOW-RES ratio 0.29",
+ "option": "Real-ESRGAN x2.59 upscale",
+ "method": "local AI upscale (Real-ESRGAN anime6B, CPU) x2.59",
+ "art": {
+  "file": "work/d6_qa_fixes/art/treeup_realesrgan-anime6B_x2.59.png",
+  "px": [
+   5296,
+   5296
+  ],
+  "sha1": "c2a4c1bcac68baf6bda23495d539dd7d3a34ae1f",
+  "native_source_width_px": 2048,
+  "upscaled": true
+ },
+ "print_areas": [
+  {
+   "variant_ids": [
+    41653
+   ],
+   "placement": {
+    "angle": 0,
+    "scale": 0.994,
+    "x": 0.5,
+    "y": 0.496
+   }
+  }
+ ],
+ "per_variant_qa": {
+  "41653": {
+   "inside": 1.0,
+   "ratio": 0.75,
+   "nominal_dpi": 225,
+   "native_ratio": 0.75,
+   "native_nominal_dpi": 225,
+   "physical_dpi": 75,
+   "placeholder_ppi": 100
+  }
+ },
+ "content_bbox_norm": [
+  0.1588,
+  0.041,
+  0.8461,
+  0.9707
+ ],
+ "qa_status": "WARN",
+ "b_script_verdict": "WARN",
+ "issues": [
+  "art touches canvas edge (100% of border opaque) [WARN]"
+ ],
+ "before": {
+  "file": "crowned-co-data/work/d6_new_art/text_fix/f193d6d08b1ad932eb905ac8d3c3c0b6119a8e76.png",
+  "placement": {
+   "x": 0.5,
+   "y": 0.496,
+   "scale": 0.994,
+   "angle": 0
+  },
+  "ratio_min": 0.29,
+  "inside_min": 1.0
+ },
+ "live_change_made": false,
+ "note": "NON-LIVE staging file. Nothing uploaded. Applying it needs an image upload + product update = owner-approved write."
+}

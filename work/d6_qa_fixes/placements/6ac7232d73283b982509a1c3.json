@@ -1,0 +1,108 @@
+{
+ "product_id": "6ac7232d73283b982509a1c3",
+ "shop_id": "26418699",
+ "title": "Tree Up Patience Down Christmas Sticker Pack \u2014 Die-Cut Sticker Pack, Holiday Gift | Winstar4U",
+ "blueprint_id": 600,
+ "print_provider_id": 99,
+ "position": "front",
+ "decoration_method": "uv",
+ "issue": "repaired-art FAIL: checker score 0.65 + opaque square (die-cut would be a square)",
+ "option": "transparent die-cut art",
+ "method": "same corrected PATIENCE design as a transparent cut (hole-filled file) so the die-cut follows the art, not a square",
+ "art": {
+  "file": "work/d6_qa_fixes/art/6ac7149db8146913210038d0_treeup_holes_filled.png",
+  "px": [
+   2048,
+   2048
+  ],
+  "sha1": "b442edfca53b768b7c9ec1debb534b1f70ca3641",
+  "native_source_width_px": null,
+  "upscaled": false
+ },
+ "print_areas": [
+  {
+   "variant_ids": [
+    72006,
+    72007,
+    72008,
+    72009,
+    72010
+   ],
+   "placement": {
+    "angle": 0,
+    "scale": 0.8,
+    "x": 0.5,
+    "y": 0.5
+   }
+  }
+ ],
+ "per_variant_qa": {
+  "72006": {
+   "inside": 1.0,
+   "ratio": 4.267,
+   "nominal_dpi": 1280,
+   "native_ratio": 4.267,
+   "native_nominal_dpi": 1280,
+   "physical_dpi": null,
+   "placeholder_ppi": null
+  },
+  "72007": {
+   "inside": 1.0,
+   "ratio": 2.844,
+   "nominal_dpi": 853,
+   "native_ratio": 2.844,
+   "native_nominal_dpi": 853,
+   "physical_dpi": null,
+   "placeholder_ppi": null
+  },
+  "72008": {
+   "inside": 1.0,
+   "ratio": 2.133,
+   "nominal_dpi": 640,
+   "native_ratio": 2.133,
+   "native_nominal_dpi": 640,
+   "physical_dpi": null,
+   "placeholder_ppi": null
+  },
+  "72009": {
+   "inside": 1.0,
+   "ratio": 1.707,
+   "nominal_dpi": 512,
+   "native_ratio": 1.707,
+   "native_nominal_dpi": 512,
+   "physical_dpi": null,
+   "placeholder_ppi": null
+  },
+  "72010": {
+   "inside": 1.0,
+   "ratio": 1.422,
+   "nominal_dpi": 427,
+   "native_ratio": 1.422,
+   "native_nominal_dpi": 427,
+   "physical_dpi": null,
+   "placeholder_ppi": null
+  }
+ },
+ "content_bbox_norm": [
+  0.1582,
+  0.0405,
+  0.8467,
+  0.9712
+ ],
+ "qa_status": "PASS",
+ "b_script_verdict": "PASS",
+ "issues": [],
+ "before": {
+  "file": "crowned-co-data/work/d6_new_art/text_fix/7d9d687044d3ecefa8e33867c2e19822899f0c28.png",
+  "placement": {
+   "x": 0.5,
+   "y": 0.5,
+   "scale": 0.8,
+   "angle": 0
+  },
+  "ratio_min": 1.422,
+  "inside_min": 1.0
+ },
+ "live_change_made": false,
+ "note": "NON-LIVE staging file. Nothing uploaded. Applying it needs an image upload + product update = owner-approved write."
+}

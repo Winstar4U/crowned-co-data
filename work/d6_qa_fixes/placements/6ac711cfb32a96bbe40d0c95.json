@@ -1,0 +1,98 @@
+{
+ "product_id": "6ac711cfb32a96bbe40d0c95",
+ "shop_id": "26418699",
+ "title": "Avoiding Carolers Raccoon Christmas Duvet Cover \u2014 Cozy Christmas Bedroom Makeover, Holiday Home Decor Gift | Winstar4U",
+ "blueprint_id": 2662,
+ "print_provider_id": 10,
+ "position": "front",
+ "decoration_method": "direct-to-fabric",
+ "issue": "placement FAIL: low resolution (ratio 0.12)",
+ "option": "Real-ESRGAN x4.00 upscale",
+ "method": "local AI upscale (Real-ESRGAN anime6B, CPU) x4.00; scale 0.544->0.512 to clear 150 dpi",
+ "art": {
+  "file": "work/d6_qa_fixes/art/raccoon_realesrgan-anime6B_x4.00.png",
+  "px": [
+   4236,
+   6004
+  ],
+  "sha1": "04dc48bff88916f805103a94ee6737fa943f652b",
+  "native_source_width_px": 1059,
+  "upscaled": true
+ },
+ "print_areas": [
+  {
+   "variant_ids": [
+    147745,
+    147746,
+    147747,
+    147748
+   ],
+   "placement": {
+    "angle": 0,
+    "scale": 0.5123,
+    "x": 0.5,
+    "y": 0.5
+   }
+  }
+ ],
+ "per_variant_qa": {
+  "147746": {
+   "inside": 1.0,
+   "ratio": 0.612,
+   "nominal_dpi": 184,
+   "native_ratio": 0.612,
+   "native_nominal_dpi": 184,
+   "physical_dpi": null,
+   "placeholder_ppi": null
+  },
+  "147745": {
+   "inside": 1.0,
+   "ratio": 0.52,
+   "nominal_dpi": 156,
+   "native_ratio": 0.52,
+   "native_nominal_dpi": 156,
+   "physical_dpi": null,
+   "placeholder_ppi": null
+  },
+  "147747": {
+   "inside": 1.0,
+   "ratio": 0.787,
+   "nominal_dpi": 236,
+   "native_ratio": 0.787,
+   "native_nominal_dpi": 236,
+   "physical_dpi": null,
+   "placeholder_ppi": null
+  },
+  "147748": {
+   "inside": 1.0,
+   "ratio": 0.787,
+   "nominal_dpi": 236,
+   "native_ratio": 0.787,
+   "native_nominal_dpi": 236,
+   "physical_dpi": null,
+   "placeholder_ppi": null
+  }
+ },
+ "content_bbox_norm": [
+  0.0092,
+  0.0065,
+  0.9908,
+  0.9935
+ ],
+ "qa_status": "WARN",
+ "b_script_verdict": "PASS",
+ "issues": [],
+ "before": {
+  "file": "crowned-co-data/work/d6_batch1/6ac711cfb32a96bbe40d0c95/original.png",
+  "placement": {
+   "x": 0.5,
+   "y": 0.5,
+   "scale": 0.544,
+   "angle": 0
+  },
+  "ratio_min": 0.122,
+  "inside_min": 1.0
+ },
+ "live_change_made": false,
+ "note": "NON-LIVE staging file. Nothing uploaded. Applying it needs an image upload + product update = owner-approved write."
+}
