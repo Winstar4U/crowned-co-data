@@ -1,0 +1,81 @@
+{
+ "product_id": "6ac712022d1baaa3fd0057c9",
+ "shop_id": "26418699",
+ "title": "Santas Favorite Distraction Christmas Cutting Board \u2014 Festive Kitchen Decor Board, Holiday Gift | Winstar4U",
+ "blueprint_id": 643,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac8df8260413f8a58df6eca",
+ "image_name": "santas-favorite-distraction-FIXED3.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/8dfca18e-e5ee-4ba2-8edb-a89fb4eeb760",
+ "image_px": [
+  1702,
+  2048
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 13:02:30+00:00",
+ "defect_cause": "checkerboard",
+ "defect_note": "DEFECT: large-scale checkerboard transparency artifact",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.7,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.0,
+  0.0,
+  1.0,
+  1.0
+ ],
+ "current_content_box_in_placeholder": [
+  0.15,
+  -0.086,
+  0.85,
+  1.086
+ ],
+ "current_inside_safe_frac": {
+  "74549": 0.8415,
+  "74550": 0.845
+ },
+ "effective_px_ratio_after": 0.662,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.536,
+  "angle": 0
+ },
+ "placeholders": {
+  "74549": [
+   4800,
+   3450
+  ],
+  "74550": [
+   3525,
+   2550
+  ]
+ },
+ "safe_area_source": {
+  "74549": "rect",
+  "74550": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "74549": 1.0,
+  "74550": 1.0
+ },
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 7%",
+  "bottom 7%"
+ ],
+ "notes": [
+  "NEEDS_NEW_ART: baked-in transparency CHECKERBOARD confirmed in the source file (visually checked on black + magenta backgrounds): same santas-favorite-distraction-FIXED3.png (large opaque checker blocks). Placement fix (scale 0.536, both board sizes) verified; apply with clean art.",
+  "geometry checked for 2 enabled variants (2 distinct placeholder geometries)",
+  "current: 15.9% of visible content outside safe area (variant 74549)"
+ ],
+ "live_change_made": false
+}

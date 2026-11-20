@@ -1,0 +1,78 @@
+{
+ "product_id": "6ac712fa42c818a1ad095f97",
+ "shop_id": "26418699",
+ "title": "Candy Cane Lane Christmas Tablecloth \u2014 Festive Holiday Table Decor, Holiday Gift | Winstar4U",
+ "blueprint_id": 1624,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac70eebea48037033ff5469",
+ "image_name": "nostalgic-candy-cane-lane.jpg",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/4d2cdd9d-d20e-4d09-8b99-d9e4c5dbe201",
+ "image_px": [
+  2048,
+  1365
+ ],
+ "decoration_method": "direct-to-fabric",
+ "visible": true,
+ "updated_at": "2026-10-09 01:48:06+00:00",
+ "defect_cause": "source-file: blank banner",
+ "defect_note": "DEFECT (blank street-sign banner, no text \u2014 recurrence of bad source file)",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 1.0,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.1001,
+  0.0352,
+  0.9014,
+  0.9641
+ ],
+ "current_content_box_in_placeholder": [
+  0.1001,
+  0.1902,
+  0.9014,
+  0.8093
+ ],
+ "current_inside_safe_frac": {
+  "112701": 1.0,
+  "112702": 1.0
+ },
+ "effective_px_ratio_after": 0.228,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 1.0,
+  "angle": 0
+ },
+ "placeholders": {
+  "112701": [
+   9000,
+   9000
+  ],
+  "112702": [
+   9000,
+   15600
+  ]
+ },
+ "safe_area_source": {
+  "112701": "printify_safe_area",
+  "112702": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "112701": 1.0,
+  "112702": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [],
+ "notes": [
+  "geometry checked for 2 enabled variants (2 distinct placeholder geometries)",
+  "LOW-RES: art upscaled 4.4x on largest variant (src px/print px=0.23)",
+  "current placement already inside safe area on all checked variants"
+ ],
+ "live_change_made": false
+}

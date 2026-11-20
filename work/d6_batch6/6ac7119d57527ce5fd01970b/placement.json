@@ -1,0 +1,82 @@
+{
+ "product_id": "6ac7119d57527ce5fd01970b",
+ "shop_id": "26418699",
+ "title": "Avoiding Carolers Raccoon Christmas Youth Hoodie \u2014 Cozy Kids Holiday Hoodie, Holiday Gift | Winstar4U",
+ "blueprint_id": 2005,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac85ff6b832fdc6d07c4c8e",
+ "image_name": "avoiding-carolers-raccoon-transparent.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/61f88fdc-bcdf-4e79-9239-627c18afe455",
+ "image_px": [
+  1702,
+  2048
+ ],
+ "decoration_method": "dtg",
+ "visible": true,
+ "updated_at": "2026-10-09 04:02:16+00:00",
+ "defect_cause": "contrast/text color",
+ "defect_note": "DEFECT: low-contrast dark text illegible on black garment",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.9,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.1992,
+  0.1338,
+  0.809,
+  0.8564
+ ],
+ "contrast_vs_black": 0.978,
+ "low_contrast": true,
+ "current_content_box_in_placeholder": [
+  0.2293,
+  0.1755,
+  0.7781,
+  0.8158
+ ],
+ "current_inside_safe_frac": {
+  "123124": 1.0,
+  "123117": 1.0
+ },
+ "effective_px_ratio_after": 0.7,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.9,
+  "angle": 0
+ },
+ "placeholders": {
+  "123124": [
+   2700,
+   3300
+  ],
+  "123117": [
+   2228,
+   2733
+  ]
+ },
+ "safe_area_source": {
+  "123124": "rect",
+  "123117": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "123124": 1.0,
+  "123117": 1.0
+ },
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [],
+ "notes": [
+  "NEEDS_NEW_ART: low-contrast ink on dark blank (see LOW-CONTRAST note) - needs light-ink recolour of the text/art layer (or owner disables the dark variants). Placement computed+verified; apply with the new art.",
+  "DISCONTINUED: enabled variant(s) 123103,123110 not offered by provider 99 any more (get-blueprint-variants 2005/99, show_out_of_stock=true) - cannot be produced; owner decision: disable these variants",
+  "geometry checked for 2 enabled variants (2 distinct placeholder geometries)",
+  "LOW-CONTRAST: 98% of the art's opaque pixels have contrast < 2.5:1 against the enabled black blank (dark ink on dark garment) - not fixable by placement",
+  "current placement already inside safe area on all checked variants"
+ ],
+ "live_change_made": false
+}

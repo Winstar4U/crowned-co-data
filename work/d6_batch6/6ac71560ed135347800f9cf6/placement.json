@@ -1,0 +1,92 @@
+{
+ "product_id": "6ac71560ed135347800f9cf6",
+ "shop_id": "26418699",
+ "title": "Santas Favorite Distraction Christmas Women's T-Shirt \u2014 Festive Holiday Tee for Her, Holiday Gift | Winstar4U",
+ "blueprint_id": 9,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac860124be9797c9ffbd505",
+ "image_name": "santas-favorite-distraction-transparent.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/13493b18-b2bc-473f-aef7-bfe1a56ae630",
+ "image_px": [
+  851,
+  1024
+ ],
+ "decoration_method": "dtg",
+ "visible": true,
+ "updated_at": "2026-10-09 03:43:35+00:00",
+ "defect_cause": "checkerboard",
+ "defect_note": "DEFECT (unrendered-transparency checkerboard background artifact)",
+ "current": {
+  "x": 0.5,
+  "y": 0.38,
+  "scale": 0.9,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.0,
+  0.0,
+  1.0,
+  1.0
+ ],
+ "contrast_vs_black": 0.352,
+ "low_contrast": true,
+ "current_content_box_in_placeholder": [
+  0.05,
+  -0.0961,
+  0.95,
+  0.8561
+ ],
+ "current_inside_safe_frac": {
+  "17979": 0.8512,
+  "17743": 0.8512,
+  "17744": 0.8512
+ },
+ "effective_px_ratio_after": 0.312,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.85,
+  "angle": 0
+ },
+ "placeholders": {
+  "17979": [
+   3210,
+   3651
+  ],
+  "17743": [
+   2452,
+   2789
+  ],
+  "17744": [
+   2831,
+   3220
+  ]
+ },
+ "safe_area_source": {
+  "17979": "rect",
+  "17743": "rect",
+  "17744": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "17979": 1.0,
+  "17743": 1.0,
+  "17744": 1.0
+ },
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 10%"
+ ],
+ "notes": [
+  "NEEDS_NEW_ART: baked-in transparency CHECKERBOARD confirmed in the source file (visually checked on black + magenta backgrounds): santas-favorite-distraction-transparent.png (851x1024) semi-opaque checkerboard over the whole background; LOW-RES 3.2x; dark plum art on enabled Black/Navy tees. Placement fix (y 0.38->0.50, scale 0.85, removes 10% top crop) verified on all 8 enabled sizes; apply with clean art.",
+  "NEEDS_NEW_ART: low-contrast ink on dark blank (see LOW-CONTRAST note) - needs light-ink recolour of the text/art layer (or owner disables the dark variants). Placement computed+verified; apply with the new art.",
+  "geometry checked for 8 enabled variants (3 distinct placeholder geometries)",
+  "LOW-CONTRAST: 35% of the art's opaque pixels have contrast < 2.5:1 against the enabled black blank (dark ink on dark garment) - not fixable by placement",
+  "LOW-RES: art upscaled 3.2x on largest variant (src px/print px=0.31)",
+  "current: 14.9% of visible content outside safe area (variant 17979)"
+ ],
+ "live_change_made": false
+}

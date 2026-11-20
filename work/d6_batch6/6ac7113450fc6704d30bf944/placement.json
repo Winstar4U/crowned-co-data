@@ -1,0 +1,69 @@
+{
+ "product_id": "6ac7113450fc6704d30bf944",
+ "shop_id": "26418699",
+ "title": "Merry Everything Happy Always Christmas Shot Glass \u2014 1.5oz Party Shot Glass, Holiday Gift | Winstar4U",
+ "blueprint_id": 1245,
+ "print_provider_id": 228,
+ "position": "front",
+ "image_id": "6ac860d27cfb60cf5465adb4",
+ "image_name": "fixed_6ac71e88df71d89072d507eb.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/810b0127-945c-4a9f-9d74-06cf022ec6d1",
+ "image_px": [
+  1954,
+  1270
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 03:40:59+00:00",
+ "defect_cause": "contrast/text color",
+ "defect_note": "DEFECT \u2014 gray script text nearly illegible against clear glass/white background (low color-contrast)",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.8,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.0051,
+  0.0079,
+  0.9949,
+  0.9921
+ ],
+ "current_content_box_in_placeholder": [
+  0.1041,
+  0.2015,
+  0.8959,
+  0.7985
+ ],
+ "current_inside_safe_frac": {
+  "94263": 0.8662
+ },
+ "effective_px_ratio_after": 6.214,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.599,
+  "angle": 0
+ },
+ "placeholders": {
+  "94263": [
+   525,
+   450
+  ]
+ },
+ "safe_area_source": {
+  "94263": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "94263": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [],
+ "notes": [
+  "current: 13.4% of visible content outside safe area (variant 94263)"
+ ],
+ "live_change_made": false
+}

@@ -1,0 +1,89 @@
+{
+ "product_id": "6ac6fe9f0a223533b30703f2",
+ "shop_id": "26418699",
+ "title": "\"Christmas Stress Tinsel Done\" Christmas Crewneck Sweatshirt \u2014 Festive Holiday Crewneck Sweatshirt Gift | Winstar4U",
+ "blueprint_id": 1436,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac85ff9dd6f9330c7788111",
+ "image_name": "clean-christmas-stress-tinsel-done.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/a7410fab-c680-4571-a9dc-2f2e987e0aac",
+ "image_px": [
+  1702,
+  2048
+ ],
+ "decoration_method": "dtg",
+ "visible": true,
+ "updated_at": "2026-10-14 12:51:07+00:00",
+ "defect_cause": "contrast/text color",
+ "defect_note": "DEFECT \u2014 dark text on black garment, low-contrast illegibility",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 1.0,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.1398,
+  0.1372,
+  0.8584,
+  0.8608
+ ],
+ "contrast_vs_black": 0.727,
+ "low_contrast": true,
+ "current_content_box_in_placeholder": [
+  0.1398,
+  0.118,
+  0.8584,
+  0.8799
+ ],
+ "current_inside_safe_frac": {
+  "104791": 1.0,
+  "104726": 1.0,
+  "104727": 1.0
+ },
+ "effective_px_ratio_after": 0.405,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 1.0,
+  "angle": 0
+ },
+ "placeholders": {
+  "104791": [
+   4200,
+   4800
+  ],
+  "104726": [
+   3461,
+   3955
+  ],
+  "104727": [
+   3839,
+   4387
+  ]
+ },
+ "safe_area_source": {
+  "104791": "rect",
+  "104726": "rect",
+  "104727": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "104791": 1.0,
+  "104726": 1.0,
+  "104727": 1.0
+ },
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [],
+ "notes": [
+  "NEEDS_NEW_ART: low-contrast ink on dark blank (see LOW-CONTRAST note) - needs light-ink recolour of the text/art layer (or owner disables the dark variants). Placement computed+verified; apply with the new art.",
+  "geometry checked for 30 enabled variants (3 distinct placeholder geometries)",
+  "LOW-CONTRAST: 73% of the art's opaque pixels have contrast < 2.5:1 against the enabled black blank (dark ink on dark garment) - not fixable by placement",
+  "LOW-RES: art upscaled 2.5x on largest variant (src px/print px=0.41)",
+  "current placement already inside safe area on all checked variants"
+ ],
+ "live_change_made": false
+}

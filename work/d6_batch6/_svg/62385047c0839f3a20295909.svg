@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 383.9 383.9" xmlns:printify="http://printify.com/adjuster"  printify:width="101.5725" printify:height="101.5725">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="383.9" height="383.9" fill="none"/>
+    </clipPath>
+  <image x="0" y="0" width="383.9" height="383.9" id="fabric-image"/><path d="" id="fabric-0"/><clipPath id="fabric-0-clip"><use xlink:href="#fabric-0"/></clipPath><path d="" id="fabric-1"/><clipPath id="fabric-1-clip"><use xlink:href="#fabric-1"/></clipPath><rect id="_front-path" width="383.9" height="383.9" fill="none" transform=""/><clipPath><use stroke-width="0.42321875000000003mm" xlink:href="#_front-path"/></clipPath></defs>
+  <g id="color_first" fill-rule="nonzero" fill="#fff"><use xlink:href="#fabric-0"/><use clip-path="url(#fabric-0-clip)" xlink:href="#fabric-image"/>
+    <g clip-path="url(#clip-path)">
+      <rect id="color_background" width="383.9" height="383.9" fill="#fff" fill-rule="nonzero"><use xlink:href="#fabric-1"/><use clip-path="url(#fabric-1-clip)" xlink:href="#fabric-image"/></rect>
+      
+    <g clip-path="url(#_front-clippath)" transform="translate(0 0)"><svg id="placeholder_front" width="383.9" height="383.9" preserveAspectRatio="xMidYMid slice" viewBox="0 0 383.9 383.9"><use stroke-width="0.42321875000000003mm" xlink:href="#_front-path" stroke="#ffffff"/><use stroke-width="0.42321875000000003mm" xlink:href="#_front-path" stroke="#000000" stroke-dasharray="0.8464375000000001mm, 0.8464375000000001mm"/></svg></g></g>
+  </g>
+  <g id="Outlines">
+    <path d="M335.92,371.92H48a36,36,0,0,1-36-36V48A36,36,0,0,1,48,12H335.92a36,36,0,0,1,36,36V336A36,36,0,0,1,335.92,371.92ZM383.9,0H0V383.9H383.9Z" opacity="0.2" style="isolation: isolate"/>
+    <path d="M335.92,371.92H48a36,36,0,0,1-36-36V48A36,36,0,0,1,48,12H335.92a36,36,0,0,1,36,36V336A36,36,0,0,1,335.92,371.92ZM383.9,0H0V383.9H383.9Z" fill="#fff" opacity="0.2" style="isolation: isolate"/>
+    <path d="M45.32,22H338.58a23.35,23.35,0,0,1,23.36,23.35V338.58a23.35,23.35,0,0,1-23.36,23.36H45.32A23.35,23.35,0,0,1,22,338.58V45.32A23.34,23.34,0,0,1,45.32,22Z" fill="none" stroke="#fff" stroke-miterlimit="28.13" stroke-width="0.4"/>
+    <path d="M45.32,22H338.58a23.35,23.35,0,0,1,23.36,23.35V338.58a23.35,23.35,0,0,1-23.36,23.36H45.32A23.35,23.35,0,0,1,22,338.58V45.32A23.34,23.34,0,0,1,45.32,22Z" fill="none" stroke="#000" stroke-miterlimit="28.13" stroke-width="0.4" stroke-dasharray="4 4"/>
+    <path d="M335.92,371.92H48a36,36,0,0,1-36-36V48A36,36,0,0,1,48,12H335.92a36,36,0,0,1,36,36V336A36,36,0,0,1,335.92,371.92Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.13"/>
+  </g>
+</svg>

@@ -1,0 +1,74 @@
+{
+ "product_id": "6ac70209710be211d209a8bc",
+ "shop_id": "26418699",
+ "title": "Merry Christmas Lets Get Lit Christmas Bucket Hat \u2014 Funny Holiday Hat, Festive Winter Party Accessory Gift | Winstar4U",
+ "blueprint_id": 1698,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac4f13afae6ba29cd570267",
+ "image_name": "merry-christmas-lets-get-lit.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/ec120d95-d197-44c2-97a2-f73c67384a21",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "dtf",
+ "visible": true,
+ "updated_at": "2026-10-08 03:04:12+00:00",
+ "defect_cause": "white box",
+ "defect_note": "DEFECT \u2014 opaque white-background-box defect",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.7,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.1157,
+  0.02,
+  0.8887,
+  0.98
+ ],
+ "contrast_vs_black": 0.083,
+ "current_content_box_in_placeholder": [
+  0.231,
+  -0.2149,
+  0.7721,
+  1.2149
+ ],
+ "current_inside_safe_frac": {
+  "116654": 0.5778
+ },
+ "effective_px_ratio_after": 3.131,
+ "proposed": {
+  "x": 0.5006,
+  "y": 0.5,
+  "scale": 0.436,
+  "angle": 0
+ },
+ "placeholders": {
+  "116654": [
+   1500,
+   705
+  ]
+ },
+ "safe_area_source": {
+  "116654": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "116654": 1.0
+ },
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 15%",
+  "bottom 15%"
+ ],
+ "notes": [
+  "art has opaque WHITE background on dtf print over coloured blank -> visible white patch; needs transparent re-export of same design (placement computed+verified, apply together)",
+  "current: 42.2% of visible content outside safe area (variant 116654)"
+ ],
+ "live_change_made": false
+}

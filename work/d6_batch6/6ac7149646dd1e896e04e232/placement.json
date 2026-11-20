@@ -1,0 +1,94 @@
+{
+ "product_id": "6ac7149646dd1e896e04e232",
+ "shop_id": "26418699",
+ "title": "Survived Christmas Hangover Christmas Baby Onesie \u2014 Adorable Baby Christmas Gift, Holiday Gift | Winstar4U",
+ "blueprint_id": 568,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac8e3e0a4bce13d09c4fb81",
+ "image_name": "survived-hangover-png-FIXED.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/08b15761-839c-455f-bf73-5fbc746bb762",
+ "image_px": [
+  1702,
+  1661
+ ],
+ "decoration_method": "dtg",
+ "visible": true,
+ "updated_at": "2026-10-14 12:48:18+00:00",
+ "defect_cause": "contrast/text color",
+ "defect_note": "DEFECT (faint/nearly-invisible cropped line above CHRISTMAS, likely missing I SURVIVED)",
+ "current": {
+  "x": 0.5,
+  "y": 0.3,
+  "scale": 0.9,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.0,
+  0.006,
+  1.0,
+  1.0
+ ],
+ "contrast_vs_blue": 0.195,
+ "current_content_box_in_placeholder": [
+  0.05,
+  -0.0797,
+  0.95,
+  0.6843
+ ],
+ "current_inside_safe_frac": {
+  "71073": 0.7701,
+  "70900": 0.7701,
+  "70904": 0.7701,
+  "71089": 0.7701
+ },
+ "effective_px_ratio_after": 0.902,
+ "proposed": {
+  "x": 0.499,
+  "y": 0.432,
+  "scale": 0.899,
+  "angle": 0
+ },
+ "placeholders": {
+  "71073": [
+   1500,
+   1714
+  ],
+  "70900": [
+   1800,
+   2056
+  ],
+  "70904": [
+   2100,
+   2400
+  ],
+  "71089": [
+   1200,
+   1371
+  ]
+ },
+ "safe_area_source": {
+  "71073": "rect",
+  "70900": "rect",
+  "70904": "rect",
+  "71089": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "71073": 1.0,
+  "70900": 1.0,
+  "70904": 1.0,
+  "71089": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 10%"
+ ],
+ "notes": [
+  "geometry checked for 6 enabled variants (4 distinct placeholder geometries)",
+  "current: 23.0% of visible content outside safe area (variant 71073)"
+ ],
+ "live_change_made": false
+}

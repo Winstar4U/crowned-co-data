@@ -1,0 +1,92 @@
+{
+ "product_id": "6ac715da4636838bd804f5f3",
+ "shop_id": "26418699",
+ "title": "Santas Favorite Distraction Christmas Fleece Zip-Up \u2014 Cozy Full-Zip Holiday Hoodie, Holiday Gift | Winstar4U",
+ "blueprint_id": 66,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac860124be9797c9ffbd505",
+ "image_name": "santas-favorite-distraction-transparent.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/13493b18-b2bc-473f-aef7-bfe1a56ae630",
+ "image_px": [
+  851,
+  1024
+ ],
+ "decoration_method": "dtg",
+ "visible": true,
+ "updated_at": "2026-10-09 03:38:08+00:00",
+ "defect_cause": "checkerboard",
+ "defect_note": "DEFECT (unrendered-transparency checkerboard background artifact)",
+ "current": {
+  "x": 0.32,
+  "y": 0.28,
+  "scale": 0.35,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.0,
+  0.0,
+  1.0,
+  1.0
+ ],
+ "contrast_vs_black": 0.352,
+ "low_contrast": true,
+ "current_content_box_in_placeholder": [
+  0.145,
+  -0.0359,
+  0.495,
+  0.5959
+ ],
+ "current_inside_safe_frac": {
+  "31950": 0.7513,
+  "31925": 0.7513,
+  "31935": 0.7513
+ },
+ "effective_px_ratio_after": 0.54,
+ "proposed": {
+  "x": 0.25,
+  "y": 0.368,
+  "scale": 0.35,
+  "angle": 0
+ },
+ "placeholders": {
+  "31950": [
+   4500,
+   3000
+  ],
+  "31925": [
+   3709,
+   2472
+  ],
+  "31935": [
+   4110,
+   2740
+  ]
+ },
+ "safe_area_source": {
+  "31950": "rect",
+  "31925": "rect",
+  "31935": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "31950": 1.0,
+  "31925": 1.0,
+  "31935": 1.0
+ },
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 6%"
+ ],
+ "notes": [
+  "NEEDS_NEW_ART: baked-in transparency CHECKERBOARD confirmed in the source file (visually checked on black + magenta backgrounds): santas-favorite-distraction-transparent.png (851x1024) semi-opaque checkerboard over the whole background; plus dark plum/gold art on Black/Navy fleece. Corrected left-chest placement keeps the art on the wearer's right panel clear of the zipper (u<=0.45) and inside the safe area on all 7 offered sizes; apply with clean light-ink art.",
+  "NEEDS_NEW_ART: low-contrast ink on dark blank (see LOW-CONTRAST note) - needs light-ink recolour of the text/art layer (or owner disables the dark variants). Placement computed+verified; apply with the new art.",
+  "DISCONTINUED: enabled variant(s) 31940 not offered by provider 99 any more (get-blueprint-variants 66/99, show_out_of_stock=true) - cannot be produced; owner decision: disable these variants",
+  "geometry checked for 7 enabled variants (3 distinct placeholder geometries)",
+  "LOW-CONTRAST: 35% of the art's opaque pixels have contrast < 2.5:1 against the enabled black blank (dark ink on dark garment) - not fixable by placement",
+  "current: 24.9% of visible content outside safe area (variant 31950)"
+ ],
+ "live_change_made": false
+}

@@ -1,0 +1,77 @@
+{
+ "product_id": "6ac70ebcaf40dc7cd60fb95f",
+ "shop_id": "26418699",
+ "title": "\"Corkscrew Wine Repeat\" Christmas Shorts \u2014 Funny Holiday Graphic Shorts, Holiday Gift | Winstar4U",
+ "blueprint_id": 10796,
+ "print_provider_id": 217,
+ "position": "front_left_leg_dtf",
+ "image_id": "6ac8613dd97a0b8cd514d114",
+ "image_name": "corkscrew-wine-repeat.png-TRANSPARENT.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/df102504-a63b-47eb-9135-48b019af5b84",
+ "image_px": [
+  1234,
+  1436
+ ],
+ "decoration_method": "dtf",
+ "visible": true,
+ "updated_at": "2026-10-09 03:37:23+00:00",
+ "defect_cause": "contrast/text color",
+ "defect_note": "DEFECT \u2014 low-contrast dark-on-black text, barely legible",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.9,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.0081,
+  0.007,
+  0.9919,
+  0.993
+ ],
+ "contrast_vs_black": 0.954,
+ "low_contrast": true,
+ "current_content_box_in_placeholder": [
+  0.0573,
+  -0.0164,
+  0.9427,
+  1.0164
+ ],
+ "current_inside_safe_frac": {
+  "*": 0.8375
+ },
+ "effective_px_ratio_after": 1.051,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.783,
+  "angle": 0
+ },
+ "placeholders": {
+  "*": [
+   1500,
+   1500
+  ]
+ },
+ "safe_area_source": {
+  "*": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "*": 1.0
+ },
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 2%",
+  "bottom 2%"
+ ],
+ "notes": [
+  "NEEDS_NEW_ART: low-contrast ink on dark blank (see LOW-CONTRAST note) - needs light-ink recolour of the text/art layer (or owner disables the dark variants). Placement computed+verified; apply with the new art.",
+  "DISCONTINUED: enabled variant(s) 400992,400993,400994,400997,400998,401003 not offered by provider 217 any more (get-blueprint-variants 10796/217, show_out_of_stock=true) - cannot be produced; owner decision: disable these variants",
+  "LOW-CONTRAST: 95% of the art's opaque pixels have contrast < 2.5:1 against the enabled black blank (dark ink on dark garment) - not fixable by placement",
+  "current: 16.2% of visible content outside safe area (variant *)"
+ ],
+ "live_change_made": false
+}

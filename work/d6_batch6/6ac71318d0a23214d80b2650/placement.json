@@ -1,0 +1,89 @@
+{
+ "product_id": "6ac71318d0a23214d80b2650",
+ "shop_id": "26418699",
+ "title": "Chic Happens Cocktail Christmas Fleece Zip-Up \u2014 Cozy Full-Zip Holiday Hoodie, Holiday Gift | Winstar4U",
+ "blueprint_id": 66,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac85ff86cfc4cce621c22d6",
+ "image_name": "chic-happens-cocktail-transparent.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/fdfc6ddf-abab-4026-a3fd-e3274c0f03ce",
+ "image_px": [
+  1702,
+  2048
+ ],
+ "decoration_method": "dtg",
+ "visible": true,
+ "updated_at": "2026-10-09 03:46:25+00:00",
+ "defect_cause": "contrast/text color",
+ "defect_note": "DEFECT (subtitle rendered dark-gray on black garment, illegible \u2014 contrast defect)",
+ "current": {
+  "x": 0.32,
+  "y": 0.28,
+  "scale": 0.35,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.0893,
+  0.165,
+  0.9136,
+  0.7783
+ ],
+ "contrast_vs_black": 0.895,
+ "low_contrast": true,
+ "current_content_box_in_placeholder": [
+  0.1763,
+  0.0684,
+  0.4648,
+  0.4558
+ ],
+ "current_inside_safe_frac": {
+  "31950": 0.988,
+  "31925": 0.988,
+  "31935": 0.988
+ },
+ "effective_px_ratio_after": 1.081,
+ "proposed": {
+  "x": 0.2495,
+  "y": 0.28,
+  "scale": 0.35,
+  "angle": 0
+ },
+ "placeholders": {
+  "31950": [
+   4500,
+   3000
+  ],
+  "31925": [
+   3709,
+   2472
+  ],
+  "31935": [
+   4110,
+   2740
+  ]
+ },
+ "safe_area_source": {
+  "31950": "rect",
+  "31925": "rect",
+  "31935": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "31950": 1.0,
+  "31925": 1.0,
+  "31935": 1.0
+ },
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [],
+ "notes": [
+  "NEEDS_NEW_ART: low-contrast ink on dark blank (see LOW-CONTRAST note) - needs light-ink recolour of the text/art layer (or owner disables the dark variants). Placement computed+verified; apply with the new art.",
+  "DISCONTINUED: enabled variant(s) 31940 not offered by provider 99 any more (get-blueprint-variants 66/99, show_out_of_stock=true) - cannot be produced; owner decision: disable these variants",
+  "geometry checked for 7 enabled variants (3 distinct placeholder geometries)",
+  "LOW-CONTRAST: 90% of the art's opaque pixels have contrast < 2.5:1 against the enabled black blank (dark ink on dark garment) - not fixable by placement",
+  "current: 1.2% of visible content outside safe area (variant 31950)"
+ ],
+ "live_change_made": false
+}
