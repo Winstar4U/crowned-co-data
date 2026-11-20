@@ -1,0 +1,118 @@
+{
+ "product_id": "6ac711a4b8d5d3e719013158",
+ "shop_id": "26418699",
+ "title": "Santas Favorite Distraction Christmas Duvet Cover \u2014 Cozy Christmas Bedroom Makeover, Holiday Home Decor Gift | Winstar4U",
+ "blueprint_id": 2662,
+ "print_provider_id": 10,
+ "position": "front",
+ "decoration_method": "direct-to-fabric",
+ "issue": "B REWORK: ~102 dpi after 2x upscale",
+ "option": "OPTION A smaller motif (B file)",
+ "method": "B's 2x file as-is, scale 0.633->0.412 (65% linear)",
+ "art": {
+  "file": "work/../../winstar4u/my-projects/winstar-recovery/regenerated/6ac711a4b8d5d3e719013158_upscaled2x.png",
+  "px": [
+   3404,
+   4096
+  ],
+  "sha1": "c3289c59793f6ded8920083b9bf36cd27094011f",
+  "native_source_width_px": 1702,
+  "upscaled": true
+ },
+ "print_areas": [
+  {
+   "variant_ids": [
+    147746
+   ],
+   "placement": {
+    "angle": 0,
+    "scale": 0.4117,
+    "x": 0.5002,
+    "y": 0.4995
+   }
+  },
+  {
+   "variant_ids": [
+    147745
+   ],
+   "placement": {
+    "angle": 0,
+    "scale": 0.4117,
+    "x": 0.5002,
+    "y": 0.4994
+   }
+  },
+  {
+   "variant_ids": [
+    147747,
+    147748
+   ],
+   "placement": {
+    "angle": 0,
+    "scale": 0.4117,
+    "x": 0.5002,
+    "y": 0.4996
+   }
+  }
+ ],
+ "per_variant_qa": {
+  "147746": {
+   "inside": 1.0,
+   "ratio": 0.612,
+   "nominal_dpi": 184,
+   "native_ratio": 0.612,
+   "native_nominal_dpi": 184,
+   "physical_dpi": null,
+   "placeholder_ppi": null
+  },
+  "147745": {
+   "inside": 1.0,
+   "ratio": 0.52,
+   "nominal_dpi": 156,
+   "native_ratio": 0.52,
+   "native_nominal_dpi": 156,
+   "physical_dpi": null,
+   "placeholder_ppi": null
+  },
+  "147747": {
+   "inside": 1.0,
+   "ratio": 0.787,
+   "nominal_dpi": 236,
+   "native_ratio": 0.787,
+   "native_nominal_dpi": 236,
+   "physical_dpi": null,
+   "placeholder_ppi": null
+  },
+  "147748": {
+   "inside": 1.0,
+   "ratio": 0.787,
+   "nominal_dpi": 236,
+   "native_ratio": 0.787,
+   "native_nominal_dpi": 236,
+   "physical_dpi": null,
+   "placeholder_ppi": null
+  }
+ },
+ "content_bbox_norm": [
+  0.1249,
+  0.2371,
+  0.8769,
+  0.759
+ ],
+ "qa_status": "WARN",
+ "b_script_verdict": "PASS",
+ "issues": [],
+ "before": {
+  "file": "winstar4u/my-projects/winstar-recovery/regenerated/6ac711a4b8d5d3e719013158_upscaled2x.png",
+  "placement": {
+   "x": 0.5,
+   "y": 0.5,
+   "scale": 0.633,
+   "angle": 0
+  },
+  "ratio_min": 0.338,
+  "inside_min": 1.0
+ },
+ "live_change_made": false,
+ "note": "NON-LIVE staging file. Nothing uploaded. Applying it needs an image upload + product update = owner-approved write."
+}

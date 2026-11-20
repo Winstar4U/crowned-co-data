@@ -2,3 +2,6 @@ _dl/
 raw/
 __pycache__/
 *.npy
+srenv/
+weights/
+*.pth

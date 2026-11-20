@@ -1,0 +1,3 @@
+start_utc=2026-11-20T14:40:23Z
+end_utc=2026-11-20T16:22:01Z
+note=D6 QA-fix staging (local files only). Read-only Printify calls: 6x printify-get-blueprint-variants (bp 2662/235/1624/1646/5353/568). No Printify writes, no Higgsfield, no Bridge, no git. Real-ESRGAN anime6B weights downloaded from github.com/xinntao/Real-ESRGAN releases (sha256 f872d837...), run on CPU in a scratch venv.
