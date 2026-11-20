@@ -1,0 +1,78 @@
+{
+ "product_id": "6ac7176da4c95c48e203670d",
+ "shop_id": "26418699",
+ "title": "Christmas Vacation Canceled Christmas Backpack \u2014 Cheerful Christmas Travel Pack, Gift for Students | Winstar4U",
+ "blueprint_id": 10823,
+ "print_provider_id": 99,
+ "position": "front_dtf",
+ "image_id": "6ac8613796758595fb79bc5b",
+ "image_name": "christmas-vacation-canceled.png-TRANSPARENT.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/523d008c-0eaf-4a1e-9f80-60f340eb07ad",
+ "image_px": [
+  1950,
+  1998
+ ],
+ "decoration_method": "dtf",
+ "visible": true,
+ "updated_at": "2026-10-09 05:06:20+00:00",
+ "defect_cause": "other",
+ "defect_note": "DEFECT (VACATION touches top edge)",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.9,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.0051,
+  0.005,
+  0.9949,
+  0.995
+ ],
+ "contrast_vs_black": 0.492,
+ "low_contrast": true,
+ "current_content_box_in_placeholder": [
+  0.0546,
+  -0.7172,
+  0.9454,
+  1.7172
+ ],
+ "current_inside_safe_frac": {
+  "401444": 0.3604
+ },
+ "effective_px_ratio_after": 2.485,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.496,
+  "scale": 0.327,
+  "angle": 0
+ },
+ "placeholders": {
+  "401444": [
+   2400,
+   900
+  ]
+ },
+ "safe_area_source": {
+  "401444": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "401444": 1.0
+ },
+ "new_art_category": "",
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "LOW: 'Christmas Vacation' echoes the National Lampoon film title; here used as a generic phrase ('Christmas Vacation Canceled') - review, no film marks/characters seen",
+ "clip_edges_current": [
+  "top 29%",
+  "bottom 29%"
+ ],
+ "notes": [
+  "Register 'VACATION touches top edge' CONFIRMED: portrait 1950x1998 art at scale 0.9 on the 2400x900 backpack panel crops 29% top/bottom. Verified full-art placement scale 0.327 (small - a landscape re-layout would read better). Borderline contrast: black outlines + dark suitcase on black backpack (49% px <2.5:1) but red/green/white-outlined lettering reads on the live mockup (visually checked) - not treated as new-art.",
+  "NEEDS_NEW_ART: low-contrast ink on dark blank (see LOW-CONTRAST note) - needs light-ink recolour of the text/art layer (or owner disables the dark variants). Placement computed+verified; apply with the new art.",
+  "LOW-CONTRAST: 49% of the art's opaque pixels have contrast < 2.5:1 against the enabled black blank (dark ink on dark garment) - not fixable by placement",
+  "current: 64.0% of visible content outside safe area (variant 401444)"
+ ],
+ "live_change_made": false
+}

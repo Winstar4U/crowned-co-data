@@ -1,0 +1,85 @@
+{
+ "product_id": "6ac7242fd5899f19b40134d7",
+ "shop_id": "26418699",
+ "title": "Corkscrew Wine Repeat Christmas Button Pin \u2014 Festive Pin Button, Holiday Gift | Winstar4U",
+ "blueprint_id": 430,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac8613dd97a0b8cd514d114",
+ "image_name": "corkscrew-wine-repeat.png-TRANSPARENT.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/df102504-a63b-47eb-9135-48b019af5b84",
+ "image_px": [
+  1234,
+  1436
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 03:37:50+00:00",
+ "defect_cause": "other",
+ "defect_note": "DEFECT",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.65,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.0081,
+  0.007,
+  0.9919,
+  0.993
+ ],
+ "current_content_box_in_placeholder": [
+  0.1803,
+  0.1271,
+  0.8197,
+  0.8729
+ ],
+ "current_inside_safe_frac": {
+  "62070": 0.8007,
+  "62071": 0.9558,
+  "67977": 0.9807
+ },
+ "effective_px_ratio_after": 2.345,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.464,
+  "scale": 0.517,
+  "angle": 0
+ },
+ "placeholders": {
+  "62070": [
+   519,
+   519
+  ],
+  "62071": [
+   788,
+   788
+  ],
+  "67977": [
+   1018,
+   1018
+  ]
+ },
+ "safe_area_source": {
+  "62070": "printify_safe_area",
+  "62071": "printify_safe_area",
+  "67977": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "62070": 1.0,
+  "62071": 1.0,
+  "67977": 1.0
+ },
+ "new_art_category": "",
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [],
+ "notes": [
+  "geometry checked for 3 enabled variants (3 distinct placeholder geometries)",
+  "current: 19.9% of visible content outside safe area (variant 62070)"
+ ],
+ "live_change_made": false
+}

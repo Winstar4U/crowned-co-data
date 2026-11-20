@@ -1,0 +1,93 @@
+{
+ "6ac700cb7424c0bbb60dc164": {
+  "note": "BLOCKED (not producible): print provider 99 NO LONGER manufactures blueprint 727 (get-blueprint-variants 727/99 -> 404 provider mismatch, verified in batch 7 today; only provider 75 SwagRabbit offers it) and both enabled scents report is_available=false. Art itself is fine; live scale 1.0 on the 2972x675 wrap label crops 40% top/bottom (title text absent from view, matches register). Reference placement (scale 0.175, inside the 30-70% visible band, computed on provider-75 dims) is in placement.json. Owner decision: rebuild on provider 75 (new product = production write) or retire.",
+  "status": "BLOCKED",
+  "keep_proposal": true
+ },
+ "6ac700d8fc9fb872c3014d14": {
+  "note": "BLOCKED (not producible): print provider 99 NO LONGER manufactures blueprint 727 (get-blueprint-variants 727/99 -> 404 provider mismatch, verified in batch 7 today; only provider 75 SwagRabbit offers it) and both enabled scents report is_available=false. Art itself is fine; live scale 1.0 on the 2972x675 wrap label crops 40% top/bottom (title text absent from view, matches register). Reference placement (scale 0.179, inside the 30-70% visible band, computed on provider-75 dims) is in placement.json. Owner decision: rebuild on provider 75 (new product = production write) or retire.",
+  "status": "BLOCKED",
+  "keep_proposal": true
+ },
+ "6ac700b51cf62ac72e0adc29": {
+  "note": "BLOCKED (not producible): print provider 99 NO LONGER manufactures blueprint 727 (get-blueprint-variants 727/99 -> 404 provider mismatch, verified in batch 7 today; only provider 75 SwagRabbit offers it) and both enabled scents report is_available=false. Art itself is fine; live scale 1.0 on the 2972x675 wrap label crops 30% top/bottom (title text absent from view, matches register). Reference placement (scale 0.362, inside the 30-70% visible band, computed on provider-75 dims) is in placement.json. Owner decision: rebuild on provider 75 (new product = production write) or retire. Source faith-o-holy-night.png also has an opaque white background (not a TRANSPARENT export).",
+  "status": "BLOCKED",
+  "keep_proposal": true
+ },
+ "6ac700cebfa347bea60c9772": {
+  "note": "BLOCKED (not producible): print provider 99 NO LONGER manufactures blueprint 727 (get-blueprint-variants 727/99 -> 404 provider mismatch, verified in batch 7 today; only provider 75 SwagRabbit offers it) and both enabled scents report is_available=false. Art itself is fine; live scale 1.0 on the 2972x675 wrap label crops 36% top/bottom (title text absent from view, matches register). Reference placement (scale 0.245, inside the 30-70% visible band, computed on provider-75 dims) is in placement.json. Owner decision: rebuild on provider 75 (new product = production write) or retire.",
+  "status": "BLOCKED",
+  "keep_proposal": true
+ },
+ "6ac711c907e4149a0f001027": {
+  "note": "NEEDS_NEW_ART (engraving): full-colour raster art sent to ENGRAVING on the 1515/217 powder-coated wine tumbler - engraving is 1-colour (coating removed to steel), so shading/colour collapses into a silver blob; live mockup confirms illegible silver blur (visually checked; matches register). Needs a 1-colour high-contrast line-art/text engraving file. Source also has an opaque white background. Angel illustration washes out (register 'overexposed silver blur' confirmed). Live scale 1.0 lets 0.2% leave the area; fix scale 0.973 verified.",
+  "status": "NEEDS_NEW_ART",
+  "new_art_category": "engraving"
+ },
+ "6ac711df35a66ab7dc0b0fa9": {
+  "note": "NEEDS_NEW_ART (engraving): full-colour raster art sent to ENGRAVING on the 1515/217 powder-coated wine tumbler - engraving is 1-colour (coating removed to steel), so shading/colour collapses into a silver blob; live mockup confirms illegible silver blur (visually checked; matches register). Needs a 1-colour high-contrast line-art/text engraving file. Source also has an opaque white background. 'CHRIST THE KING' red banner subtitle becomes silver-on-silver (register confirmed). Placement already inside area.",
+  "status": "NEEDS_NEW_ART",
+  "new_art_category": "engraving"
+ },
+ "6ac711e2a005c19c550d8980": {
+  "note": "NEEDS_NEW_ART (engraving): full-colour raster art sent to ENGRAVING on the 1515/217 powder-coated wine tumbler - engraving is 1-colour (coating removed to steel), so shading/colour collapses into a silver blob; live mockup confirms illegible silver blur (visually checked; matches register). Needs a 1-colour high-contrast line-art/text engraving file. Source also has an opaque white background. Banner subtitle 'FOR UNTO US A CHILD IS BORN / Luke 2:11...' is far too small/dense to engrave (register confirmed). Live scale 1.15 lets 2% leave the area; fix scale 1.091 verified.",
+  "status": "NEEDS_NEW_ART",
+  "new_art_category": "engraving"
+ },
+ "6ac6ff9c2a2224fe7d0775a1": {
+  "note": "NEEDS_NEW_ART: duplicated-word text bug 'MY ELF MADE / MADE ME DO IT' CONFIRMED in source my-elf-made-me-transparent.png (visually checked; recurring bad file, also batches 6-7). Also LOW-CONTRAST: dark-green outlined lettering/elf on the enabled Black/Navy/Forest Green kids tees (42% of pixels <2.5:1 vs Black). Placement already inside safe area on all 25 enabled variants (4 size geometries).",
+  "status": "NEEDS_NEW_ART",
+  "new_art_category": "garbled_text"
+ },
+ "6ac700f42a2224fe7d077640": {
+  "note": "NEEDS_NEW_ART: duplicated-word text bug 'MY ELF MADE / MADE ME DO IT' CONFIRMED in source my-elf-made-me.png (visually checked; recurring bad file). Opaque white background is harmless here (white ceramic, dye-sub). Placement already inside the 5% safe circle (circle outline from view SVG 689c6239). DISCONTINUED: enabled Oval variant 69369 is no longer offered by provider 41 (get-blueprint-variants 537/41 returns only Circle 69368) and reports is_available=false - owner decision: disable Oval.",
+  "status": "NEEDS_NEW_ART",
+  "new_art_category": "garbled_text"
+ },
+ "6ac7127aa5ade89b5c080fc0": {
+  "note": "NEEDS_NEW_ART: blank street-sign banner CONFIRMED in source (green sign between the candy canes has no text - visually checked; recurring bad source file nostalgic-candy-cane-lane.jpg, also batches 6-7). LOW-RES: 2048px art on the 11100x4126 scarf print area at scale 0.4 = 2.2x upscale. Opaque white background is acceptable on the white dye-sub scarf. Placement already inside safe area; regenerate at >=4500 px with sign text.",
+  "status": "NEEDS_NEW_ART",
+  "new_art_category": "blank_text"
+ },
+ "6ac71811d0a23214d80b2aec": {
+  "note": "NEEDS_NEW_ART: blank street-sign banner CONFIRMED in source (recurring bad file nostalgic-candy-cane-lane.jpg, visually checked) AND opaque white JPG background prints as a white box on the Black DTF backpack. Live scale 1.0 on the 2400x900 panel crops 20% top/bottom; full-art placement scale 0.533 verified. Needs transparent re-export with sign text.",
+  "status": "NEEDS_NEW_ART",
+  "new_art_category": "blank_text"
+ },
+ "6ac7179bac4a665555019d14": {
+  "note": "NEEDS_NEW_ART: opaque white background (faith-blessed-christmas.png, no alpha) prints as a white rectangle on the Black DTF backpack (visible in live mockup). Register 'no text visible' CONFIRMED as placement: live scale 1.0 crops 19%/22% top/bottom, cutting off the 'BLESSED CHRISTMAS' headline. Placement fix scale 0.529 verified; apply with a transparent re-export.",
+  "status": "NEEDS_NEW_ART",
+  "new_art_category": "white_box"
+ },
+ "6ac71815a5ade89b5c0814c5": {
+  "note": "NEEDS_NEW_ART: opaque white JPG background (nostalgic-christmas-wishes-sta.jpg) prints as a white box on the Black DTF backpack. Live scale 1.0 crops 20% top/bottom of the 2400x900 panel; placement fix scale 0.533 verified. Text 'CHRISTMAS WISHES' itself is clean.",
+  "status": "NEEDS_NEW_ART",
+  "new_art_category": "white_box"
+ },
+ "6ac7176da4c95c48e203670d": {
+  "note": "Register 'VACATION touches top edge' CONFIRMED: portrait 1950x1998 art at scale 0.9 on the 2400x900 backpack panel crops 29% top/bottom. Verified full-art placement scale 0.327 (small - a landscape re-layout would read better). Borderline contrast: black outlines + dark suitcase on black backpack (49% px <2.5:1) but red/green/white-outlined lettering reads on the live mockup (visually checked) - not treated as new-art.",
+  "status": "READY_FOR_REVIEW"
+ },
+ "6ac71467a005c19c550d8aaa": {
+  "note": "Register 'apostrophe-CHRISTMAS touches top edge': current placement is already inside the 5% safe circle (verified). Cosmetic: the source has an unmatched opening quote mark before CHRISTMAS - optional text clean-up, not blocking.",
+  "status": "READY_FOR_REVIEW"
+ },
+ "6ac7148ba005c19c550d8aba": {
+  "note": "Register 'CHRISTMAS touches top edge' CONFIRMED (2.4% outside safe circle); fix scale 0.620 verified. Cosmetic: unmatched opening quote mark before CHRISTMAS in source - optional text clean-up.",
+  "status": "READY_FOR_REVIEW"
+ },
+ "6ac71257a5ade89b5c080fa0": {
+  "note": "NEEDS_NEW_ART (low contrast, LIGHT ink on LIGHT blank): the headline 'BAKING ... BRIGHT' is pure WHITE with no outline and disappears on the enabled White hoodie (S-XL, 4 variants) - visually confirmed on the live default mockup, which IS the White hoodie and shows only the cookie board and red 'SPIRITS'. Fine on the 7 dark colours. Fix: add a dark outline/alt dark-ink version for White, or owner disables the 4 White variants. Placement fix (scale 0.785, all 32 enabled variants / 3 geometries) verified; live scale 0.9 crops 6% at the bottom.",
+  "status": "NEEDS_NEW_ART",
+  "new_art_category": "low_contrast"
+ },
+ "6ac7126c3925bc76b90372cc": {
+  "note": "NEEDS_NEW_ART (low contrast, LIGHT ink on LIGHT blank): the headline 'CATCH ME IF YOU CAN' is pure WHITE with no outline and disappears on the enabled White hoodie (S-XL, 4 variants) - visually confirmed on the live default mockup, which IS the White hoodie and shows only the gingerbread man. Fine on the 7 dark colours. Fix: add a dark outline/alt dark-ink version for White, or owner disables the 4 White variants. Placement fix (scale 0.692, all 32 enabled variants / 3 geometries) verified; live scale 0.9 crops 6-8% top/bottom.",
+  "status": "NEEDS_NEW_ART",
+  "new_art_category": "low_contrast"
+ },
+ "6ac71260a5ade89b5c080fa7": {
+  "note": "White 'CAT VS TREE' lettering has a thick red outline, so it stays readable on the enabled White hoodie (checked on live White mockup). Live scale 0.9 crops 8-9% top/bottom ('TREE' cut); fix scale 0.665 verified on all 32 enabled variants.",
+  "status": "READY_FOR_REVIEW"
+ }
+}

@@ -1,0 +1,72 @@
+{
+ "product_id": "6ac7126c0ed8f1657605f2ae",
+ "shop_id": "26418699",
+ "title": "All I Want Nap Christmas Lunch Box \u2014 Bento Box for Holiday Lunches, Holiday Gift | Winstar4U",
+ "blueprint_id": 695,
+ "print_provider_id": 23,
+ "position": "front",
+ "image_id": "6ac4efffbf13de97ae85f2da",
+ "image_name": "all-i-want-nap.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/2cf64491-a4c3-4a53-895a-caef97d813d4",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 01:55:02+00:00",
+ "defect_cause": "other",
+ "defect_note": "DEFECT",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.7,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.1719,
+  0.0601,
+  0.8286,
+  0.9473
+ ],
+ "current_content_box_in_placeholder": [
+  0.2703,
+  0.0028,
+  0.73,
+  1.0054
+ ],
+ "current_inside_safe_frac": {
+  "72920": 0.9284
+ },
+ "effective_px_ratio_after": 1.465,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.496,
+  "scale": 0.623,
+  "angle": 0
+ },
+ "placeholders": {
+  "72920": [
+   2244,
+   1390
+  ]
+ },
+ "safe_area_source": {
+  "72920": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "72920": 1.0
+ },
+ "new_art_category": "",
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "bottom 1%"
+ ],
+ "notes": [
+  "current: 7.2% of visible content outside safe area (variant 72920)"
+ ],
+ "live_change_made": false
+}

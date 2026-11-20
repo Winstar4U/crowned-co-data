@@ -1,0 +1,73 @@
+{
+ "product_id": "6ac71287d0a23214d80b25f3",
+ "shop_id": "26418699",
+ "title": "Christmas Budget 500 Christmas Lunch Box \u2014 Bento Box for Holiday Lunches, Holiday Gift | Winstar4U",
+ "blueprint_id": 695,
+ "print_provider_id": 23,
+ "position": "front",
+ "image_id": "6ac8612d4f7d9a18a9c95b81",
+ "image_name": "fixed_6ac4f02c4697cd9cf0a75186.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/c3e51309-9037-4141-add4-91e5a1f6c70e",
+ "image_px": [
+  1994,
+  1994
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 03:37:34+00:00",
+ "defect_cause": "other",
+ "defect_note": "DEFECT",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.7,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.005,
+  0.005,
+  0.995,
+  0.995
+ ],
+ "current_content_box_in_placeholder": [
+  0.1535,
+  -0.0594,
+  0.8465,
+  1.0594
+ ],
+ "current_inside_safe_frac": {
+  "72920": 0.8206
+ },
+ "effective_px_ratio_after": 1.598,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.556,
+  "angle": 0
+ },
+ "placeholders": {
+  "72920": [
+   2244,
+   1390
+  ]
+ },
+ "safe_area_source": {
+  "72920": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "72920": 1.0
+ },
+ "new_art_category": "",
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 5%",
+  "bottom 5%"
+ ],
+ "notes": [
+  "current: 17.9% of visible content outside safe area (variant 72920)"
+ ],
+ "live_change_made": false
+}

@@ -1,0 +1,87 @@
+{
+ "product_id": "6ac723fb1ec581a32d05974d",
+ "shop_id": "26418699",
+ "title": "Christmas Open Bar Christmas Button Pin \u2014 Festive Pin Button, Holiday Gift | Winstar4U",
+ "blueprint_id": 430,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac8ddcce9406544747ac5d9",
+ "image_name": "openbar_fixed.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/8bf92d94-f895-40e5-8307-2410100e5a46",
+ "image_px": [
+  1079,
+  1773
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-14 13:14:10+00:00",
+ "defect_cause": "other",
+ "defect_note": "DEFECT",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.65,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.0093,
+  0.0056,
+  0.9907,
+  0.855
+ ],
+ "current_content_box_in_placeholder": [
+  0.181,
+  -0.028,
+  0.819,
+  0.8792
+ ],
+ "current_inside_safe_frac": {
+  "62070": 0.6977,
+  "62071": 0.778,
+  "67977": 0.7958
+ },
+ "effective_px_ratio_after": 2.476,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.584,
+  "scale": 0.428,
+  "angle": 0
+ },
+ "placeholders": {
+  "62070": [
+   519,
+   519
+  ],
+  "62071": [
+   788,
+   788
+  ],
+  "67977": [
+   1018,
+   1018
+  ]
+ },
+ "safe_area_source": {
+  "62070": "printify_safe_area",
+  "62071": "printify_safe_area",
+  "67977": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "62070": 1.0,
+  "62071": 1.0,
+  "67977": 1.0
+ },
+ "new_art_category": "",
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 3%"
+ ],
+ "notes": [
+  "geometry checked for 3 enabled variants (3 distinct placeholder geometries)",
+  "current: 30.2% of visible content outside safe area (variant 62070)"
+ ],
+ "live_change_made": false
+}

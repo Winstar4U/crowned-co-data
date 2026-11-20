@@ -1,0 +1,71 @@
+{
+ "product_id": "6ac7148ba005c19c550d8aba",
+ "shop_id": "26418699",
+ "title": "Christmas Stress Tinsel Done Christmas Mouse Pad \u2014 Funny Desk Gift, Holiday Gift | Winstar4U",
+ "blueprint_id": 582,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac85d654be9797c9ffbd402",
+ "image_name": "christmas-stress-tinsel-done.png-TRANSPARENT.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/bbcf0f22-8386-417c-b49a-b3a785559692",
+ "image_px": [
+  1243,
+  1502
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 03:20:26+00:00",
+ "defect_cause": "other",
+ "defect_note": "DEFECT-MINOR (CHRISTMAS touches top edge)",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.65,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.008,
+  0.0067,
+  0.992,
+  0.9933
+ ],
+ "current_content_box_in_placeholder": [
+  0.1802,
+  0.1125,
+  0.8198,
+  0.8875
+ ],
+ "current_inside_safe_frac": {
+  "71665": 0.9757
+ },
+ "effective_px_ratio_after": 0.764,
+ "proposed": {
+  "x": 0.515,
+  "y": 0.552,
+  "scale": 0.62,
+  "angle": 0
+ },
+ "placeholders": {
+  "71665": [
+   2625,
+   2625
+  ]
+ },
+ "safe_area_source": {
+  "71665": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "71665": 1.0
+ },
+ "new_art_category": "",
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [],
+ "notes": [
+  "Register 'CHRISTMAS touches top edge' CONFIRMED (2.4% outside safe circle); fix scale 0.620 verified. Cosmetic: unmatched opening quote mark before CHRISTMAS in source - optional text clean-up.",
+  "current: 2.4% of visible content outside safe area (variant 71665)"
+ ],
+ "live_change_made": false
+}
