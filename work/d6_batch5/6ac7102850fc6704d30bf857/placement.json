@@ -1,0 +1,86 @@
+{
+ "product_id": "6ac7102850fc6704d30bf857",
+ "shop_id": "26418699",
+ "title": "\"Deck The Halls Sit Down\" Christmas Water Bottle \u2014 Funny Holiday Steel Bottle, Holiday Gift | Winstar4U",
+ "blueprint_id": 854,
+ "print_provider_id": 23,
+ "position": "front",
+ "image_id": "6ac85fedec6da3459d4da531",
+ "image_name": "flattened-deck-the-halls-sit-down-transparent.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/d76689b8-0cba-470b-b93e-e0db85de12bb",
+ "image_px": [
+  400,
+  400
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 03:54:14+00:00",
+ "defect_cause": "wraparound",
+ "defect_note": "DEFECT \u2014 text cropped both edges (bottle wraparound)",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.6,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.1225,
+  0.1325,
+  0.88,
+  0.8675
+ ],
+ "current_content_box_in_placeholder": [
+  0.2735,
+  0.0944,
+  0.728,
+  0.9056
+ ],
+ "current_inside_safe_frac": {
+  "76801": 0.9491,
+  "76802": 0.9491,
+  "76803": 0.9491
+ },
+ "effective_px_ratio_after": 0.225,
+ "proposed": {
+  "x": 0.5001,
+  "y": 0.5,
+  "scale": 0.524,
+  "angle": 0
+ },
+ "placeholders": {
+  "76801": [
+   2759,
+   1500
+  ],
+  "76802": [
+   2760,
+   1996
+  ],
+  "76803": [
+   3390,
+   2232
+  ]
+ },
+ "safe_area_source": {
+  "76801": "rect",
+  "76802": "rect",
+  "76803": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "76801": 1.0,
+  "76802": 1.0,
+  "76803": 1.0
+ },
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [],
+ "notes": [
+  "NEEDS_NEW_ART: source art is only 400x400 px (flattened thumbnail export) - upscaled 4.4x at print size, will print soft/pixelated. Placement fix computed+verified; apply together with a >=2000 px re-export of the same transparent design.",
+  "geometry checked for 3 enabled variants (3 distinct placeholder geometries)",
+  "LOW-RES: art upscaled 4.4x on largest variant (src px/print px=0.23)",
+  "current: 5.1% of visible content outside safe area (variant 76801)"
+ ],
+ "live_change_made": false
+}

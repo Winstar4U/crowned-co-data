@@ -1,0 +1,239 @@
+{
+ "854/23": {
+  "76801": {
+   "front": [
+    2759,
+    1500
+   ]
+  },
+  "76802": {
+   "front": [
+    2760,
+    1996
+   ]
+  },
+  "76803": {
+   "front": [
+    3390,
+    2232
+   ]
+  },
+  "_source": "cached from d6_batch1/4 placeholders.json"
+ },
+ "376/99": {
+  "45132": {
+   "back_left_leg": [
+    1348,
+    5595
+   ],
+   "back_right_leg": [
+    1348,
+    5595
+   ],
+   "front_left_leg": [
+    1348,
+    5595
+   ],
+   "front_right_leg": [
+    1348,
+    5595
+   ]
+  },
+  "45133": {
+   "back_left_leg": [
+    1348,
+    5657
+   ],
+   "back_right_leg": [
+    1348,
+    5657
+   ],
+   "front_left_leg": [
+    1348,
+    5657
+   ],
+   "front_right_leg": [
+    1348,
+    5657
+   ]
+  },
+  "45134": {
+   "back_left_leg": [
+    1348,
+    5610
+   ],
+   "back_right_leg": [
+    1348,
+    5610
+   ],
+   "front_left_leg": [
+    1348,
+    5610
+   ],
+   "front_right_leg": [
+    1348,
+    5610
+   ]
+  },
+  "_source": "printify-get-blueprint-variants-9eb 376/99 returned 404 printify_blueprint_print_provider_mismatch (provider 99 no longer makes blueprint 376; only provider 1 listed). Dims taken from 376/1 (same variant ids), batch 4, read-only - REFERENCE ONLY"
+ },
+ "568/99": {
+  "70900": {
+   "front": [
+    1800,
+    2056
+   ]
+  },
+  "70904": {
+   "front": [
+    2100,
+    2400
+   ]
+  },
+  "70908": {
+   "front": [
+    2100,
+    2400
+   ]
+  },
+  "71073": {
+   "front": [
+    1500,
+    1714
+   ]
+  },
+  "71079": {
+   "front": [
+    1500,
+    1714
+   ]
+  },
+  "71089": {
+   "front": [
+    1200,
+    1371
+   ]
+  },
+  "_source": "cached from d6_batch1/placeholders.json"
+ },
+ "2662/10": {
+  "147745": {
+   "front": [
+    15900,
+    13500
+   ]
+  },
+  "147746": {
+   "front": [
+    13500,
+    13500
+   ]
+  },
+  "147747": {
+   "front": [
+    10500,
+    13500
+   ]
+  },
+  "147748": {
+   "front": [
+    10500,
+    14175
+   ]
+  },
+  "_source": "cached from d6_batch1/placeholders.json"
+ },
+ "353/1": {
+  "44519": {
+   "front": [
+    2795,
+    2100
+   ]
+  },
+  "_source": "printify-get-blueprint-variants-9eb 353/1 (batch 5, read-only)"
+ },
+ "713/6": {
+  "74521": {
+   "front": [
+    2953,
+    3780
+   ]
+  },
+  "74522": {
+   "front": [
+    2953,
+    3780
+   ]
+  },
+  "74523": {
+   "front": [
+    2953,
+    3780
+   ]
+  },
+  "74525": {
+   "front": [
+    2953,
+    3780
+   ]
+  },
+  "74526": {
+   "front": [
+    2953,
+    3780
+   ]
+  },
+  "74527": {
+   "front": [
+    2953,
+    3780
+   ]
+  },
+  "_source": "printify-get-blueprint-variants-9eb 713/6 (batch 5, read-only)"
+ },
+ "1698/99": {
+  "116653": {
+   "front": [
+    1500,
+    705
+   ]
+  },
+  "116654": {
+   "front": [
+    1500,
+    705
+   ]
+  },
+  "116655": {
+   "front": [
+    1500,
+    705
+   ]
+  },
+  "116659": {
+   "front": [
+    1500,
+    705
+   ]
+  },
+  "116661": {
+   "front": [
+    1500,
+    705
+   ]
+  },
+  "116662": {
+   "front": [
+    1500,
+    705
+   ]
+  },
+  "116663": {
+   "front": [
+    1500,
+    705
+   ]
+  },
+  "_source": "printify-get-blueprint-variants-9eb 1698/99 show_out_of_stock=true (batch 5): 116656 Butter,116657 Clay,116658 Coffee,116660 Navy NOT offered by provider any more"
+ }
+}

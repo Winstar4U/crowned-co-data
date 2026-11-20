@@ -1,0 +1,95 @@
+{
+ "product_id": "6ac7149db8146913210038d0",
+ "shop_id": "26418699",
+ "title": "Tree Up Patience Down Christmas Baby Onesie \u2014 Adorable Baby Christmas Gift, Holiday Gift | Winstar4U",
+ "blueprint_id": 568,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac860aa5450b20ed8f11223",
+ "image_name": "flattened-tree-up-patience-down-transparent.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/efe4dd2c-7f59-4a1e-807f-23cfedda1cbb",
+ "image_px": [
+  400,
+  400
+ ],
+ "decoration_method": "dtg",
+ "visible": true,
+ "updated_at": "2026-10-09 03:37:46+00:00",
+ "defect_cause": "wraparound",
+ "defect_note": "DEFECT-MINOR (TREE UP touches/crosses neckline seam)",
+ "current": {
+  "x": 0.5,
+  "y": 0.3,
+  "scale": 0.9,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.1575,
+  0.04,
+  0.8475,
+  0.9725
+ ],
+ "current_content_box_in_placeholder": [
+  0.1917,
+  -0.0625,
+  0.8128,
+  0.6723
+ ],
+ "current_inside_safe_frac": {
+  "70900": 0.86,
+  "70904": 0.86,
+  "71073": 0.86,
+  "71089": 0.86
+ },
+ "effective_px_ratio_after": 0.212,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.416,
+  "scale": 0.9,
+  "angle": 0
+ },
+ "placeholders": {
+  "70900": [
+   1800,
+   2056
+  ],
+  "70904": [
+   2100,
+   2400
+  ],
+  "71073": [
+   1500,
+   1714
+  ],
+  "71089": [
+   1200,
+   1371
+  ]
+ },
+ "safe_area_source": {
+  "70900": "rect",
+  "70904": "rect",
+  "71073": "rect",
+  "71089": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "70900": 1.0,
+  "70904": 1.0,
+  "71073": 1.0,
+  "71089": 1.0
+ },
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 8%"
+ ],
+ "notes": [
+  "NEEDS_NEW_ART: source art is only 400x400 px (flattened thumbnail export) - upscaled 4.7x at print size, will print soft/pixelated. Placement fix computed+verified; apply together with a >=2000 px re-export of the same transparent design.",
+  "geometry checked for 6 enabled variants (4 distinct placeholder geometries)",
+  "LOW-RES: art upscaled 4.7x on largest variant (src px/print px=0.21)",
+  "current: 14.0% of visible content outside safe area (variant 70900)"
+ ],
+ "live_change_made": false
+}

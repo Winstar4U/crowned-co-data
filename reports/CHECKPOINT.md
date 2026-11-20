@@ -53,13 +53,14 @@
 - **Batch 2:** DONE non-live 23:18:54–23:32:37 UTC (13.7 min). 30 READY, 9 NEEDS_NEW_ART, 1 BLOCKED. Evidence `work/d6_batch2/`.
 - **Batch 3:** DONE non-live 23:33:21–23:48:41 UTC (15.3 min). 39 READY, 1 NEEDS_NEW_ART, 0 BLOCKED. Evidence `work/d6_batch3/`.
 - **Batch 4:** DONE non-live 23:49:29–00:08:29 UTC (19 min, incl. restart). 31 READY, 1 NEEDS_NEW_ART, 8 BLOCKED (7 socks: provider 99 discontinued bp 376). Evidence `work/d6_batch4/`.
-- **Batch 5:** next (seq 161–200).
+- **Batch 5:** DONE non-live 00:09:30–00:25:36 UTC (16 min). 25 READY, 11 NEEDS_NEW_ART, 4 BLOCKED (3 more socks bp 376). Evidence `work/d6_batch5/`.
+- **Batch 6:** next (seq 201–240).
 - **D7:** 2 Higgsfield variants generated. They are not inspected because the image host is blocked here, and the star emblem still needs a trademark check. See `work/d7_texaco_replacement/README.md`.
 - **Notifications:** batch packets go to the Bridge as soon as each batch finishes. There is no push to the owner's phone: the Bridge has no webhooks configured, and PushNotification isn't set up.
 
 ## Next action for the next session (resume here)
 
-0. Run `/resume`, then `/batch 5` (or the first batch not done).
+0. Run `/resume`, then `/batch 6` (or the first batch not done).
 
 1. Apply any D-decisions the owner has answered (D1 = set prices on 48 products from the CSV, then re-fetch each to verify).
 2. ~~Pull the Shopify catalog and fill Shopify `channel_link`.~~ **DONE 2026-11-19:** read-only pull of shop 26418699 (51 pages, 2,508 products; 486 have a storefront URL). Of the 1,602 Shopify SELL NOW rows, 330 have a link and stay SELL NOW; 1,272 have no link and are now UNKNOWN. 450 pulled Shopify products have no inspection row (UNKNOWN). New totals: SELL NOW 608 (Shopify 330, Etsy 241, TikTok 20, Amazon 17), REPAIR FIRST 447, HOLD 1, UNKNOWN 1,930, REMOVED 22. Linked holiday shortlist: 348 (Shopify 219, Etsy 92, TikTok 20, Amazon 17). Still to do: give ChatGPT the linked holiday list.

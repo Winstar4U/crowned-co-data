@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="front" width="100%" height="100%" viewBox="0 0 10365.408 10365.408" xmlns:printify="http://printify.com/adjuster"  printify:width="2742.5145" printify:height="2742.5145">
+  <defs>
+    <clipPath id="clippath">
+      <rect id="printarea" x="95.976" y="863.784" width="10173.456" height="8637.84" fill="none"/>
+    </clipPath>
+  <image x="0" y="0" width="10365.408" height="10365.408" id="fabric-image"/><path d="" id="fabric-0"/><clipPath id="fabric-0-clip"><use xlink:href="#fabric-0"/></clipPath><path d="" id="fabric-1"/><clipPath id="fabric-1-clip"><use xlink:href="#fabric-1"/></clipPath><rect id="_front-path" width="10173.456" height="8637.84" fill="none" transform=""/><clipPath><use stroke-width="11.42714375mm" xlink:href="#_front-path"/></clipPath></defs>
+  <g id="color_first" fill-rule="nonzero" fill="#fff"><use xlink:href="#fabric-0"/><use clip-path="url(#fabric-0-clip)" xlink:href="#fabric-image"/>
+    <g clip-path="url(#clippath)">
+      <rect id="color_background" x="95.976" y="863.784" width="10173.456" height="8637.84" fill="#fff" fill-rule="nonzero"><use xlink:href="#fabric-1"/><use clip-path="url(#fabric-1-clip)" xlink:href="#fabric-image"/></rect>
+      
+    <g clip-path="url(#_front-clippath)" transform="translate(95.976 863.784)"><svg id="placeholder_front" width="10173.456" height="8637.84" preserveAspectRatio="xMidYMid slice" viewBox="0 0 10173.456 8637.84"><use stroke-width="11.42714375mm" xlink:href="#_front-path" stroke="#ffffff"/><use stroke-width="11.42714375mm" xlink:href="#_front-path" stroke="#000000" stroke-dasharray="22.8542875mm, 22.8542875mm"/></svg></g></g>
+  </g>
+  <g id="outlines">
+    <path id="bleed" d="M10077.48,9309.672H287.928s0-8253.936,0-8253.936h9789.552v8253.936ZM10269.432,863.784H95.976s0,8637.84,0,8637.84h10173.456V863.784Z" opacity=".4"/>
+    <path id="bleedw" d="M10077.48,9309.672H287.928s0-8253.936,0-8253.936h9789.552v8253.936ZM10269.432,863.784H95.976s0,8637.84,0,8637.84h10173.456V863.784Z" fill="#fff" opacity=".4"/>
+    <rect id="safew" x="287.928" y="1055.736" width="9789.552" height="8253.936" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="6"/>
+    <g id="safe">
+      <g>
+        <polyline points="10077.48 9279.672 10077.48 9309.672 10047.48 9309.672" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="6"/>
+        <line x1="9987.8" y1="9309.672" x2="9987.79" y2="9309.672" fill="none" stroke="#000" stroke-dasharray=".01 0" stroke-linejoin="round" stroke-width="6"/>
+        <line x1="9987.79" y1="9309.672" x2="317.928" y2="9309.672" fill="none" stroke="#000" stroke-dasharray="59.691 59.681 .01 0" stroke-linejoin="round" stroke-width="6"/>
+        <polyline points="317.928 9309.672 287.928 9309.672 287.928 9279.672" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="6"/>
+        <line x1="287.928" y1="9219.872" x2="287.928" y2="9219.862" fill="none" stroke="#000" stroke-dasharray=".01 0" stroke-linejoin="round" stroke-width="6"/>
+        <line x1="287.928" y1="9219.862" x2="287.928" y2="1085.736" fill="none" stroke="#000" stroke-dasharray="59.81 59.8 .01 0" stroke-linejoin="round" stroke-width="6"/>
+        <polyline points="287.928 1085.736 287.928 1055.736 317.928 1055.736" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="6"/>
+        <line x1="377.609" y1="1055.736" x2="377.618" y2="1055.736" fill="none" stroke="#000" stroke-dasharray=".01 0" stroke-linejoin="round" stroke-width="6"/>
+        <line x1="377.618" y1="1055.736" x2="10047.48" y2="1055.736" fill="none" stroke="#000" stroke-dasharray="59.691 59.681 .01 0" stroke-linejoin="round" stroke-width="6"/>
+        <polyline points="10047.48 1055.736 10077.48 1055.736 10077.48 1085.736" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="6"/>
+        <line x1="10077.48" y1="1145.536" x2="10077.48" y2="1145.546" fill="none" stroke="#000" stroke-dasharray=".01 0" stroke-linejoin="round" stroke-width="6"/>
+        <line x1="10077.48" y1="1145.546" x2="10077.48" y2="9279.672" fill="none" stroke="#000" stroke-dasharray="59.81 59.8 .01 0" stroke-linejoin="round" stroke-width="6"/>
+      </g>
+    </g>
+    <rect id="printarea" x="95.976" y="863.784" width="10173.456" height="8637.84" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="12"/>
+  </g>
+</svg>

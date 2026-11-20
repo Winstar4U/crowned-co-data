@@ -1,0 +1,87 @@
+{
+ "product_id": "6ac71044f0a0ce97bc0c90bb",
+ "shop_id": "26418699",
+ "title": "\"Glory To God\" Christmas Water Bottle \u2014 Funny Holiday Steel Bottle, Holiday Gift | Winstar4U",
+ "blueprint_id": 854,
+ "print_provider_id": 23,
+ "position": "front",
+ "image_id": "6ac86000cde65dca6e2a456b",
+ "image_name": "faith-glory-to-god-transparent.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/c29e5f66-0726-44df-bebd-c76113a491ec",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 03:51:38+00:00",
+ "defect_cause": "wraparound",
+ "defect_note": "DEFECT \u2014 bottom line cropped (bottle wraparound)",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.6,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0381,
+  0.002,
+  0.9614,
+  0.9805
+ ],
+ "current_content_box_in_placeholder": [
+  0.2229,
+  -0.0496,
+  0.7769,
+  1.0302
+ ],
+ "current_inside_safe_frac": {
+  "76801": 0.7208,
+  "76802": 0.8038,
+  "76803": 0.8031
+ },
+ "effective_px_ratio_after": 1.398,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.432,
+  "angle": 0
+ },
+ "placeholders": {
+  "76801": [
+   2759,
+   1500
+  ],
+  "76802": [
+   2760,
+   1996
+  ],
+  "76803": [
+   3390,
+   2232
+  ]
+ },
+ "safe_area_source": {
+  "76801": "rect",
+  "76802": "rect",
+  "76803": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "76801": 1.0,
+  "76802": 1.0,
+  "76803": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 5%",
+  "bottom 3%"
+ ],
+ "notes": [
+  "geometry checked for 3 enabled variants (3 distinct placeholder geometries)",
+  "current: 27.9% of visible content outside safe area (variant 76801)"
+ ],
+ "live_change_made": false
+}

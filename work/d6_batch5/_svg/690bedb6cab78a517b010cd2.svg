@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="left front" width="100%" height="100%" viewBox="0 0 323.52 1342.8" xmlns:printify="http://printify.com/adjuster"  printify:width="85.5975" printify:height="355.2825">
+  <defs>
+    <clipPath id="clippath">
+      <rect id="&amp;lt;Rectangle&amp;gt;" x="-509.64" y="509.64" width="1342.8" height="323.52" transform="translate(-509.64 833.16) rotate(-90)" fill="none"/>
+    </clipPath>
+  <image x="0" y="0" width="323.52" height="1342.8" id="fabric-image"/><path d="" id="fabric-0"/><clipPath id="fabric-0-clip"><use xlink:href="#fabric-0"/></clipPath><path d="" id="fabric-1"/><clipPath id="fabric-1-clip"><use xlink:href="#fabric-1"/></clipPath><rect id="_front_left_leg-path" width="323.52" height="1342.81" fill="none" transform=""/><clipPath><use stroke-width="0.35665625mm" xlink:href="#_front_left_leg-path"/></clipPath></defs>
+  <g id="color_first" fill-rule="nonzero" fill="#fff"><use xlink:href="#fabric-0"/><use clip-path="url(#fabric-0-clip)" xlink:href="#fabric-image"/>
+    <g clip-path="url(#clippath)">
+      <rect id="color_background" x="-509.64" y="509.64" width="1342.8" height="323.52" transform="translate(-509.64 833.16) rotate(-90)" fill="#fff" fill-rule="nonzero"><use xlink:href="#fabric-1"/><use clip-path="url(#fabric-1-clip)" xlink:href="#fabric-image"/></rect>
+      
+    <g clip-path="url(#_front_left_leg-clippath)" transform="translate(0 0)"><svg id="placeholder_front_left_leg" width="323.52" height="1342.81" preserveAspectRatio="xMidYMid slice" viewBox="0 0 323.52 1342.81"><use stroke-width="0.35665625mm" xlink:href="#_front_left_leg-path" stroke="#ffffff"/><use stroke-width="0.35665625mm" xlink:href="#_front_left_leg-path" stroke="#000000" stroke-dasharray="0.7133125mm, 0.7133125mm"/></svg></g></g>
+  </g>
+  <g id="outlines">
+    <g opacity=".2">
+      <path d="M0,0v1342.8s323.52,0,323.52,0V0S0,0,0,0ZM283.65,1215.55H39.87V107.26h243.78v1108.3Z"/>
+    </g>
+    <g opacity=".2">
+      <path d="M0,0v1342.8s323.52,0,323.52,0V0S0,0,0,0ZM283.65,1215.55H39.87V107.26h243.78v1108.3Z" fill="#fff"/>
+    </g>
+    <rect x="-392.39" y="539.52" width="1108.3" height="243.78" transform="translate(-499.64 823.17) rotate(-90)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="2.4"/>
+    <rect x="-392.39" y="539.52" width="1108.3" height="243.78" transform="translate(-499.64 823.17) rotate(-90)" fill="none" stroke="#000" stroke-dasharray="24 24 0 0" stroke-linejoin="round" stroke-width="2.4"/>
+    <rect id="&amp;lt;Rectangle&amp;gt;" x="-497.23" y="542.08" width="1317.99" height="283.46" transform="translate(-522.05 845.57) rotate(-90)" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="4"/>
+  </g>
+</svg>

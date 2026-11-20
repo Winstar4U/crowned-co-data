@@ -1,0 +1,87 @@
+{
+ "product_id": "6ac710734e8c3a1ca906ecfb",
+ "shop_id": "26418699",
+ "title": "\"Ho Ho Pour Another\" Christmas Water Bottle \u2014 Funny Holiday Steel Bottle, Holiday Gift | Winstar4U",
+ "blueprint_id": 854,
+ "print_provider_id": 23,
+ "position": "front",
+ "image_id": "6ac860bbab493563659a7eaa",
+ "image_name": "fixed_6ac4f111d82adc37bd80397b.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/9fb2f0f2-3607-4a39-876e-7b077e686463",
+ "image_px": [
+  1605,
+  1945
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 03:43:36+00:00",
+ "defect_cause": "wraparound",
+ "defect_note": "DEFECT \u2014 text cropped at right edge (bottle wraparound)",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.6,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0062,
+  0.0051,
+  0.9938,
+  0.9949
+ ],
+ "current_content_box_in_placeholder": [
+  0.2037,
+  -0.1618,
+  0.7963,
+  1.1618
+ ],
+ "current_inside_safe_frac": {
+  "76801": 0.5222,
+  "76802": 0.6945,
+  "76803": 0.6361
+ },
+ "effective_px_ratio_after": 1.181,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.401,
+  "angle": 0
+ },
+ "placeholders": {
+  "76801": [
+   2759,
+   1500
+  ],
+  "76802": [
+   2760,
+   1996
+  ],
+  "76803": [
+   3390,
+   2232
+  ]
+ },
+ "safe_area_source": {
+  "76801": "rect",
+  "76802": "rect",
+  "76803": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "76801": 1.0,
+  "76802": 1.0,
+  "76803": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 12%",
+  "bottom 12%"
+ ],
+ "notes": [
+  "geometry checked for 3 enabled variants (3 distinct placeholder geometries)",
+  "current: 47.8% of visible content outside safe area (variant 76801)"
+ ],
+ "live_change_made": false
+}

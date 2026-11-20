@@ -1,0 +1,84 @@
+{
+ "product_id": "6ac7106582fcbdd37b039fa2",
+ "shop_id": "26418699",
+ "title": "\"Savior Born Manger\" Christmas Water Bottle \u2014 Funny Holiday Steel Bottle, Holiday Gift | Winstar4U",
+ "blueprint_id": 854,
+ "print_provider_id": 23,
+ "position": "front",
+ "image_id": "6ac85ffdecd0bed01c1b8208",
+ "image_name": "faith-savior-born-manger-transparent.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/e373c67a-5f52-4fc3-a968-b26830939383",
+ "image_px": [
+  2048,
+  1365
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 03:44:01+00:00",
+ "defect_cause": "wraparound",
+ "defect_note": "DEFECT \u2014 text cropped both edges (bottle wraparound)",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.6,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0903,
+  0.0784,
+  0.9116,
+  0.9172
+ ],
+ "current_content_box_in_placeholder": [
+  0.2542,
+  0.1899,
+  0.747,
+  0.8069
+ ],
+ "current_inside_safe_frac": {
+  "76801": 0.8988,
+  "76802": 0.8988,
+  "76803": 0.8988
+ },
+ "effective_px_ratio_after": 1.248,
+ "proposed": {
+  "x": 0.5001,
+  "y": 0.5,
+  "scale": 0.484,
+  "angle": 0
+ },
+ "placeholders": {
+  "76801": [
+   2759,
+   1500
+  ],
+  "76802": [
+   2760,
+   1996
+  ],
+  "76803": [
+   3390,
+   2232
+  ]
+ },
+ "safe_area_source": {
+  "76801": "rect",
+  "76802": "rect",
+  "76803": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "76801": 1.0,
+  "76802": 1.0,
+  "76803": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [],
+ "notes": [
+  "geometry checked for 3 enabled variants (3 distinct placeholder geometries)",
+  "current: 10.1% of visible content outside safe area (variant 76801)"
+ ],
+ "live_change_made": false
+}

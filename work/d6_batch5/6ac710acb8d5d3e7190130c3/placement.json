@@ -1,0 +1,86 @@
+{
+ "product_id": "6ac710acb8d5d3e7190130c3",
+ "shop_id": "26418699",
+ "title": "\"Merry Everything Happy Always\" Christmas Water Bottle \u2014 Funny Holiday Steel Bottle, Holiday Gift | Winstar4U",
+ "blueprint_id": 854,
+ "print_provider_id": 23,
+ "position": "front",
+ "image_id": "6ac860074ca50d98e6a85667",
+ "image_name": "flattened-merry-everything-happy-always-transparent.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/290e8575-4984-4484-8fec-758b969a9f27",
+ "image_px": [
+  400,
+  400
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 04:08:53+00:00",
+ "defect_cause": "wraparound",
+ "defect_note": "DEFECT \u2014 text wraps around bottle curvature and is cut off at both edges",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.6,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.02,
+  0.19,
+  0.97,
+  0.8175
+ ],
+ "current_content_box_in_placeholder": [
+  0.212,
+  0.1579,
+  0.782,
+  0.8504
+ ],
+ "current_inside_safe_frac": {
+  "76801": 0.788,
+  "76802": 0.788,
+  "76803": 0.788
+ },
+ "effective_px_ratio_after": 0.282,
+ "proposed": {
+  "x": 0.5021,
+  "y": 0.5,
+  "scale": 0.419,
+  "angle": 0
+ },
+ "placeholders": {
+  "76801": [
+   2759,
+   1500
+  ],
+  "76802": [
+   2760,
+   1996
+  ],
+  "76803": [
+   3390,
+   2232
+  ]
+ },
+ "safe_area_source": {
+  "76801": "rect",
+  "76802": "rect",
+  "76803": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "76801": 1.0,
+  "76802": 1.0,
+  "76803": 1.0
+ },
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [],
+ "notes": [
+  "NEEDS_NEW_ART: source art is only 400x400 px (flattened thumbnail export) - upscaled 3.5x at print size, will print soft/pixelated. Placement fix computed+verified; apply together with a >=2000 px re-export of the same transparent design.",
+  "geometry checked for 3 enabled variants (3 distinct placeholder geometries)",
+  "LOW-RES: art upscaled 3.6x on largest variant (src px/print px=0.28)",
+  "current: 21.2% of visible content outside safe area (variant 76801)"
+ ],
+ "live_change_made": false
+}
