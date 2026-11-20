@@ -1,0 +1,76 @@
+{
+ "product_id": "6ac717f3aa7a21cb900b506c",
+ "shop_id": "26418699",
+ "title": "My Elf Made Me Christmas Backpack \u2014 Festive Holiday Travel Bag, Christmas Gift | Winstar4U",
+ "blueprint_id": 10823,
+ "print_provider_id": 99,
+ "position": "front_dtf",
+ "image_id": "6ac4f14ba2e2e7ac147890c9",
+ "image_name": "my-elf-made-me.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/dd22e702-0ce8-4c94-9d79-377729b46784",
+ "image_px": [
+  2048,
+  1365
+ ],
+ "decoration_method": "dtf",
+ "visible": true,
+ "updated_at": "2026-10-09 00:47:44+00:00",
+ "defect_cause": "other",
+ "defect_note": "DEFECT",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 1.0,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.1357,
+  0.0293,
+  0.8657,
+  0.9758
+ ],
+ "contrast_vs_black": 0.137,
+ "current_content_box_in_placeholder": [
+  0.1357,
+  -0.3366,
+  0.8657,
+  1.3457
+ ],
+ "current_inside_safe_frac": {
+  "401444": 0.5385
+ },
+ "effective_px_ratio_after": 1.616,
+ "proposed": {
+  "x": 0.5003,
+  "y": 0.492,
+  "scale": 0.528,
+  "angle": 0
+ },
+ "placeholders": {
+  "401444": [
+   2400,
+   900
+  ]
+ },
+ "safe_area_source": {
+  "401444": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "401444": 1.0
+ },
+ "new_art_category": "garbled_text",
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 20%",
+  "bottom 21%"
+ ],
+ "notes": [
+  "NEEDS_NEW_ART (garbled_text): my-elf-made-me.png reads 'MY ELF MADE / MADE ME DO IT' - the word 'MADE' is duplicated in the baked-in title (visually confirmed at 100% on the source; register note confirmed). Needs corrected text art ('MY ELF MADE ME DO IT'). Same source image 6ac4f14ba2e2e7ac147890c9 is used on 4 batch-10 products (backpack, dog bandana, laptop sleeve, magnet) - one corrected export fixes all four. Source is also an opaque RGB file with a white background (no alpha). Placement computed+verified; apply with the new art. On this Black DTF backpack the opaque white background ALSO prints as a white box (white_box) - the corrected re-export must be transparent.",
+  "art has opaque WHITE background on dtf print over coloured blank -> visible white patch; needs transparent re-export of same design (placement computed+verified, apply together)",
+  "current: 46.2% of visible content outside safe area (variant 401444)"
+ ],
+ "live_change_made": false
+}

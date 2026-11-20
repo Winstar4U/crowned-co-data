@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 385.6 385.6" xmlns:printify="http://printify.com/adjuster"  printify:width="102.02250000000001" printify:height="102.02250000000001">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="&lt;Clipping Path&gt;" x="0.85" y="0.85" width="383.9" height="383.9" fill="none"/>
+    </clipPath>
+  <image x="0" y="0" width="385.6" height="385.6" id="fabric-image"/><path d="" id="fabric-0"/><clipPath id="fabric-0-clip"><use xlink:href="#fabric-0"/></clipPath><path d="" id="fabric-1"/><clipPath id="fabric-1-clip"><use xlink:href="#fabric-1"/></clipPath><rect id="_front-path" width="383.9" height="383.9" fill="none" transform=""/><clipPath><use stroke-width="0.42509375000000005mm" xlink:href="#_front-path"/></clipPath></defs>
+  <g id="4x4in">
+    <g id="color_first" fill-rule="nonzero" fill="#fff"><use xlink:href="#fabric-0"/><use clip-path="url(#fabric-0-clip)" xlink:href="#fabric-image"/>
+      <g clip-path="url(#clip-path)">
+        <rect id="color_background" x="0.85" y="0.85" width="383.9" height="383.9" fill="#fff" fill-rule="nonzero"><use xlink:href="#fabric-1"/><use clip-path="url(#fabric-1-clip)" xlink:href="#fabric-image"/></rect>
+        
+      <g clip-path="url(#_front-clippath)" transform="translate(0.85 0.85)"><svg id="placeholder_front" width="383.9" height="383.9" preserveAspectRatio="xMidYMid slice" viewBox="0 0 383.9 383.9"><use stroke-width="0.42509375000000005mm" xlink:href="#_front-path" stroke="#ffffff"/><use stroke-width="0.42509375000000005mm" xlink:href="#_front-path" stroke="#000000" stroke-dasharray="0.8501875000000001mm, 0.8501875000000001mm"/></svg></g></g>
+    </g>
+    <g id="outlines">
+      <path d="M.85.85v383.9h383.9V.85ZM373.42,373.42H12.19V12.19H373.42Z" fill="#fff" opacity="0.2"/>
+      <path d="M.85.85v383.9h383.9V.85ZM373.42,373.42H12.19V12.19H373.42Z" opacity="0.2"/>
+      <rect x="0.85" y="0.85" width="383.9" height="383.9" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.7"/>
+      <rect x="12.19" y="12.19" width="361.23" height="361.23" transform="translate(385.6 0) rotate(90)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.7"/>
+      <rect x="23.52" y="23.52" width="338.56" height="338.56" transform="translate(385.6 0) rotate(90)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.57"/>
+      <rect x="23.52" y="23.52" width="338.56" height="338.56" transform="translate(385.6 0) rotate(90)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.57" stroke-dasharray="6.82 11.37"/>
+    </g>
+  </g>
+</svg>

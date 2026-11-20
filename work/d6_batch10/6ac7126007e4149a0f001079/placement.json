@@ -1,0 +1,74 @@
+{
+ "product_id": "6ac7126007e4149a0f001079",
+ "shop_id": "26418699",
+ "title": "Tree Up Patience Down Christmas Lunch Box \u2014 Bento Box for Holiday Lunches, Holiday Gift | Winstar4U",
+ "blueprint_id": 695,
+ "print_provider_id": 23,
+ "position": "front",
+ "image_id": "6ac71e8e73560ed6dcc5023e",
+ "image_name": "flattened-tree-up-patience-down.jpg",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/b9713140-9318-465b-9e60-5ef25e1054e3",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 02:04:31+00:00",
+ "defect_cause": "other",
+ "defect_note": "DEFECT",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.7,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.1582,
+  0.0405,
+  0.8467,
+  0.9712
+ ],
+ "current_content_box_in_placeholder": [
+  0.2607,
+  -0.0192,
+  0.7427,
+  1.0325
+ ],
+ "current_inside_safe_frac": {
+  "72920": 0.8993
+ },
+ "effective_px_ratio_after": 1.536,
+ "proposed": {
+  "x": 0.5003,
+  "y": 0.492,
+  "scale": 0.594,
+  "angle": 0
+ },
+ "placeholders": {
+  "72920": [
+   2244,
+   1390
+  ]
+ },
+ "safe_area_source": {
+  "72920": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "72920": 1.0
+ },
+ "new_art_category": "garbled_text",
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 2%",
+  "bottom 3%"
+ ],
+ "notes": [
+  "NEEDS_NEW_ART (garbled_text): flattened-tree-up-patience-down.jpg - the vertical 'patience meter' label reads 'P-A-T-I-T-A-N-E-C-E' (misspelt 'PATIENCE'; visually confirmed on source at 100%). Headline 'TREE UP. PATIENCE DOWN.' is correct. Needs corrected text art (same image 6ac71e8e73560ed6dcc5023e used on the lunch box AND the sticker pack). Source is a flattened JPEG with opaque white background. Placement computed+verified; apply with the new art.",
+  "current: 10.1% of visible content outside safe area (variant 72920)"
+ ],
+ "live_change_made": false
+}

@@ -1,0 +1,75 @@
+{
+ "product_id": "6ac717c264166f603b0c8939",
+ "shop_id": "26418699",
+ "title": "Savior Born Manger Christmas Backpack \u2014 Cheerful Christmas Travel Pack, Gift for Students | Winstar4U",
+ "blueprint_id": 10823,
+ "print_provider_id": 99,
+ "position": "front_dtf",
+ "image_id": "6ac4f0f4d82adc37bd803975",
+ "image_name": "faith-savior-born-manger.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/bf990dc7-fa0b-4a77-99b8-98b5d6f7bfa0",
+ "image_px": [
+  2048,
+  1365
+ ],
+ "decoration_method": "dtf",
+ "visible": true,
+ "updated_at": "2026-10-09 00:47:28+00:00",
+ "defect_cause": "other",
+ "defect_note": "DEFECT",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 1.0,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.0903,
+  0.0784,
+  0.9116,
+  0.9172
+ ],
+ "contrast_vs_black": 0.029,
+ "current_content_box_in_placeholder": [
+  0.0903,
+  -0.2493,
+  0.9116,
+  1.2415
+ ],
+ "current_inside_safe_frac": {
+  "401444": 0.4168
+ },
+ "effective_px_ratio_after": 1.441,
+ "proposed": {
+  "x": 0.5004,
+  "y": 0.496,
+  "scale": 0.592,
+  "angle": 0
+ },
+ "placeholders": {
+  "401444": [
+   2400,
+   900
+  ]
+ },
+ "safe_area_source": {
+  "401444": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "401444": 1.0
+ },
+ "new_art_category": "white_box",
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 17%",
+  "bottom 16%"
+ ],
+ "notes": [
+  "art has opaque WHITE background on dtf print over coloured blank -> visible white patch; needs transparent re-export of same design (placement computed+verified, apply together)",
+  "current: 58.3% of visible content outside safe area (variant 401444)"
+ ],
+ "live_change_made": false
+}

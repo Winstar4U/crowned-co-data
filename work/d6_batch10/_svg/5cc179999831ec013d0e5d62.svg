@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Laptop 13in" width="100%" height="100%" viewBox="0 0 1321.14 961.23" xmlns:printify="http://printify.com/adjuster" printify:width="349.55249999999995" printify:height="254.32500000000002">
+  <defs>
+    <clipPath id="clip-path">
+      <rect x="0.73" y="0.73" width="1319.67" height="959.76" fill="none"/>
+    </clipPath>
+  <image x="0" y="0" width="1321.14" height="961.23" id="fabric-image"/><path d="" id="fabric-0"/><clipPath id="fabric-0-clip"><use xlink:href="#fabric-0"/></clipPath><path d="" id="fabric-1"/><clipPath id="fabric-1-clip"><use xlink:href="#fabric-1"/></clipPath><rect id="_front-path" width="1319.67" height="959.76" fill="none" transform=""/><clipPath><use stroke-width="1.4564687499999998mm" xlink:href="#_front-path"/></clipPath></defs>
+  <title>SpokeCustom_LaptopSleeve_13in_Layout_Scaled</title>
+  <g id="color_first" fill-rule="nonzero" fill="#fff"><use xlink:href="#fabric-0"/><use clip-path="url(#fabric-0-clip)" xlink:href="#fabric-image"/>
+    <g clip-path="url(#clip-path)">
+      <rect id="color_background" x="0.73" y="0.73" width="1319.67" height="959.76" fill="#fff" fill-rule="nonzero"><use xlink:href="#fabric-1"/><use clip-path="url(#fabric-1-clip)" xlink:href="#fabric-image"/></rect>
+      
+    <g clip-path="url(#_front-clippath)" transform="translate(0.73 0.73)"><svg id="placeholder_front" width="1319.67" height="959.76" preserveAspectRatio="xMidYMid slice" viewBox="0 0 1319.67 959.76"><use stroke-width="1.4564687499999998mm" xlink:href="#_front-path" stroke="#ffffff"/><use stroke-width="1.4564687499999998mm" xlink:href="#_front-path" stroke="#000000" stroke-dasharray="2.9129374999999995mm, 2.9129374999999995mm"/></svg></g></g>
+  </g>
+  <g id="outlines">
+    <path d="M.73.73V960.49H1320.4V.73ZM1296.41,936.5H24.73V24.73H1296.41Z" fill="#231f20" opacity="0.2"/>
+    <path d="M.73.73V960.49H1320.4V.73ZM1296.41,936.5H24.73V24.73H1296.41Z" fill="#fff" opacity="0.2"/>
+    <rect x="48.72" y="48.72" width="1223.69" height="863.78" rx="106.01" stroke-width="0.55" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <rect x="48.72" y="48.72" width="1223.69" height="863.78" rx="106.01" fill="none" stroke-dasharray="7.34 11.01" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.55" stroke="#000"/>
+    <rect x="0.73" y="0.73" width="1319.67" height="959.76" stroke-width="1.47" stroke="#000" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <rect x="24.73" y="24.73" width="1271.68" height="911.77" stroke-width="1.47" stroke="#000" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+</svg>

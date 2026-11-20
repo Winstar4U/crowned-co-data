@@ -1,0 +1,94 @@
+{
+ "product_id": "6ac7127c35cf3f6ec802ea98",
+ "shop_id": "26418699",
+ "title": "Oh Deer Christmas Hoodie \u2014 Cozy Pullover Hoodie, Christmas Gift | Winstar4U",
+ "blueprint_id": 77,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac860e60ce11f05b3f9c513",
+ "image_name": "christmas-oh-deer-transparent.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/cf7c1c94-db48-47d7-8b2f-cc2d7e0077b4",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "dtg",
+ "visible": true,
+ "updated_at": "2026-10-09 04:11:46+00:00",
+ "defect_cause": "other",
+ "defect_note": "DEFECT",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.9,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.167,
+  0.0879,
+  0.834,
+  0.9185
+ ],
+ "contrast_vs_black": 0.004,
+ "contrast_vs_white": 0.432,
+ "low_contrast": true,
+ "current_content_box_in_placeholder": [
+  0.2003,
+  -0.0568,
+  0.8006,
+  1.0654
+ ],
+ "current_inside_safe_frac": {
+  "32912": 0.8256,
+  "32878": 0.8256,
+  "32879": 0.8256
+ },
+ "effective_px_ratio_after": 0.806,
+ "proposed": {
+  "x": 0.5001,
+  "y": 0.496,
+  "scale": 0.72,
+  "angle": 0
+ },
+ "placeholders": {
+  "32912": [
+   3531,
+   2352
+  ],
+  "32878": [
+   2919,
+   1944
+  ],
+  "32879": [
+   3273,
+   2180
+  ]
+ },
+ "safe_area_source": {
+  "32912": "rect",
+  "32878": "rect",
+  "32879": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "32912": 1.0,
+  "32878": 1.0,
+  "32879": 1.0
+ },
+ "new_art_category": "low_contrast",
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 5%",
+  "bottom 6%"
+ ],
+ "notes": [
+  "NEEDS_NEW_ART (low_contrast, LIGHT blank): 'OH DEER' text and the reindeer eye/hat trim are WHITE ink - invisible on the enabled White hoodie variants (visually confirmed on #F9F9F9); fine on the dark colours. Owner choice: disable White variants (no new art) or supply a dark-outline version. Placement computed+verified on all 32 enabled variants.",
+  "NEEDS_NEW_ART: low-contrast ink vs an enabled blank colour (see LOW-CONTRAST note) - needs a recolour/outline of the text/art layer (or owner disables the affected variants). Placement computed+verified; apply with the new art.",
+  "geometry checked for 32 enabled variants (3 distinct placeholder geometries)",
+  "LOW-CONTRAST: 43% of the art's opaque pixels have contrast < 2.5:1 against the enabled white blank (light ink on light blank) - not fixable by placement",
+  "current: 17.4% of visible content outside safe area (variant 32912)"
+ ],
+ "live_change_made": false
+}

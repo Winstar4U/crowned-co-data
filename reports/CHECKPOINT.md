@@ -58,13 +58,14 @@
 - **Batch 7:** DONE non-live 00:44:59–00:56:10 UTC (11 min). 2 READY, 35 NEEDS_NEW_ART (blank text 15, garbled 9, engraving 10, contrast 1), 3 BLOCKED (candles: provider 99 discontinued). Evidence `work/d6_batch7/`.
 - **Batch 8:** DONE non-live 00:57:04–01:20:05 UTC (23 min). 25 READY, 11 NEEDS_NEW_ART, 4 BLOCKED (candles, provider 99). Evidence `work/d6_batch8/`.
 - **Batch 9:** DONE non-live 01:20:51–01:45 UTC (25 min). 24 READY, 16 NEEDS_NEW_ART (11 white box on black backpacks). Evidence `work/d6_batch9/`.
-- **Batch 10:** next (seq 361–389, 29 products, final).
+- **Batch 10:** DONE non-live 01:46:21–02:01:51 UTC (15.5 min). 13 READY, 16 NEEDS_NEW_ART. ALL 389 PREPPED.
+- **Next:** new-art fixes for NEEDS_NEW_ART products (non-live), starting with mechanical fixes.
 - **D7:** 2 Higgsfield variants generated. They are not inspected because the image host is blocked here, and the star emblem still needs a trademark check. See `work/d7_texaco_replacement/README.md`.
 - **Notifications:** batch packets go to the Bridge as soon as each batch finishes. There is no push to the owner's phone: the Bridge has no webhooks configured, and PushNotification isn't set up.
 
 ## Next action for the next session (resume here)
 
-0. Run `/resume`, then `/batch 10` (or the first batch not done).
+0. Run `/resume`, then new-art fixes (see work/d6_new_art/) (or the first batch not done).
 
 1. Apply any D-decisions the owner has answered (D1 = set prices on 48 products from the CSV, then re-fetch each to verify).
 2. ~~Pull the Shopify catalog and fill Shopify `channel_link`.~~ **DONE 2026-11-19:** read-only pull of shop 26418699 (51 pages, 2,508 products; 486 have a storefront URL). Of the 1,602 Shopify SELL NOW rows, 330 have a link and stay SELL NOW; 1,272 have no link and are now UNKNOWN. 450 pulled Shopify products have no inspection row (UNKNOWN). New totals: SELL NOW 608 (Shopify 330, Etsy 241, TikTok 20, Amazon 17), REPAIR FIRST 447, HOLD 1, UNKNOWN 1,930, REMOVED 22. Linked holiday shortlist: 348 (Shopify 219, Etsy 92, TikTok 20, Amazon 17). Still to do: give ChatGPT the linked holiday list.
