@@ -76,3 +76,14 @@
 - The Default environment's proxy refuses `upload.higgsfield.ai` and the Higgsfield CDNs (`d8j0ntlcm91z4.cloudfront.net`, `d2ol7oe51mr4n9.cloudfront.net`). Without them, original art can't be uploaded as a reference and generated art can't be downloaded or checked.
 - I created a personal environment, **crowned-co-data** (`env_015q5EFENfgNJvd5DYp1ZNLK`), that allows those hosts plus the existing Printify and Etsy hosts. This session could not switch to it.
 - **To resume the Higgsfield regeneration:** start a new session on crowned-co-data, run `/resume`, then work through the GENERATE groups in `work/d6_new_art/results.csv` (largest shared-art groups first) and review the D7 art (`work/d7_texaco_replacement/README.md`).
+
+## D6 art repair status (2026-11-20 04:40 UTC, commit after QA)
+- **Placement-only fixes:** 224 products, geometry verified.
+- **Local art fixes (64), independent QA:** 45 PASS, 15 WARN, 4 FAIL. The 4 failures:
+  - `6ac717a24636838bd804f846`: light-ray hole.
+  - `6ac7113450fc6704d30bf944`: "HAPPY" is garbled on the shot glass.
+  - 2 duvets print at 51 dpi.
+- **Re-repairs of the 10 earlier failures:** 8 PASS, 2 WARN. Files are in `work/d6_new_art/fixed/*_v2.png`.
+- **Local text, blank and low-res repairs:** 49 of 69 fixed (22 art files in `work/d6_new_art/text_fix/`). The other 20 still need generation: 14 engraving tumblers, 4 Jingle banners, 1 skeleton, 1 wreath.
+- **Promotion candidates:** `reports/Winstar_Repaired_Promotion_Candidates.csv` has 343 products. 316 are tier A and 27 are tier B (warnings). Only 3 have a live channel link, so nearly all need publishing or linking to a sales channel after approval before they can be promoted.
+- **Higgsfield:** still blocked in this session. Use the crowned-co-data environment.
