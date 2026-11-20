@@ -1,0 +1,89 @@
+{
+ "product_id": "6ac7117346dd1e896e04e0c4",
+ "shop_id": "26418699",
+ "title": "Eggnog Recovery Skeleton Christmas Winter Scarf \u2014 Soft Festive Wrap Gift, Holiday Gift | Winstar4U",
+ "blueprint_id": 1327,
+ "print_provider_id": 99,
+ "position": "front",
+ "decoration_method": "dye-sublimation",
+ "issue": "NEEDS_GENERATION: banner text covered by skeleton limbs",
+ "fix": "regenerated art (second session, job 9903778d) EGGNOG RECOVERY IN PROGRESS banner clear; placement re-fitted to the proposed content box",
+ "art": {
+  "file": "winstar4u/my-projects/winstar-recovery/regenerated/6ac7117346dd1e896e04e0c4_regen.png",
+  "px": [
+   1792,
+   2240
+  ],
+  "sha1": "8a5246b0b045a413217eff629533ac28dec4185c",
+  "native_source_width_px": 1792,
+  "upscaled": false
+ },
+ "print_areas": [
+  {
+   "variant_ids": [
+    100848
+   ],
+   "placement": {
+    "angle": 0,
+    "scale": 0.254,
+    "x": 0.5,
+    "y": 0.4979
+   }
+  }
+ ],
+ "qa": {
+  "art": "/home/user/winstar4u/my-projects/winstar-recovery/regenerated/6ac7117346dd1e896e04e0c4_regen.png",
+  "px": [
+   1792,
+   2240
+  ],
+  "bbox": [
+   0.0145,
+   0.0228,
+   0.9855,
+   0.9821
+  ],
+  "per_variant": {
+   "100848": {
+    "placeholder": [
+     11100,
+     4126
+    ],
+    "placement": {
+     "x": 0.5,
+     "y": 0.4979,
+     "scale": 0.254,
+     "angle": 0
+    },
+    "rect_inside": 1.0,
+    "shape_inside": 1.0,
+    "safe_area": "printify_safe_area",
+    "ratio": 0.636,
+    "effective_dpi": 191,
+    "native_dpi": 191
+   }
+  },
+  "largest_variant": "100848",
+  "dpi_largest": 191,
+  "native_dpi_largest": 191,
+  "dpi_min": 191,
+  "native_dpi_min": 191,
+  "inside_min": 1.0,
+  "upscaled": false
+ },
+ "status": "PASS",
+ "reason": "",
+ "before": {
+  "file": "crowned-co-data/work/d6_batch2/6ac7117346dd1e896e04e0c4/original.png",
+  "placement": {
+   "x": 0.5,
+   "y": 0.5,
+   "scale": 0.4,
+   "angle": 0
+  },
+  "dpi_largest": 91,
+  "inside_min": 0.7251
+ },
+ "live_change_made": false,
+ "note": "NON-LIVE staging file. Nothing uploaded. Applying it needs an image upload + product update = owner-approved write."
+}

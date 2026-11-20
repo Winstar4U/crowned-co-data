@@ -1,0 +1,7 @@
+Black Friday launch candidate build (read-only)
+start_utc: 2026-11-20T20:12:33Z   (first command of this task)
+end_utc:   2026-11-20T20:25:21Z
+Printify read calls (get-products, product_id): 27 (shops 26418699 x10, 26603005 x16, 29451844 x1), 2026-11-20 ~20:13-20:21Z
+Firecrawl scrape calls: 27 of 45 cap (5 credits each = 135 credits), 2026-11-20 20:14:52Z-20:21:21Z
+Printify calculate-shipping calls: 0 (reused verified quotes)
+Writes to Printify/Shopify/Etsy/Amazon/TikTok: 0. Shopify MCP: not used. git: not run.

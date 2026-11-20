@@ -1,0 +1,125 @@
+{
+ "product_id": "6ac7112383f1a0e50d071cdf",
+ "shop_id": "26418699",
+ "title": "Checked Santas List Christmas Winter Scarf \u2014 Warm Holiday Statement Scarf, Holiday Gift | Winstar4U",
+ "blueprint_id": 1327,
+ "print_provider_id": 99,
+ "position": "front",
+ "decoration_method": "dye-sublimation",
+ "issue": "REWORK: grey/white checkerboard baked into source PNG (exterior tile fragments + tile pattern inside the scroll); top line cropped at current scale 0.4",
+ "fix": "local checker removal: exterior tiles flood-cleared (118856 px) + 1723 px stray fragments, scroll tile pattern gain-flattened (tile contrast 9.82->2.34, -76%), 3511 punched-out white holes refilled white; re-placed x=0.5 y=0.5 s=0.305",
+ "art": {
+  "file": "crowned-co-data/work/d6_final_rework/art/6ac7112383f1a0e50d071cdf_checker_removed.png",
+  "px": [
+   2048,
+   2048
+  ],
+  "sha1": "4edc3f9c3e87c2176aeea699300e7b3d9d6ae9f2",
+  "native_source_width_px": 2048,
+  "upscaled": false
+ },
+ "print_areas": [
+  {
+   "variant_ids": [
+    100848
+   ],
+   "placement": {
+    "angle": 0,
+    "scale": 0.305,
+    "x": 0.5,
+    "y": 0.5
+   }
+  }
+ ],
+ "qa": {
+  "art": "/home/user/crowned-co-data/work/d6_final_rework/art/6ac7112383f1a0e50d071cdf_checker_removed.png",
+  "px": [
+   2048,
+   2048
+  ],
+  "bbox": [
+   0.0557,
+   0.0063,
+   0.9438,
+   0.9912
+  ],
+  "per_variant": {
+   "100848": {
+    "placeholder": [
+     11100,
+     4126
+    ],
+    "placement": {
+     "x": 0.5,
+     "y": 0.5,
+     "scale": 0.305,
+     "angle": 0
+    },
+    "rect_inside": 1.0,
+    "shape_inside": 1.0,
+    "safe_area": "printify_safe_area",
+    "ratio": 0.605,
+    "effective_dpi": 181,
+    "native_dpi": 181
+   }
+  },
+  "largest_variant": "100848",
+  "dpi_largest": 181,
+  "native_dpi_largest": 181,
+  "dpi_min": 181,
+  "native_dpi_min": 181,
+  "inside_min": 1.0,
+  "upscaled": false
+ },
+ "status": "PASS",
+ "reason": "",
+ "before": {
+  "file": "crowned-co-data/work/d6_batch1/6ac7112383f1a0e50d071cdf/original.png",
+  "placement": {
+   "x": 0.5,
+   "y": 0.5,
+   "scale": 0.4,
+   "angle": 0
+  },
+  "dpi_largest": 138,
+  "inside_min": 0.8391
+ },
+ "live_change_made": false,
+ "note": "NON-LIVE staging file. Nothing uploaded. Applying it needs an image upload + product update = owner-approved write.",
+ "checker_metrics": {
+  "src": "/home/user/crowned-co-data/work/d6_batch1/6ac7112383f1a0e50d071cdf/original.png",
+  "out": "art/6ac7112383f1a0e50d071cdf_checker_removed.png",
+  "px": [
+   2048,
+   2048
+  ],
+  "tile_px": 22.945,
+  "phase": [
+   4.0,
+   -0.5
+  ],
+  "grid_agreement": 0.5825,
+  "tile_light_rgb": [
+   249,
+   249,
+   248
+  ],
+  "tile_grey_rgb": [
+   240,
+   240,
+   240
+  ],
+  "exterior_tile_px_cleared": 118856,
+  "stray_island_px_cleared": 1723,
+  "parchment_grey_tile_px_gain_corrected": 271722,
+  "inner_tile_px_recoloured": 3147,
+  "enclosed_holes_filled": 3511,
+  "enclosed_hole_px_filled": 103614,
+  "big_enclosed_transparent_px_kept": 0,
+  "transparent_frac_before": 0.2774,
+  "transparent_frac_after": 0.2815,
+  "parchment_tile_contrast_before": 9.82,
+  "parchment_tile_contrast_after": 2.34,
+  "parchment_tile_contrast_reduction": 0.762
+ }
+}

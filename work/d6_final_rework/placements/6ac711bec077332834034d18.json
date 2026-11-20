@@ -1,0 +1,89 @@
+{
+ "product_id": "6ac711bec077332834034d18",
+ "shop_id": "26418699",
+ "title": "\"Amazing Grace\" Christmas Wine Tumbler \u2014 Funny 12oz Holiday Tumbler, Holiday Gift | Winstar4U",
+ "blueprint_id": 1515,
+ "print_provider_id": 217,
+ "position": "drinkware_front",
+ "decoration_method": "engraving",
+ "issue": "NEEDS_GENERATION: full-colour art on engraving product",
+ "fix": "regenerated 1-bit black-on-transparent engraving art (second session, job 2eccd858); fitted to the proposed content box",
+ "art": {
+  "file": "winstar4u/my-projects/winstar-recovery/regenerated/6ac711bec077332834034d18_engrave_final.png",
+  "px": [
+   2048,
+   2048
+  ],
+  "sha1": "f9a9a8bd938d56bd28c08dac6e4d8d6ebb67ce74",
+  "native_source_width_px": 2048,
+  "upscaled": false
+ },
+ "print_areas": [
+  {
+   "variant_ids": [
+    109128
+   ],
+   "placement": {
+    "angle": 0,
+    "scale": 0.9685,
+    "x": 0.5043,
+    "y": 0.4952
+   }
+  }
+ ],
+ "qa": {
+  "art": "/home/user/winstar4u/my-projects/winstar-recovery/regenerated/6ac711bec077332834034d18_engrave_final.png",
+  "px": [
+   2048,
+   2048
+  ],
+  "bbox": [
+   0.1294,
+   0.0283,
+   0.8511,
+   0.9883
+  ],
+  "per_variant": {
+   "109128": {
+    "placeholder": [
+     645,
+     750
+    ],
+    "placement": {
+     "x": 0.5043,
+     "y": 0.4952,
+     "scale": 0.9685,
+     "angle": 0
+    },
+    "rect_inside": 1.0,
+    "shape_inside": 1.0,
+    "safe_area": "rect(no svg)",
+    "ratio": 3.278,
+    "effective_dpi": 984,
+    "native_dpi": 984
+   }
+  },
+  "largest_variant": "109128",
+  "dpi_largest": 984,
+  "native_dpi_largest": 984,
+  "dpi_min": 984,
+  "native_dpi_min": 984,
+  "inside_min": 1.0,
+  "upscaled": false
+ },
+ "status": "PASS",
+ "reason": "",
+ "before": {
+  "file": "crowned-co-data/work/d6_batch7/6ac711bec077332834034d18/original.png",
+  "placement": {
+   "x": 0.5,
+   "y": 0.5,
+   "scale": 1.0,
+   "angle": 0.0
+  },
+  "dpi_largest": 953,
+  "inside_min": 1.0
+ },
+ "live_change_made": false,
+ "note": "NON-LIVE staging file. Nothing uploaded. Applying it needs an image upload + product update = owner-approved write."
+}

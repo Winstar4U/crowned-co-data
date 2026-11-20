@@ -1,0 +1,147 @@
+{
+ "product_id": "6ac71013e2a15b12600266ae",
+ "shop_id": "26418699",
+ "title": "\"Christmas Wreath 2026\" Christmas Water Bottle \u2014 Funny Holiday Steel Bottle, Holiday Gift | Winstar4U",
+ "blueprint_id": 854,
+ "print_provider_id": 23,
+ "position": "front",
+ "decoration_method": "dye-sublimation",
+ "issue": "NEEDS_GENERATION: title text absent from art",
+ "fix": "second-session art with PROPOSED wording; fitted to the proposed content box",
+ "art": {
+  "file": "winstar4u/my-projects/winstar-recovery/regenerated/6ac71013e2a15b12600266ae_regen_WORDING_PROPOSAL.png",
+  "px": [
+   2048,
+   2048
+  ],
+  "sha1": "7ecd9814c8f04f6e5cc86c048463f2fb72b24cad",
+  "native_source_width_px": 2048,
+  "upscaled": false
+ },
+ "print_areas": [
+  {
+   "variant_ids": [
+    76801
+   ],
+   "placement": {
+    "angle": 0,
+    "scale": 0.5232,
+    "x": 0.4847,
+    "y": 0.4988
+   }
+  },
+  {
+   "variant_ids": [
+    76802
+   ],
+   "placement": {
+    "angle": 0,
+    "scale": 0.5232,
+    "x": 0.4847,
+    "y": 0.5001
+   }
+  },
+  {
+   "variant_ids": [
+    76803
+   ],
+   "placement": {
+    "angle": 0,
+    "scale": 0.5232,
+    "x": 0.4847,
+    "y": 0.4997
+   }
+  }
+ ],
+ "qa": {
+  "art": "/home/user/winstar4u/my-projects/winstar-recovery/regenerated/6ac71013e2a15b12600266ae_regen_WORDING_PROPOSAL.png",
+  "px": [
+   2048,
+   2048
+  ],
+  "bbox": [
+   0.0845,
+   0.0356,
+   0.9165,
+   0.9751
+  ],
+  "per_variant": {
+   "76801": {
+    "placeholder": [
+     2759,
+     1500
+    ],
+    "placement": {
+     "x": 0.4847,
+     "y": 0.4988,
+     "scale": 0.5232,
+     "angle": 0
+    },
+    "rect_inside": 1.0,
+    "shape_inside": 1.0,
+    "safe_area": "rect",
+    "ratio": 1.419,
+    "effective_dpi": 426,
+    "native_dpi": 426
+   },
+   "76802": {
+    "placeholder": [
+     2760,
+     1996
+    ],
+    "placement": {
+     "x": 0.4847,
+     "y": 0.5001,
+     "scale": 0.5232,
+     "angle": 0
+    },
+    "rect_inside": 1.0,
+    "shape_inside": 1.0,
+    "safe_area": "rect",
+    "ratio": 1.418,
+    "effective_dpi": 425,
+    "native_dpi": 425
+   },
+   "76803": {
+    "placeholder": [
+     3390,
+     2232
+    ],
+    "placement": {
+     "x": 0.4847,
+     "y": 0.4997,
+     "scale": 0.5232,
+     "angle": 0
+    },
+    "rect_inside": 1.0,
+    "shape_inside": 1.0,
+    "safe_area": "rect",
+    "ratio": 1.155,
+    "effective_dpi": 346,
+    "native_dpi": 346
+   }
+  },
+  "largest_variant": "76803",
+  "dpi_largest": 346,
+  "native_dpi_largest": 346,
+  "dpi_min": 346,
+  "native_dpi_min": 346,
+  "inside_min": 1.0,
+  "upscaled": false
+ },
+ "status": "BLOCKED",
+ "reason": "owner wording decision W7 pending (art exists; nothing to generate unless the wording is rejected)",
+ "before": {
+  "file": "crowned-co-data/work/d6_batch5/6ac71013e2a15b12600266ae/original.png",
+  "placement": {
+   "x": 0.5,
+   "y": 0.5,
+   "scale": 0.8,
+   "angle": 0
+  },
+  "dpi_largest": 166,
+  "inside_min": 0.7996
+ },
+ "live_change_made": false,
+ "note": "NON-LIVE staging file. Nothing uploaded. Applying it needs an image upload + product update = owner-approved write."
+}
