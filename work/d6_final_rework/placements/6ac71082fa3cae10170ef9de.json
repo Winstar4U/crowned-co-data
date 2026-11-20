@@ -7,16 +7,16 @@
  "position": "front",
  "decoration_method": "dye-sublimation",
  "issue": "NEEDS_GENERATION: blank green ribbon (title punchline missing)",
- "fix": "second-session art with PROPOSED wording; fitted to the proposed content box",
+ "fix": "second-session art with PROPOSED wording; fitted to the proposed content box (Real-ESRGAN upscaled for this size)",
  "art": {
-  "file": "winstar4u/my-projects/winstar-recovery/regenerated/JINGLE_SHARED_regen.png",
+  "file": "crowned-co-data/work/d6_final_rework/art/JINGLE_SHARED_realesrgan-anime6B_x2.56.png",
   "px": [
-   2048,
-   1360
+   5243,
+   3482
   ],
-  "sha1": "2c42f37dfc1be84518fe61a30561c1e26c252dc0",
+  "sha1": "8000f0f50fa893f9b30e9916d4a46876ecec1590",
   "native_source_width_px": 2048,
-  "upscaled": false
+  "upscaled": true
  },
  "print_areas": [
   {
@@ -25,23 +25,23 @@
    ],
    "placement": {
     "angle": 0,
-    "scale": 0.984,
-    "x": 0.5005,
-    "y": 0.4965
+    "scale": 0.9843,
+    "x": 0.5003,
+    "y": 0.4964
    }
   }
  ],
  "qa": {
-  "art": "/home/user/winstar4u/my-projects/winstar-recovery/regenerated/JINGLE_SHARED_regen.png",
+  "art": "/home/user/crowned-co-data/work/d6_final_rework/art/JINGLE_SHARED_realesrgan-anime6B_x2.56.png",
   "px": [
-   2048,
-   1360
+   5243,
+   3482
   ],
   "bbox": [
-   0.1338,
-   0.0463,
-   0.8657,
-   0.9654
+   0.1339,
+   0.0468,
+   0.8659,
+   0.9655
   ],
   "per_variant": {
    "41653": {
@@ -50,26 +50,26 @@
      7392
     ],
     "placement": {
-     "x": 0.5005,
-     "y": 0.4965,
-     "scale": 0.984,
+     "x": 0.5003,
+     "y": 0.4964,
+     "scale": 0.9843,
      "angle": 0
     },
     "rect_inside": 1.0,
     "shape_inside": 1.0,
     "safe_area": "rect",
-    "ratio": 0.293,
-    "effective_dpi": 88,
+    "ratio": 0.75,
+    "effective_dpi": 225,
     "native_dpi": 88
    }
   },
   "largest_variant": "41653",
-  "dpi_largest": 88,
+  "dpi_largest": 225,
   "native_dpi_largest": 88,
-  "dpi_min": 88,
+  "dpi_min": 225,
   "native_dpi_min": 88,
   "inside_min": 1.0,
-  "upscaled": false
+  "upscaled": true
  },
  "status": "BLOCKED",
  "reason": "owner wording decision W6 pending (art exists; nothing to generate unless the wording is rejected)",

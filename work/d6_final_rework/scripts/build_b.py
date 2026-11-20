@@ -36,7 +36,9 @@ results = []
 def do(pid, art, per_var, issue, fix, native_w=None, blocked=None, warns=(), zoom=None, extra=None, before_art=None, label_after='AFTER'):
     d, j, batch = pj(pid); ph = j['placeholders']; L = largest(ph); blank = blank_for(j)
     q = qa(pid, art, per_var, native_w); st = status_of(q, blocked, warns)
-    bq = qa(pid, d + '/original.png', current(j))
+    bfile = before_art or d + '/original.png'; bpl = per_var if before_art else current(j)
+    bq = qa(pid, bfile, bpl)
+    blabel = 'BEFORE (prior repaired art, native px, same placement)' if before_art else 'BEFORE (live print file, current placement)'
     reason = blocked or ('; '.join(warns) if warns else '')
     if st == 'REWORK' and not reason:
         reason = 'geometry: content outside safe area' if q['inside_min'] < 0.999 else f"{q['dpi_largest']} dpi < 150 on largest variant"
@@ -45,14 +47,14 @@ def do(pid, art, per_var, issue, fix, native_w=None, blocked=None, warns=(), zoo
                  position=j['position'], decoration_method=j.get('decoration_method'), issue=issue, fix=fix,
                  art=dict(file=os.path.relpath(art, '/home/user'), px=q['px'], sha1=sha1(art), native_source_width_px=native_w or q['px'][0], upscaled=q['upscaled']),
                  print_areas=groups(per_var), qa=q, status=st, reason=reason,
-                 before=dict(file=os.path.relpath(d + '/original.png', '/home/user'), placement=j['current'], dpi_largest=bq['dpi_largest'], inside_min=bq['inside_min']),
+                 before=dict(file=os.path.relpath(bfile, '/home/user'), placement=bpl[largest(ph)], dpi_largest=bq['dpi_largest'], inside_min=bq['inside_min']),
                  live_change_made=False, note='NON-LIVE staging file. Nothing uploaded. Applying it needs an image upload + product update = owner-approved write.')
     if extra: pjson.update(extra)
     write_json(f'{O}/placements/{pid}.json', pjson)
     Bimg = Image.open(before_art or d + '/original.png').convert('RGBA'); Aimg = Image.open(art).convert('RGBA')
     pv = q['per_variant'][L]
-    cols = [(place_on(Bimg, j['current'], *ph[L], blank), [f'BEFORE (live print file, current placement) - variant {L}',
-             f"{os.path.basename(d)} original.png {Bimg.width}x{Bimg.height}  s={j['current']['scale']}",
+    cols = [(place_on(Bimg, bpl[L], *ph[L], blank), [f'{blabel} - variant {L}',
+             f"{os.path.basename(bfile)[:40]} {Bimg.width}x{Bimg.height}  s={bpl[L]['scale']}",
              f"{bq['dpi_largest']} dpi eff. | inside {bq['inside_min']:.1%}"]),
             (place_on(Aimg, per_var[L], *ph[L], blank), [f'{label_after} - variant {L}  [{st}]',
              f"{os.path.basename(art)[:44]} {Aimg.width}x{Aimg.height}",

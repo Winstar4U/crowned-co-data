@@ -112,12 +112,12 @@
  "status": "WARN",
  "reason": "upscaled: effective 225 dpi, native 122 dpi (upscale adds no true detail)",
  "before": {
-  "file": "crowned-co-data/work/d6_batch6/6ac6fe9f0a223533b30703f2/original.png",
+  "file": "crowned-co-data/work/d6_new_art/fixed/a8556930c780ac13556f0ffa91467d32f4a0bed2.png",
   "placement": {
    "x": 0.5,
    "y": 0.5,
    "scale": 1.0,
-   "angle": 0.0
+   "angle": 0
   },
   "dpi_largest": 122,
   "inside_min": 1.0

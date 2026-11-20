@@ -93,15 +93,15 @@
  "status": "WARN",
  "reason": "upscaled: effective 225 dpi, native 105 dpi (upscale adds no true detail)",
  "before": {
-  "file": "crowned-co-data/work/d6_batch6/6ac713e635cf3f6ec802eb32/original.png",
+  "file": "crowned-co-data/work/d6_new_art/fixed/873af255de3e870c6a62bf0902fea098bf709c47.png",
   "placement": {
    "x": 0.5,
    "y": 0.5,
-   "scale": 0.9,
-   "angle": 0.0
+   "scale": 0.687,
+   "angle": 0
   },
-  "dpi_largest": 80,
-  "inside_min": 0.8109
+  "dpi_largest": 105,
+  "inside_min": 1.0
  },
  "live_change_made": false,
  "note": "NON-LIVE staging file. Nothing uploaded. Applying it needs an image upload + product update = owner-approved write."

@@ -1,0 +1,89 @@
+{
+ "product_id": "6ac7127aa5ade89b5c080fc0",
+ "shop_id": "26418699",
+ "title": "Candy Cane Lane Christmas Winter Scarf \u2014 Warm Holiday Statement Scarf, Holiday Gift | Winstar4U",
+ "blueprint_id": 1327,
+ "print_provider_id": 99,
+ "position": "front",
+ "decoration_method": "dye-sublimation",
+ "issue": "repaired-art WARN: low resolution (src/print ratio 0.46 = 138 dpi) on text_fix/5fa6bcd6cd",
+ "fix": "local Real-ESRGAN anime6B x1.63 (edge-bleed, no white matte), placement unchanged",
+ "art": {
+  "file": "crowned-co-data/work/d6_final_rework/art/6ac7127aa5ade89b5c080fc0_realesrgan-anime6B_x1.63.png",
+  "px": [
+   3330,
+   2219
+  ],
+  "sha1": "09341c15e0eb2a590a895b4ffb759a118b54db41",
+  "native_source_width_px": 2048,
+  "upscaled": true
+ },
+ "print_areas": [
+  {
+   "variant_ids": [
+    100848
+   ],
+   "placement": {
+    "angle": 0,
+    "scale": 0.4,
+    "x": 0.5,
+    "y": 0.5
+   }
+  }
+ ],
+ "qa": {
+  "art": "/home/user/crowned-co-data/work/d6_final_rework/art/6ac7127aa5ade89b5c080fc0_realesrgan-anime6B_x1.63.png",
+  "px": [
+   3330,
+   2219
+  ],
+  "bbox": [
+   0.1,
+   0.0347,
+   0.9015,
+   0.9644
+  ],
+  "per_variant": {
+   "100848": {
+    "placeholder": [
+     11100,
+     4126
+    ],
+    "placement": {
+     "x": 0.5,
+     "y": 0.5,
+     "scale": 0.4,
+     "angle": 0
+    },
+    "rect_inside": 1.0,
+    "shape_inside": 1.0,
+    "safe_area": "printify_safe_area",
+    "ratio": 0.75,
+    "effective_dpi": 225,
+    "native_dpi": 138
+   }
+  },
+  "largest_variant": "100848",
+  "dpi_largest": 225,
+  "native_dpi_largest": 138,
+  "dpi_min": 225,
+  "native_dpi_min": 138,
+  "inside_min": 1.0,
+  "upscaled": true
+ },
+ "status": "WARN",
+ "reason": "upscaled: effective 225 dpi, native 138 dpi (upscale adds no true detail)",
+ "before": {
+  "file": "crowned-co-data/work/d6_new_art/text_fix/5fa6bcd6cdbb68aaf4c51c41f42b629bf054ff5e.png",
+  "placement": {
+   "x": 0.5,
+   "y": 0.5,
+   "scale": 0.4,
+   "angle": 0
+  },
+  "dpi_largest": 138,
+  "inside_min": 1.0
+ },
+ "live_change_made": false,
+ "note": "NON-LIVE staging file. Nothing uploaded. Applying it needs an image upload + product update = owner-approved write."
+}

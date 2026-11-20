@@ -23,5 +23,12 @@
   "text": "WELCOME",
   "factor": 3.3,
   "base": "/home/user/crowned-co-data/work/d6_qa_fixes/art/candy_realesrgan-anime6B_x3.30.png"
+ },
+ "6ac7127aa5ade89b5c080fc0_realesrgan-anime6B_x1.63.png": {
+  "file": "art/welcome_6ac7127aa5ade89b5c080fc0_realesrgan-anime6B_x1.63.png",
+  "cap_px": 72,
+  "text": "WELCOME",
+  "factor": 1.626,
+  "base": "/home/user/crowned-co-data/work/d6_final_rework/art/6ac7127aa5ade89b5c080fc0_realesrgan-anime6B_x1.63.png"
  }
 }

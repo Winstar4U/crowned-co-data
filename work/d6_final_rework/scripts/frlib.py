@@ -119,7 +119,7 @@ def diff_box(a_file, b_file, pad=0.04):
     if abs(A.width / A.height - B.width / B.height) > 0.01: return None
     w = 600; h = int(600 * A.height / A.width)
     def flat(im):
-        bg = Image.new('RGBA', im.size, (128, 128, 128, 255)); bg.alpha_composite(im); return np.asarray(bg.convert('RGB').resize((w, h), Image.BOX)).astype(int)
+        bg = Image.new('RGBA', im.size, (255, 255, 255, 255)); bg.alpha_composite(im); return np.asarray(bg.convert('RGB').resize((w, h), Image.BOX)).astype(int)
     D = np.abs(flat(A) - flat(B)).sum(2) > 60
     D = nd.binary_opening(D, iterations=1)
     if D.sum() < 30: return None
