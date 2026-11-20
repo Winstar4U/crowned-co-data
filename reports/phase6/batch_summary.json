@@ -1,0 +1,62 @@
+{
+ "ready_products": 299,
+ "held_products": 10,
+ "batches": {
+  "LA-01": {
+   "products": 40,
+   "linked": 1,
+   "Shopify Winstar4U": 40,
+   "art_swap": 39,
+   "upscaled": 0
+  },
+  "LA-02": {
+   "products": 40,
+   "linked": 0,
+   "Shopify Winstar4U": 40,
+   "art_swap": 40,
+   "upscaled": 0
+  },
+  "LA-03": {
+   "products": 40,
+   "linked": 0,
+   "Shopify Winstar4U": 40,
+   "art_swap": 5,
+   "upscaled": 0
+  },
+  "LA-04": {
+   "products": 40,
+   "linked": 0,
+   "Shopify Winstar4U": 40,
+   "art_swap": 0,
+   "upscaled": 1
+  },
+  "LA-05": {
+   "products": 40,
+   "linked": 0,
+   "Shopify Winstar4U": 40,
+   "art_swap": 0,
+   "upscaled": 8
+  },
+  "LA-06": {
+   "products": 40,
+   "linked": 0,
+   "Shopify Winstar4U": 40,
+   "art_swap": 0,
+   "upscaled": 1
+  },
+  "LA-07": {
+   "products": 40,
+   "linked": 0,
+   "Shopify Winstar4U": 40,
+   "art_swap": 0,
+   "upscaled": 1
+  },
+  "LA-08": {
+   "products": 19,
+   "linked": 0,
+   "Shopify Winstar4U": 19,
+   "art_swap": 8,
+   "upscaled": 0
+  }
+ }
+}

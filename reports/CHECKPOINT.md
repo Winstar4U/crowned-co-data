@@ -64,9 +64,25 @@
 - **D7:** 2 Higgsfield variants generated. They are not inspected because the image host is blocked here, and the star emblem still needs a trademark check. See `work/d7_texaco_replacement/README.md`.
 - **Notifications:** batch packets go to the Bridge as soon as each batch finishes. There is no push to the owner's phone: the Bridge has no webhooks configured, and PushNotification isn't set up.
 
+## Black Friday Phase 6 (2026-11-20 about 17:10 UTC): PACKAGE DELIVERED, waiting on owner
+- **Master package:** `reports/phase6/PHASE6_PACKAGE.md`. It covers the scoreboard, blockers, QA index, wording recommendations, live batches, Black Friday shortlist, promo drafts and the decision register.
+- **Live batches:** LA-01 to LA-08 in `reports/phase6/live_application_batches.csv`.
+  - 299 Shopify products, each with the exact change, risk and rollback.
+  - 1 product is linked. For the other 298, the change has no publish step.
+- **QA fixes** (`work/d6_qa_fixes/`): 8 PASS, 15 WARN (upscale-dependent).
+- **Warn disposition** (`work/d6_warn_disposition/`): 91 ACCEPT, 13 FIXED, 1 REWORK (Santa's List scarf), 1 OWNER (cribbage).
+- **Black Friday drafts:** `reports/black_friday/` (23 products, offers BF-A to BF-G).
+- **Bridge:** P-475F6P6J6A, P-4P6T5C6T31, P-2Q0X721S4B, plus the package post.
+- **Nothing is live.**
+
 ## Next action for the next session (resume here)
 
-0. Run `/resume`, then new-art fixes (see work/d6_new_art/) (or the first batch not done).
+0. Run `/resume`. Check the Bridge for owner replies to the PHASE6 decision register (wording reply line, `APPROVE LA-xx`, BF offers, D2). Execute ONLY the exact approved items, following the per-batch steps in PHASE6_PACKAGE.md section 5:
+   1. Snapshot the product.
+   2. Upload any new art.
+   3. Upsert the product.
+   4. Re-fetch it and verify.
+   If there is no owner reply, the remaining non-live work is to source a clean Santa's List scarf PNG, and to ask the crowned-co-data session to regenerate the 20 items in the generation list.
 
 1. Apply any D-decisions the owner has answered (D1 = set prices on 48 products from the CSV, then re-fetch each to verify).
 2. ~~Pull the Shopify catalog and fill Shopify `channel_link`.~~ **DONE 2026-11-19:** read-only pull of shop 26418699 (51 pages, 2,508 products; 486 have a storefront URL). Of the 1,602 Shopify SELL NOW rows, 330 have a link and stay SELL NOW; 1,272 have no link and are now UNKNOWN. 450 pulled Shopify products have no inspection row (UNKNOWN). New totals: SELL NOW 608 (Shopify 330, Etsy 241, TikTok 20, Amazon 17), REPAIR FIRST 447, HOLD 1, UNKNOWN 1,930, REMOVED 22. Linked holiday shortlist: 348 (Shopify 219, Etsy 92, TikTok 20, Amazon 17). Still to do: give ChatGPT the linked holiday list.
