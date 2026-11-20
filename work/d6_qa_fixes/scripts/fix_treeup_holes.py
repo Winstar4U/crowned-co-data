@@ -23,6 +23,10 @@ encw=nd.binary_fill_holes(mblack|~mwhite)&mwhite&band
 lab,_=nd.label(encw);pid=lab[450,1662]
 if pid: letter|=lab==pid
 need=letter&((a[...,3]<250)|(np.abs(a[...,:3]-m).max(2)>18))
+# 1-2px pinholes between the cream fill and the black outline: master there is outline/fill blend (not white bg)
+need|=nd.binary_dilation(letter,iterations=3)&(a[...,3]<250)&~mwhite&(m.max(2)<235)&band
+# the master's thin near-white liner just inside the outline (<=2px from the cream fill) was keyed out with the bg
+need|=nd.binary_dilation(letter,iterations=2)&(a[...,3]<250)&band
 o=a.copy();o[...,:3][need]=m[need];o[...,3][need]=255
 # defringe: light-grey white-matte pixels on the OUTER edge of the black outline (outside letters, next to
 # transparency) are un-mixed against white -> outline black with alpha = darkness (no white halo on dark garments)
