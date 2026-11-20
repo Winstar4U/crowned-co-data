@@ -68,6 +68,15 @@ How the date was worked out:
 
 Never write "guaranteed", "arrives by", or "in time for Christmas" as a promise.
 
+## Candidates fetched but excluded
+
+| Product | Reason |
+|---|---|
+| Shopify hoodies `6ac7135f35a66ab7dc0b10a0` Cardinal in Snow, `6ac71362fb1d11d19e0370a7` Cozy Cabin, `6ac7135b83f1a0e50d071e08` Vintage Santa Sleigh Ride, `6ac7137ad9b782898109a9d6` Chill Penguin | $39.99 vs $21.58 cost: net 17.4% if Winstar pays the $9.19 shipping, below the 18% floor. Net is 40.4% if the buyer pays. Can be added once D2 is answered "customer pays", at full price only |
+| Shopify duffel `6ac7123e6356cae0df02e33f` Candy Cane Lane | IP/trademark: "Candy Cane Lane" is also the title of a 2023 feature film. Excluded as a precaution, even though the phrase is generic |
+| Shopify tee `6ac28d35d0995db35108e7bb` "Chillin' With My Snowmies" | IP/trademark: popular slogan with possible trademark filings (not checked against USPTO). Excluded as a precaution |
+| Standing exclusions (not considered) | All tapestries (D1); TEXACO canvas `6a53ee979296b919210641d5` (D7/HOLD); 10 checkerboard tees (D4); every REPAIR FIRST and HOLD product; Luzilly and adult-category items; alcohol and profanity-themed designs (for example "Festive AF", "Holiday Hangover Club", wine tumblers), kept out for brand safety |
+
 ## Approvals needed (reply per ID)
 
 - `BF-A: approve` / `BF-A: change to N%` / `BF-A: reject`
