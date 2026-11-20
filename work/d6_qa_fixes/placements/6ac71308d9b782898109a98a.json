@@ -1,0 +1,78 @@
+{
+ "product_id": "6ac71308d9b782898109a98a",
+ "shop_id": "26418699",
+ "title": "Happy Holidays Tree Christmas Tablecloth \u2014 Festive Holiday Table Decor, Holiday Gift | Winstar4U",
+ "blueprint_id": 1624,
+ "print_provider_id": 99,
+ "position": "front",
+ "decoration_method": "direct-to-fabric",
+ "issue": "placement FAIL: low resolution (ratio 0.24)",
+ "option": "Real-ESRGAN x3.19 upscale",
+ "method": "local AI upscale (Real-ESRGAN anime6B, CPU) x3.19",
+ "art": {
+  "file": "work/d6_qa_fixes/art/tree_t_realesrgan-anime6B_x3.19.png",
+  "px": [
+   4900,
+   6533
+  ],
+  "sha1": "dc384663567d05d00660659b300db71a61dff61b",
+  "native_source_width_px": 1536,
+  "upscaled": true
+ },
+ "print_areas": [
+  {
+   "variant_ids": [
+    112701,
+    112702
+   ],
+   "placement": {
+    "angle": 0,
+    "scale": 0.726,
+    "x": 0.5017,
+    "y": 0.508
+   }
+  }
+ ],
+ "per_variant_qa": {
+  "112701": {
+   "inside": 1.0,
+   "ratio": 0.75,
+   "nominal_dpi": 225,
+   "native_ratio": 0.75,
+   "native_nominal_dpi": 225,
+   "physical_dpi": 116,
+   "placeholder_ppi": 155
+  },
+  "112702": {
+   "inside": 1.0,
+   "ratio": 0.75,
+   "nominal_dpi": 225,
+   "native_ratio": 0.75,
+   "native_nominal_dpi": 225,
+   "physical_dpi": 116,
+   "placeholder_ppi": 155
+  }
+ },
+ "content_bbox_norm": [
+  0.0473,
+  0.0346,
+  0.9571,
+  0.9522
+ ],
+ "qa_status": "WARN",
+ "b_script_verdict": "PASS",
+ "issues": [],
+ "before": {
+  "file": "crowned-co-data/work/d6_batch3/6ac71308d9b782898109a98a/original.png",
+  "placement": {
+   "x": 0.5017,
+   "y": 0.508,
+   "scale": 0.726,
+   "angle": 0
+  },
+  "ratio_min": 0.235,
+  "inside_min": 1.0
+ },
+ "live_change_made": false,
+ "note": "NON-LIVE staging file. Nothing uploaded. Applying it needs an image upload + product update = owner-approved write."
+}

@@ -1,0 +1,108 @@
+{
+ "product_id": "6ac71309fa3cae10170efb40",
+ "shop_id": "26418699",
+ "title": "Home For Christmas Christmas Throw Pillow Case 18x18 \u2014 Easy Couch & Bed Accent, Holiday Home Decor Gift | Winstar4U",
+ "blueprint_id": 5353,
+ "print_provider_id": 92,
+ "position": "front",
+ "decoration_method": "dye-sublimation",
+ "issue": "placement FAIL: ~89% content inside lumbar 244224 with shared placement",
+ "option": "per-variant placements",
+ "method": "original art unchanged; print_areas split per variant (lumbar 244224 gets its own scale)",
+ "art": {
+  "file": "work/d6_batch3/6ac71309fa3cae10170efb40/original.png",
+  "px": [
+   2048,
+   2048
+  ],
+  "sha1": "20526119b40fcf2d7d61130ce357dc284f35ee46",
+  "native_source_width_px": null,
+  "upscaled": false
+ },
+ "print_areas": [
+  {
+   "variant_ids": [
+    244226,
+    244227,
+    244228
+   ],
+   "placement": {
+    "angle": 0,
+    "scale": 0.9,
+    "x": 0.5,
+    "y": 0.5
+   }
+  },
+  {
+   "variant_ids": [
+    244224
+   ],
+   "placement": {
+    "angle": 0,
+    "scale": 0.567,
+    "x": 0.5002,
+    "y": 0.5
+   }
+  }
+ ],
+ "per_variant_qa": {
+  "244226": {
+   "inside": 1.0,
+   "ratio": 0.759,
+   "nominal_dpi": 228,
+   "native_ratio": 0.759,
+   "native_nominal_dpi": 228,
+   "physical_dpi": 126,
+   "placeholder_ppi": 167
+  },
+  "244224": {
+   "inside": 1.0,
+   "ratio": 1.204,
+   "nominal_dpi": 361,
+   "native_ratio": 1.204,
+   "native_nominal_dpi": 361,
+   "physical_dpi": 201,
+   "placeholder_ppi": 167
+  },
+  "244227": {
+   "inside": 1.0,
+   "ratio": 0.69,
+   "nominal_dpi": 207,
+   "native_ratio": 0.69,
+   "native_nominal_dpi": 207,
+   "physical_dpi": 114,
+   "placeholder_ppi": 165
+  },
+  "244228": {
+   "inside": 1.0,
+   "ratio": 0.583,
+   "nominal_dpi": 175,
+   "native_ratio": 0.583,
+   "native_nominal_dpi": 175,
+   "physical_dpi": 95,
+   "placeholder_ppi": 162
+  }
+ },
+ "content_bbox_norm": [
+  0.084,
+  0.0615,
+  0.9175,
+  0.9385
+ ],
+ "qa_status": "PASS",
+ "b_script_verdict": "PASS",
+ "issues": [],
+ "before": {
+  "file": "crowned-co-data/work/d6_batch3/6ac71309fa3cae10170efb40/original.png",
+  "placement": {
+   "x": 0.5,
+   "y": 0.5,
+   "scale": 0.9,
+   "angle": 0
+  },
+  "ratio_min": 0.583,
+  "inside_min": 0.8869
+ },
+ "live_change_made": false,
+ "note": "NON-LIVE staging file. Nothing uploaded. Applying it needs an image upload + product update = owner-approved write."
+}

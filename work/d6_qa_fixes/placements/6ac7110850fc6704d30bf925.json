@@ -1,0 +1,68 @@
+{
+ "product_id": "6ac7110850fc6704d30bf925",
+ "shop_id": "26418699",
+ "title": "Happy Holidays Tree Christmas Shower Curtain \u2014 Instant Festive Bathroom Refresh, Holiday Home Decor Gift | Winstar4U",
+ "blueprint_id": 235,
+ "print_provider_id": 10,
+ "position": "front",
+ "decoration_method": "dye-sublimation",
+ "issue": "placement FAIL: low resolution (ratio 0.29)",
+ "option": "Real-ESRGAN x2.62 upscale",
+ "method": "local AI upscale (Real-ESRGAN anime6B, CPU) x2.62",
+ "art": {
+  "file": "work/d6_qa_fixes/art/tree_realesrgan-anime6B_x2.62.png",
+  "px": [
+   4028,
+   5371
+  ],
+  "sha1": "456badec18328946c70d1c63802e7e69d70641d2",
+  "native_source_width_px": 1536,
+  "upscaled": true
+ },
+ "print_areas": [
+  {
+   "variant_ids": [
+    41653
+   ],
+   "placement": {
+    "angle": 0,
+    "scale": 0.756,
+    "x": 0.5015,
+    "y": 0.508
+   }
+  }
+ ],
+ "per_variant_qa": {
+  "41653": {
+   "inside": 1.0,
+   "ratio": 0.75,
+   "nominal_dpi": 225,
+   "native_ratio": 0.75,
+   "native_nominal_dpi": 225,
+   "physical_dpi": 75,
+   "placeholder_ppi": 100
+  }
+ },
+ "content_bbox_norm": [
+  0.0469,
+  0.0348,
+  0.9538,
+  0.952
+ ],
+ "qa_status": "WARN",
+ "b_script_verdict": "PASS",
+ "issues": [],
+ "before": {
+  "file": "crowned-co-data/work/d6_batch3/6ac7110850fc6704d30bf925/original.png",
+  "placement": {
+   "x": 0.5015,
+   "y": 0.508,
+   "scale": 0.756,
+   "angle": 0
+  },
+  "ratio_min": 0.286,
+  "inside_min": 1.0
+ },
+ "live_change_made": false,
+ "note": "NON-LIVE staging file. Nothing uploaded. Applying it needs an image upload + product update = owner-approved write."
+}
