@@ -1,0 +1,78 @@
+{
+ "product_id": "6ac717f0a5ade89b5c081491",
+ "shop_id": "26418699",
+ "title": "Morning Person Dec25 Skeleton Christmas Backpack \u2014 Merry Christmas Daypack, Holiday Gift Idea | Winstar4U",
+ "blueprint_id": 10823,
+ "print_provider_id": 99,
+ "position": "front_dtf",
+ "image_id": "6ac8606c0ce11f05b3f9c4c1",
+ "image_name": "morning-person-dec25-skeleton.png-TRANSPARENT.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/e502baeb-568c-4a84-a27e-6e2f8c944c65",
+ "image_px": [
+  1466,
+  1881
+ ],
+ "decoration_method": "dtf",
+ "visible": true,
+ "updated_at": "2026-10-09 03:33:34+00:00",
+ "defect_cause": "other",
+ "defect_note": "DEFECT-SEVERE",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.9,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.0068,
+  0.0053,
+  0.9932,
+  0.9947
+ ],
+ "contrast_vs_black": 0.455,
+ "low_contrast": true,
+ "current_content_box_in_placeholder": [
+  0.0561,
+  -1.0233,
+  0.9439,
+  2.0233
+ ],
+ "current_inside_safe_frac": {
+  "401444": 0.317
+ },
+ "effective_px_ratio_after": 2.34,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.496,
+  "scale": 0.261,
+  "angle": 0
+ },
+ "placeholders": {
+  "401444": [
+   2400,
+   900
+  ]
+ },
+ "safe_area_source": {
+  "401444": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "401444": 1.0
+ },
+ "new_art_category": "",
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 34%",
+  "bottom 34%"
+ ],
+ "notes": [
+  "Contrast metric (46%) driven by dark interiors; visually checked on #262626: 'I'M ONLY A MORNING PERSON ON DEC 25TH' is dark text on a sage banner and stays legible; skeleton cream. Root defect = live scale 0.9 on the 2400x900 panel cropped the banner (register DEFECT-SEVERE confirmed by live mockup).",
+  "NEEDS_NEW_ART: low-contrast ink vs an enabled blank colour (see LOW-CONTRAST note) - needs a recolour/outline of the text/art layer (or owner disables the affected variants). Placement computed+verified; apply with the new art.",
+  "LOW-CONTRAST: 45% of the art's opaque pixels have contrast < 2.5:1 against the enabled black blank (dark ink on dark blank) - not fixable by placement",
+  "current: 68.3% of visible content outside safe area (variant 401444)"
+ ],
+ "live_change_made": false
+}

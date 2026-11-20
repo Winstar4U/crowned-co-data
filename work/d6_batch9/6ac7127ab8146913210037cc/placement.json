@@ -1,0 +1,82 @@
+{
+ "product_id": "6ac7127ab8146913210037cc",
+ "shop_id": "26418699",
+ "title": "Elegantly Wasted Martini Christmas Tablecloth \u2014 Festive Holiday Table Decor, Holiday Gift | Winstar4U",
+ "blueprint_id": 1624,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac86086617e2e87727c938d",
+ "image_name": "elegantly-wasted-martini.png-TRANSPARENT.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/f31b6ed0-5dc6-42d8-8903-bb90152f6b24",
+ "image_px": [
+  1276,
+  1516
+ ],
+ "decoration_method": "direct-to-fabric",
+ "visible": true,
+ "updated_at": "2026-10-09 03:37:14+00:00",
+ "defect_cause": "other",
+ "defect_note": "DEFECT",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 1.0,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.0078,
+  0.0066,
+  0.9922,
+  0.9934
+ ],
+ "current_content_box_in_placeholder": [
+  0.0078,
+  -0.0862,
+  0.9922,
+  1.0862
+ ],
+ "current_inside_safe_frac": {
+  "112701": 0.8066,
+  "112702": 0.9835
+ },
+ "effective_px_ratio_after": 0.185,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.767,
+  "angle": 0
+ },
+ "placeholders": {
+  "112701": [
+   9000,
+   9000
+  ],
+  "112702": [
+   9000,
+   15600
+  ]
+ },
+ "safe_area_source": {
+  "112701": "printify_safe_area",
+  "112702": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "112701": 1.0,
+  "112702": 1.0
+ },
+ "new_art_category": "",
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "LOW: 'Elegantly Wasted' is also an INXS song/album title (titles rarely protectable; review)",
+ "clip_edges_current": [
+  "top 7%",
+  "bottom 7%"
+ ],
+ "notes": [
+  "geometry checked for 2 enabled variants (2 distinct placeholder geometries)",
+  "LOW-RES: art upscaled 5.4x on largest variant (src px/print px=0.18)",
+  "current: 19.3% of visible content outside safe area (variant 112701)"
+ ],
+ "live_change_made": false
+}

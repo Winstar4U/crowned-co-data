@@ -1,0 +1,88 @@
+{
+ "product_id": "6ac337dd95514001380fd619",
+ "shop_id": "26418699",
+ "title": "Jolly Tired Caffeinated Christmas Tee",
+ "blueprint_id": 6,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac8608f74f6ac756d5139d1",
+ "image_name": "jolly-tired-caffeinated-transparent.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/b149fbb1-870b-49e3-bf6b-6a4b9ae4fc0c",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "dtg",
+ "visible": true,
+ "updated_at": "2026-10-09 04:26:51+00:00",
+ "defect_cause": "other",
+ "defect_note": "DEFECT \u2014 duplicated-word typo in design text (\"AND, AND CAFFEINATED\")",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 1.0,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.1001,
+  0.1611,
+  0.8999,
+  0.8589
+ ],
+ "contrast_vs_black": 0.016,
+ "contrast_vs_white": 0.256,
+ "current_content_box_in_placeholder": [
+  0.1001,
+  0.2278,
+  0.8999,
+  0.7883
+ ],
+ "current_inside_safe_frac": {
+  "12100": 1.0,
+  "11873": 1.0,
+  "11874": 1.0
+ },
+ "effective_px_ratio_after": 0.518,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 1.0,
+  "angle": 0
+ },
+ "placeholders": {
+  "12100": [
+   3951,
+   4919
+  ],
+  "11873": [
+   3591,
+   4472
+  ],
+  "11874": [
+   3232,
+   4024
+  ]
+ },
+ "safe_area_source": {
+  "12100": "rect",
+  "11873": "rect",
+  "11874": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "12100": 1.0,
+  "11873": 1.0,
+  "11874": 1.0
+ },
+ "new_art_category": "garbled_text",
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [],
+ "notes": [
+  "NEEDS_NEW_ART (garbled_text): design text reads 'JOLLY, TIRED, AND, AND CAFFEINATED' - duplicated 'AND' typo baked into jolly-tired-caffeinated-transparent.png (register confirmed on source + live mockup). Needs corrected text art ('JOLLY, TIRED, AND CAFFEINATED'). Placement: current front x=0.5,y=0.5,scale=1.0 already inside the safe area on all 38 enabled variants (3 geometries). ALSO: the NECK placeholder (DTF inner-neck label, 750x750) carries the FULL front design plus a text_layer.svg - the whole artwork is printed as the neck label (visible on mockup); owner should confirm that is intended (it adds a DTF neck print) - replace with a proper label or remove when the art is replaced.",
+  "geometry checked for 38 enabled variants (3 distinct placeholder geometries)",
+  "current placement already inside safe area on all checked variants"
+ ],
+ "live_change_made": false
+}

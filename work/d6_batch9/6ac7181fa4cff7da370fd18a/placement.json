@@ -1,0 +1,75 @@
+{
+ "product_id": "6ac7181fa4cff7da370fd18a",
+ "shop_id": "26418699",
+ "title": "Happy Holidays Tree Christmas Backpack \u2014 Holiday School Bag, Christmas Gift | Winstar4U",
+ "blueprint_id": 10823,
+ "print_provider_id": 99,
+ "position": "front_dtf",
+ "image_id": "6ac70f1158b544dcbb743f7c",
+ "image_name": "nostalgic-happy-holidays-tree.jpg",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/7427f397-5b1d-4288-9a6d-3974f2868464",
+ "image_px": [
+  1536,
+  2048
+ ],
+ "decoration_method": "dtf",
+ "visible": true,
+ "updated_at": "2026-10-09 00:48:01+00:00",
+ "defect_cause": "other",
+ "defect_note": "DEFECT",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 1.0,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.0553,
+  0.0342,
+  0.957,
+  0.9526
+ ],
+ "contrast_vs_black": 0.073,
+ "current_content_box_in_placeholder": [
+  0.0553,
+  -1.1562,
+  0.957,
+  2.1094
+ ],
+ "current_inside_safe_frac": {
+  "401444": 0.1536
+ },
+ "effective_px_ratio_after": 2.353,
+ "proposed": {
+  "x": 0.5045,
+  "y": 0.504,
+  "scale": 0.272,
+  "angle": 0
+ },
+ "placeholders": {
+  "401444": [
+   2400,
+   900
+  ]
+ },
+ "safe_area_source": {
+  "401444": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "401444": 1.0
+ },
+ "new_art_category": "white_box",
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 35%",
+  "bottom 34%"
+ ],
+ "notes": [
+  "art has opaque WHITE background on dtf print over coloured blank -> visible white patch; needs transparent re-export of same design (placement computed+verified, apply together)",
+  "current: 84.6% of visible content outside safe area (variant 401444)"
+ ],
+ "live_change_made": false
+}

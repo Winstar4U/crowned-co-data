@@ -1,0 +1,92 @@
+{
+ "product_id": "6ac712c0b32a96bbe40d0cf2",
+ "shop_id": "26418699",
+ "title": "Ill Be Home Christmas Probably Christmas Throw Pillow Case 18x18 \u2014 Easy Couch & Bed Accent, Holiday Home Decor Gift | Winstar4U",
+ "blueprint_id": 5353,
+ "print_provider_id": 92,
+ "position": "front",
+ "image_id": "6ac71e852dee701bdbae68ea",
+ "image_name": "flattened-ill-be-home-christmas-probably.jpg",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/ec01b867-be43-4b7d-aafc-17002fb583a1",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 01:48:54+00:00",
+ "defect_cause": "other",
+ "defect_note": "DEFECT",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.9,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.082,
+  0.1426,
+  0.9053,
+  0.854
+ ],
+ "current_content_box_in_placeholder": [
+  0.1238,
+  0.0405,
+  0.8647,
+  0.9551
+ ],
+ "current_inside_safe_frac": {
+  "244224": 0.8313,
+  "244226": 1.0,
+  "244227": 1.0,
+  "244228": 1.0
+ },
+ "effective_px_ratio_after": 0.757,
+ "proposed": {
+  "x": 0.4987,
+  "y": 0.5,
+  "scale": 0.694,
+  "angle": 0
+ },
+ "placeholders": {
+  "244224": [
+   3000,
+   2100
+  ],
+  "244226": [
+   3000,
+   3000
+  ],
+  "244227": [
+   3300,
+   3300
+  ],
+  "244228": [
+   3900,
+   3900
+  ]
+ },
+ "safe_area_source": {
+  "244224": "printify_safe_area",
+  "244226": "printify_safe_area",
+  "244227": "printify_safe_area",
+  "244228": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "244224": 1.0,
+  "244226": 1.0,
+  "244227": 1.0,
+  "244228": 1.0
+ },
+ "new_art_category": "",
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [],
+ "notes": [
+  "geometry checked for 4 enabled variants (4 distinct placeholder geometries)",
+  "current: 16.9% of visible content outside safe area (variant 244224)"
+ ],
+ "live_change_made": false
+}

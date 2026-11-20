@@ -1,0 +1,75 @@
+{
+ "product_id": "6ac717a6a4cff7da370fd145",
+ "shop_id": "26418699",
+ "title": "God Bless Christmas Christmas Backpack \u2014 Cheerful Christmas Travel Pack, Gift for Students | Winstar4U",
+ "blueprint_id": 10823,
+ "print_provider_id": 99,
+ "position": "front_dtf",
+ "image_id": "6ac4f0c862c9459244e4332e",
+ "image_name": "faith-god-bless-christmas.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/45f5a90e-551d-484d-98aa-e506bab6b0df",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "dtf",
+ "visible": true,
+ "updated_at": "2026-10-09 00:47:16+00:00",
+ "defect_cause": "other",
+ "defect_note": "DEFECT (\"GOD BLESS\" text missing, only \"CHRISTMAS\" visible)",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 1.0,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.0923,
+  0.0571,
+  0.9058,
+  0.9453
+ ],
+ "contrast_vs_black": 0.059,
+ "current_content_box_in_placeholder": [
+  0.0923,
+  -0.681,
+  0.9058,
+  1.6875
+ ],
+ "current_inside_safe_frac": {
+  "401444": 0.3524
+ },
+ "effective_px_ratio_after": 2.276,
+ "proposed": {
+  "x": 0.4994,
+  "y": 0.496,
+  "scale": 0.375,
+  "angle": 0
+ },
+ "placeholders": {
+  "401444": [
+   2400,
+   900
+  ]
+ },
+ "safe_area_source": {
+  "401444": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "401444": 1.0
+ },
+ "new_art_category": "white_box",
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 29%",
+  "bottom 29%"
+ ],
+ "notes": [
+  "art has opaque WHITE background on dtf print over coloured blank -> visible white patch; needs transparent re-export of same design (placement computed+verified, apply together)",
+  "current: 64.8% of visible content outside safe area (variant 401444)"
+ ],
+ "live_change_made": false
+}

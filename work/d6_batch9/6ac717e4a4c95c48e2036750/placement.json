@@ -1,0 +1,78 @@
+{
+ "product_id": "6ac717e4a4c95c48e2036750",
+ "shop_id": "26418699",
+ "title": "Merry Christmas Leave Me Alone Christmas Backpack \u2014 Festive Holiday Travel Bag, Christmas Gift | Winstar4U",
+ "blueprint_id": 10823,
+ "print_provider_id": 99,
+ "position": "front_dtf",
+ "image_id": "6ac860cd9ba5ca63346b06a3",
+ "image_name": "fixed_6ac4f13431ea32c8d94fcf12.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/ea75bfed-7c02-4cb2-a70a-522bf28ff4ec",
+ "image_px": [
+  1680,
+  1995
+ ],
+ "decoration_method": "dtf",
+ "visible": true,
+ "updated_at": "2026-10-14 13:14:04+00:00",
+ "defect_cause": "other",
+ "defect_note": "DEFECT",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 1.0,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.006,
+  0.005,
+  0.994,
+  0.995
+ ],
+ "contrast_vs_black": 0.642,
+ "low_contrast": true,
+ "current_content_box_in_placeholder": [
+  0.006,
+  -1.0675,
+  0.994,
+  2.0675
+ ],
+ "current_inside_safe_frac": {
+  "401444": 0.3034
+ },
+ "effective_px_ratio_after": 2.456,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.496,
+  "scale": 0.285,
+  "angle": 0
+ },
+ "placeholders": {
+  "401444": [
+   2400,
+   900
+  ]
+ },
+ "safe_area_source": {
+  "401444": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "401444": 1.0
+ },
+ "new_art_category": "low_contrast",
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 34%",
+  "bottom 34%"
+ ],
+ "notes": [
+  "NEEDS_NEW_ART (low_contrast): visually checked on #262626: the punchline 'NOW PLEASE LEAVE ME ALONE.' is small dark-green lettering on black and is unreadable; 'MERRY CHRISTMAS' (red, cream outline) is fine. Needs the punchline recoloured cream/gold or outlined. Placement computed+verified (live scale 1.0 crops 34% top+bottom).",
+  "NEEDS_NEW_ART: low-contrast ink vs an enabled blank colour (see LOW-CONTRAST note) - needs a recolour/outline of the text/art layer (or owner disables the affected variants). Placement computed+verified; apply with the new art.",
+  "LOW-CONTRAST: 64% of the art's opaque pixels have contrast < 2.5:1 against the enabled black blank (dark ink on dark blank) - not fixable by placement",
+  "current: 69.7% of visible content outside safe area (variant 401444)"
+ ],
+ "live_change_made": false
+}

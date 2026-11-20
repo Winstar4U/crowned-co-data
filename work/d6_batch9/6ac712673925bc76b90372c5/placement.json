@@ -1,0 +1,95 @@
+{
+ "product_id": "6ac712673925bc76b90372c5",
+ "shop_id": "26418699",
+ "title": "Dear Santa Explain Santa Christmas Throw Pillow Case 18x18 \u2014 Easy Couch & Bed Accent, Holiday Home Decor Gift | Winstar4U",
+ "blueprint_id": 5353,
+ "print_provider_id": 92,
+ "position": "front",
+ "image_id": "6ac85fef66277ac02676ae44",
+ "image_name": "dear-santa-explain-santa-transparent.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/03b4faf6-d13a-43a2-a89b-73f7338b5226",
+ "image_px": [
+  1707,
+  2048
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-14 12:48:51+00:00",
+ "defect_cause": "other",
+ "defect_note": "DEFECT",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.9,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.0006,
+  0.0063,
+  1.0,
+  0.9946
+ ],
+ "current_content_box_in_placeholder": [
+  0.0505,
+  -0.2615,
+  0.95,
+  1.263
+ ],
+ "current_inside_safe_frac": {
+  "244224": 0.4973,
+  "244226": 0.8076,
+  "244227": 0.8305,
+  "244228": 0.8793
+ },
+ "effective_px_ratio_after": 1.042,
+ "proposed": {
+  "x": 0.5001,
+  "y": 0.496,
+  "scale": 0.42,
+  "angle": 0
+ },
+ "placeholders": {
+  "244224": [
+   3000,
+   2100
+  ],
+  "244226": [
+   3000,
+   3000
+  ],
+  "244227": [
+   3300,
+   3300
+  ],
+  "244228": [
+   3900,
+   3900
+  ]
+ },
+ "safe_area_source": {
+  "244224": "printify_safe_area",
+  "244226": "printify_safe_area",
+  "244227": "printify_safe_area",
+  "244228": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "244224": 1.0,
+  "244226": 1.0,
+  "244227": 1.0,
+  "244228": 1.0
+ },
+ "new_art_category": "",
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 17%",
+  "bottom 17%"
+ ],
+ "notes": [
+  "geometry checked for 4 enabled variants (4 distinct placeholder geometries)",
+  "current: 50.3% of visible content outside safe area (variant 244224)"
+ ],
+ "live_change_made": false
+}

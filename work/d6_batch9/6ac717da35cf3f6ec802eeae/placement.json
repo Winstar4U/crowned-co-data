@@ -1,0 +1,75 @@
+{
+ "product_id": "6ac717da35cf3f6ec802eeae",
+ "shop_id": "26418699",
+ "title": "Ill Be Home Christmas Probably Christmas Backpack \u2014 Holiday School Bag, Christmas Gift | Winstar4U",
+ "blueprint_id": 10823,
+ "print_provider_id": 99,
+ "position": "front_dtf",
+ "image_id": "6ac71e852dee701bdbae68ea",
+ "image_name": "flattened-ill-be-home-christmas-probably.jpg",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/ec01b867-be43-4b7d-aafc-17002fb583a1",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "dtf",
+ "visible": true,
+ "updated_at": "2026-10-08 05:23:47+00:00",
+ "defect_cause": "other",
+ "defect_note": "DEFECT",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.9,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.082,
+  0.1426,
+  0.9053,
+  0.854
+ ],
+ "contrast_vs_black": 0.073,
+ "current_content_box_in_placeholder": [
+  0.1238,
+  -0.3578,
+  0.8647,
+  1.3496
+ ],
+ "current_inside_safe_frac": {
+  "401444": 0.6192
+ },
+ "effective_px_ratio_after": 1.831,
+ "proposed": {
+  "x": 0.4972,
+  "y": 0.5,
+  "scale": 0.466,
+  "angle": 0
+ },
+ "placeholders": {
+  "401444": [
+   2400,
+   900
+  ]
+ },
+ "safe_area_source": {
+  "401444": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "401444": 1.0
+ },
+ "new_art_category": "white_box",
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 21%",
+  "bottom 20%"
+ ],
+ "notes": [
+  "art has opaque WHITE background on dtf print over coloured blank -> visible white patch; needs transparent re-export of same design (placement computed+verified, apply together)",
+  "current: 38.1% of visible content outside safe area (variant 401444)"
+ ],
+ "live_change_made": false
+}

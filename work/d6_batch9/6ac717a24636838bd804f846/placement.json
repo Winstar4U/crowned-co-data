@@ -1,0 +1,75 @@
+{
+ "product_id": "6ac717a24636838bd804f846",
+ "shop_id": "26418699",
+ "title": "Glory To God Christmas Backpack \u2014 Holiday School Bag, Christmas Gift | Winstar4U",
+ "blueprint_id": 10823,
+ "print_provider_id": 99,
+ "position": "front_dtf",
+ "image_id": "6ac4f0c1fae6ba29cd570220",
+ "image_name": "faith-glory-to-god.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/60b9eb50-f7a0-4796-a9e6-0c819c835daa",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "dtf",
+ "visible": true,
+ "updated_at": "2026-10-09 00:47:15+00:00",
+ "defect_cause": "other",
+ "defect_note": "DEFECT-SEVERE (no title text visible at all)",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 1.0,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.0381,
+  0.002,
+  0.9614,
+  0.9805
+ ],
+ "contrast_vs_black": 0.003,
+ "current_content_box_in_placeholder": [
+  0.0381,
+  -0.8281,
+  0.9614,
+  1.7812
+ ],
+ "current_inside_safe_frac": {
+  "401444": 0.3974
+ },
+ "effective_px_ratio_after": 2.502,
+ "proposed": {
+  "x": 0.4998,
+  "y": 0.508,
+  "scale": 0.341,
+  "angle": 0
+ },
+ "placeholders": {
+  "401444": [
+   2400,
+   900
+  ]
+ },
+ "safe_area_source": {
+  "401444": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "401444": 1.0
+ },
+ "new_art_category": "white_box",
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 32%",
+  "bottom 30%"
+ ],
+ "notes": [
+  "art has opaque WHITE background on dtf print over coloured blank -> visible white patch; needs transparent re-export of same design (placement computed+verified, apply together)",
+  "current: 60.3% of visible content outside safe area (variant 401444)"
+ ],
+ "live_change_made": false
+}

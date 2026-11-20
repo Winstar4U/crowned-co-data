@@ -1,0 +1,95 @@
+{
+ "product_id": "6ac7128db32a96bbe40d0cdc",
+ "shop_id": "26418699",
+ "title": "God Bless Christmas Christmas Throw Pillow Case 18x18 \u2014 Easy Couch & Bed Accent, Holiday Home Decor Gift | Winstar4U",
+ "blueprint_id": 5353,
+ "print_provider_id": 92,
+ "position": "front",
+ "image_id": "6ac4f0c862c9459244e4332e",
+ "image_name": "faith-god-bless-christmas.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/45f5a90e-551d-484d-98aa-e506bab6b0df",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 01:49:38+00:00",
+ "defect_cause": "other",
+ "defect_note": "DEFECT",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.9,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.0923,
+  0.0571,
+  0.9058,
+  0.9453
+ ],
+ "current_content_box_in_placeholder": [
+  0.1331,
+  -0.0694,
+  0.8652,
+  1.0725
+ ],
+ "current_inside_safe_frac": {
+  "244224": 0.6263,
+  "244226": 0.9973,
+  "244227": 1.0,
+  "244228": 1.0
+ },
+ "effective_px_ratio_after": 0.938,
+ "proposed": {
+  "x": 0.4997,
+  "y": 0.496,
+  "scale": 0.56,
+  "angle": 0
+ },
+ "placeholders": {
+  "244224": [
+   3000,
+   2100
+  ],
+  "244226": [
+   3000,
+   3000
+  ],
+  "244227": [
+   3300,
+   3300
+  ],
+  "244228": [
+   3900,
+   3900
+  ]
+ },
+ "safe_area_source": {
+  "244224": "printify_safe_area",
+  "244226": "printify_safe_area",
+  "244227": "printify_safe_area",
+  "244228": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "244224": 1.0,
+  "244226": 1.0,
+  "244227": 1.0,
+  "244228": 1.0
+ },
+ "new_art_category": "",
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 6%",
+  "bottom 6%"
+ ],
+ "notes": [
+  "geometry checked for 4 enabled variants (4 distinct placeholder geometries)",
+  "current: 37.4% of visible content outside safe area (variant 244224)"
+ ],
+ "live_change_made": false
+}

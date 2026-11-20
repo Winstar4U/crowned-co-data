@@ -1,0 +1,95 @@
+{
+ "product_id": "6ac7127507e4149a0f001089",
+ "shop_id": "26418699",
+ "title": "Eggnog Recovery Skeleton Christmas Throw Pillow Case 18x18 \u2014 Easy Couch & Bed Accent, Holiday Home Decor Gift | Winstar4U",
+ "blueprint_id": 5353,
+ "print_provider_id": 92,
+ "position": "front",
+ "image_id": "6ac860835aebee434262bbfa",
+ "image_name": "eggnog-recovery-skeleton.png-TRANSPARENT.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/5e50471c-01dc-41c1-9c24-e3085c5d1a89",
+ "image_px": [
+  1349,
+  1553
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 12:45:26+00:00",
+ "defect_cause": "other",
+ "defect_note": "DEFECT",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.76,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.0074,
+  0.0064,
+  0.9926,
+  0.9936
+ ],
+ "current_content_box_in_placeholder": [
+  0.1256,
+  -0.1169,
+  0.8744,
+  1.1169
+ ],
+ "current_inside_safe_frac": {
+  "244224": 0.64,
+  "244226": 0.9742,
+  "244227": 0.9833,
+  "244228": 0.9979
+ },
+ "effective_px_ratio_after": 0.788,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.439,
+  "angle": 0
+ },
+ "placeholders": {
+  "244224": [
+   3000,
+   2100
+  ],
+  "244226": [
+   3000,
+   3000
+  ],
+  "244227": [
+   3300,
+   3300
+  ],
+  "244228": [
+   3900,
+   3900
+  ]
+ },
+ "safe_area_source": {
+  "244224": "printify_safe_area",
+  "244226": "printify_safe_area",
+  "244227": "printify_safe_area",
+  "244228": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "244224": 1.0,
+  "244226": 1.0,
+  "244227": 1.0,
+  "244228": 1.0
+ },
+ "new_art_category": "",
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 9%",
+  "bottom 9%"
+ ],
+ "notes": [
+  "geometry checked for 4 enabled variants (4 distinct placeholder geometries)",
+  "current: 36.0% of visible content outside safe area (variant 244224)"
+ ],
+ "live_change_made": false
+}

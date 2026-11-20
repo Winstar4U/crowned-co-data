@@ -1,0 +1,75 @@
+{
+ "product_id": "6ac717e846dd1e896e04e617",
+ "shop_id": "26418699",
+ "title": "Merry Christmas Lets Get Lit Christmas Backpack \u2014 Holiday School Bag, Christmas Gift | Winstar4U",
+ "blueprint_id": 10823,
+ "print_provider_id": 99,
+ "position": "front_dtf",
+ "image_id": "6ac4f13afae6ba29cd570267",
+ "image_name": "merry-christmas-lets-get-lit.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/ec120d95-d197-44c2-97a2-f73c67384a21",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "dtf",
+ "visible": true,
+ "updated_at": "2026-10-09 00:47:42+00:00",
+ "defect_cause": "other",
+ "defect_note": "DEFECT",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 1.0,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.1157,
+  0.02,
+  0.8887,
+  0.98
+ ],
+ "contrast_vs_black": 0.083,
+ "current_content_box_in_placeholder": [
+  0.1157,
+  -0.7799,
+  0.8887,
+  1.7799
+ ],
+ "current_inside_safe_frac": {
+  "401444": 0.2533
+ },
+ "effective_px_ratio_after": 2.452,
+ "proposed": {
+  "x": 0.5014,
+  "y": 0.496,
+  "scale": 0.348,
+  "angle": 0
+ },
+ "placeholders": {
+  "401444": [
+   2400,
+   900
+  ]
+ },
+ "safe_area_source": {
+  "401444": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "401444": 1.0
+ },
+ "new_art_category": "white_box",
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 30%",
+  "bottom 30%"
+ ],
+ "notes": [
+  "art has opaque WHITE background on dtf print over coloured blank -> visible white patch; needs transparent re-export of same design (placement computed+verified, apply together)",
+  "current: 74.7% of visible content outside safe area (variant 401444)"
+ ],
+ "live_change_made": false
+}

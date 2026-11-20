@@ -1,1 +1,6 @@
 start_utc=2026-11-20T01:20:51Z
+build_run1_start=01:27:08
+build_run1_end=01:32:45
+build_run2_start=01:34:00
+build_run2_end=01:39:23
+build_run3_start=01:39:56

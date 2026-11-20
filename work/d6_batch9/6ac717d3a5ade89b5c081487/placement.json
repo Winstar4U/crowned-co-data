@@ -1,0 +1,79 @@
+{
+ "product_id": "6ac717d3a5ade89b5c081487",
+ "shop_id": "26418699",
+ "title": "Holiday Spirit Cookies Christmas Backpack \u2014 Merry Christmas Daypack, Holiday Gift Idea | Winstar4U",
+ "blueprint_id": 10823,
+ "print_provider_id": 99,
+ "position": "front_dtf",
+ "image_id": "6ac8596f09a3ec487f0a4708",
+ "image_name": "holiday-spirit-cookies.png-TRANSPARENT.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/40eff3ef-c12e-4b8b-9c07-6365e1af3d20",
+ "image_px": [
+  1988,
+  1815
+ ],
+ "decoration_method": "dtf",
+ "visible": true,
+ "updated_at": "2026-10-09 04:37:11+00:00",
+ "defect_cause": "other",
+ "defect_note": "DEFECT-SEVERE",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 1.0,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.0055,
+  0.005,
+  0.9945,
+  0.995
+ ],
+ "contrast_vs_black": 0.416,
+ "low_contrast": true,
+ "current_content_box_in_placeholder": [
+  0.0055,
+  -0.9457,
+  0.9945,
+  1.9457
+ ],
+ "current_inside_safe_frac": {
+  "401444": 0.2808
+ },
+ "effective_px_ratio_after": 2.455,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.308,
+  "angle": 0
+ },
+ "placeholders": {
+  "401444": [
+   2400,
+   900
+  ]
+ },
+ "safe_area_source": {
+  "401444": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "401444": 1.0
+ },
+ "new_art_category": "",
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 33%",
+  "bottom 33%"
+ ],
+ "notes": [
+  "ROTATED ART: source holiday-spirit-cookies.png-TRANSPARENT.png was exported SIDEWAYS (text runs top-to-bottom); live mockup confirms the design prints rotated 90deg and cropped on the 2400x900 backpack panel (register DEFECT-SEVERE confirmed). Corrected art = lossless 90deg CCW rotation saved as corrected_art.png (1815x1988, same pixels, transparent); placement computed+verified on it. Applying needs an image upload of corrected_art.png + print_area update = owner-approved production write. Art reads correctly on the Black blank by eye (red text has cream outline); metric low-contrast fraction comes from dark illustration interiors, not the text.",
+  "NEEDS_NEW_ART: low-contrast ink vs an enabled blank colour (see LOW-CONTRAST note) - needs a recolour/outline of the text/art layer (or owner disables the affected variants). Placement computed+verified; apply with the new art.",
+  "corrected_art.png = original rotated 90 deg (lossless, 1815x1988); placement below is for this file",
+  "LOW-CONTRAST: 42% of the art's opaque pixels have contrast < 2.5:1 against the enabled black blank (dark ink on dark blank) - not fixable by placement",
+  "current: 71.9% of visible content outside safe area (variant 401444)"
+ ],
+ "live_change_made": false
+}
