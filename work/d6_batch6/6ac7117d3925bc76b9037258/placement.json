@@ -71,6 +71,7 @@
  "ip_flag": "none found (title/filename scan + visual check)",
  "clip_edges_current": [],
  "notes": [
+  "Also low contrast: the flattened art's grey shading on black (23% of pixels < 2.5:1). The 400 px file must be replaced regardless.",
   "NEEDS_NEW_ART: source art is only 400x400 px (flattened thumbnail export) - upscaled 6.1x at print size, will print soft/pixelated. Placement fix computed+verified; apply together with a >=2000 px re-export of the same transparent design.",
   "DISCONTINUED: enabled variant(s) 123103,123110 not offered by provider 99 any more (get-blueprint-variants 2005/99, show_out_of_stock=true) - cannot be produced; owner decision: disable these variants",
   "geometry checked for 2 enabled variants (2 distinct placeholder geometries)",

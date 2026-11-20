@@ -64,12 +64,13 @@
   "74633": 1.0,
   "71689": 1.0
  },
- "status": "READY_FOR_REVIEW",
+ "status": "NEEDS_NEW_ART",
  "verify_pass": true,
  "transparency": "FLAG: opaque white background (no alpha)",
  "ip_flag": "none found (title/filename scan + visual check)",
  "clip_edges_current": [],
  "notes": [
+  "NEEDS_NEW_ART: blank street-sign banner CONFIRMED in source file nostalgic-candy-cane-lane.jpg. Placement unchanged (already inside the safe area on both coaster shapes). (green sign between the candy canes has no text - visually checked); recurring bad source file, regenerate with the sign text. ",
   "geometry checked for 2 enabled variants (2 distinct placeholder geometries)",
   "current placement already inside safe area on all checked variants"
  ],

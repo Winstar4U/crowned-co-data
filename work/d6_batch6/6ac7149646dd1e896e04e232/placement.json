@@ -87,6 +87,7 @@
   "top 10%"
  ],
  "notes": [
+  "Placement defect confirmed: live y=0.30 pushes the 'I SURVIVED' top line 10% off the top of the onesie print area (register: 'faint/nearly-invisible cropped line above CHRISTMAS'). Source art is complete and readable on the enabled Blue/Pink/White onesies. Corrected placement (x=0.499 y=0.432 scale 0.899) verified on all 6 enabled sizes.",
   "geometry checked for 6 enabled variants (4 distinct placeholder geometries)",
   "current: 23.0% of visible content outside safe area (variant 71073)"
  ],

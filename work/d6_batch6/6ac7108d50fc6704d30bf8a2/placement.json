@@ -71,12 +71,13 @@
   "76802": 1.0,
   "76803": 1.0
  },
- "status": "READY_FOR_REVIEW",
+ "status": "NEEDS_NEW_ART",
  "verify_pass": true,
  "transparency": "OK (transparent background)",
  "ip_flag": "none found (title/filename scan + visual check)",
  "clip_edges_current": [],
  "notes": [
+  "NEEDS_NEW_ART: source file jingle-all-way-liquor-transparent.png has an EMPTY green ribbon banner under the car (no text rendered - visually confirmed); the 'Liquor' punchline in the title is missing from the art. Placement fix (scale 0.551, inside the 30-70% visible-front band on 12/18/32 oz) verified; apply with regenerated art.",
   "geometry checked for 3 enabled variants (3 distinct placeholder geometries)",
   "current: 2.9% of visible content outside safe area (variant 76801)"
  ],

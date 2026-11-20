@@ -72,12 +72,13 @@
   "24830": 1.0,
   "24829": 1.0
  },
- "status": "READY_FOR_REVIEW",
+ "status": "NEEDS_NEW_ART",
  "verify_pass": true,
  "transparency": "OK (transparent background)",
  "ip_flag": "none found (title/filename scan + visual check)",
  "clip_edges_current": [],
  "notes": [
+  "NEEDS_NEW_ART: blank street-sign banner CONFIRMED in source file nostalgic-candy-cane-lane-transparent.png. Placement unchanged (inside the tank safe area on all 4 White sizes). (green sign between the candy canes has no text - visually checked); recurring bad source file, regenerate with the sign text. ",
   "geometry checked for 4 enabled variants (3 distinct placeholder geometries)",
   "current placement already inside safe area on all checked variants"
  ],

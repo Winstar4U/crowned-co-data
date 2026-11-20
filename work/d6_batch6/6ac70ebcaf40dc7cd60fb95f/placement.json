@@ -38,7 +38,7 @@
   1.0164
  ],
  "current_inside_safe_frac": {
-  "*": 0.8375
+  "400997": 0.8375
  },
  "effective_px_ratio_after": 1.051,
  "proposed": {
@@ -48,16 +48,16 @@
   "angle": 0
  },
  "placeholders": {
-  "*": [
+  "400997": [
    1500,
    1500
   ]
  },
  "safe_area_source": {
-  "*": "rect"
+  "400997": "rect"
  },
  "verify_inside_safe_frac": {
-  "*": 1.0
+  "400997": 1.0
  },
  "status": "NEEDS_NEW_ART",
  "verify_pass": true,
@@ -69,9 +69,9 @@
  ],
  "notes": [
   "NEEDS_NEW_ART: low-contrast ink on dark blank (see LOW-CONTRAST note) - needs light-ink recolour of the text/art layer (or owner disables the dark variants). Placement computed+verified; apply with the new art.",
-  "DISCONTINUED: enabled variant(s) 400992,400993,400994,400997,400998,401003 not offered by provider 217 any more (get-blueprint-variants 10796/217, show_out_of_stock=true) - cannot be produced; owner decision: disable these variants",
+  "geometry checked for 6 enabled variants (1 distinct placeholder geometries)",
   "LOW-CONTRAST: 95% of the art's opaque pixels have contrast < 2.5:1 against the enabled black blank (dark ink on dark garment) - not fixable by placement",
-  "current: 16.2% of visible content outside safe area (variant *)"
+  "current: 16.2% of visible content outside safe area (variant 400997)"
  ],
  "live_change_made": false
 }

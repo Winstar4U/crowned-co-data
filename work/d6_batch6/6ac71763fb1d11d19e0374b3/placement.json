@@ -68,6 +68,7 @@
   "bottom 27%"
  ],
  "notes": [
+  "Also: portrait art (1079x1773) on the 2400x900 landscape backpack panel - live scale 0.9 crops 43% top / 27% bottom ('CHRISTMAS' + 'OPEN BAR' cut). The verified full-art placement is scale 0.240 (small); recommend a landscape re-layout in light ink.",
   "NEEDS_NEW_ART: low-contrast ink on dark blank (see LOW-CONTRAST note) - needs light-ink recolour of the text/art layer (or owner disables the dark variants). Placement computed+verified; apply with the new art.",
   "LOW-CONTRAST: 89% of the art's opaque pixels have contrast < 2.5:1 against the enabled black blank (dark ink on dark garment) - not fixable by placement",
   "current: 68.5% of visible content outside safe area (variant 401444)"

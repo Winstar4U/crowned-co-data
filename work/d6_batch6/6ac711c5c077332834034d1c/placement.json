@@ -37,7 +37,7 @@
   0.8947
  ],
  "current_inside_safe_frac": {
-  "*": 1.0
+  "109124": 1.0
  },
  "effective_px_ratio_after": 3.175,
  "proposed": {
@@ -47,16 +47,16 @@
   "angle": 0
  },
  "placeholders": {
-  "*": [
+  "109124": [
    645,
    750
   ]
  },
  "safe_area_source": {
-  "*": "rect"
+  "109124": "rect"
  },
  "verify_inside_safe_frac": {
-  "*": 1.0
+  "109124": 1.0
  },
  "status": "NEEDS_NEW_ART",
  "verify_pass": true,
@@ -64,8 +64,9 @@
  "ip_flag": "none found (title/filename scan + visual check)",
  "clip_edges_current": [],
  "notes": [
+  "NEEDS_NEW_ART (not a placement defect): faith-christ-is-born.png is a full-colour raster with an opaque white background and gradient 'glow', sent to ENGRAVING on a powder-coated tumbler - the live mockup shows a muddy silver block with garbled title and blank crest (matches register). Needs a 1-colour, high-contrast line-art engraving file. Alternative (owner decision, production write): provider 217 also offers DTF 'mug_front' 750x750 on this blueprint, which would print the colour art (would then also need a transparent background). Placement already inside the 645x750 engraving area.",
   "art has opaque WHITE background on engraving print over coloured blank -> visible white patch; needs transparent re-export of same design (placement computed+verified, apply together)",
-  "DISCONTINUED: enabled variant(s) 109124,109128,109129 not offered by provider 217 any more (get-blueprint-variants 1515/217, show_out_of_stock=true) - cannot be produced; owner decision: disable these variants",
+  "geometry checked for 3 enabled variants (1 distinct placeholder geometries)",
   "current placement already inside safe area on all checked variants"
  ],
  "live_change_made": false

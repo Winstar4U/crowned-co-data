@@ -79,6 +79,7 @@
  "ip_flag": "none found (title/filename scan + visual check)",
  "clip_edges_current": [],
  "notes": [
+  "Borderline: the silver 'MERRY EVERYTHING HAPPY ALWAYS' headline is readable on the live black mockup, but its grey shading/foliage is low-contrast on Black/Charcoal/Dark Heather (33% of pixels < 2.5:1). Owner may accept as-is; recommended fix is a brighter white/silver ink version.",
   "NEEDS_NEW_ART: low-contrast ink on dark blank (see LOW-CONTRAST note) - needs light-ink recolour of the text/art layer (or owner disables the dark variants). Placement computed+verified; apply with the new art.",
   "geometry checked for 35 enabled variants (3 distinct placeholder geometries)",
   "LOW-CONTRAST: 33% of the art's opaque pixels have contrast < 2.5:1 against the enabled black blank (dark ink on dark garment) - not fixable by placement",

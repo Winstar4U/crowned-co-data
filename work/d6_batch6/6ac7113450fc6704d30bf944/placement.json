@@ -57,12 +57,13 @@
  "verify_inside_safe_frac": {
   "94263": 1.0
  },
- "status": "READY_FOR_REVIEW",
+ "status": "NEEDS_NEW_ART",
  "verify_pass": true,
  "transparency": "OK (transparent background)",
  "ip_flag": "none found (title/filename scan + visual check)",
  "clip_edges_current": [],
  "notes": [
+  "NEEDS_NEW_ART: low contrast confirmed on the live mockup - the 1245/228 shot glass is CLEAR glass and the art is light silver/grey script with faded 'HAPPY'; it nearly disappears. Needs a solid dark-ink (or red/green) version. Placement fix (scale 0.599, keeps art inside the visible 20-80% front band) verified.",
   "current: 13.4% of visible content outside safe area (variant 94263)"
  ],
  "live_change_made": false

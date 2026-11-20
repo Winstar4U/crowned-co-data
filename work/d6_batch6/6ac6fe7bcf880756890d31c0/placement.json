@@ -82,6 +82,7 @@
   "bottom 13%"
  ],
  "notes": [
+  "Confirmed: subtitle 'IS THE NEW' is dark grey on black (illegible on mockup) and live scale 1.0 crops 13% top/bottom ('NICE' cut at the bottom of the live mockup). Corrected placement (scale 0.660) verified on all 35 variants; recolour the subtitle to gold/white.",
   "NEEDS_NEW_ART: low-contrast ink on dark blank (see LOW-CONTRAST note) - needs light-ink recolour of the text/art layer (or owner disables the dark variants). Placement computed+verified; apply with the new art.",
   "geometry checked for 35 enabled variants (3 distinct placeholder geometries)",
   "LOW-CONTRAST: 39% of the art's opaque pixels have contrast < 2.5:1 against the enabled black blank (dark ink on dark garment) - not fixable by placement",

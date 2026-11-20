@@ -57,12 +57,13 @@
  "verify_inside_safe_frac": {
   "41653": 1.0
  },
- "status": "READY_FOR_REVIEW",
+ "status": "NEEDS_NEW_ART",
  "verify_pass": true,
  "transparency": "FLAG: opaque white background (no alpha)",
  "ip_flag": "none found (title/filename scan + visual check)",
  "clip_edges_current": [],
  "notes": [
+  "NEEDS_NEW_ART: blank street-sign banner CONFIRMED in source file nostalgic-candy-cane-lane.jpg. Placement unchanged (full-bleed curtain, inside safe area). LOW-RES: 2048 px source upscaled 3.5x on the 71x74 curtain - regenerate at >=7000 px. (green sign between the candy canes has no text - visually checked); recurring bad source file, regenerate with the sign text. ",
   "LOW-RES: art upscaled 3.5x on largest variant (src px/print px=0.29)",
   "current placement already inside safe area on all checked variants"
  ],
