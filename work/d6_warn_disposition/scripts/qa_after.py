@@ -23,6 +23,7 @@ FIX = {  # pid: (batch, new art, fix description)
  '6ac7164faa7a21cb900b4f01': (4, A + 'prosecco-ho-ho-ho_x4.png', 'upscale'),
  '6ac7126c57527ce5fd01976a': (10, A + 'naughty-list-skeleton_x4.png', 'upscale'),
  '6ac8f919149425f38d04bedd': (2, A + '6ac8f919149425f38d04bedd_despeck.png', 'despeck'),
+ '6ac8f8f29b2660e139034102': (1, A + '6ac8f8f29b2660e139034102_despeck.png', 'despeck'),
 }
 def bbox(im):  # identical rule to qa_placements.py
     a = np.array(im.convert('RGBA'))
@@ -64,7 +65,7 @@ if __name__ == '__main__':
             new_art_local=os.path.relpath(art, '/home/user/crowned-co-data'), new_art_sha256=hashlib.sha256(open(art, 'rb').read()).hexdigest(),
             new_art_px=list(px), old_image_px=j['image_px'], placement_changed=False,
             note=('Real-ESRGAN anime6B x4 local upscale (edge-bleed RGB, Lanczos alpha); upscale adds no true detail: native-pixel '
-                  'resolution unchanged' if kind == 'upscale' else 'removed %s detached grey bg-removal specks ~50px outside the figure' % 180),
+                  'resolution unchanged' if kind == 'upscale' else 'removed detached grey (rgb~137) bg-removal specks ~45-50px outside the design (despeck.py)'),
             requires='upload new art as a NEW Printify image + owner-approved product update (not done; local only)',
             qa_after=r['qa_status'])
         n['image_px'] = list(px); n['image_name_proposed'] = os.path.basename(art); n['live_change_made'] = False

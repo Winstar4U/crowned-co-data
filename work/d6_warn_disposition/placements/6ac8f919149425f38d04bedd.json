@@ -83,7 +83,7 @@
    1653
   ],
   "placement_changed": false,
-  "note": "removed 180 detached grey bg-removal specks ~50px outside the figure",
+  "note": "removed detached grey (rgb~137) bg-removal specks ~45-50px outside the design (despeck.py)",
   "requires": "upload new art as a NEW Printify image + owner-approved product update (not done; local only)",
   "qa_after": "PASS"
  },
