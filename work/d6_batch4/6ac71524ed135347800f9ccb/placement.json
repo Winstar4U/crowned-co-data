@@ -1,0 +1,87 @@
+{
+ "product_id": "6ac71524ed135347800f9ccb",
+ "shop_id": "26418699",
+ "title": "Thankful Grateful Blesse Christmas Laptop Sleeve \u2014 Stylish Tech Travel Gift, Holiday Gift | Winstar4U",
+ "blueprint_id": 429,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac4f0f8fae6ba29cd570229",
+ "image_name": "faith-thankful-grateful-blesse.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/8efa75d3-1fc7-487e-aa33-c7de41bb708c",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 01:59:51+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT (BLESSED cropped bottom; title also truncated \"Blesse\")",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.9,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.1963,
+  0.0342,
+  0.8027,
+  0.96
+ ],
+ "current_content_box_in_placeholder": [
+  0.2267,
+  -0.059,
+  0.7725,
+  1.052
+ ],
+ "current_inside_safe_frac": {
+  "62037": 0.9028,
+  "62038": 0.88,
+  "62039": 0.8708
+ },
+ "effective_px_ratio_after": 0.661,
+ "proposed": {
+  "x": 0.4999,
+  "y": 0.5,
+  "scale": 0.689,
+  "angle": 0
+ },
+ "placeholders": {
+  "62037": [
+   3600,
+   2700
+  ],
+  "62038": [
+   4125,
+   3000
+  ],
+  "62039": [
+   4500,
+   3225
+  ]
+ },
+ "safe_area_source": {
+  "62037": "rect",
+  "62038": "rect",
+  "62039": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "62037": 1.0,
+  "62038": 1.0,
+  "62039": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 5%",
+  "bottom 5%"
+ ],
+ "notes": [
+  "geometry checked for 3 enabled variants (3 distinct placeholder geometries)",
+  "current: 12.9% of visible content outside safe area (variant 62039)"
+ ],
+ "live_change_made": false
+}

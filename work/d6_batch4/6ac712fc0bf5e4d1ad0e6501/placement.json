@@ -1,0 +1,72 @@
+{
+ "product_id": "6ac712fc0bf5e4d1ad0e6501",
+ "shop_id": "26418699",
+ "title": "Rejoice Star Christmas Lunch Box \u2014 Bento Box for Holiday Lunches, Holiday Gift | Winstar4U",
+ "blueprint_id": 695,
+ "print_provider_id": 23,
+ "position": "front",
+ "image_id": "6ac4f0ef928b79c8375959b1",
+ "image_name": "faith-rejoice-star.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/cd585b8c-c454-4d79-b0d7-3efbeaae3519",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 02:05:21+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT (top of \"REJOICE\" clipped)",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.7,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0645,
+  0.042,
+  0.9385,
+  0.9702
+ ],
+ "current_content_box_in_placeholder": [
+  0.1951,
+  -0.0176,
+  0.8069,
+  1.0314
+ ],
+ "current_inside_safe_frac": {
+  "72920": 0.8977
+ },
+ "effective_px_ratio_after": 1.526,
+ "proposed": {
+  "x": 0.5001,
+  "y": 0.496,
+  "scale": 0.598,
+  "angle": 0
+ },
+ "placeholders": {
+  "72920": [
+   2244,
+   1390
+  ]
+ },
+ "safe_area_source": {
+  "72920": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "72920": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 2%",
+  "bottom 3%"
+ ],
+ "notes": [
+  "current: 10.2% of visible content outside safe area (variant 72920)"
+ ],
+ "live_change_made": false
+}

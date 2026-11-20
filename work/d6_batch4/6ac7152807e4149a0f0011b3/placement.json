@@ -1,0 +1,87 @@
+{
+ "product_id": "6ac7152807e4149a0f0011b3",
+ "shop_id": "26418699",
+ "title": "Walk By Faith Christmas Laptop Sleeve \u2014 Stylish Tech Travel Gift, Holiday Gift | Winstar4U",
+ "blueprint_id": 429,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac4f0fe6c1b77e76dda3ae1",
+ "image_name": "faith-walk-by-faith.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/93c536ae-3290-4bdc-9a42-87c47869f838",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 01:59:53+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT (WALK BY FAITH cropped top)",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.9,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0693,
+  0.0649,
+  0.9365,
+  0.9429
+ ],
+ "current_content_box_in_placeholder": [
+  0.1124,
+  -0.0221,
+  0.8929,
+  1.0314
+ ],
+ "current_inside_safe_frac": {
+  "62037": 0.865,
+  "62038": 0.836,
+  "62039": 0.8216
+ },
+ "effective_px_ratio_after": 0.623,
+ "proposed": {
+  "x": 0.5005,
+  "y": 0.496,
+  "scale": 0.731,
+  "angle": 0
+ },
+ "placeholders": {
+  "62037": [
+   3600,
+   2700
+  ],
+  "62038": [
+   4125,
+   3000
+  ],
+  "62039": [
+   4500,
+   3225
+  ]
+ },
+ "safe_area_source": {
+  "62037": "rect",
+  "62038": "rect",
+  "62039": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "62037": 1.0,
+  "62038": 1.0,
+  "62039": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 2%",
+  "bottom 3%"
+ ],
+ "notes": [
+  "geometry checked for 3 enabled variants (3 distinct placeholder geometries)",
+  "current: 17.8% of visible content outside safe area (variant 62039)"
+ ],
+ "live_change_made": false
+}

@@ -1,0 +1,72 @@
+{
+ "product_id": "6ac710fa07e4149a0f000fbe",
+ "shop_id": "26418699",
+ "title": "Naughty List Resume Christmas Winter Scarf \u2014 Cozy Winter Fashion Scarf, Holiday Gift | Winstar4U",
+ "blueprint_id": 1327,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac4f1594697cd9cf0a75363",
+ "image_name": "naughty-list-resume.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/d4e4c13c-722b-46d8-a749-590d67cd6055",
+ "image_px": [
+  1707,
+  2048
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 02:07:26+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT \u2014 bottom line (\"IT'S A RESUME\") clipped at fabric edge",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.4,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0111,
+  0.0015,
+  0.9924,
+  0.9932
+ ],
+ "current_content_box_in_placeholder": [
+  0.3045,
+  -0.1436,
+  0.697,
+  1.1367
+ ],
+ "current_inside_safe_frac": {
+  "100848": 0.7144
+ },
+ "effective_px_ratio_after": 0.605,
+ "proposed": {
+  "x": 0.5003,
+  "y": 0.504,
+  "scale": 0.254,
+  "angle": 0
+ },
+ "placeholders": {
+  "100848": [
+   11100,
+   4126
+  ]
+ },
+ "safe_area_source": {
+  "100848": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "100848": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 11%",
+  "bottom 11%"
+ ],
+ "notes": [
+  "current: 28.6% of visible content outside safe area (variant 100848)"
+ ],
+ "live_change_made": false
+}

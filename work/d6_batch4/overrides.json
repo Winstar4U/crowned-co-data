@@ -1,0 +1,56 @@
+{
+ "6ac70053826b7669c103bb8d": {
+  "status": "BLOCKED",
+  "keep_proposal": true,
+  "note": "BLOCKED (not an art defect alone): print provider 99 no longer manufactures socks blueprint 376 (get-blueprint-variants 376/99 -> 404 printify_blueprint_print_provider_mismatch; only provider 1 SPOKE listed) and all 3 enabled variants (45132/45133/45134) report is_available=false, so the live listing cannot be produced or repaired in place. Owner decision: rebuild on provider 1 or retire. REFERENCE placement below was computed+verified on 376/1 dims (same variant ids) with the leg-curvature zone u 0.20-0.80, and is meant for all 4 leg positions (front/back x left/right share dims and the same image)."
+ },
+ "6ac7003e1867075e77041704": {
+  "status": "BLOCKED",
+  "keep_proposal": true,
+  "note": "BLOCKED (not an art defect alone): print provider 99 no longer manufactures socks blueprint 376 (get-blueprint-variants 376/99 -> 404 printify_blueprint_print_provider_mismatch; only provider 1 SPOKE listed) and all 3 enabled variants (45132/45133/45134) report is_available=false, so the live listing cannot be produced or repaired in place. Owner decision: rebuild on provider 1 or retire. REFERENCE placement below was computed+verified on 376/1 dims (same variant ids) with the leg-curvature zone u 0.20-0.80, and is meant for all 4 leg positions (front/back x left/right share dims and the same image)."
+ },
+ "6ac70041154e72164e0d8ded": {
+  "status": "BLOCKED",
+  "keep_proposal": true,
+  "note": "BLOCKED (not an art defect alone): print provider 99 no longer manufactures socks blueprint 376 (get-blueprint-variants 376/99 -> 404 printify_blueprint_print_provider_mismatch; only provider 1 SPOKE listed) and all 3 enabled variants (45132/45133/45134) report is_available=false, so the live listing cannot be produced or repaired in place. Owner decision: rebuild on provider 1 or retire. REFERENCE placement below was computed+verified on 376/1 dims (same variant ids) with the leg-curvature zone u 0.20-0.80, and is meant for all 4 leg positions (front/back x left/right share dims and the same image)."
+ },
+ "6ac700570a223533b30704c0": {
+  "status": "BLOCKED",
+  "keep_proposal": true,
+  "note": "BLOCKED (not an art defect alone): print provider 99 no longer manufactures socks blueprint 376 (get-blueprint-variants 376/99 -> 404 printify_blueprint_print_provider_mismatch; only provider 1 SPOKE listed) and all 3 enabled variants (45132/45133/45134) report is_available=false, so the live listing cannot be produced or repaired in place. Owner decision: rebuild on provider 1 or retire. REFERENCE placement below was computed+verified on 376/1 dims (same variant ids) with the leg-curvature zone u 0.20-0.80, and is meant for all 4 leg positions (front/back x left/right share dims and the same image)."
+ },
+ "6ac70045680525323b008a2c": {
+  "status": "BLOCKED",
+  "keep_proposal": true,
+  "note": "BLOCKED (not an art defect alone): print provider 99 no longer manufactures socks blueprint 376 (get-blueprint-variants 376/99 -> 404 printify_blueprint_print_provider_mismatch; only provider 1 SPOKE listed) and all 3 enabled variants (45132/45133/45134) report is_available=false, so the live listing cannot be produced or repaired in place. Owner decision: rebuild on provider 1 or retire. REFERENCE placement below was computed+verified on 376/1 dims (same variant ids) with the leg-curvature zone u 0.20-0.80, and is meant for all 4 leg positions (front/back x left/right share dims and the same image)."
+ },
+ "6ac700370a223533b307049f": {
+  "status": "BLOCKED",
+  "keep_proposal": true,
+  "note": "BLOCKED (not an art defect alone): print provider 99 no longer manufactures socks blueprint 376 (get-blueprint-variants 376/99 -> 404 printify_blueprint_print_provider_mismatch; only provider 1 SPOKE listed) and all 3 enabled variants (45132/45133/45134) report is_available=false, so the live listing cannot be produced or repaired in place. Owner decision: rebuild on provider 1 or retire. REFERENCE placement below was computed+verified on 376/1 dims (same variant ids) with the leg-curvature zone u 0.20-0.80, and is meant for all 4 leg positions (front/back x left/right share dims and the same image)."
+ },
+ "6ac7005a4f88f35ee90d3e7b": {
+  "status": "BLOCKED",
+  "keep_proposal": true,
+  "note": "BLOCKED (not an art defect alone): print provider 99 no longer manufactures socks blueprint 376 (get-blueprint-variants 376/99 -> 404 printify_blueprint_print_provider_mismatch; only provider 1 SPOKE listed) and all 3 enabled variants (45132/45133/45134) report is_available=false, so the live listing cannot be produced or repaired in place. Owner decision: rebuild on provider 1 or retire. REFERENCE placement below was computed+verified on 376/1 dims (same variant ids) with the leg-curvature zone u 0.20-0.80, and is meant for all 4 leg positions (front/back x left/right share dims and the same image)."
+ },
+ "6ac7132e57527ce5fd0197dc": {
+  "per_variant": true,
+  "note": "The enabled 12x18 landscape size 244224 (3000x2100) forces a shared placement much smaller on the square sizes; proposal splits print_areas into per-size groups (each verified). If the owner prefers one shared print_area, use shared_placement_alternative in placement.json."
+ },
+ "6ac7157a0ed8f1657605f458": {
+  "status": "BLOCKED",
+  "no_proposal": true,
+  "note": "BLOCKED - defect not reproducible: register says 'JINGLE BELLS cropped top', but the live art (naughty-list-vip.jpg 2048x1365) has no JINGLE BELLS text and the full design sits inside the 5% safe area on all 3 sleeve sizes (100% verify at live x=0.5 y=0.5 scale=0.9); live mockup shows the complete design. Recommend owner closes as no-change (register note likely predates an art swap)."
+ },
+ "6ac7147483f1a0e50d071e6d": {
+  "status": "NEEDS_NEW_ART",
+  "note": "NEEDS_NEW_ART: source art is only 400x400 px; at the required scale it is upscaled ~5x on the 24M/18M front (2100 px) - will print soft/pixelated. Placement fix (arc title no longer clipped by neckline) is computed+verified; apply together with a >=1500 px re-export of the same transparent design."
+ },
+ "6ac7156dfa3cae10170efc83": {
+  "note": "DUPLICATE (TRUE_DUP): same blueprint 429/99 laptop sleeve, same sizes, near-identical art to 'Naughty List Skeleton V2' 6ac7156442c818a1ad0960e6 (art diff 6.4/255 mean at 48px; different upload ids). Same fix computed for both. Owner decision: keep one, retire/merge the other."
+ },
+ "6ac7156442c818a1ad0960e6": {
+  "note": "DUPLICATE (TRUE_DUP): same blueprint 429/99 laptop sleeve, near-identical art to 'Naughty List Skeleton' 6ac7156dfa3cae10170efc83. Same fix computed for both. Owner decision: keep one, retire/merge the other."
+ }
+}

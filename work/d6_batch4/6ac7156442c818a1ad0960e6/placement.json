@@ -1,0 +1,88 @@
+{
+ "product_id": "6ac7156442c818a1ad0960e6",
+ "shop_id": "26418699",
+ "title": "Naughty List Skeleton V2 Christmas Laptop Sleeve \u2014 Stylish Tech Travel Gift, Holiday Gift | Winstar4U",
+ "blueprint_id": 429,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac8606795660a69b48b292e",
+ "image_name": "naughty-list-skeleton-v2.png-TRANSPARENT.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/dfad8bb5-163b-4f7a-84e0-e66c7154afc1",
+ "image_px": [
+  1261,
+  1494
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 03:33:21+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT + TRUE_DUP (banner cropped left/right; duplicate of non-V2)",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.9,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0079,
+  0.0067,
+  0.9921,
+  0.9933
+ ],
+ "current_content_box_in_placeholder": [
+  0.0571,
+  -0.2013,
+  0.9429,
+  1.2013
+ ],
+ "current_inside_safe_frac": {
+  "62037": 0.6889,
+  "62038": 0.6593,
+  "62039": 0.6494
+ },
+ "effective_px_ratio_after": 0.51,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.549,
+  "angle": 0
+ },
+ "placeholders": {
+  "62037": [
+   3600,
+   2700
+  ],
+  "62038": [
+   4125,
+   3000
+  ],
+  "62039": [
+   4500,
+   3225
+  ]
+ },
+ "safe_area_source": {
+  "62037": "rect",
+  "62038": "rect",
+  "62039": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "62037": 1.0,
+  "62038": 1.0,
+  "62039": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 14%",
+  "bottom 14%"
+ ],
+ "notes": [
+  "DUPLICATE (TRUE_DUP): same blueprint 429/99 laptop sleeve, near-identical art to 'Naughty List Skeleton' 6ac7156dfa3cae10170efc83. Same fix computed for both. Owner decision: keep one, retire/merge the other.",
+  "geometry checked for 3 enabled variants (3 distinct placeholder geometries)",
+  "current: 35.1% of visible content outside safe area (variant 62039)"
+ ],
+ "live_change_made": false
+}

@@ -1,0 +1,79 @@
+{
+ "product_id": "6ac7146357527ce5fd019866",
+ "shop_id": "26418699",
+ "title": "Only Nice For Presents Christmas Baby Onesie \u2014 Adorable Baby Christmas Gift, Holiday Gift | Winstar4U",
+ "blueprint_id": 568,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac8600ed97a0b8cd514d0e0",
+ "image_name": "only-nice-for-presents-transparent.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/c97a7f21-dfa5-417f-8b13-fbdf42ec3e3a",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "dtg",
+ "visible": true,
+ "updated_at": "2026-10-09 03:39:52+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT (top line overlaps/clips neckline)",
+ "current": {
+  "x": 0.5,
+  "y": 0.3,
+  "scale": 0.9,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.1313,
+  0.0645,
+  0.8735,
+  0.9385
+ ],
+ "current_content_box_in_placeholder": [
+  0.1682,
+  -0.0432,
+  0.8362,
+  0.6455
+ ],
+ "current_inside_safe_frac": {
+  "70900": 0.8195,
+  "70904": 0.8195
+ },
+ "effective_px_ratio_after": 1.084,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.396,
+  "scale": 0.9,
+  "angle": 0
+ },
+ "placeholders": {
+  "70900": [
+   1800,
+   2056
+  ],
+  "70904": [
+   2100,
+   2400
+  ]
+ },
+ "safe_area_source": {
+  "70900": "rect",
+  "70904": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "70900": 1.0,
+  "70904": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 6%"
+ ],
+ "notes": [
+  "geometry checked for 3 enabled variants (2 distinct placeholder geometries)",
+  "current: 18.0% of visible content outside safe area (variant 70900)"
+ ],
+ "live_change_made": false
+}

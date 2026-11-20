@@ -1,0 +1,87 @@
+{
+ "product_id": "6ac715600ed8f1657605f429",
+ "shop_id": "26418699",
+ "title": "Naughty List Resume Christmas Laptop Sleeve \u2014 Stylish Tech Travel Gift, Holiday Gift | Winstar4U",
+ "blueprint_id": 429,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac4f1594697cd9cf0a75363",
+ "image_name": "naughty-list-resume.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/d4e4c13c-722b-46d8-a749-590d67cd6055",
+ "image_px": [
+  1707,
+  2048
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 02:00:17+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT-SEVERE (bottom punchline \"AT THIS POINT ITS A RESUME\" cropped)",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.9,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0111,
+  0.0015,
+  0.9924,
+  0.9932
+ ],
+ "current_content_box_in_placeholder": [
+  0.06,
+  -0.2178,
+  0.9431,
+  1.21
+ ],
+ "current_inside_safe_frac": {
+  "62037": 0.7004,
+  "62038": 0.679,
+  "62039": 0.6723
+ },
+ "effective_px_ratio_after": 0.705,
+ "proposed": {
+  "x": 0.5006,
+  "y": 0.5,
+  "scale": 0.538,
+  "angle": 0
+ },
+ "placeholders": {
+  "62037": [
+   3600,
+   2700
+  ],
+  "62038": [
+   4125,
+   3000
+  ],
+  "62039": [
+   4500,
+   3225
+  ]
+ },
+ "safe_area_source": {
+  "62037": "rect",
+  "62038": "rect",
+  "62039": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "62037": 1.0,
+  "62038": 1.0,
+  "62039": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 15%",
+  "bottom 15%"
+ ],
+ "notes": [
+  "geometry checked for 3 enabled variants (3 distinct placeholder geometries)",
+  "current: 32.8% of visible content outside safe area (variant 62039)"
+ ],
+ "live_change_made": false
+}

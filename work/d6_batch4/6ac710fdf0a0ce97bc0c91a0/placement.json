@@ -1,0 +1,72 @@
+{
+ "product_id": "6ac710fdf0a0ce97bc0c91a0",
+ "shop_id": "26418699",
+ "title": "Thankful Grateful Blesse Christmas Shot Glass \u2014 1.5oz Party Shot Glass, Holiday Gift | Winstar4U",
+ "blueprint_id": 1245,
+ "print_provider_id": 228,
+ "position": "front",
+ "image_id": "6ac860b209a3ec487f0a4923",
+ "image_name": "fixed_6ac4f0f8fae6ba29cd570229.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/38cbb712-dc26-4e6f-9dbe-ccc0c8d538a4",
+ "image_px": [
+  1261,
+  1916
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 03:42:00+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT \u2014 bottom word (\"BLESSED\") clipped at rim",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.8,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0079,
+  0.0052,
+  0.9921,
+  0.9948
+ ],
+ "current_content_box_in_placeholder": [
+  0.1063,
+  -0.2017,
+  0.8937,
+  1.2017
+ ],
+ "current_inside_safe_frac": {
+  "94263": 0.6844
+ },
+ "effective_px_ratio_after": 4.682,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.513,
+  "angle": 0
+ },
+ "placeholders": {
+  "94263": [
+   525,
+   450
+  ]
+ },
+ "safe_area_source": {
+  "94263": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "94263": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 14%",
+  "bottom 14%"
+ ],
+ "notes": [
+  "current: 31.6% of visible content outside safe area (variant 94263)"
+ ],
+ "live_change_made": false
+}

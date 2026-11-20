@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer 1" width="100%" height="100%" viewBox="0 0 449.33 533.78" xmlns:printify="http://printify.com/adjuster"  printify:width="118.8825" printify:height="141.23250000000002">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="&lt;Path&gt;" x="20.72" y="20.05" width="407.9" height="431.89" fill="none"/>
+    </clipPath>
+  <image x="0" y="0" width="449.33" height="533.78" id="fabric-image"/><path d="" id="fabric-0"/><clipPath id="fabric-0-clip"><use xlink:href="#fabric-0"/></clipPath><path d="" id="fabric-1"/><clipPath id="fabric-1-clip"><use xlink:href="#fabric-1"/></clipPath><rect id="_front-path" width="407.9" height="431.89" fill="none" transform=""/><clipPath><use stroke-width="0.49534374999999997mm" xlink:href="#_front-path"/></clipPath></defs>
+  <g id="color_first" fill-rule="nonzero" fill="#fff"><use xlink:href="#fabric-0"/><use clip-path="url(#fabric-0-clip)" xlink:href="#fabric-image"/>
+    <g clip-path="url(#clip-path)">
+      <rect id="color_background" x="20.72" y="20.05" width="407.9" height="431.89" fill="#fff" fill-rule="nonzero"><use xlink:href="#fabric-1"/><use clip-path="url(#fabric-1-clip)" xlink:href="#fabric-image"/></rect>
+      
+    <g clip-path="url(#_front-clippath)" transform="translate(20.72 20.05)"><svg id="placeholder_front" width="407.9" height="431.89" preserveAspectRatio="xMidYMid slice" viewBox="0 0 407.9 431.89"><use stroke-width="0.49534374999999997mm" xlink:href="#_front-path" stroke="#ffffff"/><use stroke-width="0.49534374999999997mm" xlink:href="#_front-path" stroke="#000000" stroke-dasharray="0.9906874999999999mm, 0.9906874999999999mm"/></svg></g></g>
+  </g>
+  <g id="outlines">
+    <path id="Product Area Bot" d="M109.21,451.93A186.65,186.65,0,0,0,101,469.44c-7.83,19.09-8.57,43-8.57,43H356.92s-.74-23.87-8.57-43a189.77,189.77,0,0,0-8.46-17.94" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.71"/>
+    <rect id="Full Area" x="20.72" y="20.05" width="407.9" height="431.89" fill="none" stroke="#231f20" stroke-miterlimit="10"/>
+    <rect id="Safe Area" x="74.84" y="98.18" width="299.64" height="275.65" transform="translate(460.67 11.34) rotate(90)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.3"/>
+    <rect id="Safe Area" x="74.84" y="98.18" width="299.64" height="275.65" transform="translate(460.67 11.34) rotate(90)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.3" stroke-dasharray="5 5"/>
+    <path d="M20.72,20.05V452H109.2c10.85-20.26,21-29.67,21-29.67H54.63c-6.12,0-15.92-17.83-15.92-66.82V86.73c0-26,7.8-42.3,13.92-42.3H396.7c6.95,0,13.92,16.27,13.92,42.3V355.46c0,49-11.41,67-15.92,66.82s-75.57,0-75.57,0,10.15,9.41,21,29.67h88.48V20.05Z" opacity="0.2"/>
+    <path d="M20.72,20.05V452H109.2c10.85-20.26,21-29.67,21-29.67H54.63c-6.12,0-15.92-17.83-15.92-66.82V86.73c0-26,7.8-42.3,13.92-42.3H396.7c6.95,0,13.92,16.27,13.92,42.3V355.46c0,49-11.41,67-15.92,66.82s-75.57,0-75.57,0,10.15,9.41,21,29.67h88.48V20.05Z" fill="#fff" opacity="0.2"/>
+    <g id="Print Area">
+      <path d="M396.7,45.14c6.35,0,13.21,15.9,13.21,41.59V355.46c0,50.28-11.8,66.12-15.18,66.12-1.34-.06-8.61-.09-21.62-.09-22.14,0-53.67.08-54,.09h-1.8l1.32,1.22c.1.1,9.84,9.24,20.29,28.43H110.39c10.45-19.19,20.19-28.33,20.29-28.43l1.33-1.22H54.63c-2.5,0-6.32-3.82-9.58-14.54-2.57-8.46-5.63-24.28-5.63-51.58V86.73c0-25.77,7.69-41.59,13.21-41.59H396.7m0-.71H52.63c-6.12,0-13.92,16.27-13.92,42.3V355.46c0,49,9.8,66.82,15.92,66.82H130.2s-10.15,9.4-21,29.66H340.13c-10.85-20.26-21-29.66-21-29.66s31.58-.08,54-.08c11.19,0,20.09,0,21.59.08h.07c4.55,0,15.85-18.08,15.85-66.83V86.73c0-26-7-42.3-13.92-42.3Z"/>
+    </g>
+  </g>
+</svg>
