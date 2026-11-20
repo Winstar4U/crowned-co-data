@@ -1,0 +1,4 @@
+_dl/
+raw/
+__pycache__/
+*.npy
