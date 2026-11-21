@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="front" width="100%" height="100%" viewBox="0 0 2735.32 2735.32" xmlns:printify="http://printify.com/adjuster"  printify:width="723.72" printify:height="723.72">
+  <defs>
+    <clipPath id="clippath">
+      <rect x="0" y="623.84" width="2735.32" height="1487.63" fill="none"/>
+    </clipPath>
+  <image x="0" y="0" width="2735.32" height="2735.32" id="fabric-image"/><path d="" id="fabric-0"/><clipPath id="fabric-0-clip"><use xlink:href="#fabric-0"/></clipPath><path d="" id="fabric-1"/><clipPath id="fabric-1-clip"><use xlink:href="#fabric-1"/></clipPath><rect id="_front-path" width="2735.32" height="1487.63" fill="none" transform=""/><clipPath><use stroke-width="3.0155000000000003mm" xlink:href="#_front-path"/></clipPath></defs>
+  <g id="color_first" fill-rule="nonzero" fill="#fff"><use xlink:href="#fabric-0"/><use clip-path="url(#fabric-0-clip)" xlink:href="#fabric-image"/>
+    <g clip-path="url(#clippath)">
+      <rect id="color_background" x="0" y="623.84" width="2735.32" height="1487.63" fill="#fff" fill-rule="nonzero"><use xlink:href="#fabric-1"/><use clip-path="url(#fabric-1-clip)" xlink:href="#fabric-image"/></rect>
+      
+    <g clip-path="url(#_front-clippath)" transform="translate(0 623.84)"><svg id="placeholder_front" width="2735.32" height="1487.63" preserveAspectRatio="xMidYMid slice" viewBox="0 0 2735.32 1487.63"><use stroke-width="3.0155000000000003mm" xlink:href="#_front-path" stroke="#ffffff"/><use stroke-width="3.0155000000000003mm" xlink:href="#_front-path" stroke="#000000" stroke-dasharray="6.031000000000001mm, 6.031000000000001mm"/></svg></g></g>
+  </g>
+  <g id="outlines">
+    <path d="m0,623.84v1487.63h2735.32V623.84H0Zm1367.66,1195.95L394.97,845.77h1945.37l-972.68,974.02Z" opacity=".4"/>
+    <path d="m0,623.84v1487.63h2735.32V623.84H0Zm1367.66,1195.95L394.97,845.77h1945.37l-972.68,974.02Z" fill="#fff" opacity=".4"/>
+    <polygon id="Safe Area" points="1367.66 1819.79 394.97 845.77 2340.34 845.77 1367.66 1819.79" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="5.79"/>
+    <polygon id="Safe Area" points="1367.66 1819.79 394.97 845.77 2340.34 845.77 1367.66 1819.79" fill="none" stroke="#000" stroke-dasharray="0 0 0 0 57.9 57.9 0 0" stroke-linejoin="round" stroke-width="5.79"/>
+    <polygon id="Product Area" points="1367.66 2027.34 47.99 707.67 2687.33 707.67 1367.66 2027.34" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="9.65"/>
+  </g>
+</svg>

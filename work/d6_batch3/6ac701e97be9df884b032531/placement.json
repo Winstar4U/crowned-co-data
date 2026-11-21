@@ -1,0 +1,71 @@
+{
+ "product_id": "6ac701e97be9df884b032531",
+ "shop_id": "26418699",
+ "title": "Hallelujah Angels Christmas Throw Pillow \u2014 Festive Holiday Decorative Pillow, Cozy Winter Home Decor Gift | Winstar4U",
+ "blueprint_id": 220,
+ "print_provider_id": 10,
+ "position": "front",
+ "image_id": "6ac8f99070a73a2cc78cee89",
+ "image_name": "clean-faith-hallelujah-angels.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/a4e29f73-5fc8-433d-8ccd-3e2ce941976d",
+ "image_px": [
+  2048,
+  1365
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-14 12:50:52+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT \u2014 text cropped left/right edges of pillow face",
+ "current": {
+  "x": 0.25,
+  "y": 0.5,
+  "scale": 0.8,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0884,
+  0.0652,
+  0.9185,
+  0.9538
+ ],
+ "current_content_box_in_placeholder": [
+  -0.0793,
+  0.0363,
+  0.5848,
+  0.984
+ ],
+ "current_inside_safe_frac": {
+  "41524": 0.6031
+ },
+ "effective_px_ratio_after": 0.796,
+ "proposed": {
+  "x": 0.2525,
+  "y": 0.5,
+  "scale": 0.49,
+  "angle": 0
+ },
+ "placeholders": {
+  "41524": [
+   5250,
+   2625
+  ]
+ },
+ "safe_area_source": {
+  "41524": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "41524": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "left 12%"
+ ],
+ "notes": [
+  "current: 39.7% of visible content outside safe area (variant 41524)"
+ ],
+ "live_change_made": false
+}

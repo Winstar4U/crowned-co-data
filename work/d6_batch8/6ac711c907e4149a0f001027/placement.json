@@ -1,0 +1,74 @@
+{
+ "product_id": "6ac711c907e4149a0f001027",
+ "shop_id": "26418699",
+ "title": "\"Glory To God\" Christmas Wine Tumbler \u2014 Funny 12oz Holiday Tumbler, Holiday Gift | Winstar4U",
+ "blueprint_id": 1515,
+ "print_provider_id": 217,
+ "position": "drinkware_front",
+ "image_id": "6ac4f0c1fae6ba29cd570220",
+ "image_name": "faith-glory-to-god.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/60b9eb50-f7a0-4796-a9e6-0c819c835daa",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "engraving",
+ "visible": true,
+ "updated_at": "2026-10-09 01:29:47+00:00",
+ "defect_cause": "other",
+ "defect_note": "DEFECT: angel illustration washed out/overexposed into illegible silver blur",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 1.0,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.0381,
+  0.002,
+  0.9614,
+  0.9805
+ ],
+ "contrast_vs_iron_gray": 0.329,
+ "current_content_box_in_placeholder": [
+  0.0381,
+  0.0717,
+  0.9614,
+  0.9132
+ ],
+ "current_inside_safe_frac": {
+  "109128": 0.9976
+ },
+ "effective_px_ratio_after": 3.263,
+ "proposed": {
+  "x": 0.4993,
+  "y": 0.5,
+  "scale": 0.973,
+  "angle": 0
+ },
+ "placeholders": {
+  "109128": [
+   645,
+   750
+  ]
+ },
+ "safe_area_source": {
+  "109128": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "109128": 1.0
+ },
+ "new_art_category": "engraving",
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [],
+ "notes": [
+  "NEEDS_NEW_ART (engraving): full-colour raster art sent to ENGRAVING on the 1515/217 powder-coated wine tumbler - engraving is 1-colour (coating removed to steel), so shading/colour collapses into a silver blob; live mockup confirms illegible silver blur (visually checked; matches register). Needs a 1-colour high-contrast line-art/text engraving file. Source also has an opaque white background. Angel illustration washes out (register 'overexposed silver blur' confirmed). Live scale 1.0 lets 0.2% leave the area; fix scale 0.973 verified.",
+  "art has opaque WHITE background on engraving print over coloured blank -> visible white patch; needs transparent re-export of same design (placement computed+verified, apply together)",
+  "geometry checked for 3 enabled variants (1 distinct placeholder geometries)",
+  "current: 0.2% of visible content outside safe area (variant 109128)"
+ ],
+ "live_change_made": false
+}

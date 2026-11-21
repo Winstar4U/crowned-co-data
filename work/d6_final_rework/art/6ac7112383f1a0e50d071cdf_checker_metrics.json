@@ -1,0 +1,36 @@
+{
+ "src": "/home/user/crowned-co-data/work/d6_batch1/6ac7112383f1a0e50d071cdf/original.png",
+ "out": "art/6ac7112383f1a0e50d071cdf_checker_removed.png",
+ "px": [
+  2048,
+  2048
+ ],
+ "tile_px": 22.945,
+ "phase": [
+  4.0,
+  -0.5
+ ],
+ "grid_agreement": 0.5825,
+ "tile_light_rgb": [
+  249,
+  249,
+  248
+ ],
+ "tile_grey_rgb": [
+  240,
+  240,
+  240
+ ],
+ "exterior_tile_px_cleared": 118856,
+ "stray_island_px_cleared": 1723,
+ "parchment_grey_tile_px_gain_corrected": 271722,
+ "inner_tile_px_recoloured": 3147,
+ "enclosed_holes_filled": 3511,
+ "enclosed_hole_px_filled": 103614,
+ "big_enclosed_transparent_px_kept": 0,
+ "transparent_frac_before": 0.2774,
+ "transparent_frac_after": 0.2815,
+ "parchment_tile_contrast_before": 9.82,
+ "parchment_tile_contrast_after": 2.34,
+ "parchment_tile_contrast_reduction": 0.762
+}

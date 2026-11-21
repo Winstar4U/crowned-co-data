@@ -1,0 +1,87 @@
+{
+ "product_id": "6ac715a8d0a23214d80b27d1",
+ "shop_id": "26418699",
+ "title": "Home For Christmas Christmas Laptop Sleeve \u2014 Stylish Tech Travel Gift, Holiday Gift | Winstar4U",
+ "blueprint_id": 429,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac70f2e321177ab1085c879",
+ "image_name": "nostalgic-home-for-christmas.jpg",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/d4848003-7fc3-436a-b242-fc9944453d96",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 02:00:45+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT (HOME FOR cropped top)",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.9,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.084,
+  0.0615,
+  0.9175,
+  0.9385
+ ],
+ "current_content_box_in_placeholder": [
+  0.1256,
+  -0.0426,
+  0.8757,
+  1.0426
+ ],
+ "current_inside_safe_frac": {
+  "62038": 0.8662,
+  "62037": 0.8964,
+  "62039": 0.8509
+ },
+ "effective_px_ratio_after": 0.625,
+ "proposed": {
+  "x": 0.5001,
+  "y": 0.504,
+  "scale": 0.728,
+  "angle": 0
+ },
+ "placeholders": {
+  "62038": [
+   4125,
+   3000
+  ],
+  "62037": [
+   3600,
+   2700
+  ],
+  "62039": [
+   4500,
+   3225
+  ]
+ },
+ "safe_area_source": {
+  "62038": "rect",
+  "62037": "rect",
+  "62039": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "62038": 1.0,
+  "62037": 1.0,
+  "62039": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 4%",
+  "bottom 4%"
+ ],
+ "notes": [
+  "geometry checked for 3 enabled variants (3 distinct placeholder geometries)",
+  "current: 14.9% of visible content outside safe area (variant 62039)"
+ ],
+ "live_change_made": false
+}

@@ -1,0 +1,85 @@
+{
+ "product_id": "6ac700370a223533b307049f",
+ "shop_id": "26418699",
+ "title": "\"Christmas Calories Dont Count\" Christmas Socks \u2014 Festive Holiday Sublimation Crew Socks, Fun Christmas Gift & Stocking Stuffer | Winstar4U",
+ "blueprint_id": 376,
+ "print_provider_id": 99,
+ "position": "front_left_leg",
+ "image_id": "6ac4f03731ea32c8d94fce82",
+ "image_name": "christmas-calories-dont-count.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/25fb9f47-13bc-4d3d-88a4-d38c1ec41ec8",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 02:03:41+00:00",
+ "defect_cause": "wraparound",
+ "defect_note": "DEFECT \u2014 wraparound-fragmentation \u2014 text split illegibly around sock curvature",
+ "current": {
+  "x": 0.5,
+  "y": 0.3,
+  "scale": 0.85,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0444,
+  0.0488,
+  0.9473,
+  0.9575
+ ],
+ "current_content_box_in_placeholder": [
+  0.1128,
+  0.2076,
+  0.8802,
+  0.3937
+ ],
+ "current_inside_safe_frac": {
+  "45132": 0.7656,
+  "45133": 0.7805,
+  "45134": 0.7736
+ },
+ "effective_px_ratio_after": 2.788,
+ "proposed": {
+  "x": 0.4988,
+  "y": 0.3,
+  "scale": 0.545,
+  "angle": 0
+ },
+ "placeholders": {
+  "45132": [
+   1348,
+   5595
+  ],
+  "45133": [
+   1348,
+   5657
+  ],
+  "45134": [
+   1348,
+   5610
+  ]
+ },
+ "safe_area_source": {
+  "45132": "rect",
+  "45133": "rect",
+  "45134": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "45132": 1.0,
+  "45133": 1.0,
+  "45134": 1.0
+ },
+ "status": "BLOCKED",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [],
+ "notes": [
+  "BLOCKED (not an art defect alone): print provider 99 no longer manufactures socks blueprint 376 (get-blueprint-variants 376/99 -> 404 printify_blueprint_print_provider_mismatch; only provider 1 SPOKE listed) and all 3 enabled variants (45132/45133/45134) report is_available=false, so the live listing cannot be produced or repaired in place. Owner decision: rebuild on provider 1 or retire. REFERENCE placement below was computed+verified on 376/1 dims (same variant ids) with the leg-curvature zone u 0.20-0.80, and is meant for all 4 leg positions (front/back x left/right share dims and the same image).",
+  "geometry checked for 3 enabled variants (3 distinct placeholder geometries)",
+  "current: 23.4% of visible content outside safe area (variant 45132)"
+ ],
+ "live_change_made": false
+}

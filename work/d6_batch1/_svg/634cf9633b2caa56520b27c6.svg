@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="front" width="100%" height="100%" viewBox="0 0 218.39 218.39" xmlns:printify="http://printify.com/adjuster"  printify:width="57.78000000000001" printify:height="57.78000000000001">
+  <defs>
+    <clipPath id="clip-path">
+      <rect x="25.21" y="37.21" width="167.96" height="143.97" fill="none"/>
+    </clipPath>
+  <image x="0" y="0" width="218.39" height="218.39" id="fabric-image"/><path d="" id="fabric-0"/><clipPath id="fabric-0-clip"><use xlink:href="#fabric-0"/></clipPath><path d="" id="fabric-1"/><clipPath id="fabric-1-clip"><use xlink:href="#fabric-1"/></clipPath><rect id="_front-path" width="167.96" height="143.97" fill="none" transform=""/><clipPath><use stroke-width="0.24075000000000005mm" xlink:href="#_front-path"/></clipPath></defs>
+  <g id="color_first" fill-rule="nonzero" fill="#fff"><use xlink:href="#fabric-0"/><use clip-path="url(#fabric-0-clip)" xlink:href="#fabric-image"/>
+    <g clip-path="url(#clip-path)">
+      <rect id="color_background" x="25.21" y="37.21" width="167.96" height="143.97" fill="#fff" fill-rule="nonzero"><use xlink:href="#fabric-1"/><use clip-path="url(#fabric-1-clip)" xlink:href="#fabric-image"/></rect>
+      
+    <g clip-path="url(#_front-clippath)" transform="translate(25.21 37.21)"><svg id="placeholder_front" width="167.96" height="143.97" preserveAspectRatio="xMidYMid slice" viewBox="0 0 167.96 143.97"><use stroke-width="0.24075000000000005mm" xlink:href="#_front-path" stroke="#ffffff"/><use stroke-width="0.24075000000000005mm" xlink:href="#_front-path" stroke="#000000" stroke-dasharray="0.4815000000000001mm, 0.4815000000000001mm"/></svg></g></g>
+  </g>
+  <g id="outlines">
+    <g>
+      <circle cx="109.19" cy="199.61" r="14.63" fill="none" stroke="#c7c4c4" stroke-miterlimit="264.65" stroke-width="1.15"/>
+      <path d="M121.13,208.06a14.63,14.63,0,0,1-23.87,0" fill="none" stroke="#46b75b" stroke-miterlimit="264.65" stroke-width="1.15"/>
+    </g>
+    <path id="Bleed area" d="M25.21,37.21v144h168v-144Zm162,132a6,6,0,0,1-6,6h-144a6,6,0,0,1-6-6v-120a6,6,0,0,1,6-6h144a6,6,0,0,1,6,6Z" fill="#fff" opacity="0.2"/>
+    <path id="Bleed area" d="M25.21,37.21v144h168v-144Zm162,132a6,6,0,0,1-6,6h-144a6,6,0,0,1-6-6v-120a6,6,0,0,1,6-6h144a6,6,0,0,1,6,6Z" opacity="0.2"/>
+    <rect id="Safe area" x="31.21" y="43.21" width="155.96" height="131.97" rx="6" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.47"/>
+    <rect id="Safe area" x="31.21" y="43.21" width="155.96" height="131.97" rx="6" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.47" stroke-dasharray="5.33 5.33"/>
+    <rect id="Print area" x="28.21" y="40.21" width="161.96" height="137.97" rx="6" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.94"/>
+  </g>
+</svg>

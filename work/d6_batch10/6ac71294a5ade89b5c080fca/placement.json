@@ -1,0 +1,94 @@
+{
+ "product_id": "6ac71294a5ade89b5c080fca",
+ "shop_id": "26418699",
+ "title": "Silent Night Manger Christmas Hoodie \u2014 Cozy Pullover Hoodie, Christmas Gift | Winstar4U",
+ "blueprint_id": 77,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac860e18fe5dd74c95a7a3b",
+ "image_name": "faith-silent-night-transparent.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/2f40d8b4-3a06-4c75-a5db-1b2402a067e5",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "dtg",
+ "visible": true,
+ "updated_at": "2026-10-09 04:10:26+00:00",
+ "defect_cause": "other",
+ "defect_note": "DEFECT",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.9,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.1538,
+  0.0649,
+  0.8477,
+  0.9297
+ ],
+ "contrast_vs_black": 0.203,
+ "contrast_vs_white": 0.471,
+ "low_contrast": true,
+ "current_content_box_in_placeholder": [
+  0.1884,
+  -0.0878,
+  0.8129,
+  1.0806
+ ],
+ "current_inside_safe_frac": {
+  "32912": 0.8277,
+  "32878": 0.8277,
+  "32879": 0.8277
+ },
+ "effective_px_ratio_after": 0.843,
+ "proposed": {
+  "x": 0.5002,
+  "y": 0.504,
+  "scale": 0.688,
+  "angle": 0
+ },
+ "placeholders": {
+  "32912": [
+   3531,
+   2352
+  ],
+  "32878": [
+   2919,
+   1944
+  ],
+  "32879": [
+   3273,
+   2180
+  ]
+ },
+ "safe_area_source": {
+  "32912": "rect",
+  "32878": "rect",
+  "32879": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "32912": 1.0,
+  "32878": 1.0,
+  "32879": 1.0
+ },
+ "new_art_category": "",
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 8%",
+  "bottom 7%"
+ ],
+ "notes": [
+  "Contrast metric (47% <2.5:1 vs White) driven by the cream/gold glow and white sparkles; visually checked on #F9F9F9: 'SILENT NIGHT' (cream-gold with darker gold shading) and the manger remain legible though softer; fine on all dark colours. CAUTION (owner choice, not blocking): White variants show a paler print - consider disabling White or a darker-gold text variant later.",
+  "NEEDS_NEW_ART: low-contrast ink vs an enabled blank colour (see LOW-CONTRAST note) - needs a recolour/outline of the text/art layer (or owner disables the affected variants). Placement computed+verified; apply with the new art.",
+  "geometry checked for 32 enabled variants (3 distinct placeholder geometries)",
+  "LOW-CONTRAST: 47% of the art's opaque pixels have contrast < 2.5:1 against the enabled white blank (light ink on light blank) - not fixable by placement",
+  "current: 17.2% of visible content outside safe area (variant 32912)"
+ ],
+ "live_change_made": false
+}

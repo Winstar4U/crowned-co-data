@@ -1,0 +1,71 @@
+{
+ "product_id": "6ac702c1826b7669c103bcbf",
+ "shop_id": "26418699",
+ "title": "Everyone Go Home Christmas Tote Bag \u2014 Festive Holiday Shopping Bag, Reusable Gift Bag | Winstar4U",
+ "blueprint_id": 507,
+ "print_provider_id": 48,
+ "position": "front",
+ "image_id": "6ac87887ab493563659a8292",
+ "image_name": "everyone-go-home.png-TRANSPARENT.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/dc309130-37b4-4287-8e87-e60bccc5c509",
+ "image_px": [
+  1707,
+  1990
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 05:16:04+00:00",
+ "defect_cause": "other",
+ "defect_note": "DEFECT \u2014 title/artwork mismatch \u2014 titled \"Everyone Go Home\" but artwork shows \"ALL I WANT FOR CHRISTMAS\"",
+ "current": {
+  "x": 0.5,
+  "y": 0.42,
+  "scale": 0.75,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.0059,
+  0.005,
+  0.9941,
+  0.995
+ ],
+ "current_content_box_in_placeholder": [
+  0.1294,
+  0.1954,
+  0.8706,
+  0.6446
+ ],
+ "current_inside_safe_frac": {
+  "80814": 0.6261
+ },
+ "effective_px_ratio_after": 1.2,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.26,
+  "scale": 0.677,
+  "angle": 0
+ },
+ "placeholders": {
+  "80814": [
+   2102,
+   4051
+  ]
+ },
+ "safe_area_source": {
+  "80814": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "80814": 1.0
+ },
+ "new_art_category": "",
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "LOW: art phrase 'All I Want for Christmas' echoes a song title (common phrase; no lyrics/marks/likeness) - review",
+ "clip_edges_current": [],
+ "notes": [
+  "Register said title/artwork mismatch: NOT confirmed - source art reads 'ALL I WANT FOR CHRISTMAS IS FOR EVERYONE TO GO HOME.' which matches the title; the live front mockup only shows 'ALL I WANT FOR CHRISTMAS' because the 507/48 placeholder spans both tote faces (2102x4051; front face = top half v<0.5) and live y=0.42/scale 0.75 pushes the lower half of the art (incl. 'EVERYONE TO GO HOME') across the fold onto the back face. Fix keeps the whole design inside the FRONT-face safe square (y=0.26). IP LOW: 'All I Want for Christmas' echoes a song title (phrase in common use; no lyrics/marks).",
+  "current: 37.4% of visible content outside safe area (variant 80814)"
+ ],
+ "live_change_made": false
+}

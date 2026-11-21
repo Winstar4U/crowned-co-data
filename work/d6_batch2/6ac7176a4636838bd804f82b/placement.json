@@ -1,0 +1,73 @@
+{
+ "product_id": "6ac7176a4636838bd804f82b",
+ "shop_id": "26418699",
+ "title": "Christmas Stress Tinsel Done Christmas Backpack \u2014 Holiday School Bag, Christmas Gift | Winstar4U",
+ "blueprint_id": 10823,
+ "print_provider_id": 99,
+ "position": "front_dtf",
+ "image_id": "6ac85d654be9797c9ffbd402",
+ "image_name": "christmas-stress-tinsel-done.png-TRANSPARENT.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/bbcf0f22-8386-417c-b49a-b3a785559692",
+ "image_px": [
+  1243,
+  1502
+ ],
+ "decoration_method": "dtf",
+ "visible": true,
+ "updated_at": "2026-10-09 03:20:34+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT-SEVERE (bottom line \"100% DONE\" cropped off)",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.9,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.008,
+  0.0067,
+  0.992,
+  0.9933
+ ],
+ "current_content_box_in_placeholder": [
+  0.0572,
+  -0.9307,
+  0.9428,
+  1.9307
+ ],
+ "current_inside_safe_frac": {
+  "401444": 0.3909
+ },
+ "effective_px_ratio_after": 1.843,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.496,
+  "scale": 0.281,
+  "angle": 0
+ },
+ "placeholders": {
+  "401444": [
+   2400,
+   900
+  ]
+ },
+ "safe_area_source": {
+  "401444": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "401444": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 33%",
+  "bottom 33%"
+ ],
+ "notes": [
+  "Cosmetic: art headline starts with a stray unmatched opening quote mark (\u2018CHRISTMAS ... no closing quote). Not a placement issue; optional text fix on next art refresh. Contrast caveat: dark green/maroon text on black backpack (dtf) - low contrast.",
+  "current: 60.9% of visible content outside safe area (variant 401444)"
+ ],
+ "live_change_made": false
+}

@@ -1,0 +1,127 @@
+{
+ "product_id": "6ac6fe9c7a961335020e18a9",
+ "shop_id": "26418699",
+ "title": "\"Dreaming Stress Free Christmas\" Christmas Crewneck Sweatshirt \u2014 Festive Holiday Crewneck Sweatshirt Gift | Winstar4U",
+ "blueprint_id": 1436,
+ "print_provider_id": 99,
+ "position": "front",
+ "decoration_method": "dtg",
+ "issue": "repaired-art WARN: low resolution (src/print ratio 0.49 = 146 dpi) on fixed/6e444f4fc6",
+ "fix": "local Real-ESRGAN anime6B x1.54 (edge-bleed, no white matte), placement unchanged",
+ "art": {
+  "file": "crowned-co-data/work/d6_final_rework/art/6ac6fe9c7a961335020e18a9_realesrgan-anime6B_x1.54.png",
+  "px": [
+   3150,
+   3150
+  ],
+  "sha1": "436987e6edf4a9f50d016a020cc66cfd6302d91d",
+  "native_source_width_px": 2048,
+  "upscaled": true
+ },
+ "print_areas": [
+  {
+   "variant_ids": [
+    104726,
+    104727,
+    104791
+   ],
+   "placement": {
+    "angle": 0,
+    "scale": 1.0,
+    "x": 0.5,
+    "y": 0.5
+   }
+  }
+ ],
+ "qa": {
+  "art": "/home/user/crowned-co-data/work/d6_final_rework/art/6ac6fe9c7a961335020e18a9_realesrgan-anime6B_x1.54.png",
+  "px": [
+   3150,
+   3150
+  ],
+  "bbox": [
+   0.1279,
+   0.1238,
+   0.8619,
+   0.8867
+  ],
+  "per_variant": {
+   "104791": {
+    "placeholder": [
+     4200,
+     4800
+    ],
+    "placement": {
+     "x": 0.5,
+     "y": 0.5,
+     "scale": 1.0,
+     "angle": 0
+    },
+    "rect_inside": 1.0,
+    "shape_inside": 1.0,
+    "safe_area": "rect(no svg)",
+    "ratio": 0.75,
+    "effective_dpi": 225,
+    "native_dpi": 146
+   },
+   "104726": {
+    "placeholder": [
+     3461,
+     3955
+    ],
+    "placement": {
+     "x": 0.5,
+     "y": 0.5,
+     "scale": 1.0,
+     "angle": 0
+    },
+    "rect_inside": 1.0,
+    "shape_inside": 1.0,
+    "safe_area": "rect(no svg)",
+    "ratio": 0.91,
+    "effective_dpi": 273,
+    "native_dpi": 178
+   },
+   "104727": {
+    "placeholder": [
+     3839,
+     4387
+    ],
+    "placement": {
+     "x": 0.5,
+     "y": 0.5,
+     "scale": 1.0,
+     "angle": 0
+    },
+    "rect_inside": 1.0,
+    "shape_inside": 1.0,
+    "safe_area": "rect(no svg)",
+    "ratio": 0.821,
+    "effective_dpi": 246,
+    "native_dpi": 160
+   }
+  },
+  "largest_variant": "104791",
+  "dpi_largest": 225,
+  "native_dpi_largest": 146,
+  "dpi_min": 225,
+  "native_dpi_min": 146,
+  "inside_min": 1.0,
+  "upscaled": true
+ },
+ "status": "WARN",
+ "reason": "upscaled: effective 225 dpi, native 146 dpi (upscale adds no true detail)",
+ "before": {
+  "file": "crowned-co-data/work/d6_new_art/fixed/6e444f4fc6ce3fc5fb144f255d759c245e0a9bd4.png",
+  "placement": {
+   "x": 0.5,
+   "y": 0.5,
+   "scale": 1.0,
+   "angle": 0
+  },
+  "dpi_largest": 146,
+  "inside_min": 1.0
+ },
+ "live_change_made": false,
+ "note": "NON-LIVE staging file. Nothing uploaded. Applying it needs an image upload + product update = owner-approved write."
+}

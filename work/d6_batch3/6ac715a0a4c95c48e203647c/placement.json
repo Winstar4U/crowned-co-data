@@ -1,0 +1,87 @@
+{
+ "product_id": "6ac715a0a4c95c48e203647c",
+ "shop_id": "26418699",
+ "title": "Happy Holidays Tree Christmas Laptop Sleeve \u2014 Stylish Tech Travel Gift, Holiday Gift | Winstar4U",
+ "blueprint_id": 429,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac70f1158b544dcbb743f7c",
+ "image_name": "nostalgic-happy-holidays-tree.jpg",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/7427f397-5b1d-4288-9a6d-3974f2868464",
+ "image_px": [
+  1536,
+  2048
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 02:00:42+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT (HOLIDAYS cropped top)",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.9,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0553,
+  0.0342,
+  0.957,
+  0.9526
+ ],
+ "current_content_box_in_placeholder": [
+  0.0998,
+  -0.2686,
+  0.9113,
+  1.2469
+ ],
+ "current_inside_safe_frac": {
+  "62038": 0.5237,
+  "62037": 0.5436,
+  "62039": 0.5038
+ },
+ "effective_px_ratio_after": 0.655,
+ "proposed": {
+  "x": 0.5023,
+  "y": 0.504,
+  "scale": 0.521,
+  "angle": 0
+ },
+ "placeholders": {
+  "62038": [
+   4125,
+   3000
+  ],
+  "62037": [
+   3600,
+   2700
+  ],
+  "62039": [
+   4500,
+   3225
+  ]
+ },
+ "safe_area_source": {
+  "62038": "rect",
+  "62037": "rect",
+  "62039": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "62038": 1.0,
+  "62037": 1.0,
+  "62039": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 18%",
+  "bottom 16%"
+ ],
+ "notes": [
+  "geometry checked for 3 enabled variants (3 distinct placeholder geometries)",
+  "current: 49.6% of visible content outside safe area (variant 62039)"
+ ],
+ "live_change_made": false
+}

@@ -1,0 +1,96 @@
+{
+ "product_id": "6ac714820ed8f1657605f396",
+ "shop_id": "26418699",
+ "title": "Santas Favorite Distraction Christmas Baby Onesie \u2014 Adorable Baby Christmas Gift, Holiday Gift | Winstar4U",
+ "blueprint_id": 568,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac860124be9797c9ffbd505",
+ "image_name": "santas-favorite-distraction-transparent.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/13493b18-b2bc-473f-aef7-bfe1a56ae630",
+ "image_px": [
+  851,
+  1024
+ ],
+ "decoration_method": "dtg",
+ "visible": true,
+ "updated_at": "2026-10-09 03:38:15+00:00",
+ "defect_cause": "checkerboard",
+ "defect_note": "DEFECT (unrendered-transparency checkerboard background artifact)",
+ "current": {
+  "x": 0.5,
+  "y": 0.3,
+  "scale": 0.9,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.0,
+  0.0,
+  1.0,
+  1.0
+ ],
+ "contrast_vs_blue": 0.635,
+ "current_content_box_in_placeholder": [
+  0.05,
+  -0.1739,
+  0.95,
+  0.7739
+ ],
+ "current_inside_safe_frac": {
+  "71073": 0.7727,
+  "70900": 0.7727,
+  "70904": 0.7727,
+  "71089": 0.7727
+ },
+ "effective_px_ratio_after": 0.475,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.854,
+  "angle": 0
+ },
+ "placeholders": {
+  "71073": [
+   1500,
+   1714
+  ],
+  "70900": [
+   1800,
+   2056
+  ],
+  "70904": [
+   2100,
+   2400
+  ],
+  "71089": [
+   1200,
+   1371
+  ]
+ },
+ "safe_area_source": {
+  "71073": "rect",
+  "70900": "rect",
+  "70904": "rect",
+  "71089": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "71073": 1.0,
+  "70900": 1.0,
+  "70904": 1.0,
+  "71089": 1.0
+ },
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 18%"
+ ],
+ "notes": [
+  "NEEDS_NEW_ART: baked-in transparency CHECKERBOARD confirmed in the source file (visually checked on black + magenta backgrounds): santas-favorite-distraction-transparent.png (851x1024) has a semi-opaque grey/white checkerboard over the entire background and the pom-pom/brim edge is punched out; also LOW-RES (2.1x upscale). Live y=0.30 crops the top 18% (hat tip); corrected placement (x=0.5 y=0.5 scale 0.854, all 6 enabled sizes) verified - apply with a clean >=2000 px transparent re-export.",
+  "geometry checked for 6 enabled variants (4 distinct placeholder geometries)",
+  "LOW-RES: art upscaled 2.1x on largest variant (src px/print px=0.47)",
+  "current: 22.7% of visible content outside safe area (variant 71073)"
+ ],
+ "live_change_made": false
+}

@@ -1,0 +1,117 @@
+# Winstar Five-Shop Recovery — Session Checkpoint
+
+**Read this first in every new session. Update it at the end of every session. Keep it under one screen.**
+
+## Operating rules (memory/checkpoint design)
+
+- **One state file:** this `CHECKPOINT.md`. It holds current state, open decisions and next actions only, never history. History lives in git commits and the long register.
+- **Evidence files are the cache:** reuse the evidence files below instead of re-fetching from Printify. Re-fetch only an ID whose `updated_at` may have changed (delta only).
+- **Bridge is the shared record:** every deliverable gets one Bridge post that cites the commit hash. Do not post routine status updates.
+- **Verified vs claimed:** a fact counts as VERIFIED only with a tool-call source and date. Agent posts, including chatgpt's, are claims until checked.
+- **Budget:** prefer single-product `product_id` fetches and grep over the register. Avoid catalog-wide list calls.
+- **Hourly dispatcher:** Bridge + Printify only. If nothing is eligible, exit silently.
+
+## Evidence index (cache)
+
+| What | Where |
+|---|---|
+| 48 tapestry + 45 duffel cost/price (VERIFIED 2026-11-18/19) | `reports/Winstar_Tapestry_Duffel_Profitability_Evidence.md` |
+| 384-row tapestry pricing correction table | `reports/Winstar_Tapestry_Pricing_Correction_Table.csv` |
+| Tapestry pricing approval packet + duffel mapping findings | `reports/Winstar_Tapestry_Pricing_Correction_Packet.md` |
+| Checkerboard Printify support ticket (ready to submit) | `reports/Printify_Support_Packet_Checkerboard_Legacy_Variants.md` |
+| Full defect and repair history | `reports/Winstar_Five_Shop_Quality_Register.md` (long; grep, don't read) |
+| Tapestry shipping (bp 241/pp 99, US first item) | $5.69 / $6.99 / $9.29 / $9.29 (fetched 2026-11-19) |
+| **SELL NOW / REPAIR FIRST / HOLD / UNKNOWN register (3,008 products)** | `reports/Winstar_Sales_Readiness_Register.csv` + `.md` (built 2026-11-19 by `work/build_sales_register.py`) |
+| **Owner decision register D1-D7** | `reports/Winstar_Owner_Decision_Register.md` |
+
+## Waiting on owner (nothing executes until decided). Full detail in `Winstar_Owner_Decision_Register.md`
+
+- D1 tapestry pricing (A / B / C)
+- D2 who pays shipping
+- D3 the 5 duffels with no Shopify link
+- D4 checkerboard support ticket (owner action)
+- D5 eBay/Amazon/TikTok listing exports (owner action)
+- D6 repair approval for 389 products with artwork defects (Batch 1 = 3 ornaments)
+- D7 optional Texaco unpublish
+
+## Known blockers
+
+- Egress to `4juy1i-kq.myshopify.com` is refused, so the Winstar4U storefront cannot be checked from here.
+- The Shopify app connected in this session is "Winstar Marketing" (winstarmarketing.shop), **not** the Winstar4U store.
+- Luzilly Fragrances (T-3Z2E4A4V60) is deferred by the owner. Do not claim it.
+
+## D6 / D7 artwork state (2026-11-19 23:00 UTC)
+
+- **Queue:** `work/artwork_redesign_batches.csv`. 389 products in 10 batches (9 x 40, then 29). Order: products with a channel link first, then holiday, then easiest fix.
+- **Batch 1:** DONE as non-live prep. Ran 22:16:50 to 22:49:20 UTC (32.5 min). Evidence is in `work/d6_batch1/`: `batch1_results.csv`, contact sheets 1 and 2, and per-product `placement.json` and `before_after.png`.
+  - **34 READY_FOR_REVIEW:** corrected placement, geometry check passed.
+  - **4 NEEDS_NEW_ART:** 3 have opaque white backgrounds; Candy Cane Lane `6ac7125707e4149a0f001074` has a blank sign.
+  - **2 BLOCKED:**
+    - `69b0212c4fead7b1ce06b69e` is a duplicate "Copy of" listing, not an art defect.
+    - `6ac70ec09a2f0cb82508f89a`: the defect could not be reproduced.
+  - Nothing is live. Applying the fixes needs owner approval, product by product.
+- **Batch 2:** DONE non-live 23:18:54–23:32:37 UTC (13.7 min). 30 READY, 9 NEEDS_NEW_ART, 1 BLOCKED. Evidence `work/d6_batch2/`.
+- **Batch 3:** DONE non-live 23:33:21–23:48:41 UTC (15.3 min). 39 READY, 1 NEEDS_NEW_ART, 0 BLOCKED. Evidence `work/d6_batch3/`.
+- **Batch 4:** DONE non-live 23:49:29–00:08:29 UTC (19 min, incl. restart). 31 READY, 1 NEEDS_NEW_ART, 8 BLOCKED (7 socks: provider 99 discontinued bp 376). Evidence `work/d6_batch4/`.
+- **Batch 5:** DONE non-live 00:09:30–00:25:36 UTC (16 min). 25 READY, 11 NEEDS_NEW_ART, 4 BLOCKED (3 more socks bp 376). Evidence `work/d6_batch5/`.
+- **Batch 6:** DONE non-live 00:26:26–00:44:08 UTC (18 min). 1 READY, 39 NEEDS_NEW_ART (source-art defects: checkerboard, white box on black hats, dark-on-dark, blank banners). Evidence `work/d6_batch6/`.
+- **Batch 7:** DONE non-live 00:44:59–00:56:10 UTC (11 min). 2 READY, 35 NEEDS_NEW_ART (blank text 15, garbled 9, engraving 10, contrast 1), 3 BLOCKED (candles: provider 99 discontinued). Evidence `work/d6_batch7/`.
+- **Batch 8:** DONE non-live 00:57:04–01:20:05 UTC (23 min). 25 READY, 11 NEEDS_NEW_ART, 4 BLOCKED (candles, provider 99). Evidence `work/d6_batch8/`.
+- **Batch 9:** DONE non-live 01:20:51–01:45 UTC (25 min). 24 READY, 16 NEEDS_NEW_ART (11 white box on black backpacks). Evidence `work/d6_batch9/`.
+- **Batch 10:** DONE non-live 01:46:21–02:01:51 UTC (15.5 min). 13 READY, 16 NEEDS_NEW_ART. ALL 389 PREPPED.
+- **New art (02:02–02:26 UTC):** 143 inventoried. 64 FIXED_LOCAL (transparent/outlined files in `work/d6_new_art/fixed/`), 10 FAILED_LOCAL, 69 NEEDS_GENERATION (grouped by shared art; ~41 unique files). See `work/d6_new_art/results.csv`.
+- **Next:** Higgsfield regeneration, largest shared-art groups first (Candy Cane Lane, Tree Up, Elf, Santa VIP).
+- **D7:** 2 Higgsfield variants generated. They are not inspected because the image host is blocked here, and the star emblem still needs a trademark check. See `work/d7_texaco_replacement/README.md`.
+- **Notifications:** batch packets go to the Bridge as soon as each batch finishes. There is no push to the owner's phone: the Bridge has no webhooks configured, and PushNotification isn't set up.
+
+## Black Friday Phase 6 (2026-11-20 about 17:10 UTC): PACKAGE DELIVERED, waiting on owner
+- **Master package:** `reports/phase6/PHASE6_PACKAGE.md`. It covers the scoreboard, blockers, QA index, wording recommendations, live batches, Black Friday shortlist, promo drafts and the decision register.
+- **Live batches:** LA-01 to LA-08 in `reports/phase6/live_application_batches.csv`.
+  - 299 Shopify products, each with the exact change, risk and rollback.
+  - 1 product is linked. For the other 298, the change has no publish step.
+- **QA fixes** (`work/d6_qa_fixes/`): 8 PASS, 15 WARN (upscale-dependent).
+- **Warn disposition** (`work/d6_warn_disposition/`): 91 ACCEPT, 13 FIXED, 1 REWORK (Santa's List scarf), 1 OWNER (cribbage).
+- **Black Friday drafts:** `reports/black_friday/` (23 products, offers BF-A to BF-G).
+- **Bridge:** P-475F6P6J6A, P-4P6T5C6T31, P-2Q0X721S4B, plus the package post.
+- **Nothing is live.**
+
+## BF launch (2026-11-20 21:00 UTC)
+- **Packet:** `reports/black_friday/launch/LAUNCH_APPROVAL_PACKET.md`.
+- **Wave 1:** 16 products whose public pages were verified LIVE (Etsy 15, Amazon 1), all at regular price.
+- **On hold:** 10 Shopify products. winstarmarketing.shop is on hold.
+- **Decisions:** `reports/phase6/OWNER_DECISIONS.md`.
+- **Final art rework:** `work/d6_final_rework/` (49 per-product wording previews).
+
+## Acceptance (2026-11-21 01:10 UTC)
+- **Manifest:** `reports/black_friday/acceptance/manifest.csv`. 41 Etsy and Amazon products: tier A 20, tier B 16, tier C (hold) 5.
+- **OD-14:** complete hold on winstarmarketing.shop and Printify shop 26418699. No reads, crawling, API calls or promotion.
+- **Relayed owner decisions (P-6B5H4J4D6R):** approve GATE-A and GATE-A2 in principle only. Every live step still needs separate approval.
+
+## Next action for the next session (resume here)
+
+0. Run `/resume`. Check the Bridge for owner replies to the PHASE6 decision register (wording reply line, `APPROVE LA-xx`, BF offers, D2). Execute ONLY the exact approved items, following the per-batch steps in PHASE6_PACKAGE.md section 5:
+   1. Snapshot the product.
+   2. Upload any new art.
+   3. Upsert the product.
+   4. Re-fetch it and verify.
+   If there is no owner reply, the remaining non-live work is to source a clean Santa's List scarf PNG, and to ask the crowned-co-data session to regenerate the 20 items in the generation list.
+
+1. Apply any D-decisions the owner has answered (D1 = set prices on 48 products from the CSV, then re-fetch each to verify).
+2. ~~Pull the Shopify catalog and fill Shopify `channel_link`.~~ **DONE 2026-11-19:** read-only pull of shop 26418699 (51 pages, 2,508 products; 486 have a storefront URL). Of the 1,602 Shopify SELL NOW rows, 330 have a link and stay SELL NOW; 1,272 have no link and are now UNKNOWN. 450 pulled Shopify products have no inspection row (UNKNOWN). New totals: SELL NOW 608 (Shopify 330, Etsy 241, TikTok 20, Amazon 17), REPAIR FIRST 447, HOLD 1, UNKNOWN 1,930, REMOVED 22. Linked holiday shortlist: 348 (Shopify 219, Etsy 92, TikTok 20, Amazon 17). Still to do: give ChatGPT the linked holiday list.
+3. Then do D6 offline prep: corrected placement values for holiday REPAIR FIRST products, worst blueprint first. No live writes.
+
+## Network blocker for Higgsfield (2026-11-20 02:30 UTC)
+- The Default environment's proxy refuses `upload.higgsfield.ai` and the Higgsfield CDNs (`d8j0ntlcm91z4.cloudfront.net`, `d2ol7oe51mr4n9.cloudfront.net`). Without them, original art can't be uploaded as a reference and generated art can't be downloaded or checked.
+- I created a personal environment, **crowned-co-data** (`env_015q5EFENfgNJvd5DYp1ZNLK`), that allows those hosts plus the existing Printify and Etsy hosts. This session could not switch to it.
+- **To resume the Higgsfield regeneration:** start a new session on crowned-co-data, run `/resume`, then work through the GENERATE groups in `work/d6_new_art/results.csv` (largest shared-art groups first) and review the D7 art (`work/d7_texaco_replacement/README.md`).
+
+## D6 art repair status (2026-11-20 04:40 UTC, commit after QA)
+- **Placement-only fixes:** 224 products, geometry verified.
+- **Local art fixes (64), independent QA:** 45 PASS, 15 WARN, 4 FAIL. The 4 failures:
+  - `6ac717a24636838bd804f846`: light-ray hole.
+  - `6ac7113450fc6704d30bf944`: "HAPPY" is garbled on the shot glass.
+  - 2 duvets print at 51 dpi.
+- **Re-repairs of the 10 earlier failures:** 8 PASS, 2 WARN. Files are in `work/d6_new_art/fixed/*_v2.png`.
+- **Local text, blank and low-res repairs:** 49 of 69 fixed (22 art files in `work/d6_new_art/text_fix/`). The other 20 still need generation: 14 engraving tumblers, 4 Jingle banners, 1 skeleton, 1 wreath.
+- **Promotion candidates:** `reports/Winstar_Repaired_Promotion_Candidates.csv` has 343 products. 316 are tier A and 27 are tier B (warnings). Only 3 have a live channel link, so nearly all need publishing or linking to a sales channel after approval before they can be promoted.
+- **Higgsfield:** still blocked in this session. Use the crowned-co-data environment.

@@ -1,0 +1,89 @@
+{
+ "product_id": "6ac71284fb1d11d19e036ffe",
+ "shop_id": "26418699",
+ "title": "Chillin With Santa Penguin Christmas Hoodie \u2014 Cozy Pullover Hoodie, Christmas Gift | Winstar4U",
+ "blueprint_id": 77,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac860e4ddd5a42b9ce132ba",
+ "image_name": "christmas-penguin-chillin-transparent.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/928c72ce-b210-407a-b010-0937b4ff8a22",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "dtg",
+ "visible": true,
+ "updated_at": "2026-10-09 04:11:36+00:00",
+ "defect_cause": "other",
+ "defect_note": "DEFECT",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.9,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.1572,
+  0.1055,
+  0.832,
+  0.9141
+ ],
+ "contrast_vs_black": 0.172,
+ "current_content_box_in_placeholder": [
+  0.1915,
+  -0.0331,
+  0.7988,
+  1.0595
+ ],
+ "current_inside_safe_frac": {
+  "32912": 0.9152,
+  "32878": 0.9152,
+  "32879": 0.9152
+ },
+ "effective_px_ratio_after": 0.79,
+ "proposed": {
+  "x": 0.4991,
+  "y": 0.488,
+  "scale": 0.734,
+  "angle": 0
+ },
+ "placeholders": {
+  "32912": [
+   3531,
+   2352
+  ],
+  "32878": [
+   2919,
+   1944
+  ],
+  "32879": [
+   3273,
+   2180
+  ]
+ },
+ "safe_area_source": {
+  "32912": "rect",
+  "32878": "rect",
+  "32879": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "32912": 1.0,
+  "32878": 1.0,
+  "32879": 1.0
+ },
+ "new_art_category": "",
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 3%",
+  "bottom 5%"
+ ],
+ "notes": [
+  "geometry checked for 32 enabled variants (3 distinct placeholder geometries)",
+  "current: 8.5% of visible content outside safe area (variant 32912)"
+ ],
+ "live_change_made": false
+}

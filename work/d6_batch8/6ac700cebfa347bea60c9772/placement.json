@@ -1,0 +1,76 @@
+{
+ "product_id": "6ac700cebfa347bea60c9772",
+ "shop_id": "26418699",
+ "title": "\"Reason For Season\" Christmas Scented Candle \u2014 11oz Holiday Candle, Cozy Christmas Gift for Her, Stocking Stuffer | Winstar4U",
+ "blueprint_id": 727,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac8626e4851e73349fc8172",
+ "image_name": "faith-reason-for-season.png-TRANSPARENT.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/a7f3c155-f3c2-4d0d-bcae-dbe0ccddcffd",
+ "image_px": [
+  1529,
+  1296
+ ],
+ "decoration_method": "digital-printing",
+ "visible": true,
+ "updated_at": "2026-10-09 03:41:38+00:00",
+ "defect_cause": "other",
+ "defect_note": "DEFECT \u2014 overscale/zoomed design \u2014 title text entirely absent from view",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 1.0,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.0065,
+  0.0077,
+  0.9935,
+  0.9923
+ ],
+ "current_content_box_in_placeholder": [
+  0.0065,
+  -1.3372,
+  0.9935,
+  2.3372
+ ],
+ "current_inside_safe_frac": {
+  "73689": 0.1883
+ },
+ "effective_px_ratio_after": 2.1,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.496,
+  "scale": 0.245,
+  "angle": 0
+ },
+ "placeholders": {
+  "73689": [
+   2972,
+   675
+  ]
+ },
+ "safe_area_source": {
+  "73689": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "73689": 1.0
+ },
+ "new_art_category": "",
+ "status": "BLOCKED",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 36%",
+  "bottom 36%"
+ ],
+ "notes": [
+  "BLOCKED (not producible): print provider 99 NO LONGER manufactures blueprint 727 (get-blueprint-variants 727/99 -> 404 provider mismatch, verified in batch 7 today; only provider 75 SwagRabbit offers it) and both enabled scents report is_available=false. Art itself is fine; live scale 1.0 on the 2972x675 wrap label crops 36% top/bottom (title text absent from view, matches register). Reference placement (scale 0.245, inside the 30-70% visible band, computed on provider-75 dims) is in placement.json. Owner decision: rebuild on provider 75 (new product = production write) or retire.",
+  "OUT OF STOCK: enabled variant(s) 73688,73689 report is_available=false (still offered by provider)",
+  "geometry checked for 2 enabled variants (1 distinct placeholder geometries)",
+  "current: 81.2% of visible content outside safe area (variant 73689)"
+ ],
+ "live_change_made": false
+}

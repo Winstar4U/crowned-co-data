@@ -1,0 +1,79 @@
+{
+ "product_id": "6ac711337be9df884b032d50",
+ "shop_id": "26418699",
+ "title": "Merry Christmas Lets Get Lit Christmas Baby Onesie \u2014 Adorable Baby Christmas Gift, Holiday Gift | Winstar4U",
+ "blueprint_id": 568,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac85ff4c1de3c55d67ce46c",
+ "image_name": "merry-christmas-lets-get-lit-transparent.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/7932c0ca-7857-444a-801d-b31f708404d9",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "dtg",
+ "visible": true,
+ "updated_at": "2026-10-09 04:09:14+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT (minor) \u2014 top word (\"MERRY\") clipped at collar edge; content itself is the innocent Christmas-tree-light pun, no real alcohol imagery",
+ "current": {
+  "x": 0.5,
+  "y": 0.3,
+  "scale": 0.9,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.1157,
+  0.02,
+  0.8892,
+  0.98
+ ],
+ "current_content_box_in_placeholder": [
+  0.1542,
+  -0.0782,
+  0.8502,
+  0.6782
+ ],
+ "current_inside_safe_frac": {
+  "70900": 0.8426,
+  "70904": 0.8426
+ },
+ "effective_px_ratio_after": 1.084,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.432,
+  "scale": 0.9,
+  "angle": 0
+ },
+ "placeholders": {
+  "70900": [
+   1800,
+   2056
+  ],
+  "70904": [
+   2100,
+   2400
+  ]
+ },
+ "safe_area_source": {
+  "70900": "rect",
+  "70904": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "70900": 1.0,
+  "70904": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 10%"
+ ],
+ "notes": [
+  "geometry checked for 3 enabled variants (2 distinct placeholder geometries)",
+  "current: 15.7% of visible content outside safe area (variant 70900)"
+ ],
+ "live_change_made": false
+}

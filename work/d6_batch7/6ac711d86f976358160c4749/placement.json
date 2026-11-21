@@ -1,0 +1,79 @@
+{
+ "product_id": "6ac711d86f976358160c4749",
+ "shop_id": "26418699",
+ "title": "Truck Tree Christmas Cutting Board \u2014 Festive Kitchen Decor Board, Holiday Gift | Winstar4U",
+ "blueprint_id": 643,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac70f98df19766f478b22b5",
+ "image_name": "nostalgic-truck-tree.jpg",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/747166f1-48f2-4960-bb86-c64fb0b63d6a",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 02:03:09+00:00",
+ "defect_cause": "source-file: blank banner",
+ "defect_note": "DEFECT: recurrence \u2014 blank banner, no text rendered",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.7,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.0835,
+  0.0796,
+  0.9102,
+  0.917
+ ],
+ "current_content_box_in_placeholder": [
+  0.2084,
+  0.0906,
+  0.7871,
+  0.9061
+ ],
+ "current_inside_safe_frac": {
+  "74549": 1.0,
+  "74550": 1.0
+ },
+ "effective_px_ratio_after": 0.61,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.7,
+  "angle": 0
+ },
+ "placeholders": {
+  "74549": [
+   4800,
+   3450
+  ],
+  "74550": [
+   3525,
+   2550
+  ]
+ },
+ "safe_area_source": {
+  "74549": "rect",
+  "74550": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "74549": 1.0,
+  "74550": 1.0
+ },
+ "new_art_category": "blank_text",
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [],
+ "notes": [
+  "NEEDS_NEW_ART: green ribbon banner under the truck is BLANK (no text) in source nostalgic-truck-tree - visually confirmed. Placement inside safe area.",
+  "geometry checked for 2 enabled variants (2 distinct placeholder geometries)",
+  "current placement already inside safe area on all checked variants"
+ ],
+ "live_change_made": false
+}

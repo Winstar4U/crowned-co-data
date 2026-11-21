@@ -1,0 +1,85 @@
+{
+ "product_id": "6ac7004c0a223533b30704b5",
+ "shop_id": "26418699",
+ "title": "\"Dear Santa Explain\" Christmas Socks \u2014 Festive Holiday Sublimation Crew Socks, Fun Christmas Gift & Stocking Stuffer | Winstar4U",
+ "blueprint_id": 376,
+ "print_provider_id": 99,
+ "position": "front_left_leg",
+ "image_id": "6ac4f08fc63155c674d69af4",
+ "image_name": "dear-santa-explain.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/0e67f572-47e3-40af-a5c2-362e55841468",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 02:01:54+00:00",
+ "defect_cause": "wraparound",
+ "defect_note": "DEFECT \u2014 wraparound-fragmentation \u2014 text split illegibly around sock curvature",
+ "current": {
+  "x": 0.5,
+  "y": 0.3,
+  "scale": 0.85,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.1289,
+  0.0781,
+  0.8726,
+  0.9219
+ ],
+ "current_content_box_in_placeholder": [
+  0.1846,
+  0.2136,
+  0.8167,
+  0.3864
+ ],
+ "current_inside_safe_frac": {
+  "45132": 0.8509,
+  "45133": 0.8663,
+  "45134": 0.859
+ },
+ "effective_px_ratio_after": 2.316,
+ "proposed": {
+  "x": 0.4961,
+  "y": 0.3,
+  "scale": 0.656,
+  "angle": 0
+ },
+ "placeholders": {
+  "45132": [
+   1348,
+   5595
+  ],
+  "45133": [
+   1348,
+   5657
+  ],
+  "45134": [
+   1348,
+   5610
+  ]
+ },
+ "safe_area_source": {
+  "45132": "rect",
+  "45133": "rect",
+  "45134": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "45132": 1.0,
+  "45133": 1.0,
+  "45134": 1.0
+ },
+ "status": "BLOCKED",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [],
+ "notes": [
+  "BLOCKED (not an art defect alone): print provider 99 no longer manufactures socks blueprint 376 (re-confirmed this batch: get-blueprint-variants 376/99 -> 404 printify_blueprint_print_provider_mismatch; only provider 1 SPOKE listed) and all 3 enabled variants (45132/45133/45134) report is_available=false, so the live listing cannot be produced or repaired in place. Owner decision: rebuild on provider 1 or retire (same as the 7 batch-4 socks). REFERENCE placement below was computed+verified on 376/1 dims (same variant ids) with the stricter visible-front leg zone u 0.25-0.75, for all 4 leg positions (same image on each).",
+  "geometry checked for 3 enabled variants (3 distinct placeholder geometries)",
+  "current: 14.9% of visible content outside safe area (variant 45132)"
+ ],
+ "live_change_made": false
+}

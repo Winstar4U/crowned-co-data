@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:printify="http://printify.com/adjuster" id="canvas" preserveAspectRatio="xMidYMid meet" width="100%" height="100%" viewBox="0 0 3456 3456" printify:width="908.2" printify:height="908.2">
+
+	<defs/>
+	<g id="color_first" fill="none">
+		<svg id="artboard" x="0" y="0" width="100%" height="100%" viewBox="0 0 960 1344">
+			<rect width="100%" height="100%"/>
+	 		<svg id="placeholder_front" x="1.25in" y="1.25in" width="7.5in" height="11.5in" visibility="hidden"/>
+	 		<path id="bleed" d="M 0 0 L 1248 0 L 1248 2592 L 0 2592 z M 24 24 L 1224 24 L 1224 2568 L 24 2568 z" opacity="0.8" fill-rule="evenodd"/>
+	 	</svg>
+	</g>
+</svg>

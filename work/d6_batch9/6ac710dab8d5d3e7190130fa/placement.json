@@ -1,0 +1,81 @@
+{
+ "product_id": "6ac710dab8d5d3e7190130fa",
+ "shop_id": "26418699",
+ "title": "Keep Christ Christmas Christmas Baby Onesie \u2014 Adorable Baby Christmas Gift, Holiday Gift | Winstar4U",
+ "blueprint_id": 568,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac85feb4be9797c9ffbd4fd",
+ "image_name": "faith-keep-christ-christmas-transparent.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/6c97fc15-2034-4f6d-a340-a57529192e41",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "dtg",
+ "visible": true,
+ "updated_at": "2026-10-09 03:47:02+00:00",
+ "defect_cause": "other",
+ "defect_note": "DEFECT \u2014 minor top-text legibility (crowded ascenders near rim)",
+ "current": {
+  "x": 0.5,
+  "y": 0.3,
+  "scale": 0.9,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.0874,
+  0.0283,
+  0.9131,
+  0.9771
+ ],
+ "contrast_vs_white": 0.205,
+ "current_content_box_in_placeholder": [
+  0.1287,
+  -0.0717,
+  0.8718,
+  0.6759
+ ],
+ "current_inside_safe_frac": {
+  "70900": 0.8132,
+  "70904": 0.8132
+ },
+ "effective_px_ratio_after": 1.084,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.428,
+  "scale": 0.9,
+  "angle": 0
+ },
+ "placeholders": {
+  "70900": [
+   1800,
+   2056
+  ],
+  "70904": [
+   2100,
+   2400
+  ]
+ },
+ "safe_area_source": {
+  "70900": "rect",
+  "70904": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "70900": 1.0,
+  "70904": 1.0
+ },
+ "new_art_category": "",
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 10%"
+ ],
+ "notes": [
+  "geometry checked for 3 enabled variants (2 distinct placeholder geometries)",
+  "current: 18.7% of visible content outside safe area (variant 70900)"
+ ],
+ "live_change_made": false
+}

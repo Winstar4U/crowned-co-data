@@ -1,0 +1,7 @@
+start_utc=2026-11-20T02:02:55Z
+end_utc=2026-11-20T02:26:02Z
+note=D6 phase 2 local source-art fixes; local files only; no Printify/Bridge/git/Higgsfield calls
+
+start_utc=2026-11-20T03:57:12Z
+end_utc=2026-11-20T04:34:07Z
+note=D6 QA: Part A independent verification of 64 FIXED_LOCAL + Part B repair of 10 FAILED_LOCAL (fixed/<sha1>_v2.png); qa_results.csv, verify/*.png; local files only; no Printify/Higgsfield/Bridge/git calls

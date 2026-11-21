@@ -1,0 +1,85 @@
+{
+ "product_id": "6ac70053826b7669c103bb8d",
+ "shop_id": "26418699",
+ "title": "\"All I Want Nap\" Christmas Socks \u2014 Festive Holiday Sublimation Crew Socks, Fun Christmas Gift & Stocking Stuffer | Winstar4U",
+ "blueprint_id": 376,
+ "print_provider_id": 99,
+ "position": "front_left_leg",
+ "image_id": "6ac4efffbf13de97ae85f2da",
+ "image_name": "all-i-want-nap.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/2cf64491-a4c3-4a53-895a-caef97d813d4",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 02:01:04+00:00",
+ "defect_cause": "wraparound",
+ "defect_note": "DEFECT \u2014 wraparound-fragmentation \u2014 text split illegibly around sock curvature",
+ "current": {
+  "x": 0.5,
+  "y": 0.3,
+  "scale": 0.85,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.1719,
+  0.0601,
+  0.8286,
+  0.9473
+ ],
+ "current_content_box_in_placeholder": [
+  0.2211,
+  0.2099,
+  0.7793,
+  0.3916
+ ],
+ "current_inside_safe_frac": {
+  "45132": 0.9491,
+  "45133": 0.9608,
+  "45134": 0.9555
+ },
+ "effective_px_ratio_after": 2.045,
+ "proposed": {
+  "x": 0.4964,
+  "y": 0.3,
+  "scale": 0.743,
+  "angle": 0
+ },
+ "placeholders": {
+  "45132": [
+   1348,
+   5595
+  ],
+  "45133": [
+   1348,
+   5657
+  ],
+  "45134": [
+   1348,
+   5610
+  ]
+ },
+ "safe_area_source": {
+  "45132": "rect",
+  "45133": "rect",
+  "45134": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "45132": 1.0,
+  "45133": 1.0,
+  "45134": 1.0
+ },
+ "status": "BLOCKED",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [],
+ "notes": [
+  "BLOCKED (not an art defect alone): print provider 99 no longer manufactures socks blueprint 376 (get-blueprint-variants 376/99 -> 404 printify_blueprint_print_provider_mismatch; only provider 1 SPOKE listed) and all 3 enabled variants (45132/45133/45134) report is_available=false, so the live listing cannot be produced or repaired in place. Owner decision: rebuild on provider 1 or retire. REFERENCE placement below was computed+verified on 376/1 dims (same variant ids) with the leg-curvature zone u 0.20-0.80, and is meant for all 4 leg positions (front/back x left/right share dims and the same image).",
+  "geometry checked for 3 enabled variants (3 distinct placeholder geometries)",
+  "current: 5.1% of visible content outside safe area (variant 45132)"
+ ],
+ "live_change_made": false
+}

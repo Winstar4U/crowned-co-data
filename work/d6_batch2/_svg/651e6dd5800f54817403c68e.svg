@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="front" width="100%" height="100%" viewBox="0 0 7102.22 7102.22" xmlns:printify="http://printify.com/adjuster"  printify:width="1879.1325000000002" printify:height="1879.1325000000002">
+  <defs>
+    <clipPath id="clippath">
+      <rect x="0" y="2231.02" width="7102.22" height="2640.18" fill="none"/>
+    </clipPath>
+  <image x="0" y="0" width="7102.22" height="7102.22" id="fabric-image"/><path d="" id="fabric-0"/><clipPath id="fabric-0-clip"><use xlink:href="#fabric-0"/></clipPath><path d="" id="fabric-1"/><clipPath id="fabric-1-clip"><use xlink:href="#fabric-1"/></clipPath><rect id="_front-path" width="7102.22" height="2640.18" fill="none" transform=""/><clipPath><use stroke-width="7.8297187500000005mm" xlink:href="#_front-path"/></clipPath></defs>
+  <g id="color_first" fill-rule="nonzero" fill="#fff"><use xlink:href="#fabric-0"/><use clip-path="url(#fabric-0-clip)" xlink:href="#fabric-image"/>
+    <g clip-path="url(#clippath)" fill="none">
+      <rect id="color_background" x="0" y="2231.02" width="7102.22" height="2640.18" fill="#fff" fill-rule="nonzero"><use xlink:href="#fabric-1"/><use clip-path="url(#fabric-1-clip)" xlink:href="#fabric-image"/></rect>
+      
+    <g clip-path="url(#_front-clippath)" transform="translate(0 2231.02)"><svg id="placeholder_front" width="7102.22" height="2640.18" preserveAspectRatio="xMidYMid slice" viewBox="0 0 7102.22 2640.18"><use stroke-width="7.8297187500000005mm" xlink:href="#_front-path" stroke="#ffffff"/><use stroke-width="7.8297187500000005mm" xlink:href="#_front-path" stroke="#000000" stroke-dasharray="15.659437500000001mm, 15.659437500000001mm"/></svg></g></g>
+  </g>
+  <g id="outlines">
+    <path d="m0,2231.02v2640.18h7102.22v-2640.18H0Zm6800.69,2401.41H301.53v-2162.43h6499.16v2162.43Z" opacity=".4"/>
+    <path d="m0,2231.02v2640.18h7102.22v-2640.18H0Zm6800.69,2401.41H301.53v-2162.43h6499.16v2162.43Z" fill="#fff" opacity=".4"/>
+    <rect id="Safe Area" x="301.53" y="2470" width="6499.16" height="2162.43" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="14.79"/>
+    <rect id="Safe Area" x="301.53" y="2470" width="6499.16" height="2162.43" fill="none" stroke="#000" stroke-dasharray="0 0 0 0 147.87 147.87 0 0" stroke-linejoin="round" stroke-width="14.79"/>
+    <rect id="Print area" x="0" y="2231.02" width="7102.22" height="2640.18" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="25.2"/>
+  </g>
+</svg>

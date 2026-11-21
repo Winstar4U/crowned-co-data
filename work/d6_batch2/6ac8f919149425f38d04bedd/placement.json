@@ -1,0 +1,72 @@
+{
+ "product_id": "6ac8f919149425f38d04bedd",
+ "shop_id": "26418699",
+ "title": "Dracula With A Drink Halloween Ornament \u2013 Ceramic Tree Decoration",
+ "blueprint_id": 531,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac88413e802320c8bddb7bd",
+ "image_name": "Halloween Dracula With A Drink.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/36b30ffa-899b-4f6c-a229-85df9f627035",
+ "image_px": [
+  1150,
+  1653
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 14:24:25+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "Illustration cropped at left/bottom edge",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.78,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0087,
+  0.006,
+  0.9913,
+  0.994
+ ],
+ "current_content_box_in_placeholder": [
+  0.1168,
+  -0.0538,
+  0.8832,
+  1.0538
+ ],
+ "current_inside_safe_frac": {
+  "69370": 0.7655
+ },
+ "effective_px_ratio_after": 2.445,
+ "proposed": {
+  "x": 0.455,
+  "y": 0.56,
+  "scale": 0.493,
+  "angle": 0
+ },
+ "placeholders": {
+  "69370": [
+   954,
+   954
+  ]
+ },
+ "safe_area_source": {
+  "69370": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "69370": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 5%",
+  "bottom 5%"
+ ],
+ "notes": [
+  "current: 23.4% of visible content outside safe area (variant 69370)"
+ ],
+ "live_change_made": false
+}

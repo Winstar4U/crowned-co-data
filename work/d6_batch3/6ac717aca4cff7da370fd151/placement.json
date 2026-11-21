@@ -1,0 +1,72 @@
+{
+ "product_id": "6ac717aca4cff7da370fd151",
+ "shop_id": "26418699",
+ "title": "Hallelujah Angels Christmas Backpack \u2014 Festive Holiday Travel Bag, Christmas Gift | Winstar4U",
+ "blueprint_id": 10823,
+ "print_provider_id": 99,
+ "position": "front_dtf",
+ "image_id": "6ac8609c7cfb60cf5465adac",
+ "image_name": "faith-hallelujah-angels.png-TRANSPARENT.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/08bb0bb5-9296-4a35-a41d-f45c9ada70e9",
+ "image_px": [
+  1721,
+  1233
+ ],
+ "decoration_method": "dtf",
+ "visible": true,
+ "updated_at": "2026-10-09 05:06:39+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT-SEVERE (HALLELUJAH cropped top, only slivers visible)",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.9,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0058,
+  0.0081,
+  0.9942,
+  0.9919
+ ],
+ "current_content_box_in_placeholder": [
+  0.0552,
+  -0.3458,
+  0.9448,
+  1.3458
+ ],
+ "current_inside_safe_frac": {
+  "401444": 0.5675
+ },
+ "effective_px_ratio_after": 1.519,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.472,
+  "angle": 0
+ },
+ "placeholders": {
+  "401444": [
+   2400,
+   900
+  ]
+ },
+ "safe_area_source": {
+  "401444": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "401444": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 20%",
+  "bottom 20%"
+ ],
+ "notes": [
+  "current: 43.3% of visible content outside safe area (variant 401444)"
+ ],
+ "live_change_made": false
+}

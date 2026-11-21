@@ -1,0 +1,86 @@
+{
+ "product_id": "6ac713f042c818a1ad096025",
+ "shop_id": "26418699",
+ "title": "Happy Holidays Tree Christmas Tank Top \u2014 Cute Christmas Apparel, Holiday Gift | Winstar4U",
+ "blueprint_id": 39,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac860ae1debc4a494b85b30",
+ "image_name": "nostalgic-happy-holidays-tree-transparent.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/bbe915e2-e2fc-4340-9137-86c511b0cd3a",
+ "image_px": [
+  1536,
+  2048
+ ],
+ "decoration_method": "dtg",
+ "visible": true,
+ "updated_at": "2026-10-09 03:57:07+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT (top of \"HAPPY\" clipped by print-area edge)",
+ "current": {
+  "x": 0.5,
+  "y": 0.38,
+  "scale": 0.9,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0475,
+  0.0347,
+  0.957,
+  0.9521
+ ],
+ "current_content_box_in_placeholder": [
+  0.0928,
+  -0.0853,
+  0.9113,
+  0.8321
+ ],
+ "current_inside_safe_frac": {
+  "24828": 0.8475,
+  "24830": 0.8475,
+  "24829": 0.8475
+ },
+ "effective_px_ratio_after": 0.549,
+ "proposed": {
+  "x": 0.5001,
+  "y": 0.508,
+  "scale": 0.871,
+  "angle": 0
+ },
+ "placeholders": {
+  "24828": [
+   3210,
+   3852
+  ],
+  "24830": [
+   2631,
+   3156
+  ],
+  "24829": [
+   2920,
+   3504
+  ]
+ },
+ "safe_area_source": {
+  "24828": "rect",
+  "24830": "rect",
+  "24829": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "24828": 1.0,
+  "24830": 1.0,
+  "24829": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 9%"
+ ],
+ "notes": [
+  "geometry checked for 4 enabled variants (3 distinct placeholder geometries)",
+  "current: 15.2% of visible content outside safe area (variant 24828)"
+ ],
+ "live_change_made": false
+}

@@ -1,0 +1,87 @@
+{
+ "product_id": "6ac7151ded135347800f9cb7",
+ "shop_id": "26418699",
+ "title": "Rejoice Star Christmas Laptop Sleeve \u2014 Stylish Tech Travel Gift, Holiday Gift | Winstar4U",
+ "blueprint_id": 429,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac4f0ef928b79c8375959b1",
+ "image_name": "faith-rejoice-star.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/cd585b8c-c454-4d79-b0d7-3efbeaae3519",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 01:59:48+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT-SEVERE (REJOICE cropped top)",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.9,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0645,
+  0.042,
+  0.9385,
+  0.9702
+ ],
+ "current_content_box_in_placeholder": [
+  0.108,
+  -0.0496,
+  0.8946,
+  1.0643
+ ],
+ "current_inside_safe_frac": {
+  "62037": 0.8347,
+  "62038": 0.8015,
+  "62039": 0.785
+ },
+ "effective_px_ratio_after": 0.658,
+ "proposed": {
+  "x": 0.5003,
+  "y": 0.496,
+  "scale": 0.692,
+  "angle": 0
+ },
+ "placeholders": {
+  "62037": [
+   3600,
+   2700
+  ],
+  "62038": [
+   4125,
+   3000
+  ],
+  "62039": [
+   4500,
+   3225
+  ]
+ },
+ "safe_area_source": {
+  "62037": "rect",
+  "62038": "rect",
+  "62039": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "62037": 1.0,
+  "62038": 1.0,
+  "62039": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 4%",
+  "bottom 6%"
+ ],
+ "notes": [
+  "geometry checked for 3 enabled variants (3 distinct placeholder geometries)",
+  "current: 21.5% of visible content outside safe area (variant 62039)"
+ ],
+ "live_change_made": false
+}

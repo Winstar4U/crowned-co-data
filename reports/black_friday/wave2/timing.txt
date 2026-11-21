@@ -1,0 +1,9 @@
+Black Friday wave 2 + NOT VERIFIED resolution + Etsy uninspected (read-only)
+start_utc: 2026-11-20T23:43:15Z   (first command of this task)
+end_utc:   2026-11-21T00:27:20Z
+Firecrawl scrape calls: 25 of 30 cap (5 credits each = 125 credits), 2026-11-20 23:47:47Z - 2026-11-21 00:22:29Z (Etsy page nonce times)
+Printify get-products (product_id): 6 (shop 26418699, Task 1) + 25 (shop 26603005, Task 2) + 5 (shop 26603005, Task 3) = 36; plus 1 compact list probe (limit 2)
+Printify get-product-mockups: 1 (6af90b7eca5d307abc016117); other Task 3 mockup URLs taken from get-products images[]
+Mockup/art image downloads (curl, images.printify.com / pfy S3): 2 (Task 1) + 45 (Task 3)
+Printify calculate-shipping: 0 (no new product type; blueprints 6/49/77 provider 99 same as wave 1)
+Writes to Printify/Shopify/Etsy/Amazon/TikTok: 0. Shopify MCP: not used. winstarmarketing URLs: not touched. git: not run. Bridge: not posted.

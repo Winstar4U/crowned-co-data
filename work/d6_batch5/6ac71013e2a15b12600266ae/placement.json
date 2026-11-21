@@ -1,0 +1,88 @@
+{
+ "product_id": "6ac71013e2a15b12600266ae",
+ "shop_id": "26418699",
+ "title": "\"Christmas Wreath 2026\" Christmas Water Bottle \u2014 Funny Holiday Steel Bottle, Holiday Gift | Winstar4U",
+ "blueprint_id": 854,
+ "print_provider_id": 23,
+ "position": "front",
+ "image_id": "6ac8613a12c3453a773d67d4",
+ "image_name": "christmas-wreath-2026.png-TRANSPARENT.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/605eeefa-eeee-4539-8e2c-d0583cebe557",
+ "image_px": [
+  1504,
+  1541
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 03:44:08+00:00",
+ "defect_cause": "wraparound",
+ "defect_note": "DEFECT \u2014 title fully missing above frame (bottle wraparound)",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.8,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0066,
+  0.0065,
+  0.9934,
+  0.9935
+ ],
+ "current_content_box_in_placeholder": [
+  0.1053,
+  -0.244,
+  0.8947,
+  1.244
+ ],
+ "current_inside_safe_frac": {
+  "76801": 0.417,
+  "76802": 0.5801,
+  "76803": 0.5211
+ },
+ "effective_px_ratio_after": 0.913,
+ "proposed": {
+  "x": 0.485,
+  "y": 0.504,
+  "scale": 0.486,
+  "angle": 0
+ },
+ "placeholders": {
+  "76801": [
+   2759,
+   1500
+  ],
+  "76802": [
+   2760,
+   1996
+  ],
+  "76803": [
+   3390,
+   2232
+  ]
+ },
+ "safe_area_source": {
+  "76801": "rect",
+  "76802": "rect",
+  "76803": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "76801": 1.0,
+  "76802": 1.0,
+  "76803": 1.0
+ },
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 16%",
+  "bottom 16%"
+ ],
+ "notes": [
+  "NEEDS_NEW_ART: the live source art (christmas-wreath-2026.png-TRANSPARENT.png 1504x1541) contains ONLY the wreath + '2026' ribbon tag - the title text the register says is 'missing above frame' is absent from the file itself (visually checked), so no placement can restore it. Wreath placement into the visible-front zone is computed+verified; apply together with a re-export that includes the title.",
+  "geometry checked for 3 enabled variants (3 distinct placeholder geometries)",
+  "current: 58.3% of visible content outside safe area (variant 76801)"
+ ],
+ "live_change_made": false
+}

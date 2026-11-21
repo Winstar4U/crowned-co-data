@@ -1,0 +1,86 @@
+{
+ "product_id": "6ac713e2b814691321003889",
+ "shop_id": "26418699",
+ "title": "Candy Cane Lane Christmas Tank Top \u2014 Cute Christmas Apparel, Holiday Gift | Winstar4U",
+ "blueprint_id": 39,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac860b213b7ef794ca2a013",
+ "image_name": "nostalgic-candy-cane-lane-transparent.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/1828a201-7425-490e-b773-62c4367aea19",
+ "image_px": [
+  2048,
+  1365
+ ],
+ "decoration_method": "dtg",
+ "visible": true,
+ "updated_at": "2026-10-09 03:57:21+00:00",
+ "defect_cause": "source-file: blank banner",
+ "defect_note": "DEFECT (street-sign graphic is blank \u2014 no \"Candy Cane Lane\" text rendered)",
+ "current": {
+  "x": 0.5,
+  "y": 0.38,
+  "scale": 0.9,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.1001,
+  0.0352,
+  0.9014,
+  0.9641
+ ],
+ "contrast_vs_white": 0.316,
+ "current_content_box_in_placeholder": [
+  0.1401,
+  0.1476,
+  0.8612,
+  0.612
+ ],
+ "current_inside_safe_frac": {
+  "24828": 1.0,
+  "24830": 1.0,
+  "24829": 1.0
+ },
+ "effective_px_ratio_after": 0.709,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.38,
+  "scale": 0.9,
+  "angle": 0
+ },
+ "placeholders": {
+  "24828": [
+   3210,
+   3852
+  ],
+  "24830": [
+   2631,
+   3156
+  ],
+  "24829": [
+   2920,
+   3504
+  ]
+ },
+ "safe_area_source": {
+  "24828": "rect",
+  "24830": "rect",
+  "24829": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "24828": 1.0,
+  "24830": 1.0,
+  "24829": 1.0
+ },
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [],
+ "notes": [
+  "NEEDS_NEW_ART: blank street-sign banner CONFIRMED in source file nostalgic-candy-cane-lane-transparent.png. Placement unchanged (inside the tank safe area on all 4 White sizes). (green sign between the candy canes has no text - visually checked); recurring bad source file, regenerate with the sign text. ",
+  "geometry checked for 4 enabled variants (3 distinct placeholder geometries)",
+  "current placement already inside safe area on all checked variants"
+ ],
+ "live_change_made": false
+}

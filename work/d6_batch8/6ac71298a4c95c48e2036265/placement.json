@@ -1,0 +1,73 @@
+{
+ "product_id": "6ac71298a4c95c48e2036265",
+ "shop_id": "26418699",
+ "title": "Christmas Excuse Eat King Christmas Lunch Box \u2014 Bento Box for Holiday Lunches, Holiday Gift | Winstar4U",
+ "blueprint_id": 695,
+ "print_provider_id": 23,
+ "position": "front",
+ "image_id": "6ac71d868d7853442c33cee2",
+ "image_name": "flattened-christmas-excuse-eat-king.jpg",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/ba400ae1-46e0-48b5-a1df-d7e905d2528c",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 02:04:51+00:00",
+ "defect_cause": "other",
+ "defect_note": "DEFECT",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.7,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.0503,
+  0.0342,
+  0.9512,
+  0.9707
+ ],
+ "current_content_box_in_placeholder": [
+  0.1852,
+  -0.0264,
+  0.8158,
+  1.0319
+ ],
+ "current_inside_safe_frac": {
+  "72920": 0.9327
+ },
+ "effective_px_ratio_after": 1.547,
+ "proposed": {
+  "x": 0.5001,
+  "y": 0.496,
+  "scale": 0.59,
+  "angle": 0
+ },
+ "placeholders": {
+  "72920": [
+   2244,
+   1390
+  ]
+ },
+ "safe_area_source": {
+  "72920": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "72920": 1.0
+ },
+ "new_art_category": "",
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 2%",
+  "bottom 3%"
+ ],
+ "notes": [
+  "current: 6.7% of visible content outside safe area (variant 72920)"
+ ],
+ "live_change_made": false
+}

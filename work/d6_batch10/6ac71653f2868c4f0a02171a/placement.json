@@ -1,0 +1,88 @@
+{
+ "product_id": "6ac71653f2868c4f0a02171a",
+ "shop_id": "26418699",
+ "title": "Santa I Can Explain Clipboard Christmas Laptop Sleeve \u2014 Stylish Tech Travel Gift, Holiday Gift | Winstar4U",
+ "blueprint_id": 429,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac71e8abd6ad760da937c06",
+ "image_name": "flattened-santa-i-can-explain-clipboard.jpg",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/58e2b0ec-242a-4c90-8b7a-53d9a58a3d60",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 02:01:18+00:00",
+ "defect_cause": "other",
+ "defect_note": "DEFECT-MINOR (EXPLAIN touches top-right edge)",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.9,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.0649,
+  0.0566,
+  0.9243,
+  0.9497
+ ],
+ "current_content_box_in_placeholder": [
+  0.1084,
+  -0.032,
+  0.8819,
+  1.0396
+ ],
+ "current_inside_safe_frac": {
+  "62037": 0.9095,
+  "62038": 0.8706,
+  "62039": 0.8495
+ },
+ "effective_px_ratio_after": 0.631,
+ "proposed": {
+  "x": 0.499,
+  "y": 0.496,
+  "scale": 0.721,
+  "angle": 0
+ },
+ "placeholders": {
+  "62037": [
+   3600,
+   2700
+  ],
+  "62038": [
+   4125,
+   3000
+  ],
+  "62039": [
+   4500,
+   3225
+  ]
+ },
+ "safe_area_source": {
+  "62037": "rect",
+  "62038": "rect",
+  "62039": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "62037": 1.0,
+  "62038": 1.0,
+  "62039": 1.0
+ },
+ "new_art_category": "",
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 3%",
+  "bottom 4%"
+ ],
+ "notes": [
+  "geometry checked for 3 enabled variants (3 distinct placeholder geometries)",
+  "current: 15.0% of visible content outside safe area (variant 62039)"
+ ],
+ "live_change_made": false
+}

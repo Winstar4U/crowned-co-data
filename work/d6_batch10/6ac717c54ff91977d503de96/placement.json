@@ -1,0 +1,75 @@
+{
+ "product_id": "6ac717c54ff91977d503de96",
+ "shop_id": "26418699",
+ "title": "Thankful Grateful Blesse Christmas Backpack \u2014 Merry Christmas Daypack, Holiday Gift Idea | Winstar4U",
+ "blueprint_id": 10823,
+ "print_provider_id": 99,
+ "position": "front_dtf",
+ "image_id": "6ac4f0f8fae6ba29cd570229",
+ "image_name": "faith-thankful-grateful-blesse.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/8efa75d3-1fc7-487e-aa33-c7de41bb708c",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "dtf",
+ "visible": true,
+ "updated_at": "2026-10-09 00:47:30+00:00",
+ "defect_cause": "other",
+ "defect_note": "DEFECT",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 1.0,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.1963,
+  0.0342,
+  0.8027,
+  0.96
+ ],
+ "contrast_vs_black": 0.036,
+ "current_content_box_in_placeholder": [
+  0.1963,
+  -0.7422,
+  0.8027,
+  1.7266
+ ],
+ "current_inside_safe_frac": {
+  "401444": 0.4559
+ },
+ "effective_px_ratio_after": 2.37,
+ "proposed": {
+  "x": 0.4997,
+  "y": 0.5,
+  "scale": 0.36,
+  "angle": 0
+ },
+ "placeholders": {
+  "401444": [
+   2400,
+   900
+  ]
+ },
+ "safe_area_source": {
+  "401444": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "401444": 1.0
+ },
+ "new_art_category": "white_box",
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 30%",
+  "bottom 29%"
+ ],
+ "notes": [
+  "art has opaque WHITE background on dtf print over coloured blank -> visible white patch; needs transparent re-export of same design (placement computed+verified, apply together)",
+  "current: 54.4% of visible content outside safe area (variant 401444)"
+ ],
+ "live_change_made": false
+}

@@ -1,0 +1,8 @@
+_raw/
+_dl/
+raw/
+downloads/
+__pycache__/
+previews/
+verify/
+text_fix/previews/

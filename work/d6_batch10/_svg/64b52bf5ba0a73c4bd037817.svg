@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="front_1" width="100%" height="100%" viewBox="0 0 283.46 283.46" xmlns:printify="http://printify.com/adjuster"  printify:width="75" printify:height="75">
+  <defs>
+    <clipPath id="clippath">
+      <circle id="printarea" cx="141.73" cy="141.73" r="62.28" fill="none"/>
+    </clipPath>
+  <image x="0" y="0" width="283.46" height="283.46" id="fabric-image"/><path d="" id="fabric-0"/><clipPath id="fabric-0-clip"><use xlink:href="#fabric-0"/></clipPath><path d="" id="fabric-1"/><clipPath id="fabric-1-clip"><use xlink:href="#fabric-1"/></clipPath><rect id="_front-path" width="124.55" height="124.55" fill="none" transform=""/><clipPath><use stroke-width="0.3125mm" xlink:href="#_front-path"/></clipPath></defs>
+  <g id="color_first" fill-rule="nonzero" fill="#fff"><use xlink:href="#fabric-0"/><use clip-path="url(#fabric-0-clip)" xlink:href="#fabric-image"/>
+    <g clip-path="url(#clippath)">
+      <rect id="color_background" x="79.46" y="79.46" width="124.55" height="124.55" fill="#fff" fill-rule="nonzero"><use xlink:href="#fabric-1"/><use clip-path="url(#fabric-1-clip)" xlink:href="#fabric-image"/></rect>
+      
+    <g clip-path="url(#_front-clippath)" transform="translate(79.46 79.46)"><svg id="placeholder_front" width="124.55" height="124.55" preserveAspectRatio="xMidYMid slice" viewBox="0 0 124.55 124.55"><use stroke-width="0.3125mm" xlink:href="#_front-path" stroke="#ffffff"/><use stroke-width="0.3125mm" xlink:href="#_front-path" stroke="#000000" stroke-dasharray="0.625mm, 0.625mm"/></svg></g></g>
+  </g>
+  <g id="outlines">
+    <path id="bleed" d="M141.73,79.46c-34.39,0-62.28,27.88-62.28,62.28s27.88,62.28,62.28,62.28,62.28-27.88,62.28-62.28-27.88-62.28-62.28-62.28Zm0,104.21c-23.16,0-41.94-18.78-41.94-41.94s18.78-41.94,41.94-41.94,41.94,18.78,41.94,41.94-18.78,41.94-41.94,41.94Z" opacity=".4"/>
+    <path id="bleedw" d="M141.73,79.46c-34.39,0-62.28,27.88-62.28,62.28s27.88,62.28,62.28,62.28,62.28-27.88,62.28-62.28-27.88-62.28-62.28-62.28Zm0,104.21c-23.16,0-41.94-18.78-41.94-41.94s18.78-41.94,41.94-41.94,41.94,18.78,41.94,41.94-18.78,41.94-41.94,41.94Z" fill="#fff" opacity=".4"/>
+    <circle id="safew" cx="141.73" cy="141.73" r="41.95" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width=".6"/>
+    <circle id="safe" cx="141.73" cy="141.73" r="41.95" fill="none" stroke="#000" stroke-dasharray="0 0 6 6" stroke-linejoin="round" stroke-width=".6"/>
+    <circle id="printarea" cx="141.73" cy="141.73" r="45" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="1"/>
+  </g>
+</svg>

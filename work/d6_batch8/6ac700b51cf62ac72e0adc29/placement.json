@@ -1,0 +1,76 @@
+{
+ "product_id": "6ac700b51cf62ac72e0adc29",
+ "shop_id": "26418699",
+ "title": "\"O Holy Night\" Christmas Scented Candle \u2014 11oz Holiday Candle, Cozy Christmas Gift for Her, Stocking Stuffer | Winstar4U",
+ "blueprint_id": 727,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac4f0e5143a2bb0a558de7d",
+ "image_name": "faith-o-holy-night.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/a7ead69a-cac7-4f1e-b62e-80045f7f82f9",
+ "image_px": [
+  2048,
+  1365
+ ],
+ "decoration_method": "digital-printing",
+ "visible": true,
+ "updated_at": "2026-10-08 04:34:56+00:00",
+ "defect_cause": "other",
+ "defect_note": "DEFECT \u2014 overscale/zoomed design \u2014 title text entirely absent from view",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 1.0,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.0854,
+  0.0755,
+  0.9072,
+  0.9253
+ ],
+ "current_content_box_in_placeholder": [
+  0.0854,
+  -0.7459,
+  0.9072,
+  1.748
+ ],
+ "current_inside_safe_frac": {
+  "73689": 0.254
+ },
+ "effective_px_ratio_after": 1.904,
+ "proposed": {
+  "x": 0.4977,
+  "y": 0.496,
+  "scale": 0.362,
+  "angle": 0
+ },
+ "placeholders": {
+  "73689": [
+   2972,
+   675
+  ]
+ },
+ "safe_area_source": {
+  "73689": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "73689": 1.0
+ },
+ "new_art_category": "",
+ "status": "BLOCKED",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 30%",
+  "bottom 30%"
+ ],
+ "notes": [
+  "BLOCKED (not producible): print provider 99 NO LONGER manufactures blueprint 727 (get-blueprint-variants 727/99 -> 404 provider mismatch, verified in batch 7 today; only provider 75 SwagRabbit offers it) and both enabled scents report is_available=false. Art itself is fine; live scale 1.0 on the 2972x675 wrap label crops 30% top/bottom (title text absent from view, matches register). Reference placement (scale 0.362, inside the 30-70% visible band, computed on provider-75 dims) is in placement.json. Owner decision: rebuild on provider 75 (new product = production write) or retire. Source faith-o-holy-night.png also has an opaque white background (not a TRANSPARENT export).",
+  "OUT OF STOCK: enabled variant(s) 73688,73689 report is_available=false (still offered by provider)",
+  "geometry checked for 2 enabled variants (1 distinct placeholder geometries)",
+  "current: 74.6% of visible content outside safe area (variant 73689)"
+ ],
+ "live_change_made": false
+}

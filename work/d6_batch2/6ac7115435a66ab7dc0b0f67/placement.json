@@ -1,0 +1,72 @@
+{
+ "product_id": "6ac7115435a66ab7dc0b0f67",
+ "shop_id": "26418699",
+ "title": "Christmas Vacation Canceled Christmas Winter Scarf \u2014 Elegant Seasonal Wrap, Holiday Gift | Winstar4U",
+ "blueprint_id": 1327,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac8613796758595fb79bc5b",
+ "image_name": "christmas-vacation-canceled.png-TRANSPARENT.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/523d008c-0eaf-4a1e-9f80-60f340eb07ad",
+ "image_px": [
+  1950,
+  1998
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 05:06:11+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT \u2014 bottom line (\"Apparently I'm Still An Adult\" or similar) cropped at bottom fabric edge",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.4,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0051,
+  0.005,
+  0.9949,
+  0.995
+ ],
+ "current_content_box_in_placeholder": [
+  0.3021,
+  -0.0458,
+  0.6979,
+  1.0458
+ ],
+ "current_inside_safe_frac": {
+  "100848": 0.8027
+ },
+ "effective_px_ratio_after": 0.592,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.297,
+  "angle": 0
+ },
+ "placeholders": {
+  "100848": [
+   11100,
+   4126
+  ]
+ },
+ "safe_area_source": {
+  "100848": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "100848": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "LOW: 'Christmas Vacation' echoes the National Lampoon film title; here used as a generic phrase ('Christmas Vacation Canceled') - review, no film marks/characters seen",
+ "clip_edges_current": [
+  "top 4%",
+  "bottom 4%"
+ ],
+ "notes": [
+  "current: 19.7% of visible content outside safe area (variant 100848)"
+ ],
+ "live_change_made": false
+}

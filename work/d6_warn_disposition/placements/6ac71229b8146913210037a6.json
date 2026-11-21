@@ -1,0 +1,100 @@
+{
+ "product_id": "6ac71229b8146913210037a6",
+ "shop_id": "26418699",
+ "title": "Avoiding Carolers Gnome Christmas Cutting Board \u2014 Festive Kitchen Decor Board, Holiday Gift | Winstar4U",
+ "blueprint_id": 643,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac85b6719b47091d6d6c9ff",
+ "image_name": "avoiding-carolers-gnome.png-TRANSPARENT.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/eaea46f1-5141-418a-ae05-4d79eaf87dea",
+ "image_px": [
+  3808,
+  5716
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 03:28:48+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT: AVOIDING clipped at top edge",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.7,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0105,
+  0.007,
+  0.9895,
+  0.993
+ ],
+ "current_content_box_in_placeholder": [
+  0.1574,
+  -0.2161,
+  0.8426,
+  1.2161
+ ],
+ "current_inside_safe_frac": {
+  "74550": 0.6202,
+  "74549": 0.6181
+ },
+ "effective_px_ratio_after": 0.456,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.435,
+  "angle": 0
+ },
+ "placeholders": {
+  "74550": [
+   3525,
+   2550
+  ],
+  "74549": [
+   4800,
+   3450
+  ]
+ },
+ "safe_area_source": {
+  "74550": "rect",
+  "74549": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "74550": 1.0,
+  "74549": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 15%",
+  "bottom 15%"
+ ],
+ "notes": [
+  "geometry checked for 2 enabled variants (2 distinct placeholder geometries)",
+  "LOW-RES: art upscaled 2.2x on largest variant (src px/print px=0.46)",
+  "current: 38.2% of visible content outside safe area (variant 74549)"
+ ],
+ "live_change_made": false,
+ "warn_fix": {
+  "kind": "upscale",
+  "source_original": "work/d6_batch1/6ac71229b8146913210037a6/original.png",
+  "new_art_local": "work/d6_warn_disposition/art/avoiding-carolers-gnome_x4.png",
+  "new_art_sha256": "7635833d11cc4449c87905fad4a37a0901d5b8f464dba8c695b9fac6c43f3d83",
+  "new_art_px": [
+   3808,
+   5716
+  ],
+  "old_image_px": [
+   952,
+   1429
+  ],
+  "placement_changed": false,
+  "note": "Real-ESRGAN anime6B x4 local upscale (edge-bleed RGB, Lanczos alpha); upscale adds no true detail: native-pixel resolution unchanged",
+  "requires": "upload new art as a NEW Printify image + owner-approved product update (not done; local only)",
+  "qa_after": "PASS"
+ },
+ "image_name_proposed": "avoiding-carolers-gnome_x4.png"
+}

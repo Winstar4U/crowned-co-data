@@ -1,0 +1,73 @@
+{
+ "product_id": "6ac701e535cf3f6ec802e201",
+ "shop_id": "26418699",
+ "title": "Merry Everything Happy Always Christmas Throw Pillow \u2014 Festive Holiday Decorative Pillow, Cozy Winter Home Decor Gift | Winstar4U",
+ "blueprint_id": 220,
+ "print_provider_id": 10,
+ "position": "front",
+ "image_id": "6ac4f13ffae6ba29cd570268",
+ "image_name": "merry-everything-happy-always.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/b9cb4c65-8097-4bd1-9a54-157d976374d7",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 01:43:38+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT \u2014 text cropped left/right edges of pillow face, mid-word cuts",
+ "current": {
+  "x": 0.25,
+  "y": 0.5,
+  "scale": 0.8,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0186,
+  0.1865,
+  0.9707,
+  0.8218
+ ],
+ "current_content_box_in_placeholder": [
+  -0.1352,
+  -0.0016,
+  0.6266,
+  1.0148
+ ],
+ "current_inside_safe_frac": {
+  "41524": 0.5734
+ },
+ "effective_px_ratio_after": 0.918,
+ "proposed": {
+  "x": 0.2564,
+  "y": 0.5,
+  "scale": 0.425,
+  "angle": 0
+ },
+ "placeholders": {
+  "41524": [
+   5250,
+   2625
+  ]
+ },
+ "safe_area_source": {
+  "41524": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "41524": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "left 18%",
+  "top 0%",
+  "bottom 1%"
+ ],
+ "notes": [
+  "current: 42.7% of visible content outside safe area (variant 41524)"
+ ],
+ "live_change_made": false
+}

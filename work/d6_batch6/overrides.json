@@ -1,0 +1,113 @@
+{
+ "6ac7148857527ce5fd019877": {
+  "status": "NEEDS_NEW_ART",
+  "note": "NEEDS_NEW_ART: baked-in transparency CHECKERBOARD confirmed in the source file (visually checked on black + magenta backgrounds): christmas-party-survivor-FIXED.png still has scattered opaque white + light-grey checker tiles in the 'transparent' margin (top-right worst) - same file batch 5 flagged on duvet 6ac71204f0a0ce97bc0c9211; on this white mouse pad the grey tiles print as a speckled frame. Placement (scale 0.629, inside 5% safe circle) computed+verified; apply with a clean transparent re-export."
+ },
+ "6ac71436336f835866011619": {
+  "status": "NEEDS_NEW_ART",
+  "note": "NEEDS_NEW_ART: baked-in transparency CHECKERBOARD confirmed in the source file (visually checked on black + magenta backgrounds): same christmas-party-survivor-FIXED.png as the mouse pad (residual white/grey checker tiles in the margin, top-right worst). Current scale 0.90 also pushes 6.4% of the art past the 20x20 safe area; corrected placement (scale 0.813, both enabled sizes) computed+verified - apply with a clean transparent re-export."
+ },
+ "6ac711d935a66ab7dc0b0fa5": {
+  "status": "NEEDS_NEW_ART",
+  "note": "NEEDS_NEW_ART: baked-in transparency CHECKERBOARD confirmed in the source file (visually checked on black + magenta backgrounds): the WHOLE background of christmas-vacation-canceled-transparent.png is an opaque grey/white checkerboard (only the outer corners are transparent) - prints as a grey checker panel on the black youth hoodie. Needs a true transparent re-export. Placement already in safe area (unchanged apart from rounding)."
+ },
+ "6ac714820ed8f1657605f396": {
+  "status": "NEEDS_NEW_ART",
+  "note": "NEEDS_NEW_ART: baked-in transparency CHECKERBOARD confirmed in the source file (visually checked on black + magenta backgrounds): santas-favorite-distraction-transparent.png (851x1024) has a semi-opaque grey/white checkerboard over the entire background and the pom-pom/brim edge is punched out; also LOW-RES (2.1x upscale). Live y=0.30 crops the top 18% (hat tip); corrected placement (x=0.5 y=0.5 scale 0.854, all 6 enabled sizes) verified - apply with a clean >=2000 px transparent re-export."
+ },
+ "6ac713e635cf3f6ec802eb32": {
+  "status": "NEEDS_NEW_ART",
+  "note": "NEEDS_NEW_ART: baked-in transparency CHECKERBOARD confirmed in the source file (visually checked on black + magenta backgrounds): santas-favorite-distraction-FIXED3.png contains large opaque grey/white checker blocks across the background (despite the FIXED3 name). Also LOW-RES 2.8x on the 22x22 napkin. Placement fix (scale 0.687, both sizes) verified; apply with a clean transparent re-export."
+ },
+ "6ac712022d1baaa3fd0057c9": {
+  "status": "NEEDS_NEW_ART",
+  "note": "NEEDS_NEW_ART: baked-in transparency CHECKERBOARD confirmed in the source file (visually checked on black + magenta backgrounds): same santas-favorite-distraction-FIXED3.png (large opaque checker blocks). Placement fix (scale 0.536, both board sizes) verified; apply with clean art."
+ },
+ "6ac711a4b8d5d3e719013158": {
+  "status": "NEEDS_NEW_ART",
+  "note": "NEEDS_NEW_ART: baked-in transparency CHECKERBOARD confirmed in the source file (visually checked on black + magenta backgrounds): same santas-favorite-distraction-FIXED3.png (large opaque checker blocks across the whole duvet face). Also LOW-RES: 1702x2048 source upscaled 5.9x on King. Placement fix (scale 0.633, all 4 sizes) verified; apply with a clean >=6000 px transparent re-export."
+ },
+ "6ac715da4636838bd804f5f3": {
+  "status": "NEEDS_NEW_ART",
+  "note": "NEEDS_NEW_ART: baked-in transparency CHECKERBOARD confirmed in the source file (visually checked on black + magenta backgrounds): santas-favorite-distraction-transparent.png (851x1024) semi-opaque checkerboard over the whole background; plus dark plum/gold art on Black/Navy fleece. Corrected left-chest placement keeps the art on the wearer's right panel clear of the zipper (u<=0.45) and inside the safe area on all 7 offered sizes; apply with clean light-ink art."
+ },
+ "6ac713da42c818a1ad096016": {
+  "status": "NEEDS_NEW_ART",
+  "note": "NEEDS_NEW_ART: baked-in transparency CHECKERBOARD confirmed in the source file (visually checked on black + magenta backgrounds): same santas-favorite-distraction-FIXED3.png (large opaque checker blocks). Placement fix (scale 0.675, 20x20 + 24x24) verified; apply with clean art."
+ },
+ "6ac71560ed135347800f9cf6": {
+  "status": "NEEDS_NEW_ART",
+  "note": "NEEDS_NEW_ART: baked-in transparency CHECKERBOARD confirmed in the source file (visually checked on black + magenta backgrounds): santas-favorite-distraction-transparent.png (851x1024) semi-opaque checkerboard over the whole background; LOW-RES 3.2x; dark plum art on enabled Black/Navy tees. Placement fix (y 0.38->0.50, scale 0.85, removes 10% top crop) verified on all 8 enabled sizes; apply with clean art."
+ },
+ "6ac70202a085d659d502276f": {
+  "note": "Also: live placement crops 12% top/13% bottom ('JINGLE BELLS' top line cut, matches register). Corrected placement (scale 0.468) fits the 1500x705 bucket-hat panel."
+ },
+ "6ac7020567e0e81ed20ffda7": {
+  "note": "Also: source text has the duplicated-word bug 'MY ELF MADE / MADE ME DO IT' (visually confirmed) - the re-export must fix the wording too."
+ },
+ "6ac702101867075e770417d7": {
+  "note": "Also: live placement crops 13% top/bottom ('NICE' cut at the bottom, matches register). Corrected placement (scale 0.463) verified."
+ },
+ "6ac701ff0e0700fe0f0ea8ee": {
+  "note": "Also: live placement crops 22% top/bottom ('AT THIS POINT IT'S A RESUME' cut, matches register and live mockup). Corrected placement (scale 0.352) verified; portrait art on a 1500x705 panel ends up small - a landscape re-layout would read better."
+ },
+ "6ac6fe6d4f88f35ee90d3daf": {
+  "note": "Borderline: the silver 'MERRY EVERYTHING HAPPY ALWAYS' headline is readable on the live black mockup, but its grey shading/foliage is low-contrast on Black/Charcoal/Dark Heather (33% of pixels < 2.5:1). Owner may accept as-is; recommended fix is a brighter white/silver ink version."
+ },
+ "6ac6fe7bcf880756890d31c0": {
+  "note": "Confirmed: subtitle 'IS THE NEW' is dark grey on black (illegible on mockup) and live scale 1.0 crops 13% top/bottom ('NICE' cut at the bottom of the live mockup). Corrected placement (scale 0.660) verified on all 35 variants; recolour the subtitle to gold/white."
+ },
+ "6ac71763fb1d11d19e0374b3": {
+  "note": "Also: portrait art (1079x1773) on the 2400x900 landscape backpack panel - live scale 0.9 crops 43% top / 27% bottom ('CHRISTMAS' + 'OPEN BAR' cut). The verified full-art placement is scale 0.240 (small); recommend a landscape re-layout in light ink."
+ },
+ "6ac7113450fc6704d30bf944": {
+  "status": "NEEDS_NEW_ART",
+  "note": "NEEDS_NEW_ART: low contrast confirmed on the live mockup - the 1245/228 shot glass is CLEAR glass and the art is light silver/grey script with faded 'HAPPY'; it nearly disappears. Needs a solid dark-ink (or red/green) version. Placement fix (scale 0.599, keeps art inside the visible 20-80% front band) verified."
+ },
+ "6ac7117d3925bc76b9037258": {
+  "note": "Also low contrast: the flattened art's grey shading on black (23% of pixels < 2.5:1). The 400 px file must be replaced regardless."
+ },
+ "6ac7149646dd1e896e04e232": {
+  "note": "Placement defect confirmed: live y=0.30 pushes the 'I SURVIVED' top line 10% off the top of the onesie print area (register: 'faint/nearly-invisible cropped line above CHRISTMAS'). Source art is complete and readable on the enabled Blue/Pink/White onesies. Corrected placement (x=0.499 y=0.432 scale 0.899) verified on all 6 enabled sizes."
+ },
+ "6ac711c5c077332834034d1c": {
+  "status": "NEEDS_NEW_ART",
+  "note": "NEEDS_NEW_ART (not a placement defect): faith-christ-is-born.png is a full-colour raster with an opaque white background and gradient 'glow', sent to ENGRAVING on a powder-coated tumbler - the live mockup shows a muddy silver block with garbled title and blank crest (matches register). Needs a 1-colour, high-contrast line-art engraving file. Alternative (owner decision, production write): provider 217 also offers DTF 'mug_front' 750x750 on this blueprint, which would print the colour art (would then also need a transparent background). Placement already inside the 645x750 engraving area."
+ },
+ "6ac7108d50fc6704d30bf8a2": {
+  "status": "NEEDS_NEW_ART",
+  "note": "NEEDS_NEW_ART: source file jingle-all-way-liquor-transparent.png has an EMPTY green ribbon banner under the car (no text rendered - visually confirmed); the 'Liquor' punchline in the title is missing from the art. Placement fix (scale 0.551, inside the 30-70% visible-front band on 12/18/32 oz) verified; apply with regenerated art."
+ },
+ "6ac7134483f1a0e50d071df7": {
+  "status": "NEEDS_NEW_ART",
+  "note": "NEEDS_NEW_ART: blank street-sign banner CONFIRMED in source file nostalgic-candy-cane-lane.jpg. Placement unchanged (already inside the safe area on both napkin sizes). LOW-RES 3.1x on 22x22. (green sign between the candy canes has no text - visually checked); recurring bad source file, regenerate with the sign text. "
+ },
+ "6ac713cd2d1baaa3fd0058b2": {
+  "status": "NEEDS_NEW_ART",
+  "note": "NEEDS_NEW_ART: blank street-sign banner CONFIRMED in source file nostalgic-candy-cane-lane.jpg. Placement unchanged (already inside the safe area on both coaster shapes). (green sign between the candy canes has no text - visually checked); recurring bad source file, regenerate with the sign text. "
+ },
+ "6ac711a0b8d5d3e719013155": {
+  "status": "NEEDS_NEW_ART",
+  "note": "NEEDS_NEW_ART: blank street-sign banner CONFIRMED in source file nostalgic-candy-cane-lane.jpg. Placement unchanged (already inside the safe area on both board sizes). (green sign between the candy canes has no text - visually checked); recurring bad source file, regenerate with the sign text. "
+ },
+ "6ac71159ed135347800f9acc": {
+  "status": "NEEDS_NEW_ART",
+  "note": "NEEDS_NEW_ART: blank street-sign banner CONFIRMED in source file nostalgic-candy-cane-lane (fixed_6ac70eebea48037033ff5469.png). Live scale 0.8 lets 9.3% run outside the visible front band; fix (scale 0.607) verified. (green sign between the candy canes has no text - visually checked); recurring bad source file, regenerate with the sign text. "
+ },
+ "6ac710f0fa3cae10170efa36": {
+  "status": "NEEDS_NEW_ART",
+  "note": "NEEDS_NEW_ART: blank street-sign banner CONFIRMED in source file nostalgic-candy-cane-lane.jpg. Placement unchanged (full-bleed curtain, inside safe area). LOW-RES: 2048 px source upscaled 3.5x on the 71x74 curtain - regenerate at >=7000 px. (green sign between the candy canes has no text - visually checked); recurring bad source file, regenerate with the sign text. "
+ },
+ "6ac712fa42c818a1ad095f97": {
+  "status": "NEEDS_NEW_ART",
+  "note": "NEEDS_NEW_ART: blank street-sign banner CONFIRMED in source file nostalgic-candy-cane-lane.jpg. Placement unchanged (inside safe area on both sizes). LOW-RES: upscaled 4.4x on 58x102 - regenerate at >=9000 px. (green sign between the candy canes has no text - visually checked); recurring bad source file, regenerate with the sign text. "
+ },
+ "6ac713e2b814691321003889": {
+  "status": "NEEDS_NEW_ART",
+  "note": "NEEDS_NEW_ART: blank street-sign banner CONFIRMED in source file nostalgic-candy-cane-lane-transparent.png. Placement unchanged (inside the tank safe area on all 4 White sizes). (green sign between the candy canes has no text - visually checked); recurring bad source file, regenerate with the sign text. "
+ },
+ "6ac712f80ed8f1657605f2f1": {
+  "status": "NEEDS_NEW_ART",
+  "note": "NEEDS_NEW_ART: blank street-sign banner CONFIRMED in source file nostalgic-candy-cane-lane.jpg. Live scale 0.9 lets 5.6% leave the 12x18 safe area; fix (scale 0.795, all 4 sizes) verified. POSSIBLE DUPLICATE LISTING (register): this '18x18' listing also enables 20x20/24x24 with the same art as batch-7 seq 241 6ac71340b814691321003853 'Candy Cane Lane ... Pillow Case 20x20' - owner decision: merge or narrow variants. (green sign between the candy canes has no text - visually checked); recurring bad source file, regenerate with the sign text. "
+ }
+}

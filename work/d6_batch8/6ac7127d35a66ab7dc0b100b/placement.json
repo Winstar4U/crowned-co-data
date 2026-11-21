@@ -1,0 +1,72 @@
+{
+ "product_id": "6ac7127d35a66ab7dc0b100b",
+ "shop_id": "26418699",
+ "title": "Checked Santas List Christmas Lunch Box \u2014 Bento Box for Holiday Lunches, Holiday Gift | Winstar4U",
+ "blueprint_id": 695,
+ "print_provider_id": 23,
+ "position": "front",
+ "image_id": "6ac8612509a3ec487f0a4936",
+ "image_name": "fixed_6ac4f01c6c1b77e76dda3ac9.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/bdab0e4f-cd77-42b4-ba43-4273087748b1",
+ "image_px": [
+  1837,
+  2036
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 12:14:37+00:00",
+ "defect_cause": "other",
+ "defect_note": "DEFECT",
+ "current": {
+  "x": 0.5,
+  "y": 0.46,
+  "scale": 0.6,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.0054,
+  0.0049,
+  0.9946,
+  0.9951
+ ],
+ "current_content_box_in_placeholder": [
+  0.2033,
+  -0.0715,
+  0.7967,
+  0.9915
+ ],
+ "current_inside_safe_frac": {
+  "72920": 0.8985
+ },
+ "effective_px_ratio_after": 1.634,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.501,
+  "angle": 0
+ },
+ "placeholders": {
+  "72920": [
+   2244,
+   1390
+  ]
+ },
+ "safe_area_source": {
+  "72920": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "72920": 1.0
+ },
+ "new_art_category": "",
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 7%"
+ ],
+ "notes": [
+  "current: 10.2% of visible content outside safe area (variant 72920)"
+ ],
+ "live_change_made": false
+}

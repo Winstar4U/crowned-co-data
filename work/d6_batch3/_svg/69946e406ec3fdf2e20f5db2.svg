@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="16_16" width="100%" height="100%" viewBox="0 0 2872.369 2872.369" xmlns:printify="http://printify.com/adjuster"  printify:width="759.9825" printify:height="759.9825"><defs><image x="0" y="0" width="2872.369" height="2872.369" id="fabric-image"/><path d="" id="fabric-0"/><clipPath id="fabric-0-clip"><use href="#fabric-0"/></clipPath><path d="" id="fabric-1"/><clipPath id="fabric-1-clip"><use href="#fabric-1"/></clipPath><rect id="_front-path" width="1727.957" height="1727.957" fill="none" transform=""/><clipPath><use stroke-width="3.1665937499999997mm" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#_front-path"/></clipPath></defs>
+  <g id="color_first" fill-rule="nonzero" fill="#fff"><use href="#fabric-0"/><use clip-path="url(#fabric-0-clip)" href="#fabric-image"/>
+    <rect id="color_background" x="572.212" y="572.995" width="1727.957" height="1727.957" fill="#fff" stroke-width="0" fill-rule="nonzero"><use href="#fabric-1"/><use clip-path="url(#fabric-1-clip)" href="#fabric-image"/></rect>
+    
+  <g clip-path="url(#_front-clippath)" transform="translate(572.212 572.995)"><svg id="placeholder_front" width="1727.957" height="1727.957" preserveAspectRatio="xMidYMid slice" viewBox="0 0 1727.957 1727.957"><use stroke-width="3.1665937499999997mm" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#_front-path" stroke="#ffffff"/><use stroke-width="3.1665937499999997mm" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#_front-path" stroke="#000000" stroke-dasharray="6.333187499999999mm, 6.333187499999999mm"/></svg></g></g>
+  <g id="outlines">
+    <path id="bleed" d="M572.212,572.995v1727.957h1727.957V572.995H572.212ZM2108.146,2107.196H764.18V763.23h1343.966v1343.966Z" fill="#000" opacity=".4" stroke-width="0"/>
+    <path id="bleedw" d="M572.212,572.995v1727.957h1727.957V572.995H572.212ZM2108.146,2107.196H764.18V763.23h1343.966v1343.966Z" fill="#fff" opacity=".4" stroke-width="0"/>
+    <rect id="safew" x="763.109" y="762.166" width="1343.966" height="1343.966" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="6.4"/>
+    <rect id="safe" x="763.109" y="762.166" width="1343.966" height="1343.966" fill="none" stroke="#000" stroke-dasharray="0 0 0 0 63.998 63.998 0 0" stroke-linejoin="round" stroke-width="6.4"/>
+    <rect id="printarea" x="666.626" y="665.506" width="1535.962" height="1535.962" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="10.666"/>
+  </g>
+</svg>

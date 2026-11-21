@@ -1,0 +1,63 @@
+{
+ "product_id": "6ac70231154e72164e0d8eea",
+ "shop_id": "26418699",
+ "title": "Elegantly Wasted Martini Christmas Tumbler 20oz \u2014 Funny Holiday Travel Mug, Festive Gift for Wine & Coffee Lovers | Winstar4U",
+ "blueprint_id": 353,
+ "print_provider_id": 1,
+ "position": "front",
+ "image_id": "6ac86086617e2e87727c938d",
+ "image_name": "elegantly-wasted-martini.png-TRANSPARENT.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/f31b6ed0-5dc6-42d8-8903-bb90152f6b24",
+ "image_px": [
+  1276,
+  1516
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 12:19:26+00:00",
+ "defect_cause": "wraparound",
+ "defect_note": "DEFECT \u2014 wraparound-crop \u2014 text clipped at cylinder seam",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.4,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0078,
+  0.0066,
+  0.9922,
+  0.9934
+ ],
+ "current_content_box_in_placeholder": [
+  0.3031,
+  0.1879,
+  0.6969,
+  0.8121
+ ],
+ "current_inside_safe_frac": {
+  "44519": 1.0
+ },
+ "proposed": null,
+ "placeholders": {
+  "44519": [
+   2795,
+   2100
+  ]
+ },
+ "safe_area_source": {
+  "44519": "rect"
+ },
+ "verify_inside_safe_frac": {},
+ "status": "BLOCKED",
+ "verify_pass": false,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "LOW: 'Elegantly Wasted' is also an INXS song/album title (titles rarely protectable; review)",
+ "clip_edges_current": [],
+ "notes": [
+  "BLOCKED - defect not reproducible: register says 'text clipped at cylinder seam', but the live art (elegantly-wasted-martini TRANSPARENT 1276x1516, x=0.5 y=0.5 scale=0.40) already sits 100% inside the 5% safe area AND the visible-front zone u 0.30-0.70 on the only variant (44519, 2795x2100); live front mockup shows the full 'ELEGANTLY WASTED / SINCE 2026 / HOLIDAY SPIRITS' text with nothing cut at the seam (text only foreshortens toward the silhouette edge). Recommend owner closes as no-change (register note likely predates the TRANSPARENT re-upload of 2026-10-09).",
+  "proposed placement failed geometry verify",
+  "current placement already inside safe area on all checked variants"
+ ],
+ "live_change_made": false
+}

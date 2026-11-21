@@ -1,0 +1,18 @@
+{
+ "product_id": "6ac702e21e2eac4da206fc57",
+ "variant": 82220,
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 1,
+  "angle": 0
+ },
+ "proposed": {
+  "x": 0.4996,
+  "y": 0.488,
+  "scale": 0.747,
+  "angle": 0
+ },
+ "source": "work/d6_batch2/6ac702e21e2eac4da206fc57/placement.json",
+ "applied": false
+}

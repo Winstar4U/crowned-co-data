@@ -1,0 +1,82 @@
+{
+ "product_id": "6ac712d76027ad007d0e7df9",
+ "shop_id": "26418699",
+ "title": "Morning Person Dec25 Skeleton Christmas Tablecloth \u2014 Festive Holiday Table Decor, Holiday Gift | Winstar4U",
+ "blueprint_id": 1624,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac8606c0ce11f05b3f9c4c1",
+ "image_name": "morning-person-dec25-skeleton.png-TRANSPARENT.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/e502baeb-568c-4a84-a27e-6e2f8c944c65",
+ "image_px": [
+  1466,
+  1881
+ ],
+ "decoration_method": "direct-to-fabric",
+ "visible": true,
+ "updated_at": "2026-10-09 03:33:18+00:00",
+ "defect_cause": "other",
+ "defect_note": "DEFECT",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 1.0,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.0068,
+  0.0053,
+  0.9932,
+  0.9947
+ ],
+ "current_content_box_in_placeholder": [
+  0.0068,
+  -0.1347,
+  0.9932,
+  1.1347
+ ],
+ "current_inside_safe_frac": {
+  "112701": 0.7449,
+  "112702": 0.9697
+ },
+ "effective_px_ratio_after": 0.232,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.701,
+  "angle": 0
+ },
+ "placeholders": {
+  "112701": [
+   9000,
+   9000
+  ],
+  "112702": [
+   9000,
+   15600
+  ]
+ },
+ "safe_area_source": {
+  "112701": "printify_safe_area",
+  "112702": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "112701": 1.0,
+  "112702": 1.0
+ },
+ "new_art_category": "",
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 11%",
+  "bottom 11%"
+ ],
+ "notes": [
+  "geometry checked for 2 enabled variants (2 distinct placeholder geometries)",
+  "LOW-RES: art upscaled 4.3x on largest variant (src px/print px=0.23)",
+  "current: 25.5% of visible content outside safe area (variant 112701)"
+ ],
+ "live_change_made": false
+}

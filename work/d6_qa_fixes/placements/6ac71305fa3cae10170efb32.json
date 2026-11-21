@@ -1,0 +1,128 @@
+{
+ "product_id": "6ac71305fa3cae10170efb32",
+ "shop_id": "26418699",
+ "title": "Happy Holidays Tree Christmas Throw Pillow Case 18x18 \u2014 Easy Couch & Bed Accent, Holiday Home Decor Gift | Winstar4U",
+ "blueprint_id": 5353,
+ "print_provider_id": 92,
+ "position": "front",
+ "decoration_method": "dye-sublimation",
+ "issue": "placement FAIL: ~88% content inside lumbar 244224 with shared placement",
+ "option": "per-variant placements",
+ "method": "original art unchanged; print_areas split per variant (lumbar 244224 gets its own scale)",
+ "art": {
+  "file": "work/d6_batch3/6ac71305fa3cae10170efb32/original.png",
+  "px": [
+   1536,
+   2048
+  ],
+  "sha1": "902385c1683cfd2d0635ba503238f8411dd807c5",
+  "native_source_width_px": null,
+  "upscaled": false
+ },
+ "print_areas": [
+  {
+   "variant_ids": [
+    244226
+   ],
+   "placement": {
+    "angle": 0,
+    "scale": 0.649,
+    "x": 0.5016,
+    "y": 0.504
+   }
+  },
+  {
+   "variant_ids": [
+    244224
+   ],
+   "placement": {
+    "angle": 0,
+    "scale": 0.406,
+    "x": 0.5031,
+    "y": 0.504
+   }
+  },
+  {
+   "variant_ids": [
+    244227
+   ],
+   "placement": {
+    "angle": 0,
+    "scale": 0.661,
+    "x": 0.5015,
+    "y": 0.504
+   }
+  },
+  {
+   "variant_ids": [
+    244228
+   ],
+   "placement": {
+    "angle": 0,
+    "scale": 0.686,
+    "x": 0.5013,
+    "y": 0.504
+   }
+  }
+ ],
+ "per_variant_qa": {
+  "244226": {
+   "inside": 1.0,
+   "ratio": 0.789,
+   "nominal_dpi": 237,
+   "native_ratio": 0.789,
+   "native_nominal_dpi": 237,
+   "physical_dpi": 131,
+   "placeholder_ppi": 167
+  },
+  "244224": {
+   "inside": 1.0,
+   "ratio": 1.261,
+   "nominal_dpi": 378,
+   "native_ratio": 1.261,
+   "native_nominal_dpi": 378,
+   "physical_dpi": 210,
+   "placeholder_ppi": 167
+  },
+  "244227": {
+   "inside": 1.0,
+   "ratio": 0.704,
+   "nominal_dpi": 211,
+   "native_ratio": 0.704,
+   "native_nominal_dpi": 211,
+   "physical_dpi": 116,
+   "placeholder_ppi": 165
+  },
+  "244228": {
+   "inside": 1.0,
+   "ratio": 0.574,
+   "nominal_dpi": 172,
+   "native_ratio": 0.574,
+   "native_nominal_dpi": 172,
+   "physical_dpi": 93,
+   "placeholder_ppi": 162
+  }
+ },
+ "content_bbox_norm": [
+  0.0469,
+  0.0327,
+  0.9707,
+  0.9526
+ ],
+ "qa_status": "PASS",
+ "b_script_verdict": "PASS",
+ "issues": [],
+ "before": {
+  "file": "crowned-co-data/work/d6_batch3/6ac71305fa3cae10170efb32/original.png",
+  "placement": {
+   "x": 0.5016,
+   "y": 0.504,
+   "scale": 0.649,
+   "angle": 0
+  },
+  "ratio_min": 0.607,
+  "inside_min": 0.8794
+ },
+ "live_change_made": false,
+ "note": "NON-LIVE staging file. Nothing uploaded. Applying it needs an image upload + product update = owner-approved write."
+}

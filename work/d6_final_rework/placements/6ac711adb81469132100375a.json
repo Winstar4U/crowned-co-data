@@ -1,0 +1,89 @@
+{
+ "product_id": "6ac711adb81469132100375a",
+ "shop_id": "26418699",
+ "title": "\"Deck The Halls Sit Down\" Christmas Wine Tumbler \u2014 Funny 12oz Holiday Tumbler, Holiday Gift | Winstar4U",
+ "blueprint_id": 1515,
+ "print_provider_id": 217,
+ "position": "drinkware_front",
+ "decoration_method": "engraving",
+ "issue": "NEEDS_GENERATION: full-colour art on engraving product",
+ "fix": "regenerated 1-bit black-on-transparent engraving art (second session, job 2930a6b4); fitted to the proposed content box",
+ "art": {
+  "file": "winstar4u/my-projects/winstar-recovery/regenerated/6ac711adb81469132100375a_engrave_final.png",
+  "px": [
+   2048,
+   2048
+  ],
+  "sha1": "8a544321253b627b196a146ac1c6eaff0a58c70a",
+  "native_source_width_px": 2048,
+  "upscaled": false
+ },
+ "print_areas": [
+  {
+   "variant_ids": [
+    109126
+   ],
+   "placement": {
+    "angle": 0,
+    "scale": 0.8409,
+    "x": 0.4984,
+    "y": 0.4873
+   }
+  }
+ ],
+ "qa": {
+  "art": "/home/user/winstar4u/my-projects/winstar-recovery/regenerated/6ac711adb81469132100375a_engrave_final.png",
+  "px": [
+   2048,
+   2048
+  ],
+  "bbox": [
+   0.0791,
+   0.082,
+   0.9282,
+   0.9536
+  ],
+  "per_variant": {
+   "109126": {
+    "placeholder": [
+     645,
+     750
+    ],
+    "placement": {
+     "x": 0.4984,
+     "y": 0.4873,
+     "scale": 0.8409,
+     "angle": 0
+    },
+    "rect_inside": 1.0,
+    "shape_inside": 1.0,
+    "safe_area": "rect(no svg)",
+    "ratio": 3.776,
+    "effective_dpi": 1133,
+    "native_dpi": 1133
+   }
+  },
+  "largest_variant": "109126",
+  "dpi_largest": 1133,
+  "native_dpi_largest": 1133,
+  "dpi_min": 1133,
+  "native_dpi_min": 1133,
+  "inside_min": 1.0,
+  "upscaled": false
+ },
+ "status": "PASS",
+ "reason": "",
+ "before": {
+  "file": "crowned-co-data/work/d6_batch7/6ac711adb81469132100375a/original.png",
+  "placement": {
+   "x": 0.5,
+   "y": 0.5,
+   "scale": 1.0,
+   "angle": 0.0
+  },
+  "dpi_largest": 953,
+  "inside_min": 1.0
+ },
+ "live_change_made": false,
+ "note": "NON-LIVE staging file. Nothing uploaded. Applying it needs an image upload + product update = owner-approved write."
+}

@@ -1,0 +1,73 @@
+{
+ "product_id": "6ac711386f976358160c46fe",
+ "shop_id": "26418699",
+ "title": "Christmas Eat No January V2 Christmas Winter Scarf \u2014 Warm Holiday Statement Scarf, Holiday Gift | Winstar4U",
+ "blueprint_id": 1327,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac71d83c77a52c40e303c50",
+ "image_name": "flattened-christmas-eat-no-january-v2.jpg",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/f484f98c-f58f-4e1b-871a-682d5b4ee07a",
+ "image_px": [
+  1707,
+  2048
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 02:02:10+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT \u2014 bottom word \"JANUARY\" cropped at bottom edge; CONFIRMED TRUE DUPLICATE of previous row (identical turkey-dinner artwork, re-exported under a v2 filenam",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.4,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0082,
+  0.0,
+  0.9959,
+  0.9937
+ ],
+ "current_content_box_in_placeholder": [
+  0.3033,
+  -0.1455,
+  0.6984,
+  1.1373
+ ],
+ "current_inside_safe_frac": {
+  "100848": 0.704
+ },
+ "effective_px_ratio_after": 0.605,
+ "proposed": {
+  "x": 0.5003,
+  "y": 0.504,
+  "scale": 0.254,
+  "angle": 0
+ },
+ "placeholders": {
+  "100848": [
+   11100,
+   4126
+  ]
+ },
+ "safe_area_source": {
+  "100848": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "100848": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 11%",
+  "bottom 11%"
+ ],
+ "notes": [
+  "CONFIRMED DUPLICATE of 6ac7113cc0.. (same design, V2 is a flattened JPEG). Owner decision: keep one, retire/merge the other.",
+  "current: 29.6% of visible content outside safe area (variant 100848)"
+ ],
+ "live_change_made": false
+}

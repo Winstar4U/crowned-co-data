@@ -1,0 +1,73 @@
+{
+ "product_id": "6ac70ffe050d0f25a7091875",
+ "shop_id": "26418699",
+ "title": "Christmas Stress Tinsel Done Christmas Fanny Pack \u2014 Hands-Free Holiday Crossbody, Holiday Gift | Winstar4U",
+ "blueprint_id": 468,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac85ff9dd6f9330c7788111",
+ "image_name": "clean-christmas-stress-tinsel-done.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/a7410fab-c680-4571-a9dc-2f2e987e0aac",
+ "image_px": [
+  1702,
+  2048
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 14:31:18+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT \u2014 third line banner text cropped at bottom curved edge",
+ "current": {
+  "x": 0.5,
+  "y": 0.62,
+  "scale": 0.7,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.1398,
+  0.1372,
+  0.8584,
+  0.8608
+ ],
+ "current_content_box_in_placeholder": [
+  0.2479,
+  -0.2191,
+  0.7509,
+  1.4546
+ ],
+ "current_inside_safe_frac": {
+  "65045": 0.4333
+ },
+ "effective_px_ratio_after": 2.45,
+ "proposed": {
+  "x": 0.5146,
+  "y": 0.504,
+  "scale": 0.299,
+  "angle": 0
+ },
+ "placeholders": {
+  "65045": [
+   2323,
+   846
+  ]
+ },
+ "safe_area_source": {
+  "65045": "printify_print_outline"
+ },
+ "verify_inside_safe_frac": {
+  "65045": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 13%",
+  "bottom 27%"
+ ],
+ "notes": [
+  "Cosmetic: art headline starts with a stray unmatched opening quote mark (\u2018CHRISTMAS ... no closing quote). Not a placement issue; optional text fix on next art refresh.",
+  "current: 56.7% of visible content outside safe area (variant 65045)"
+ ],
+ "live_change_made": false
+}

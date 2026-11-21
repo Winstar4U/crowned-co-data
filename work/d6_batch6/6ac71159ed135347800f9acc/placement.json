@@ -1,0 +1,70 @@
+{
+ "product_id": "6ac71159ed135347800f9acc",
+ "shop_id": "26418699",
+ "title": "Candy Cane Lane Christmas Shot Glass \u2014 1.5oz Party Shot Glass, Holiday Gift | Winstar4U",
+ "blueprint_id": 1245,
+ "print_provider_id": 228,
+ "position": "front",
+ "image_id": "6ac860eef071d5d39671c9c8",
+ "image_name": "fixed_6ac70eebea48037033ff5469.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/ea0ecb8a-5324-4b11-9be7-702a34110b71",
+ "image_px": [
+  1659,
+  1288
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 03:40:02+00:00",
+ "defect_cause": "source-file: blank banner",
+ "defect_note": "DEFECT \u2014 green banner blank/no text, 7th occurrence of known \"Candy Cane Lane\" bad source file",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.8,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.006,
+  0.0078,
+  0.994,
+  0.9922
+ ],
+ "current_content_box_in_placeholder": [
+  0.1048,
+  0.1433,
+  0.8952,
+  0.8567
+ ],
+ "current_inside_safe_frac": {
+  "94263": 0.9071
+ },
+ "effective_px_ratio_after": 5.206,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.607,
+  "angle": 0
+ },
+ "placeholders": {
+  "94263": [
+   525,
+   450
+  ]
+ },
+ "safe_area_source": {
+  "94263": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "94263": 1.0
+ },
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [],
+ "notes": [
+  "NEEDS_NEW_ART: blank street-sign banner CONFIRMED in source file nostalgic-candy-cane-lane (fixed_6ac70eebea48037033ff5469.png). Live scale 0.8 lets 9.3% run outside the visible front band; fix (scale 0.607) verified. (green sign between the candy canes has no text - visually checked); recurring bad source file, regenerate with the sign text. ",
+  "current: 9.3% of visible content outside safe area (variant 94263)"
+ ],
+ "live_change_made": false
+}

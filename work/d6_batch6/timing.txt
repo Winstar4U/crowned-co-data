@@ -1,0 +1,4 @@
+start_utc=2026-11-20T00:26:26Z
+end_utc=2026-11-20T00:44:08Z
+note=build runs (foreground): 00:34:01-00:38:17 (4m16s) first pass; 00:39:44-00:43:57 (4m13s) final pass after visual-review overrides
+mode=NON-LIVE prep; Printify calls: get-products x40 (read-only, shop 26418699); get-blueprint-variants x6 show_out_of_stock=true (2005/99, 66/99, 1436/99, 9/99, 10796/217, 1515/217); other dims reused from d6_batch1..5 placeholders.json. get-product-mockups not needed. Downloads: 40 originals (S3), 40 default mockups, 3 new view SVGs (30 reused) - no failures. No upsert/upload/publish/unpublish/delete/price/order calls. No drafts. No git. No Bridge posts.

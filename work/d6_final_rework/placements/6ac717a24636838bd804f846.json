@@ -1,0 +1,89 @@
+{
+ "product_id": "6ac717a24636838bd804f846",
+ "shop_id": "26418699",
+ "title": "Glory To God Christmas Backpack \u2014 Holiday School Bag, Christmas Gift | Winstar4U",
+ "blueprint_id": 10823,
+ "print_provider_id": 99,
+ "position": "front_dtf",
+ "decoration_method": "dtf",
+ "issue": "local-art FAIL: prior local fix cut a see-through hole at the light source",
+ "fix": "regenerated art (second session, Higgsfield job 4a4e057e): solid sunburst, no hole; fitted to the content box of the proposed placement",
+ "art": {
+  "file": "winstar4u/my-projects/winstar-recovery/regenerated/6ac717a24636838bd804f846_regen.png",
+  "px": [
+   2048,
+   2048
+  ],
+  "sha1": "8628b38bc384a506ea5222389610c4f76c7f1ebf",
+  "native_source_width_px": 2048,
+  "upscaled": false
+ },
+ "print_areas": [
+  {
+   "variant_ids": [
+    401444
+   ],
+   "placement": {
+    "angle": 0,
+    "scale": 0.3385,
+    "x": 0.4996,
+    "y": 0.5002
+   }
+  }
+ ],
+ "qa": {
+  "art": "/home/user/winstar4u/my-projects/winstar-recovery/regenerated/6ac717a24636838bd804f846_regen.png",
+  "px": [
+   2048,
+   2048
+  ],
+  "bbox": [
+   0.0347,
+   0.0186,
+   0.9658,
+   0.9814
+  ],
+  "per_variant": {
+   "401444": {
+    "placeholder": [
+     2400,
+     900
+    ],
+    "placement": {
+     "x": 0.4996,
+     "y": 0.5002,
+     "scale": 0.3385,
+     "angle": 0
+    },
+    "rect_inside": 1.0,
+    "shape_inside": 1.0,
+    "safe_area": "rect(no svg)",
+    "ratio": 2.521,
+    "effective_dpi": 756,
+    "native_dpi": 756
+   }
+  },
+  "largest_variant": "401444",
+  "dpi_largest": 756,
+  "native_dpi_largest": 756,
+  "dpi_min": 756,
+  "native_dpi_min": 756,
+  "inside_min": 1.0,
+  "upscaled": false
+ },
+ "status": "PASS",
+ "reason": "",
+ "before": {
+  "file": "crowned-co-data/work/d6_batch9/6ac717a24636838bd804f846/original.png",
+  "placement": {
+   "x": 0.5,
+   "y": 0.5,
+   "scale": 1.0,
+   "angle": 0.0
+  },
+  "dpi_largest": 256,
+  "inside_min": 0.4534
+ },
+ "live_change_made": false,
+ "note": "NON-LIVE staging file. Nothing uploaded. Applying it needs an image upload + product update = owner-approved write."
+}

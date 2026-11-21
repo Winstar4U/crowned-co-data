@@ -1,0 +1,95 @@
+{
+ "product_id": "6ac712806356cae0df02e358",
+ "shop_id": "26418699",
+ "title": "Amazing Grace Christmas Throw Pillow Case 18x18 \u2014 Easy Couch & Bed Accent, Holiday Home Decor Gift | Winstar4U",
+ "blueprint_id": 5353,
+ "print_provider_id": 92,
+ "position": "front",
+ "image_id": "6ac4f0b1f88ace763a9fad8d",
+ "image_name": "faith-amazing-grace.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/2f562b8d-01e7-4ed0-9cbb-5473aedf4825",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 01:49:48+00:00",
+ "defect_cause": "other",
+ "defect_note": "DEFECT",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.9,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.1396,
+  0.0376,
+  0.8501,
+  0.9673
+ ],
+ "current_content_box_in_placeholder": [
+  0.1757,
+  -0.0945,
+  0.8151,
+  1.1008
+ ],
+ "current_inside_safe_frac": {
+  "244224": 0.5386,
+  "244226": 0.9752,
+  "244227": 0.9948,
+  "244228": 1.0
+ },
+ "effective_px_ratio_after": 0.976,
+ "proposed": {
+  "x": 0.4981,
+  "y": 0.496,
+  "scale": 0.538,
+  "angle": 0
+ },
+ "placeholders": {
+  "244224": [
+   3000,
+   2100
+  ],
+  "244226": [
+   3000,
+   3000
+  ],
+  "244227": [
+   3300,
+   3300
+  ],
+  "244228": [
+   3900,
+   3900
+  ]
+ },
+ "safe_area_source": {
+  "244224": "printify_safe_area",
+  "244226": "printify_safe_area",
+  "244227": "printify_safe_area",
+  "244228": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "244224": 1.0,
+  "244226": 1.0,
+  "244227": 1.0,
+  "244228": 1.0
+ },
+ "new_art_category": "",
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 8%",
+  "bottom 8%"
+ ],
+ "notes": [
+  "geometry checked for 4 enabled variants (4 distinct placeholder geometries)",
+  "current: 46.1% of visible content outside safe area (variant 244224)"
+ ],
+ "live_change_made": false
+}

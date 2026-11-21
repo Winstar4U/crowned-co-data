@@ -1,0 +1,76 @@
+{
+ "6ac717f3aa7a21cb900b506c": {
+  "status": "NEEDS_NEW_ART",
+  "new_art_category": "garbled_text",
+  "note": "NEEDS_NEW_ART (garbled_text): my-elf-made-me.png reads 'MY ELF MADE / MADE ME DO IT' - the word 'MADE' is duplicated in the baked-in title (visually confirmed at 100% on the source; register note confirmed). Needs corrected text art ('MY ELF MADE ME DO IT'). Same source image 6ac4f14ba2e2e7ac147890c9 is used on 4 batch-10 products (backpack, dog bandana, laptop sleeve, magnet) - one corrected export fixes all four. Source is also an opaque RGB file with a white background (no alpha). Placement computed+verified; apply with the new art. On this Black DTF backpack the opaque white background ALSO prints as a white box (white_box) - the corrected re-export must be transparent."
+ },
+ "6ac702723a88d2f780057c9b": {
+  "status": "NEEDS_NEW_ART",
+  "new_art_category": "garbled_text",
+  "note": "NEEDS_NEW_ART (garbled_text): my-elf-made-me.png reads 'MY ELF MADE / MADE ME DO IT' - the word 'MADE' is duplicated in the baked-in title (visually confirmed at 100% on the source; register note confirmed). Needs corrected text art ('MY ELF MADE ME DO IT'). Same source image 6ac4f14ba2e2e7ac147890c9 is used on 4 batch-10 products (backpack, dog bandana, laptop sleeve, magnet) - one corrected export fixes all four. Source is also an opaque RGB file with a white background (no alpha). Placement computed+verified; apply with the new art."
+ },
+ "6ac7155542c818a1ad0960c7": {
+  "status": "NEEDS_NEW_ART",
+  "new_art_category": "garbled_text",
+  "note": "NEEDS_NEW_ART (garbled_text): my-elf-made-me.png reads 'MY ELF MADE / MADE ME DO IT' - the word 'MADE' is duplicated in the baked-in title (visually confirmed at 100% on the source; register note confirmed). Needs corrected text art ('MY ELF MADE ME DO IT'). Same source image 6ac4f14ba2e2e7ac147890c9 is used on 4 batch-10 products (backpack, dog bandana, laptop sleeve, magnet) - one corrected export fixes all four. Source is also an opaque RGB file with a white background (no alpha). Placement computed+verified; apply with the new art."
+ },
+ "6ac702fb1e2eac4da206fc65": {
+  "status": "NEEDS_NEW_ART",
+  "new_art_category": "garbled_text",
+  "note": "NEEDS_NEW_ART (garbled_text): my-elf-made-me.png reads 'MY ELF MADE / MADE ME DO IT' - the word 'MADE' is duplicated in the baked-in title (visually confirmed at 100% on the source; register note confirmed). Needs corrected text art ('MY ELF MADE ME DO IT'). Same source image 6ac4f14ba2e2e7ac147890c9 is used on 4 batch-10 products (backpack, dog bandana, laptop sleeve, magnet) - one corrected export fixes all four. Source is also an opaque RGB file with a white background (no alpha). Placement computed+verified; apply with the new art. Die-cut magnet: with an opaque white background the die-cut follows the full rectangle, not the design - transparent re-export needed for a real die-cut."
+ },
+ "6ac7126007e4149a0f001079": {
+  "status": "NEEDS_NEW_ART",
+  "new_art_category": "garbled_text",
+  "note": "NEEDS_NEW_ART (garbled_text): flattened-tree-up-patience-down.jpg - the vertical 'patience meter' label reads 'P-A-T-I-T-A-N-E-C-E' (misspelt 'PATIENCE'; visually confirmed on source at 100%). Headline 'TREE UP. PATIENCE DOWN.' is correct. Needs corrected text art (same image 6ac71e8e73560ed6dcc5023e used on the lunch box AND the sticker pack). Source is a flattened JPEG with opaque white background. Placement computed+verified; apply with the new art."
+ },
+ "6ac7232d73283b982509a1c3": {
+  "status": "NEEDS_NEW_ART",
+  "new_art_category": "garbled_text",
+  "note": "NEEDS_NEW_ART (garbled_text): flattened-tree-up-patience-down.jpg - the vertical 'patience meter' label reads 'P-A-T-I-T-A-N-E-C-E' (misspelt 'PATIENCE'; visually confirmed on source at 100%). Headline 'TREE UP. PATIENCE DOWN.' is correct. Needs corrected text art (same image 6ac71e8e73560ed6dcc5023e used on the lunch box AND the sticker pack). Source is a flattened JPEG with opaque white background. Placement computed+verified; apply with the new art. Die-cut sticker: opaque white JPEG means the die-cut is the full square - transparent re-export needed."
+ },
+ "6ac72401cacff3948b065b5d": {
+  "status": "NEEDS_NEW_ART",
+  "new_art_category": "checkerboard",
+  "note": "NEEDS_NEW_ART (checkerboard): christmas-party-survivor-FIXED.png has a failed background removal - grey/white checkerboard remnant blocks across the whole 'transparent' area and a baked-in checkerboard patch behind the light strings (visually confirmed on a black backdrop). On a white sublimated pin they print as grey speckle. Needs a clean transparent re-export. Placement computed+verified on all 3 pin sizes (round print area). LISTING: product title is the Printify default 'Custom Pin Buttons' with default description/tags (no Christmas Party Survivor title) - owner should retitle when the art is replaced."
+ },
+ "6ac712d542c818a1ad095f7d": {
+  "per_variant": true,
+  "note": "Pillow 5353/92: one shared placement is forced small by the 12x18 landscape variant, so print_areas are SPLIT per size (each size optimised+verified separately; shared-placement alternative kept in placement.json)."
+ },
+ "6ac712dc2d1baaa3fd005830": {
+  "per_variant": true,
+  "note": "Pillow 5353/92: one shared placement is forced small by the 12x18 landscape variant, so print_areas are SPLIT per size (each size optimised+verified separately; shared-placement alternative kept in placement.json)."
+ },
+ "6ac712df6f976358160c47cc": {
+  "per_variant": true,
+  "note": "Pillow 5353/92: one shared placement is forced small by the 12x18 landscape variant, so print_areas are SPLIT per size (each size optimised+verified separately; shared-placement alternative kept in placement.json)."
+ },
+ "6ac712ac42c818a1ad095f6c": {
+  "per_variant": true,
+  "note": "Pillow 5353/92: one shared placement is forced small by the 12x18 landscape variant, so print_areas are SPLIT per size (each size optimised+verified separately; shared-placement alternative kept in placement.json)."
+ },
+ "6ac712af6027ad007d0e7de0": {
+  "per_variant": true,
+  "note": "Pillow 5353/92: one shared placement is forced small by the 12x18 landscape variant, so print_areas are SPLIT per size (each size optimised+verified separately; shared-placement alternative kept in placement.json)."
+ },
+ "6ac71294a5ade89b5c080fca": {
+  "status": "READY_FOR_REVIEW",
+  "note": "Contrast metric (47% <2.5:1 vs White) driven by the cream/gold glow and white sparkles; visually checked on #F9F9F9: 'SILENT NIGHT' (cream-gold with darker gold shading) and the manger remain legible though softer; fine on all dark colours. CAUTION (owner choice, not blocking): White variants show a paler print - consider disabling White or a darker-gold text variant later."
+ },
+ "6ac7127c35cf3f6ec802ea98": {
+  "status": "NEEDS_NEW_ART",
+  "new_art_category": "low_contrast",
+  "note": "NEEDS_NEW_ART (low_contrast, LIGHT blank): 'OH DEER' text and the reindeer eye/hat trim are WHITE ink - invisible on the enabled White hoodie variants (visually confirmed on #F9F9F9); fine on the dark colours. Owner choice: disable White variants (no new art) or supply a dark-outline version. Placement computed+verified on all 32 enabled variants."
+ },
+ "6ac71280b8146913210037cf": {
+  "status": "NEEDS_NEW_ART",
+  "new_art_category": "low_contrast",
+  "note": "NEEDS_NEW_ART (low_contrast, LIGHT blank): 'SANTA SAW YOUR OUT OF OFFICE' headline is WHITE ink - invisible on the enabled White hoodie variants (visually confirmed on #F9F9F9); fine on dark colours. Owner choice: disable White variants or supply a dark-outline version. Placement computed+verified on all 32 enabled variants."
+ },
+ "6ac71268ed135347800f9b51": {
+  "status": "NEEDS_NEW_ART",
+  "new_art_category": "low_contrast",
+  "note": "NEEDS_NEW_ART (low_contrast, LIGHT blank): 'SURVIVED ANOTHER FAMILY CHRISTMAS' and the white tree are WHITE ink - text invisible on the enabled White hoodie variants (visually confirmed on #F9F9F9); fine on dark colours. Owner choice: disable White variants or supply a dark-outline version. Placement computed+verified on all 32 enabled variants."
+ }
+}

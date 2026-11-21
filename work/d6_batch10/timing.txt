@@ -1,0 +1,7 @@
+start_utc=2026-11-20T01:46:21Z
+build_run1_start=01:50:43
+build_run1_end=01:55:13
+build_run2_start=01:55:46
+build_run2_end=02:01:32
+end_utc=2026-11-20T02:01:51Z
+mode=NON-LIVE prep; Printify calls (read-only): get-products x29 (shop 26418699; 4 hoodie responses read from saved tool-result files), get-blueprint-variants x6 show_out_of_stock=true (851/99 new; 562/99, 429/99, 1327/99, 600/99, 430/99 re-verified = cache unchanged), get-product-mockups x0 (default mockup URL taken from product). 10823/99, 5353/92, 1624/99, 695/23, 77/99, 568/99 dims reused from d6_batch9 cache (verified 2026-11-20). Downloads: 29 originals + 29 default mockups (S3/images.printify.com), 1 view SVG (22 reused from d6_batch1..9); no failures. No upsert/upload/publish/unpublish/delete/price/order calls. No drafts. No git. No Bridge posts.

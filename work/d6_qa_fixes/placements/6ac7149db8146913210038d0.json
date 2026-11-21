@@ -1,0 +1,98 @@
+{
+ "product_id": "6ac7149db8146913210038d0",
+ "shop_id": "26418699",
+ "title": "Tree Up Patience Down Christmas Baby Onesie \u2014 Adorable Baby Christmas Gift, Holiday Gift | Winstar4U",
+ "blueprint_id": 568,
+ "print_provider_id": 99,
+ "position": "front",
+ "decoration_method": "dtg",
+ "issue": "repaired-art FAIL: speckled see-through holes in TREE UP letters",
+ "option": "hole-filled art",
+ "method": "TREE UP letter holes filled from the letter fill (letter-mask restricted), outline defringed",
+ "art": {
+  "file": "work/d6_qa_fixes/art/6ac7149db8146913210038d0_treeup_holes_filled.png",
+  "px": [
+   2048,
+   2048
+  ],
+  "sha1": "d30170c3cd8036074106cd898c4533babd4048a1",
+  "native_source_width_px": null,
+  "upscaled": false
+ },
+ "print_areas": [
+  {
+   "variant_ids": [
+    70900,
+    70904,
+    71073,
+    71089
+   ],
+   "placement": {
+    "angle": 0,
+    "scale": 0.9,
+    "x": 0.5,
+    "y": 0.416
+   }
+  }
+ ],
+ "per_variant_qa": {
+  "70900": {
+   "inside": 1.0,
+   "ratio": 1.264,
+   "nominal_dpi": 379,
+   "native_ratio": 1.264,
+   "native_nominal_dpi": 379,
+   "physical_dpi": null,
+   "placeholder_ppi": null
+  },
+  "70904": {
+   "inside": 1.0,
+   "ratio": 1.084,
+   "nominal_dpi": 325,
+   "native_ratio": 1.084,
+   "native_nominal_dpi": 325,
+   "physical_dpi": null,
+   "placeholder_ppi": null
+  },
+  "71073": {
+   "inside": 1.0,
+   "ratio": 1.517,
+   "nominal_dpi": 455,
+   "native_ratio": 1.517,
+   "native_nominal_dpi": 455,
+   "physical_dpi": null,
+   "placeholder_ppi": null
+  },
+  "71089": {
+   "inside": 1.0,
+   "ratio": 1.896,
+   "nominal_dpi": 569,
+   "native_ratio": 1.896,
+   "native_nominal_dpi": 569,
+   "physical_dpi": null,
+   "placeholder_ppi": null
+  }
+ },
+ "content_bbox_norm": [
+  0.1582,
+  0.0405,
+  0.8467,
+  0.9712
+ ],
+ "qa_status": "PASS",
+ "b_script_verdict": "PASS",
+ "issues": [],
+ "before": {
+  "file": "crowned-co-data/work/d6_new_art/text_fix/d402b87a81db13500a34ed850539a35d886c498f.png",
+  "placement": {
+   "x": 0.5,
+   "y": 0.416,
+   "scale": 0.9,
+   "angle": 0
+  },
+  "ratio_min": 1.084,
+  "inside_min": 1.0
+ },
+ "live_change_made": false,
+ "note": "NON-LIVE staging file. Nothing uploaded. Applying it needs an image upload + product update = owner-approved write."
+}

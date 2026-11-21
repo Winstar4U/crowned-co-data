@@ -1,0 +1,108 @@
+{
+ "product_id": "6ac71401fb1d11d19e0370ee",
+ "shop_id": "26418699",
+ "title": "Tree Up Patience Down Christmas Cloth Napkin Set \u2014 Elegant Holiday Hosting Essential, Holiday Gift | Winstar4U",
+ "blueprint_id": 1646,
+ "print_provider_id": 99,
+ "position": "front",
+ "decoration_method": "direct-to-fabric",
+ "issue": "repaired-art WARN: low resolution (src/print ratio 0.33 = 99 dpi) on text_fix/f193d6d08b",
+ "fix": "local Real-ESRGAN anime6B x2.27 (edge-bleed, no white matte), placement unchanged",
+ "art": {
+  "file": "crowned-co-data/work/d6_final_rework/art/6ac71401fb1d11d19e0370ee_realesrgan-anime6B_x2.27.png",
+  "px": [
+   4642,
+   4642
+  ],
+  "sha1": "36a3143ca2efe6d6c0e1252253e74fcde424bc2c",
+  "native_source_width_px": 2048,
+  "upscaled": true
+ },
+ "print_areas": [
+  {
+   "variant_ids": [
+    113861,
+    113862
+   ],
+   "placement": {
+    "angle": 0,
+    "scale": 0.878,
+    "x": 0.5001,
+    "y": 0.496
+   }
+  }
+ ],
+ "qa": {
+  "art": "/home/user/crowned-co-data/work/d6_final_rework/art/6ac71401fb1d11d19e0370ee_realesrgan-anime6B_x2.27.png",
+  "px": [
+   4642,
+   4642
+  ],
+  "bbox": [
+   0.1588,
+   0.0409,
+   0.8462,
+   0.9707
+  ],
+  "per_variant": {
+   "113862": {
+    "placeholder": [
+     7050,
+     7050
+    ],
+    "placement": {
+     "x": 0.5001,
+     "y": 0.496,
+     "scale": 0.878,
+     "angle": 0
+    },
+    "rect_inside": 1.0,
+    "shape_inside": 1.0,
+    "safe_area": "printify_safe_area",
+    "ratio": 0.75,
+    "effective_dpi": 225,
+    "native_dpi": 99
+   },
+   "113861": {
+    "placeholder": [
+     3450,
+     3450
+    ],
+    "placement": {
+     "x": 0.5001,
+     "y": 0.496,
+     "scale": 0.878,
+     "angle": 0
+    },
+    "rect_inside": 1.0,
+    "shape_inside": 1.0,
+    "safe_area": "printify_safe_area",
+    "ratio": 1.532,
+    "effective_dpi": 460,
+    "native_dpi": 203
+   }
+  },
+  "largest_variant": "113862",
+  "dpi_largest": 225,
+  "native_dpi_largest": 99,
+  "dpi_min": 225,
+  "native_dpi_min": 99,
+  "inside_min": 1.0,
+  "upscaled": true
+ },
+ "status": "WARN",
+ "reason": "upscaled: effective 225 dpi, native 99 dpi (upscale adds no true detail)",
+ "before": {
+  "file": "crowned-co-data/work/d6_new_art/text_fix/f193d6d08b1ad932eb905ac8d3c3c0b6119a8e76.png",
+  "placement": {
+   "x": 0.5001,
+   "y": 0.496,
+   "scale": 0.878,
+   "angle": 0
+  },
+  "dpi_largest": 99,
+  "inside_min": 1.0
+ },
+ "live_change_made": false,
+ "note": "NON-LIVE staging file. Nothing uploaded. Applying it needs an image upload + product update = owner-approved write."
+}

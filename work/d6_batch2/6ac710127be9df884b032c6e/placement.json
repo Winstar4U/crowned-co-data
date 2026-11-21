@@ -1,0 +1,72 @@
+{
+ "product_id": "6ac710127be9df884b032c6e",
+ "shop_id": "26418699",
+ "title": "Dear Santa Explain Santa Christmas Fanny Pack \u2014 Hands-Free Holiday Crossbody, Holiday Gift | Winstar4U",
+ "blueprint_id": 468,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac85fef66277ac02676ae44",
+ "image_name": "dear-santa-explain-santa-transparent.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/03b4faf6-d13a-43a2-a89b-73f7338b5226",
+ "image_px": [
+  1707,
+  2048
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-14 12:49:38+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT \u2014 top line cropped at curved edge",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.9,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0006,
+  0.0063,
+  1.0,
+  0.9946
+ ],
+ "current_content_box_in_placeholder": [
+  0.0505,
+  -0.9637,
+  0.95,
+  1.9666
+ ],
+ "current_inside_safe_frac": {
+  "65045": 0.1945
+ },
+ "effective_px_ratio_after": 3.386,
+ "proposed": {
+  "x": 0.5002,
+  "y": 0.496,
+  "scale": 0.217,
+  "angle": 0
+ },
+ "placeholders": {
+  "65045": [
+   2323,
+   846
+  ]
+ },
+ "safe_area_source": {
+  "65045": "printify_print_outline"
+ },
+ "verify_inside_safe_frac": {
+  "65045": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 33%",
+  "bottom 33%"
+ ],
+ "notes": [
+  "current: 80.5% of visible content outside safe area (variant 65045)"
+ ],
+ "live_change_made": false
+}

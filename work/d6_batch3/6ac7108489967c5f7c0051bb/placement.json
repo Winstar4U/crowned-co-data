@@ -1,0 +1,72 @@
+{
+ "product_id": "6ac7108489967c5f7c0051bb",
+ "shop_id": "26418699",
+ "title": "Everyone Go Home Christmas Shot Glass \u2014 1.5oz Party Shot Glass, Holiday Gift | Winstar4U",
+ "blueprint_id": 1245,
+ "print_provider_id": 228,
+ "position": "front",
+ "image_id": "6ac85835735984ace62b99b6",
+ "image_name": "fixed_6ac4f0ab5180f93cc4e557b1.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/4858b0d2-425d-4afd-842d-ba705b013b81",
+ "image_px": [
+  1708,
+  1990
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 03:43:20+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT \u2014 top line (\"ALL I WANT FOR\") severely cropped/illegible at rim",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.8,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0059,
+  0.005,
+  0.9941,
+  0.995
+ ],
+ "current_content_box_in_placeholder": [
+  0.1047,
+  -0.0383,
+  0.8953,
+  1.0383
+ ],
+ "current_inside_safe_frac": {
+  "94263": 0.7239
+ },
+ "effective_px_ratio_after": 5.351,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.608,
+  "angle": 0
+ },
+ "placeholders": {
+  "94263": [
+   525,
+   450
+  ]
+ },
+ "safe_area_source": {
+  "94263": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "94263": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 4%",
+  "bottom 4%"
+ ],
+ "notes": [
+  "current: 27.6% of visible content outside safe area (variant 94263)"
+ ],
+ "live_change_made": false
+}

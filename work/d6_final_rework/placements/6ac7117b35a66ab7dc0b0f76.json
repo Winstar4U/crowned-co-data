@@ -1,0 +1,89 @@
+{
+ "product_id": "6ac7117b35a66ab7dc0b0f76",
+ "shop_id": "26418699",
+ "title": "\"Christmas Eat No January\" Christmas Wine Tumbler \u2014 Funny 12oz Holiday Tumbler, Holiday Gift | Winstar4U",
+ "blueprint_id": 1515,
+ "print_provider_id": 217,
+ "position": "drinkware_front",
+ "decoration_method": "engraving",
+ "issue": "NEEDS_GENERATION: full-colour art on engraving product",
+ "fix": "regenerated 1-bit black-on-transparent engraving art (second session, job b89688ba); fitted to the proposed content box",
+ "art": {
+  "file": "winstar4u/my-projects/winstar-recovery/regenerated/6ac7117b35a66ab7dc0b0f76_engrave_final.png",
+  "px": [
+   2048,
+   2048
+  ],
+  "sha1": "9536f7994b1d50b521129035917fb2c2155d52b8",
+  "native_source_width_px": 2048,
+  "upscaled": false
+ },
+ "print_areas": [
+  {
+   "variant_ids": [
+    109128
+   ],
+   "placement": {
+    "angle": 0,
+    "scale": 0.8933,
+    "x": 0.5,
+    "y": 0.4989
+   }
+  }
+ ],
+ "qa": {
+  "art": "/home/user/winstar4u/my-projects/winstar-recovery/regenerated/6ac7117b35a66ab7dc0b0f76_engrave_final.png",
+  "px": [
+   2048,
+   2048
+  ],
+  "bbox": [
+   0.0522,
+   0.0083,
+   0.9478,
+   0.9946
+  ],
+  "per_variant": {
+   "109128": {
+    "placeholder": [
+     645,
+     750
+    ],
+    "placement": {
+     "x": 0.5,
+     "y": 0.4989,
+     "scale": 0.8933,
+     "angle": 0
+    },
+    "rect_inside": 1.0,
+    "shape_inside": 1.0,
+    "safe_area": "rect(no svg)",
+    "ratio": 3.554,
+    "effective_dpi": 1066,
+    "native_dpi": 1066
+   }
+  },
+  "largest_variant": "109128",
+  "dpi_largest": 1066,
+  "native_dpi_largest": 1066,
+  "dpi_min": 1066,
+  "native_dpi_min": 1066,
+  "inside_min": 1.0,
+  "upscaled": false
+ },
+ "status": "PASS",
+ "reason": "",
+ "before": {
+  "file": "crowned-co-data/work/d6_batch7/6ac7117b35a66ab7dc0b0f76/original.png",
+  "placement": {
+   "x": 0.5,
+   "y": 0.5,
+   "scale": 0.8,
+   "angle": 0.0
+  },
+  "dpi_largest": 992,
+  "inside_min": 1.0
+ },
+ "live_change_made": false,
+ "note": "NON-LIVE staging file. Nothing uploaded. Applying it needs an image upload + product update = owner-approved write."
+}

@@ -1,0 +1,73 @@
+{
+ "product_id": "6ac7126fed135347800f9b55",
+ "shop_id": "26418699",
+ "title": "Avoiding Carolers Gnome Christmas Lunch Box \u2014 Bento Box for Holiday Lunches, Holiday Gift | Winstar4U",
+ "blueprint_id": 695,
+ "print_provider_id": 23,
+ "position": "front",
+ "image_id": "6ac85b6719b47091d6d6c9ff",
+ "image_name": "fixed_6ac4f004928b79c8375957e8.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/eaea46f1-5141-418a-ae05-4d79eaf87dea",
+ "image_px": [
+  952,
+  1429
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 03:38:00+00:00",
+ "defect_cause": "other",
+ "defect_note": "DEFECT",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.7,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.0105,
+  0.007,
+  0.9895,
+  0.993
+ ],
+ "current_content_box_in_placeholder": [
+  0.1574,
+  -0.3363,
+  0.8426,
+  1.3363
+ ],
+ "current_inside_safe_frac": {
+  "72920": 0.5201
+ },
+ "effective_px_ratio_after": 1.131,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.375,
+  "angle": 0
+ },
+ "placeholders": {
+  "72920": [
+   2244,
+   1390
+  ]
+ },
+ "safe_area_source": {
+  "72920": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "72920": 1.0
+ },
+ "new_art_category": "",
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 20%",
+  "bottom 20%"
+ ],
+ "notes": [
+  "current: 48.0% of visible content outside safe area (variant 72920)"
+ ],
+ "live_change_made": false
+}

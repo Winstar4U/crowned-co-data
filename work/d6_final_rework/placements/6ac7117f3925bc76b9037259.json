@@ -1,0 +1,89 @@
+{
+ "product_id": "6ac7117f3925bc76b9037259",
+ "shop_id": "26418699",
+ "title": "\"Christmas Excuse Eat King\" Christmas Wine Tumbler \u2014 Funny 12oz Holiday Tumbler, Holiday Gift | Winstar4U",
+ "blueprint_id": 1515,
+ "print_provider_id": 217,
+ "position": "drinkware_front",
+ "decoration_method": "engraving",
+ "issue": "NEEDS_GENERATION: full-colour art on engraving product",
+ "fix": "regenerated 1-bit black-on-transparent engraving art (second session, job fa8926f8); fitted to the proposed content box",
+ "art": {
+  "file": "winstar4u/my-projects/winstar-recovery/regenerated/6ac7117f3925bc76b9037259_engrave_final.png",
+  "px": [
+   2048,
+   2048
+  ],
+  "sha1": "34bfed6a47d763b0572ee0049133d8861de504df",
+  "native_source_width_px": 2048,
+  "upscaled": false
+ },
+ "print_areas": [
+  {
+   "variant_ids": [
+    109126
+   ],
+   "placement": {
+    "angle": 0,
+    "scale": 0.7793,
+    "x": 0.5004,
+    "y": 0.4963
+   }
+  }
+ ],
+ "qa": {
+  "art": "/home/user/winstar4u/my-projects/winstar-recovery/regenerated/6ac7117f3925bc76b9037259_engrave_final.png",
+  "px": [
+   2048,
+   2048
+  ],
+  "bbox": [
+   0.0469,
+   0.0273,
+   0.9531,
+   0.9888
+  ],
+  "per_variant": {
+   "109126": {
+    "placeholder": [
+     645,
+     750
+    ],
+    "placement": {
+     "x": 0.5004,
+     "y": 0.4963,
+     "scale": 0.7793,
+     "angle": 0
+    },
+    "rect_inside": 1.0,
+    "shape_inside": 1.0,
+    "safe_area": "rect(no svg)",
+    "ratio": 4.074,
+    "effective_dpi": 1222,
+    "native_dpi": 1222
+   }
+  },
+  "largest_variant": "109126",
+  "dpi_largest": 1222,
+  "native_dpi_largest": 1222,
+  "dpi_min": 1222,
+  "native_dpi_min": 1222,
+  "inside_min": 1.0,
+  "upscaled": false
+ },
+ "status": "PASS",
+ "reason": "",
+ "before": {
+  "file": "crowned-co-data/work/d6_batch7/6ac7117f3925bc76b9037259/original.png",
+  "placement": {
+   "x": 0.5,
+   "y": 0.5,
+   "scale": 0.8,
+   "angle": 0.0
+  },
+  "dpi_largest": 1191,
+  "inside_min": 1.0
+ },
+ "live_change_made": false,
+ "note": "NON-LIVE staging file. Nothing uploaded. Applying it needs an image upload + product update = owner-approved write."
+}

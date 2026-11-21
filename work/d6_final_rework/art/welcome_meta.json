@@ -1,0 +1,34 @@
+{
+ "5fa6bcd6cd": {
+  "file": "art/welcome_5fa6bcd6cd.png",
+  "cap_px": 44,
+  "text": "WELCOME",
+  "font": "Bebas Neue Bold"
+ },
+ "5d22f4d4a7": {
+  "file": "art/welcome_5d22f4d4a7.png",
+  "cap_px": 44,
+  "text": "WELCOME",
+  "font": "Bebas Neue Bold"
+ },
+ "1170ae6c3a": {
+  "file": "art/welcome_1170ae6c3a.png",
+  "cap_px": 44,
+  "text": "WELCOME",
+  "font": "Bebas Neue Bold"
+ },
+ "candy_realesrgan-anime6B_x3.30.png": {
+  "file": "art/welcome_candy_realesrgan-anime6B_x3.30.png",
+  "cap_px": 145,
+  "text": "WELCOME",
+  "factor": 3.3,
+  "base": "/home/user/crowned-co-data/work/d6_qa_fixes/art/candy_realesrgan-anime6B_x3.30.png"
+ },
+ "6ac7127aa5ade89b5c080fc0_realesrgan-anime6B_x1.63.png": {
+  "file": "art/welcome_6ac7127aa5ade89b5c080fc0_realesrgan-anime6B_x1.63.png",
+  "cap_px": 72,
+  "text": "WELCOME",
+  "factor": 1.626,
+  "base": "/home/user/crowned-co-data/work/d6_final_rework/art/6ac7127aa5ade89b5c080fc0_realesrgan-anime6B_x1.63.png"
+ }
+}

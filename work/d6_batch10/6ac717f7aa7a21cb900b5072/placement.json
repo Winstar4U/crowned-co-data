@@ -1,0 +1,75 @@
+{
+ "product_id": "6ac717f7aa7a21cb900b5072",
+ "shop_id": "26418699",
+ "title": "Naughty Is New Nice Christmas Backpack \u2014 Holiday School Bag, Christmas Gift | Winstar4U",
+ "blueprint_id": 10823,
+ "print_provider_id": 99,
+ "position": "front_dtf",
+ "image_id": "6ac4f1527ce94b8c107d080f",
+ "image_name": "naughty-is-new-nice.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/1c36e9bd-bf51-47d9-a63a-6cf38e389f1e",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "dtf",
+ "visible": true,
+ "updated_at": "2026-10-09 00:47:46+00:00",
+ "defect_cause": "other",
+ "defect_note": "DEFECT",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 1.0,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.0596,
+  0.0479,
+  0.9414,
+  0.9492
+ ],
+ "contrast_vs_black": 0.147,
+ "current_content_box_in_placeholder": [
+  0.0596,
+  -0.7057,
+  0.9414,
+  1.6979
+ ],
+ "current_inside_safe_frac": {
+  "401444": 0.4244
+ },
+ "effective_px_ratio_after": 2.306,
+ "proposed": {
+  "x": 0.5003,
+  "y": 0.5,
+  "scale": 0.37,
+  "angle": 0
+ },
+ "placeholders": {
+  "401444": [
+   2400,
+   900
+  ]
+ },
+ "safe_area_source": {
+  "401444": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "401444": 1.0
+ },
+ "new_art_category": "white_box",
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 29%",
+  "bottom 29%"
+ ],
+ "notes": [
+  "art has opaque WHITE background on dtf print over coloured blank -> visible white patch; needs transparent re-export of same design (placement computed+verified, apply together)",
+  "current: 57.6% of visible content outside safe area (variant 401444)"
+ ],
+ "live_change_made": false
+}

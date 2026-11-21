@@ -1,0 +1,76 @@
+{
+ "product_id": "6ac7157a0ed8f1657605f458",
+ "shop_id": "26418699",
+ "title": "Naughty List Vip Christmas Laptop Sleeve \u2014 Stylish Tech Travel Gift, Holiday Gift | Winstar4U",
+ "blueprint_id": 429,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac70eb8c6a41154ecfc961c",
+ "image_name": "naughty-list-vip.jpg",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/d3b35750-72cb-4146-a6b4-504f0653ab59",
+ "image_px": [
+  2048,
+  1365
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 02:00:26+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT (JINGLE BELLS cropped top)",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.9,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0815,
+  0.033,
+  0.9185,
+  0.9707
+ ],
+ "current_content_box_in_placeholder": [
+  0.1234,
+  0.1265,
+  0.8766,
+  0.8765
+ ],
+ "current_inside_safe_frac": {
+  "62037": 1.0,
+  "62038": 1.0,
+  "62039": 1.0
+ },
+ "proposed": null,
+ "placeholders": {
+  "62037": [
+   3600,
+   2700
+  ],
+  "62038": [
+   4125,
+   3000
+  ],
+  "62039": [
+   4500,
+   3225
+  ]
+ },
+ "safe_area_source": {
+  "62037": "rect",
+  "62038": "rect",
+  "62039": "rect"
+ },
+ "verify_inside_safe_frac": {},
+ "status": "BLOCKED",
+ "verify_pass": false,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [],
+ "notes": [
+  "BLOCKED - defect not reproducible: register says 'JINGLE BELLS cropped top', but the live art (naughty-list-vip.jpg 2048x1365) has no JINGLE BELLS text and the full design sits inside the 5% safe area on all 3 sleeve sizes (100% verify at live x=0.5 y=0.5 scale=0.9); live mockup shows the complete design. Recommend owner closes as no-change (register note likely predates an art swap).",
+  "proposed placement failed geometry verify",
+  "geometry checked for 3 enabled variants (3 distinct placeholder geometries)",
+  "current placement already inside safe area on all checked variants"
+ ],
+ "live_change_made": false
+}

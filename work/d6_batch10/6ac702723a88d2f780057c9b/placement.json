@@ -1,0 +1,71 @@
+{
+ "product_id": "6ac702723a88d2f780057c9b",
+ "shop_id": "26418699",
+ "title": "My Elf Made Me Christmas Dog Bandana \u2014 Festive Holiday Pet Bandana, Cute Dog Christmas Outfit Gift | Winstar4U",
+ "blueprint_id": 562,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac4f14ba2e2e7ac147890c9",
+ "image_name": "my-elf-made-me.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/dd22e702-0ce8-4c94-9d79-377729b46784",
+ "image_px": [
+  2048,
+  1365
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 02:04:07+00:00",
+ "defect_cause": "other",
+ "defect_note": "DEFECT \u2014 duplicated-word source-art bug (\"MY ELF MADE / MADE ME DO IT\") \u2014 recurs on this blueprint",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.7,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.1357,
+  0.0293,
+  0.8657,
+  0.9758
+ ],
+ "current_content_box_in_placeholder": [
+  0.245,
+  0.0962,
+  0.756,
+  0.9082
+ ],
+ "current_inside_safe_frac": {
+  "101404": 0.6182
+ },
+ "effective_px_ratio_after": 1.152,
+ "proposed": {
+  "x": 0.5002,
+  "y": 0.388,
+  "scale": 0.416,
+  "angle": 0
+ },
+ "placeholders": {
+  "101404": [
+   4275,
+   2325
+  ]
+ },
+ "safe_area_source": {
+  "101404": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "101404": 1.0
+ },
+ "new_art_category": "garbled_text",
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [],
+ "notes": [
+  "NEEDS_NEW_ART (garbled_text): my-elf-made-me.png reads 'MY ELF MADE / MADE ME DO IT' - the word 'MADE' is duplicated in the baked-in title (visually confirmed at 100% on the source; register note confirmed). Needs corrected text art ('MY ELF MADE ME DO IT'). Same source image 6ac4f14ba2e2e7ac147890c9 is used on 4 batch-10 products (backpack, dog bandana, laptop sleeve, magnet) - one corrected export fixes all four. Source is also an opaque RGB file with a white background (no alpha). Placement computed+verified; apply with the new art.",
+  "current: 38.2% of visible content outside safe area (variant 101404)"
+ ],
+ "live_change_made": false
+}

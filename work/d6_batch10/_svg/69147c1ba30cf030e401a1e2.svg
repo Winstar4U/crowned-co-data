@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="tablecloth_58x58" width="100%" height="100%" viewBox="0 0 4320 4320" xmlns:printify="http://printify.com/adjuster"  printify:width="1143" printify:height="1143">
+  <defs>
+    <clipPath id="clippath">
+      <rect id="printarea" x=".021" y="-.033" width="4320.074" height="4320.148" fill="none"/>
+    </clipPath>
+  <image x="0" y="0" width="4320" height="4320" id="fabric-image"/><path d="" id="fabric-0"/><clipPath id="fabric-0-clip"><use xlink:href="#fabric-0"/></clipPath><path d="" id="fabric-1"/><clipPath id="fabric-1-clip"><use xlink:href="#fabric-1"/></clipPath><rect id="_front-path" width="4320.074" height="4320.148" fill="none" transform=""/><clipPath><use stroke-width="4.7625mm" xlink:href="#_front-path"/></clipPath></defs>
+  <g id="color_first" fill-rule="nonzero" fill="#fff"><use xlink:href="#fabric-0"/><use clip-path="url(#fabric-0-clip)" xlink:href="#fabric-image"/>
+    <g clip-path="url(#clippath)">
+      <rect id="color_background" x=".021" y="-.033" width="4320.074" height="4320.148" fill="#fff" fill-rule="nonzero"><use xlink:href="#fabric-1"/><use clip-path="url(#fabric-1-clip)" xlink:href="#fabric-image"/></rect>
+      
+    <g clip-path="url(#_front-clippath)" transform="translate(.021 -.033)"><svg id="placeholder_front" width="4320.074" height="4320.148" preserveAspectRatio="xMidYMid slice" viewBox="0 0 4320.074 4320.148"><use stroke-width="4.7625mm" xlink:href="#_front-path" stroke="#ffffff"/><use stroke-width="4.7625mm" xlink:href="#_front-path" stroke="#000000" stroke-dasharray="9.525mm, 9.525mm"/></svg></g></g>
+  </g>
+  <g id="outlines">
+    <g id="bleed" opacity=".4">
+      <path d="M4320.095,4320.115H.021L-.109-.051l4320.204.019v4320.148ZM1968.288,126H126v4068h4068V126H1968.288Z" fill="#231f20"/>
+    </g>
+    <g id="bleedw" opacity=".4">
+      <path d="M4320.095,4320.115H.021V-.033h4320.074v4320.148ZM1968.288,126H126v4068h4068V126H1968.288Z" fill="#fff"/>
+    </g>
+    <polygon id="safew" points="2351.712 126 4194 126 4194 4194 126 4194 126 126 1968.288 126 2351.712 126" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="3.228"/>
+    <g id="safe">
+      <g>
+        <polyline points="4175.395 126 4194 126 4194 144.606" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="3.722"/>
+        <line x1="4194" y1="181.575" x2="4194" y2="181.585" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="3.722"/>
+        <line x1="4194" y1="181.585" x2="4194" y2="4175.395" fill="none" stroke="#000" stroke-dasharray="36.98 36.97 0 0" stroke-linejoin="round" stroke-width="3.722"/>
+        <polyline points="4194 4175.395 4194 4194 4175.395 4194" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="3.722"/>
+        <line x1="4138.424" y1="4194" x2="4138.415" y2="4194" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="3.722"/>
+        <line x1="4138.415" y1="4194" x2="144.606" y2="4194" fill="none" stroke="#000" stroke-dasharray="36.98 36.97 0 0" stroke-linejoin="round" stroke-width="3.722"/>
+        <polyline points="144.606 4194 126 4194 126 4175.395" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="3.722"/>
+        <line x1="126" y1="4138.424" x2="126" y2="4138.415" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="3.722"/>
+        <line x1="126" y1="4138.415" x2="126" y2="144.606" fill="none" stroke="#000" stroke-dasharray="36.98 36.97 0 0" stroke-linejoin="round" stroke-width="3.722"/>
+        <polyline points="126 144.606 126 126 144.606 126" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="3.722"/>
+        <line x1="181.575" y1="126" x2="181.585" y2="126" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="3.722"/>
+        <polyline points="181.585 126 1968.288 126 2351.712 126 4175.395 126" fill="none" stroke="#000" stroke-dasharray="36.98 36.97 0 0" stroke-linejoin="round" stroke-width="3.722"/>
+      </g>
+    </g>
+    <polygon id="printarea" points="2487.107 72 4248 72 4248 4248 72 4248 72 72 1832.893 72 2487.107 72" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5.302"/>
+  </g>
+</svg>

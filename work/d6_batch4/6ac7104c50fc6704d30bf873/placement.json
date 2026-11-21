@@ -1,0 +1,72 @@
+{
+ "product_id": "6ac7104c50fc6704d30bf873",
+ "shop_id": "26418699",
+ "title": "O Holy Night Christmas Fanny Pack \u2014 Concert-Ready Waist Pack, Holiday Gift | Winstar4U",
+ "blueprint_id": 468,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac4f0e5143a2bb0a558de7d",
+ "image_name": "faith-o-holy-night.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/a7ead69a-cac7-4f1e-b62e-80045f7f82f9",
+ "image_px": [
+  2048,
+  1365
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-08 03:38:52+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT \u2014 top line cropped at curved zipper edge",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.9,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0854,
+  0.0755,
+  0.9072,
+  0.9253
+ ],
+ "current_content_box_in_placeholder": [
+  0.1269,
+  -0.1993,
+  0.8665,
+  1.2005
+ ],
+ "current_inside_safe_frac": {
+  "65045": 0.4986
+ },
+ "effective_px_ratio_after": 1.999,
+ "proposed": {
+  "x": 0.4983,
+  "y": 0.488,
+  "scale": 0.441,
+  "angle": 0
+ },
+ "placeholders": {
+  "65045": [
+   2323,
+   846
+  ]
+ },
+ "safe_area_source": {
+  "65045": "printify_print_outline"
+ },
+ "verify_inside_safe_frac": {
+  "65045": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 14%",
+  "bottom 14%"
+ ],
+ "notes": [
+  "current: 50.1% of visible content outside safe area (variant 65045)"
+ ],
+ "live_change_made": false
+}

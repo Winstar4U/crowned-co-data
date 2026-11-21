@@ -1,0 +1,72 @@
+{
+ "product_id": "6ac7100b7be9df884b032c68",
+ "shop_id": "26418699",
+ "title": "Dear Santa Bank Account Christmas Fanny Pack \u2014 Concert-Ready Waist Pack, Holiday Gift | Winstar4U",
+ "blueprint_id": 468,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac4f07ca055d7f7b564a114",
+ "image_name": "dear-santa-bank-account.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/d3b0a70e-6a3a-46a6-80aa-9b6a90a3be12",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 02:51:58+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT \u2014 top line mostly cropped",
+ "current": {
+  "x": 0.5,
+  "y": 0.54,
+  "scale": 0.82,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.1055,
+  0.042,
+  0.9155,
+  0.959
+ ],
+ "current_content_box_in_placeholder": [
+  0.1765,
+  -0.4913,
+  0.8407,
+  1.5735
+ ],
+ "current_inside_safe_frac": {
+  "65045": 0.3438
+ },
+ "effective_px_ratio_after": 3.126,
+ "proposed": {
+  "x": 0.4945,
+  "y": 0.504,
+  "scale": 0.282,
+  "angle": 0
+ },
+ "placeholders": {
+  "65045": [
+   2323,
+   846
+  ]
+ },
+ "safe_area_source": {
+  "65045": "printify_print_outline"
+ },
+ "verify_inside_safe_frac": {
+  "65045": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 24%",
+  "bottom 28%"
+ ],
+ "notes": [
+  "current: 65.6% of visible content outside safe area (variant 65045)"
+ ],
+ "live_change_made": false
+}

@@ -1,0 +1,72 @@
+{
+ "product_id": "6ac7024e2a2224fe7d0776db",
+ "shop_id": "26418699",
+ "title": "Christmas Eat No January Christmas Apron \u2014 Funny Holiday Kitchen Apron, Festive Cooking & Baking Gift | Winstar4U",
+ "blueprint_id": 713,
+ "print_provider_id": 6,
+ "position": "front",
+ "image_id": "6ac4f04501cfa1d533d0a960",
+ "image_name": "christmas-eat-no-january.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/2f3eeebe-1ed1-45af-8a75-4791f67561be",
+ "image_px": [
+  1707,
+  2048
+ ],
+ "decoration_method": "dtg",
+ "visible": true,
+ "updated_at": "2026-10-09 01:54:39+00:00",
+ "defect_cause": "white box",
+ "defect_note": "DEFECT \u2014 opaque white-background-box defect \u2014 non-transparent PNG shows white rectangle on black apron",
+ "current": {
+  "x": 0.5,
+  "y": 0.58,
+  "scale": 1.0,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0012,
+  0.0005,
+  1.0,
+  0.999
+ ],
+ "current_content_box_in_placeholder": [
+  0.0012,
+  0.1118,
+  1.0,
+  1.0477
+ ],
+ "current_inside_safe_frac": {
+  "74521": 0.8699
+ },
+ "effective_px_ratio_after": 0.644,
+ "proposed": {
+  "x": 0.4984,
+  "y": 0.528,
+  "scale": 0.898,
+  "angle": 0
+ },
+ "placeholders": {
+  "74521": [
+   2953,
+   3780
+  ]
+ },
+ "safe_area_source": {
+  "74521": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "74521": 1.0
+ },
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "bottom 5%"
+ ],
+ "notes": [
+  "art has opaque WHITE background on dtg print over coloured blank -> visible white patch; needs transparent re-export of same design (placement computed+verified, apply together)",
+  "current: 13.0% of visible content outside safe area (variant 74521)"
+ ],
+ "live_change_made": false
+}

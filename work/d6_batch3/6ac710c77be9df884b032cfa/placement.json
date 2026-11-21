@@ -1,0 +1,72 @@
+{
+ "product_id": "6ac710c77be9df884b032cfa",
+ "shop_id": "26418699",
+ "title": "Joy To World Christian Christmas Shot Glass \u2014 1.5oz Party Shot Glass, Holiday Gift | Winstar4U",
+ "blueprint_id": 1245,
+ "print_provider_id": 228,
+ "position": "front",
+ "image_id": "6ac8609f09400de7ef328f40",
+ "image_name": "fixed_6ac4f0dbd82adc37bd803971.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/f6eb800e-10d2-4795-a52a-0f4002577327",
+ "image_px": [
+  1577,
+  1861
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 03:42:40+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT \u2014 top line (\"JOY TO THE\") cropped at rim",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.8,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0063,
+  0.0054,
+  0.9937,
+  0.9946
+ ],
+ "current_content_box_in_placeholder": [
+  0.1051,
+  -0.0448,
+  0.8949,
+  1.0448
+ ],
+ "current_inside_safe_frac": {
+  "94263": 0.7428
+ },
+ "effective_px_ratio_after": 5.015,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.599,
+  "angle": 0
+ },
+ "placeholders": {
+  "94263": [
+   525,
+   450
+  ]
+ },
+ "safe_area_source": {
+  "94263": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "94263": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 4%",
+  "bottom 4%"
+ ],
+ "notes": [
+  "current: 25.7% of visible content outside safe area (variant 94263)"
+ ],
+ "live_change_made": false
+}

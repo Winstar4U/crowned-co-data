@@ -1,0 +1,93 @@
+{
+ "product_id": "6ac71204f0a0ce97bc0c9211",
+ "shop_id": "26418699",
+ "title": "Christmas Party Survivor Christmas Duvet Cover \u2014 Cozy Christmas Bedroom Makeover, Holiday Home Decor Gift | Winstar4U",
+ "blueprint_id": 2662,
+ "print_provider_id": 10,
+ "position": "front",
+ "image_id": "6ac8e4f483bae1c2c99bf109",
+ "image_name": "christmas-party-survivor-FIXED.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/77228f1c-8573-43aa-bcd9-fcc704b99a7b",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "direct-to-fabric",
+ "visible": true,
+ "updated_at": "2026-10-14 12:49:05+00:00",
+ "defect_cause": "checkerboard",
+ "defect_note": "DEFECT: checkerboard transparency artifact in corners",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 1.0,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0,
+  0.0,
+  1.0,
+  1.0
+ ],
+ "current_content_box_in_placeholder": [
+  0.0,
+  0.1111,
+  1.0,
+  0.8889
+ ],
+ "current_inside_safe_frac": {
+  "147747": 0.9791,
+  "147745": 0.8107,
+  "147746": 0.9302,
+  "147748": 0.9791
+ },
+ "effective_px_ratio_after": 0.169,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.762,
+  "angle": 0
+ },
+ "placeholders": {
+  "147747": [
+   10500,
+   13500
+  ],
+  "147745": [
+   15900,
+   13500
+  ],
+  "147746": [
+   13500,
+   13500
+  ],
+  "147748": [
+   10500,
+   14175
+  ]
+ },
+ "safe_area_source": {
+  "147747": "printify_safe_area",
+  "147745": "printify_safe_area",
+  "147746": "printify_safe_area",
+  "147748": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "147747": 1.0,
+  "147745": 1.0,
+  "147746": 1.0,
+  "147748": 1.0
+ },
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [],
+ "notes": [
+  "NEEDS_NEW_ART: register checkerboard defect CONFIRMED in source art - christmas-party-survivor-FIXED.png still carries residual baked-in checkerboard squares (opaque white + light-grey tiles) scattered through the 'transparent' margin around the badge, top-right worst (visually checked at full res); grey tiles will print on the white duvet face. Also LOW-RES (2048 px source upscaled ~5.9x on King 15900 px). Placement (scale 0.762, fully inside safe area on all 4 sizes) is computed+verified; apply together with a clean, >=6000 px transparent re-export.",
+  "geometry checked for 4 enabled variants (4 distinct placeholder geometries)",
+  "LOW-RES: art upscaled 5.9x on largest variant (src px/print px=0.17)",
+  "current: 18.9% of visible content outside safe area (variant 147745)"
+ ],
+ "live_change_made": false
+}

@@ -1,0 +1,73 @@
+{
+ "product_id": "6ac71176ed135347800f9ae0",
+ "shop_id": "26418699",
+ "title": "Elegantly Wasted Martini Christmas Winter Scarf \u2014 Warm Holiday Statement Scarf, Holiday Gift | Winstar4U",
+ "blueprint_id": 1327,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac86086617e2e87727c938d",
+ "image_name": "elegantly-wasted-martini.png-TRANSPARENT.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/f31b6ed0-5dc6-42d8-8903-bb90152f6b24",
+ "image_px": [
+  1276,
+  1516
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 03:37:04+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT \u2014 bottom line (\"SINCE 2026\") cropped at fabric edge",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.4,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0078,
+  0.0066,
+  0.9922,
+  0.9934
+ ],
+ "current_content_box_in_placeholder": [
+  0.3031,
+  -0.1308,
+  0.6969,
+  1.1308
+ ],
+ "current_inside_safe_frac": {
+  "100848": 0.6884
+ },
+ "effective_px_ratio_after": 0.444,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.259,
+  "angle": 0
+ },
+ "placeholders": {
+  "100848": [
+   11100,
+   4126
+  ]
+ },
+ "safe_area_source": {
+  "100848": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "100848": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "LOW: 'Elegantly Wasted' is also an INXS song/album title (titles rarely protectable; review)",
+ "clip_edges_current": [
+  "top 10%",
+  "bottom 10%"
+ ],
+ "notes": [
+  "LOW-RES: art upscaled 2.3x on largest variant (src px/print px=0.44)",
+  "current: 31.2% of visible content outside safe area (variant 100848)"
+ ],
+ "live_change_made": false
+}

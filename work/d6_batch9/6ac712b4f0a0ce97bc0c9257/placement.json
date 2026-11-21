@@ -1,0 +1,73 @@
+{
+ "product_id": "6ac712b4f0a0ce97bc0c9257",
+ "shop_id": "26418699",
+ "title": "Corkscrew Wine Repeat Christmas Lunch Box \u2014 Bento Box for Holiday Lunches, Holiday Gift | Winstar4U",
+ "blueprint_id": 695,
+ "print_provider_id": 23,
+ "position": "front",
+ "image_id": "6ac8613dd97a0b8cd514d114",
+ "image_name": "fixed_6ac4f07701cfa1d533d0a99d.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/df102504-a63b-47eb-9135-48b019af5b84",
+ "image_px": [
+  1234,
+  1436
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 03:37:05+00:00",
+ "defect_cause": "other",
+ "defect_note": "DEFECT",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.7,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.0081,
+  0.007,
+  0.9919,
+  0.993
+ ],
+ "current_content_box_in_placeholder": [
+  0.1557,
+  -0.1484,
+  0.8443,
+  1.1484
+ ],
+ "current_inside_safe_frac": {
+  "72920": 0.7107
+ },
+ "effective_px_ratio_after": 1.139,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.483,
+  "angle": 0
+ },
+ "placeholders": {
+  "72920": [
+   2244,
+   1390
+  ]
+ },
+ "safe_area_source": {
+  "72920": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "72920": 1.0
+ },
+ "new_art_category": "",
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 11%",
+  "bottom 11%"
+ ],
+ "notes": [
+  "current: 28.9% of visible content outside safe area (variant 72920)"
+ ],
+ "live_change_made": false
+}

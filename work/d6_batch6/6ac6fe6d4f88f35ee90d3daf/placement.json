@@ -1,0 +1,89 @@
+{
+ "product_id": "6ac6fe6d4f88f35ee90d3daf",
+ "shop_id": "26418699",
+ "title": "\"Merry Everything Happy Always\" Christmas Unisex Hoodie \u2014 Festive Holiday Unisex Hoodie Gift | Winstar4U",
+ "blueprint_id": 77,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac4f13ffae6ba29cd570268",
+ "image_name": "merry-everything-happy-always.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/b9cb4c65-8097-4bd1-9a54-157d976374d7",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "dtg",
+ "visible": true,
+ "updated_at": "2026-10-09 03:13:03+00:00",
+ "defect_cause": "contrast/text color",
+ "defect_note": "DEFECT \u2014 low-contrast gray text on black garment",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 1.0,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.0186,
+  0.1865,
+  0.9707,
+  0.8218
+ ],
+ "contrast_vs_black": 0.333,
+ "low_contrast": true,
+ "current_content_box_in_placeholder": [
+  0.0186,
+  0.0294,
+  0.9707,
+  0.9831
+ ],
+ "current_inside_safe_frac": {
+  "32920": 0.9832,
+  "32878": 0.9832,
+  "32879": 0.9832
+ },
+ "effective_px_ratio_after": 0.62,
+ "proposed": {
+  "x": 0.505,
+  "y": 0.492,
+  "scale": 0.936,
+  "angle": 0
+ },
+ "placeholders": {
+  "32920": [
+   3531,
+   2352
+  ],
+  "32878": [
+   2919,
+   1944
+  ],
+  "32879": [
+   3273,
+   2180
+  ]
+ },
+ "safe_area_source": {
+  "32920": "rect",
+  "32878": "rect",
+  "32879": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "32920": 1.0,
+  "32878": 1.0,
+  "32879": 1.0
+ },
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [],
+ "notes": [
+  "Borderline: the silver 'MERRY EVERYTHING HAPPY ALWAYS' headline is readable on the live black mockup, but its grey shading/foliage is low-contrast on Black/Charcoal/Dark Heather (33% of pixels < 2.5:1). Owner may accept as-is; recommended fix is a brighter white/silver ink version.",
+  "NEEDS_NEW_ART: low-contrast ink on dark blank (see LOW-CONTRAST note) - needs light-ink recolour of the text/art layer (or owner disables the dark variants). Placement computed+verified; apply with the new art.",
+  "geometry checked for 35 enabled variants (3 distinct placeholder geometries)",
+  "LOW-CONTRAST: 33% of the art's opaque pixels have contrast < 2.5:1 against the enabled black blank (dark ink on dark garment) - not fixable by placement",
+  "current: 1.7% of visible content outside safe area (variant 32920)"
+ ],
+ "live_change_made": false
+}

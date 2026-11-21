@@ -1,0 +1,80 @@
+{
+ "product_id": "6ac711ae57527ce5fd019715",
+ "shop_id": "26418699",
+ "title": "Happy Holidays Tree Christmas Cutting Board \u2014 Festive Kitchen Decor Board, Holiday Gift | Winstar4U",
+ "blueprint_id": 643,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac70f1158b544dcbb743f7c",
+ "image_name": "nostalgic-happy-holidays-tree.jpg",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/7427f397-5b1d-4288-9a6d-3974f2868464",
+ "image_px": [
+  1536,
+  2048
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 02:02:35+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT: HAPPY text clipped at top edge \u2014 recurrence of known bad source file (nostalgic-happy-holidays-tree.jpg)",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.7,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0553,
+  0.0342,
+  0.957,
+  0.9526
+ ],
+ "current_content_box_in_placeholder": [
+  0.1887,
+  -0.101,
+  0.8199,
+  1.084
+ ],
+ "current_inside_safe_frac": {
+  "74550": 0.7244,
+  "74549": 0.7145
+ },
+ "effective_px_ratio_after": 0.612,
+ "proposed": {
+  "x": 0.5011,
+  "y": 0.504,
+  "scale": 0.523,
+  "angle": 0
+ },
+ "placeholders": {
+  "74550": [
+   3525,
+   2550
+  ],
+  "74549": [
+   4800,
+   3450
+  ]
+ },
+ "safe_area_source": {
+  "74550": "rect",
+  "74549": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "74550": 1.0,
+  "74549": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 9%",
+  "bottom 7%"
+ ],
+ "notes": [
+  "geometry checked for 2 enabled variants (2 distinct placeholder geometries)",
+  "current: 28.6% of visible content outside safe area (variant 74549)"
+ ],
+ "live_change_made": false
+}

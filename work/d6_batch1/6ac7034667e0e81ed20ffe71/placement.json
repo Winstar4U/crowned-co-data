@@ -1,0 +1,72 @@
+{
+ "product_id": "6ac7034667e0e81ed20ffe71",
+ "shop_id": "26418699",
+ "title": "\"Greatest Gift\" Thanksgiving Oven Mitts \u2014 Festive Holiday Kitchen Gift for the Cook, Thanksgiving Hostess Gift | Winstar4U",
+ "blueprint_id": 714,
+ "print_provider_id": 48,
+ "position": "Left",
+ "image_id": "6ac86e54a62b58fbb35088d1",
+ "image_name": "faith-greatest-gift.png-TRANSPARENT-rot.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/d4fb24e1-aeb2-46b1-853a-5fe691ff1c54",
+ "image_px": [
+  1236,
+  1814
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 04:32:26+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT \u2014 text cropped (tiny Oven Mitts print-pocket mismatch)",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.85,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0081,
+  0.0055,
+  0.9919,
+  0.9945
+ ],
+ "current_content_box_in_placeholder": [
+  0.0819,
+  -0.0569,
+  0.9181,
+  1.0569
+ ],
+ "current_inside_safe_frac": {
+  "76173": 0.7186
+ },
+ "effective_px_ratio_after": 2.134,
+ "proposed": {
+  "x": 0.44,
+  "y": 0.524,
+  "scale": 0.529,
+  "angle": 0
+ },
+ "placeholders": {
+  "76173": [
+   1095,
+   1213
+  ]
+ },
+ "safe_area_source": {
+  "76173": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "76173": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 5%",
+  "bottom 5%"
+ ],
+ "notes": [
+  "current: 28.1% of visible content outside safe area (variant 76173)"
+ ],
+ "live_change_made": false
+}

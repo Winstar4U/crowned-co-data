@@ -1,0 +1,95 @@
+{
+ "product_id": "6ac7147483f1a0e50d071e6d",
+ "shop_id": "26418699",
+ "title": "Santa I Can Explain Clipboard Christmas Baby Onesie \u2014 Adorable Baby Christmas Gift, Holiday Gift | Winstar4U",
+ "blueprint_id": 568,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac8600bec6da3459d4da534",
+ "image_name": "flattened-santa-i-can-explain-clipboard-transparent.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/24c9328d-5196-499c-91ce-35a2173cc1f4",
+ "image_px": [
+  400,
+  400
+ ],
+ "decoration_method": "dtg",
+ "visible": true,
+ "updated_at": "2026-10-09 03:38:52+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT (arc title text cropped/clipped at neckline, mostly illegible)",
+ "current": {
+  "x": 0.5,
+  "y": 0.3,
+  "scale": 1.0,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.065,
+  0.055,
+  0.925,
+  0.95
+ ],
+ "current_content_box_in_placeholder": [
+  0.065,
+  -0.0896,
+  0.925,
+  0.694
+ ],
+ "current_inside_safe_frac": {
+  "70900": 0.8634,
+  "70904": 0.8634,
+  "71073": 0.8634,
+  "71089": 0.8634
+ },
+ "effective_px_ratio_after": 0.19,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.444,
+  "scale": 1.0,
+  "angle": 0
+ },
+ "placeholders": {
+  "70900": [
+   1800,
+   2056
+  ],
+  "70904": [
+   2100,
+   2400
+  ],
+  "71073": [
+   1500,
+   1714
+  ],
+  "71089": [
+   1200,
+   1371
+  ]
+ },
+ "safe_area_source": {
+  "70900": "rect",
+  "70904": "rect",
+  "71073": "rect",
+  "71089": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "70900": 1.0,
+  "70904": 1.0,
+  "71073": 1.0,
+  "71089": 1.0
+ },
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 11%"
+ ],
+ "notes": [
+  "NEEDS_NEW_ART: source art is only 400x400 px; at the required scale it is upscaled ~5x on the 24M/18M front (2100 px) - will print soft/pixelated. Placement fix (arc title no longer clipped by neckline) is computed+verified; apply together with a >=1500 px re-export of the same transparent design.",
+  "geometry checked for 6 enabled variants (4 distinct placeholder geometries)",
+  "LOW-RES: art upscaled 5.2x on largest variant (src px/print px=0.19)",
+  "current: 13.7% of visible content outside safe area (variant 70900)"
+ ],
+ "live_change_made": false
+}

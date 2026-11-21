@@ -1,0 +1,4 @@
+# large regenerable upscale art (~55 MB); rebuild with scripts/sr_bleed.py + scripts/build_b.py
+art/*realesrgan*.png
+art/welcome_*realesrgan*.png
+scripts/__pycache__/

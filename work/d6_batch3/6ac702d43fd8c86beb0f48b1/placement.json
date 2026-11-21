@@ -1,0 +1,72 @@
+{
+ "product_id": "6ac702d43fd8c86beb0f48b1",
+ "shop_id": "26418699",
+ "title": "Keep Christ Christmas Christmas Canvas Wall Art \u2014 Festive Holiday Home Decor, Religious Christmas Print Gift | Winstar4U",
+ "blueprint_id": 937,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac4f0e1a055d7f7b564a124",
+ "image_name": "faith-keep-christ-christmas.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/080d76cb-70be-4d1d-a53d-d316e9321ccc",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "digital-printing",
+ "visible": true,
+ "updated_at": "2026-10-08 02:41:24+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT \u2014 top of text cropped at print-window edge (Canvas Wall Art)",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 1.0,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0874,
+  0.0283,
+  0.9131,
+  0.9771
+ ],
+ "current_content_box_in_placeholder": [
+  0.0874,
+  -0.1289,
+  0.9131,
+  1.1361
+ ],
+ "current_inside_safe_frac": {
+  "82220": 0.7034
+ },
+ "effective_px_ratio_after": 0.603,
+ "proposed": {
+  "x": 0.5001,
+  "y": 0.5,
+  "scale": 0.708,
+  "angle": 0
+ },
+ "placeholders": {
+  "82220": [
+   4800,
+   3600
+  ]
+ },
+ "safe_area_source": {
+  "82220": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "82220": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 10%",
+  "bottom 11%"
+ ],
+ "notes": [
+  "current: 29.7% of visible content outside safe area (variant 82220)"
+ ],
+ "live_change_made": false
+}

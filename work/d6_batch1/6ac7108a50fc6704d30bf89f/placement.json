@@ -1,0 +1,72 @@
+{
+ "product_id": "6ac7108a50fc6704d30bf89f",
+ "shop_id": "26418699",
+ "title": "Amazing Grace Christmas Shot Glass \u2014 1.5oz Party Shot Glass, Holiday Gift | Winstar4U",
+ "blueprint_id": 1245,
+ "print_provider_id": 228,
+ "position": "front",
+ "image_id": "6ac8608a0ad4a7e39911bfab",
+ "image_name": "fixed_6ac4f0b1f88ace763a9fad8d.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/edb370a0-7592-424a-a48b-c0b33d708e6f",
+ "image_px": [
+  1474,
+  1923
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 03:43:16+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT \u2014 top line (\"AMAZING\") cropped at rim",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.8,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0068,
+  0.0052,
+  0.9932,
+  0.9948
+ ],
+ "current_content_box_in_placeholder": [
+  0.1054,
+  -0.1025,
+  0.8946,
+  1.1025
+ ],
+ "current_inside_safe_frac": {
+  "94263": 0.6546
+ },
+ "effective_px_ratio_after": 4.735,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.593,
+  "angle": 0
+ },
+ "placeholders": {
+  "94263": [
+   525,
+   450
+  ]
+ },
+ "safe_area_source": {
+  "94263": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "94263": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 9%",
+  "bottom 9%"
+ ],
+ "notes": [
+  "current: 34.5% of visible content outside safe area (variant 94263)"
+ ],
+ "live_change_made": false
+}

@@ -1,0 +1,95 @@
+{
+ "product_id": "6ac711cfb32a96bbe40d0c95",
+ "shop_id": "26418699",
+ "title": "Avoiding Carolers Raccoon Christmas Duvet Cover \u2014 Cozy Christmas Bedroom Makeover, Holiday Home Decor Gift | Winstar4U",
+ "blueprint_id": 2662,
+ "print_provider_id": 10,
+ "position": "front",
+ "image_id": "6ac85b67a62b58fbb35085ba",
+ "image_name": "avoiding-carolers-raccoon.png-TRANSPARENT.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/d2d5a5d2-c6d4-4cdd-a910-c8af126decc0",
+ "image_px": [
+  1059,
+  1501
+ ],
+ "decoration_method": "direct-to-fabric",
+ "visible": true,
+ "updated_at": "2026-10-09 03:24:30+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT: CURRENTLY clipped at top edge",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 1.0,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0094,
+  0.0067,
+  0.9906,
+  0.9933
+ ],
+ "current_content_box_in_placeholder": [
+  0.0094,
+  -0.1992,
+  0.9906,
+  1.1992
+ ],
+ "current_inside_safe_frac": {
+  "147746": 0.6463,
+  "147745": 0.5549,
+  "147747": 0.7815,
+  "147748": 0.8302
+ },
+ "effective_px_ratio_after": 0.122,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.544,
+  "angle": 0
+ },
+ "placeholders": {
+  "147746": [
+   13500,
+   13500
+  ],
+  "147745": [
+   15900,
+   13500
+  ],
+  "147747": [
+   10500,
+   13500
+  ],
+  "147748": [
+   10500,
+   14175
+  ]
+ },
+ "safe_area_source": {
+  "147746": "printify_safe_area",
+  "147745": "printify_safe_area",
+  "147747": "printify_safe_area",
+  "147748": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "147746": 1.0,
+  "147745": 1.0,
+  "147747": 1.0,
+  "147748": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 14%",
+  "bottom 14%"
+ ],
+ "notes": [
+  "geometry checked for 4 enabled variants (4 distinct placeholder geometries)",
+  "LOW-RES: art upscaled 8.2x on largest variant (src px/print px=0.12)",
+  "current: 44.5% of visible content outside safe area (variant 147745)"
+ ],
+ "live_change_made": false
+}

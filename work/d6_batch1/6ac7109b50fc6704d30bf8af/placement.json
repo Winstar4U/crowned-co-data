@@ -1,0 +1,87 @@
+{
+ "product_id": "6ac7109b50fc6704d30bf8af",
+ "shop_id": "26418699",
+ "title": "\"Merry Christmas Leave Me Alone\" Christmas Water Bottle \u2014 Funny Holiday Steel Bottle, Holiday Gift | Winstar4U",
+ "blueprint_id": 854,
+ "print_provider_id": 23,
+ "position": "front",
+ "image_id": "6ac860cd9ba5ca63346b06a3",
+ "image_name": "fixed_6ac4f13431ea32c8d94fcf12.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/ea75bfed-7c02-4cb2-a70a-522bf28ff4ec",
+ "image_px": [
+  1680,
+  1995
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 03:43:05+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT \u2014 top word (\"MERRY\") cropped at bottle shoulder",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.6,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.006,
+  0.005,
+  0.994,
+  0.995
+ ],
+ "current_content_box_in_placeholder": [
+  0.2036,
+  -0.1487,
+  0.7964,
+  1.1487
+ ],
+ "current_inside_safe_frac": {
+  "76801": 0.7429,
+  "76802": 0.9593,
+  "76803": 0.8878
+ },
+ "effective_px_ratio_after": 1.194,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.415,
+  "angle": 0
+ },
+ "placeholders": {
+  "76801": [
+   2759,
+   1500
+  ],
+  "76802": [
+   2760,
+   1996
+  ],
+  "76803": [
+   3390,
+   2232
+  ]
+ },
+ "safe_area_source": {
+  "76801": "rect",
+  "76802": "rect",
+  "76803": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "76801": 1.0,
+  "76802": 1.0,
+  "76803": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 11%",
+  "bottom 11%"
+ ],
+ "notes": [
+  "geometry checked for 3 enabled variants (3 distinct placeholder geometries)",
+  "current: 25.7% of visible content outside safe area (variant 76801)"
+ ],
+ "live_change_made": false
+}

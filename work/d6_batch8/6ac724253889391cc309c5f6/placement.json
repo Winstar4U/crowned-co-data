@@ -1,0 +1,85 @@
+{
+ "product_id": "6ac724253889391cc309c5f6",
+ "shop_id": "26418699",
+ "title": "Christmas Vacation Canceled Christmas Button Pin \u2014 Festive Pin Button, Holiday Gift | Winstar4U",
+ "blueprint_id": 430,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac8613796758595fb79bc5b",
+ "image_name": "christmas-vacation-canceled.png-TRANSPARENT.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/523d008c-0eaf-4a1e-9f80-60f340eb07ad",
+ "image_px": [
+  1950,
+  1998
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 05:06:05+00:00",
+ "defect_cause": "other",
+ "defect_note": "DEFECT-MINOR",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.65,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.0051,
+  0.005,
+  0.9949,
+  0.995
+ ],
+ "current_content_box_in_placeholder": [
+  0.1783,
+  0.1703,
+  0.8217,
+  0.8297
+ ],
+ "current_inside_safe_frac": {
+  "62070": 0.9144,
+  "62071": 0.9918,
+  "67977": 1.0
+ },
+ "effective_px_ratio_after": 3.458,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.476,
+  "scale": 0.554,
+  "angle": 0
+ },
+ "placeholders": {
+  "62070": [
+   519,
+   519
+  ],
+  "62071": [
+   788,
+   788
+  ],
+  "67977": [
+   1018,
+   1018
+  ]
+ },
+ "safe_area_source": {
+  "62070": "printify_safe_area",
+  "62071": "printify_safe_area",
+  "67977": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "62070": 1.0,
+  "62071": 1.0,
+  "67977": 1.0
+ },
+ "new_art_category": "",
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "LOW: 'Christmas Vacation' echoes the National Lampoon film title; here used as a generic phrase ('Christmas Vacation Canceled') - review, no film marks/characters seen",
+ "clip_edges_current": [],
+ "notes": [
+  "geometry checked for 3 enabled variants (3 distinct placeholder geometries)",
+  "current: 8.6% of visible content outside safe area (variant 62070)"
+ ],
+ "live_change_made": false
+}

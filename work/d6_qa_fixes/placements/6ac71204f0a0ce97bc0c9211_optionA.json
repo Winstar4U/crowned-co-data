@@ -1,0 +1,118 @@
+{
+ "product_id": "6ac71204f0a0ce97bc0c9211",
+ "shop_id": "26418699",
+ "title": "Christmas Party Survivor Christmas Duvet Cover \u2014 Cozy Christmas Bedroom Makeover, Holiday Home Decor Gift | Winstar4U",
+ "blueprint_id": 2662,
+ "print_provider_id": 10,
+ "position": "front",
+ "decoration_method": "direct-to-fabric",
+ "issue": "B REWORK: ~102 dpi after 2x upscale",
+ "option": "OPTION A smaller motif (B file)",
+ "method": "B's 2x file as-is, scale 0.762->0.495 (65% linear)",
+ "art": {
+  "file": "work/../../winstar4u/my-projects/winstar-recovery/regenerated/6ac71204f0a0ce97bc0c9211_upscaled2x.png",
+  "px": [
+   4096,
+   4096
+  ],
+  "sha1": "c317b87e160e13a2fed33e8ecf3bf68582bdbefa",
+  "native_source_width_px": 2048,
+  "upscaled": true
+ },
+ "print_areas": [
+  {
+   "variant_ids": [
+    147747,
+    147748
+   ],
+   "placement": {
+    "angle": 0,
+    "scale": 0.4954,
+    "x": 0.4988,
+    "y": 0.4993
+   }
+  },
+  {
+   "variant_ids": [
+    147745
+   ],
+   "placement": {
+    "angle": 0,
+    "scale": 0.4954,
+    "x": 0.4988,
+    "y": 0.4989
+   }
+  },
+  {
+   "variant_ids": [
+    147746
+   ],
+   "placement": {
+    "angle": 0,
+    "scale": 0.4954,
+    "x": 0.4988,
+    "y": 0.4991
+   }
+  }
+ ],
+ "per_variant_qa": {
+  "147747": {
+   "inside": 1.0,
+   "ratio": 0.787,
+   "nominal_dpi": 236,
+   "native_ratio": 0.787,
+   "native_nominal_dpi": 236,
+   "physical_dpi": null,
+   "placeholder_ppi": null
+  },
+  "147745": {
+   "inside": 1.0,
+   "ratio": 0.52,
+   "nominal_dpi": 156,
+   "native_ratio": 0.52,
+   "native_nominal_dpi": 156,
+   "physical_dpi": null,
+   "placeholder_ppi": null
+  },
+  "147746": {
+   "inside": 1.0,
+   "ratio": 0.612,
+   "nominal_dpi": 184,
+   "native_ratio": 0.612,
+   "native_nominal_dpi": 184,
+   "physical_dpi": null,
+   "placeholder_ppi": null
+  },
+  "147748": {
+   "inside": 1.0,
+   "ratio": 0.787,
+   "nominal_dpi": 236,
+   "native_ratio": 0.787,
+   "native_nominal_dpi": 236,
+   "physical_dpi": null,
+   "placeholder_ppi": null
+  }
+ },
+ "content_bbox_norm": [
+  0.0232,
+  0.0039,
+  0.968,
+  0.989
+ ],
+ "qa_status": "WARN",
+ "b_script_verdict": "PASS",
+ "issues": [],
+ "before": {
+  "file": "winstar4u/my-projects/winstar-recovery/regenerated/6ac71204f0a0ce97bc0c9211_upscaled2x.png",
+  "placement": {
+   "x": 0.5,
+   "y": 0.5,
+   "scale": 0.762,
+   "angle": 0
+  },
+  "ratio_min": 0.338,
+  "inside_min": 1.0
+ },
+ "live_change_made": false,
+ "note": "NON-LIVE staging file. Nothing uploaded. Applying it needs an image upload + product update = owner-approved write."
+}

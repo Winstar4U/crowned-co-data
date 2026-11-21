@@ -1,0 +1,100 @@
+{
+ "product_id": "6ac7232d73283b982509a1c3",
+ "shop_id": "26418699",
+ "title": "Tree Up Patience Down Christmas Sticker Pack \u2014 Die-Cut Sticker Pack, Holiday Gift | Winstar4U",
+ "blueprint_id": 600,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac71e8e73560ed6dcc5023e",
+ "image_name": "flattened-tree-up-patience-down.jpg",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/b9713140-9318-465b-9e60-5ef25e1054e3",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "uv",
+ "visible": true,
+ "updated_at": "2026-10-09 01:56:05+00:00",
+ "defect_cause": "other",
+ "defect_note": "DEFECT-MINOR",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.8,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.1582,
+  0.0405,
+  0.8467,
+  0.9712
+ ],
+ "current_content_box_in_placeholder": [
+  0.2266,
+  0.1324,
+  0.7773,
+  0.877
+ ],
+ "current_inside_safe_frac": {
+  "72006": 1.0,
+  "72007": 1.0,
+  "72008": 1.0,
+  "72009": 1.0,
+  "72010": 1.0
+ },
+ "effective_px_ratio_after": 1.422,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.8,
+  "angle": 0
+ },
+ "placeholders": {
+  "72006": [
+   600,
+   600
+  ],
+  "72007": [
+   900,
+   900
+  ],
+  "72008": [
+   1200,
+   1200
+  ],
+  "72009": [
+   1500,
+   1500
+  ],
+  "72010": [
+   1800,
+   1800
+  ]
+ },
+ "safe_area_source": {
+  "72006": "rect",
+  "72007": "rect",
+  "72008": "rect",
+  "72009": "rect",
+  "72010": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "72006": 1.0,
+  "72007": 1.0,
+  "72008": 1.0,
+  "72009": 1.0,
+  "72010": 1.0
+ },
+ "new_art_category": "garbled_text",
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [],
+ "notes": [
+  "NEEDS_NEW_ART (garbled_text): flattened-tree-up-patience-down.jpg - the vertical 'patience meter' label reads 'P-A-T-I-T-A-N-E-C-E' (misspelt 'PATIENCE'; visually confirmed on source at 100%). Headline 'TREE UP. PATIENCE DOWN.' is correct. Needs corrected text art (same image 6ac71e8e73560ed6dcc5023e used on the lunch box AND the sticker pack). Source is a flattened JPEG with opaque white background. Placement computed+verified; apply with the new art. Die-cut sticker: opaque white JPEG means the die-cut is the full square - transparent re-export needed.",
+  "geometry checked for 5 enabled variants (5 distinct placeholder geometries)",
+  "current placement already inside safe area on all checked variants"
+ ],
+ "live_change_made": false
+}

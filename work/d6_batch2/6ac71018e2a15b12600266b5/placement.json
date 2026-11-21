@@ -1,0 +1,76 @@
+{
+ "product_id": "6ac71018e2a15b12600266b5",
+ "shop_id": "26418699",
+ "title": "Christmas Stress Tinsel Done Christmas Tank Top \u2014 Cute Christmas Apparel, Holiday Gift | Winstar4U",
+ "blueprint_id": 39,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac85ff9dd6f9330c7788111",
+ "image_name": "christmas-stress-tinsel-done-transparent.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/a7410fab-c680-4571-a9dc-2f2e987e0aac",
+ "image_px": [
+  1702,
+  2048
+ ],
+ "decoration_method": "dtg",
+ "visible": true,
+ "updated_at": "2026-10-09 04:02:37+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT \u2014 top line cropped",
+ "current": {
+  "x": 0.5,
+  "y": 0.38,
+  "scale": 0.9,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.1398,
+  0.1372,
+  0.8584,
+  0.8608
+ ],
+ "current_content_box_in_placeholder": [
+  0.1759,
+  0.0526,
+  0.8226,
+  0.7056
+ ],
+ "current_inside_safe_frac": {
+  "24828": 1.0,
+  "24830": 1.0,
+  "24829": 1.0
+ },
+ "proposed": null,
+ "placeholders": {
+  "24828": [
+   3210,
+   3852
+  ],
+  "24830": [
+   2631,
+   3156
+  ],
+  "24829": [
+   2920,
+   3504
+  ]
+ },
+ "safe_area_source": {
+  "24828": "rect",
+  "24830": "rect",
+  "24829": "rect"
+ },
+ "verify_inside_safe_frac": {},
+ "status": "BLOCKED",
+ "verify_pass": false,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [],
+ "notes": [
+  "Cannot reproduce: live placement (x=0.5,y=0.38,scale=0.9) is already inside the 5% safe area on all 8 enabled variants, and the zoomed live mockup shows the top line ('CHRISTMAS) fully visible below the neckline - audit flag looks like a false positive (likely confused with sibling Open Bar tank 6ac710117b.., which IS cropped). Recommend close without change after owner eyeball. Cosmetic: art headline starts with a stray unmatched opening quote mark (\u2018CHRISTMAS ... no closing quote). Not a placement issue; optional text fix on next art refresh.",
+  "proposed placement failed geometry verify",
+  "geometry checked for 8 enabled variants (3 distinct placeholder geometries)",
+  "current placement already inside safe area on all checked variants"
+ ],
+ "live_change_made": false
+}

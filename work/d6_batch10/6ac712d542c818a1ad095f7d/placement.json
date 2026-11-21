@@ -1,0 +1,129 @@
+{
+ "product_id": "6ac712d542c818a1ad095f7d",
+ "shop_id": "26418699",
+ "title": "Morning Person Dec25 Skeleton Christmas Throw Pillow Case 18x18 \u2014 Easy Couch & Bed Accent, Holiday Home Decor Gift | Winstar4U",
+ "blueprint_id": 5353,
+ "print_provider_id": 92,
+ "position": "front",
+ "image_id": "6ac8606c0ce11f05b3f9c4c1",
+ "image_name": "morning-person-dec25-skeleton.png-TRANSPARENT.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/e502baeb-568c-4a84-a27e-6e2f8c944c65",
+ "image_px": [
+  1466,
+  1881
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 12:45:31+00:00",
+ "defect_cause": "other",
+ "defect_note": "DEFECT",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.69,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.0068,
+  0.0053,
+  0.9932,
+  0.9947
+ ],
+ "current_content_box_in_placeholder": [
+  0.1597,
+  -0.1257,
+  0.8403,
+  1.1257
+ ],
+ "current_inside_safe_frac": {
+  "244224": 0.6484,
+  "244226": 0.9636,
+  "244227": 0.9727,
+  "244228": 0.9924
+ },
+ "proposed_per_variant_group": {
+  "244224": {
+   "x": 0.5,
+   "y": 0.5,
+   "scale": 0.389,
+   "angle": 0
+  },
+  "244226": {
+   "x": 0.5,
+   "y": 0.5,
+   "scale": 0.623,
+   "angle": 0
+  },
+  "244227": {
+   "x": 0.5,
+   "y": 0.5,
+   "scale": 0.633,
+   "angle": 0
+  },
+  "244228": {
+   "x": 0.5,
+   "y": 0.5,
+   "scale": 0.659,
+   "angle": 0
+  }
+ },
+ "shared_placement_alternative": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.389,
+  "angle": 0
+ },
+ "effective_px_ratio_after": 0.57,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.389,
+  "angle": 0
+ },
+ "placeholders": {
+  "244224": [
+   3000,
+   2100
+  ],
+  "244226": [
+   3000,
+   3000
+  ],
+  "244227": [
+   3300,
+   3300
+  ],
+  "244228": [
+   3900,
+   3900
+  ]
+ },
+ "safe_area_source": {
+  "244224": "printify_safe_area",
+  "244226": "printify_safe_area",
+  "244227": "printify_safe_area",
+  "244228": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "244224": 1.0,
+  "244226": 1.0,
+  "244227": 1.0,
+  "244228": 1.0
+ },
+ "new_art_category": "",
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 10%",
+  "bottom 10%"
+ ],
+ "notes": [
+  "Pillow 5353/92: one shared placement is forced small by the 12x18 landscape variant, so print_areas are SPLIT per size (each size optimised+verified separately; shared-placement alternative kept in placement.json).",
+  "geometry checked for 4 enabled variants (4 distinct placeholder geometries)",
+  "SPLIT print_areas per variant group (shared placement would be scale 0.389): 244224:x=0.5000,y=0.5000,s=0.389; 244226:x=0.5000,y=0.5000,s=0.623; 244227:x=0.5000,y=0.5000,s=0.633; 244228:x=0.5000,y=0.5000,s=0.659",
+  "current: 35.2% of visible content outside safe area (variant 244224)"
+ ],
+ "live_change_made": false
+}

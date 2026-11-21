@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 377.86 377.86" xmlns:printify="http://printify.com/adjuster"  printify:width="99.97500000000001" printify:height="99.97500000000001">
+  <defs>
+    <clipPath id="clip-path">
+      <ellipse id="&lt;Path&gt;" cx="188.93" cy="188.93" rx="131.78" ry="177.27" fill="none"/>
+    </clipPath>
+  <image id="fabric-image" x="0" y="0" width="377.86" height="377.86" xlink:href="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"/><path id="fabric-0" d=""/><clipPath id="fabric-0-clip"><use xlink:href="#fabric-0"/></clipPath><path id="fabric-1" d=""/><clipPath id="fabric-1-clip"><use xlink:href="#fabric-1"/></clipPath><rect id="_front-path" width="263.55" height="354.54" fill="none" transform=""/><clipPath id="_front-clippath"><use stroke-width="0.41656250000000006mm" xlink:href="#_front-path"/></clipPath></defs>
+  <g id="Front">
+    <g id="color_first" fill-rule="nonzero" fill="none"><use xlink:href="#fabric-0"/><use clip-path="url(#fabric-0-clip)" xlink:href="#fabric-image"/>
+      <g clip-path="url(#clip-path)">
+        <rect id="color_background" x="57.15" y="11.66" width="263.55" height="354.54" fill="none" fill-rule="nonzero"><use xlink:href="#fabric-1"/><use clip-path="url(#fabric-1-clip)" xlink:href="#fabric-image"/></rect>
+        
+      <g clip-path="url(#_front-clippath)" transform="translate(57.15 11.66)"><svg id="placeholder_front" width="263.55" height="354.54" preserveaspectratio="xMidYMid slice" viewBox="0 0 263.55 354.54" visibility="hidden"><use stroke-width="0.41656250000000006mm" xlink:href="#_front-path" stroke="#ffffff"/><use stroke-width="0.41656250000000006mm" xlink:href="#_front-path" stroke="#000000" stroke-dasharray="0.8331250000000001mm, 0.8331250000000001mm"/></svg></g></g>
+    </g>
+    <g id="outlines">
+      <g opacity="0.2">
+        <circle cx="188.93" cy="70.15" r="9.71" fill="#231f20"/>
+        <path d="M188.93,11.66C116.15,11.66,57.15,91,57.15,188.93s59,177.27,131.78,177.27S320.7,286.83,320.7,188.93,261.71,11.66,188.93,11.66Zm0,328.43c-59.63,0-108-67.68-108-151.16s48.34-151.16,108-151.16,108,67.67,108,151.16S248.56,340.09,188.93,340.09Z" fill="#231f20"/>
+      </g>
+      <g opacity="0.2">
+        <circle cx="188.93" cy="70.15" r="9.71" fill="#fff"/>
+        <path d="M188.93,11.66C116.15,11.66,57.15,91,57.15,188.93s59,177.27,131.78,177.27S320.7,286.83,320.7,188.93,261.71,11.66,188.93,11.66Zm0,328.43c-59.63,0-108-67.68-108-151.16s48.34-151.16,108-151.16,108,67.67,108,151.16S248.56,340.09,188.93,340.09Z" fill="#fff"/>
+      </g>
+      <path d="M188.93,37.77c-59.63,0-108,67.67-108,151.16s48.34,151.16,108,151.16,108-67.68,108-151.16S248.56,37.77,188.93,37.77Zm0,42.09a9.71,9.71,0,1,1,9.71-9.71A9.71,9.71,0,0,1,188.93,79.86Z" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.33"/>
+      <path d="M188.93,325c-23.82,0-46.57-13.48-64.05-38-18.58-26-28.81-60.85-28.81-98.1s10.23-72.09,28.81-98.1c12.35-17.29,27.32-29.09,43.45-34.53a24.83,24.83,0,1,0,41.2,0c16.12,5.44,31.1,17.24,43.45,34.53,18.58,26,28.81,60.85,28.81,98.1S271.56,261,253,287C235.5,311.5,212.75,325,188.93,325Z" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.47"/>
+      <path d="M188.93,325c-23.82,0-46.57-13.48-64.05-38-18.58-26-28.81-60.85-28.81-98.1s10.23-72.09,28.81-98.1c12.35-17.29,27.32-29.09,43.45-34.53a24.83,24.83,0,1,0,41.2,0c16.12,5.44,31.1,17.24,43.45,34.53,18.58,26,28.81,60.85,28.81,98.1S271.56,261,253,287C235.5,311.5,212.75,325,188.93,325Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.47" stroke-dasharray="5.66 9.44"/>
+      <ellipse cx="188.93" cy="188.93" rx="131.78" ry="177.27" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.33"/>
+    </g>
+  </g>
+</svg>

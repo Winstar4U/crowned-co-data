@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="mug" width="100%" height="100%" viewBox="0 0 1026.14 1026.14" xmlns:printify="http://printify.com/adjuster"  printify:width="271.5" printify:height="271.5">
+  <defs>
+    <clipPath id="clip-path">
+      <rect x="65.98" y="83.41" width="894.18" height="671.83" fill="none"/>
+    </clipPath>
+  <image x="0" y="0" width="1026.14" height="1026.14" id="fabric-image"/><path d="" id="fabric-0"/><clipPath id="fabric-0-clip"><use xlink:href="#fabric-0"/></clipPath><path d="" id="fabric-1"/><clipPath id="fabric-1-clip"><use xlink:href="#fabric-1"/></clipPath><rect id="_front-path" width="894.18" height="671.83" fill="none" stroke-miterlimit="10" transform=""/><clipPath><use stroke-width="1.13125mm" xlink:href="#_front-path"/></clipPath></defs>
+  <g id="color_first" fill-rule="nonzero" fill="#fff"><use xlink:href="#fabric-0"/><use clip-path="url(#fabric-0-clip)" xlink:href="#fabric-image"/>
+    <g clip-path="url(#clip-path)">
+      <rect id="color_background" x="65.98" y="83.41" width="894.18" height="671.83" fill="#fff" stroke="#fff" stroke-miterlimit="10" fill-rule="nonzero"><use xlink:href="#fabric-1"/><use clip-path="url(#fabric-1-clip)" xlink:href="#fabric-image"/></rect>
+      
+    <g clip-path="url(#_front-clippath)" transform="translate(65.98 83.41)"><svg id="placeholder_front" width="894.18" height="671.83" preserveAspectRatio="xMidYMid slice" viewBox="0 0 894.18 671.83"><use stroke-width="1.13125mm" xlink:href="#_front-path" stroke="#ffffff"/><use stroke-width="1.13125mm" xlink:href="#_front-path" stroke="#000000" stroke-dasharray="2.2625mm, 2.2625mm"/></svg></g></g>
+  </g>
+  <g id="outlines">
+    <path d="M66,83.41V755.24H960.16V83.41ZM941.81,736.66H85.15V102H941.81Z" fill="#fff" opacity="0.2"/>
+    <path d="M66,83.41V755.24H960.16V83.41ZM941.81,736.66H85.15V102H941.81Z" fill="#1b1c20" opacity="0.2"/>
+    <g id="outlines">
+      <g>
+        <g>
+          <path d="M909.91,859.83l1.63-8.87a2.23,2.23,0,0,1,2.2-1.83h56.12a2.23,2.23,0,0,1,2.2,1.83l1.65,8.87" fill="none" stroke="#c5c5c5" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.78"/>
+          <polygon points="973.71 859.83 963.55 965.8 953.62 965.8 946.85 965.8 920.07 965.8 909.91 859.83 973.71 859.83" fill="none" stroke="#39b75d" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.78"/>
+        </g>
+        <polyline points="941.81 965.8 963.55 965.8 973.71 859.83 941.81 859.83" fill="none" stroke="#c5c5c5" stroke-linejoin="round" stroke-width="3.78"/>
+        <line x1="937.81" y1="854.48" x2="945.81" y2="854.48" fill="none" stroke="#c5c5c5" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.78"/>
+      </g>
+      <g>
+        <polygon points="757.55 861.29 747.38 967.26 737.46 967.26 730.68 967.26 703.91 967.26 693.74 861.29 757.55 861.29" fill="none" stroke="#39b75d" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.78"/>
+        <path d="M693.74,861.29l1.63-8.87a2.23,2.23,0,0,1,2.2-1.83h56.12a2.25,2.25,0,0,1,2.21,1.83l1.65,8.87" fill="none" stroke="#c5c5c5" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.78"/>
+        <line x1="757.55" y1="854.48" x2="761.55" y2="854.48" fill="none" stroke="#c5c5c5" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.78"/>
+      </g>
+      <g>
+        <polygon points="544.97 861.29 534.81 967.26 524.88 967.26 518.11 967.26 491.33 967.26 481.17 861.29 544.97 861.29" fill="none" stroke="#39b75d" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.78"/>
+        <path d="M481.17,861.29l1.63-8.87a2.23,2.23,0,0,1,2.2-1.83h56.12a2.24,2.24,0,0,1,2.2,1.83l1.65,8.87" fill="none" stroke="#c5c5c5" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.78"/>
+      </g>
+      <g>
+        <polygon points="269.41 861.29 279.57 967.26 289.5 967.26 296.28 967.26 323.05 967.26 333.21 861.29 269.41 861.29" fill="none" stroke="#39b75d" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.78"/>
+        <path d="M269.41,861.29l1.63-8.87a2.23,2.23,0,0,1,2.2-1.83h56.12a2.23,2.23,0,0,1,2.2,1.83l1.65,8.87" fill="none" stroke="#c5c5c5" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.78"/>
+        <line x1="265.41" y1="854.48" x2="269.41" y2="854.48" fill="none" stroke="#c5c5c5" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.78"/>
+      </g>
+      <g>
+        <g>
+          <path d="M53.24,859.83,54.87,851a2.23,2.23,0,0,1,2.2-1.83h56.12A2.25,2.25,0,0,1,115.4,851l1.65,8.87" fill="none" stroke="#c5c5c5" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.78"/>
+          <polygon points="117.05 859.83 106.88 965.8 96.95 965.8 90.18 965.8 63.41 965.8 53.24 859.83 117.05 859.83" fill="none" stroke="#39b75d" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.78"/>
+        </g>
+        <polyline points="85.14 965.8 63.41 965.8 53.24 859.83 85.14 859.83" fill="none" stroke="#c5c5c5" stroke-linejoin="round" stroke-width="3.78"/>
+        <line x1="81.38" y1="854.48" x2="89.38" y2="854.48" fill="none" stroke="#c5c5c5" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.78"/>
+      </g>
+    </g>
+    <rect x="85.15" y="101.99" width="856.67" height="634.67" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.96"/>
+    <rect x="104.69" y="120.84" width="817.39" height="595.69" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.65"/>
+    <line x1="192.23" y1="49.24" x2="192.23" y2="789.41" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="1.62"/>
+    <line x1="406.4" y1="49.24" x2="406.4" y2="789.41" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="1.62"/>
+    <line x1="620.56" y1="49.24" x2="620.56" y2="789.41" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="1.62"/>
+    <line x1="834.73" y1="49.24" x2="834.73" y2="789.41" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="1.62"/>
+    <line x1="834.73" y1="49.24" x2="834.73" y2="789.41" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.74" stroke-dasharray="0.65 16.31"/>
+    <line x1="620.56" y1="49.24" x2="620.56" y2="789.41" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.74" stroke-dasharray="0.65 16.31"/>
+    <line x1="406.4" y1="49.24" x2="406.4" y2="789.41" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.74" stroke-dasharray="0.65 16.31"/>
+    <line x1="192.23" y1="49.24" x2="192.23" y2="789.41" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.74" stroke-dasharray="0.65 16.31"/>
+    <g>
+      <polyline points="922.09 712.6 922.09 716.53 918.16 716.53" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.65"/>
+      <line x1="905.06" y1="716.53" x2="115.17" y2="716.53" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.65" stroke-dasharray="7.86 13.1"/>
+      <polyline points="108.62 716.53 104.69 716.53 104.69 712.6" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.65"/>
+      <line x1="104.69" y1="699.3" x2="104.69" y2="131.42" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.65" stroke-dasharray="7.98 13.3"/>
+      <polyline points="104.69 124.77 104.69 120.84 108.62 120.84" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.65"/>
+      <line x1="121.72" y1="120.84" x2="911.61" y2="120.84" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.65" stroke-dasharray="7.86 13.1"/>
+      <polyline points="918.16 120.84 922.09 120.84 922.09 124.77" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.65"/>
+      <line x1="922.09" y1="138.07" x2="922.09" y2="705.95" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.65" stroke-dasharray="7.98 13.3"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,73 @@
+{
+ "product_id": "6ac7114a35a66ab7dc0b0f63",
+ "shop_id": "26418699",
+ "title": "Christmas Open Bar Christmas Winter Scarf \u2014 Soft Festive Wrap Gift, Holiday Gift | Winstar4U",
+ "blueprint_id": 1327,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac8ddcce9406544747ac5d9",
+ "image_name": "openbar_fixed.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/8bf92d94-f895-40e5-8307-2410100e5a46",
+ "image_px": [
+  1079,
+  1773
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-14 13:14:27+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT \u2014 top line severely cropped, only a sliver visible above \"I'M JUST FOR THE OPEN BAR\" (alcohol-themed but adult Winter Scarf, not a brand-safety flag)",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.4,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0093,
+  0.0056,
+  0.9907,
+  0.855
+ ],
+ "current_content_box_in_placeholder": [
+  0.3037,
+  -0.3741,
+  0.6963,
+  1.1278
+ ],
+ "current_inside_safe_frac": {
+  "100848": 0.6284
+ },
+ "effective_px_ratio_after": 0.448,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.568,
+  "scale": 0.217,
+  "angle": 0
+ },
+ "placeholders": {
+  "100848": [
+   11100,
+   4126
+  ]
+ },
+ "safe_area_source": {
+  "100848": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "100848": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 25%",
+  "bottom 9%"
+ ],
+ "notes": [
+  "LOW-RES: art upscaled 2.2x on largest variant (src px/print px=0.45)",
+  "current: 37.2% of visible content outside safe area (variant 100848)"
+ ],
+ "live_change_made": false
+}

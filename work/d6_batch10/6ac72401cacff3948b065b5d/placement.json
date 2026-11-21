@@ -1,0 +1,86 @@
+{
+ "product_id": "6ac72401cacff3948b065b5d",
+ "shop_id": "26418699",
+ "title": "Custom Pin Buttons",
+ "blueprint_id": 430,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac8e4f483bae1c2c99bf109",
+ "image_name": "christmas-party-survivor-FIXED.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/77228f1c-8573-43aa-bcd9-fcc704b99a7b",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-14 12:48:03+00:00",
+ "defect_cause": "other",
+ "defect_note": "DEFECT-MINOR",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.8,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.0,
+  0.0,
+  1.0,
+  1.0
+ ],
+ "current_content_box_in_placeholder": [
+  0.1,
+  0.1,
+  0.9,
+  0.9
+ ],
+ "current_inside_safe_frac": {
+  "62070": 0.6881,
+  "62071": 0.898,
+  "67977": 0.9561
+ },
+ "effective_px_ratio_after": 4.072,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.494,
+  "angle": 0
+ },
+ "placeholders": {
+  "62070": [
+   519,
+   519
+  ],
+  "62071": [
+   788,
+   788
+  ],
+  "67977": [
+   1018,
+   1018
+  ]
+ },
+ "safe_area_source": {
+  "62070": "printify_safe_area",
+  "62071": "printify_safe_area",
+  "67977": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "62070": 1.0,
+  "62071": 1.0,
+  "67977": 1.0
+ },
+ "new_art_category": "checkerboard",
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [],
+ "notes": [
+  "NEEDS_NEW_ART (checkerboard): christmas-party-survivor-FIXED.png has a failed background removal - grey/white checkerboard remnant blocks across the whole 'transparent' area and a baked-in checkerboard patch behind the light strings (visually confirmed on a black backdrop). On a white sublimated pin they print as grey speckle. Needs a clean transparent re-export. Placement computed+verified on all 3 pin sizes (round print area). LISTING: product title is the Printify default 'Custom Pin Buttons' with default description/tags (no Christmas Party Survivor title) - owner should retitle when the art is replaced.",
+  "geometry checked for 3 enabled variants (3 distinct placeholder geometries)",
+  "current: 31.2% of visible content outside safe area (variant 62070)"
+ ],
+ "live_change_made": false
+}

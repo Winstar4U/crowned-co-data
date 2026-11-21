@@ -1,0 +1,87 @@
+{
+ "product_id": "6ac6fe8835cf3f6ec802e0d9",
+ "shop_id": "26418699",
+ "title": "\"Naughty List Resume\" Christmas Unisex Hoodie \u2014 Festive Holiday Unisex Hoodie Gift | Winstar4U",
+ "blueprint_id": 77,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac85ff2617e2e87727c9271",
+ "image_name": "naughty-list-resume-transparent.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/4e2e5d00-1509-4719-b593-e310086f25ec",
+ "image_px": [
+  1707,
+  2048
+ ],
+ "decoration_method": "dtg",
+ "visible": true,
+ "updated_at": "2026-10-09 04:07:11+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT \u2014 bottom of text cropped at print-window edge",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 1,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0111,
+  0.0015,
+  0.9924,
+  0.9932
+ ],
+ "current_content_box_in_placeholder": [
+  0.0111,
+  -0.398,
+  0.9924,
+  1.3883
+ ],
+ "current_inside_safe_frac": {
+  "32920": 0.5306,
+  "32878": 0.5306,
+  "32879": 0.5306
+ },
+ "effective_px_ratio_after": 0.965,
+ "proposed": {
+  "x": 0.5009,
+  "y": 0.504,
+  "scale": 0.501,
+  "angle": 0
+ },
+ "placeholders": {
+  "32920": [
+   3531,
+   2352
+  ],
+  "32878": [
+   2919,
+   1944
+  ],
+  "32879": [
+   3273,
+   2180
+  ]
+ },
+ "safe_area_source": {
+  "32920": "rect",
+  "32878": "rect",
+  "32879": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "32920": 1.0,
+  "32878": 1.0,
+  "32879": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 22%",
+  "bottom 22%"
+ ],
+ "notes": [
+  "geometry checked for 35 enabled variants (3 distinct placeholder geometries)",
+  "current: 46.9% of visible content outside safe area (variant 32920)"
+ ],
+ "live_change_made": false
+}

@@ -1,0 +1,79 @@
+{
+ "product_id": "6ac7114fc077332834034cdd",
+ "shop_id": "26418699",
+ "title": "All I Want Nap Christmas Baby Onesie \u2014 Adorable Baby Christmas Gift, Holiday Gift | Winstar4U",
+ "blueprint_id": 568,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac860066394add052a9f87a",
+ "image_name": "all-i-want-nap-transparent.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/1692a4f9-2047-42d8-9aae-667243aefdff",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "dtg",
+ "visible": true,
+ "updated_at": "2026-10-09 04:03:21+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT \u2014 top line (\"ALL I WANT FOR\") clipped at collar edge",
+ "current": {
+  "x": 0.5,
+  "y": 0.3,
+  "scale": 0.9,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.1719,
+  0.0601,
+  0.8286,
+  0.9473
+ ],
+ "current_content_box_in_placeholder": [
+  0.2047,
+  -0.0466,
+  0.7958,
+  0.6524
+ ],
+ "current_inside_safe_frac": {
+  "70900": 0.9041,
+  "70904": 0.9041
+ },
+ "effective_px_ratio_after": 1.084,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.4,
+  "scale": 0.9,
+  "angle": 0
+ },
+ "placeholders": {
+  "70900": [
+   1800,
+   2056
+  ],
+  "70904": [
+   2100,
+   2400
+  ]
+ },
+ "safe_area_source": {
+  "70900": "rect",
+  "70904": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "70900": 1.0,
+  "70904": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 7%"
+ ],
+ "notes": [
+  "geometry checked for 3 enabled variants (2 distinct placeholder geometries)",
+  "current: 9.6% of visible content outside safe area (variant 70900)"
+ ],
+ "live_change_made": false
+}

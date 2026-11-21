@@ -1,0 +1,71 @@
+{
+ "product_id": "6ac701f37be9df884b032535",
+ "shop_id": "26418699",
+ "title": "Greatest Gift Christmas Throw Pillow \u2014 Festive Holiday Decorative Pillow, Cozy Winter Home Decor Gift | Winstar4U",
+ "blueprint_id": 220,
+ "print_provider_id": 10,
+ "position": "front",
+ "image_id": "6ac4f0cc670ed8c1e9a88c6b",
+ "image_name": "faith-greatest-gift.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/4fd49dac-3f5f-44c9-9efe-4a4f108878d4",
+ "image_px": [
+  2048,
+  1365
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 01:43:24+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT \u2014 text cropped at top of pillow face",
+ "current": {
+  "x": 0.25,
+  "y": 0.5,
+  "scale": 0.8,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0635,
+  0.0593,
+  0.9395,
+  0.9495
+ ],
+ "current_content_box_in_placeholder": [
+  -0.0992,
+  0.0301,
+  0.6016,
+  0.9793
+ ],
+ "current_inside_safe_frac": {
+  "41524": 0.6781
+ },
+ "effective_px_ratio_after": 0.846,
+ "proposed": {
+  "x": 0.2535,
+  "y": 0.5,
+  "scale": 0.461,
+  "angle": 0
+ },
+ "placeholders": {
+  "41524": [
+   5250,
+   2625
+  ]
+ },
+ "safe_area_source": {
+  "41524": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "41524": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "left 14%"
+ ],
+ "notes": [
+  "current: 32.2% of visible content outside safe area (variant 41524)"
+ ],
+ "live_change_made": false
+}

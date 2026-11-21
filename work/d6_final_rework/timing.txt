@@ -1,0 +1,3 @@
+start_utc=2026-11-20T20:12:51Z
+end_utc=2026-11-20T20:42:53Z
+note=D6 final local rework (A+B) + 49 per-product wording previews (C). Local files only; local Real-ESRGAN anime6B on CPU (6 runs). No Printify calls of any kind, no Higgsfield, no Bridge, no git.

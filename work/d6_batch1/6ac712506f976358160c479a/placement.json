@@ -1,0 +1,73 @@
+{
+ "product_id": "6ac712506f976358160c479a",
+ "shop_id": "26418699",
+ "title": "Naughty List Vip Christmas Fanny Pack \u2014 Concert-Ready Waist Pack, Holiday Gift | Winstar4U",
+ "blueprint_id": 468,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac70eb8c6a41154ecfc961c",
+ "image_name": "naughty-list-vip.jpg",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/d3b35750-72cb-4146-a6b4-504f0653ab59",
+ "image_px": [
+  2048,
+  1365
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-19 03:33:04+00:00",
+ "defect_cause": "other",
+ "defect_note": "DEFECT",
+ "current": {
+  "x": 0.5,
+  "y": 0.6,
+  "scale": 0.82,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0815,
+  0.033,
+  0.9185,
+  0.9707
+ ],
+ "current_content_box_in_placeholder": [
+  0.1569,
+  -0.1009,
+  0.8431,
+  1.3064
+ ],
+ "current_inside_safe_frac": {
+  "65045": 0.489
+ },
+ "effective_px_ratio_after": 2.177,
+ "proposed": {
+  "x": 0.4975,
+  "y": 0.492,
+  "scale": 0.405,
+  "angle": 0
+ },
+ "placeholders": {
+  "65045": [
+   2323,
+   846
+  ]
+ },
+ "safe_area_source": {
+  "65045": "printify_print_outline"
+ },
+ "verify_inside_safe_frac": {
+  "65045": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 7%",
+  "bottom 22%"
+ ],
+ "notes": [
+  "OTHER-defect inspected: live mockup shows 'NAUGHTY LIST' header and card corners cut by the curved fanny panel (cropping). Art itself is complete; placement fix resolves it. Caveats: opaque JPEG with white surround (invisible on white sublimation blank); fine-print lines become small (~3-4 mm) at the fitted scale.",
+  "current: 51.1% of visible content outside safe area (variant 65045)"
+ ],
+ "live_change_made": false
+}

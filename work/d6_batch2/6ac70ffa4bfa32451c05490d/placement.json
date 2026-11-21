@@ -1,0 +1,73 @@
+{
+ "product_id": "6ac70ffa4bfa32451c05490d",
+ "shop_id": "26418699",
+ "title": "Christmas Party Survivor Christmas Fanny Pack \u2014 Chic Hands-Free Purse, Holiday Gift | Winstar4U",
+ "blueprint_id": 468,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac8e4f483bae1c2c99bf109",
+ "image_name": "christmas-party-survivor-FIXED.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/77228f1c-8573-43aa-bcd9-fcc704b99a7b",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-14 12:49:41+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT \u2014 title/graphic cropped at bottom curved edge (\"PARTY\" clipped)",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.9,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0,
+  0.0,
+  1.0,
+  1.0
+ ],
+ "current_content_box_in_placeholder": [
+  0.05,
+  -0.7356,
+  0.95,
+  1.7356
+ ],
+ "current_inside_safe_frac": {
+  "65045": 0.2436
+ },
+ "effective_px_ratio_after": 3.541,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.484,
+  "scale": 0.249,
+  "angle": 0
+ },
+ "placeholders": {
+  "65045": [
+   2323,
+   846
+  ]
+ },
+ "safe_area_source": {
+  "65045": "printify_print_outline"
+ },
+ "verify_inside_safe_frac": {
+  "65045": 1.0
+ },
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 30%",
+  "bottom 30%"
+ ],
+ "notes": [
+  "PARTY SURVIVOR art defect: original 'christmas-party-survivor-FIXED.png' (shared by 6ac7176757.., 6ac7020d74.., 6ac70ffa4b..) has a baked-in fake-transparency CHECKERBOARD (white/grey squares) scattered across the whole 2048px canvas and visible inside the badge behind the plate (~25% of pixels are opaque near-white). Prints as grey/white dust around the badge. Needs clean transparent re-export of the badge. Placement below is computed/verified for the CURRENT art only (its bbox is the full canvas, so the badge is smaller than needed).",
+  "current: 75.6% of visible content outside safe area (variant 65045)"
+ ],
+ "live_change_made": false
+}

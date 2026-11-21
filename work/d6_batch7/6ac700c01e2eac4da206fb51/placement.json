@@ -1,0 +1,76 @@
+{
+ "product_id": "6ac700c01e2eac4da206fb51",
+ "shop_id": "26418699",
+ "title": "\"Amazing Grace\" Christmas Scented Candle \u2014 11oz Holiday Candle, Cozy Christmas Gift for Her, Stocking Stuffer | Winstar4U",
+ "blueprint_id": 727,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac86c4509a3ec487f0a4c93",
+ "image_name": "faith-amazing-grace.png-TRANSPARENT.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/e2ef4b80-9497-4599-a971-8c262123f9e8",
+ "image_px": [
+  1475,
+  1924
+ ],
+ "decoration_method": "digital-printing",
+ "visible": true,
+ "updated_at": "2026-10-09 04:23:36+00:00",
+ "defect_cause": "other",
+ "defect_note": "DEFECT \u2014 overscale/zoomed design \u2014 title text entirely absent from view",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 1.0,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.0068,
+  0.0052,
+  0.9932,
+  0.9948
+ ],
+ "current_content_box_in_placeholder": [
+  0.0068,
+  -2.3418,
+  0.9932,
+  3.3418
+ ],
+ "current_inside_safe_frac": {
+  "73689": 0.1142
+ },
+ "effective_px_ratio_after": 3.141,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.158,
+  "angle": 0
+ },
+ "placeholders": {
+  "73689": [
+   2972,
+   675
+  ]
+ },
+ "safe_area_source": {
+  "73689": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "73689": 1.0
+ },
+ "new_art_category": "",
+ "status": "BLOCKED",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 41%",
+  "bottom 41%"
+ ],
+ "notes": [
+  "BLOCKED (not producible): print provider 99 NO LONGER manufactures blueprint 727 (get-blueprint-variants 727/99 -> 404 provider mismatch; only provider 75 SwagRabbit offers it) and both enabled scents report is_available=false. Art itself is fine; live scale 1.0 on the 2972x675 wrap label crops 41% top/bottom (title text absent from view, matches register). Reference placement (scale 0.158, inside the 30-70% visible band, computed on provider-75 dims) is in placement.json. Owner decision: rebuild on provider 75 (new product = production write) or retire.",
+  "OUT OF STOCK: enabled variant(s) 73688,73689 report is_available=false (still offered by provider)",
+  "geometry checked for 2 enabled variants (1 distinct placeholder geometries)",
+  "current: 88.6% of visible content outside safe area (variant 73689)"
+ ],
+ "live_change_made": false
+}

@@ -1,0 +1,73 @@
+{
+ "product_id": "6ac71152ed135347800f9ac9",
+ "shop_id": "26418699",
+ "title": "\"Checked Santas List\" Christmas Wine Tumbler \u2014 Funny 12oz Holiday Tumbler, Holiday Gift | Winstar4U",
+ "blueprint_id": 1515,
+ "print_provider_id": 217,
+ "position": "drinkware_front",
+ "image_id": "6ac8612509a3ec487f0a4936",
+ "image_name": "fixed_6ac4f01c6c1b77e76dda3ac9.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/bdab0e4f-cd77-42b4-ba43-4273087748b1",
+ "image_px": [
+  1837,
+  2036
+ ],
+ "decoration_method": "engraving",
+ "visible": true,
+ "updated_at": "2026-10-09 03:40:10+00:00",
+ "defect_cause": "other",
+ "defect_note": "DEFECT \u2014 illegible engraving (dense small text unreadable)",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.8,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.0054,
+  0.0049,
+  0.9946,
+  0.9951
+ ],
+ "contrast_vs_iron_gray": 0.374,
+ "current_content_box_in_placeholder": [
+  0.1044,
+  0.1225,
+  0.8956,
+  0.8775
+ ],
+ "current_inside_safe_frac": {
+  "109128": 1.0
+ },
+ "effective_px_ratio_after": 3.56,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.8,
+  "angle": 0
+ },
+ "placeholders": {
+  "109128": [
+   645,
+   750
+  ]
+ },
+ "safe_area_source": {
+  "109128": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "109128": 1.0
+ },
+ "new_art_category": "engraving",
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [],
+ "notes": [
+  "NEEDS_NEW_ART (engraving): full-colour raster art sent to ENGRAVING on the 1515/217 powder-coated wine tumbler - engraving is 1-colour (coating removed to steel), so shading/colour collapses into a silver blob; live mockup confirms illegible silver blur (visually checked). Needs a 1-colour high-contrast line-art/text engraving file. Dense checklist text unreadable at engraving size. Placement inside area.",
+  "geometry checked for 3 enabled variants (1 distinct placeholder geometries)",
+  "current placement already inside safe area on all checked variants"
+ ],
+ "live_change_made": false
+}

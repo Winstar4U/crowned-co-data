@@ -1,0 +1,87 @@
+{
+ "product_id": "6ac7163cac4a665555019bf4",
+ "shop_id": "26418699",
+ "title": "Only Nice For Presents Christmas Laptop Sleeve \u2014 Stylish Tech Travel Gift, Holiday Gift | Winstar4U",
+ "blueprint_id": 429,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac70fb8d9f383b0aa90a5ae",
+ "image_name": "only-nice-for-presents.jpg",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/a1fd425c-669f-4cea-a003-96f2585d930b",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 02:01:09+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT (top line cropped)",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.9,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.1313,
+  0.0645,
+  0.8735,
+  0.9385
+ ],
+ "current_content_box_in_placeholder": [
+  0.1682,
+  -0.0227,
+  0.8362,
+  1.0262
+ ],
+ "current_inside_safe_frac": {
+  "62037": 0.8354,
+  "62038": 0.8031,
+  "62039": 0.7868
+ },
+ "effective_px_ratio_after": 0.623,
+ "proposed": {
+  "x": 0.5004,
+  "y": 0.496,
+  "scale": 0.731,
+  "angle": 0
+ },
+ "placeholders": {
+  "62037": [
+   3600,
+   2700
+  ],
+  "62038": [
+   4125,
+   3000
+  ],
+  "62039": [
+   4500,
+   3225
+  ]
+ },
+ "safe_area_source": {
+  "62037": "rect",
+  "62038": "rect",
+  "62039": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "62037": 1.0,
+  "62038": 1.0,
+  "62039": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 2%",
+  "bottom 2%"
+ ],
+ "notes": [
+  "geometry checked for 3 enabled variants (3 distinct placeholder geometries)",
+  "current: 21.3% of visible content outside safe area (variant 62039)"
+ ],
+ "live_change_made": false
+}

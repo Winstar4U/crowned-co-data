@@ -1,0 +1,30 @@
+{
+ "6ac70050680525323b008a3b": {
+  "status": "BLOCKED",
+  "keep_proposal": true,
+  "note": "BLOCKED (not an art defect alone): print provider 99 no longer manufactures socks blueprint 376 (re-confirmed this batch: get-blueprint-variants 376/99 -> 404 printify_blueprint_print_provider_mismatch; only provider 1 SPOKE listed) and all 3 enabled variants (45132/45133/45134) report is_available=false, so the live listing cannot be produced or repaired in place. Owner decision: rebuild on provider 1 or retire (same as the 7 batch-4 socks). REFERENCE placement below was computed+verified on 376/1 dims (same variant ids) with the stricter visible-front leg zone u 0.25-0.75, for all 4 leg positions (same image on each)."
+ },
+ "6ac7004c0a223533b30704b5": {
+  "status": "BLOCKED",
+  "keep_proposal": true,
+  "note": "BLOCKED (not an art defect alone): print provider 99 no longer manufactures socks blueprint 376 (re-confirmed this batch: get-blueprint-variants 376/99 -> 404 printify_blueprint_print_provider_mismatch; only provider 1 SPOKE listed) and all 3 enabled variants (45132/45133/45134) report is_available=false, so the live listing cannot be produced or repaired in place. Owner decision: rebuild on provider 1 or retire (same as the 7 batch-4 socks). REFERENCE placement below was computed+verified on 376/1 dims (same variant ids) with the stricter visible-front leg zone u 0.25-0.75, for all 4 leg positions (same image on each)."
+ },
+ "6ac70048cf880756890d3279": {
+  "status": "BLOCKED",
+  "keep_proposal": true,
+  "note": "BLOCKED (not an art defect alone): print provider 99 no longer manufactures socks blueprint 376 (re-confirmed this batch: get-blueprint-variants 376/99 -> 404 printify_blueprint_print_provider_mismatch; only provider 1 SPOKE listed) and all 3 enabled variants (45132/45133/45134) report is_available=false, so the live listing cannot be produced or repaired in place. Owner decision: rebuild on provider 1 or retire (same as the 7 batch-4 socks). REFERENCE placement below was computed+verified on 376/1 dims (same variant ids) with the stricter visible-front leg zone u 0.25-0.75, for all 4 leg positions (same image on each)."
+ },
+ "6ac71013e2a15b12600266ae": {
+  "status": "NEEDS_NEW_ART",
+  "note": "NEEDS_NEW_ART: the live source art (christmas-wreath-2026.png-TRANSPARENT.png 1504x1541) contains ONLY the wreath + '2026' ribbon tag - the title text the register says is 'missing above frame' is absent from the file itself (visually checked), so no placement can restore it. Wreath placement into the visible-front zone is computed+verified; apply together with a re-export that includes the title."
+ },
+ "6ac70231154e72164e0d8eea": {
+  "status": "BLOCKED",
+  "no_proposal": true,
+  "note": "BLOCKED - defect not reproducible: register says 'text clipped at cylinder seam', but the live art (elegantly-wasted-martini TRANSPARENT 1276x1516, x=0.5 y=0.5 scale=0.40) already sits 100% inside the 5% safe area AND the visible-front zone u 0.30-0.70 on the only variant (44519, 2795x2100); live front mockup shows the full 'ELEGANTLY WASTED / SINCE 2026 / HOLIDAY SPIRITS' text with nothing cut at the seam (text only foreshortens toward the silhouette edge). Recommend owner closes as no-change (register note likely predates the TRANSPARENT re-upload of 2026-10-09)."
+ },
+ "6ac71204f0a0ce97bc0c9211": {
+  "status": "NEEDS_NEW_ART",
+  "note": "NEEDS_NEW_ART: register checkerboard defect CONFIRMED in source art - christmas-party-survivor-FIXED.png still carries residual baked-in checkerboard squares (opaque white + light-grey tiles) scattered through the 'transparent' margin around the badge, top-right worst (visually checked at full res); grey tiles will print on the white duvet face. Also LOW-RES (2048 px source upscaled ~5.9x on King 15900 px). Placement (scale 0.762, fully inside safe area on all 4 sizes) is computed+verified; apply together with a clean, >=6000 px transparent re-export."
+ }
+}

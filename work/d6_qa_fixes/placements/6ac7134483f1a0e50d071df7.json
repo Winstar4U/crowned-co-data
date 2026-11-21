@@ -1,0 +1,78 @@
+{
+ "product_id": "6ac7134483f1a0e50d071df7",
+ "shop_id": "26418699",
+ "title": "Candy Cane Lane Christmas Cloth Napkin Set \u2014 Elegant Holiday Hosting Essential, Holiday Gift | Winstar4U",
+ "blueprint_id": 1646,
+ "print_provider_id": 99,
+ "position": "front",
+ "decoration_method": "direct-to-fabric",
+ "issue": "repaired-art FAIL: LOW-RES ratio 0.32",
+ "option": "smaller centred motif",
+ "method": "native art, scale 0.900->0.559 (62% linear) so the largest variant prints at >=150 dpi nominal",
+ "art": {
+  "file": "work/d6_new_art/text_fix/5fa6bcd6cdbb68aaf4c51c41f42b629bf054ff5e.png",
+  "px": [
+   2048,
+   1365
+  ],
+  "sha1": "a887b17e5f9ef893577a5dd78db1ce7ff16369ed",
+  "native_source_width_px": null,
+  "upscaled": false
+ },
+ "print_areas": [
+  {
+   "variant_ids": [
+    113861,
+    113862
+   ],
+   "placement": {
+    "angle": 0,
+    "scale": 0.5586,
+    "x": 0.5003,
+    "y": 0.4999
+   }
+  }
+ ],
+ "per_variant_qa": {
+  "113861": {
+   "inside": 1.0,
+   "ratio": 1.063,
+   "nominal_dpi": 319,
+   "native_ratio": 1.063,
+   "native_nominal_dpi": 319,
+   "physical_dpi": 367,
+   "placeholder_ppi": 345
+  },
+  "113862": {
+   "inside": 1.0,
+   "ratio": 0.52,
+   "nominal_dpi": 156,
+   "native_ratio": 0.52,
+   "native_nominal_dpi": 156,
+   "physical_dpi": 167,
+   "placeholder_ppi": 320
+  }
+ },
+ "content_bbox_norm": [
+  0.1001,
+  0.0352,
+  0.9014,
+  0.9641
+ ],
+ "qa_status": "PASS",
+ "b_script_verdict": "PASS",
+ "issues": [],
+ "before": {
+  "file": "crowned-co-data/work/d6_new_art/text_fix/5fa6bcd6cdbb68aaf4c51c41f42b629bf054ff5e.png",
+  "placement": {
+   "x": 0.5,
+   "y": 0.5,
+   "scale": 0.9,
+   "angle": 0
+  },
+  "ratio_min": 0.323,
+  "inside_min": 1.0
+ },
+ "live_change_made": false,
+ "note": "NON-LIVE staging file. Nothing uploaded. Applying it needs an image upload + product update = owner-approved write."
+}

@@ -1,0 +1,129 @@
+{
+ "product_id": "6ac712df6f976358160c47cc",
+ "shop_id": "26418699",
+ "title": "Naughty List Resume Christmas Throw Pillow Case 18x18 \u2014 Easy Couch & Bed Accent, Holiday Home Decor Gift | Winstar4U",
+ "blueprint_id": 5353,
+ "print_provider_id": 92,
+ "position": "front",
+ "image_id": "6ac4f1594697cd9cf0a75363",
+ "image_name": "naughty-list-resume.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/d4e4c13c-722b-46d8-a749-590d67cd6055",
+ "image_px": [
+  1707,
+  2048
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 01:48:28+00:00",
+ "defect_cause": "other",
+ "defect_note": "DEFECT",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.9,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.0111,
+  0.0015,
+  0.9924,
+  0.9932
+ ],
+ "current_content_box_in_placeholder": [
+  0.06,
+  -0.269,
+  0.9431,
+  1.2607
+ ],
+ "current_inside_safe_frac": {
+  "244224": 0.491,
+  "244226": 0.7878,
+  "244227": 0.8127,
+  "244228": 0.8663
+ },
+ "proposed_per_variant_group": {
+  "244224": {
+   "x": 0.5008,
+   "y": 0.5,
+   "scale": 0.419,
+   "angle": 0
+  },
+  "244226": {
+   "x": 0.5004,
+   "y": 0.5,
+   "scale": 0.669,
+   "angle": 0
+  },
+  "244227": {
+   "x": 0.5004,
+   "y": 0.5,
+   "scale": 0.683,
+   "angle": 0
+  },
+  "244228": {
+   "x": 0.5003,
+   "y": 0.5,
+   "scale": 0.708,
+   "angle": 0
+  }
+ },
+ "shared_placement_alternative": {
+  "x": 0.5008,
+  "y": 0.5,
+  "scale": 0.419,
+  "angle": 0
+ },
+ "effective_px_ratio_after": 0.618,
+ "proposed": {
+  "x": 0.5008,
+  "y": 0.5,
+  "scale": 0.419,
+  "angle": 0
+ },
+ "placeholders": {
+  "244224": [
+   3000,
+   2100
+  ],
+  "244226": [
+   3000,
+   3000
+  ],
+  "244227": [
+   3300,
+   3300
+  ],
+  "244228": [
+   3900,
+   3900
+  ]
+ },
+ "safe_area_source": {
+  "244224": "printify_safe_area",
+  "244226": "printify_safe_area",
+  "244227": "printify_safe_area",
+  "244228": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "244224": 1.0,
+  "244226": 1.0,
+  "244227": 1.0,
+  "244228": 1.0
+ },
+ "new_art_category": "",
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 18%",
+  "bottom 17%"
+ ],
+ "notes": [
+  "Pillow 5353/92: one shared placement is forced small by the 12x18 landscape variant, so print_areas are SPLIT per size (each size optimised+verified separately; shared-placement alternative kept in placement.json).",
+  "geometry checked for 4 enabled variants (4 distinct placeholder geometries)",
+  "SPLIT print_areas per variant group (shared placement would be scale 0.419): 244224:x=0.5008,y=0.5000,s=0.419; 244226:x=0.5004,y=0.5000,s=0.669; 244227:x=0.5004,y=0.5000,s=0.683; 244228:x=0.5003,y=0.5000,s=0.708",
+  "current: 50.9% of visible content outside safe area (variant 244224)"
+ ],
+ "live_change_made": false
+}

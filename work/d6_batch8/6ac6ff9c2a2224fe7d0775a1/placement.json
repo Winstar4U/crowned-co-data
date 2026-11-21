@@ -1,0 +1,97 @@
+{
+ "product_id": "6ac6ff9c2a2224fe7d0775a1",
+ "shop_id": "26418699",
+ "title": "\"My Elf Made Me\" Christmas Kids' T-Shirt \u2014 Festive Holiday Kids' T-Shirt Gift | Winstar4U",
+ "blueprint_id": 157,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac85fe8f3f7c8370bc0038a",
+ "image_name": "my-elf-made-me-transparent.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/2b1b0876-63f5-45dc-8ac0-42aebb8b7181",
+ "image_px": [
+  2048,
+  1365
+ ],
+ "decoration_method": "dtg",
+ "visible": true,
+ "updated_at": "2026-10-09 04:08:18+00:00",
+ "defect_cause": "other",
+ "defect_note": "DEFECT \u2014 duplicated-word source-art bug (\"MY ELF MADE / MADE ME DO IT\") \u2014 now confirmed on 4 blueprints",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 1.0,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.1357,
+  0.0293,
+  0.8657,
+  0.9758
+ ],
+ "contrast_vs_black": 0.415,
+ "low_contrast": true,
+ "current_content_box_in_placeholder": [
+  0.1357,
+  0.2254,
+  0.8657,
+  0.7776
+ ],
+ "current_inside_safe_frac": {
+  "42519": 1.0,
+  "38495": 1.0,
+  "38496": 1.0,
+  "38497": 1.0
+ },
+ "effective_px_ratio_after": 0.694,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 1.0,
+  "angle": 0
+ },
+ "placeholders": {
+  "42519": [
+   2953,
+   3374
+  ],
+  "38495": [
+   2244,
+   2564
+  ],
+  "38496": [
+   2464,
+   2816
+  ],
+  "38497": [
+   2717,
+   3104
+  ]
+ },
+ "safe_area_source": {
+  "42519": "rect",
+  "38495": "rect",
+  "38496": "rect",
+  "38497": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "42519": 1.0,
+  "38495": 1.0,
+  "38496": 1.0,
+  "38497": 1.0
+ },
+ "new_art_category": "garbled_text",
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [],
+ "notes": [
+  "NEEDS_NEW_ART: duplicated-word text bug 'MY ELF MADE / MADE ME DO IT' CONFIRMED in source my-elf-made-me-transparent.png (visually checked; recurring bad file, also batches 6-7). Also LOW-CONTRAST: dark-green outlined lettering/elf on the enabled Black/Navy/Forest Green kids tees (42% of pixels <2.5:1 vs Black). Placement already inside safe area on all 25 enabled variants (4 size geometries).",
+  "NEEDS_NEW_ART: low-contrast ink on dark blank (see LOW-CONTRAST note) - needs light-ink recolour of the text/art layer (or owner disables the dark variants). Placement computed+verified; apply with the new art.",
+  "geometry checked for 25 enabled variants (4 distinct placeholder geometries)",
+  "LOW-CONTRAST: 42% of the art's opaque pixels have contrast < 2.5:1 against the enabled black blank (dark ink on dark garment) - not fixable by placement",
+  "current placement already inside safe area on all checked variants"
+ ],
+ "live_change_made": false
+}

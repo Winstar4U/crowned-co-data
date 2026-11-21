@@ -1,0 +1,72 @@
+{
+ "product_id": "6ac700f42a2224fe7d077640",
+ "shop_id": "26418699",
+ "title": "\"My Elf Made Me\" Christmas Ornament \u2014 Ceramic Holiday Tree Ornament, Festive Christmas Gift & Stocking Stuffer | Winstar4U",
+ "blueprint_id": 537,
+ "print_provider_id": 41,
+ "position": "front",
+ "image_id": "6ac4f14ba2e2e7ac147890c9",
+ "image_name": "my-elf-made-me.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/dd22e702-0ce8-4c94-9d79-377729b46784",
+ "image_px": [
+  2048,
+  1365
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 01:18:37+00:00",
+ "defect_cause": "other",
+ "defect_note": "DEFECT \u2014 duplicated-word source-art bug (\"MY ELF MADE / MADE ME DO IT\")",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.88,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.1357,
+  0.0293,
+  0.8657,
+  0.9758
+ ],
+ "current_content_box_in_placeholder": [
+  0.1795,
+  0.2239,
+  0.8218,
+  0.7791
+ ],
+ "current_inside_safe_frac": {
+  "69368": 1.0
+ },
+ "effective_px_ratio_after": 2.387,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.88,
+  "angle": 0
+ },
+ "placeholders": {
+  "69368": [
+   975,
+   975
+  ]
+ },
+ "safe_area_source": {
+  "69368": "printify_print_outline"
+ },
+ "verify_inside_safe_frac": {
+  "69368": 1.0
+ },
+ "new_art_category": "garbled_text",
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [],
+ "notes": [
+  "NEEDS_NEW_ART: duplicated-word text bug 'MY ELF MADE / MADE ME DO IT' CONFIRMED in source my-elf-made-me.png (visually checked; recurring bad file). Opaque white background is harmless here (white ceramic, dye-sub). Placement already inside the 5% safe circle (circle outline from view SVG 689c6239). DISCONTINUED: enabled Oval variant 69369 is no longer offered by provider 41 (get-blueprint-variants 537/41 returns only Circle 69368) and reports is_available=false - owner decision: disable Oval.",
+  "DISCONTINUED: enabled variant(s) 69369 not offered by provider 41 any more (get-blueprint-variants 537/41, show_out_of_stock=true) - cannot be produced; owner decision: disable these variants",
+  "current placement already inside safe area on all checked variants"
+ ],
+ "live_change_made": false
+}

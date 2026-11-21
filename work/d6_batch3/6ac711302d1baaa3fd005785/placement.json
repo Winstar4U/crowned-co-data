@@ -1,0 +1,72 @@
+{
+ "product_id": "6ac711302d1baaa3fd005785",
+ "shop_id": "26418699",
+ "title": "Merry Christmas Lets Get Lit Christmas Shot Glass \u2014 1.5oz Party Shot Glass, Holiday Gift | Winstar4U",
+ "blueprint_id": 1245,
+ "print_provider_id": 228,
+ "position": "front",
+ "image_id": "6ac860d0dd6f9330c7788122",
+ "image_name": "fixed_6ac4f13afae6ba29cd570267.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/d518faad-2d4f-494b-b326-b09202418fbc",
+ "image_px": [
+  1606,
+  1988
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 03:41:07+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT \u2014 top line \"MERRY\" clipped at top edge",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.8,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0062,
+  0.005,
+  0.9938,
+  0.995
+ ],
+ "current_content_box_in_placeholder": [
+  0.105,
+  -0.0719,
+  0.895,
+  1.0719
+ ],
+ "current_inside_safe_frac": {
+  "94263": 0.6815
+ },
+ "effective_px_ratio_after": 5.107,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.599,
+  "angle": 0
+ },
+ "placeholders": {
+  "94263": [
+   525,
+   450
+  ]
+ },
+ "safe_area_source": {
+  "94263": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "94263": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 6%",
+  "bottom 6%"
+ ],
+ "notes": [
+  "current: 31.8% of visible content outside safe area (variant 94263)"
+ ],
+ "live_change_made": false
+}

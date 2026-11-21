@@ -1,0 +1,89 @@
+{
+ "product_id": "6ac7113450fc6704d30bf944",
+ "shop_id": "26418699",
+ "title": "Merry Everything Happy Always Christmas Shot Glass \u2014 1.5oz Party Shot Glass, Holiday Gift | Winstar4U",
+ "blueprint_id": 1245,
+ "print_provider_id": 228,
+ "position": "front",
+ "decoration_method": "dye-sublimation",
+ "issue": "local-art FAIL: \"HAPPY\" garbled/faded in prior fix",
+ "fix": "regenerated art (second session, Higgsfield job e8db5460): complete MERRY EVERYTHING. / HAPPY ALWAYS. letters; fitted to the content box of the proposed placement",
+ "art": {
+  "file": "winstar4u/my-projects/winstar-recovery/regenerated/6ac7113450fc6704d30bf944_regen.png",
+  "px": [
+   2048,
+   1360
+  ],
+  "sha1": "b8e615dc447e3c4d0719558478cec09abd1bc916",
+  "native_source_width_px": 2048,
+  "upscaled": false
+ },
+ "print_areas": [
+  {
+   "variant_ids": [
+    94263
+   ],
+   "placement": {
+    "angle": 0,
+    "scale": 0.5995,
+    "x": 0.5007,
+    "y": 0.5043
+   }
+  }
+ ],
+ "qa": {
+  "art": "/home/user/winstar4u/my-projects/winstar-recovery/regenerated/6ac7113450fc6704d30bf944_regen.png",
+  "px": [
+   2048,
+   1360
+  ],
+  "bbox": [
+   0.0132,
+   0.0096,
+   0.9844,
+   0.9721
+  ],
+  "per_variant": {
+   "94263": {
+    "placeholder": [
+     525,
+     450
+    ],
+    "placement": {
+     "x": 0.5007,
+     "y": 0.5043,
+     "scale": 0.5995,
+     "angle": 0
+    },
+    "rect_inside": 1.0,
+    "shape_inside": 1.0,
+    "safe_area": "printify_safe_area",
+    "ratio": 6.507,
+    "effective_dpi": 1952,
+    "native_dpi": 1952
+   }
+  },
+  "largest_variant": "94263",
+  "dpi_largest": 1952,
+  "native_dpi_largest": 1952,
+  "dpi_min": 1952,
+  "native_dpi_min": 1952,
+  "inside_min": 1.0,
+  "upscaled": false
+ },
+ "status": "PASS",
+ "reason": "",
+ "before": {
+  "file": "crowned-co-data/work/d6_batch6/6ac7113450fc6704d30bf944/original.png",
+  "placement": {
+   "x": 0.5,
+   "y": 0.5,
+   "scale": 0.8,
+   "angle": 0.0
+  },
+  "dpi_largest": 1396,
+  "inside_min": 1.0
+ },
+ "live_change_made": false,
+ "note": "NON-LIVE staging file. Nothing uploaded. Applying it needs an image upload + product update = owner-approved write."
+}

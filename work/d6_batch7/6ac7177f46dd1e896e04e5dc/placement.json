@@ -1,0 +1,78 @@
+{
+ "product_id": "6ac7177f46dd1e896e04e5dc",
+ "shop_id": "26418699",
+ "title": "Dear Santa Explain Santa Christmas Backpack \u2014 Merry Christmas Daypack, Holiday Gift Idea | Winstar4U",
+ "blueprint_id": 10823,
+ "print_provider_id": 99,
+ "position": "front_dtf",
+ "image_id": "6ac85fef66277ac02676ae44",
+ "image_name": "dear-santa-explain-santa-transparent.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/03b4faf6-d13a-43a2-a89b-73f7338b5226",
+ "image_px": [
+  1707,
+  2048
+ ],
+ "decoration_method": "dtf",
+ "visible": true,
+ "updated_at": "2026-10-14 12:48:08+00:00",
+ "defect_cause": "source-file: garbled text",
+ "defect_note": "DEFECT-SEVERE (banner text garbled/cropped, illegible)",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 1.0,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.0006,
+  0.0063,
+  1.0,
+  0.9946
+ ],
+ "contrast_vs_black": 0.357,
+ "low_contrast": true,
+ "current_content_box_in_placeholder": [
+  0.0006,
+  -1.0794,
+  1.0,
+  2.0825
+ ],
+ "current_inside_safe_frac": {
+  "401444": 0.2961
+ },
+ "effective_px_ratio_after": 2.531,
+ "proposed": {
+  "x": 0.5002,
+  "y": 0.496,
+  "scale": 0.281,
+  "angle": 0
+ },
+ "placeholders": {
+  "401444": [
+   2400,
+   900
+  ]
+ },
+ "safe_area_source": {
+  "401444": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "401444": 1.0
+ },
+ "new_art_category": "",
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 34%",
+  "bottom 34%"
+ ],
+ "notes": [
+  "Register 'banner text garbled' NOT reproduced in source: 'DEAR SANTA, I CAN EXPLAIN.' is clean (visually checked). Real defect = placement: portrait 1707x2048 art at scale 1.0 on the 2400x900 backpack panel crops 34% top/bottom (banner + headline cut). Verified full-art placement scale 0.281 (small) - a landscape re-layout would read better. Borderline contrast: black outlines on black backpack (36% px <2.5:1) but red/green lettering readable.",
+  "NEEDS_NEW_ART: low-contrast ink on dark blank (see LOW-CONTRAST note) - needs light-ink recolour of the text/art layer (or owner disables the dark variants). Placement computed+verified; apply with the new art.",
+  "LOW-CONTRAST: 36% of the art's opaque pixels have contrast < 2.5:1 against the enabled black blank (dark ink on dark garment) - not fixable by placement",
+  "current: 70.4% of visible content outside safe area (variant 401444)"
+ ],
+ "live_change_made": false
+}

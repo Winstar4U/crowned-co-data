@@ -1,0 +1,87 @@
+{
+ "product_id": "6ac71593ed135347800f9d87",
+ "shop_id": "26418699",
+ "title": "Fireplace Stocking Christmas Laptop Sleeve \u2014 Stylish Tech Travel Gift, Holiday Gift | Winstar4U",
+ "blueprint_id": 429,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac70f02a451cc2e2c8da2cd",
+ "image_name": "nostalgic-fireplace-stocking.jpg",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/0c814e0a-e01c-4fb8-8581-0dc31c7e30da",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 02:00:41+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT (CHRISTMAS cropped top)",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.9,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0898,
+  0.0371,
+  0.9136,
+  0.9678
+ ],
+ "current_content_box_in_placeholder": [
+  0.1309,
+  -0.0728,
+  0.8722,
+  1.0789
+ ],
+ "current_inside_safe_frac": {
+  "62038": 0.8023,
+  "62037": 0.8346,
+  "62039": 0.7861
+ },
+ "effective_px_ratio_after": 0.658,
+ "proposed": {
+  "x": 0.5004,
+  "y": 0.496,
+  "scale": 0.692,
+  "angle": 0
+ },
+ "placeholders": {
+  "62038": [
+   4125,
+   3000
+  ],
+  "62037": [
+   3600,
+   2700
+  ],
+  "62039": [
+   4500,
+   3225
+  ]
+ },
+ "safe_area_source": {
+  "62038": "rect",
+  "62037": "rect",
+  "62039": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "62038": 1.0,
+  "62037": 1.0,
+  "62039": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 6%",
+  "bottom 7%"
+ ],
+ "notes": [
+  "geometry checked for 3 enabled variants (3 distinct placeholder geometries)",
+  "current: 21.4% of visible content outside safe area (variant 62039)"
+ ],
+ "live_change_made": false
+}

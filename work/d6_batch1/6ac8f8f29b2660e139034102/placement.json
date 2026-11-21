@@ -1,0 +1,69 @@
+{
+ "product_id": "6ac8f8f29b2660e139034102",
+ "shop_id": "26418699",
+ "title": "Basic Witch Halloween Ornament \u2013 Ceramic Tree Decoration",
+ "blueprint_id": 531,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac883814d672244ed4e74fe",
+ "image_name": "Halloween Basic Witch.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/3fb6cd42-12d4-49e3-a58e-9be2447a1900",
+ "image_px": [
+  1474,
+  1233
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 14:23:46+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "'B' and 'C' of text clipped by circular edge",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.78,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0068,
+  0.0081,
+  0.9932,
+  0.9919
+ ],
+ "current_content_box_in_placeholder": [
+  0.1153,
+  0.1791,
+  0.8847,
+  0.8209
+ ],
+ "current_inside_safe_frac": {
+  "69370": 0.9319
+ },
+ "effective_px_ratio_after": 2.185,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.584,
+  "scale": 0.707,
+  "angle": 0
+ },
+ "placeholders": {
+  "69370": [
+   954,
+   954
+  ]
+ },
+ "safe_area_source": {
+  "69370": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "69370": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [],
+ "notes": [
+  "current: 6.8% of visible content outside safe area (variant 69370)"
+ ],
+ "live_change_made": false
+}

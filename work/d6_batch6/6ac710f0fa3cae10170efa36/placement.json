@@ -1,0 +1,71 @@
+{
+ "product_id": "6ac710f0fa3cae10170efa36",
+ "shop_id": "26418699",
+ "title": "Candy Cane Lane Christmas Shower Curtain \u2014 Instant Festive Bathroom Refresh, Holiday Home Decor Gift | Winstar4U",
+ "blueprint_id": 235,
+ "print_provider_id": 10,
+ "position": "front",
+ "image_id": "6ac70eebea48037033ff5469",
+ "image_name": "nostalgic-candy-cane-lane.jpg",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/4d2cdd9d-d20e-4d09-8b99-d9e4c5dbe201",
+ "image_px": [
+  2048,
+  1365
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 01:52:22+00:00",
+ "defect_cause": "source-file: placeholder text",
+ "defect_note": "DEFECT \u2014 green banner sign blank/no text rendered (blank-banner-placeholder recurrence)",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 1.0,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.1001,
+  0.0352,
+  0.9014,
+  0.9641
+ ],
+ "current_content_box_in_placeholder": [
+  0.1001,
+  0.2023,
+  0.9014,
+  0.7973
+ ],
+ "current_inside_safe_frac": {
+  "41653": 1.0
+ },
+ "effective_px_ratio_after": 0.288,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 1.0,
+  "angle": 0
+ },
+ "placeholders": {
+  "41653": [
+   7104,
+   7392
+  ]
+ },
+ "safe_area_source": {
+  "41653": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "41653": 1.0
+ },
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [],
+ "notes": [
+  "NEEDS_NEW_ART: blank street-sign banner CONFIRMED in source file nostalgic-candy-cane-lane.jpg. Placement unchanged (full-bleed curtain, inside safe area). LOW-RES: 2048 px source upscaled 3.5x on the 71x74 curtain - regenerate at >=7000 px. (green sign between the candy canes has no text - visually checked); recurring bad source file, regenerate with the sign text. ",
+  "LOW-RES: art upscaled 3.5x on largest variant (src px/print px=0.29)",
+  "current placement already inside safe area on all checked variants"
+ ],
+ "live_change_made": false
+}

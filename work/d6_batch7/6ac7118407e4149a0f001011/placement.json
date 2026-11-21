@@ -1,0 +1,88 @@
+{
+ "product_id": "6ac7118407e4149a0f001011",
+ "shop_id": "26418699",
+ "title": "My Elf Made Me Christmas Youth Hoodie \u2014 Cozy Kids Holiday Hoodie, Holiday Gift | Winstar4U",
+ "blueprint_id": 2005,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac85fe8f3f7c8370bc0038a",
+ "image_name": "my-elf-made-me-transparent.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/2b1b0876-63f5-45dc-8ac0-42aebb8b7181",
+ "image_px": [
+  2048,
+  1365
+ ],
+ "decoration_method": "dtg",
+ "visible": true,
+ "updated_at": "2026-10-09 04:08:05+00:00",
+ "defect_cause": "source-file: garbled text",
+ "defect_note": "DEFECT: overlapping/garbled text layout (\"MY ELF MADE\" / \"MADE ME DO IT\" collide)",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.9,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.1357,
+  0.0293,
+  0.8657,
+  0.9758
+ ],
+ "contrast_vs_chalky_mint": 0.3,
+ "current_content_box_in_placeholder": [
+  0.1722,
+  0.269,
+  0.8292,
+  0.7335
+ ],
+ "current_inside_safe_frac": {
+  "123105": 1.0,
+  "123112": 1.0,
+  "123119": 1.0
+ },
+ "effective_px_ratio_after": 0.843,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.9,
+  "angle": 0
+ },
+ "placeholders": {
+  "123105": [
+   2700,
+   3300
+  ],
+  "123112": [
+   2464,
+   3022
+  ],
+  "123119": [
+   2228,
+   2733
+  ]
+ },
+ "safe_area_source": {
+  "123105": "rect",
+  "123112": "rect",
+  "123119": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "123105": 1.0,
+  "123112": 1.0,
+  "123119": 1.0
+ },
+ "new_art_category": "garbled_text",
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [],
+ "notes": [
+  "NEEDS_NEW_ART: duplicated-word text bug 'MY ELF MADE / MADE ME DO IT' CONFIRMED in source (visually checked; recurring bad file, also batch 6). Placement inside safe area on Chalky Mint S/M/L.",
+  "DISCONTINUED: enabled variant(s) 123126 not offered by provider 99 any more (get-blueprint-variants 2005/99, show_out_of_stock=true) - cannot be produced; owner decision: disable these variants",
+  "geometry checked for 3 enabled variants (3 distinct placeholder geometries)",
+  "current placement already inside safe area on all checked variants"
+ ],
+ "live_change_made": false
+}

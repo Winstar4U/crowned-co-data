@@ -1,0 +1,72 @@
+{
+ "product_id": "6ac713139ba30d41e40660a1",
+ "shop_id": "26418699",
+ "title": "I Came I Saw I Bought It Christmas Lunch Box \u2014 Bento Box for Holiday Lunches, Holiday Gift | Winstar4U",
+ "blueprint_id": 695,
+ "print_provider_id": 23,
+ "position": "front",
+ "image_id": "6ac860c0deef9b60dbbdf5d2",
+ "image_name": "fixed_6ac4f11e047bb3b60dbc5820.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/b38af934-89a1-4915-bc13-13b3ee09e5b2",
+ "image_px": [
+  1975,
+  2010
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 03:36:32+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT (top line \"I CAME.\" nearly entirely cropped by print-area edge)",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.7,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0051,
+  0.005,
+  0.9949,
+  0.995
+ ],
+ "current_content_box_in_placeholder": [
+  0.1535,
+  -0.0693,
+  0.8465,
+  1.0693
+ ],
+ "current_inside_safe_frac": {
+  "72920": 0.815
+ },
+ "effective_px_ratio_after": 1.612,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.546,
+  "angle": 0
+ },
+ "placeholders": {
+  "72920": [
+   2244,
+   1390
+  ]
+ },
+ "safe_area_source": {
+  "72920": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "72920": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 6%",
+  "bottom 6%"
+ ],
+ "notes": [
+  "current: 18.5% of visible content outside safe area (variant 72920)"
+ ],
+ "live_change_made": false
+}

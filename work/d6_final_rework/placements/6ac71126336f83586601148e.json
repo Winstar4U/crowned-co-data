@@ -1,0 +1,89 @@
+{
+ "product_id": "6ac71126336f83586601148e",
+ "shop_id": "26418699",
+ "title": "Jingle All Way Liquor Christmas Shot Glass \u2014 1.5oz Party Shot Glass, Holiday Gift | Winstar4U",
+ "blueprint_id": 1245,
+ "print_provider_id": 228,
+ "position": "front",
+ "decoration_method": "dye-sublimation",
+ "issue": "NEEDS_GENERATION: blank green ribbon (title punchline missing)",
+ "fix": "second-session art with PROPOSED wording; fitted to the proposed content box",
+ "art": {
+  "file": "winstar4u/my-projects/winstar-recovery/regenerated/JINGLE_SHARED_regen.png",
+  "px": [
+   2048,
+   1360
+  ],
+  "sha1": "2c42f37dfc1be84518fe61a30561c1e26c252dc0",
+  "native_source_width_px": 2048,
+  "upscaled": false
+ },
+ "print_areas": [
+  {
+   "variant_ids": [
+    94263
+   ],
+   "placement": {
+    "angle": 0,
+    "scale": 0.8165,
+    "x": 0.5002,
+    "y": 0.4963
+   }
+  }
+ ],
+ "qa": {
+  "art": "/home/user/winstar4u/my-projects/winstar-recovery/regenerated/JINGLE_SHARED_regen.png",
+  "px": [
+   2048,
+   1360
+  ],
+  "bbox": [
+   0.1338,
+   0.0463,
+   0.8657,
+   0.9654
+  ],
+  "per_variant": {
+   "94263": {
+    "placeholder": [
+     525,
+     450
+    ],
+    "placement": {
+     "x": 0.5002,
+     "y": 0.4963,
+     "scale": 0.8165,
+     "angle": 0
+    },
+    "rect_inside": 1.0,
+    "shape_inside": 1.0,
+    "safe_area": "printify_safe_area",
+    "ratio": 4.778,
+    "effective_dpi": 1433,
+    "native_dpi": 1433
+   }
+  },
+  "largest_variant": "94263",
+  "dpi_largest": 1433,
+  "native_dpi_largest": 1433,
+  "dpi_min": 1433,
+  "native_dpi_min": 1433,
+  "inside_min": 1.0,
+  "upscaled": false
+ },
+ "status": "BLOCKED",
+ "reason": "owner wording decision W6 pending (art exists; nothing to generate unless the wording is rejected)",
+ "before": {
+  "file": "crowned-co-data/work/d6_batch7/6ac71126336f83586601148e/original.png",
+  "placement": {
+   "x": 0.5,
+   "y": 0.5,
+   "scale": 0.8,
+   "angle": 0.0
+  },
+  "dpi_largest": 1069,
+  "inside_min": 1.0
+ },
+ "live_change_made": false,
+ "note": "NON-LIVE staging file. Nothing uploaded. Applying it needs an image upload + product update = owner-approved write."
+}

@@ -1,0 +1,85 @@
+{
+ "product_id": "6ac7241f738fa0f7e9064e4f",
+ "shop_id": "26418699",
+ "title": "Christmas Stress Tinsel Done Christmas Button Pin \u2014 Festive Pin Button, Holiday Gift | Winstar4U",
+ "blueprint_id": 430,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac85d654be9797c9ffbd402",
+ "image_name": "christmas-stress-tinsel-done.png-TRANSPARENT.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/bbcf0f22-8386-417c-b49a-b3a785559692",
+ "image_px": [
+  1243,
+  1502
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 03:20:31+00:00",
+ "defect_cause": "other",
+ "defect_note": "DEFECT-MINOR",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.65,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.008,
+  0.0067,
+  0.992,
+  0.9933
+ ],
+ "current_content_box_in_placeholder": [
+  0.1802,
+  0.1125,
+  0.8198,
+  0.8875
+ ],
+ "current_inside_safe_frac": {
+  "62070": 0.8023,
+  "62071": 0.9407,
+  "67977": 0.9648
+ },
+ "effective_px_ratio_after": 2.512,
+ "proposed": {
+  "x": 0.515,
+  "y": 0.544,
+  "scale": 0.486,
+  "angle": 0
+ },
+ "placeholders": {
+  "62070": [
+   519,
+   519
+  ],
+  "62071": [
+   788,
+   788
+  ],
+  "67977": [
+   1018,
+   1018
+  ]
+ },
+ "safe_area_source": {
+  "62070": "printify_safe_area",
+  "62071": "printify_safe_area",
+  "67977": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "62070": 1.0,
+  "62071": 1.0,
+  "67977": 1.0
+ },
+ "new_art_category": "",
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [],
+ "notes": [
+  "geometry checked for 3 enabled variants (3 distinct placeholder geometries)",
+  "current: 19.8% of visible content outside safe area (variant 62070)"
+ ],
+ "live_change_made": false
+}

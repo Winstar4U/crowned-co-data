@@ -1,0 +1,75 @@
+{
+ "product_id": "6ac717fa775b6fcd2c0e906b",
+ "shop_id": "26418699",
+ "title": "Naughty List Resume Christmas Backpack \u2014 Cheerful Christmas Travel Pack, Gift for Students | Winstar4U",
+ "blueprint_id": 10823,
+ "print_provider_id": 99,
+ "position": "front_dtf",
+ "image_id": "6ac4f1594697cd9cf0a75363",
+ "image_name": "naughty-list-resume.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/d4e4c13c-722b-46d8-a749-590d67cd6055",
+ "image_px": [
+  1707,
+  2048
+ ],
+ "decoration_method": "dtf",
+ "visible": true,
+ "updated_at": "2026-10-09 00:47:48+00:00",
+ "defect_cause": "other",
+ "defect_note": "DEFECT",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 1.0,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.0111,
+  0.0015,
+  0.9924,
+  0.9932
+ ],
+ "contrast_vs_black": 0.247,
+ "current_content_box_in_placeholder": [
+  0.0111,
+  -1.095,
+  0.9924,
+  2.0778
+ ],
+ "current_inside_safe_frac": {
+  "401444": 0.2964
+ },
+ "effective_px_ratio_after": 2.531,
+ "proposed": {
+  "x": 0.5013,
+  "y": 0.5,
+  "scale": 0.281,
+  "angle": 0
+ },
+ "placeholders": {
+  "401444": [
+   2400,
+   900
+  ]
+ },
+ "safe_area_source": {
+  "401444": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "401444": 1.0
+ },
+ "new_art_category": "white_box",
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 35%",
+  "bottom 34%"
+ ],
+ "notes": [
+  "art has opaque WHITE background on dtf print over coloured blank -> visible white patch; needs transparent re-export of same design (placement computed+verified, apply together)",
+  "current: 70.4% of visible content outside safe area (variant 401444)"
+ ],
+ "live_change_made": false
+}

@@ -1,0 +1,89 @@
+{
+ "product_id": "6ac711bba005c19c550d896d",
+ "shop_id": "26418699",
+ "title": "\"Everyone Go Home\" Christmas Wine Tumbler \u2014 Funny 12oz Holiday Tumbler, Holiday Gift | Winstar4U",
+ "blueprint_id": 1515,
+ "print_provider_id": 217,
+ "position": "drinkware_front",
+ "decoration_method": "engraving",
+ "issue": "NEEDS_GENERATION: full-colour art on engraving product",
+ "fix": "regenerated 1-bit black-on-transparent engraving art (second session, job fe82c133); fitted to the proposed content box",
+ "art": {
+  "file": "winstar4u/my-projects/winstar-recovery/regenerated/6ac711bba005c19c550d896d_engrave_final.png",
+  "px": [
+   2048,
+   2048
+  ],
+  "sha1": "923118da80391bc6c70b45bac5f6ebd9dd9e83f9",
+  "native_source_width_px": 2048,
+  "upscaled": false
+ },
+ "print_areas": [
+  {
+   "variant_ids": [
+    109128
+   ],
+   "placement": {
+    "angle": 0,
+    "scale": 0.9346,
+    "x": 0.5,
+    "y": 0.4973
+   }
+  }
+ ],
+ "qa": {
+  "art": "/home/user/winstar4u/my-projects/winstar-recovery/regenerated/6ac711bba005c19c550d896d_engrave_final.png",
+  "px": [
+   2048,
+   2048
+  ],
+  "bbox": [
+   0.0884,
+   0.0098,
+   0.9116,
+   0.9971
+  ],
+  "per_variant": {
+   "109128": {
+    "placeholder": [
+     645,
+     750
+    ],
+    "placement": {
+     "x": 0.5,
+     "y": 0.4973,
+     "scale": 0.9346,
+     "angle": 0
+    },
+    "rect_inside": 1.0,
+    "shape_inside": 1.0,
+    "safe_area": "rect(no svg)",
+    "ratio": 3.397,
+    "effective_dpi": 1019,
+    "native_dpi": 1019
+   }
+  },
+  "largest_variant": "109128",
+  "dpi_largest": 1019,
+  "native_dpi_largest": 1019,
+  "dpi_min": 1019,
+  "native_dpi_min": 1019,
+  "inside_min": 1.0,
+  "upscaled": false
+ },
+ "status": "PASS",
+ "reason": "",
+ "before": {
+  "file": "crowned-co-data/work/d6_batch7/6ac711bba005c19c550d896d/original.png",
+  "placement": {
+   "x": 0.5,
+   "y": 0.5,
+   "scale": 0.8,
+   "angle": 0.0
+  },
+  "dpi_largest": 993,
+  "inside_min": 1.0
+ },
+ "live_change_made": false,
+ "note": "NON-LIVE staging file. Nothing uploaded. Applying it needs an image upload + product update = owner-approved write."
+}

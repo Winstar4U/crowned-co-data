@@ -1,0 +1,75 @@
+{
+ "product_id": "6ac70202a085d659d502276f",
+ "shop_id": "26418699",
+ "title": "Jingle Bells Santa Smells Christmas Bucket Hat \u2014 Funny Holiday Hat, Festive Winter Party Accessory Gift | Winstar4U",
+ "blueprint_id": 1698,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac4f12e27266e20c26e9f9f",
+ "image_name": "jingle-bells-santa-smells.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/ee2b9b46-1e5c-48ef-b7c0-054d30da0c8a",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "dtf",
+ "visible": true,
+ "updated_at": "2026-10-08 03:04:43+00:00",
+ "defect_cause": "white box",
+ "defect_note": "DEFECT \u2014 opaque white-background-box defect + top text cropped",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.7,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.0698,
+  0.0576,
+  0.9321,
+  0.9565
+ ],
+ "contrast_vs_black": 0.146,
+ "current_content_box_in_placeholder": [
+  0.1989,
+  -0.1589,
+  0.8025,
+  1.18
+ ],
+ "current_inside_safe_frac": {
+  "116654": 0.6736
+ },
+ "effective_px_ratio_after": 2.917,
+ "proposed": {
+  "x": 0.5002,
+  "y": 0.492,
+  "scale": 0.468,
+  "angle": 0
+ },
+ "placeholders": {
+  "116654": [
+   1500,
+   705
+  ]
+ },
+ "safe_area_source": {
+  "116654": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "116654": 1.0
+ },
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 12%",
+  "bottom 13%"
+ ],
+ "notes": [
+  "Also: live placement crops 12% top/13% bottom ('JINGLE BELLS' top line cut, matches register). Corrected placement (scale 0.468) fits the 1500x705 bucket-hat panel.",
+  "art has opaque WHITE background on dtf print over coloured blank -> visible white patch; needs transparent re-export of same design (placement computed+verified, apply together)",
+  "current: 32.6% of visible content outside safe area (variant 116654)"
+ ],
+ "live_change_made": false
+}

@@ -1,0 +1,80 @@
+{
+ "product_id": "6ac7120df0a0ce97bc0c9214",
+ "shop_id": "26418699",
+ "title": "Silent Night Family Go Away Christmas Cutting Board \u2014 Festive Kitchen Decor Board, Holiday Gift | Winstar4U",
+ "blueprint_id": 643,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac875149d9b3313e1269587",
+ "image_name": "silent-night-family-go-away.png-TRANSPARENT.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/427e41a3-3c78-4515-805d-16da3754a9fd",
+ "image_px": [
+  1437,
+  1748
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 05:01:11+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT: severe \u2014 SILENT clipped top, bottom line illegible, panel bleeds both sides",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.7,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.007,
+  0.0057,
+  0.993,
+  0.9943
+ ],
+ "current_content_box_in_placeholder": [
+  0.1549,
+  -0.0856,
+  0.8451,
+  1.0856
+ ],
+ "current_inside_safe_frac": {
+  "74549": 0.7816,
+  "74550": 0.7816
+ },
+ "effective_px_ratio_after": 0.565,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.53,
+  "angle": 0
+ },
+ "placeholders": {
+  "74549": [
+   4800,
+   3450
+  ],
+  "74550": [
+   3525,
+   2550
+  ]
+ },
+ "safe_area_source": {
+  "74549": "rect",
+  "74550": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "74549": 1.0,
+  "74550": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 7%",
+  "bottom 7%"
+ ],
+ "notes": [
+  "geometry checked for 2 enabled variants (2 distinct placeholder geometries)",
+  "current: 21.8% of visible content outside safe area (variant 74549)"
+ ],
+ "live_change_made": false
+}

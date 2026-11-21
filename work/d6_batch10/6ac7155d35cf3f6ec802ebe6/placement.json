@@ -1,0 +1,88 @@
+{
+ "product_id": "6ac7155d35cf3f6ec802ebe6",
+ "shop_id": "26418699",
+ "title": "Naughty Is New Nice Christmas Laptop Sleeve \u2014 Stylish Tech Travel Gift, Holiday Gift | Winstar4U",
+ "blueprint_id": 429,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac4f1527ce94b8c107d080f",
+ "image_name": "naughty-is-new-nice.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/1c36e9bd-bf51-47d9-a63a-6cf38e389f1e",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 02:00:16+00:00",
+ "defect_cause": "other",
+ "defect_note": "DEFECT-MINOR (NICE touches bottom edge)",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.9,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.0596,
+  0.0479,
+  0.9414,
+  0.9492
+ ],
+ "current_content_box_in_placeholder": [
+  0.1036,
+  -0.0426,
+  0.8973,
+  1.0391
+ ],
+ "current_inside_safe_frac": {
+  "62037": 0.895,
+  "62038": 0.8721,
+  "62039": 0.8592
+ },
+ "effective_px_ratio_after": 0.643,
+ "proposed": {
+  "x": 0.5001,
+  "y": 0.5,
+  "scale": 0.708,
+  "angle": 0
+ },
+ "placeholders": {
+  "62037": [
+   3600,
+   2700
+  ],
+  "62038": [
+   4125,
+   3000
+  ],
+  "62039": [
+   4500,
+   3225
+  ]
+ },
+ "safe_area_source": {
+  "62037": "rect",
+  "62038": "rect",
+  "62039": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "62037": 1.0,
+  "62038": 1.0,
+  "62039": 1.0
+ },
+ "new_art_category": "",
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 4%",
+  "bottom 4%"
+ ],
+ "notes": [
+  "geometry checked for 3 enabled variants (3 distinct placeholder geometries)",
+  "current: 14.1% of visible content outside safe area (variant 62039)"
+ ],
+ "live_change_made": false
+}

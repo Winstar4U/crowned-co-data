@@ -1,0 +1,74 @@
+{
+ "product_id": "6ac7126c57527ce5fd01976a",
+ "shop_id": "26418699",
+ "title": "Naughty List Skeleton Christmas Winter Scarf \u2014 Elegant Seasonal Wrap, Holiday Gift | Winstar4U",
+ "blueprint_id": 1327,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac85f75cef025550dad7241",
+ "image_name": "naughty-list-skeleton.png-TRANSPARENT.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/6f62e103-f4a8-45b7-a038-b1187f369e36",
+ "image_px": [
+  1262,
+  1493
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 05:11:28+00:00",
+ "defect_cause": "other",
+ "defect_note": "DEFECT",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.4,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.0079,
+  0.0067,
+  0.9921,
+  0.9933
+ ],
+ "current_content_box_in_placeholder": [
+  0.3032,
+  -0.128,
+  0.6968,
+  1.128
+ ],
+ "current_inside_safe_frac": {
+  "100848": 0.7162
+ },
+ "effective_px_ratio_after": 0.436,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.261,
+  "angle": 0
+ },
+ "placeholders": {
+  "100848": [
+   11100,
+   4126
+  ]
+ },
+ "safe_area_source": {
+  "100848": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "100848": 1.0
+ },
+ "new_art_category": "",
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 10%",
+  "bottom 10%"
+ ],
+ "notes": [
+  "LOW-RES: art upscaled 2.3x on largest variant (src px/print px=0.44)",
+  "current: 28.4% of visible content outside safe area (variant 100848)"
+ ],
+ "live_change_made": false
+}

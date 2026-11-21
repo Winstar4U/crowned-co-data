@@ -1,0 +1,274 @@
+{
+ "1245/228": {
+  "94263": {
+   "front": [
+    525,
+    450
+   ]
+  },
+  "_source": "cached from d6_batch3/placeholders.json"
+ },
+ "1327/99": {
+  "100848": {
+   "front": [
+    11100,
+    4126
+   ]
+  },
+  "_source": "cached from d6_batch3/placeholders.json"
+ },
+ "220/10": {
+  "41524": {
+   "front": [
+    5250,
+    2625
+   ]
+  },
+  "_source": "cached from d6_batch3/placeholders.json"
+ },
+ "235/10": {
+  "41653": {
+   "front": [
+    7104,
+    7392
+   ]
+  },
+  "_source": "cached from d6_batch3/placeholders.json"
+ },
+ "376/99": {
+  "45132": {
+   "back_left_leg": [
+    1348,
+    5595
+   ],
+   "back_right_leg": [
+    1348,
+    5595
+   ],
+   "front_left_leg": [
+    1348,
+    5595
+   ],
+   "front_right_leg": [
+    1348,
+    5595
+   ]
+  },
+  "45133": {
+   "back_left_leg": [
+    1348,
+    5657
+   ],
+   "back_right_leg": [
+    1348,
+    5657
+   ],
+   "front_left_leg": [
+    1348,
+    5657
+   ],
+   "front_right_leg": [
+    1348,
+    5657
+   ]
+  },
+  "45134": {
+   "back_left_leg": [
+    1348,
+    5610
+   ],
+   "back_right_leg": [
+    1348,
+    5610
+   ],
+   "front_left_leg": [
+    1348,
+    5610
+   ],
+   "front_right_leg": [
+    1348,
+    5610
+   ]
+  },
+  "_source": "printify-get-blueprint-variants-9eb 376/99 returned 404 printify_blueprint_print_provider_mismatch (provider 99 no longer makes blueprint 376; only provider 1 listed). Dims taken from 376/1 (same variant ids), batch 4, read-only - REFERENCE ONLY"
+ },
+ "429/99": {
+  "62037": {
+   "front": [
+    3600,
+    2700
+   ]
+  },
+  "62038": {
+   "front": [
+    4125,
+    3000
+   ]
+  },
+  "62039": {
+   "front": [
+    4500,
+    3225
+   ]
+  },
+  "_source": "cached from d6_batch3/placeholders.json"
+ },
+ "468/99": {
+  "65045": {
+   "front": [
+    2323,
+    846
+   ],
+   "top_part_to_front": [
+    2335,
+    306
+   ]
+  },
+  "_source": "cached from d6_batch3/placeholders.json"
+ },
+ "5353/92": {
+  "244223": {
+   "front": [
+    2100,
+    2100
+   ]
+  },
+  "244224": {
+   "front": [
+    3000,
+    2100
+   ]
+  },
+  "244225": {
+   "front": [
+    2700,
+    2700
+   ]
+  },
+  "244226": {
+   "front": [
+    3000,
+    3000
+   ]
+  },
+  "244227": {
+   "front": [
+    3300,
+    3300
+   ]
+  },
+  "244228": {
+   "front": [
+    3900,
+    3900
+   ]
+  },
+  "_source": "cached from d6_batch3/placeholders.json"
+ },
+ "562/99": {
+  "101404": {
+   "front": [
+    4275,
+    2325
+   ]
+  },
+  "_source": "cached from d6_batch1/placeholders.json"
+ },
+ "568/99": {
+  "70900": {
+   "front": [
+    1800,
+    2056
+   ]
+  },
+  "70904": {
+   "front": [
+    2100,
+    2400
+   ]
+  },
+  "70908": {
+   "front": [
+    2100,
+    2400
+   ]
+  },
+  "71073": {
+   "front": [
+    1500,
+    1714
+   ]
+  },
+  "71079": {
+   "front": [
+    1500,
+    1714
+   ]
+  },
+  "71089": {
+   "front": [
+    1200,
+    1371
+   ]
+  },
+  "_source": "cached from d6_batch3/placeholders.json"
+ },
+ "636/99": {
+  "72422": {
+   "back": [
+    1275,
+    1350
+   ],
+   "front": [
+    1275,
+    1350
+   ]
+  },
+  "_source": "printify-get-blueprint-variants-9eb (batch 4, read-only)"
+ },
+ "643/99": {
+  "74549": {
+   "front": [
+    4800,
+    3450
+   ]
+  },
+  "74550": {
+   "front": [
+    3525,
+    2550
+   ]
+  },
+  "_source": "cached from d6_batch3/placeholders.json"
+ },
+ "695/23": {
+  "72920": {
+   "front": [
+    2244,
+    1390
+   ]
+  },
+  "_source": "cached from d6_batch3/placeholders.json"
+ },
+ "854/23": {
+  "76801": {
+   "front": [
+    2759,
+    1500
+   ]
+  },
+  "76802": {
+   "front": [
+    2760,
+    1996
+   ]
+  },
+  "76803": {
+   "front": [
+    3390,
+    2232
+   ]
+  },
+  "_source": "cached from d6_batch1/placeholders.json"
+ }
+}

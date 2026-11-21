@@ -1,0 +1,69 @@
+{
+ "product_id": "6ac702807a961335020e1a3f",
+ "shop_id": "26418699",
+ "title": "Avoiding Carolers Gnome Christmas Dog Bandana \u2014 Festive Holiday Pet Bandana, Cute Dog Christmas Outfit Gift | Winstar4U",
+ "blueprint_id": 562,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac85ff696758595fb79bc46",
+ "image_name": "clean-avoiding-carolers-gnome.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/1c03f161-97a6-48b4-bfa4-cc921089d34d",
+ "image_px": [
+  1702,
+  2048
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-14 12:50:45+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT \u2014 text cropped at bottom point of triangle bandana",
+ "current": {
+  "x": 0.5,
+  "y": 0.52,
+  "scale": 0.55,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.2297,
+  0.1382,
+  0.7767,
+  0.8257
+ ],
+ "current_content_box_in_placeholder": [
+  0.3514,
+  0.0797,
+  0.6522,
+  0.9163
+ ],
+ "current_inside_safe_frac": {
+  "101404": 0.6121
+ },
+ "effective_px_ratio_after": 1.206,
+ "proposed": {
+  "x": 0.5007,
+  "y": 0.416,
+  "scale": 0.33,
+  "angle": 0
+ },
+ "placeholders": {
+  "101404": [
+   4275,
+   2325
+  ]
+ },
+ "safe_area_source": {
+  "101404": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "101404": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [],
+ "notes": [
+  "current: 38.8% of visible content outside safe area (variant 101404)"
+ ],
+ "live_change_made": false
+}

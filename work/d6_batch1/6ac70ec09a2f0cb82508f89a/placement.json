@@ -1,0 +1,63 @@
+{
+ "product_id": "6ac70ec09a2f0cb82508f89a",
+ "shop_id": "26418699",
+ "title": "\"Dear Santa Bank Account\" Christmas Shorts \u2014 Funny Holiday Graphic Shorts, Holiday Gift | Winstar4U",
+ "blueprint_id": 10796,
+ "print_provider_id": 217,
+ "position": "front_left_leg_dtf",
+ "image_id": "6ac87ac2f9cb26f8a210204a",
+ "image_name": "dear-santa-bank-account.png-TRANSPARENT.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/d4b68f57-6778-4dc4-b8ee-7214d466f61e",
+ "image_px": [
+  1679,
+  1898
+ ],
+ "decoration_method": "dtf",
+ "visible": true,
+ "updated_at": "2026-10-09 05:25:27+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT \u2014 final word cropped at garment-corner edge",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.7,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.006,
+  0.0053,
+  0.994,
+  0.9947
+ ],
+ "current_content_box_in_placeholder": [
+  0.1542,
+  0.1085,
+  0.8458,
+  0.8915
+ ],
+ "current_inside_safe_frac": {
+  "*": 1.0
+ },
+ "proposed": null,
+ "placeholders": {
+  "*": [
+   1500,
+   1500
+  ]
+ },
+ "safe_area_source": {
+  "*": "rect"
+ },
+ "verify_inside_safe_frac": {},
+ "status": "BLOCKED",
+ "verify_pass": false,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [],
+ "notes": [
+  "Cannot reproduce: live placement already inside the 5% safe area and the live mockup (zoomed) shows the final word 'NO' fully visible - audit flag looks like a false positive. Recommend closing without change after owner eyeball. Separate note: black 'SAYS' text has low contrast on Black/Shadow shorts.",
+  "proposed placement failed geometry verify",
+  "current placement already inside safe area on all checked variants"
+ ],
+ "live_change_made": false
+}

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="tablecloth_58x102" width="100%" height="100%" viewBox="0 0 4320 7488" xmlns:printify="http://printify.com/adjuster"  printify:width="1143" printify:height="1981.1999999999998">
+  <defs>
+    <clipPath id="clippath">
+      <rect x=".006" y=".19" width="4320.12" height="7487.833" fill="none"/>
+    </clipPath>
+  <image x="0" y="0" width="4320" height="7488" id="fabric-image"/><path d="" id="fabric-0"/><clipPath id="fabric-0-clip"><use xlink:href="#fabric-0"/></clipPath><path d="" id="fabric-1"/><clipPath id="fabric-1-clip"><use xlink:href="#fabric-1"/></clipPath><rect id="_front-path" width="4320.12" height="7487.833" fill="none" transform=""/><clipPath><use stroke-width="4.7625mm" xlink:href="#_front-path"/></clipPath></defs>
+  <g id="color_first" fill-rule="nonzero" fill="#fff"><use xlink:href="#fabric-0"/><use clip-path="url(#fabric-0-clip)" xlink:href="#fabric-image"/>
+    <g clip-path="url(#clippath)">
+      <rect id="color_background" x=".006" y=".188" width="4320.12" height="7487.833" fill="#fff" fill-rule="nonzero"><use xlink:href="#fabric-1"/><use clip-path="url(#fabric-1-clip)" xlink:href="#fabric-image"/></rect>
+      
+    <g clip-path="url(#_front-clippath)" transform="translate(.006 .188)"><svg id="placeholder_front" width="4320.12" height="7487.833" preserveAspectRatio="xMidYMid slice" viewBox="0 0 4320.12 7487.833"><use stroke-width="4.7625mm" xlink:href="#_front-path" stroke="#ffffff"/><use stroke-width="4.7625mm" xlink:href="#_front-path" stroke="#000000" stroke-dasharray="9.525mm, 9.525mm"/></svg></g></g>
+  </g>
+  <g id="outlines">
+    <g id="bleed" opacity=".4">
+      <path d="M4320.127,7488.022L-.031,7488.272.006.188,4320.006.012l.12,7488.009ZM1968.288,126.001H126v7235.997h4068V126.001H1968.288Z" fill="#231f20"/>
+    </g>
+    <g id="bleedw" opacity=".4">
+      <path d="M4320.127,7488.022H.006V.188l4319.889-.102.231,7487.935ZM1968.288,126.001H126v7235.997h4068V126.001H1968.288Z" fill="#fff"/>
+    </g>
+    <polygon id="safew" points="2351.712 126.001 4194 126.001 4194 7361.998 126 7361.998 126 126.001 1968.288 126.001 2351.712 126.001" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="4.315"/>
+    <g id="safe">
+      <g>
+        <polyline points="4169.125 126.001 4194 126.001 4194 150.876" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="4.976"/>
+        <line x1="4194" y1="200.426" x2="4194" y2="200.436" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="4.976"/>
+        <line x1="4194" y1="200.436" x2="4194" y2="7337.124" fill="none" stroke="#000" stroke-dasharray="49.56 49.55 0 0" stroke-linejoin="round" stroke-width="4.976"/>
+        <polyline points="4194 7337.124 4194 7361.998 4169.125 7361.998" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="4.976"/>
+        <line x1="4119.527" y1="7361.998" x2="4119.517" y2="7361.998" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="4.976"/>
+        <line x1="4119.517" y1="7361.998" x2="150.874" y2="7361.998" fill="none" stroke="#000" stroke-dasharray="49.608 49.598 0 0" stroke-linejoin="round" stroke-width="4.976"/>
+        <polyline points="150.874 7361.998 126 7361.998 126 7337.124" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="4.976"/>
+        <line x1="126" y1="7287.573" x2="126" y2="7287.563" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="4.976"/>
+        <line x1="126" y1="7287.563" x2="126" y2="150.876" fill="none" stroke="#000" stroke-dasharray="49.56 49.55 0 0" stroke-linejoin="round" stroke-width="4.976"/>
+        <polyline points="126 150.876 126 126.001 150.874 126.001" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="4.976"/>
+        <line x1="200.472" y1="126.001" x2="200.483" y2="126.001" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="4.976"/>
+        <polyline points="200.483 126.001 1968.287 126.001 2351.712 126.001 4169.125 126.001" fill="none" stroke="#000" stroke-dasharray="49.608 49.598 0 0" stroke-linejoin="round" stroke-width="4.976"/>
+      </g>
+    </g>
+    <polygon id="printarea" points="2487.107 71.999 4248 71.999 4248 7415.999 72 7415.999 72 71.999 2487.107 71.999" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5.302"/>
+  </g>
+</svg>

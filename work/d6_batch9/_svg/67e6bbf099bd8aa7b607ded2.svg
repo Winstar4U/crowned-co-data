@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="S" width="100%" height="100%" viewBox="0 0 1492.54 2739.47" xmlns:printify="http://printify.com/adjuster"  printify:width="394.8975" printify:height="724.8149999999999">
+  <defs>
+    <clipPath id="clippath">
+      <rect x="73.68" y="73.68" width="1345.18" height="2592.11" fill="none"/>
+    </clipPath>
+  <image x="0" y="0" width="1492.54" height="2739.47" id="fabric-image"/><path d="" id="fabric-0"/><clipPath id="fabric-0-clip"><use xlink:href="#fabric-0"/></clipPath><path d="" id="fabric-1"/><clipPath id="fabric-1-clip"><use xlink:href="#fabric-1"/></clipPath><rect id="_front-path" width="1345.18" height="2592.11" fill="none" transform=""/><clipPath><use stroke-width="1.64540625mm" xlink:href="#_front-path"/></clipPath></defs>
+  <g id="color_first" fill-rule="nonzero" fill="#fff"><use xlink:href="#fabric-0"/><use clip-path="url(#fabric-0-clip)" xlink:href="#fabric-image"/>
+    <g clip-path="url(#clippath)">
+      <rect id="color_background" x="73.68" y="73.68" width="1345.18" height="2592.11" fill="#fff" fill-rule="nonzero"><use xlink:href="#fabric-1"/><use clip-path="url(#fabric-1-clip)" xlink:href="#fabric-image"/></rect>
+      
+    <g clip-path="url(#_front-clippath)" transform="translate(73.68 73.68)"><svg id="placeholder_front" width="1345.18" height="2592.11" preserveAspectRatio="xMidYMid slice" viewBox="0 0 1345.18 2592.11"><use stroke-width="1.64540625mm" xlink:href="#_front-path" stroke="#ffffff"/><use stroke-width="1.64540625mm" xlink:href="#_front-path" stroke="#000000" stroke-dasharray="3.2908125mm, 3.2908125mm"/></svg></g></g>
+  </g>
+  <g id="outlines">
+    <g id="text">
+      <text transform="translate(691.78 59.57)" font-family="Roboto-Medium, 'Roboto Medium'" font-size="56.68" font-weight="500"><tspan x="0" y="0" letter-spacing="-.01em">T</tspan><tspan x="33.63" y="0" letter-spacing="0em">OP</tspan></text>
+      <text transform="translate(800.76 2684.09) rotate(-180)" font-family="Roboto-Medium, 'Roboto Medium'" font-size="56.68" font-weight="500"><tspan x="0" y="0" letter-spacing="-.01em">T</tspan><tspan x="33.63" y="0" letter-spacing="0em">OP</tspan></text>
+      <text transform="translate(55.15 2114.24) rotate(-90)" font-family="Roboto-Medium, 'Roboto Medium'" font-size="56.68" font-weight="500"><tspan x="0" y="0">SIDE</tspan></text>
+      <text transform="translate(1434.55 1969.17) rotate(90)" font-family="Roboto-Medium, 'Roboto Medium'" font-size="56.68" font-weight="500"><tspan x="0" y="0">SIDE</tspan></text>
+      <text transform="translate(55.15 739.91) rotate(-90)" font-family="Roboto-Medium, 'Roboto Medium'" font-size="56.68" font-weight="500"><tspan x="0" y="0">SIDE</tspan></text>
+      <text transform="translate(55.15 1488.75) rotate(-90)" font-family="Roboto-Medium, 'Roboto Medium'" font-size="56.68" font-weight="500"><tspan x="0" y="0">B</tspan><tspan x="35.76" y="0" letter-spacing="-.04em">O</tspan><tspan x="72.54" y="0" letter-spacing="0em">T</tspan><tspan x="107.38" y="0" letter-spacing="-.01em">T</tspan><tspan x="141" y="0">OM</tspan></text>
+      <text transform="translate(1434.55 1258.78) rotate(90)" font-family="Roboto-Medium, 'Roboto Medium'" font-size="56.68" font-weight="500"><tspan x="0" y="0">B</tspan><tspan x="35.76" y="0" letter-spacing="-.04em">O</tspan><tspan x="72.54" y="0" letter-spacing="0em">T</tspan><tspan x="107.38" y="0" letter-spacing="-.01em">T</tspan><tspan x="141" y="0">OM</tspan></text>
+      <text transform="translate(1434.55 594.85) rotate(90)" font-family="Roboto-Medium, 'Roboto Medium'" font-size="56.68" font-weight="500"><tspan x="0" y="0">SIDE</tspan></text>
+    </g>
+    <path id="bleed" d="M73.68,73.68v2592.11h1345.17V73.68H73.68ZM1275.27,2521.46H217.27v-1058h1058v1058ZM1275.27,1276.46H217.27V218.46h1058v1058Z" opacity=".4"/>
+    <path id="bleedw" d="M73.68,73.68v2592.11h1345.17V73.68H73.68ZM1275.27,2521.46H217.27v-1058h1058v1058ZM1275.27,1276.46H217.27V218.46h1058v1058Z" fill="#fff" opacity=".4"/>
+    <line id="foldingw" x1="73.68" y1="1369.74" x2="1418.86" y2="1369.74" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <line id="folding" x1="73.68" y1="1369.74" x2="1418.86" y2="1369.74" fill="none" stroke="#000" stroke-dasharray=".02 35 0 0" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5"/>
+    <rect id="safew" x="217.27" y="1463.46" width="1058" height="1058" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="3"/>
+    <rect id="safe" x="217.27" y="1463.46" width="1058" height="1058" fill="none" stroke="#000" stroke-dasharray="30 30 0 0" stroke-linejoin="round" stroke-width="3"/>
+    <rect id="safew" x="217.27" y="218.46" width="1058" height="1058" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="3"/>
+    <rect id="safe" x="217.27" y="218.46" width="1058" height="1058" fill="none" stroke="#000" stroke-dasharray="30 30 0 0" stroke-linejoin="round" stroke-width="3"/>
+    <rect id="printarea" x="122.8" y="122.8" width="1246.93" height="2493.86" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="5"/>
+  </g>
+</svg>

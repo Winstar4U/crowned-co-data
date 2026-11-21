@@ -1,0 +1,73 @@
+{
+ "product_id": "6ac7127942c818a1ad095f5f",
+ "shop_id": "26418699",
+ "title": "Calories Dont Count Thanksgiving Christmas Lunch Box \u2014 Bento Box for Holiday Lunches, Holiday Gift | Winstar4U",
+ "blueprint_id": 695,
+ "print_provider_id": 23,
+ "position": "front",
+ "image_id": "6ac86122dbf8883646c44aca",
+ "image_name": "fixed_6ac4f016d82adc37bd80386b.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/9be5163c-34ed-4746-9436-43b38a1fcdf7",
+ "image_px": [
+  1653,
+  1978
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 03:37:52+00:00",
+ "defect_cause": "other",
+ "defect_note": "DEFECT",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.7,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.006,
+  0.0051,
+  0.994,
+  0.9949
+ ],
+ "current_content_box_in_placeholder": [
+  0.1542,
+  -0.1693,
+  0.8458,
+  1.1693
+ ],
+ "current_inside_safe_frac": {
+  "72920": 0.6492
+ },
+ "effective_px_ratio_after": 1.567,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.47,
+  "angle": 0
+ },
+ "placeholders": {
+  "72920": [
+   2244,
+   1390
+  ]
+ },
+ "safe_area_source": {
+  "72920": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "72920": 1.0
+ },
+ "new_art_category": "",
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 13%",
+  "bottom 13%"
+ ],
+ "notes": [
+  "current: 35.1% of visible content outside safe area (variant 72920)"
+ ],
+ "live_change_made": false
+}

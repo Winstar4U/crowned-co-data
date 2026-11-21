@@ -1,0 +1,82 @@
+{
+ "product_id": "6ac7117d3925bc76b9037258",
+ "shop_id": "26418699",
+ "title": "Merry Everything Happy Always Christmas Youth Hoodie \u2014 Cozy Kids Holiday Hoodie, Holiday Gift | Winstar4U",
+ "blueprint_id": 2005,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac860074ca50d98e6a85667",
+ "image_name": "flattened-merry-everything-happy-always-transparent.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/290e8575-4984-4484-8fec-758b969a9f27",
+ "image_px": [
+  400,
+  400
+ ],
+ "decoration_method": "dtg",
+ "visible": true,
+ "updated_at": "2026-10-09 04:08:47+00:00",
+ "defect_cause": "contrast/text color",
+ "defect_note": "DEFECT: low-contrast silver/gray text illegible on black garment",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.9,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.02,
+  0.19,
+  0.97,
+  0.8175
+ ],
+ "contrast_vs_black": 0.231,
+ "current_content_box_in_placeholder": [
+  0.068,
+  0.2717,
+  0.923,
+  0.7338
+ ],
+ "current_inside_safe_frac": {
+  "123124": 1.0,
+  "123117": 1.0
+ },
+ "effective_px_ratio_after": 0.165,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.9,
+  "angle": 0
+ },
+ "placeholders": {
+  "123124": [
+   2700,
+   3300
+  ],
+  "123117": [
+   2228,
+   2733
+  ]
+ },
+ "safe_area_source": {
+  "123124": "rect",
+  "123117": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "123124": 1.0,
+  "123117": 1.0
+ },
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [],
+ "notes": [
+  "Also low contrast: the flattened art's grey shading on black (23% of pixels < 2.5:1). The 400 px file must be replaced regardless.",
+  "NEEDS_NEW_ART: source art is only 400x400 px (flattened thumbnail export) - upscaled 6.1x at print size, will print soft/pixelated. Placement fix computed+verified; apply together with a >=2000 px re-export of the same transparent design.",
+  "DISCONTINUED: enabled variant(s) 123103,123110 not offered by provider 99 any more (get-blueprint-variants 2005/99, show_out_of_stock=true) - cannot be produced; owner decision: disable these variants",
+  "geometry checked for 2 enabled variants (2 distinct placeholder geometries)",
+  "LOW-RES: art upscaled 6.1x on largest variant (src px/print px=0.16)",
+  "current placement already inside safe area on all checked variants"
+ ],
+ "live_change_made": false
+}

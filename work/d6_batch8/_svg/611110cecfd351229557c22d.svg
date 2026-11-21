@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 717.89 717.89" xmlns:printify="http://printify.com/adjuster"  printify:width="189.945" printify:height="189.945">
+  <defs>
+    <clipPath id="clip-path">
+      <rect y="136.6" width="717.89" height="444.7" rx="95.14" fill="none"/>
+    </clipPath>
+  <image x="0" y="0" width="717.89" height="717.89" id="fabric-image"/><path d="" id="fabric-0"/><clipPath id="fabric-0-clip"><use xlink:href="#fabric-0"/></clipPath><rect id="_front-path" width="717.89" height="444.7" fill="none" transform=""/><clipPath><use stroke-width="0.7914375mm" xlink:href="#_front-path"/></clipPath></defs>
+  <g id="color_first" fill-rule="nonzero" fill="#fff"><use xlink:href="#fabric-0"/><use clip-path="url(#fabric-0-clip)" xlink:href="#fabric-image"/>
+    <g clip-path="url(#clip-path)">
+      <rect id="background" y="136.6" width="717.89" height="444.7" fill="#f7f7f7"/>
+      
+    <g clip-path="url(#_front-clippath)" transform="translate(0 136.6)"><svg id="placeholder_front" width="717.89" height="444.7" preserveAspectRatio="xMidYMid slice" viewBox="0 0 717.89 444.7"><use stroke-width="0.7914375mm" xlink:href="#_front-path" stroke="#ffffff"/><use stroke-width="0.7914375mm" xlink:href="#_front-path" stroke="#000000" stroke-dasharray="1.582875mm, 1.582875mm"/></svg></g></g>
+  </g>
+  <g id="outlines">
+    <path d="M622.75,136.6H95.14A95.14,95.14,0,0,0,0,231.74V486.16A95.15,95.15,0,0,0,95.14,581.3H622.75a95.14,95.14,0,0,0,95.14-95.14V231.74A95.13,95.13,0,0,0,622.75,136.6Zm85,326.76a101.91,101.91,0,0,1-101.9,101.91H405.6v.29a6.21,6.21,0,0,1-6.22,6.22H318.51a6.22,6.22,0,0,1-6.22-6.22v-.29H112.05A101.91,101.91,0,0,1,10.14,463.36V254.53a101.91,101.91,0,0,1,101.91-101.9H312.29v-.3a6.23,6.23,0,0,1,6.22-6.22h80.87a6.22,6.22,0,0,1,6.22,6.22v.3H605.85a101.9,101.9,0,0,1,101.9,101.9Z" fill="#231f20" opacity="0.2"/>
+    <path d="M622.75,136.6H95.14A95.14,95.14,0,0,0,0,231.74V486.16A95.15,95.15,0,0,0,95.14,581.3H622.75a95.14,95.14,0,0,0,95.14-95.14V231.74A95.13,95.13,0,0,0,622.75,136.6Zm85,326.76a101.91,101.91,0,0,1-101.9,101.91H405.6v.29a6.21,6.21,0,0,1-6.22,6.22H318.51a6.22,6.22,0,0,1-6.22-6.22v-.29H112.05A101.91,101.91,0,0,1,10.14,463.36V254.53a101.91,101.91,0,0,1,101.91-101.9H312.29v-.3a6.23,6.23,0,0,1,6.22-6.22h80.87a6.22,6.22,0,0,1,6.22,6.22v.3H605.85a101.9,101.9,0,0,1,101.9,101.9Z" fill="#fff" opacity="0.2"/>
+    <rect x="171.82" y="28.45" width="374.26" height="661" rx="87.15" transform="translate(717.89 0) rotate(90)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <rect x="171.82" y="28.45" width="374.26" height="661" rx="87.15" transform="translate(717.89 0) rotate(90)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" stroke-dasharray="13.33 13.33"/>
+    <path d="M622.75,137.93a93.91,93.91,0,0,1,93.81,93.81V486.16A93.91,93.91,0,0,1,622.75,580H95.14a93.92,93.92,0,0,1-93.81-93.8V231.74a93.92,93.92,0,0,1,93.81-93.81H622.75m0-1.33H95.14A95.14,95.14,0,0,0,0,231.74V486.16A95.15,95.15,0,0,0,95.14,581.3H622.75a95.14,95.14,0,0,0,95.14-95.14V231.74a95.13,95.13,0,0,0-95.14-95.14Z"/>
+    <path d="M399.38,147.44a4.9,4.9,0,0,1,4.89,4.89v.3A1.34,1.34,0,0,0,405.6,154H605.85A100.68,100.68,0,0,1,706.42,254.53V463.36A100.68,100.68,0,0,1,605.85,563.93H405.6a1.34,1.34,0,0,0-1.33,1.34v.29a4.89,4.89,0,0,1-4.89,4.89H318.51a4.9,4.9,0,0,1-4.89-4.89v-.29a1.33,1.33,0,0,0-1.33-1.34H112.05A100.68,100.68,0,0,1,11.48,463.36V254.53A100.68,100.68,0,0,1,112.05,154H312.29a1.33,1.33,0,0,0,1.33-1.33v-.3a4.9,4.9,0,0,1,4.89-4.89h80.87m0-1.33H318.51a6.23,6.23,0,0,0-6.22,6.22v.3H112.05A101.91,101.91,0,0,0,10.14,254.53V463.36A101.91,101.91,0,0,0,112.05,565.27H312.29v.29a6.22,6.22,0,0,0,6.22,6.22h80.87a6.21,6.21,0,0,0,6.22-6.22v-.29H605.85a101.91,101.91,0,0,0,101.9-101.91V254.53a101.9,101.9,0,0,0-101.9-101.9H405.6v-.3a6.22,6.22,0,0,0-6.22-6.22Z"/>
+  </g>
+</svg>

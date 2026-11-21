@@ -1,0 +1,72 @@
+{
+ "product_id": "6ac71165a4c95c48e20361de",
+ "shop_id": "26418699",
+ "title": "Fireplace Stocking Christmas Shot Glass \u2014 1.5oz Party Shot Glass, Holiday Gift | Winstar4U",
+ "blueprint_id": 1245,
+ "print_provider_id": 228,
+ "position": "front",
+ "image_id": "6ac860f87cfb60cf5465adba",
+ "image_name": "fixed_6ac70f02a451cc2e2c8da2cd.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/1e735a01-e1dd-4b24-ac03-9b4f24d624cb",
+ "image_px": [
+  1706,
+  1924
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 03:39:49+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT \u2014 top line \"CHRISTMAS\" clipped at top edge (title says Fireplace Stocking, on-glass text reads Christmas Morning \u2014 naming quirk, not a defect itself)",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.8,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0059,
+  0.0052,
+  0.9941,
+  0.9948
+ ],
+ "current_content_box_in_placeholder": [
+  0.1047,
+  -0.0208,
+  0.8953,
+  1.0208
+ ],
+ "current_inside_safe_frac": {
+  "94263": 0.8107
+ },
+ "effective_px_ratio_after": 5.425,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.599,
+  "angle": 0
+ },
+ "placeholders": {
+  "94263": [
+   525,
+   450
+  ]
+ },
+ "safe_area_source": {
+  "94263": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "94263": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 2%",
+  "bottom 2%"
+ ],
+ "notes": [
+  "current: 18.9% of visible content outside safe area (variant 94263)"
+ ],
+ "live_change_made": false
+}

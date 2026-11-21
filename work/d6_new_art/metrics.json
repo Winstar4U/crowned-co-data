@@ -1,0 +1,1682 @@
+{
+ "f0f9445d674ce3ce18b098e45618e2bdb88e4ef2": {
+  "category": "white_box",
+  "src_px": "2048x1365",
+  "products": [
+   "6ac703113fd8c86beb0f4940",
+   "6ac7179bac4a665555019d14"
+  ],
+  "cleared_frac": 0.6561,
+  "protected_enclosed_px": 17713,
+  "lowcontrast_vs_black_after_bg": 0.241,
+  "dark_components": 6,
+  "dark_component_area_frac": 0.0056,
+  "stroke_px_src": 12.0,
+  "stroke_rgb": [
+   250,
+   248,
+   240
+  ],
+  "chained_light_stroke": true,
+  "enclosed_white_regions": 16,
+  "enclosed_white_px": 40164,
+  "lowcontrast_vs_black_final": 0.181,
+  "before": {
+   "opaque_frac": 1.0,
+   "transparent_frac": 0.0,
+   "border_opaque_frac": 1.0
+  },
+  "after": {
+   "opaque_frac": 0.4556,
+   "transparent_frac": 0.5391,
+   "border_opaque_frac": 0.007
+  },
+  "output_file": "/home/user/crowned-co-data/work/d6_new_art/fixed/f0f9445d674ce3ce18b098e45618e2bdb88e4ef2.png"
+ },
+ "a0e42e1723da8fab3c73e7a8d3909a25131ccaec": {
+  "category": "white_box",
+  "src_px": "2048x2048",
+  "products": [
+   "6ac702f267e0e81ed20ffe2c"
+  ],
+  "cleared_frac": 0.7777,
+  "protected_enclosed_px": 0,
+  "lowcontrast_vs_black_after_bg": 0.212,
+  "dark_components": 0,
+  "dark_component_area_frac": 0.0,
+  "enclosed_white_regions": 5,
+  "enclosed_white_px": 12787,
+  "lowcontrast_vs_black_final": 0.212,
+  "before": {
+   "opaque_frac": 1.0,
+   "transparent_frac": 0.0,
+   "border_opaque_frac": 1.0
+  },
+  "after": {
+   "opaque_frac": 0.222,
+   "transparent_frac": 0.7777,
+   "border_opaque_frac": 0.0
+  },
+  "output_file": "/home/user/crowned-co-data/work/d6_new_art/fixed/a0e42e1723da8fab3c73e7a8d3909a25131ccaec.png"
+ },
+ "8cf1dbf7d2b185c8cdc0c6716feb0b4dad101ffb": {
+  "category": "white_box",
+  "src_px": "2048x2048",
+  "products": [
+   "6ac7179757b1ebbe6c0c6ea4"
+  ],
+  "cleared_frac": 0.6839,
+  "protected_enclosed_px": 9820,
+  "lowcontrast_vs_black_after_bg": 0.504,
+  "dark_components": 2,
+  "dark_component_area_frac": 0.0022,
+  "enclosed_white_regions": 16,
+  "enclosed_white_px": 49848,
+  "lowcontrast_vs_black_final": 0.504,
+  "before": {
+   "opaque_frac": 1.0,
+   "transparent_frac": 0.0,
+   "border_opaque_frac": 1.0
+  },
+  "after": {
+   "opaque_frac": 0.3155,
+   "transparent_frac": 0.6839,
+   "border_opaque_frac": 0.0
+  },
+  "output_file": "/home/user/crowned-co-data/work/d6_new_art/fixed/8cf1dbf7d2b185c8cdc0c6716feb0b4dad101ffb.png"
+ },
+ "a74bdfd412a8a408387b5af3e63196423ac566da": {
+  "category": "white_box",
+  "src_px": "2048x2048",
+  "products": [
+   "6ac7179eb814691321003c22"
+  ],
+  "cleared_frac": 0.3805,
+  "protected_enclosed_px": 5086,
+  "lowcontrast_vs_black_after_bg": 0.48,
+  "dark_components": 16,
+  "dark_component_area_frac": 0.0146,
+  "stroke_px_src": 12.0,
+  "stroke_rgb": [
+   250,
+   248,
+   240
+  ],
+  "chained_light_stroke": true,
+  "enclosed_white_regions": 10,
+  "enclosed_white_px": 92720,
+  "lowcontrast_vs_black_final": 0.445,
+  "before": {
+   "opaque_frac": 1.0,
+   "transparent_frac": 0.0,
+   "border_opaque_frac": 1.0
+  },
+  "after": {
+   "opaque_frac": 0.6689,
+   "transparent_frac": 0.3291,
+   "border_opaque_frac": 0.0
+  },
+  "output_file": "/home/user/crowned-co-data/work/d6_new_art/fixed/a74bdfd412a8a408387b5af3e63196423ac566da.png"
+ },
+ "74511057b1db1ab71b43e677ecb215c58fbf60ff": {
+  "category": "white_box",
+  "src_px": "2048x2048",
+  "products": [
+   "6ac71720a4c95c48e20366ae"
+  ],
+  "cleared_frac": 0.7471,
+  "protected_enclosed_px": 9276,
+  "lowcontrast_vs_black_after_bg": 0.213,
+  "dark_components": 0,
+  "dark_component_area_frac": 0.0,
+  "enclosed_white_regions": 21,
+  "enclosed_white_px": 91567,
+  "lowcontrast_vs_black_final": 0.213,
+  "before": {
+   "opaque_frac": 1.0,
+   "transparent_frac": 0.0,
+   "border_opaque_frac": 1.0
+  },
+  "after": {
+   "opaque_frac": 0.2511,
+   "transparent_frac": 0.7471,
+   "border_opaque_frac": 0.0
+  },
+  "output_file": "/home/user/crowned-co-data/work/d6_new_art/fixed/74511057b1db1ab71b43e677ecb215c58fbf60ff.png"
+ },
+ "dce4bece7660b756b499ce3585c8007aaca5c194": {
+  "category": "white_box",
+  "src_px": "2048x2048",
+  "products": [
+   "6ac71760c0773328340351f0",
+   "6ac701f635cf3f6ec802e205"
+  ],
+  "cleared_frac": 0.5885,
+  "protected_enclosed_px": 0,
+  "lowcontrast_vs_black_after_bg": 0.505,
+  "dark_components": 26,
+  "dark_component_area_frac": 0.0116,
+  "stroke_px_src": 12.0,
+  "stroke_rgb": [
+   250,
+   248,
+   240
+  ],
+  "chained_light_stroke": true,
+  "enclosed_white_regions": 50,
+  "enclosed_white_px": 275387,
+  "lowcontrast_vs_black_final": 0.454,
+  "before": {
+   "opaque_frac": 1.0,
+   "transparent_frac": 0.0,
+   "border_opaque_frac": 1.0
+  },
+  "after": {
+   "opaque_frac": 0.4577,
+   "transparent_frac": 0.5404,
+   "border_opaque_frac": 0.0
+  },
+  "output_file": "/home/user/crowned-co-data/work/d6_new_art/fixed/dce4bece7660b756b499ce3585c8007aaca5c194.png"
+ },
+ "643045f5e87a9f236109e96a6bf3e74d7e275967": {
+  "category": "checkerboard",
+  "src_px": "2048x2048",
+  "products": [
+   "6ac7176757b1ebbe6c0c6e84",
+   "6ac7020d7424c0bbb60dc1bd",
+   "6ac70ffa4bfa32451c05490d",
+   "6ac71204f0a0ce97bc0c9211",
+   "6ac7148857527ce5fd019877",
+   "6ac71436336f835866011619",
+   "6ac72401cacff3948b065b5d"
+  ],
+  "checker_energy_before": 0.01356,
+  "checker_energy_after": 0.0,
+  "mode": "broad",
+  "tones": [
+   216
+  ],
+  "cleared_tile_px": 89971,
+  "specks_removed": 40,
+  "protected_enclosed_px": 0,
+  "enclosed_checker_tones": [
+   [
+    216,
+    245
+   ],
+   [
+    217,
+    242
+   ],
+   [
+    214,
+    238
+   ],
+   [
+    210,
+    236
+   ]
+  ],
+  "enclosed_checker_px_cleared": 33114,
+  "lowcontrast_vs_black_final": 0.516,
+  "before": {
+   "opaque_frac": 0.7728,
+   "transparent_frac": 0.2272,
+   "border_opaque_frac": 0.0441
+  },
+  "after": {
+   "opaque_frac": 0.7509,
+   "transparent_frac": 0.2487,
+   "border_opaque_frac": 0.0135
+  },
+  "output_file": "/home/user/crowned-co-data/work/d6_new_art/fixed/643045f5e87a9f236109e96a6bf3e74d7e275967.png"
+ },
+ "96e7dc4c99a99947a9e5f11344f0ee8492e4a88b": {
+  "category": "white_box",
+  "src_px": "2048x2048",
+  "products": [
+   "6ac7178307e4149a0f001490"
+  ],
+  "cleared_frac": 0.6036,
+  "protected_enclosed_px": 17238,
+  "lowcontrast_vs_black_after_bg": 0.327,
+  "dark_components": 70,
+  "dark_component_area_frac": 0.058,
+  "stroke_px_src": 12.0,
+  "stroke_rgb": [
+   250,
+   248,
+   240
+  ],
+  "chained_light_stroke": true,
+  "enclosed_white_regions": 35,
+  "enclosed_white_px": 377101,
+  "lowcontrast_vs_black_final": 0.267,
+  "before": {
+   "opaque_frac": 1.0,
+   "transparent_frac": 0.0,
+   "border_opaque_frac": 1.0
+  },
+  "after": {
+   "opaque_frac": 0.4846,
+   "transparent_frac": 0.5106,
+   "border_opaque_frac": 0.0
+  },
+  "output_file": "/home/user/crowned-co-data/work/d6_new_art/fixed/96e7dc4c99a99947a9e5f11344f0ee8492e4a88b.png"
+ },
+ "846b59eebde9611638476a4013673ebeac97c0b7": {
+  "category": "white_box",
+  "src_px": "2048x2048",
+  "products": [
+   "6ac71786a5ade89b5c081451"
+  ],
+  "cleared_frac": 0.6642,
+  "protected_enclosed_px": 2144,
+  "lowcontrast_vs_black_after_bg": 0.365,
+  "dark_components": 1,
+  "dark_component_area_frac": 0.0221,
+  "stroke_px_src": 12.0,
+  "stroke_rgb": [
+   250,
+   248,
+   240
+  ],
+  "chained_light_stroke": true,
+  "enclosed_white_regions": 17,
+  "enclosed_white_px": 68127,
+  "lowcontrast_vs_black_final": 0.306,
+  "before": {
+   "opaque_frac": 1.0,
+   "transparent_frac": 0.0,
+   "border_opaque_frac": 1.0
+  },
+  "after": {
+   "opaque_frac": 0.3995,
+   "transparent_frac": 0.5968,
+   "border_opaque_frac": 0.0
+  },
+  "output_file": "/home/user/crowned-co-data/work/d6_new_art/fixed/846b59eebde9611638476a4013673ebeac97c0b7.png"
+ },
+ "7c5dba16510e278aa4e854babc816e31bcfa85c9": {
+  "category": "white_box",
+  "src_px": "2048x1365",
+  "products": [
+   "6ac717a95a14e80fa703f22f"
+  ],
+  "cleared_frac": 0.6476,
+  "protected_enclosed_px": 3216,
+  "lowcontrast_vs_black_after_bg": 0.177,
+  "dark_components": 4,
+  "dark_component_area_frac": 0.0112,
+  "stroke_px_src": 12.0,
+  "stroke_rgb": [
+   250,
+   248,
+   240
+  ],
+  "chained_light_stroke": true,
+  "enclosed_white_regions": 5,
+  "enclosed_white_px": 7981,
+  "lowcontrast_vs_black_final": 0.118,
+  "before": {
+   "opaque_frac": 1.0,
+   "transparent_frac": 0.0,
+   "border_opaque_frac": 1.0
+  },
+  "after": {
+   "opaque_frac": 0.5242,
+   "transparent_frac": 0.4667,
+   "border_opaque_frac": 0.0
+  },
+  "output_file": "/home/user/crowned-co-data/work/d6_new_art/fixed/7c5dba16510e278aa4e854babc816e31bcfa85c9.png"
+ },
+ "6350746a59c36787cfda2736b5ff3d2579f7b8a9": {
+  "category": "white_box",
+  "src_px": "2048x2048",
+  "products": [
+   "6ac70218d907a8335b0f3bab"
+  ],
+  "cleared_frac": 0.5799,
+  "protected_enclosed_px": 12374,
+  "lowcontrast_vs_black_after_bg": 0.665,
+  "dark_components": 44,
+  "dark_component_area_frac": 0.729,
+  "stroke_px_src": 12.0,
+  "stroke_rgb": [
+   250,
+   248,
+   240
+  ],
+  "chained_light_stroke": true,
+  "enclosed_white_regions": 5,
+  "enclosed_white_px": 25340,
+  "lowcontrast_vs_black_final": 0.522,
+  "before": {
+   "opaque_frac": 1.0,
+   "transparent_frac": 0.0,
+   "border_opaque_frac": 1.0
+  },
+  "after": {
+   "opaque_frac": 0.5345,
+   "transparent_frac": 0.4614,
+   "border_opaque_frac": 0.0
+  },
+  "output_file": "/home/user/crowned-co-data/work/d6_new_art/fixed/6350746a59c36787cfda2736b5ff3d2579f7b8a9.png"
+ },
+ "2cc4fd959c8df172a0d15136f45421ba07aa03bc": {
+  "category": "white_box",
+  "src_px": "2048x2048",
+  "products": [
+   "6ac70246b814691321002fc7"
+  ],
+  "cleared_frac": 0.6199,
+  "protected_enclosed_px": 0,
+  "lowcontrast_vs_black_after_bg": 0.137,
+  "dark_components": 6,
+  "dark_component_area_frac": 0.0021,
+  "enclosed_white_regions": 10,
+  "enclosed_white_px": 36562,
+  "lowcontrast_vs_black_final": 0.137,
+  "before": {
+   "opaque_frac": 1.0,
+   "transparent_frac": 0.0,
+   "border_opaque_frac": 1.0
+  },
+  "after": {
+   "opaque_frac": 0.3793,
+   "transparent_frac": 0.6199,
+   "border_opaque_frac": 0.0
+  },
+  "output_file": "/home/user/crowned-co-data/work/d6_new_art/fixed/2cc4fd959c8df172a0d15136f45421ba07aa03bc.png"
+ },
+ "9abe2d5de284cc92cb3c6d3e6eddd4995a378230": {
+  "category": "white_box",
+  "src_px": "1707x2048",
+  "products": [
+   "6ac7024e2a2224fe7d0776db"
+  ],
+  "cleared_frac": 0.1616,
+  "protected_enclosed_px": 0,
+  "lowcontrast_vs_black_after_bg": 0.37,
+  "dark_components": 0,
+  "dark_component_area_frac": 0.0,
+  "enclosed_white_regions": 32,
+  "enclosed_white_px": 97810,
+  "lowcontrast_vs_black_final": 0.37,
+  "before": {
+   "opaque_frac": 1.0,
+   "transparent_frac": 0.0,
+   "border_opaque_frac": 1.0
+  },
+  "after": {
+   "opaque_frac": 0.8381,
+   "transparent_frac": 0.1616,
+   "border_opaque_frac": 0.0216
+  },
+  "output_file": "/home/user/crowned-co-data/work/d6_new_art/fixed/9abe2d5de284cc92cb3c6d3e6eddd4995a378230.png"
+ },
+ "d118595bceffd43cb62091276d8679b4428f5ad7": {
+  "category": "checkerboard",
+  "src_px": "2048x2048",
+  "products": [
+   "6ac711d935a66ab7dc0b0fa5"
+  ],
+  "checker_energy_before": 0.13608,
+  "checker_energy_after": 0.00549,
+  "mode": "tone",
+  "tones": [
+   208,
+   219
+  ],
+  "cleared_tile_px": 543262,
+  "specks_removed": 855,
+  "protected_enclosed_px": 5453,
+  "enclosed_checker_tones": [],
+  "enclosed_checker_px_cleared": 0,
+  "lowcontrast_vs_black_final": 0.492,
+  "before": {
+   "opaque_frac": 0.7599,
+   "transparent_frac": 0.2401,
+   "border_opaque_frac": 0.4456
+  },
+  "after": {
+   "opaque_frac": 0.6148,
+   "transparent_frac": 0.3709,
+   "border_opaque_frac": 0.0
+  },
+  "output_file": "/home/user/crowned-co-data/work/d6_new_art/fixed/d118595bceffd43cb62091276d8679b4428f5ad7.png"
+ },
+ "46f859cccefc9a1be1615742ecab6fd4ade9783c": {
+  "category": "white_box",
+  "src_px": "2048x2048",
+  "products": [
+   "6ac70202a085d659d502276f"
+  ],
+  "cleared_frac": 0.5311,
+  "protected_enclosed_px": 0,
+  "lowcontrast_vs_black_after_bg": 0.322,
+  "dark_components": 0,
+  "dark_component_area_frac": 0.0,
+  "enclosed_white_regions": 6,
+  "enclosed_white_px": 32307,
+  "lowcontrast_vs_black_final": 0.322,
+  "before": {
+   "opaque_frac": 1.0,
+   "transparent_frac": 0.0,
+   "border_opaque_frac": 1.0
+  },
+  "after": {
+   "opaque_frac": 0.4686,
+   "transparent_frac": 0.5311,
+   "border_opaque_frac": 0.0
+  },
+  "output_file": "/home/user/crowned-co-data/work/d6_new_art/fixed/46f859cccefc9a1be1615742ecab6fd4ade9783c.png"
+ },
+ "4fb4107dec3147343854768a9314bc5e3b9a1f9f": {
+  "category": "white_box",
+  "src_px": "2048x2048",
+  "products": [
+   "6ac70209710be211d209a8bc"
+  ],
+  "cleared_frac": 0.6196,
+  "protected_enclosed_px": 18338,
+  "lowcontrast_vs_black_after_bg": 0.262,
+  "dark_components": 0,
+  "dark_component_area_frac": 0.0,
+  "enclosed_white_regions": 9,
+  "enclosed_white_px": 30984,
+  "lowcontrast_vs_black_final": 0.262,
+  "before": {
+   "opaque_frac": 1.0,
+   "transparent_frac": 0.0,
+   "border_opaque_frac": 1.0
+  },
+  "after": {
+   "opaque_frac": 0.3775,
+   "transparent_frac": 0.6196,
+   "border_opaque_frac": 0.0
+  },
+  "output_file": "/home/user/crowned-co-data/work/d6_new_art/fixed/4fb4107dec3147343854768a9314bc5e3b9a1f9f.png"
+ },
+ "31b33114cf44bb98461d4b15b2e54c1cfcac7421": {
+  "category": "white_box",
+  "src_px": "2048x2048",
+  "products": [
+   "6ac702101867075e770417d7"
+  ],
+  "cleared_frac": 0.5748,
+  "protected_enclosed_px": 14059,
+  "lowcontrast_vs_black_after_bg": 0.38,
+  "dark_components": 40,
+  "dark_component_area_frac": 0.1063,
+  "stroke_px_src": 12.0,
+  "stroke_rgb": [
+   250,
+   248,
+   240
+  ],
+  "chained_light_stroke": true,
+  "enclosed_white_regions": 5,
+  "enclosed_white_px": 71633,
+  "lowcontrast_vs_black_final": 0.31,
+  "before": {
+   "opaque_frac": 1.0,
+   "transparent_frac": 0.0,
+   "border_opaque_frac": 1.0
+  },
+  "after": {
+   "opaque_frac": 0.521,
+   "transparent_frac": 0.4739,
+   "border_opaque_frac": 0.0
+  },
+  "output_file": "/home/user/crowned-co-data/work/d6_new_art/fixed/31b33114cf44bb98461d4b15b2e54c1cfcac7421.png"
+ },
+ "a3a65f2ef7ca5923b79505243e399b0024f4cc2f": {
+  "category": "white_box",
+  "src_px": "1707x2048",
+  "products": [
+   "6ac701ff0e0700fe0f0ea8ee"
+  ],
+  "cleared_frac": 0.1736,
+  "protected_enclosed_px": 0,
+  "lowcontrast_vs_black_after_bg": 0.326,
+  "dark_components": 0,
+  "dark_component_area_frac": 0.0,
+  "enclosed_white_regions": 24,
+  "enclosed_white_px": 71728,
+  "lowcontrast_vs_black_final": 0.326,
+  "before": {
+   "opaque_frac": 1.0,
+   "transparent_frac": 0.0,
+   "border_opaque_frac": 1.0
+  },
+  "after": {
+   "opaque_frac": 0.8263,
+   "transparent_frac": 0.1736,
+   "border_opaque_frac": 0.0193
+  },
+  "output_file": "/home/user/crowned-co-data/work/d6_new_art/fixed/a3a65f2ef7ca5923b79505243e399b0024f4cc2f.png"
+ },
+ "570a81cddb099127ba13496baf63b1934842e57d": {
+  "category": "checkerboard",
+  "src_px": "851x1024",
+  "products": [
+   "6ac714820ed8f1657605f396",
+   "6ac715da4636838bd804f5f3",
+   "6ac71560ed135347800f9cf6"
+  ],
+  "checker_energy_before": 0.17904,
+  "checker_energy_after": 0.0,
+  "mode": "broad",
+  "tones": [
+   138
+  ],
+  "cleared_tile_px": 156013,
+  "specks_removed": 33,
+  "protected_enclosed_px": 5296,
+  "enclosed_checker_tones": [],
+  "enclosed_checker_px_cleared": 0,
+  "lowcontrast_vs_black_final": 0.548,
+  "before": {
+   "opaque_frac": 0.3621,
+   "transparent_frac": 0.6379,
+   "border_opaque_frac": 0.2405
+  },
+  "after": {
+   "opaque_frac": 0.1809,
+   "transparent_frac": 0.817,
+   "border_opaque_frac": 0.0
+  },
+  "output_file": "/home/user/crowned-co-data/work/d6_new_art/fixed/570a81cddb099127ba13496baf63b1934842e57d.png"
+ },
+ "873af255de3e870c6a62bf0902fea098bf709c47": {
+  "category": "checkerboard",
+  "src_px": "1702x2048",
+  "products": [
+   "6ac713e635cf3f6ec802eb32",
+   "6ac712022d1baaa3fd0057c9",
+   "6ac711a4b8d5d3e719013158",
+   "6ac713da42c818a1ad096016"
+  ],
+  "checker_energy_before": 0.29407,
+  "checker_energy_after": 0.0,
+  "mode": "broad",
+  "tones": [
+   140,
+   176,
+   215
+  ],
+  "cleared_tile_px": 1009466,
+  "specks_removed": 27,
+  "protected_enclosed_px": 15555,
+  "enclosed_checker_tones": [],
+  "enclosed_checker_px_cleared": 0,
+  "lowcontrast_vs_black_final": 0.488,
+  "before": {
+   "opaque_frac": 0.4955,
+   "transparent_frac": 0.5045,
+   "border_opaque_frac": 0.0487
+  },
+  "after": {
+   "opaque_frac": 0.2034,
+   "transparent_frac": 0.7941,
+   "border_opaque_frac": 0.0
+  },
+  "output_file": "/home/user/crowned-co-data/work/d6_new_art/fixed/873af255de3e870c6a62bf0902fea098bf709c47.png"
+ },
+ "a8556930c780ac13556f0ffa91467d32f4a0bed2": {
+  "category": "low_contrast",
+  "src_px": "1702x2048",
+  "products": [
+   "6ac6fe9f0a223533b30703f2",
+   "6ac711d535cf3f6ec802ea5e"
+  ],
+  "stroke": "light",
+  "stroke_px_src": 7.0,
+  "stroke_rgb": [
+   250,
+   248,
+   240
+  ],
+  "lowcontrast_vs_black_final": 0.512,
+  "before": {
+   "opaque_frac": 0.1525,
+   "transparent_frac": 0.8475,
+   "border_opaque_frac": 0.0
+  },
+  "after": {
+   "opaque_frac": 0.2285,
+   "transparent_frac": 0.7629,
+   "border_opaque_frac": 0.0
+  },
+  "output_file": "/home/user/crowned-co-data/work/d6_new_art/fixed/a8556930c780ac13556f0ffa91467d32f4a0bed2.png"
+ },
+ "661174a257ddf140b9f0bc940cb92c947dbf68f3": {
+  "category": "low_contrast",
+  "src_px": "1234x1436",
+  "products": [
+   "6ac70ebcaf40dc7cd60fb95f"
+  ],
+  "stroke": "light",
+  "stroke_px_src": 10.51,
+  "stroke_rgb": [
+   250,
+   248,
+   240
+  ],
+  "lowcontrast_vs_black_final": 0.378,
+  "before": {
+   "opaque_frac": 0.1336,
+   "transparent_frac": 0.8664,
+   "border_opaque_frac": 0.0048
+  },
+  "after": {
+   "opaque_frac": 0.2961,
+   "transparent_frac": 0.7005,
+   "border_opaque_frac": 0.1396
+  },
+  "output_file": "/home/user/crowned-co-data/work/d6_new_art/fixed/661174a257ddf140b9f0bc940cb92c947dbf68f3.png"
+ },
+ "6e444f4fc6ce3fc5fb144f255d759c245e0a9bd4": {
+  "category": "low_contrast",
+  "src_px": "2048x2048",
+  "products": [
+   "6ac6fe9c7a961335020e18a9"
+  ],
+  "stroke": "light",
+  "stroke_px_src": 4.88,
+  "stroke_rgb": [
+   250,
+   248,
+   240
+  ],
+  "lowcontrast_vs_black_final": 0.423,
+  "before": {
+   "opaque_frac": 0.1305,
+   "transparent_frac": 0.8378,
+   "border_opaque_frac": 0.0
+  },
+  "after": {
+   "opaque_frac": 0.1666,
+   "transparent_frac": 0.8216,
+   "border_opaque_frac": 0.0
+  },
+  "output_file": "/home/user/crowned-co-data/work/d6_new_art/fixed/6e444f4fc6ce3fc5fb144f255d759c245e0a9bd4.png"
+ },
+ "9e3db274a393475fb96a47bcdb14ff547435b868": {
+  "category": "low_contrast",
+  "src_px": "1515x1572",
+  "products": [
+   "6ac70ed13925bc76b903709d"
+  ],
+  "stroke": "light",
+  "stroke_px_src": 11.5,
+  "stroke_rgb": [
+   250,
+   248,
+   240
+  ],
+  "lowcontrast_vs_black_final": 0.31,
+  "before": {
+   "opaque_frac": 0.2366,
+   "transparent_frac": 0.7634,
+   "border_opaque_frac": 0.0058
+  },
+  "after": {
+   "opaque_frac": 0.3981,
+   "transparent_frac": 0.5999,
+   "border_opaque_frac": 0.0574
+  },
+  "output_file": "/home/user/crowned-co-data/work/d6_new_art/fixed/9e3db274a393475fb96a47bcdb14ff547435b868.png"
+ },
+ "c38e2ade510761ab914de56f1776f98f60fa76b6": {
+  "category": "low_contrast",
+  "src_px": "2048x2048",
+  "products": [
+   "6ac6fe6d4f88f35ee90d3daf"
+  ],
+  "stroke": "light",
+  "stroke_px_src": 6.2,
+  "stroke_rgb": [
+   250,
+   248,
+   240
+  ],
+  "lowcontrast_vs_black_final": 0.172,
+  "before": {
+   "opaque_frac": 0.1796,
+   "transparent_frac": 0.7096,
+   "border_opaque_frac": 0.0
+  },
+  "after": {
+   "opaque_frac": 0.258,
+   "transparent_frac": 0.6861,
+   "border_opaque_frac": 0.0
+  },
+  "output_file": "/home/user/crowned-co-data/work/d6_new_art/fixed/c38e2ade510761ab914de56f1776f98f60fa76b6.png"
+ },
+ "4ee01e818f058d78f78e5d0fac187a9067e93171": {
+  "category": "low_contrast",
+  "src_px": "2048x2048",
+  "products": [
+   "6ac6fe7bcf880756890d31c0"
+  ],
+  "stroke": "light",
+  "stroke_px_src": 8.79,
+  "stroke_rgb": [
+   250,
+   248,
+   240
+  ],
+  "lowcontrast_vs_black_final": 0.332,
+  "before": {
+   "opaque_frac": 0.4018,
+   "transparent_frac": 0.5982,
+   "border_opaque_frac": 0.0
+  },
+  "after": {
+   "opaque_frac": 0.4861,
+   "transparent_frac": 0.5076,
+   "border_opaque_frac": 0.0
+  },
+  "output_file": "/home/user/crowned-co-data/work/d6_new_art/fixed/4ee01e818f058d78f78e5d0fac187a9067e93171.png"
+ },
+ "04795c49d4888040f4915315690c3ad06651dc31": {
+  "category": "low_contrast",
+  "src_px": "1702x2048",
+  "products": [
+   "6ac7119957527ce5fd019707"
+  ],
+  "stroke": "light",
+  "stroke_px_src": 7.0,
+  "stroke_rgb": [
+   250,
+   248,
+   240
+  ],
+  "lowcontrast_vs_black_final": 0.452,
+  "before": {
+   "opaque_frac": 0.1563,
+   "transparent_frac": 0.8437,
+   "border_opaque_frac": 0.0
+  },
+  "after": {
+   "opaque_frac": 0.2181,
+   "transparent_frac": 0.776,
+   "border_opaque_frac": 0.0
+  },
+  "output_file": "/home/user/crowned-co-data/work/d6_new_art/fixed/04795c49d4888040f4915315690c3ad06651dc31.png"
+ },
+ "c2edf19dcbe85c134caffe22accf7c86813c1be0": {
+  "category": "low_contrast",
+  "src_px": "1702x2048",
+  "products": [
+   "6ac7119d57527ce5fd01970b"
+  ],
+  "stroke": "light",
+  "stroke_px_src": 7.0,
+  "stroke_rgb": [
+   250,
+   248,
+   240
+  ],
+  "lowcontrast_vs_black_final": 0.637,
+  "before": {
+   "opaque_frac": 0.1497,
+   "transparent_frac": 0.8503,
+   "border_opaque_frac": 0.0
+  },
+  "after": {
+   "opaque_frac": 0.2129,
+   "transparent_frac": 0.7797,
+   "border_opaque_frac": 0.0
+  },
+  "output_file": "/home/user/crowned-co-data/work/d6_new_art/fixed/c2edf19dcbe85c134caffe22accf7c86813c1be0.png"
+ },
+ "dde438bc4ebbfc29d4fbf2fbc050e86cbd13706a": {
+  "category": "low_contrast",
+  "src_px": "1702x2048",
+  "products": [
+   "6ac71318d0a23214d80b2650"
+  ],
+  "stroke": "light",
+  "stroke_px_src": 10.81,
+  "stroke_rgb": [
+   250,
+   248,
+   240
+  ],
+  "lowcontrast_vs_black_final": 0.39,
+  "before": {
+   "opaque_frac": 0.0597,
+   "transparent_frac": 0.9403,
+   "border_opaque_frac": 0.0
+  },
+  "after": {
+   "opaque_frac": 0.128,
+   "transparent_frac": 0.8682,
+   "border_opaque_frac": 0.0
+  },
+  "output_file": "/home/user/crowned-co-data/work/d6_new_art/fixed/dde438bc4ebbfc29d4fbf2fbc050e86cbd13706a.png"
+ },
+ "f0e05dd6649ea2e3b974928e96605fecf4e3e4cc": {
+  "category": "low_contrast",
+  "src_px": "1702x2048",
+  "products": [
+   "6ac711ae57527ce5fd019716"
+  ],
+  "stroke": "light",
+  "stroke_px_src": 7.0,
+  "stroke_rgb": [
+   250,
+   248,
+   240
+  ],
+  "lowcontrast_vs_black_final": 0.575,
+  "before": {
+   "opaque_frac": 0.1615,
+   "transparent_frac": 0.8385,
+   "border_opaque_frac": 0.0
+  },
+  "after": {
+   "opaque_frac": 0.2394,
+   "transparent_frac": 0.7517,
+   "border_opaque_frac": 0.0
+  },
+  "output_file": "/home/user/crowned-co-data/work/d6_new_art/fixed/f0e05dd6649ea2e3b974928e96605fecf4e3e4cc.png"
+ },
+ "d9c3157bdf8fb429a1d3fe96c6c5a5039b5fd51f": {
+  "category": "low_contrast",
+  "src_px": "1079x1773",
+  "products": [
+   "6ac71763fb1d11d19e0374b3",
+   "6ac7133c83f1a0e50d071de3"
+  ],
+  "stroke": "light",
+  "stroke_px_src": 12.0,
+  "stroke_rgb": [
+   250,
+   248,
+   240
+  ],
+  "lowcontrast_vs_black_final": 0.543,
+  "before": {
+   "opaque_frac": 0.3021,
+   "transparent_frac": 0.6979,
+   "border_opaque_frac": 0.0
+  },
+  "after": {
+   "opaque_frac": 0.4735,
+   "transparent_frac": 0.5156,
+   "border_opaque_frac": 0.1244
+  },
+  "output_file": "/home/user/crowned-co-data/work/d6_new_art/fixed/d9c3157bdf8fb429a1d3fe96c6c5a5039b5fd51f.png"
+ },
+ "5329936213ac9cf8cf8dbefe10751a4f0b294ebf": {
+  "category": "low_contrast",
+  "src_px": "1954x1270",
+  "products": [
+   "6ac7113450fc6704d30bf944"
+  ],
+  "stroke": "dark",
+  "stroke_px_src": 12.0,
+  "stroke_rgb": [
+   24,
+   24,
+   24
+  ],
+  "lowcontrast_vs_black_final": 0.768,
+  "before": {
+   "opaque_frac": 0.1712,
+   "transparent_frac": 0.8288,
+   "border_opaque_frac": 0.0005
+  },
+  "after": {
+   "opaque_frac": 0.4158,
+   "transparent_frac": 0.5709,
+   "border_opaque_frac": 0.0126
+  },
+  "output_file": "/home/user/crowned-co-data/work/d6_new_art/fixed/5329936213ac9cf8cf8dbefe10751a4f0b294ebf.png"
+ },
+ "be3324b2881b481407aafc083ff3cc2c26a11d5a": {
+  "category": "low_contrast",
+  "src_px": "2048x2048",
+  "products": [
+   "6ac71257a5ade89b5c080fa0"
+  ],
+  "stroke": "dark",
+  "stroke_px_src": 7.39,
+  "stroke_rgb": [
+   24,
+   24,
+   24
+  ],
+  "lowcontrast_vs_black_final": 0.338,
+  "before": {
+   "opaque_frac": 0.287,
+   "transparent_frac": 0.713,
+   "border_opaque_frac": 0.0
+  },
+  "after": {
+   "opaque_frac": 0.3917,
+   "transparent_frac": 0.6068,
+   "border_opaque_frac": 0.0
+  },
+  "output_file": "/home/user/crowned-co-data/work/d6_new_art/fixed/be3324b2881b481407aafc083ff3cc2c26a11d5a.png"
+ },
+ "05085091984b925b52344d9e6ebf71f6b9ca1f03": {
+  "category": "low_contrast",
+  "src_px": "2048x2048",
+  "products": [
+   "6ac7126c3925bc76b90372cc"
+  ],
+  "stroke": "dark",
+  "stroke_px_src": 8.38,
+  "stroke_rgb": [
+   24,
+   24,
+   24
+  ],
+  "lowcontrast_vs_black_final": 0.363,
+  "before": {
+   "opaque_frac": 0.2824,
+   "transparent_frac": 0.7176,
+   "border_opaque_frac": 0.0
+  },
+  "after": {
+   "opaque_frac": 0.3632,
+   "transparent_frac": 0.6344,
+   "border_opaque_frac": 0.0
+  },
+  "output_file": "/home/user/crowned-co-data/work/d6_new_art/fixed/05085091984b925b52344d9e6ebf71f6b9ca1f03.png"
+ },
+ "5a9aa2583de5a0607d3139778b150c01183b7555": {
+  "category": "white_box",
+  "src_px": "2048x1365",
+  "products": [
+   "6ac71815a5ade89b5c0814c5"
+  ],
+  "cleared_frac": 0.5512,
+  "protected_enclosed_px": 75551,
+  "lowcontrast_vs_black_after_bg": 0.396,
+  "dark_components": 2,
+  "dark_component_area_frac": 0.0001,
+  "enclosed_white_regions": 35,
+  "enclosed_white_px": 96063,
+  "lowcontrast_vs_black_final": 0.396,
+  "before": {
+   "opaque_frac": 1.0,
+   "transparent_frac": 0.0,
+   "border_opaque_frac": 1.0
+  },
+  "after": {
+   "opaque_frac": 0.4477,
+   "transparent_frac": 0.5512,
+   "border_opaque_frac": 0.0
+  },
+  "output_file": "/home/user/crowned-co-data/work/d6_new_art/fixed/5a9aa2583de5a0607d3139778b150c01183b7555.png"
+ },
+ "86c62b7dada1d79e38916284250dedac6a1d1d3c": {
+  "category": "white_box",
+  "src_px": "2048x2048",
+  "products": [
+   "6ac7177807e4149a0f001482"
+  ],
+  "cleared_frac": 0.6308,
+  "protected_enclosed_px": 14578,
+  "lowcontrast_vs_black_after_bg": 0.226,
+  "dark_components": 30,
+  "dark_component_area_frac": 0.0373,
+  "stroke_px_src": 12.0,
+  "stroke_rgb": [
+   250,
+   248,
+   240
+  ],
+  "chained_light_stroke": true,
+  "enclosed_white_regions": 33,
+  "enclosed_white_px": 149487,
+  "lowcontrast_vs_black_final": 0.176,
+  "before": {
+   "opaque_frac": 1.0,
+   "transparent_frac": 0.0,
+   "border_opaque_frac": 1.0
+  },
+  "after": {
+   "opaque_frac": 0.474,
+   "transparent_frac": 0.5194,
+   "border_opaque_frac": 0.0
+  },
+  "output_file": "/home/user/crowned-co-data/work/d6_new_art/fixed/86c62b7dada1d79e38916284250dedac6a1d1d3c.png"
+ },
+ "71daf640b9fb5508cd7f852dfed3f0616235734f": {
+  "category": "white_box",
+  "src_px": "2048x2048",
+  "products": [
+   "6ac7178ad0a23214d80b2aa7"
+  ],
+  "cleared_frac": 0.8604,
+  "protected_enclosed_px": 0,
+  "lowcontrast_vs_black_after_bg": 0.505,
+  "dark_components": 32,
+  "dark_component_area_frac": 0.4612,
+  "stroke_px_src": 12.0,
+  "stroke_rgb": [
+   250,
+   248,
+   240
+  ],
+  "chained_light_stroke": true,
+  "enclosed_white_regions": 6,
+  "enclosed_white_px": 15880,
+  "lowcontrast_vs_black_final": 0.308,
+  "before": {
+   "opaque_frac": 1.0,
+   "transparent_frac": 0.0,
+   "border_opaque_frac": 1.0
+  },
+  "after": {
+   "opaque_frac": 0.2281,
+   "transparent_frac": 0.7664,
+   "border_opaque_frac": 0.0
+  },
+  "output_file": "/home/user/crowned-co-data/work/d6_new_art/fixed/71daf640b9fb5508cd7f852dfed3f0616235734f.png"
+ },
+ "350d42927cdbc76bc04854b7a6ff929df9b52c54": {
+  "category": "low_contrast",
+  "src_px": "1707x1990",
+  "products": [
+   "6ac717945a14e80fa703f22a"
+  ],
+  "stroke": "light",
+  "stroke_px_src": 12.0,
+  "stroke_rgb": [
+   250,
+   248,
+   240
+  ],
+  "lowcontrast_vs_black_final": 0.594,
+  "before": {
+   "opaque_frac": 0.6476,
+   "transparent_frac": 0.3524,
+   "border_opaque_frac": 0.0135
+  },
+  "after": {
+   "opaque_frac": 0.801,
+   "transparent_frac": 0.1913,
+   "border_opaque_frac": 0.1037
+  },
+  "output_file": "/home/user/crowned-co-data/work/d6_new_art/fixed/350d42927cdbc76bc04854b7a6ff929df9b52c54.png"
+ },
+ "54e1a6c42b92fb0d946bdf686571a39292c66e8b": {
+  "category": "low_contrast",
+  "src_px": "2048x2048",
+  "products": [
+   "6ac7128ced135347800f9b67"
+  ],
+  "stroke": "dark",
+  "stroke_px_src": 7.45,
+  "stroke_rgb": [
+   24,
+   24,
+   24
+  ],
+  "lowcontrast_vs_black_final": 0.429,
+  "before": {
+   "opaque_frac": 0.2338,
+   "transparent_frac": 0.7662,
+   "border_opaque_frac": 0.0
+  },
+  "after": {
+   "opaque_frac": 0.341,
+   "transparent_frac": 0.6552,
+   "border_opaque_frac": 0.0
+  },
+  "output_file": "/home/user/crowned-co-data/work/d6_new_art/fixed/54e1a6c42b92fb0d946bdf686571a39292c66e8b.png"
+ },
+ "f1007811b360e1ce512354200f6c1fd78c07ad0e": {
+  "category": "white_box",
+  "src_px": "2048x2048",
+  "products": [
+   "6ac7181c35cf3f6ec802eecd"
+  ],
+  "cleared_frac": 0.4863,
+  "protected_enclosed_px": 11300,
+  "lowcontrast_vs_black_after_bg": 0.439,
+  "dark_components": 3,
+  "dark_component_area_frac": 0.0003,
+  "enclosed_white_regions": 5,
+  "enclosed_white_px": 19718,
+  "lowcontrast_vs_black_final": 0.439,
+  "before": {
+   "opaque_frac": 1.0,
+   "transparent_frac": 0.0,
+   "border_opaque_frac": 1.0
+  },
+  "after": {
+   "opaque_frac": 0.5133,
+   "transparent_frac": 0.4863,
+   "border_opaque_frac": 0.0
+  },
+  "output_file": "/home/user/crowned-co-data/work/d6_new_art/fixed/f1007811b360e1ce512354200f6c1fd78c07ad0e.png"
+ },
+ "83869020e258a913510ee78977cd4f2edb00be44": {
+  "category": "white_box",
+  "src_px": "2048x2048",
+  "products": [
+   "6ac717a24636838bd804f846"
+  ],
+  "cleared_frac": 0.3202,
+  "protected_enclosed_px": 98155,
+  "lowcontrast_vs_black_after_bg": 0.024,
+  "dark_components": 0,
+  "dark_component_area_frac": 0.0,
+  "enclosed_white_regions": 24,
+  "enclosed_white_px": 157050,
+  "lowcontrast_vs_black_final": 0.024,
+  "before": {
+   "opaque_frac": 1.0,
+   "transparent_frac": 0.0,
+   "border_opaque_frac": 1.0
+  },
+  "after": {
+   "opaque_frac": 0.678,
+   "transparent_frac": 0.3202,
+   "border_opaque_frac": 0.0107
+  },
+  "output_file": "/home/user/crowned-co-data/work/d6_new_art/fixed/83869020e258a913510ee78977cd4f2edb00be44.png"
+ },
+ "a897d05659f01c89a7a779bb162d59dc108fc687": {
+  "category": "white_box",
+  "src_px": "2048x2048",
+  "products": [
+   "6ac717a6a4cff7da370fd145"
+  ],
+  "cleared_frac": 0.712,
+  "protected_enclosed_px": 0,
+  "lowcontrast_vs_black_after_bg": 0.278,
+  "dark_components": 11,
+  "dark_component_area_frac": 0.0281,
+  "stroke_px_src": 12.0,
+  "stroke_rgb": [
+   250,
+   248,
+   240
+  ],
+  "chained_light_stroke": true,
+  "enclosed_white_regions": 7,
+  "enclosed_white_px": 235713,
+  "lowcontrast_vs_black_final": 0.197,
+  "before": {
+   "opaque_frac": 1.0,
+   "transparent_frac": 0.0,
+   "border_opaque_frac": 1.0
+  },
+  "after": {
+   "opaque_frac": 0.4049,
+   "transparent_frac": 0.5896,
+   "border_opaque_frac": 0.0
+  },
+  "output_file": "/home/user/crowned-co-data/work/d6_new_art/fixed/a897d05659f01c89a7a779bb162d59dc108fc687.png"
+ },
+ "3243882c6c8e13ade55ced0b1b68a3c8b64c09e8": {
+  "category": "white_box",
+  "src_px": "1536x2048",
+  "products": [
+   "6ac7181fa4cff7da370fd18a"
+  ],
+  "cleared_frac": 0.5858,
+  "protected_enclosed_px": 7314,
+  "lowcontrast_vs_black_after_bg": 0.271,
+  "dark_components": 0,
+  "dark_component_area_frac": 0.0,
+  "enclosed_white_regions": 13,
+  "enclosed_white_px": 21132,
+  "lowcontrast_vs_black_final": 0.271,
+  "before": {
+   "opaque_frac": 1.0,
+   "transparent_frac": 0.0,
+   "border_opaque_frac": 1.0
+  },
+  "after": {
+   "opaque_frac": 0.4128,
+   "transparent_frac": 0.5858,
+   "border_opaque_frac": 0.0
+  },
+  "output_file": "/home/user/crowned-co-data/work/d6_new_art/fixed/3243882c6c8e13ade55ced0b1b68a3c8b64c09e8.png"
+ },
+ "1bcac68ee319636a599de691e4d723fc11eeb11b": {
+  "category": "white_box",
+  "src_px": "2048x2048",
+  "products": [
+   "6ac7182364166f603b0c8971"
+  ],
+  "cleared_frac": 0.4882,
+  "protected_enclosed_px": 17867,
+  "lowcontrast_vs_black_after_bg": 0.373,
+  "dark_components": 0,
+  "dark_component_area_frac": 0.0,
+  "enclosed_white_regions": 10,
+  "enclosed_white_px": 34132,
+  "lowcontrast_vs_black_final": 0.373,
+  "before": {
+   "opaque_frac": 1.0,
+   "transparent_frac": 0.0,
+   "border_opaque_frac": 1.0
+  },
+  "after": {
+   "opaque_frac": 0.511,
+   "transparent_frac": 0.4882,
+   "border_opaque_frac": 0.0
+  },
+  "output_file": "/home/user/crowned-co-data/work/d6_new_art/fixed/1bcac68ee319636a599de691e4d723fc11eeb11b.png"
+ },
+ "b0b97665825b9218846054e80767467ff639554a": {
+  "category": "checkerboard",
+  "src_px": "2048x2048",
+  "products": [
+   "6ac717d6a4c95c48e203674e"
+  ],
+  "checker_energy_before": 0.02578,
+  "checker_energy_after": 0.00076,
+  "mode": "broad",
+  "tones": [
+   223
+  ],
+  "cleared_tile_px": 70772,
+  "specks_removed": 1004,
+  "protected_enclosed_px": 11645,
+  "enclosed_checker_tones": [],
+  "enclosed_checker_px_cleared": 0,
+  "lowcontrast_vs_black_final": 0.519,
+  "before": {
+   "opaque_frac": 0.5764,
+   "transparent_frac": 0.4236,
+   "border_opaque_frac": 0.0041
+  },
+  "after": {
+   "opaque_frac": 0.5455,
+   "transparent_frac": 0.4486,
+   "border_opaque_frac": 0.0
+  },
+  "output_file": "/home/user/crowned-co-data/work/d6_new_art/fixed/b0b97665825b9218846054e80767467ff639554a.png"
+ },
+ "c3642243aea415f9334f776c89be1a4849ebacb6": {
+  "category": "white_box",
+  "src_px": "2048x2048",
+  "products": [
+   "6ac717da35cf3f6ec802eeae"
+  ],
+  "cleared_frac": 0.6927,
+  "protected_enclosed_px": 5110,
+  "lowcontrast_vs_black_after_bg": 0.379,
+  "dark_components": 1,
+  "dark_component_area_frac": 0.001,
+  "enclosed_white_regions": 20,
+  "enclosed_white_px": 67937,
+  "lowcontrast_vs_black_final": 0.379,
+  "before": {
+   "opaque_frac": 1.0,
+   "transparent_frac": 0.0,
+   "border_opaque_frac": 1.0
+  },
+  "after": {
+   "opaque_frac": 0.3065,
+   "transparent_frac": 0.6927,
+   "border_opaque_frac": 0.0
+  },
+  "output_file": "/home/user/crowned-co-data/work/d6_new_art/fixed/c3642243aea415f9334f776c89be1a4849ebacb6.png"
+ },
+ "78de4579ec36ed683c180f327046ddbc86af9ccd": {
+  "category": "white_box",
+  "src_px": "2048x2048",
+  "products": [
+   "6ac717e1ac4a665555019d40"
+  ],
+  "cleared_frac": 0.5311,
+  "protected_enclosed_px": 0,
+  "lowcontrast_vs_black_after_bg": 0.322,
+  "dark_components": 0,
+  "dark_component_area_frac": 0.0,
+  "enclosed_white_regions": 6,
+  "enclosed_white_px": 32307,
+  "lowcontrast_vs_black_final": 0.322,
+  "before": {
+   "opaque_frac": 1.0,
+   "transparent_frac": 0.0,
+   "border_opaque_frac": 1.0
+  },
+  "after": {
+   "opaque_frac": 0.4686,
+   "transparent_frac": 0.5311,
+   "border_opaque_frac": 0.0
+  },
+  "output_file": "/home/user/crowned-co-data/work/d6_new_art/fixed/78de4579ec36ed683c180f327046ddbc86af9ccd.png"
+ },
+ "cc1ab807a291abbf9958d3e86da5752767fb4fa7": {
+  "category": "white_box",
+  "src_px": "2048x2048",
+  "products": [
+   "6ac717b057b1ebbe6c0c6ebb"
+  ],
+  "cleared_frac": 0.5671,
+  "protected_enclosed_px": 30494,
+  "lowcontrast_vs_black_after_bg": 0.14,
+  "dark_components": 0,
+  "dark_component_area_frac": 0.0,
+  "enclosed_white_regions": 23,
+  "enclosed_white_px": 178368,
+  "lowcontrast_vs_black_final": 0.14,
+  "before": {
+   "opaque_frac": 1.0,
+   "transparent_frac": 0.0,
+   "border_opaque_frac": 1.0
+  },
+  "after": {
+   "opaque_frac": 0.4313,
+   "transparent_frac": 0.5671,
+   "border_opaque_frac": 0.0
+  },
+  "output_file": "/home/user/crowned-co-data/work/d6_new_art/fixed/cc1ab807a291abbf9958d3e86da5752767fb4fa7.png"
+ },
+ "e69e8b51348b367d53802707603993ae49835f94": {
+  "category": "low_contrast",
+  "src_px": "1680x1995",
+  "products": [
+   "6ac717e4a4c95c48e2036750"
+  ],
+  "stroke": "light",
+  "stroke_px_src": 12.0,
+  "stroke_rgb": [
+   250,
+   248,
+   240
+  ],
+  "lowcontrast_vs_black_final": 0.53,
+  "before": {
+   "opaque_frac": 0.5918,
+   "transparent_frac": 0.4082,
+   "border_opaque_frac": 0.007
+  },
+  "after": {
+   "opaque_frac": 0.7215,
+   "transparent_frac": 0.2721,
+   "border_opaque_frac": 0.0514
+  },
+  "output_file": "/home/user/crowned-co-data/work/d6_new_art/fixed/e69e8b51348b367d53802707603993ae49835f94.png"
+ },
+ "4e497cf13b8c53f953879bac71b65412fdb5ea1c": {
+  "category": "white_box",
+  "src_px": "2048x2048",
+  "products": [
+   "6ac717e846dd1e896e04e617"
+  ],
+  "cleared_frac": 0.6196,
+  "protected_enclosed_px": 18338,
+  "lowcontrast_vs_black_after_bg": 0.262,
+  "dark_components": 0,
+  "dark_component_area_frac": 0.0,
+  "enclosed_white_regions": 9,
+  "enclosed_white_px": 30984,
+  "lowcontrast_vs_black_final": 0.262,
+  "before": {
+   "opaque_frac": 1.0,
+   "transparent_frac": 0.0,
+   "border_opaque_frac": 1.0
+  },
+  "after": {
+   "opaque_frac": 0.3775,
+   "transparent_frac": 0.6196,
+   "border_opaque_frac": 0.0
+  },
+  "output_file": "/home/user/crowned-co-data/work/d6_new_art/fixed/4e497cf13b8c53f953879bac71b65412fdb5ea1c.png"
+ },
+ "474eff2afa706ca20d4bdaa8cd90a35beb3b015b": {
+  "category": "white_box",
+  "src_px": "2048x2048",
+  "products": [
+   "6ac717f7aa7a21cb900b5072"
+  ],
+  "cleared_frac": 0.5748,
+  "protected_enclosed_px": 14059,
+  "lowcontrast_vs_black_after_bg": 0.38,
+  "dark_components": 40,
+  "dark_component_area_frac": 0.1063,
+  "stroke_px_src": 12.0,
+  "stroke_rgb": [
+   250,
+   248,
+   240
+  ],
+  "chained_light_stroke": true,
+  "enclosed_white_regions": 5,
+  "enclosed_white_px": 71633,
+  "lowcontrast_vs_black_final": 0.31,
+  "before": {
+   "opaque_frac": 1.0,
+   "transparent_frac": 0.0,
+   "border_opaque_frac": 1.0
+  },
+  "after": {
+   "opaque_frac": 0.521,
+   "transparent_frac": 0.4739,
+   "border_opaque_frac": 0.0
+  },
+  "output_file": "/home/user/crowned-co-data/work/d6_new_art/fixed/474eff2afa706ca20d4bdaa8cd90a35beb3b015b.png"
+ },
+ "970fc4888e30b9b889379ceaca723aaf275d0719": {
+  "category": "white_box",
+  "src_px": "1707x2048",
+  "products": [
+   "6ac717fa775b6fcd2c0e906b"
+  ],
+  "cleared_frac": 0.1736,
+  "protected_enclosed_px": 0,
+  "lowcontrast_vs_black_after_bg": 0.326,
+  "dark_components": 0,
+  "dark_component_area_frac": 0.0,
+  "enclosed_white_regions": 24,
+  "enclosed_white_px": 71728,
+  "lowcontrast_vs_black_final": 0.326,
+  "before": {
+   "opaque_frac": 1.0,
+   "transparent_frac": 0.0,
+   "border_opaque_frac": 1.0
+  },
+  "after": {
+   "opaque_frac": 0.8263,
+   "transparent_frac": 0.1736,
+   "border_opaque_frac": 0.0193
+  },
+  "output_file": "/home/user/crowned-co-data/work/d6_new_art/fixed/970fc4888e30b9b889379ceaca723aaf275d0719.png"
+ },
+ "e6f5c28da8b4ad25900be3ef2eb829adc81e63e9": {
+  "category": "white_box",
+  "src_px": "2048x1365",
+  "products": [
+   "6ac717b764166f603b0c8932"
+  ],
+  "cleared_frac": 0.596,
+  "protected_enclosed_px": 18046,
+  "lowcontrast_vs_black_after_bg": 0.555,
+  "dark_components": 10,
+  "dark_component_area_frac": 0.4263,
+  "stroke_px_src": 12.0,
+  "stroke_rgb": [
+   250,
+   248,
+   240
+  ],
+  "chained_light_stroke": true,
+  "enclosed_white_regions": 28,
+  "enclosed_white_px": 135276,
+  "lowcontrast_vs_black_final": 0.433,
+  "before": {
+   "opaque_frac": 1.0,
+   "transparent_frac": 0.0,
+   "border_opaque_frac": 1.0
+  },
+  "after": {
+   "opaque_frac": 0.5171,
+   "transparent_frac": 0.4781,
+   "border_opaque_frac": 0.0
+  },
+  "output_file": "/home/user/crowned-co-data/work/d6_new_art/fixed/e6f5c28da8b4ad25900be3ef2eb829adc81e63e9.png"
+ },
+ "40ed6baea127d3c7dd3d8761a50bcff6cb9ad2bf": {
+  "category": "low_contrast",
+  "src_px": "2048x2048",
+  "products": [
+   "6ac7127c35cf3f6ec802ea98"
+  ],
+  "stroke": "dark",
+  "stroke_px_src": 8.06,
+  "stroke_rgb": [
+   24,
+   24,
+   24
+  ],
+  "lowcontrast_vs_black_final": 0.196,
+  "before": {
+   "opaque_frac": 0.2546,
+   "transparent_frac": 0.7454,
+   "border_opaque_frac": 0.0
+  },
+  "after": {
+   "opaque_frac": 0.307,
+   "transparent_frac": 0.6905,
+   "border_opaque_frac": 0.0
+  },
+  "output_file": "/home/user/crowned-co-data/work/d6_new_art/fixed/40ed6baea127d3c7dd3d8761a50bcff6cb9ad2bf.png"
+ },
+ "1702519f0bd15633a1c01dac4cb8f1aec287db54": {
+  "category": "white_box",
+  "src_px": "2048x1365",
+  "products": [
+   "6ac717ba64166f603b0c8935"
+  ],
+  "cleared_frac": 0.7638,
+  "protected_enclosed_px": 24084,
+  "lowcontrast_vs_black_after_bg": 0.012,
+  "dark_components": 0,
+  "dark_component_area_frac": 0.0,
+  "enclosed_white_regions": 29,
+  "enclosed_white_px": 140508,
+  "lowcontrast_vs_black_final": 0.012,
+  "before": {
+   "opaque_frac": 1.0,
+   "transparent_frac": 0.0,
+   "border_opaque_frac": 1.0
+  },
+  "after": {
+   "opaque_frac": 0.2346,
+   "transparent_frac": 0.7639,
+   "border_opaque_frac": 0.0
+  },
+  "output_file": "/home/user/crowned-co-data/work/d6_new_art/fixed/1702519f0bd15633a1c01dac4cb8f1aec287db54.png"
+ },
+ "7bf9f2a22f56d410e6ed4173c5a2771823d9e114": {
+  "category": "low_contrast",
+  "src_px": "2048x2048",
+  "products": [
+   "6ac71280b8146913210037cf"
+  ],
+  "stroke": "dark",
+  "stroke_px_src": 8.5,
+  "stroke_rgb": [
+   24,
+   24,
+   24
+  ],
+  "lowcontrast_vs_black_final": 0.324,
+  "before": {
+   "opaque_frac": 0.2993,
+   "transparent_frac": 0.7007,
+   "border_opaque_frac": 0.0
+  },
+  "after": {
+   "opaque_frac": 0.392,
+   "transparent_frac": 0.6062,
+   "border_opaque_frac": 0.0
+  },
+  "output_file": "/home/user/crowned-co-data/work/d6_new_art/fixed/7bf9f2a22f56d410e6ed4173c5a2771823d9e114.png"
+ },
+ "3dfc553b9a9a7e2b5500f735524266a648a3a9c8": {
+  "category": "white_box",
+  "src_px": "2048x1365",
+  "products": [
+   "6ac717c264166f603b0c8939"
+  ],
+  "cleared_frac": 0.8051,
+  "protected_enclosed_px": 8178,
+  "lowcontrast_vs_black_after_bg": 0.281,
+  "dark_components": 5,
+  "dark_component_area_frac": 0.0037,
+  "enclosed_white_regions": 9,
+  "enclosed_white_px": 24960,
+  "lowcontrast_vs_black_final": 0.281,
+  "before": {
+   "opaque_frac": 1.0,
+   "transparent_frac": 0.0,
+   "border_opaque_frac": 1.0
+  },
+  "after": {
+   "opaque_frac": 0.1941,
+   "transparent_frac": 0.8051,
+   "border_opaque_frac": 0.0
+  },
+  "output_file": "/home/user/crowned-co-data/work/d6_new_art/fixed/3dfc553b9a9a7e2b5500f735524266a648a3a9c8.png"
+ },
+ "311dbfc32ea74b53eb66f3b62af6bd0b9560e6d9": {
+  "category": "low_contrast",
+  "src_px": "2048x2048",
+  "products": [
+   "6ac71268ed135347800f9b51"
+  ],
+  "stroke": "dark",
+  "stroke_px_src": 8.84,
+  "stroke_rgb": [
+   24,
+   24,
+   24
+  ],
+  "lowcontrast_vs_black_final": 0.372,
+  "before": {
+   "opaque_frac": 0.229,
+   "transparent_frac": 0.771,
+   "border_opaque_frac": 0.0
+  },
+  "after": {
+   "opaque_frac": 0.3389,
+   "transparent_frac": 0.6554,
+   "border_opaque_frac": 0.0
+  },
+  "output_file": "/home/user/crowned-co-data/work/d6_new_art/fixed/311dbfc32ea74b53eb66f3b62af6bd0b9560e6d9.png"
+ },
+ "16b073c35f0869bc59adcb61afa2defbf0dd61ef": {
+  "category": "white_box",
+  "src_px": "2048x2048",
+  "products": [
+   "6ac717c54ff91977d503de96"
+  ],
+  "cleared_frac": 0.7777,
+  "protected_enclosed_px": 0,
+  "lowcontrast_vs_black_after_bg": 0.212,
+  "dark_components": 0,
+  "dark_component_area_frac": 0.0,
+  "enclosed_white_regions": 5,
+  "enclosed_white_px": 12787,
+  "lowcontrast_vs_black_final": 0.212,
+  "before": {
+   "opaque_frac": 1.0,
+   "transparent_frac": 0.0,
+   "border_opaque_frac": 1.0
+  },
+  "after": {
+   "opaque_frac": 0.222,
+   "transparent_frac": 0.7777,
+   "border_opaque_frac": 0.0
+  },
+  "output_file": "/home/user/crowned-co-data/work/d6_new_art/fixed/16b073c35f0869bc59adcb61afa2defbf0dd61ef.png"
+ }
+}

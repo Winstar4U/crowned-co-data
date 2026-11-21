@@ -1,0 +1,66 @@
+{
+ "product_id": "69b0212c4fead7b1ce06b69e",
+ "shop_id": "26418699",
+ "title": "Copy of American Flag Magnetic Impact-Resistant Phone Case",
+ "blueprint_id": 1273,
+ "print_provider_id": 88,
+ "position": "front",
+ "image_id": "69af93ba98b6427ad566566f",
+ "image_name": "Cell Phone - American Flag 2.jpg",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/7d1fca22-327f-439c-9174-5cf038799641",
+ "image_px": [
+  1024,
+  1024
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 02:00:53+00:00",
+ "defect_cause": "other",
+ "defect_note": "DEFECT \u2014 leftover \"Copy of\" title prefix; duplicate listing, artwork identical to 69af94a507af56435a07b7ce below",
+ "current": {
+  "x": 0.48785364511327384,
+  "y": 0.4954632721571481,
+  "scale": 1.3738251463025357,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0,
+  0.0,
+  1.0,
+  1.0
+ ],
+ "current_content_box_in_placeholder": [
+  -0.1991,
+  0.0494,
+  1.1748,
+  0.9416
+ ],
+ "current_inside_safe_frac": {
+  "130091": 0.3188
+ },
+ "proposed": null,
+ "placeholders": {
+  "130091": [
+   1332,
+   2051
+  ]
+ },
+ "safe_area_source": {
+  "130091": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {},
+ "status": "BLOCKED",
+ "verify_pass": false,
+ "transparency": "FLAG: opaque full-bleed image (no alpha; bg rgb~212,174,158)",
+ "ip_flag": "LOW: MagSafe(R) named in description; descriptive compatibility use",
+ "clip_edges_current": [
+  "left 14%",
+  "right 13%"
+ ],
+ "notes": [
+  "OTHER-defect inspected: NOT an artwork defect - duplicate listing with leftover 'Copy of' title; art identical to 69af94a5...; full-bleed flag intentionally overfills the case. Owner decision needed (retire/merge duplicate or retitle). No placement change proposed.",
+  "proposed placement failed geometry verify",
+  "current: 68.1% of visible content outside safe area (variant 130091)"
+ ],
+ "live_change_made": false
+}

@@ -1,0 +1,98 @@
+{
+ "product_id": "6ac711a4b8d5d3e719013158",
+ "shop_id": "26418699",
+ "title": "Santas Favorite Distraction Christmas Duvet Cover \u2014 Cozy Christmas Bedroom Makeover, Holiday Home Decor Gift | Winstar4U",
+ "blueprint_id": 2662,
+ "print_provider_id": 10,
+ "position": "front",
+ "decoration_method": "direct-to-fabric",
+ "issue": "B REWORK: ~102 dpi after 2x upscale",
+ "option": "OPTION B Real-ESRGAN x4",
+ "method": "native 2048 (B file /2) -> Real-ESRGAN anime6B x4, original proposed scale kept",
+ "art": {
+  "file": "work/d6_qa_fixes/art/santa_realesrgan-anime6B_x4.00.png",
+  "px": [
+   6808,
+   8192
+  ],
+  "sha1": "cf32c5496970353d5c029be05018b549edf49fad",
+  "native_source_width_px": 1702,
+  "upscaled": true
+ },
+ "print_areas": [
+  {
+   "variant_ids": [
+    147745,
+    147746,
+    147747,
+    147748
+   ],
+   "placement": {
+    "angle": 0,
+    "scale": 0.633,
+    "x": 0.5,
+    "y": 0.5
+   }
+  }
+ ],
+ "per_variant_qa": {
+  "147746": {
+   "inside": 1.0,
+   "ratio": 0.797,
+   "nominal_dpi": 239,
+   "native_ratio": 0.797,
+   "native_nominal_dpi": 239,
+   "physical_dpi": null,
+   "placeholder_ppi": null
+  },
+  "147745": {
+   "inside": 1.0,
+   "ratio": 0.676,
+   "nominal_dpi": 203,
+   "native_ratio": 0.676,
+   "native_nominal_dpi": 203,
+   "physical_dpi": null,
+   "placeholder_ppi": null
+  },
+  "147747": {
+   "inside": 1.0,
+   "ratio": 1.024,
+   "nominal_dpi": 307,
+   "native_ratio": 1.024,
+   "native_nominal_dpi": 307,
+   "physical_dpi": null,
+   "placeholder_ppi": null
+  },
+  "147748": {
+   "inside": 1.0,
+   "ratio": 1.024,
+   "nominal_dpi": 307,
+   "native_ratio": 1.024,
+   "native_nominal_dpi": 307,
+   "physical_dpi": null,
+   "placeholder_ppi": null
+  }
+ },
+ "content_bbox_norm": [
+  0.1246,
+  0.2371,
+  0.8769,
+  0.759
+ ],
+ "qa_status": "WARN",
+ "b_script_verdict": "PASS",
+ "issues": [],
+ "before": {
+  "file": "winstar4u/my-projects/winstar-recovery/regenerated/6ac711a4b8d5d3e719013158_upscaled2x.png",
+  "placement": {
+   "x": 0.5,
+   "y": 0.5,
+   "scale": 0.633,
+   "angle": 0
+  },
+  "ratio_min": 0.338,
+  "inside_min": 1.0
+ },
+ "live_change_made": false,
+ "note": "NON-LIVE staging file. Nothing uploaded. Applying it needs an image upload + product update = owner-approved write."
+}

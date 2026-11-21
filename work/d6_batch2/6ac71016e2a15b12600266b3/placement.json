@@ -1,0 +1,72 @@
+{
+ "product_id": "6ac71016e2a15b12600266b3",
+ "shop_id": "26418699",
+ "title": "Dear Santa Explain Christmas Fanny Pack \u2014 Trendy Festival Belt Bag, Holiday Gift | Winstar4U",
+ "blueprint_id": 468,
+ "print_provider_id": 99,
+ "position": "front",
+ "image_id": "6ac4f08fc63155c674d69af4",
+ "image_name": "dear-santa-explain.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/0e67f572-47e3-40af-a5c2-362e55841468",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 12:25:22+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT \u2014 top line cropped at curved edge",
+ "current": {
+  "x": 0.5,
+  "y": 0.62,
+  "scale": 0.7,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.1289,
+  0.0781,
+  0.8726,
+  0.9219
+ ],
+ "current_content_box_in_placeholder": [
+  0.2402,
+  -0.1909,
+  0.7608,
+  1.4309
+ ],
+ "current_inside_safe_frac": {
+  "65045": 0.3705
+ },
+ "effective_px_ratio_after": 2.91,
+ "proposed": {
+  "x": 0.5003,
+  "y": 0.5,
+  "scale": 0.303,
+  "angle": 0
+ },
+ "placeholders": {
+  "65045": [
+   2323,
+   846
+  ]
+ },
+ "safe_area_source": {
+  "65045": "printify_print_outline"
+ },
+ "verify_inside_safe_frac": {
+  "65045": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 12%",
+  "bottom 27%"
+ ],
+ "notes": [
+  "current: 63.0% of visible content outside safe area (variant 65045)"
+ ],
+ "live_change_made": false
+}

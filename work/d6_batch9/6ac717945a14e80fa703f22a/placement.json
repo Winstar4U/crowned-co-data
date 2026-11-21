@@ -1,0 +1,78 @@
+{
+ "product_id": "6ac717945a14e80fa703f22a",
+ "shop_id": "26418699",
+ "title": "Everyone Go Home Christmas Backpack \u2014 Holiday School Bag, Christmas Gift | Winstar4U",
+ "blueprint_id": 10823,
+ "print_provider_id": 99,
+ "position": "front_dtf",
+ "image_id": "6ac87887ab493563659a8292",
+ "image_name": "everyone-go-home.png-TRANSPARENT.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/dc309130-37b4-4287-8e87-e60bccc5c509",
+ "image_px": [
+  1707,
+  1990
+ ],
+ "decoration_method": "dtf",
+ "visible": true,
+ "updated_at": "2026-10-09 05:16:01+00:00",
+ "defect_cause": "other",
+ "defect_note": "DEFECT-SEVERE (no text visible at all, title implies \"EVERYONE GO HOME\")",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 1.0,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.0059,
+  0.005,
+  0.9941,
+  0.995
+ ],
+ "contrast_vs_black": 0.737,
+ "low_contrast": true,
+ "current_content_box_in_placeholder": [
+  0.0059,
+  -1.0388,
+  0.9941,
+  2.0388
+ ],
+ "current_inside_safe_frac": {
+  "401444": 0.3435
+ },
+ "effective_px_ratio_after": 2.453,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.29,
+  "angle": 0
+ },
+ "placeholders": {
+  "401444": [
+   2400,
+   900
+  ]
+ },
+ "safe_area_source": {
+  "401444": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "401444": 1.0
+ },
+ "new_art_category": "low_contrast",
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "LOW: art phrase 'All I Want for Christmas' echoes a song title (common phrase; no lyrics/marks/likeness) - review",
+ "clip_edges_current": [
+  "top 34%",
+  "bottom 34%"
+ ],
+ "notes": [
+  "NEEDS_NEW_ART (low_contrast): visually checked on #262626 (the Black backpack): the joining lines 'ALL I WANT FOR' and 'IS FOR EVERYONE' are dark-green lettering with no light outline and nearly vanish on black, so the joke reads 'CHRISTMAS ... TO GO HOME.' Needs light-outline/cream recolour of the two green lines. Placement computed+verified (live scale 1.0 cropped 34% top+bottom - register 'no text visible' confirmed). IP LOW: 'All I Want for Christmas' echoes a song title (common phrase).",
+  "NEEDS_NEW_ART: low-contrast ink vs an enabled blank colour (see LOW-CONTRAST note) - needs a recolour/outline of the text/art layer (or owner disables the affected variants). Placement computed+verified; apply with the new art.",
+  "LOW-CONTRAST: 74% of the art's opaque pixels have contrast < 2.5:1 against the enabled black blank (dark ink on dark blank) - not fixable by placement",
+  "current: 65.7% of visible content outside safe area (variant 401444)"
+ ],
+ "live_change_made": false
+}

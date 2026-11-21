@@ -1,0 +1,77 @@
+{
+ "product_id": "6ac71763fb1d11d19e0374b3",
+ "shop_id": "26418699",
+ "title": "Christmas Open Bar Christmas Backpack \u2014 Merry Christmas Daypack, Holiday Gift Idea | Winstar4U",
+ "blueprint_id": 10823,
+ "print_provider_id": 99,
+ "position": "front_dtf",
+ "image_id": "6ac8ddcce9406544747ac5d9",
+ "image_name": "openbar_fixed.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/8bf92d94-f895-40e5-8307-2410100e5a46",
+ "image_px": [
+  1079,
+  1773
+ ],
+ "decoration_method": "dtf",
+ "visible": true,
+ "updated_at": "2026-10-14 13:14:14+00:00",
+ "defect_cause": "contrast/text color",
+ "defect_note": "DEFECT-SEVERE (top line nearly invisible, \"OPEN BAR\" clipped bottom)",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.9,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.0093,
+  0.0056,
+  0.9907,
+  0.855
+ ],
+ "contrast_vs_black": 0.888,
+ "low_contrast": true,
+ "current_content_box_in_placeholder": [
+  0.0583,
+  -1.4496,
+  0.9417,
+  1.9002
+ ],
+ "current_inside_safe_frac": {
+  "401444": 0.3151
+ },
+ "effective_px_ratio_after": 1.873,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.572,
+  "scale": 0.24,
+  "angle": 0
+ },
+ "placeholders": {
+  "401444": [
+   2400,
+   900
+  ]
+ },
+ "safe_area_source": {
+  "401444": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "401444": 1.0
+ },
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 43%",
+  "bottom 27%"
+ ],
+ "notes": [
+  "Also: portrait art (1079x1773) on the 2400x900 landscape backpack panel - live scale 0.9 crops 43% top / 27% bottom ('CHRISTMAS' + 'OPEN BAR' cut). The verified full-art placement is scale 0.240 (small); recommend a landscape re-layout in light ink.",
+  "NEEDS_NEW_ART: low-contrast ink on dark blank (see LOW-CONTRAST note) - needs light-ink recolour of the text/art layer (or owner disables the dark variants). Placement computed+verified; apply with the new art.",
+  "LOW-CONTRAST: 89% of the art's opaque pixels have contrast < 2.5:1 against the enabled black blank (dark ink on dark garment) - not fixable by placement",
+  "current: 68.5% of visible content outside safe area (variant 401444)"
+ ],
+ "live_change_made": false
+}

@@ -1,0 +1,125 @@
+{
+ "product_id": "6ac71302336f835866011570",
+ "shop_id": "26418699",
+ "title": "Fireplace Stocking Christmas Throw Pillow Case 18x18 \u2014 Easy Couch & Bed Accent, Holiday Home Decor Gift | Winstar4U",
+ "blueprint_id": 5353,
+ "print_provider_id": 92,
+ "position": "front",
+ "image_id": "6ac70f02a451cc2e2c8da2cd",
+ "image_name": "nostalgic-fireplace-stocking.jpg",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/0c814e0a-e01c-4fb8-8581-0dc31c7e30da",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 01:47:58+00:00",
+ "defect_cause": "cropping",
+ "defect_note": "DEFECT-severe (entire top line \"CHRISTMAS\" cropped, only \"MORNING\" visible)",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.9,
+  "angle": 0
+ },
+ "content_bbox_norm": [
+  0.0898,
+  0.0371,
+  0.9136,
+  0.9678
+ ],
+ "current_content_box_in_placeholder": [
+  0.1309,
+  0.0834,
+  0.8722,
+  0.921
+ ],
+ "current_inside_safe_frac": {
+  "244226": 0.9704,
+  "244224": 0.6054,
+  "244227": 0.9891,
+  "244228": 1.0
+ },
+ "proposed_per_variant_group": {
+  "244226": {
+   "x": 0.5001,
+   "y": 0.496,
+   "scale": 0.859,
+   "angle": 0
+  },
+  "244224": {
+   "x": 0.5006,
+   "y": 0.496,
+   "scale": 0.538,
+   "angle": 0
+  },
+  "244227": {
+   "x": 0.5,
+   "y": 0.496,
+   "scale": 0.876,
+   "angle": 0
+  },
+  "244228": {
+   "x": 0.5,
+   "y": 0.5,
+   "scale": 0.9,
+   "angle": 0
+  }
+ },
+ "shared_placement_alternative": {
+  "x": 0.5006,
+  "y": 0.496,
+  "scale": 0.538,
+  "angle": 0
+ },
+ "effective_px_ratio_after": 0.583,
+ "proposed": {
+  "x": 0.5001,
+  "y": 0.496,
+  "scale": 0.859,
+  "angle": 0
+ },
+ "placeholders": {
+  "244226": [
+   3000,
+   3000
+  ],
+  "244224": [
+   3000,
+   2100
+  ],
+  "244227": [
+   3300,
+   3300
+  ],
+  "244228": [
+   3900,
+   3900
+  ]
+ },
+ "safe_area_source": {
+  "244226": "printify_safe_area",
+  "244224": "printify_safe_area",
+  "244227": "printify_safe_area",
+  "244228": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "244226": 1.0,
+  "244224": 1.0,
+  "244227": 1.0,
+  "244228": 1.0
+ },
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [],
+ "notes": [
+  "The enabled 12x18 landscape size (3000x2100) forces a shared placement to ~0.41-0.57 scale on the square sizes; proposal splits print_areas into per-size groups (each verified). If the owner prefers one shared print_area, use shared_placement_alternative in placement.json.",
+  "geometry checked for 4 enabled variants (4 distinct placeholder geometries)",
+  "SPLIT print_areas per variant group (shared placement would be scale 0.538): 244226:x=0.5001,y=0.4960,s=0.859; 244224:x=0.5006,y=0.4960,s=0.538; 244227:x=0.5000,y=0.4960,s=0.876; 244228:x=0.5000,y=0.5000,s=0.900",
+  "current: 39.5% of visible content outside safe area (variant 244224)"
+ ],
+ "live_change_made": false
+}

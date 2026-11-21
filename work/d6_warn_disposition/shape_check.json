@@ -1,0 +1,4954 @@
+[
+ {
+  "product_id": "6ad4254232b024bb32043467",
+  "batch": "1",
+  "blueprint": 531,
+  "variants": {
+   "69370": {
+    "svg": "69049eb1a4e7ea51b50fcc72",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 954,
+    "H": 954,
+    "placement": {
+     "x": 0.5,
+     "y": 0.476,
+     "scale": 0.553,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 51.3,
+    "overflow_px": 0.0,
+    "raster_cell_px": 0.6,
+    "clearance_frac_short": 0.0538,
+    "src_print_ratio": 3.639
+   },
+   "74403": {
+    "svg": "69049ec89e9751aadf0e2bff",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 978,
+    "H": 972,
+    "placement": {
+     "x": 0.5,
+     "y": 0.476,
+     "scale": 0.553,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 1.7,
+    "overflow_px": 0.0,
+    "raster_cell_px": 0.61,
+    "clearance_frac_short": 0.0018,
+    "src_print_ratio": 3.55
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0018,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 3.55
+ },
+ {
+  "product_id": "6ac712506f976358160c479a",
+  "batch": "1",
+  "blueprint": 468,
+  "variants": {
+   "65045": {
+    "svg": "5e2560ba0cbde50a0854fc06",
+    "kind": "printify_print_outline",
+    "n_polys": 1,
+    "W": 2323,
+    "H": 846,
+    "placement": {
+     "x": 0.4975,
+     "y": 0.492,
+     "scale": 0.405,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 40.7,
+    "overflow_px": 0.0,
+    "raster_cell_px": 1.45,
+    "clearance_frac_short": 0.0481,
+    "src_print_ratio": 2.177
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0481,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 2.177
+ },
+ {
+  "product_id": "6ac70342a085d659d5022827",
+  "batch": "1",
+  "blueprint": 714,
+  "variants": {
+   "76173": {
+    "svg": "624192ad4a587253a80f38bf",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 1095,
+    "H": 1213,
+    "placement": {
+     "x": 0.44,
+     "y": 0.54,
+     "scale": 0.608,
+     "angle": 0
+    },
+    "inside_union": 0.999935754943657,
+    "inside_best_poly": 0.999935754943657,
+    "clearance_px": 0.0,
+    "overflow_px": 0.8,
+    "raster_cell_px": 0.76,
+    "clearance_frac_short": 0.0,
+    "src_print_ratio": 1.977
+   }
+  },
+  "inside_min": 0.999935754943657,
+  "inside_best_poly_min": 0.999935754943657,
+  "clearance_frac_min": 0.0,
+  "overflow_cells_max": 1.0526315789473684,
+  "ratio_min": 1.977
+ },
+ {
+  "product_id": "6ac6ff12a085d659d502264c",
+  "batch": "1",
+  "blueprint": 425,
+  "variants": {
+   "62014": {
+    "svg": "65fa9395d00a1bfae3025452",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 2790,
+    "H": 1219,
+    "placement": {
+     "x": 0.5,
+     "y": 0.572,
+     "scale": 0.271,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 1.7,
+    "overflow_px": 0.0,
+    "raster_cell_px": 1.74,
+    "clearance_frac_short": 0.0014,
+    "src_print_ratio": 1.427
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0014,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 1.427
+ },
+ {
+  "product_id": "6ac6ff0bbfa347bea60c96bb",
+  "batch": "1",
+  "blueprint": 425,
+  "variants": {
+   "62014": {
+    "svg": "65fa9395d00a1bfae3025452",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 2790,
+    "H": 1219,
+    "placement": {
+     "x": 0.5,
+     "y": 0.5,
+     "scale": 0.324,
+     "angle": 0
+    },
+    "inside_union": 0.998555795429167,
+    "inside_best_poly": 0.998555795429167,
+    "clearance_px": 1.7,
+    "overflow_px": 0.0,
+    "raster_cell_px": 1.74,
+    "clearance_frac_short": 0.0014,
+    "src_print_ratio": 1.412
+   }
+  },
+  "inside_min": 0.998555795429167,
+  "inside_best_poly_min": 0.998555795429167,
+  "clearance_frac_min": 0.0014,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 1.412
+ },
+ {
+  "product_id": "6ac7034667e0e81ed20ffe71",
+  "batch": "1",
+  "blueprint": 714,
+  "variants": {
+   "76173": {
+    "svg": "624192ad4a587253a80f38bf",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 1095,
+    "H": 1213,
+    "placement": {
+     "x": 0.44,
+     "y": 0.524,
+     "scale": 0.529,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 2.1,
+    "overflow_px": 0.0,
+    "raster_cell_px": 0.76,
+    "clearance_frac_short": 0.002,
+    "src_print_ratio": 2.134
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.002,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 2.134
+ },
+ {
+  "product_id": "6ac7032d7a961335020e1aee",
+  "batch": "1",
+  "blueprint": 714,
+  "variants": {
+   "76173": {
+    "svg": "624192ad4a587253a80f38bf",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 1095,
+    "H": 1213,
+    "placement": {
+     "x": 0.53,
+     "y": 0.532,
+     "scale": 0.599,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 3.4,
+    "overflow_px": 0.0,
+    "raster_cell_px": 0.76,
+    "clearance_frac_short": 0.0031,
+    "src_print_ratio": 1.965
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0031,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 1.965
+ },
+ {
+  "product_id": "6ac701e2b814691321002f9c",
+  "batch": "1",
+  "blueprint": 220,
+  "variants": {
+   "41524": {
+    "svg": "69e0a30db35edd4ec90c1b67",
+    "kind": "printify_safe_area",
+    "n_polys": 2,
+    "W": 5250,
+    "H": 2625,
+    "placement": {
+     "x": 0.2492,
+     "y": 0.504,
+     "scale": 0.541,
+     "angle": 0
+    },
+    "inside_union": 0.9999654334074595,
+    "inside_best_poly": 0.9999654334074595,
+    "clearance_px": 3.3,
+    "overflow_px": 0.0,
+    "raster_cell_px": 3.28,
+    "clearance_frac_short": 0.0012,
+    "src_print_ratio": 0.721
+   }
+  },
+  "inside_min": 0.9999654334074595,
+  "inside_best_poly_min": 0.9999654334074595,
+  "clearance_frac_min": 0.0012,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 0.721
+ },
+ {
+  "product_id": "6ac7102c35cf3f6ec802e969",
+  "batch": "1",
+  "blueprint": 468,
+  "variants": {
+   "65045": {
+    "svg": "5e2560ba0cbde50a0854fc06",
+    "kind": "printify_print_outline",
+    "n_polys": 1,
+    "W": 2323,
+    "H": 846,
+    "placement": {
+     "x": 0.4968,
+     "y": 0.5,
+     "scale": 0.282,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 37.7,
+    "overflow_px": 0.0,
+    "raster_cell_px": 1.45,
+    "clearance_frac_short": 0.0446,
+    "src_print_ratio": 3.126
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0446,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 3.126
+ },
+ {
+  "product_id": "6ac7108a50fc6704d30bf89f",
+  "batch": "1",
+  "blueprint": 1245,
+  "variants": {
+   "94263": {
+    "svg": "634cf9633b2caa56520b27c6",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 525,
+    "H": 450,
+    "placement": {
+     "x": 0.5,
+     "y": 0.5,
+     "scale": 0.593,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 5.6,
+    "overflow_px": 0.0,
+    "raster_cell_px": 0.33,
+    "clearance_frac_short": 0.0124,
+    "src_print_ratio": 4.735
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0124,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 4.735
+ },
+ {
+  "product_id": "6ac71229b8146913210037a6",
+  "batch": "1",
+  "blueprint": 643,
+  "variants": {
+   "74550": {
+    "svg": "61233bc0a4a0d55b4358c2a3",
+    "kind": "rect",
+    "n_polys": 1,
+    "W": 3525,
+    "H": 2550,
+    "placement": {
+     "x": 0.5,
+     "y": 0.5,
+     "scale": 0.435,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 1159.7,
+    "overflow_px": 0.0,
+    "raster_cell_px": 2.2,
+    "clearance_frac_short": 0.4548,
+    "src_print_ratio": 0.621
+   },
+   "74549": {
+    "svg": "61233bc0a4a0d55b4358c2a3",
+    "kind": "rect",
+    "n_polys": 1,
+    "W": 4800,
+    "H": 3450,
+    "placement": {
+     "x": 0.5,
+     "y": 0.5,
+     "scale": 0.435,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 1576.8,
+    "overflow_px": 0.0,
+    "raster_cell_px": 3.0,
+    "clearance_frac_short": 0.457,
+    "src_print_ratio": 0.456
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.4548,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 0.456
+ },
+ {
+  "product_id": "6ac702807a961335020e1a3f",
+  "batch": "1",
+  "blueprint": 562,
+  "variants": {
+   "101404": {
+    "svg": "646cb0a87b2337657a065e64",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 4275,
+    "H": 2325,
+    "placement": {
+     "x": 0.5007,
+     "y": 0.416,
+     "scale": 0.33,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 6.0,
+    "overflow_px": 0.0,
+    "raster_cell_px": 2.67,
+    "clearance_frac_short": 0.0026,
+    "src_print_ratio": 1.206
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0026,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 1.206
+ },
+ {
+  "product_id": "6ac70f648d1d4341750196cf",
+  "batch": "1",
+  "blueprint": 468,
+  "variants": {
+   "65045": {
+    "svg": "5e2560ba0cbde50a0854fc06",
+    "kind": "printify_print_outline",
+    "n_polys": 1,
+    "W": 2323,
+    "H": 846,
+    "placement": {
+     "x": 0.5013,
+     "y": 0.508,
+     "scale": 0.305,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 39.2,
+    "overflow_px": 0.0,
+    "raster_cell_px": 1.45,
+    "clearance_frac_short": 0.0463,
+    "src_print_ratio": 2.402
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0463,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 2.402
+ },
+ {
+  "product_id": "6ac71453a4c95c48e2036332",
+  "batch": "1",
+  "blueprint": 582,
+  "variants": {
+   "71665": {
+    "svg": "607d24b2dbfe0f0ad7611323",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 2625,
+    "H": 2625,
+    "placement": {
+     "x": 0.5,
+     "y": 0.484,
+     "scale": 0.509,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 11.8,
+    "overflow_px": 0.0,
+    "raster_cell_px": 1.64,
+    "clearance_frac_short": 0.0045,
+    "src_print_ratio": 0.713
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0045,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 0.713
+ },
+ {
+  "product_id": "6ac7110e07e4149a0f000fcd",
+  "batch": "1",
+  "blueprint": 1327,
+  "variants": {
+   "100848": {
+    "svg": "651e6dd5800f54817403c68e",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 11100,
+    "H": 4126,
+    "placement": {
+     "x": 0.5,
+     "y": 0.5,
+     "scale": 0.205,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 20.8,
+    "overflow_px": 0.0,
+    "raster_cell_px": 6.94,
+    "clearance_frac_short": 0.005,
+    "src_print_ratio": 0.418
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.005,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 0.418
+ },
+ {
+  "product_id": "6ac702857a961335020e1a41",
+  "batch": "1",
+  "blueprint": 562,
+  "variants": {
+   "101404": {
+    "svg": "646cb0a87b2337657a065e64",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 4275,
+    "H": 2325,
+    "placement": {
+     "x": 0.4984,
+     "y": 0.456,
+     "scale": 0.378,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 5.3,
+    "overflow_px": 0.0,
+    "raster_cell_px": 2.67,
+    "clearance_frac_short": 0.0023,
+    "src_print_ratio": 1.053
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0023,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 1.053
+ },
+ {
+  "product_id": "6ac7111557527ce5fd0196c3",
+  "batch": "1",
+  "blueprint": 1327,
+  "variants": {
+   "100848": {
+    "svg": "651e6dd5800f54817403c68e",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 11100,
+    "H": 4126,
+    "placement": {
+     "x": 0.5,
+     "y": 0.5,
+     "scale": 0.217,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 13.9,
+    "overflow_px": 0.0,
+    "raster_cell_px": 6.94,
+    "clearance_frac_short": 0.0034,
+    "src_print_ratio": 0.44
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0034,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 0.44
+ },
+ {
+  "product_id": "6ac8f8f29b2660e139034102",
+  "batch": "1",
+  "blueprint": 531,
+  "variants": {
+   "69370": {
+    "svg": "69049eb1a4e7ea51b50fcc72",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 954,
+    "H": 954,
+    "placement": {
+     "x": 0.5,
+     "y": 0.584,
+     "scale": 0.707,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 3.2,
+    "overflow_px": 0.0,
+    "raster_cell_px": 0.6,
+    "clearance_frac_short": 0.0034,
+    "src_print_ratio": 2.185
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0034,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 2.185
+ },
+ {
+  "product_id": "6ac70f739a2f0cb82508f8e4",
+  "batch": "1",
+  "blueprint": 468,
+  "variants": {
+   "65045": {
+    "svg": "5e2560ba0cbde50a0854fc06",
+    "kind": "printify_print_outline",
+    "n_polys": 1,
+    "W": 2323,
+    "H": 846,
+    "placement": {
+     "x": 0.5001,
+     "y": 0.488,
+     "scale": 0.262,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 39.2,
+    "overflow_px": 0.0,
+    "raster_cell_px": 1.45,
+    "clearance_frac_short": 0.0463,
+    "src_print_ratio": 3.365
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0463,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 3.365
+ },
+ {
+  "product_id": "6ac7112383f1a0e50d071cdf",
+  "batch": "1",
+  "blueprint": 1327,
+  "variants": {
+   "100848": {
+    "svg": "651e6dd5800f54817403c68e",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 11100,
+    "H": 4126,
+    "placement": {
+     "x": 0.5,
+     "y": 0.5,
+     "scale": 0.305,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 6.9,
+    "overflow_px": 0.0,
+    "raster_cell_px": 6.94,
+    "clearance_frac_short": 0.0017,
+    "src_print_ratio": 0.605
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0017,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 0.605
+ },
+ {
+  "product_id": "6ac702e21e2eac4da206fc57",
+  "batch": "2",
+  "blueprint": 937,
+  "variants": {
+   "82220": {
+    "svg": "6297a692da5a4ace6e068750",
+    "kind": "rect(no svg)",
+    "n_polys": 1,
+    "W": 4800,
+    "H": 3600,
+    "placement": {
+     "x": 0.4996,
+     "y": 0.488,
+     "scale": 0.747,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 1059.6,
+    "overflow_px": 0.0,
+    "raster_cell_px": 3.0,
+    "clearance_frac_short": 0.2943,
+    "src_print_ratio": 0.571
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.2943,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 0.571
+ },
+ {
+  "product_id": "6ac710337be9df884b032c91",
+  "batch": "2",
+  "blueprint": 468,
+  "variants": {
+   "65045": {
+    "svg": "5e2560ba0cbde50a0854fc06",
+    "kind": "printify_print_outline",
+    "n_polys": 1,
+    "W": 2323,
+    "H": 846,
+    "placement": {
+     "x": 0.4991,
+     "y": 0.492,
+     "scale": 0.291,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 39.2,
+    "overflow_px": 0.0,
+    "raster_cell_px": 1.45,
+    "clearance_frac_short": 0.0463,
+    "src_print_ratio": 3.03
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0463,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 3.03
+ },
+ {
+  "product_id": "6ac7109735cf3f6ec802e9a4",
+  "batch": "2",
+  "blueprint": 1245,
+  "variants": {
+   "94263": {
+    "svg": "634cf9633b2caa56520b27c6",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 525,
+    "H": 450,
+    "placement": {
+     "x": 0.5,
+     "y": 0.5,
+     "scale": 0.599,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 36.8,
+    "overflow_px": 0.0,
+    "raster_cell_px": 0.33,
+    "clearance_frac_short": 0.0817,
+    "src_print_ratio": 5.39
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0817,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 5.39
+ },
+ {
+  "product_id": "6ac70fbb35a66ab7dc0b0e98",
+  "batch": "2",
+  "blueprint": 468,
+  "variants": {
+   "65045": {
+    "svg": "5e2560ba0cbde50a0854fc06",
+    "kind": "printify_print_outline",
+    "n_polys": 1,
+    "W": 2323,
+    "H": 846,
+    "placement": {
+     "x": 0.5034,
+     "y": 0.504,
+     "scale": 0.299,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 38.0,
+    "overflow_px": 0.0,
+    "raster_cell_px": 1.45,
+    "clearance_frac_short": 0.0449,
+    "src_print_ratio": 2.45
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0449,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 2.45
+ },
+ {
+  "product_id": "6ac7124935a66ab7dc0b0fe9",
+  "batch": "2",
+  "blueprint": 468,
+  "variants": {
+   "65045": {
+    "svg": "5e2560ba0cbde50a0854fc06",
+    "kind": "printify_print_outline",
+    "n_polys": 1,
+    "W": 2323,
+    "H": 846,
+    "placement": {
+     "x": 0.4974,
+     "y": 0.5,
+     "scale": 0.285,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 42.1,
+    "overflow_px": 0.0,
+    "raster_cell_px": 1.45,
+    "clearance_frac_short": 0.0498,
+    "src_print_ratio": 3.093
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0498,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 3.093
+ },
+ {
+  "product_id": "6ac7113cc077332834034cca",
+  "batch": "2",
+  "blueprint": 1327,
+  "variants": {
+   "100848": {
+    "svg": "651e6dd5800f54817403c68e",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 11100,
+    "H": 4126,
+    "placement": {
+     "x": 0.5001,
+     "y": 0.5,
+     "scale": 0.254,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 6.9,
+    "overflow_px": 0.0,
+    "raster_cell_px": 6.94,
+    "clearance_frac_short": 0.0017,
+    "src_print_ratio": 0.605
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0017,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 0.605
+ },
+ {
+  "product_id": "6ac711386f976358160c46fe",
+  "batch": "2",
+  "blueprint": 1327,
+  "variants": {
+   "100848": {
+    "svg": "651e6dd5800f54817403c68e",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 11100,
+    "H": 4126,
+    "placement": {
+     "x": 0.5003,
+     "y": 0.504,
+     "scale": 0.254,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 13.9,
+    "overflow_px": 0.0,
+    "raster_cell_px": 6.94,
+    "clearance_frac_short": 0.0034,
+    "src_print_ratio": 0.605
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0034,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 0.605
+ },
+ {
+  "product_id": "6ac701ec7a961335020e19ff",
+  "batch": "2",
+  "blueprint": 220,
+  "variants": {
+   "41524": {
+    "svg": "69e0a30db35edd4ec90c1b67",
+    "kind": "printify_safe_area",
+    "n_polys": 2,
+    "W": 5250,
+    "H": 2625,
+    "placement": {
+     "x": 0.25,
+     "y": 0.492,
+     "scale": 0.507,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 6.6,
+    "overflow_px": 0.0,
+    "raster_cell_px": 3.28,
+    "clearance_frac_short": 0.0025,
+    "src_print_ratio": 0.769
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0025,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 0.769
+ },
+ {
+  "product_id": "6ac7148535cf3f6ec802eb69",
+  "batch": "2",
+  "blueprint": 582,
+  "variants": {
+   "71665": {
+    "svg": "607d24b2dbfe0f0ad7611323",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 2625,
+    "H": 2625,
+    "placement": {
+     "x": 0.5,
+     "y": 0.604,
+     "scale": 0.545,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 18.0,
+    "overflow_px": 0.0,
+    "raster_cell_px": 1.64,
+    "clearance_frac_short": 0.0069,
+    "src_print_ratio": 0.754
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0069,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 0.754
+ },
+ {
+  "product_id": "6ac710117be9df884b032c6c",
+  "batch": "2",
+  "blueprint": 39,
+  "variants": {
+   "24828": {
+    "svg": "65e19c81f86ce13da30d47ad",
+    "kind": "rect(no svg)",
+    "n_polys": 1,
+    "W": 3210,
+    "H": 3852,
+    "placement": {
+     "x": 0.5,
+     "y": 0.572,
+     "scale": 0.771,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 476.1,
+    "overflow_px": 0.0,
+    "raster_cell_px": 2.41,
+    "clearance_frac_short": 0.1483,
+    "src_print_ratio": 0.436
+   },
+   "24830": {
+    "svg": "65e19c81f86ce13da30d47ad",
+    "kind": "rect(no svg)",
+    "n_polys": 1,
+    "W": 2631,
+    "H": 3156,
+    "placement": {
+     "x": 0.5,
+     "y": 0.572,
+     "scale": 0.771,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 389.0,
+    "overflow_px": 0.0,
+    "raster_cell_px": 1.97,
+    "clearance_frac_short": 0.1479,
+    "src_print_ratio": 0.532
+   },
+   "24829": {
+    "svg": "65e19c81f86ce13da30d47ad",
+    "kind": "rect(no svg)",
+    "n_polys": 1,
+    "W": 2920,
+    "H": 3504,
+    "placement": {
+     "x": 0.5,
+     "y": 0.572,
+     "scale": 0.771,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 433.1,
+    "overflow_px": 0.0,
+    "raster_cell_px": 2.19,
+    "clearance_frac_short": 0.1483,
+    "src_print_ratio": 0.479
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.1479,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 0.436
+ },
+ {
+  "product_id": "6ac7114a35a66ab7dc0b0f63",
+  "batch": "2",
+  "blueprint": 1327,
+  "variants": {
+   "100848": {
+    "svg": "651e6dd5800f54817403c68e",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 11100,
+    "H": 4126,
+    "placement": {
+     "x": 0.5,
+     "y": 0.568,
+     "scale": 0.217,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 13.9,
+    "overflow_px": 0.0,
+    "raster_cell_px": 6.94,
+    "clearance_frac_short": 0.0034,
+    "src_print_ratio": 0.448
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0034,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 0.448
+ },
+ {
+  "product_id": "6ac70ffe050d0f25a7091875",
+  "batch": "2",
+  "blueprint": 468,
+  "variants": {
+   "65045": {
+    "svg": "5e2560ba0cbde50a0854fc06",
+    "kind": "printify_print_outline",
+    "n_polys": 1,
+    "W": 2323,
+    "H": 846,
+    "placement": {
+     "x": 0.5146,
+     "y": 0.504,
+     "scale": 0.299,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 40.7,
+    "overflow_px": 0.0,
+    "raster_cell_px": 1.45,
+    "clearance_frac_short": 0.0481,
+    "src_print_ratio": 2.45
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0481,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 2.45
+ },
+ {
+  "product_id": "6ac711516f976358160c470e",
+  "batch": "2",
+  "blueprint": 1327,
+  "variants": {
+   "100848": {
+    "svg": "651e6dd5800f54817403c68e",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 11100,
+    "H": 4126,
+    "placement": {
+     "x": 0.5,
+     "y": 0.5,
+     "scale": 0.255,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 13.9,
+    "overflow_px": 0.0,
+    "raster_cell_px": 6.94,
+    "clearance_frac_short": 0.0034,
+    "src_print_ratio": 0.439
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0034,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 0.439
+ },
+ {
+  "product_id": "6ac7100189967c5f7c00518b",
+  "batch": "2",
+  "blueprint": 468,
+  "variants": {
+   "65045": {
+    "svg": "5e2560ba0cbde50a0854fc06",
+    "kind": "printify_print_outline",
+    "n_polys": 1,
+    "W": 2323,
+    "H": 846,
+    "placement": {
+     "x": 0.4998,
+     "y": 0.492,
+     "scale": 0.258,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 42.1,
+    "overflow_px": 0.0,
+    "raster_cell_px": 1.45,
+    "clearance_frac_short": 0.0498,
+    "src_print_ratio": 3.417
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0498,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 3.417
+ },
+ {
+  "product_id": "6ac7115435a66ab7dc0b0f67",
+  "batch": "2",
+  "blueprint": 1327,
+  "variants": {
+   "100848": {
+    "svg": "651e6dd5800f54817403c68e",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 11100,
+    "H": 4126,
+    "placement": {
+     "x": 0.5,
+     "y": 0.5,
+     "scale": 0.297,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 27.8,
+    "overflow_px": 0.0,
+    "raster_cell_px": 6.94,
+    "clearance_frac_short": 0.0067,
+    "src_print_ratio": 0.592
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0067,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 0.592
+ },
+ {
+  "product_id": "6ac7100b7be9df884b032c68",
+  "batch": "2",
+  "blueprint": 468,
+  "variants": {
+   "65045": {
+    "svg": "5e2560ba0cbde50a0854fc06",
+    "kind": "printify_print_outline",
+    "n_polys": 1,
+    "W": 2323,
+    "H": 846,
+    "placement": {
+     "x": 0.4945,
+     "y": 0.504,
+     "scale": 0.282,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 42.1,
+    "overflow_px": 0.0,
+    "raster_cell_px": 1.45,
+    "clearance_frac_short": 0.0498,
+    "src_print_ratio": 3.126
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0498,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 3.126
+ },
+ {
+  "product_id": "6ac71016e2a15b12600266b3",
+  "batch": "2",
+  "blueprint": 468,
+  "variants": {
+   "65045": {
+    "svg": "5e2560ba0cbde50a0854fc06",
+    "kind": "printify_print_outline",
+    "n_polys": 1,
+    "W": 2323,
+    "H": 846,
+    "placement": {
+     "x": 0.5003,
+     "y": 0.5,
+     "scale": 0.303,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 43.6,
+    "overflow_px": 0.0,
+    "raster_cell_px": 1.45,
+    "clearance_frac_short": 0.0515,
+    "src_print_ratio": 2.91
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0515,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 2.91
+ },
+ {
+  "product_id": "6ac710127be9df884b032c6e",
+  "batch": "2",
+  "blueprint": 468,
+  "variants": {
+   "65045": {
+    "svg": "5e2560ba0cbde50a0854fc06",
+    "kind": "printify_print_outline",
+    "n_polys": 1,
+    "W": 2323,
+    "H": 846,
+    "placement": {
+     "x": 0.5002,
+     "y": 0.496,
+     "scale": 0.217,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 39.2,
+    "overflow_px": 0.0,
+    "raster_cell_px": 1.45,
+    "clearance_frac_short": 0.0463,
+    "src_print_ratio": 3.386
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0463,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 3.386
+ },
+ {
+  "product_id": "6ac71165f0a0ce97bc0c91d8",
+  "batch": "2",
+  "blueprint": 1327,
+  "variants": {
+   "100848": {
+    "svg": "651e6dd5800f54817403c68e",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 11100,
+    "H": 4126,
+    "placement": {
+     "x": 0.5,
+     "y": 0.496,
+     "scale": 0.254,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 13.9,
+    "overflow_px": 0.0,
+    "raster_cell_px": 6.94,
+    "clearance_frac_short": 0.0034,
+    "src_print_ratio": 0.605
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0034,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 0.605
+ },
+ {
+  "product_id": "6ac8f919149425f38d04bedd",
+  "batch": "2",
+  "blueprint": 531,
+  "variants": {
+   "69370": {
+    "svg": "69049eb1a4e7ea51b50fcc72",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 954,
+    "H": 954,
+    "placement": {
+     "x": 0.455,
+     "y": 0.56,
+     "scale": 0.493,
+     "angle": 0
+    },
+    "inside_union": 0.9998877584921925,
+    "inside_best_poly": 0.9998877584921925,
+    "clearance_px": 0.0,
+    "overflow_px": 20.0,
+    "raster_cell_px": 0.6,
+    "clearance_frac_short": 0.0,
+    "src_print_ratio": 2.445
+   }
+  },
+  "inside_min": 0.9998877584921925,
+  "inside_best_poly_min": 0.9998877584921925,
+  "clearance_frac_min": 0.0,
+  "overflow_cells_max": 33.333333333333336,
+  "ratio_min": 2.445
+ },
+ {
+  "product_id": "6ac71176ed135347800f9ae0",
+  "batch": "3",
+  "blueprint": 1327,
+  "variants": {
+   "100848": {
+    "svg": "651e6dd5800f54817403c68e",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 11100,
+    "H": 4126,
+    "placement": {
+     "x": 0.5,
+     "y": 0.5,
+     "scale": 0.259,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 13.9,
+    "overflow_px": 0.0,
+    "raster_cell_px": 6.94,
+    "clearance_frac_short": 0.0034,
+    "src_print_ratio": 0.444
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0034,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 0.444
+ },
+ {
+  "product_id": "6ac7108489967c5f7c0051bb",
+  "batch": "3",
+  "blueprint": 1245,
+  "variants": {
+   "94263": {
+    "svg": "634cf9633b2caa56520b27c6",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 525,
+    "H": 450,
+    "placement": {
+     "x": 0.5,
+     "y": 0.5,
+     "scale": 0.608,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 22.6,
+    "overflow_px": 0.0,
+    "raster_cell_px": 0.33,
+    "clearance_frac_short": 0.0503,
+    "src_print_ratio": 5.351
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0503,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 5.351
+ },
+ {
+  "product_id": "6ac7117afa3cae10170efa77",
+  "batch": "3",
+  "blueprint": 1327,
+  "variants": {
+   "100848": {
+    "svg": "651e6dd5800f54817403c68e",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 11100,
+    "H": 4126,
+    "placement": {
+     "x": 0.5,
+     "y": 0.504,
+     "scale": 0.262,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 6.9,
+    "overflow_px": 0.0,
+    "raster_cell_px": 6.94,
+    "clearance_frac_short": 0.0017,
+    "src_print_ratio": 0.587
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0017,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 0.587
+ },
+ {
+  "product_id": "6ac71165a4c95c48e20361de",
+  "batch": "3",
+  "blueprint": 1245,
+  "variants": {
+   "94263": {
+    "svg": "634cf9633b2caa56520b27c6",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 525,
+    "H": 450,
+    "placement": {
+     "x": 0.5,
+     "y": 0.5,
+     "scale": 0.599,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 31.2,
+    "overflow_px": 0.0,
+    "raster_cell_px": 0.33,
+    "clearance_frac_short": 0.0693,
+    "src_print_ratio": 5.425
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0693,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 5.425
+ },
+ {
+  "product_id": "6ac7103d35cf3f6ec802e976",
+  "batch": "3",
+  "blueprint": 468,
+  "variants": {
+   "65045": {
+    "svg": "5e2560ba0cbde50a0854fc06",
+    "kind": "printify_print_outline",
+    "n_polys": 1,
+    "W": 2323,
+    "H": 846,
+    "placement": {
+     "x": 0.5007,
+     "y": 0.496,
+     "scale": 0.435,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 42.1,
+    "overflow_px": 0.0,
+    "raster_cell_px": 1.45,
+    "clearance_frac_short": 0.0498,
+    "src_print_ratio": 2.027
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0498,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 2.027
+ },
+ {
+  "product_id": "6ac701f37be9df884b032535",
+  "batch": "3",
+  "blueprint": 220,
+  "variants": {
+   "41524": {
+    "svg": "69e0a30db35edd4ec90c1b67",
+    "kind": "printify_safe_area",
+    "n_polys": 2,
+    "W": 5250,
+    "H": 2625,
+    "placement": {
+     "x": 0.2535,
+     "y": 0.5,
+     "scale": 0.461,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 9.8,
+    "overflow_px": 0.0,
+    "raster_cell_px": 3.28,
+    "clearance_frac_short": 0.0037,
+    "src_print_ratio": 0.846
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0037,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 0.846
+ },
+ {
+  "product_id": "6ac701e97be9df884b032531",
+  "batch": "3",
+  "blueprint": 220,
+  "variants": {
+   "41524": {
+    "svg": "69e0a30db35edd4ec90c1b67",
+    "kind": "printify_safe_area",
+    "n_polys": 2,
+    "W": 5250,
+    "H": 2625,
+    "placement": {
+     "x": 0.2525,
+     "y": 0.5,
+     "scale": 0.49,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 3.3,
+    "overflow_px": 0.0,
+    "raster_cell_px": 3.28,
+    "clearance_frac_short": 0.0012,
+    "src_print_ratio": 0.796
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0012,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 0.796
+ },
+ {
+  "product_id": "6ac713dbfb1d11d19e0370dc",
+  "batch": "3",
+  "blueprint": 480,
+  "variants": {
+   "74633": {
+    "svg": "616802273599187d2f097be4",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 1320,
+    "H": 1320,
+    "placement": {
+     "x": 0.5008,
+     "y": 0.5,
+     "scale": 0.577,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 4.4,
+    "overflow_px": 0.0,
+    "raster_cell_px": 0.82,
+    "clearance_frac_short": 0.0034,
+    "src_print_ratio": 2.017
+   },
+   "71689": {
+    "svg": "62385047c0839f3a20295909",
+    "kind": "rect",
+    "n_polys": 1,
+    "W": 1200,
+    "H": 1200,
+    "placement": {
+     "x": 0.5008,
+     "y": 0.5,
+     "scale": 0.577,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 424.1,
+    "overflow_px": 0.0,
+    "raster_cell_px": 0.75,
+    "clearance_frac_short": 0.3534,
+    "src_print_ratio": 2.218
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0034,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 2.017
+ },
+ {
+  "product_id": "6ac71169336f8358660114b7",
+  "batch": "3",
+  "blueprint": 1245,
+  "variants": {
+   "94263": {
+    "svg": "634cf9633b2caa56520b27c6",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 525,
+    "H": 450,
+    "placement": {
+     "x": 0.5,
+     "y": 0.5,
+     "scale": 0.559,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 6.6,
+    "overflow_px": 0.0,
+    "raster_cell_px": 0.33,
+    "clearance_frac_short": 0.0146,
+    "src_print_ratio": 4.702
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0146,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 4.702
+ },
+ {
+  "product_id": "6ac7134eb814691321003867",
+  "batch": "3",
+  "blueprint": 5353,
+  "variants": {
+   "244227": {
+    "svg": "69946e4130234343580f4ae3",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3300,
+    "H": 3300,
+    "placement": {
+     "x": 0.5015,
+     "y": 0.504,
+     "scale": 0.661,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 4.1,
+    "overflow_px": 0.0,
+    "raster_cell_px": 2.06,
+    "clearance_frac_short": 0.0013,
+    "src_print_ratio": 0.704
+   },
+   "244228": {
+    "svg": "69946e42bd89474a4808f6a2",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3900,
+    "H": 3900,
+    "placement": {
+     "x": 0.5015,
+     "y": 0.504,
+     "scale": 0.661,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 63.4,
+    "overflow_px": 0.0,
+    "raster_cell_px": 2.44,
+    "clearance_frac_short": 0.0163,
+    "src_print_ratio": 0.596
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0013,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 0.596
+ },
+ {
+  "product_id": "6ac70260710be211d209a8e8",
+  "batch": "3",
+  "blueprint": 714,
+  "variants": {
+   "76173": {
+    "svg": "624192ad4a587253a80f38bf",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 1095,
+    "H": 1213,
+    "placement": {
+     "x": 0.53,
+     "y": 0.532,
+     "scale": 0.599,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 3.4,
+    "overflow_px": 0.0,
+    "raster_cell_px": 0.76,
+    "clearance_frac_short": 0.0031,
+    "src_print_ratio": 1.965
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0031,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 1.965
+ },
+ {
+  "product_id": "6ac7111435a66ab7dc0b0f4b",
+  "batch": "3",
+  "blueprint": 1245,
+  "variants": {
+   "94263": {
+    "svg": "634cf9633b2caa56520b27c6",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 525,
+    "H": 450,
+    "placement": {
+     "x": 0.5,
+     "y": 0.5,
+     "scale": 0.599,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 15.4,
+    "overflow_px": 0.0,
+    "raster_cell_px": 0.33,
+    "clearance_frac_short": 0.0343,
+    "src_print_ratio": 5.12
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0343,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 5.12
+ },
+ {
+  "product_id": "6ac7104435cf3f6ec802e97f",
+  "batch": "3",
+  "blueprint": 468,
+  "variants": {
+   "65045": {
+    "svg": "5e2560ba0cbde50a0854fc06",
+    "kind": "printify_print_outline",
+    "n_polys": 1,
+    "W": 2323,
+    "H": 846,
+    "placement": {
+     "x": 0.5007,
+     "y": 0.5,
+     "scale": 0.29,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 39.2,
+    "overflow_px": 0.0,
+    "raster_cell_px": 1.45,
+    "clearance_frac_short": 0.0463,
+    "src_print_ratio": 3.04
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0463,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 3.04
+ },
+ {
+  "product_id": "6ac710c77be9df884b032cfa",
+  "batch": "3",
+  "blueprint": 1245,
+  "variants": {
+   "94263": {
+    "svg": "634cf9633b2caa56520b27c6",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 525,
+    "H": 450,
+    "placement": {
+     "x": 0.5,
+     "y": 0.5,
+     "scale": 0.599,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 23.0,
+    "overflow_px": 0.0,
+    "raster_cell_px": 0.33,
+    "clearance_frac_short": 0.051,
+    "src_print_ratio": 5.015
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.051,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 5.015
+ },
+ {
+  "product_id": "6ac702d43fd8c86beb0f48b1",
+  "batch": "3",
+  "blueprint": 937,
+  "variants": {
+   "82220": {
+    "svg": "6297a692da5a4ace6e068750",
+    "kind": "rect(no svg)",
+    "n_polys": 1,
+    "W": 4800,
+    "H": 3600,
+    "placement": {
+     "x": 0.5001,
+     "y": 0.5,
+     "scale": 0.708,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 1081.9,
+    "overflow_px": 0.0,
+    "raster_cell_px": 3.0,
+    "clearance_frac_short": 0.3005,
+    "src_print_ratio": 0.603
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.3005,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 0.603
+ },
+ {
+  "product_id": "6ac710cd3925bc76b90371e9",
+  "batch": "3",
+  "blueprint": 1245,
+  "variants": {
+   "94263": {
+    "svg": "634cf9633b2caa56520b27c6",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 525,
+    "H": 450,
+    "placement": {
+     "x": 0.5,
+     "y": 0.5,
+     "scale": 0.608,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 25.6,
+    "overflow_px": 0.0,
+    "raster_cell_px": 0.33,
+    "clearance_frac_short": 0.0569,
+    "src_print_ratio": 5.357
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0569,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 5.357
+ },
+ {
+  "product_id": "6ac701d8fc9fb872c3014d6f",
+  "batch": "3",
+  "blueprint": 220,
+  "variants": {
+   "41524": {
+    "svg": "69e0a30db35edd4ec90c1b67",
+    "kind": "printify_safe_area",
+    "n_polys": 2,
+    "W": 5250,
+    "H": 2625,
+    "placement": {
+     "x": 0.2501,
+     "y": 0.5,
+     "scale": 0.438,
+     "angle": 0
+    },
+    "inside_union": 0.9999816409333749,
+    "inside_best_poly": 0.9999816409333749,
+    "clearance_px": 0.0,
+    "overflow_px": 6.6,
+    "raster_cell_px": 3.28,
+    "clearance_frac_short": 0.0,
+    "src_print_ratio": 0.891
+   }
+  },
+  "inside_min": 0.9999816409333749,
+  "inside_best_poly_min": 0.9999816409333749,
+  "clearance_frac_min": 0.0,
+  "overflow_cells_max": 2.0121951219512195,
+  "ratio_min": 0.891
+ },
+ {
+  "product_id": "6ac711302d1baaa3fd005785",
+  "batch": "3",
+  "blueprint": 1245,
+  "variants": {
+   "94263": {
+    "svg": "634cf9633b2caa56520b27c6",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 525,
+    "H": 450,
+    "placement": {
+     "x": 0.5,
+     "y": 0.5,
+     "scale": 0.599,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 14.1,
+    "overflow_px": 0.0,
+    "raster_cell_px": 0.33,
+    "clearance_frac_short": 0.0314,
+    "src_print_ratio": 5.107
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0314,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 5.107
+ },
+ {
+  "product_id": "6ac701e535cf3f6ec802e201",
+  "batch": "4",
+  "blueprint": 220,
+  "variants": {
+   "41524": {
+    "svg": "69e0a30db35edd4ec90c1b67",
+    "kind": "printify_safe_area",
+    "n_polys": 2,
+    "W": 5250,
+    "H": 2625,
+    "placement": {
+     "x": 0.2564,
+     "y": 0.5,
+     "scale": 0.425,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 9.8,
+    "overflow_px": 0.0,
+    "raster_cell_px": 3.28,
+    "clearance_frac_short": 0.0037,
+    "src_print_ratio": 0.918
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0037,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 0.918
+ },
+ {
+  "product_id": "6ac710de35a66ab7dc0b0f32",
+  "batch": "4",
+  "blueprint": 1327,
+  "variants": {
+   "100848": {
+    "svg": "651e6dd5800f54817403c68e",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 11100,
+    "H": 4126,
+    "placement": {
+     "x": 0.5,
+     "y": 0.5,
+     "scale": 0.237,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 27.8,
+    "overflow_px": 0.0,
+    "raster_cell_px": 6.94,
+    "clearance_frac_short": 0.0067,
+    "src_print_ratio": 0.557
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0067,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 0.557
+ },
+ {
+  "product_id": "6ac70276710be211d209a8fb",
+  "batch": "4",
+  "blueprint": 562,
+  "variants": {
+   "101404": {
+    "svg": "646cb0a87b2337657a065e64",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 4275,
+    "H": 2325,
+    "placement": {
+     "x": 0.5001,
+     "y": 0.408,
+     "scale": 0.31,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 5.3,
+    "overflow_px": 0.0,
+    "raster_cell_px": 2.67,
+    "clearance_frac_short": 0.0023,
+    "src_print_ratio": 1.545
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0023,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 1.545
+ },
+ {
+  "product_id": "6ac701f0826b7669c103bc52",
+  "batch": "4",
+  "blueprint": 220,
+  "variants": {
+   "41524": {
+    "svg": "69e0a30db35edd4ec90c1b67",
+    "kind": "printify_safe_area",
+    "n_polys": 2,
+    "W": 5250,
+    "H": 2625,
+    "placement": {
+     "x": 0.2539,
+     "y": 0.504,
+     "scale": 0.458,
+     "angle": 0
+    },
+    "inside_union": 0.9999740009879624,
+    "inside_best_poly": 0.9999740009879624,
+    "clearance_px": 3.3,
+    "overflow_px": 0.0,
+    "raster_cell_px": 3.28,
+    "clearance_frac_short": 0.0012,
+    "src_print_ratio": 0.852
+   }
+  },
+  "inside_min": 0.9999740009879624,
+  "inside_best_poly_min": 0.9999740009879624,
+  "clearance_frac_min": 0.0012,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 0.852
+ },
+ {
+  "product_id": "6ac710fa07e4149a0f000fbe",
+  "batch": "4",
+  "blueprint": 1327,
+  "variants": {
+   "100848": {
+    "svg": "651e6dd5800f54817403c68e",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 11100,
+    "H": 4126,
+    "placement": {
+     "x": 0.5003,
+     "y": 0.504,
+     "scale": 0.254,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 13.9,
+    "overflow_px": 0.0,
+    "raster_cell_px": 6.94,
+    "clearance_frac_short": 0.0034,
+    "src_print_ratio": 0.605
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0034,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 0.605
+ },
+ {
+  "product_id": "6ac710ff7be9df884b032d2f",
+  "batch": "4",
+  "blueprint": 1327,
+  "variants": {
+   "100848": {
+    "svg": "651e6dd5800f54817403c68e",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 11100,
+    "H": 4126,
+    "placement": {
+     "x": 0.5,
+     "y": 0.5,
+     "scale": 0.26,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 13.9,
+    "overflow_px": 0.0,
+    "raster_cell_px": 6.94,
+    "clearance_frac_short": 0.0034,
+    "src_print_ratio": 0.437
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0034,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 0.437
+ },
+ {
+  "product_id": "6ac7104c50fc6704d30bf873",
+  "batch": "4",
+  "blueprint": 468,
+  "variants": {
+   "65045": {
+    "svg": "5e2560ba0cbde50a0854fc06",
+    "kind": "printify_print_outline",
+    "n_polys": 1,
+    "W": 2323,
+    "H": 846,
+    "placement": {
+     "x": 0.4983,
+     "y": 0.488,
+     "scale": 0.441,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 40.7,
+    "overflow_px": 0.0,
+    "raster_cell_px": 1.45,
+    "clearance_frac_short": 0.0481,
+    "src_print_ratio": 1.999
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0481,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 1.999
+ },
+ {
+  "product_id": "6ac711f1b32a96bbe40d0ca2",
+  "batch": "4",
+  "blueprint": 643,
+  "variants": {
+   "74549": {
+    "svg": "61233bc0a4a0d55b4358c2a3",
+    "kind": "rect",
+    "n_polys": 1,
+    "W": 4800,
+    "H": 3450,
+    "placement": {
+     "x": 0.5,
+     "y": 0.5,
+     "scale": 0.602,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 1002.2,
+    "overflow_px": 0.0,
+    "raster_cell_px": 3.0,
+    "clearance_frac_short": 0.2905,
+    "src_print_ratio": 0.445
+   },
+   "74550": {
+    "svg": "61233bdca4a0d55b4358c2a6",
+    "kind": "rect",
+    "n_polys": 1,
+    "W": 3525,
+    "H": 2550,
+    "placement": {
+     "x": 0.5,
+     "y": 0.5,
+     "scale": 0.602,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 738.0,
+    "overflow_px": 0.0,
+    "raster_cell_px": 2.2,
+    "clearance_frac_short": 0.2894,
+    "src_print_ratio": 0.606
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.2894,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 0.445
+ },
+ {
+  "product_id": "6ac7164faa7a21cb900b4f01",
+  "batch": "4",
+  "blueprint": 429,
+  "variants": {
+   "62037": {
+    "svg": "5cc179989831ec000f7037d0",
+    "kind": "rect",
+    "n_polys": 1,
+    "W": 3600,
+    "H": 2700,
+    "placement": {
+     "x": 0.5,
+     "y": 0.5,
+     "scale": 0.6,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 770.5,
+    "overflow_px": 0.0,
+    "raster_cell_px": 2.25,
+    "clearance_frac_short": 0.2854,
+    "src_print_ratio": 0.595
+   },
+   "62038": {
+    "svg": "5cc179999831ec013d0e5d62",
+    "kind": "rect",
+    "n_polys": 1,
+    "W": 4125,
+    "H": 3000,
+    "placement": {
+     "x": 0.5,
+     "y": 0.5,
+     "scale": 0.6,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 871.1,
+    "overflow_px": 0.0,
+    "raster_cell_px": 2.58,
+    "clearance_frac_short": 0.2904,
+    "src_print_ratio": 0.519
+   },
+   "62039": {
+    "svg": "5cc179999831ec000e5b0cdc",
+    "kind": "rect",
+    "n_polys": 1,
+    "W": 4500,
+    "H": 3225,
+    "placement": {
+     "x": 0.5,
+     "y": 0.5,
+     "scale": 0.6,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 945.1,
+    "overflow_px": 0.0,
+    "raster_cell_px": 2.81,
+    "clearance_frac_short": 0.293,
+    "src_print_ratio": 0.476
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.2854,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 0.476
+ },
+ {
+  "product_id": "6ac7104f57527ce5fd01962f",
+  "batch": "4",
+  "blueprint": 468,
+  "variants": {
+   "65045": {
+    "svg": "5e2560ba0cbde50a0854fc06",
+    "kind": "printify_print_outline",
+    "n_polys": 1,
+    "W": 2323,
+    "H": 846,
+    "placement": {
+     "x": 0.4996,
+     "y": 0.492,
+     "scale": 0.421,
+     "angle": 0
+    },
+    "inside_union": 0.9999698377269711,
+    "inside_best_poly": 0.9999698377269711,
+    "clearance_px": 0.0,
+    "overflow_px": 5.2,
+    "raster_cell_px": 1.45,
+    "clearance_frac_short": 0.0,
+    "src_print_ratio": 2.094
+   }
+  },
+  "inside_min": 0.9999698377269711,
+  "inside_best_poly_min": 0.9999698377269711,
+  "clearance_frac_min": 0.0,
+  "overflow_cells_max": 3.586206896551724,
+  "ratio_min": 2.094
+ },
+ {
+  "product_id": "6ac710fdf0a0ce97bc0c91a0",
+  "batch": "4",
+  "blueprint": 1245,
+  "variants": {
+   "94263": {
+    "svg": "634cf9633b2caa56520b27c6",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 525,
+    "H": 450,
+    "placement": {
+     "x": 0.5,
+     "y": 0.5,
+     "scale": 0.513,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 4.3,
+    "overflow_px": 0.0,
+    "raster_cell_px": 0.33,
+    "clearance_frac_short": 0.0095,
+    "src_print_ratio": 4.682
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0095,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 4.682
+ },
+ {
+  "product_id": "6ac7132e57527ce5fd0197dc",
+  "batch": "4",
+  "blueprint": 5353,
+  "variants": {
+   "244224": {
+    "svg": "69946e3f595fab0ec705a662",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3000,
+    "H": 2100,
+    "placement": {
+     "x": 0.499,
+     "y": 0.5,
+     "scale": 0.592,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 7.5,
+    "overflow_px": 0.0,
+    "raster_cell_px": 1.88,
+    "clearance_frac_short": 0.0036,
+    "src_print_ratio": 1.153
+   },
+   "244226": {
+    "svg": "69946e419dcbe487bc02a352",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3000,
+    "H": 3000,
+    "placement": {
+     "x": 0.5,
+     "y": 0.5,
+     "scale": 0.9,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 69.4,
+    "overflow_px": 0.0,
+    "raster_cell_px": 1.88,
+    "clearance_frac_short": 0.0231,
+    "src_print_ratio": 0.759
+   },
+   "244227": {
+    "svg": "69946e4130234343580f4ae3",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3300,
+    "H": 3300,
+    "placement": {
+     "x": 0.5,
+     "y": 0.5,
+     "scale": 0.9,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 101.1,
+    "overflow_px": 0.0,
+    "raster_cell_px": 2.06,
+    "clearance_frac_short": 0.0306,
+    "src_print_ratio": 0.69
+   },
+   "244228": {
+    "svg": "69946e42bd89474a4808f6a2",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3900,
+    "H": 3900,
+    "placement": {
+     "x": 0.5,
+     "y": 0.5,
+     "scale": 0.9,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 177.9,
+    "overflow_px": 0.0,
+    "raster_cell_px": 2.44,
+    "clearance_frac_short": 0.0456,
+    "src_print_ratio": 0.583
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0036,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 0.583
+ },
+ {
+  "product_id": "6ac7112e7be9df884b032d48",
+  "batch": "4",
+  "blueprint": 636,
+  "variants": {
+   "72422": {
+    "svg": "60d9d85d31a2287af75d214c",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 1275,
+    "H": 1350,
+    "placement": {
+     "x": 0.5,
+     "y": 0.5,
+     "scale": 0.497,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 1.7,
+    "overflow_px": 0.0,
+    "raster_cell_px": 0.84,
+    "clearance_frac_short": 0.0013,
+    "src_print_ratio": 1.502
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0013,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 1.502
+ },
+ {
+  "product_id": "6ac71132a005c19c550d893c",
+  "batch": "4",
+  "blueprint": 636,
+  "variants": {
+   "72422": {
+    "svg": "60d9d85d31a2287af75d214c",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 1275,
+    "H": 1350,
+    "placement": {
+     "x": 0.5,
+     "y": 0.5,
+     "scale": 0.527,
+     "angle": 0
+    },
+    "inside_union": 0.9998004475675983,
+    "inside_best_poly": 0.9998004475675983,
+    "clearance_px": 0.0,
+    "overflow_px": 0.8,
+    "raster_cell_px": 0.84,
+    "clearance_frac_short": 0.0,
+    "src_print_ratio": 1.576
+   }
+  },
+  "inside_min": 0.9998004475675983,
+  "inside_best_poly_min": 0.9998004475675983,
+  "clearance_frac_min": 0.0,
+  "overflow_cells_max": 0.9523809523809524,
+  "ratio_min": 1.576
+ },
+ {
+  "product_id": "6ac712806356cae0df02e358",
+  "batch": "8",
+  "blueprint": 5353,
+  "variants": {
+   "244224": {
+    "svg": "69946e3f595fab0ec705a662",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3000,
+    "H": 2100,
+    "placement": {
+     "x": 0.4981,
+     "y": 0.496,
+     "scale": 0.538,
+     "angle": 0
+    },
+    "inside_union": 0.9997782675303034,
+    "inside_best_poly": 0.9997782675303034,
+    "clearance_px": 0.0,
+    "overflow_px": 1.9,
+    "raster_cell_px": 1.88,
+    "clearance_frac_short": 0.0,
+    "src_print_ratio": 1.269
+   },
+   "244226": {
+    "svg": "69946e419dcbe487bc02a352",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3000,
+    "H": 3000,
+    "placement": {
+     "x": 0.4981,
+     "y": 0.496,
+     "scale": 0.538,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 446.2,
+    "overflow_px": 0.0,
+    "raster_cell_px": 1.88,
+    "clearance_frac_short": 0.1487,
+    "src_print_ratio": 1.269
+   },
+   "244227": {
+    "svg": "69946e4130234343580f4ae3",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3300,
+    "H": 3300,
+    "placement": {
+     "x": 0.4981,
+     "y": 0.496,
+     "scale": 0.538,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 515.6,
+    "overflow_px": 0.0,
+    "raster_cell_px": 2.06,
+    "clearance_frac_short": 0.1562,
+    "src_print_ratio": 1.154
+   },
+   "244228": {
+    "svg": "69946e42bd89474a4808f6a2",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3900,
+    "H": 3900,
+    "placement": {
+     "x": 0.4981,
+     "y": 0.496,
+     "scale": 0.538,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 667.9,
+    "overflow_px": 0.0,
+    "raster_cell_px": 2.44,
+    "clearance_frac_short": 0.1713,
+    "src_print_ratio": 0.976
+   }
+  },
+  "inside_min": 0.9997782675303034,
+  "inside_best_poly_min": 0.9997782675303034,
+  "clearance_frac_min": 0.0,
+  "overflow_cells_max": 1.0106382978723405,
+  "ratio_min": 0.976
+ },
+ {
+  "product_id": "6ac723c37c04b79ced0ddfa3",
+  "batch": "8",
+  "blueprint": 430,
+  "variants": {
+   "62070": {
+    "svg": "64b52bf5ba0a73c4bd037817",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 519,
+    "H": 519,
+    "placement": {
+     "x": 0.5,
+     "y": 0.464,
+     "scale": 0.609,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 1.6,
+    "overflow_px": 0.0,
+    "raster_cell_px": 0.32,
+    "clearance_frac_short": 0.0031,
+    "src_print_ratio": 4.502
+   },
+   "62071": {
+    "svg": "64b52bfb9496dcb4f006aa43",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 788,
+    "H": 788,
+    "placement": {
+     "x": 0.5,
+     "y": 0.464,
+     "scale": 0.609,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 46.0,
+    "overflow_px": 0.0,
+    "raster_cell_px": 0.49,
+    "clearance_frac_short": 0.0584,
+    "src_print_ratio": 2.965
+   },
+   "67977": {
+    "svg": "64b52c02ba0a73c4bd03781d",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 1018,
+    "H": 1018,
+    "placement": {
+     "x": 0.5,
+     "y": 0.464,
+     "scale": 0.609,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 84.2,
+    "overflow_px": 0.0,
+    "raster_cell_px": 0.64,
+    "clearance_frac_short": 0.0827,
+    "src_print_ratio": 2.295
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0031,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 2.295
+ },
+ {
+  "product_id": "6ac71286b32a96bbe40d0cd8",
+  "batch": "8",
+  "blueprint": 5353,
+  "variants": {
+   "244224": {
+    "svg": "69946e3f595fab0ec705a662",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3000,
+    "H": 2100,
+    "placement": {
+     "x": 0.4995,
+     "y": 0.488,
+     "scale": 0.556,
+     "angle": 0
+    },
+    "inside_union": 0.9998651367974248,
+    "inside_best_poly": 0.9998651367974248,
+    "clearance_px": 1.9,
+    "overflow_px": 0.0,
+    "raster_cell_px": 1.88,
+    "clearance_frac_short": 0.0009,
+    "src_print_ratio": 1.228
+   },
+   "244226": {
+    "svg": "69946e419dcbe487bc02a352",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3000,
+    "H": 3000,
+    "placement": {
+     "x": 0.4995,
+     "y": 0.488,
+     "scale": 0.556,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 440.6,
+    "overflow_px": 0.0,
+    "raster_cell_px": 1.88,
+    "clearance_frac_short": 0.1469,
+    "src_print_ratio": 1.228
+   },
+   "244227": {
+    "svg": "69946e4130234343580f4ae3",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3300,
+    "H": 3300,
+    "placement": {
+     "x": 0.4995,
+     "y": 0.488,
+     "scale": 0.556,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 509.4,
+    "overflow_px": 0.0,
+    "raster_cell_px": 2.06,
+    "clearance_frac_short": 0.1544,
+    "src_print_ratio": 1.116
+   },
+   "244228": {
+    "svg": "69946e42bd89474a4808f6a2",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3900,
+    "H": 3900,
+    "placement": {
+     "x": 0.4995,
+     "y": 0.488,
+     "scale": 0.556,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 660.6,
+    "overflow_px": 0.0,
+    "raster_cell_px": 2.44,
+    "clearance_frac_short": 0.1694,
+    "src_print_ratio": 0.944
+   }
+  },
+  "inside_min": 0.9998651367974248,
+  "inside_best_poly_min": 0.9998651367974248,
+  "clearance_frac_min": 0.0009,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 0.944
+ },
+ {
+  "product_id": "6ac723c9c4090742a201b9c2",
+  "batch": "8",
+  "blueprint": 430,
+  "variants": {
+   "62070": {
+    "svg": "64b52bf5ba0a73c4bd037817",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 519,
+    "H": 519,
+    "placement": {
+     "x": 0.515,
+     "y": 0.54,
+     "scale": 0.633,
+     "angle": 0
+    },
+    "inside_union": 0.9999933868994478,
+    "inside_best_poly": 0.9999933868994478,
+    "clearance_px": 0.0,
+    "overflow_px": 0.3,
+    "raster_cell_px": 0.32,
+    "clearance_frac_short": 0.0,
+    "src_print_ratio": 4.928
+   },
+   "62071": {
+    "svg": "64b52bfb9496dcb4f006aa43",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 788,
+    "H": 788,
+    "placement": {
+     "x": 0.515,
+     "y": 0.54,
+     "scale": 0.633,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 44.0,
+    "overflow_px": 0.0,
+    "raster_cell_px": 0.49,
+    "clearance_frac_short": 0.0558,
+    "src_print_ratio": 3.246
+   },
+   "67977": {
+    "svg": "64b52c02ba0a73c4bd03781d",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 1018,
+    "H": 1018,
+    "placement": {
+     "x": 0.515,
+     "y": 0.54,
+     "scale": 0.633,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 81.1,
+    "overflow_px": 0.0,
+    "raster_cell_px": 0.64,
+    "clearance_frac_short": 0.0797,
+    "src_print_ratio": 2.512
+   }
+  },
+  "inside_min": 0.9999933868994478,
+  "inside_best_poly_min": 0.9999933868994478,
+  "clearance_frac_min": 0.0,
+  "overflow_cells_max": 0.9375,
+  "ratio_min": 2.512
+ },
+ {
+  "product_id": "6ac71467a005c19c550d8aaa",
+  "batch": "8",
+  "blueprint": 582,
+  "variants": {
+   "71665": {
+    "svg": "607d24b2dbfe0f0ad7611323",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 2625,
+    "H": 2625,
+    "placement": {
+     "x": 0.5,
+     "y": 0.5,
+     "scale": 0.65,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 109.4,
+    "overflow_px": 0.0,
+    "raster_cell_px": 1.64,
+    "clearance_frac_short": 0.0417,
+    "src_print_ratio": 0.949
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0417,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 0.949
+ },
+ {
+  "product_id": "6ac723fb1ec581a32d05974d",
+  "batch": "8",
+  "blueprint": 430,
+  "variants": {
+   "62070": {
+    "svg": "64b52bf5ba0a73c4bd037817",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 519,
+    "H": 519,
+    "placement": {
+     "x": 0.5,
+     "y": 0.584,
+     "scale": 0.428,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 1.9,
+    "overflow_px": 0.0,
+    "raster_cell_px": 0.32,
+    "clearance_frac_short": 0.0037,
+    "src_print_ratio": 4.857
+   },
+   "62071": {
+    "svg": "64b52bfb9496dcb4f006aa43",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 788,
+    "H": 788,
+    "placement": {
+     "x": 0.5,
+     "y": 0.584,
+     "scale": 0.428,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 46.8,
+    "overflow_px": 0.0,
+    "raster_cell_px": 0.49,
+    "clearance_frac_short": 0.0594,
+    "src_print_ratio": 3.199
+   },
+   "67977": {
+    "svg": "64b52c02ba0a73c4bd03781d",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 1018,
+    "H": 1018,
+    "placement": {
+     "x": 0.5,
+     "y": 0.584,
+     "scale": 0.428,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 85.3,
+    "overflow_px": 0.0,
+    "raster_cell_px": 0.64,
+    "clearance_frac_short": 0.0838,
+    "src_print_ratio": 2.476
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0037,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 2.476
+ },
+ {
+  "product_id": "6ac7241f738fa0f7e9064e4f",
+  "batch": "8",
+  "blueprint": 430,
+  "variants": {
+   "62070": {
+    "svg": "64b52bf5ba0a73c4bd037817",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 519,
+    "H": 519,
+    "placement": {
+     "x": 0.515,
+     "y": 0.544,
+     "scale": 0.486,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 0.6,
+    "overflow_px": 0.0,
+    "raster_cell_px": 0.32,
+    "clearance_frac_short": 0.0012,
+    "src_print_ratio": 4.928
+   },
+   "62071": {
+    "svg": "64b52bfb9496dcb4f006aa43",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 788,
+    "H": 788,
+    "placement": {
+     "x": 0.515,
+     "y": 0.544,
+     "scale": 0.486,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 44.9,
+    "overflow_px": 0.0,
+    "raster_cell_px": 0.49,
+    "clearance_frac_short": 0.0569,
+    "src_print_ratio": 3.246
+   },
+   "67977": {
+    "svg": "64b52c02ba0a73c4bd03781d",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 1018,
+    "H": 1018,
+    "placement": {
+     "x": 0.515,
+     "y": 0.544,
+     "scale": 0.486,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 82.7,
+    "overflow_px": 0.0,
+    "raster_cell_px": 0.64,
+    "clearance_frac_short": 0.0813,
+    "src_print_ratio": 2.512
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0012,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 2.512
+ },
+ {
+  "product_id": "6ac7148ba005c19c550d8aba",
+  "batch": "8",
+  "blueprint": 582,
+  "variants": {
+   "71665": {
+    "svg": "607d24b2dbfe0f0ad7611323",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 2625,
+    "H": 2625,
+    "placement": {
+     "x": 0.515,
+     "y": 0.552,
+     "scale": 0.62,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 9.8,
+    "overflow_px": 0.0,
+    "raster_cell_px": 1.64,
+    "clearance_frac_short": 0.0037,
+    "src_print_ratio": 0.764
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0037,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 0.764
+ },
+ {
+  "product_id": "6ac724253889391cc309c5f6",
+  "batch": "8",
+  "blueprint": 430,
+  "variants": {
+   "62070": {
+    "svg": "64b52bf5ba0a73c4bd037817",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 519,
+    "H": 519,
+    "placement": {
+     "x": 0.5,
+     "y": 0.476,
+     "scale": 0.554,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 1.4,
+    "overflow_px": 0.0,
+    "raster_cell_px": 0.32,
+    "clearance_frac_short": 0.0027,
+    "src_print_ratio": 6.782
+   },
+   "62071": {
+    "svg": "64b52bfb9496dcb4f006aa43",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 788,
+    "H": 788,
+    "placement": {
+     "x": 0.5,
+     "y": 0.476,
+     "scale": 0.554,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 46.0,
+    "overflow_px": 0.0,
+    "raster_cell_px": 0.49,
+    "clearance_frac_short": 0.0584,
+    "src_print_ratio": 4.467
+   },
+   "67977": {
+    "svg": "64b52c02ba0a73c4bd03781d",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 1018,
+    "H": 1018,
+    "placement": {
+     "x": 0.5,
+     "y": 0.476,
+     "scale": 0.554,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 84.2,
+    "overflow_px": 0.0,
+    "raster_cell_px": 0.64,
+    "clearance_frac_short": 0.0827,
+    "src_print_ratio": 3.458
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0027,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 3.458
+ },
+ {
+  "product_id": "6ac7242fd5899f19b40134d7",
+  "batch": "8",
+  "blueprint": 430,
+  "variants": {
+   "62070": {
+    "svg": "64b52bf5ba0a73c4bd037817",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 519,
+    "H": 519,
+    "placement": {
+     "x": 0.5,
+     "y": 0.464,
+     "scale": 0.517,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 0.9,
+    "overflow_px": 0.0,
+    "raster_cell_px": 0.32,
+    "clearance_frac_short": 0.0018,
+    "src_print_ratio": 4.599
+   },
+   "62071": {
+    "svg": "64b52bfb9496dcb4f006aa43",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 788,
+    "H": 788,
+    "placement": {
+     "x": 0.5,
+     "y": 0.464,
+     "scale": 0.517,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 44.9,
+    "overflow_px": 0.0,
+    "raster_cell_px": 0.49,
+    "clearance_frac_short": 0.0569,
+    "src_print_ratio": 3.029
+   },
+   "67977": {
+    "svg": "64b52c02ba0a73c4bd03781d",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 1018,
+    "H": 1018,
+    "placement": {
+     "x": 0.5,
+     "y": 0.464,
+     "scale": 0.517,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 82.6,
+    "overflow_px": 0.0,
+    "raster_cell_px": 0.64,
+    "clearance_frac_short": 0.0812,
+    "src_print_ratio": 2.345
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0018,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 2.345
+ },
+ {
+  "product_id": "6ac710084bfa32451c054918",
+  "batch": "9",
+  "blueprint": 468,
+  "variants": {
+   "65045": {
+    "svg": "5e2560ba0cbde50a0854fc06",
+    "kind": "printify_print_outline",
+    "n_polys": 1,
+    "W": 2323,
+    "H": 846,
+    "placement": {
+     "x": 0.5007,
+     "y": 0.48,
+     "scale": 0.302,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 40.7,
+    "overflow_px": 0.0,
+    "raster_cell_px": 1.45,
+    "clearance_frac_short": 0.0481,
+    "src_print_ratio": 2.426
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0481,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 2.426
+ },
+ {
+  "product_id": "6ac7126aed135347800f9b52",
+  "batch": "9",
+  "blueprint": 5353,
+  "variants": {
+   "244224": {
+    "svg": "69946e3f595fab0ec705a662",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3000,
+    "H": 2100,
+    "placement": {
+     "x": 0.5002,
+     "y": 0.5,
+     "scale": 0.588,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 5.6,
+    "overflow_px": 0.0,
+    "raster_cell_px": 1.88,
+    "clearance_frac_short": 0.0027,
+    "src_print_ratio": 1.161
+   },
+   "244226": {
+    "svg": "69946e419dcbe487bc02a352",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3000,
+    "H": 3000,
+    "placement": {
+     "x": 0.5002,
+     "y": 0.5,
+     "scale": 0.588,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 451.9,
+    "overflow_px": 0.0,
+    "raster_cell_px": 1.88,
+    "clearance_frac_short": 0.1506,
+    "src_print_ratio": 1.161
+   },
+   "244227": {
+    "svg": "69946e4130234343580f4ae3",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3300,
+    "H": 3300,
+    "placement": {
+     "x": 0.5002,
+     "y": 0.5,
+     "scale": 0.588,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 519.8,
+    "overflow_px": 0.0,
+    "raster_cell_px": 2.06,
+    "clearance_frac_short": 0.1575,
+    "src_print_ratio": 1.055
+   },
+   "244228": {
+    "svg": "69946e42bd89474a4808f6a2",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3900,
+    "H": 3900,
+    "placement": {
+     "x": 0.5002,
+     "y": 0.5,
+     "scale": 0.588,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 677.6,
+    "overflow_px": 0.0,
+    "raster_cell_px": 2.44,
+    "clearance_frac_short": 0.1737,
+    "src_print_ratio": 0.893
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0027,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 0.893
+ },
+ {
+  "product_id": "6ac712673925bc76b90372c5",
+  "batch": "9",
+  "blueprint": 5353,
+  "variants": {
+   "244224": {
+    "svg": "69946e3f595fab0ec705a662",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3000,
+    "H": 2100,
+    "placement": {
+     "x": 0.5001,
+     "y": 0.496,
+     "scale": 0.42,
+     "angle": 0
+    },
+    "inside_union": 0.9999589920239487,
+    "inside_best_poly": 0.9999589920239487,
+    "clearance_px": 0.0,
+    "overflow_px": 1.9,
+    "raster_cell_px": 1.88,
+    "clearance_frac_short": 0.0,
+    "src_print_ratio": 1.355
+   },
+   "244226": {
+    "svg": "69946e419dcbe487bc02a352",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3000,
+    "H": 3000,
+    "placement": {
+     "x": 0.5001,
+     "y": 0.496,
+     "scale": 0.42,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 446.2,
+    "overflow_px": 0.0,
+    "raster_cell_px": 1.88,
+    "clearance_frac_short": 0.1487,
+    "src_print_ratio": 1.355
+   },
+   "244227": {
+    "svg": "69946e4130234343580f4ae3",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3300,
+    "H": 3300,
+    "placement": {
+     "x": 0.5001,
+     "y": 0.496,
+     "scale": 0.42,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 515.6,
+    "overflow_px": 0.0,
+    "raster_cell_px": 2.06,
+    "clearance_frac_short": 0.1562,
+    "src_print_ratio": 1.232
+   },
+   "244228": {
+    "svg": "69946e42bd89474a4808f6a2",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3900,
+    "H": 3900,
+    "placement": {
+     "x": 0.5001,
+     "y": 0.496,
+     "scale": 0.42,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 667.9,
+    "overflow_px": 0.0,
+    "raster_cell_px": 2.44,
+    "clearance_frac_short": 0.1713,
+    "src_print_ratio": 1.042
+   }
+  },
+  "inside_min": 0.9999589920239487,
+  "inside_best_poly_min": 0.9999589920239487,
+  "clearance_frac_min": 0.0,
+  "overflow_cells_max": 1.0106382978723405,
+  "ratio_min": 1.042
+ },
+ {
+  "product_id": "6ac7125e07e4149a0f001078",
+  "batch": "9",
+  "blueprint": 468,
+  "variants": {
+   "65045": {
+    "svg": "5e2560ba0cbde50a0854fc06",
+    "kind": "printify_print_outline",
+    "n_polys": 1,
+    "W": 2323,
+    "H": 846,
+    "placement": {
+     "x": 0.5001,
+     "y": 0.5,
+     "scale": 0.298,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 40.7,
+    "overflow_px": 0.0,
+    "raster_cell_px": 1.45,
+    "clearance_frac_short": 0.0481,
+    "src_print_ratio": 2.958
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0481,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 2.958
+ },
+ {
+  "product_id": "6ac7101a050d0f25a7091893",
+  "batch": "9",
+  "blueprint": 468,
+  "variants": {
+   "65045": {
+    "svg": "5e2560ba0cbde50a0854fc06",
+    "kind": "printify_print_outline",
+    "n_polys": 1,
+    "W": 2323,
+    "H": 846,
+    "placement": {
+     "x": 0.5008,
+     "y": 0.48,
+     "scale": 0.333,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 40.7,
+    "overflow_px": 0.0,
+    "raster_cell_px": 1.45,
+    "clearance_frac_short": 0.0481,
+    "src_print_ratio": 2.648
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0481,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 2.648
+ },
+ {
+  "product_id": "6ac7126ea4c95c48e203624e",
+  "batch": "9",
+  "blueprint": 5353,
+  "variants": {
+   "244224": {
+    "svg": "69946e3f595fab0ec705a662",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3000,
+    "H": 2100,
+    "placement": {
+     "x": 0.5003,
+     "y": 0.5,
+     "scale": 0.677,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 5.6,
+    "overflow_px": 0.0,
+    "raster_cell_px": 1.88,
+    "clearance_frac_short": 0.0027,
+    "src_print_ratio": 1.008
+   },
+   "244226": {
+    "svg": "69946e419dcbe487bc02a352",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3000,
+    "H": 3000,
+    "placement": {
+     "x": 0.5003,
+     "y": 0.5,
+     "scale": 0.677,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 429.4,
+    "overflow_px": 0.0,
+    "raster_cell_px": 1.88,
+    "clearance_frac_short": 0.1431,
+    "src_print_ratio": 1.008
+   },
+   "244227": {
+    "svg": "69946e4130234343580f4ae3",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3300,
+    "H": 3300,
+    "placement": {
+     "x": 0.5003,
+     "y": 0.5,
+     "scale": 0.677,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 495.0,
+    "overflow_px": 0.0,
+    "raster_cell_px": 2.06,
+    "clearance_frac_short": 0.15,
+    "src_print_ratio": 0.917
+   },
+   "244228": {
+    "svg": "69946e42bd89474a4808f6a2",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3900,
+    "H": 3900,
+    "placement": {
+     "x": 0.5003,
+     "y": 0.5,
+     "scale": 0.677,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 648.4,
+    "overflow_px": 0.0,
+    "raster_cell_px": 2.44,
+    "clearance_frac_short": 0.1663,
+    "src_print_ratio": 0.776
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0027,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 0.776
+ },
+ {
+  "product_id": "6ac7101d7be9df884b032c75",
+  "batch": "9",
+  "blueprint": 468,
+  "variants": {
+   "65045": {
+    "svg": "5e2560ba0cbde50a0854fc06",
+    "kind": "printify_print_outline",
+    "n_polys": 1,
+    "W": 2323,
+    "H": 846,
+    "placement": {
+     "x": 0.5273,
+     "y": 0.492,
+     "scale": 0.338,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 40.7,
+    "overflow_px": 0.0,
+    "raster_cell_px": 1.45,
+    "clearance_frac_short": 0.0481,
+    "src_print_ratio": 2.608
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0481,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 2.608
+ },
+ {
+  "product_id": "6ac712710ed8f1657605f2b0",
+  "batch": "9",
+  "blueprint": 5353,
+  "variants": {
+   "244224": {
+    "svg": "69946e3f595fab0ec705a662",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3000,
+    "H": 2100,
+    "placement": {
+     "x": 0.4986,
+     "y": 0.492,
+     "scale": 0.656,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 3.8,
+    "overflow_px": 0.0,
+    "raster_cell_px": 1.88,
+    "clearance_frac_short": 0.0018,
+    "src_print_ratio": 1.041
+   },
+   "244226": {
+    "svg": "69946e419dcbe487bc02a352",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3000,
+    "H": 3000,
+    "placement": {
+     "x": 0.4986,
+     "y": 0.492,
+     "scale": 0.656,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 446.2,
+    "overflow_px": 0.0,
+    "raster_cell_px": 1.88,
+    "clearance_frac_short": 0.1487,
+    "src_print_ratio": 1.041
+   },
+   "244227": {
+    "svg": "69946e4130234343580f4ae3",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3300,
+    "H": 3300,
+    "placement": {
+     "x": 0.4986,
+     "y": 0.492,
+     "scale": 0.656,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 515.6,
+    "overflow_px": 0.0,
+    "raster_cell_px": 2.06,
+    "clearance_frac_short": 0.1562,
+    "src_print_ratio": 0.946
+   },
+   "244228": {
+    "svg": "69946e42bd89474a4808f6a2",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3900,
+    "H": 3900,
+    "placement": {
+     "x": 0.4986,
+     "y": 0.492,
+     "scale": 0.656,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 667.9,
+    "overflow_px": 0.0,
+    "raster_cell_px": 2.44,
+    "clearance_frac_short": 0.1713,
+    "src_print_ratio": 0.801
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0018,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 0.801
+ },
+ {
+  "product_id": "6ac7127507e4149a0f001089",
+  "batch": "9",
+  "blueprint": 5353,
+  "variants": {
+   "244224": {
+    "svg": "69946e3f595fab0ec705a662",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3000,
+    "H": 2100,
+    "placement": {
+     "x": 0.5,
+     "y": 0.5,
+     "scale": 0.439,
+     "angle": 0
+    },
+    "inside_union": 0.9999709997224259,
+    "inside_best_poly": 0.9999709997224259,
+    "clearance_px": 1.9,
+    "overflow_px": 0.0,
+    "raster_cell_px": 1.88,
+    "clearance_frac_short": 0.0009,
+    "src_print_ratio": 1.024
+   },
+   "244226": {
+    "svg": "69946e419dcbe487bc02a352",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3000,
+    "H": 3000,
+    "placement": {
+     "x": 0.5,
+     "y": 0.5,
+     "scale": 0.439,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 451.9,
+    "overflow_px": 0.0,
+    "raster_cell_px": 1.88,
+    "clearance_frac_short": 0.1506,
+    "src_print_ratio": 1.024
+   },
+   "244227": {
+    "svg": "69946e4130234343580f4ae3",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3300,
+    "H": 3300,
+    "placement": {
+     "x": 0.5,
+     "y": 0.5,
+     "scale": 0.439,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 521.8,
+    "overflow_px": 0.0,
+    "raster_cell_px": 2.06,
+    "clearance_frac_short": 0.1581,
+    "src_print_ratio": 0.931
+   },
+   "244228": {
+    "svg": "69946e42bd89474a4808f6a2",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3900,
+    "H": 3900,
+    "placement": {
+     "x": 0.5,
+     "y": 0.5,
+     "scale": 0.439,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 680.1,
+    "overflow_px": 0.0,
+    "raster_cell_px": 2.44,
+    "clearance_frac_short": 0.1744,
+    "src_print_ratio": 0.788
+   }
+  },
+  "inside_min": 0.9999709997224259,
+  "inside_best_poly_min": 0.9999709997224259,
+  "clearance_frac_min": 0.0009,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 0.788
+ },
+ {
+  "product_id": "6ac702c1826b7669c103bcbf",
+  "batch": "9",
+  "blueprint": 507,
+  "variants": {
+   "80814": {
+    "svg": "67e6bbf099bd8aa7b607ded2",
+    "kind": "printify_safe_area",
+    "n_polys": 2,
+    "W": 2102,
+    "H": 4051,
+    "placement": {
+     "x": 0.5,
+     "y": 0.26,
+     "scale": 0.677,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 10.1,
+    "overflow_px": 0.0,
+    "raster_cell_px": 2.53,
+    "clearance_frac_short": 0.0048,
+    "src_print_ratio": 1.2
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0048,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 1.2
+ },
+ {
+  "product_id": "6ac7103657527ce5fd01961c",
+  "batch": "9",
+  "blueprint": 468,
+  "variants": {
+   "65045": {
+    "svg": "5e2560ba0cbde50a0854fc06",
+    "kind": "printify_print_outline",
+    "n_polys": 1,
+    "W": 2323,
+    "H": 846,
+    "placement": {
+     "x": 0.4998,
+     "y": 0.508,
+     "scale": 0.265,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 40.7,
+    "overflow_px": 0.0,
+    "raster_cell_px": 1.45,
+    "clearance_frac_short": 0.0481,
+    "src_print_ratio": 3.327
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0481,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 3.327
+ },
+ {
+  "product_id": "6ac7128a46dd1e896e04e14d",
+  "batch": "9",
+  "blueprint": 5353,
+  "variants": {
+   "244224": {
+    "svg": "69946e3f595fab0ec705a662",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3000,
+    "H": 2100,
+    "placement": {
+     "x": 0.4999,
+     "y": 0.504,
+     "scale": 0.508,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 3.8,
+    "overflow_px": 0.0,
+    "raster_cell_px": 1.88,
+    "clearance_frac_short": 0.0018,
+    "src_print_ratio": 1.344
+   },
+   "244226": {
+    "svg": "69946e419dcbe487bc02a352",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3000,
+    "H": 3000,
+    "placement": {
+     "x": 0.4999,
+     "y": 0.504,
+     "scale": 0.508,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 455.6,
+    "overflow_px": 0.0,
+    "raster_cell_px": 1.88,
+    "clearance_frac_short": 0.1519,
+    "src_print_ratio": 1.344
+   },
+   "244227": {
+    "svg": "69946e4130234343580f4ae3",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3300,
+    "H": 3300,
+    "placement": {
+     "x": 0.4999,
+     "y": 0.504,
+     "scale": 0.508,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 525.9,
+    "overflow_px": 0.0,
+    "raster_cell_px": 2.06,
+    "clearance_frac_short": 0.1594,
+    "src_print_ratio": 1.222
+   },
+   "244228": {
+    "svg": "69946e42bd89474a4808f6a2",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3900,
+    "H": 3900,
+    "placement": {
+     "x": 0.4999,
+     "y": 0.504,
+     "scale": 0.508,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 682.5,
+    "overflow_px": 0.0,
+    "raster_cell_px": 2.44,
+    "clearance_frac_short": 0.175,
+    "src_print_ratio": 1.034
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0018,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 1.034
+ },
+ {
+  "product_id": "6ac7103a35cf3f6ec802e973",
+  "batch": "9",
+  "blueprint": 468,
+  "variants": {
+   "65045": {
+    "svg": "5e2560ba0cbde50a0854fc06",
+    "kind": "printify_print_outline",
+    "n_polys": 1,
+    "W": 2323,
+    "H": 846,
+    "placement": {
+     "x": 0.4995,
+     "y": 0.496,
+     "scale": 0.29,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 39.2,
+    "overflow_px": 0.0,
+    "raster_cell_px": 1.45,
+    "clearance_frac_short": 0.0463,
+    "src_print_ratio": 3.04
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0463,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 3.04
+ },
+ {
+  "product_id": "6ac7128db32a96bbe40d0cdc",
+  "batch": "9",
+  "blueprint": 5353,
+  "variants": {
+   "244224": {
+    "svg": "69946e3f595fab0ec705a662",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3000,
+    "H": 2100,
+    "placement": {
+     "x": 0.4997,
+     "y": 0.496,
+     "scale": 0.56,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 3.8,
+    "overflow_px": 0.0,
+    "raster_cell_px": 1.88,
+    "clearance_frac_short": 0.0018,
+    "src_print_ratio": 1.219
+   },
+   "244226": {
+    "svg": "69946e419dcbe487bc02a352",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3000,
+    "H": 3000,
+    "placement": {
+     "x": 0.4997,
+     "y": 0.496,
+     "scale": 0.56,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 450.0,
+    "overflow_px": 0.0,
+    "raster_cell_px": 1.88,
+    "clearance_frac_short": 0.15,
+    "src_print_ratio": 1.219
+   },
+   "244227": {
+    "svg": "69946e4130234343580f4ae3",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3300,
+    "H": 3300,
+    "placement": {
+     "x": 0.4997,
+     "y": 0.496,
+     "scale": 0.56,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 519.8,
+    "overflow_px": 0.0,
+    "raster_cell_px": 2.06,
+    "clearance_frac_short": 0.1575,
+    "src_print_ratio": 1.108
+   },
+   "244228": {
+    "svg": "69946e42bd89474a4808f6a2",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3900,
+    "H": 3900,
+    "placement": {
+     "x": 0.4997,
+     "y": 0.496,
+     "scale": 0.56,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 672.8,
+    "overflow_px": 0.0,
+    "raster_cell_px": 2.44,
+    "clearance_frac_short": 0.1725,
+    "src_print_ratio": 0.938
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0018,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 0.938
+ },
+ {
+  "product_id": "6ac712c0b32a96bbe40d0cf2",
+  "batch": "9",
+  "blueprint": 5353,
+  "variants": {
+   "244224": {
+    "svg": "69946e3f595fab0ec705a662",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3000,
+    "H": 2100,
+    "placement": {
+     "x": 0.4987,
+     "y": 0.5,
+     "scale": 0.694,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 11.2,
+    "overflow_px": 0.0,
+    "raster_cell_px": 1.88,
+    "clearance_frac_short": 0.0054,
+    "src_print_ratio": 0.984
+   },
+   "244226": {
+    "svg": "69946e419dcbe487bc02a352",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3000,
+    "H": 3000,
+    "placement": {
+     "x": 0.4987,
+     "y": 0.5,
+     "scale": 0.694,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 326.2,
+    "overflow_px": 0.0,
+    "raster_cell_px": 1.88,
+    "clearance_frac_short": 0.1087,
+    "src_print_ratio": 0.984
+   },
+   "244227": {
+    "svg": "69946e4130234343580f4ae3",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3300,
+    "H": 3300,
+    "placement": {
+     "x": 0.4987,
+     "y": 0.5,
+     "scale": 0.694,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 385.7,
+    "overflow_px": 0.0,
+    "raster_cell_px": 2.06,
+    "clearance_frac_short": 0.1169,
+    "src_print_ratio": 0.894
+   },
+   "244228": {
+    "svg": "69946e42bd89474a4808f6a2",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3900,
+    "H": 3900,
+    "placement": {
+     "x": 0.4987,
+     "y": 0.5,
+     "scale": 0.694,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 514.3,
+    "overflow_px": 0.0,
+    "raster_cell_px": 2.44,
+    "clearance_frac_short": 0.1319,
+    "src_print_ratio": 0.757
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0054,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 0.757
+ },
+ {
+  "product_id": "6ac712c70ed8f1657605f2cb",
+  "batch": "9",
+  "blueprint": 5353,
+  "variants": {
+   "244224": {
+    "svg": "69946e3f595fab0ec705a662",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3000,
+    "H": 2100,
+    "placement": {
+     "x": 0.5003,
+     "y": 0.492,
+     "scale": 0.554,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 3.8,
+    "overflow_px": 0.0,
+    "raster_cell_px": 1.88,
+    "clearance_frac_short": 0.0018,
+    "src_print_ratio": 1.232
+   },
+   "244226": {
+    "svg": "69946e419dcbe487bc02a352",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3000,
+    "H": 3000,
+    "placement": {
+     "x": 0.5003,
+     "y": 0.492,
+     "scale": 0.554,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 446.2,
+    "overflow_px": 0.0,
+    "raster_cell_px": 1.88,
+    "clearance_frac_short": 0.1487,
+    "src_print_ratio": 1.232
+   },
+   "244227": {
+    "svg": "69946e4130234343580f4ae3",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3300,
+    "H": 3300,
+    "placement": {
+     "x": 0.5003,
+     "y": 0.492,
+     "scale": 0.554,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 515.6,
+    "overflow_px": 0.0,
+    "raster_cell_px": 2.06,
+    "clearance_frac_short": 0.1562,
+    "src_print_ratio": 1.12
+   },
+   "244228": {
+    "svg": "69946e42bd89474a4808f6a2",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3900,
+    "H": 3900,
+    "placement": {
+     "x": 0.5003,
+     "y": 0.492,
+     "scale": 0.554,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 667.9,
+    "overflow_px": 0.0,
+    "raster_cell_px": 2.44,
+    "clearance_frac_short": 0.1713,
+    "src_print_ratio": 0.948
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0018,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 0.948
+ },
+ {
+  "product_id": "6ac7129707e4149a0f00109b",
+  "batch": "9",
+  "blueprint": 5353,
+  "variants": {
+   "244224": {
+    "svg": "69946e3f595fab0ec705a662",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3000,
+    "H": 2100,
+    "placement": {
+     "x": 0.5004,
+     "y": 0.5,
+     "scale": 0.555,
+     "angle": 0
+    },
+    "inside_union": 0.9999894652009249,
+    "inside_best_poly": 0.9999894652009249,
+    "clearance_px": 0.0,
+    "overflow_px": 1.9,
+    "raster_cell_px": 1.88,
+    "clearance_frac_short": 0.0,
+    "src_print_ratio": 1.23
+   },
+   "244226": {
+    "svg": "69946e419dcbe487bc02a352",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3000,
+    "H": 3000,
+    "placement": {
+     "x": 0.5004,
+     "y": 0.5,
+     "scale": 0.555,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 450.0,
+    "overflow_px": 0.0,
+    "raster_cell_px": 1.88,
+    "clearance_frac_short": 0.15,
+    "src_print_ratio": 1.23
+   },
+   "244227": {
+    "svg": "69946e4130234343580f4ae3",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3300,
+    "H": 3300,
+    "placement": {
+     "x": 0.5004,
+     "y": 0.5,
+     "scale": 0.555,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 519.8,
+    "overflow_px": 0.0,
+    "raster_cell_px": 2.06,
+    "clearance_frac_short": 0.1575,
+    "src_print_ratio": 1.118
+   },
+   "244228": {
+    "svg": "69946e42bd89474a4808f6a2",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3900,
+    "H": 3900,
+    "placement": {
+     "x": 0.5004,
+     "y": 0.5,
+     "scale": 0.555,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 677.6,
+    "overflow_px": 0.0,
+    "raster_cell_px": 2.44,
+    "clearance_frac_short": 0.1737,
+    "src_print_ratio": 0.946
+   }
+  },
+  "inside_min": 0.9999894652009249,
+  "inside_best_poly_min": 0.9999894652009249,
+  "clearance_frac_min": 0.0,
+  "overflow_cells_max": 1.0106382978723405,
+  "ratio_min": 0.946
+ },
+ {
+  "product_id": "6ac7129bfa3cae10170efaee",
+  "batch": "9",
+  "blueprint": 5353,
+  "variants": {
+   "244224": {
+    "svg": "69946e3f595fab0ec705a662",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3000,
+    "H": 2100,
+    "placement": {
+     "x": 0.5001,
+     "y": 0.5,
+     "scale": 0.526,
+     "angle": 0
+    },
+    "inside_union": 0.9999724614000625,
+    "inside_best_poly": 0.9999724614000625,
+    "clearance_px": 0.0,
+    "overflow_px": 5.6,
+    "raster_cell_px": 1.88,
+    "clearance_frac_short": 0.0,
+    "src_print_ratio": 1.298
+   },
+   "244226": {
+    "svg": "69946e419dcbe487bc02a352",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3000,
+    "H": 3000,
+    "placement": {
+     "x": 0.5001,
+     "y": 0.5,
+     "scale": 0.526,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 446.2,
+    "overflow_px": 0.0,
+    "raster_cell_px": 1.88,
+    "clearance_frac_short": 0.1487,
+    "src_print_ratio": 1.298
+   },
+   "244227": {
+    "svg": "69946e4130234343580f4ae3",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3300,
+    "H": 3300,
+    "placement": {
+     "x": 0.5001,
+     "y": 0.5,
+     "scale": 0.526,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 515.6,
+    "overflow_px": 0.0,
+    "raster_cell_px": 2.06,
+    "clearance_frac_short": 0.1562,
+    "src_print_ratio": 1.18
+   },
+   "244228": {
+    "svg": "69946e42bd89474a4808f6a2",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3900,
+    "H": 3900,
+    "placement": {
+     "x": 0.5001,
+     "y": 0.5,
+     "scale": 0.526,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 672.8,
+    "overflow_px": 0.0,
+    "raster_cell_px": 2.44,
+    "clearance_frac_short": 0.1725,
+    "src_print_ratio": 0.998
+   }
+  },
+  "inside_min": 0.9999724614000625,
+  "inside_best_poly_min": 0.9999724614000625,
+  "clearance_frac_min": 0.0,
+  "overflow_cells_max": 2.978723404255319,
+  "ratio_min": 0.998
+ },
+ {
+  "product_id": "6ac712d542c818a1ad095f7d",
+  "batch": "10",
+  "blueprint": 5353,
+  "variants": {
+   "244224": {
+    "svg": "69946e3f595fab0ec705a662",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3000,
+    "H": 2100,
+    "placement": {
+     "x": 0.5,
+     "y": 0.5,
+     "scale": 0.389,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 9.4,
+    "overflow_px": 0.0,
+    "raster_cell_px": 1.88,
+    "clearance_frac_short": 0.0045,
+    "src_print_ratio": 1.256
+   },
+   "244226": {
+    "svg": "69946e419dcbe487bc02a352",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3000,
+    "H": 3000,
+    "placement": {
+     "x": 0.5,
+     "y": 0.5,
+     "scale": 0.623,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 13.1,
+    "overflow_px": 0.0,
+    "raster_cell_px": 1.88,
+    "clearance_frac_short": 0.0044,
+    "src_print_ratio": 0.784
+   },
+   "244227": {
+    "svg": "69946e4130234343580f4ae3",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3300,
+    "H": 3300,
+    "placement": {
+     "x": 0.5,
+     "y": 0.5,
+     "scale": 0.633,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 18.6,
+    "overflow_px": 0.0,
+    "raster_cell_px": 2.06,
+    "clearance_frac_short": 0.0056,
+    "src_print_ratio": 0.702
+   },
+   "244228": {
+    "svg": "69946e42bd89474a4808f6a2",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3900,
+    "H": 3900,
+    "placement": {
+     "x": 0.5,
+     "y": 0.5,
+     "scale": 0.659,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 21.9,
+    "overflow_px": 0.0,
+    "raster_cell_px": 2.44,
+    "clearance_frac_short": 0.0056,
+    "src_print_ratio": 0.57
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0044,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 0.57
+ },
+ {
+  "product_id": "6ac712dc2d1baaa3fd005830",
+  "batch": "10",
+  "blueprint": 5353,
+  "variants": {
+   "244224": {
+    "svg": "69946e3f595fab0ec705a662",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3000,
+    "H": 2100,
+    "placement": {
+     "x": 0.5002,
+     "y": 0.5,
+     "scale": 0.551,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 5.6,
+    "overflow_px": 0.0,
+    "raster_cell_px": 1.88,
+    "clearance_frac_short": 0.0027,
+    "src_print_ratio": 1.239
+   },
+   "244226": {
+    "svg": "69946e419dcbe487bc02a352",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3000,
+    "H": 3000,
+    "placement": {
+     "x": 0.5,
+     "y": 0.5,
+     "scale": 0.88,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 9.4,
+    "overflow_px": 0.0,
+    "raster_cell_px": 1.88,
+    "clearance_frac_short": 0.0031,
+    "src_print_ratio": 0.776
+   },
+   "244227": {
+    "svg": "69946e4130234343580f4ae3",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3300,
+    "H": 3300,
+    "placement": {
+     "x": 0.5,
+     "y": 0.5,
+     "scale": 0.898,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 8.2,
+    "overflow_px": 0.0,
+    "raster_cell_px": 2.06,
+    "clearance_frac_short": 0.0025,
+    "src_print_ratio": 0.691
+   },
+   "244228": {
+    "svg": "69946e42bd89474a4808f6a2",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3900,
+    "H": 3900,
+    "placement": {
+     "x": 0.5,
+     "y": 0.5,
+     "scale": 0.9,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 65.8,
+    "overflow_px": 0.0,
+    "raster_cell_px": 2.44,
+    "clearance_frac_short": 0.0169,
+    "src_print_ratio": 0.583
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0025,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 0.583
+ },
+ {
+  "product_id": "6ac712df6f976358160c47cc",
+  "batch": "10",
+  "blueprint": 5353,
+  "variants": {
+   "244224": {
+    "svg": "69946e3f595fab0ec705a662",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3000,
+    "H": 2100,
+    "placement": {
+     "x": 0.5008,
+     "y": 0.5,
+     "scale": 0.419,
+     "angle": 0
+    },
+    "inside_union": 0.99997770601237,
+    "inside_best_poly": 0.99997770601237,
+    "clearance_px": 1.9,
+    "overflow_px": 0.0,
+    "raster_cell_px": 1.88,
+    "clearance_frac_short": 0.0009,
+    "src_print_ratio": 1.358
+   },
+   "244226": {
+    "svg": "69946e419dcbe487bc02a352",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3000,
+    "H": 3000,
+    "placement": {
+     "x": 0.5004,
+     "y": 0.5,
+     "scale": 0.669,
+     "angle": 0
+    },
+    "inside_union": 0.99997770601237,
+    "inside_best_poly": 0.99997770601237,
+    "clearance_px": 1.9,
+    "overflow_px": 0.0,
+    "raster_cell_px": 1.88,
+    "clearance_frac_short": 0.0006,
+    "src_print_ratio": 0.851
+   },
+   "244227": {
+    "svg": "69946e4130234343580f4ae3",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3300,
+    "H": 3300,
+    "placement": {
+     "x": 0.5004,
+     "y": 0.5,
+     "scale": 0.683,
+     "angle": 0
+    },
+    "inside_union": 0.99997770601237,
+    "inside_best_poly": 0.99997770601237,
+    "clearance_px": 0.0,
+    "overflow_px": 2.1,
+    "raster_cell_px": 2.06,
+    "clearance_frac_short": 0.0,
+    "src_print_ratio": 0.757
+   },
+   "244228": {
+    "svg": "69946e42bd89474a4808f6a2",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3900,
+    "H": 3900,
+    "placement": {
+     "x": 0.5003,
+     "y": 0.5,
+     "scale": 0.708,
+     "angle": 0
+    },
+    "inside_union": 0.99997770601237,
+    "inside_best_poly": 0.99997770601237,
+    "clearance_px": 0.0,
+    "overflow_px": 2.4,
+    "raster_cell_px": 2.44,
+    "clearance_frac_short": 0.0,
+    "src_print_ratio": 0.618
+   }
+  },
+  "inside_min": 0.99997770601237,
+  "inside_best_poly_min": 0.99997770601237,
+  "clearance_frac_min": 0.0,
+  "overflow_cells_max": 1.0194174757281553,
+  "ratio_min": 0.618
+ },
+ {
+  "product_id": "6ac7126c57527ce5fd01976a",
+  "batch": "10",
+  "blueprint": 1327,
+  "variants": {
+   "100848": {
+    "svg": "651e6dd5800f54817403c68e",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 11100,
+    "H": 4126,
+    "placement": {
+     "x": 0.5,
+     "y": 0.5,
+     "scale": 0.261,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 13.9,
+    "overflow_px": 0.0,
+    "raster_cell_px": 6.94,
+    "clearance_frac_short": 0.0034,
+    "src_print_ratio": 0.436
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0034,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 0.436
+ },
+ {
+  "product_id": "6ac712ac42c818a1ad095f6c",
+  "batch": "10",
+  "blueprint": 5353,
+  "variants": {
+   "244224": {
+    "svg": "69946e3f595fab0ec705a662",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3000,
+    "H": 2100,
+    "placement": {
+     "x": 0.4998,
+     "y": 0.5,
+     "scale": 0.536,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 5.6,
+    "overflow_px": 0.0,
+    "raster_cell_px": 1.88,
+    "clearance_frac_short": 0.0027,
+    "src_print_ratio": 1.274
+   },
+   "244226": {
+    "svg": "69946e419dcbe487bc02a352",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3000,
+    "H": 3000,
+    "placement": {
+     "x": 0.5,
+     "y": 0.5,
+     "scale": 0.856,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 9.4,
+    "overflow_px": 0.0,
+    "raster_cell_px": 1.88,
+    "clearance_frac_short": 0.0031,
+    "src_print_ratio": 0.798
+   },
+   "244227": {
+    "svg": "69946e4130234343580f4ae3",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3300,
+    "H": 3300,
+    "placement": {
+     "x": 0.5,
+     "y": 0.5,
+     "scale": 0.874,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 6.2,
+    "overflow_px": 0.0,
+    "raster_cell_px": 2.06,
+    "clearance_frac_short": 0.0019,
+    "src_print_ratio": 0.71
+   },
+   "244228": {
+    "svg": "69946e42bd89474a4808f6a2",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3900,
+    "H": 3900,
+    "placement": {
+     "x": 0.5,
+     "y": 0.5,
+     "scale": 0.9,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 19.5,
+    "overflow_px": 0.0,
+    "raster_cell_px": 2.44,
+    "clearance_frac_short": 0.005,
+    "src_print_ratio": 0.583
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0019,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 0.583
+ },
+ {
+  "product_id": "6ac712af6027ad007d0e7de0",
+  "batch": "10",
+  "blueprint": 5353,
+  "variants": {
+   "244224": {
+    "svg": "69946e3f595fab0ec705a662",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3000,
+    "H": 2100,
+    "placement": {
+     "x": 0.501,
+     "y": 0.496,
+     "scale": 0.568,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 3.8,
+    "overflow_px": 0.0,
+    "raster_cell_px": 1.88,
+    "clearance_frac_short": 0.0018,
+    "src_print_ratio": 1.202
+   },
+   "244226": {
+    "svg": "69946e419dcbe487bc02a352",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3000,
+    "H": 3000,
+    "placement": {
+     "x": 0.5,
+     "y": 0.5,
+     "scale": 0.9,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 5.6,
+    "overflow_px": 0.0,
+    "raster_cell_px": 1.88,
+    "clearance_frac_short": 0.0019,
+    "src_print_ratio": 0.759
+   },
+   "244227": {
+    "svg": "69946e4130234343580f4ae3",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3300,
+    "H": 3300,
+    "placement": {
+     "x": 0.5,
+     "y": 0.496,
+     "scale": 0.9,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 43.3,
+    "overflow_px": 0.0,
+    "raster_cell_px": 2.06,
+    "clearance_frac_short": 0.0131,
+    "src_print_ratio": 0.69
+   },
+   "244228": {
+    "svg": "69946e42bd89474a4808f6a2",
+    "kind": "printify_safe_area",
+    "n_polys": 1,
+    "W": 3900,
+    "H": 3900,
+    "placement": {
+     "x": 0.5,
+     "y": 0.5,
+     "scale": 0.9,
+     "angle": 0
+    },
+    "inside_union": 1.0,
+    "inside_best_poly": 1.0,
+    "clearance_px": 99.9,
+    "overflow_px": 0.0,
+    "raster_cell_px": 2.44,
+    "clearance_frac_short": 0.0256,
+    "src_print_ratio": 0.583
+   }
+  },
+  "inside_min": 1.0,
+  "inside_best_poly_min": 1.0,
+  "clearance_frac_min": 0.0018,
+  "overflow_cells_max": 0.0,
+  "ratio_min": 0.583
+ }
+]

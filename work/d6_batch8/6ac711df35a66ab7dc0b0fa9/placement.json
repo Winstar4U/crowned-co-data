@@ -1,0 +1,74 @@
+{
+ "product_id": "6ac711df35a66ab7dc0b0fa9",
+ "shop_id": "26418699",
+ "title": "\"Joy To World Christian\" Christmas Wine Tumbler \u2014 Funny 12oz Holiday Tumbler, Holiday Gift | Winstar4U",
+ "blueprint_id": 1515,
+ "print_provider_id": 217,
+ "position": "drinkware_front",
+ "image_id": "6ac4f0dbd82adc37bd803971",
+ "image_name": "faith-joy-to-world-christian.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/35f4b17a-0194-4442-b825-008946d49929",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "engraving",
+ "visible": true,
+ "updated_at": "2026-10-09 01:29:43+00:00",
+ "defect_cause": "other",
+ "defect_note": "DEFECT: banner subtitle illegible (silver-on-silver engraving)",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 1.15,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.1211,
+  0.0513,
+  0.8813,
+  0.9497
+ ],
+ "contrast_vs_iron_gray": 0.22,
+ "current_content_box_in_placeholder": [
+  0.0643,
+  0.0562,
+  0.9385,
+  0.9448
+ ],
+ "current_inside_safe_frac": {
+  "109128": 1.0
+ },
+ "effective_px_ratio_after": 2.761,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 1.15,
+  "angle": 0
+ },
+ "placeholders": {
+  "109128": [
+   645,
+   750
+  ]
+ },
+ "safe_area_source": {
+  "109128": "rect"
+ },
+ "verify_inside_safe_frac": {
+  "109128": 1.0
+ },
+ "new_art_category": "engraving",
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [],
+ "notes": [
+  "NEEDS_NEW_ART (engraving): full-colour raster art sent to ENGRAVING on the 1515/217 powder-coated wine tumbler - engraving is 1-colour (coating removed to steel), so shading/colour collapses into a silver blob; live mockup confirms illegible silver blur (visually checked; matches register). Needs a 1-colour high-contrast line-art/text engraving file. Source also has an opaque white background. 'CHRIST THE KING' red banner subtitle becomes silver-on-silver (register confirmed). Placement already inside area.",
+  "art has opaque WHITE background on engraving print over coloured blank -> visible white patch; needs transparent re-export of same design (placement computed+verified, apply together)",
+  "geometry checked for 3 enabled variants (1 distinct placeholder geometries)",
+  "current placement already inside safe area on all checked variants"
+ ],
+ "live_change_made": false
+}

@@ -1,0 +1,129 @@
+{
+ "product_id": "6ac712af6027ad007d0e7de0",
+ "shop_id": "26418699",
+ "title": "Walk By Faith Christmas Throw Pillow Case 18x18 \u2014 Easy Couch & Bed Accent, Holiday Home Decor Gift | Winstar4U",
+ "blueprint_id": 5353,
+ "print_provider_id": 92,
+ "position": "front",
+ "image_id": "6ac4f0fe6c1b77e76dda3ae1",
+ "image_name": "faith-walk-by-faith.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/93c536ae-3290-4bdc-9a42-87c47869f838",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-09 01:49:06+00:00",
+ "defect_cause": "other",
+ "defect_note": "DEFECT",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.9,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.0693,
+  0.0649,
+  0.9365,
+  0.9429
+ ],
+ "current_content_box_in_placeholder": [
+  0.1124,
+  -0.0594,
+  0.8929,
+  1.0694
+ ],
+ "current_inside_safe_frac": {
+  "244224": 0.6296,
+  "244226": 1.0,
+  "244227": 1.0,
+  "244228": 1.0
+ },
+ "proposed_per_variant_group": {
+  "244224": {
+   "x": 0.501,
+   "y": 0.496,
+   "scale": 0.568,
+   "angle": 0
+  },
+  "244226": {
+   "x": 0.5,
+   "y": 0.5,
+   "scale": 0.9,
+   "angle": 0
+  },
+  "244227": {
+   "x": 0.5,
+   "y": 0.496,
+   "scale": 0.9,
+   "angle": 0
+  },
+  "244228": {
+   "x": 0.5,
+   "y": 0.5,
+   "scale": 0.9,
+   "angle": 0
+  }
+ },
+ "shared_placement_alternative": {
+  "x": 0.501,
+  "y": 0.496,
+  "scale": 0.568,
+  "angle": 0
+ },
+ "effective_px_ratio_after": 0.583,
+ "proposed": {
+  "x": 0.501,
+  "y": 0.496,
+  "scale": 0.568,
+  "angle": 0
+ },
+ "placeholders": {
+  "244224": [
+   3000,
+   2100
+  ],
+  "244226": [
+   3000,
+   3000
+  ],
+  "244227": [
+   3300,
+   3300
+  ],
+  "244228": [
+   3900,
+   3900
+  ]
+ },
+ "safe_area_source": {
+  "244224": "printify_safe_area",
+  "244226": "printify_safe_area",
+  "244227": "printify_safe_area",
+  "244228": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "244224": 1.0,
+  "244226": 1.0,
+  "244227": 1.0,
+  "244228": 1.0
+ },
+ "new_art_category": "",
+ "status": "READY_FOR_REVIEW",
+ "verify_pass": true,
+ "transparency": "FLAG: opaque white background (no alpha)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [
+  "top 5%",
+  "bottom 6%"
+ ],
+ "notes": [
+  "Pillow 5353/92: one shared placement is forced small by the 12x18 landscape variant, so print_areas are SPLIT per size (each size optimised+verified separately; shared-placement alternative kept in placement.json).",
+  "geometry checked for 4 enabled variants (4 distinct placeholder geometries)",
+  "SPLIT print_areas per variant group (shared placement would be scale 0.568): 244224:x=0.5010,y=0.4960,s=0.568; 244226:x=0.5000,y=0.5000,s=0.900; 244227:x=0.5000,y=0.4960,s=0.900; 244228:x=0.5000,y=0.5000,s=0.900",
+  "current: 37.0% of visible content outside safe area (variant 244224)"
+ ],
+ "live_change_made": false
+}

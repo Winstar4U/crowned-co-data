@@ -1,0 +1,78 @@
+{
+ "product_id": "6ac71436336f835866011619",
+ "shop_id": "26418699",
+ "title": "Christmas Party Survivor Christmas Throw Pillow Case 20x20 \u2014 Easy Couch & Bed Accent, Holiday Home Decor Gift | Winstar4U",
+ "blueprint_id": 5353,
+ "print_provider_id": 92,
+ "position": "front",
+ "image_id": "6ac8e4f483bae1c2c99bf109",
+ "image_name": "christmas-party-survivor-FIXED.png",
+ "image_src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/26317439/77228f1c-8573-43aa-bcd9-fcc704b99a7b",
+ "image_px": [
+  2048,
+  2048
+ ],
+ "decoration_method": "dye-sublimation",
+ "visible": true,
+ "updated_at": "2026-10-14 12:48:23+00:00",
+ "defect_cause": "checkerboard",
+ "defect_note": "DEFECT-MINOR (faint transparency-checkerboard artifact around design edges)",
+ "current": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.9,
+  "angle": 0.0
+ },
+ "content_bbox_norm": [
+  0.0,
+  0.0,
+  1.0,
+  1.0
+ ],
+ "current_content_box_in_placeholder": [
+  0.05,
+  0.05,
+  0.95,
+  0.95
+ ],
+ "current_inside_safe_frac": {
+  "244227": 0.9358,
+  "244228": 0.9724
+ },
+ "effective_px_ratio_after": 0.646,
+ "proposed": {
+  "x": 0.5,
+  "y": 0.5,
+  "scale": 0.813,
+  "angle": 0
+ },
+ "placeholders": {
+  "244227": [
+   3300,
+   3300
+  ],
+  "244228": [
+   3900,
+   3900
+  ]
+ },
+ "safe_area_source": {
+  "244227": "printify_safe_area",
+  "244228": "printify_safe_area"
+ },
+ "verify_inside_safe_frac": {
+  "244227": 1.0,
+  "244228": 1.0
+ },
+ "status": "NEEDS_NEW_ART",
+ "verify_pass": true,
+ "transparency": "OK (transparent background)",
+ "ip_flag": "none found (title/filename scan + visual check)",
+ "clip_edges_current": [],
+ "notes": [
+  "NEEDS_NEW_ART: baked-in transparency CHECKERBOARD confirmed in the source file (visually checked on black + magenta backgrounds): same christmas-party-survivor-FIXED.png as the mouse pad (residual white/grey checker tiles in the margin, top-right worst). Current scale 0.90 also pushes 6.4% of the art past the 20x20 safe area; corrected placement (scale 0.813, both enabled sizes) computed+verified - apply with a clean transparent re-export.",
+  "geometry checked for 2 enabled variants (2 distinct placeholder geometries)",
+  "current: 6.4% of visible content outside safe area (variant 244227)"
+ ],
+ "live_change_made": false
+}
