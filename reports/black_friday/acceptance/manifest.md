@@ -157,3 +157,14 @@ That moves these three tees from B to A. Everything else stays seller-pays, the 
   - No price has been changed.
 - **Offsite Ads.** Tier B falls below 18% net if Etsy's 15% Offsite Ads fee applies. No promotion of tier B until the owner confirms the account's enrollment and fee rate.
 - **Evidence.** Each row's URL and check timestamp are in `manifest.csv`, with the matching `verification_log*.csv` entries in `launch/`, `wave2/` and this folder. Per-variant costs are in `printify_variants_etsy_amazon.csv`.
+
+## Revision 2026-11-21 06:50 UTC
+
+Three "Cozy Season" products have moved to tier C, IP HOLD, because the phrase was reported as a registered trademark. The report is unverified.
+
+New counts:
+
+- Tier A: 19
+- Tier B: 15
+- Tier C: 7
+- Pending: 5, one of them on IP hold
