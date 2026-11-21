@@ -48,6 +48,19 @@
 
 **Offer:** none. **Etsy and Amazon stay at regular price.**
 
+## 1b. Wave 2: 24 more Etsy products (public pages verified LIVE on 2026-11-21 between 00:00 and 00:27 UTC)
+
+- **Files:**
+  - `../wave2/wave2_candidates.csv`
+  - `../wave2/copy_wave2_etsy.md` (12 pins, 5 IG/FB captions, 6 YouTube Shorts concepts)
+- **Pass at regular price (20):**
+  - 11 tees at 36.9% net (worst size 35.0%)
+  - 5 crewnecks at 30.0%
+  - 3 hoodies at 31.7%
+- **Conditional (5):** $24.99 tees. 26.6% at the default size, but 2XL and 3XL net 19.2%. You could raise those two sizes by $1–2; that needs separate pricing approval.
+- **Also clean, page not yet verified:** 5 hoodies that had never been inspected (Cat Mom, Cozy Season, Gardeners, Nurse, Teacher), at 31.7%.
+- **Approval:** add **GATE-A2** to cover organic posting for wave 2, on the same terms as GATE-A.
+
 ## 2. ON HOLD: Shopify (10 products, verified live but not promotable)
 
 - **Why on hold:** every Winstar4U Printify link redirects to **winstarmarketing.shop**. A Bridge note relayed from ChatGPT (untrusted, but more cautious, so I'm following it) says that storefront is the developer-controlled Winstar Marketing store, and that everything concerning it is on hold until you release it.
