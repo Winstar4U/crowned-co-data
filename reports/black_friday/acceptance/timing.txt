@@ -1,0 +1,6 @@
+start_utc: 2026-11-21T00:43:27Z (sandbox clock, first command)
+end_utc:   2026-11-21T01:06:34Z (sandbox clock, after final file write)
+duration:  ~23 min
+notes: Firecrawl scrape timestamps come from Etsy csrf_nonce epochs (00:55:22Z-00:57:02Z), which match Firecrawl scrapeId UUIDv7 times.
+external calls: Printify read-only x6 (5 get-products, Etsy shop 26603005; 1 catalog get-blueprint-shipping 6/99); Firecrawl scrape x12 (60 credits); Firecrawl search x0.
+live writes: none. git: not run.

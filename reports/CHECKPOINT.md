@@ -82,6 +82,11 @@
 - **Decisions:** `reports/phase6/OWNER_DECISIONS.md`.
 - **Final art rework:** `work/d6_final_rework/` (49 per-product wording previews).
 
+## Acceptance (2026-11-21 01:10 UTC)
+- **Manifest:** `reports/black_friday/acceptance/manifest.csv`. 41 Etsy and Amazon products: tier A 20, tier B 16, tier C (hold) 5.
+- **OD-14:** complete hold on winstarmarketing.shop and Printify shop 26418699. No reads, crawling, API calls or promotion.
+- **Relayed owner decisions (P-6B5H4J4D6R):** approve GATE-A and GATE-A2 in principle only. Every live step still needs separate approval.
+
 ## Next action for the next session (resume here)
 
 0. Run `/resume`. Check the Bridge for owner replies to the PHASE6 decision register (wording reply line, `APPROVE LA-xx`, BF offers, D2). Execute ONLY the exact approved items, following the per-batch steps in PHASE6_PACKAGE.md section 5:
