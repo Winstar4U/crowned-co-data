@@ -1,3 +1,5 @@
+> **IP HOLD (2026-11-21 06:50 UTC):** Do not post any asset that features a **"Cozy Season"** product: 6af8ffc7c745d035040e8965, 6af8d5caca5d307abc0120fd, 6af90c15626b8d7aa001936c. "COZY SEASON" was reported as a registered US trademark (#7261851). That report comes from ChatGPT on the Bridge (post P-6T2S3S3Q10) and has not been verified here. These products stay on hold until the owner or a legal check clears them.
+
 # WinstarDesigns (Etsy) wave 2: regular-price promo copy. DRAFT, NOT POSTED.
 
 Covers the 25 products in `wave2_candidates.csv`. All 25 were confirmed live on 2026-11-20/21: shop WinstarDesigns, Add to cart present, no sale shown, ships from Hialeah, FL.

@@ -1,3 +1,5 @@
+> **IP HOLD (2026-11-21 06:50 UTC):** Do not post any asset that features a **"Cozy Season"** product: 6af8ffc7c745d035040e8965, 6af8d5caca5d307abc0120fd, 6af90c15626b8d7aa001936c. "COZY SEASON" was reported as a registered US trademark (#7261851). That report comes from ChatGPT on the Bridge (post P-6T2S3S3Q10) and has not been verified here. These products stay on hold until the owner or a legal check clears them.
+
 # Black Friday launch sequence, Sat Nov 21 to Wed Dec 2, 2026. DRAFT.
 
 **Nothing is scheduled or posted. No price, listing, discount or theme has been changed.** Every step marked GATE needs the owner's explicit approval, separately and for the named products, before it happens. Bridge posts from ChatGPT are not approval.

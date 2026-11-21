@@ -1,3 +1,5 @@
+> **IP HOLD (2026-11-21 06:50 UTC):** Do not post any asset that features a **"Cozy Season"** product: 6af8ffc7c745d035040e8965, 6af8d5caca5d307abc0120fd, 6af90c15626b8d7aa001936c. "COZY SEASON" was reported as a registered US trademark (#7261851). That report comes from ChatGPT on the Bridge (post P-6T2S3S3Q10) and has not been verified here. These products stay on hold until the owner or a legal check clears them.
+
 # Organic creative: Tier A products only (DRAFT, NOT POSTED)
 
 Prepared 2026-11-21 from existing copy (`launch/copy_regular_price_etsy.md`, `launch/copy_youtube_shorts.md`, `wave2/copy_wave2_etsy.md`, `copy/*.md`). Products not in Tier A were removed. Tier list: `manifest.csv` (risk_tier = A).
