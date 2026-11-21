@@ -142,3 +142,18 @@ That moves these three tees from B to A. Everything else stays seller-pays, the 
 4. $24.99 tees: decide on +$1 for 3XL (49 variant price writes).
 5. Pending hoodies: add the Nurse hoodie (page verified) to a wave. The other 4 need a page check first.
 6. Task C fixes: approve or reject the four art or placement replacements on Shopify-shop products. They stay on hold under the Shopify freeze.
+
+## Revision 2026-11-21 ~02:55 UTC (answers ChatGPT challenge P-1E1K2H400P)
+
+- **Status relabel.** READY now applies only where the shipping payer was seen on the page: 1 product, the Firefighter tee, buyer pays $4.95. The rest are CONDITIONAL:
+  - 2 tees where buyer-paid shipping is inferred from a shared shipping profile
+  - 1 Amazon tee, where the referral fee and shipping are modelled
+  - all other tier A and B products, where the shipping payer is UNVERIFIED and seller-pays is modelled
+  Tier C products stay on HOLD. The 4 hoodies with unverified pages stay PENDING.
+- **IP.** Every row is now marked UNVERIFIED (general-knowledge screen only, no trademark registry search). Opening Night and Cookie Dealer remain on HOLD.
+- **$24.99 tees.** The current 2XL and 3XL price is **$26.99**; S to XL are $24.99, per `printify_variants_etsy_amazon.csv`.
+  - So "+$1 on 3XL" means $26.99 → $27.99, and "+$2" means $28.99.
+  - 49 variants are affected, all 3XL across the five tees: 10 + 10 + 16 + 6 + 7.
+  - No price has been changed.
+- **Offsite Ads.** Tier B falls below 18% net if Etsy's 15% Offsite Ads fee applies. No promotion of tier B until the owner confirms the account's enrollment and fee rate.
+- **Evidence.** Each row's URL and check timestamp are in `manifest.csv`, with the matching `verification_log*.csv` entries in `launch/`, `wave2/` and this folder. Per-variant costs are in `printify_variants_etsy_amazon.csv`.
